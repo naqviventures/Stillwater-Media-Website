@@ -57,6 +57,11 @@ export function Navigation() {
               {item.label}
             </Link>
           ))}
+          <Link href="/apply">
+            <Button className="bg-transparent border border-foreground/30 text-foreground hover:bg-foreground hover:text-background text-xs tracking-[0.15em] px-6 py-2 rounded-none transition-all duration-300">
+              APPLY
+            </Button>
+          </Link>
           <button
             onClick={toggleTheme}
             className="p-2 text-foreground/70 hover:text-foreground transition-colors duration-300"
@@ -64,11 +69,6 @@ export function Navigation() {
           >
             {theme === 'light' ? <Moon className="h-5 w-5" /> : <Sun className="h-5 w-5" />}
           </button>
-          <Link href="/apply">
-            <Button className="bg-transparent border border-foreground/30 text-foreground hover:bg-foreground hover:text-background text-xs tracking-[0.15em] px-6 py-2 rounded-none transition-all duration-300">
-              APPLY
-            </Button>
-          </Link>
         </nav>
 
         <div className="md:hidden flex items-center gap-3">
