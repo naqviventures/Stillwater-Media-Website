@@ -4,10 +4,11 @@ import type React from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import Image from "next/image"
+import { Navigation, Footer } from "@/components/navigation"
 import Link from "next/link"
 import { useState } from "react"
 import { ArrowRight, ArrowLeft, Check } from "lucide-react"
+import Image from "next/image"
 
 const STEPS = [
   { id: 1, title: "Contact" },
@@ -112,10 +113,10 @@ const TIMELINES = [
 ]
 
 export default function ApplyPage() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [currentStep, setCurrentStep] = useState(1)
   const [isSubmitted, setIsSubmitted] = useState(false)
   const [isSubmitting, setIsSubmitting] = useState(false)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   
   const [formData, setFormData] = useState({
     name: "",
@@ -189,78 +190,7 @@ export default function ApplyPage() {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
-      {/* Header */}
-      <header className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
-        <div className="flex items-center justify-between px-6 sm:px-12 py-5 max-w-7xl mx-auto">
-          <Link href="/" className="flex items-center gap-3 group">
-            <Image
-              src="/stillwater-logo.png"
-              alt="Stillwater Media"
-              width={36}
-              height={36}
-              className="w-9 h-9 transition-opacity duration-300 group-hover:opacity-80 invert"
-            />
-            <span className="text-foreground text-sm tracking-[0.2em] font-medium">STILLWATER</span>
-          </Link>
-
-          <nav className="hidden md:flex items-center gap-10">
-            {[
-              { href: "/programmatic-media-buying", label: "Services" },
-              { href: "/insights", label: "Insights" },
-              { href: "/contact", label: "Contact" },
-            ].map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className="text-foreground/70 text-sm tracking-wide hover:text-foreground transition-colors duration-300"
-              >
-                {item.label}
-              </Link>
-            ))}
-            <Link href="/apply">
-              <Button className="bg-transparent border border-[#c9a962] text-[#c9a962] hover:bg-[#c9a962] hover:text-background text-xs tracking-[0.15em] px-6 py-2 rounded-none transition-all duration-300">
-                APPLY
-              </Button>
-            </Link>
-          </nav>
-
-          <button
-            className="md:hidden flex flex-col gap-1.5 p-2"
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            aria-label="Toggle menu"
-          >
-            <div className={`w-6 h-px bg-foreground transition-all duration-300 ${mobileMenuOpen ? "rotate-45 translate-y-2" : ""}`} />
-            <div className={`w-6 h-px bg-foreground transition-all duration-300 ${mobileMenuOpen ? "opacity-0" : ""}`} />
-            <div className={`w-6 h-px bg-foreground transition-all duration-300 ${mobileMenuOpen ? "-rotate-45 -translate-y-2" : ""}`} />
-          </button>
-        </div>
-
-        {mobileMenuOpen && (
-          <div className="md:hidden bg-background border-t border-border">
-            <nav className="flex flex-col px-6 py-8 space-y-6">
-              {[
-                { href: "/programmatic-media-buying", label: "Services" },
-                { href: "/insights", label: "Insights" },
-                { href: "/contact", label: "Contact" },
-              ].map((item) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className="text-foreground/70 text-lg tracking-wide hover:text-foreground transition-colors"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  {item.label}
-                </Link>
-              ))}
-              <Link href="/apply" onClick={() => setMobileMenuOpen(false)}>
-                <Button className="bg-transparent border border-[#c9a962] text-[#c9a962] hover:bg-[#c9a962] hover:text-background text-xs tracking-[0.15em] px-6 py-2 rounded-none w-full">
-                  APPLY
-                </Button>
-              </Link>
-            </nav>
-          </div>
-        )}
-      </header>
+      <Navigation />
 
       {/* Main Content */}
       <main className="pt-32 pb-24 px-6 sm:px-12">
@@ -659,24 +589,7 @@ export default function ApplyPage() {
         </div>
       </main>
 
-      {/* Footer */}
-      <footer className="border-t border-border py-12 px-6 sm:px-12">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
-          <div className="flex items-center gap-3">
-            <Image
-              src="/stillwater-logo.png"
-              alt="Stillwater Media"
-              width={24}
-              height={24}
-              className="w-6 h-6 opacity-60 invert"
-            />
-            <span className="text-foreground/40 text-xs tracking-[0.15em]">STILLWATER MEDIA</span>
-          </div>
-          <p className="text-foreground/40 text-xs">
-            Charlotte, NC — Serving clients nationwide
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   )
 }

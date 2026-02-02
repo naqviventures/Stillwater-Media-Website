@@ -2,10 +2,11 @@
 
 import type React from "react"
 import { Button } from "@/components/ui/button"
-import Image from "next/image"
+import { Navigation, Footer } from "@/components/navigation"
 import Link from "next/link"
 import { useEffect, useState } from "react"
 import { ArrowRight, Check, X } from "lucide-react"
+import Image from "next/image"
 
 export default function Home() {
   const [visibleSections, setVisibleSections] = useState<Set<string>>(new Set())
@@ -31,78 +32,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
-      {/* Header */}
-      <header className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
-        <div className="flex items-center justify-between px-6 sm:px-12 py-5 max-w-7xl mx-auto">
-          <Link href="/" className="flex items-center gap-3 group">
-            <Image
-              src="/stillwater-logo.png"
-              alt="Stillwater Media"
-              width={36}
-              height={36}
-              className="w-9 h-9 transition-opacity duration-300 group-hover:opacity-80 invert"
-            />
-            <span className="text-foreground text-sm tracking-[0.2em] font-medium">STILLWATER</span>
-          </Link>
-
-          <nav className="hidden md:flex items-center gap-10">
-            {[
-              { href: "/programmatic-media-buying", label: "Services" },
-              { href: "/insights", label: "Insights" },
-              { href: "/contact", label: "Contact" },
-            ].map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className="text-foreground/70 text-sm tracking-wide hover:text-foreground transition-colors duration-300"
-              >
-                {item.label}
-              </Link>
-            ))}
-            <Link href="/contact">
-              <Button className="bg-transparent border border-foreground/30 text-foreground hover:bg-foreground hover:text-background text-xs tracking-[0.15em] px-6 py-2 rounded-none transition-all duration-300">
-                APPLY
-              </Button>
-            </Link>
-          </nav>
-
-          <button
-            className="md:hidden flex flex-col gap-1.5 p-2"
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            aria-label="Toggle menu"
-          >
-            <div className={`w-6 h-px bg-foreground transition-all duration-300 ${mobileMenuOpen ? "rotate-45 translate-y-2" : ""}`} />
-            <div className={`w-6 h-px bg-foreground transition-all duration-300 ${mobileMenuOpen ? "opacity-0" : ""}`} />
-            <div className={`w-6 h-px bg-foreground transition-all duration-300 ${mobileMenuOpen ? "-rotate-45 -translate-y-2" : ""}`} />
-          </button>
-        </div>
-
-        {mobileMenuOpen && (
-          <div className="md:hidden bg-background border-t border-border">
-            <nav className="flex flex-col px-6 py-8 space-y-6">
-              {[
-                { href: "/programmatic-media-buying", label: "Services" },
-                { href: "/insights", label: "Insights" },
-                { href: "/contact", label: "Contact" },
-              ].map((item) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className="text-foreground/70 text-lg tracking-wide hover:text-foreground transition-colors"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  {item.label}
-                </Link>
-              ))}
-              <Link href="/contact" onClick={() => setMobileMenuOpen(false)}>
-                <Button className="bg-transparent border border-foreground/30 text-foreground hover:bg-foreground hover:text-background text-xs tracking-[0.15em] px-6 py-2 rounded-none w-full">
-                  APPLY TO WORK WITH US
-                </Button>
-              </Link>
-            </nav>
-          </div>
-        )}
-      </header>
+      <Navigation />
 
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col justify-center px-6 sm:px-12 pt-32 pb-20 max-w-6xl mx-auto" data-animate id="hero">
@@ -341,7 +271,7 @@ export default function Home() {
                 className={`border border-border p-8 transition-all duration-1000 hover:border-foreground/30 ${visibleSections.has("case-studies") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
                 style={{ transitionDelay: `${200 + index * 150}ms` }}
               >
-                <p className="text-foreground/40 text-xs tracking-[0.15em] mb-6">{study.category}</p>
+                <p className="text-foreground/40 text-xs tracking-[0.2em] mb-6">{study.category}</p>
                 <p className="font-heading text-4xl sm:text-5xl text-accent mb-2">{study.metric}</p>
                 <p className="text-foreground text-sm font-medium mb-4">{study.label}</p>
                 <p className="text-foreground/50 text-sm leading-relaxed mb-6">{study.description}</p>
@@ -409,49 +339,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="border-t border-border py-16 px-6 sm:px-12">
-        <div className="max-w-6xl mx-auto">
-          <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-12">
-            <div>
-              <Link href="/" className="flex items-center gap-3 mb-4">
-                <Image
-                  src="/stillwater-logo.png"
-                  alt="Stillwater Media"
-                  width={32}
-                  height={32}
-                  className="w-8 h-8 invert"
-                />
-                <span className="text-foreground text-sm tracking-[0.2em] font-medium">STILLWATER</span>
-              </Link>
-              <p className="text-foreground/40 text-sm">Charlotte, NC | Serving clients nationwide</p>
-            </div>
-            
-            <nav className="flex flex-wrap gap-8">
-              {[
-                { href: "/programmatic-media-buying", label: "Services" },
-                { href: "/insights", label: "Insights" },
-                { href: "/contact", label: "Contact" },
-                { href: "/privacy-policy", label: "Privacy" },
-              ].map((item) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className="text-foreground/50 text-sm hover:text-foreground transition-colors"
-                >
-                  {item.label}
-                </Link>
-              ))}
-            </nav>
-          </div>
-          
-          <div className="border-t border-border pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
-            <p className="text-foreground/30 text-xs">
-              © {new Date().getFullYear()} Stillwater Media. All rights reserved.
-            </p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   )
 }

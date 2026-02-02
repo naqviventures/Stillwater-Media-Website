@@ -2,10 +2,11 @@
 
 import type React from "react"
 import { Button } from "@/components/ui/button"
-import Image from "next/image"
+import { Navigation, Footer } from "@/components/navigation"
 import Link from "next/link"
 import { useEffect, useState } from "react"
 import { ArrowRight, Shield, Target, BarChart3, Eye, Lock } from "lucide-react"
+import Image from "next/image"
 
 export default function Capabilities() {
   const [visibleSections, setVisibleSections] = useState<Set<string>>(new Set())
@@ -31,73 +32,7 @@ export default function Capabilities() {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
-      {/* Header */}
-      <header className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
-        <div className="flex items-center justify-between px-6 sm:px-12 py-5 max-w-7xl mx-auto">
-          <Link href="/" className="flex items-center gap-3 group">
-            <Image
-              src="/stillwater-logo.png"
-              alt="Stillwater Media"
-              width={36}
-              height={36}
-              className="w-9 h-9 transition-opacity duration-300 group-hover:opacity-80 invert"
-            />
-            <span className="text-foreground text-sm tracking-[0.2em] font-medium">STILLWATER</span>
-          </Link>
-
-          <nav className="hidden md:flex items-center gap-10">
-            {[
-              { href: "/capabilities", label: "Capabilities" },
-              { href: "/insights", label: "Insights" },
-              { href: "/apply", label: "Apply" },
-            ].map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className="text-foreground/70 text-sm tracking-wide hover:text-foreground transition-colors duration-300"
-              >
-                {item.label}
-              </Link>
-            ))}
-            <Link href="/apply">
-              <Button className="bg-transparent border border-foreground/30 text-foreground hover:bg-foreground hover:text-background text-xs tracking-[0.15em] px-6 py-2 rounded-none transition-all duration-300">
-                REQUEST ACCESS
-              </Button>
-            </Link>
-          </nav>
-
-          <button
-            className="md:hidden flex flex-col gap-1.5 p-2"
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            aria-label="Toggle menu"
-          >
-            <div className={`w-6 h-px bg-foreground transition-all duration-300 ${mobileMenuOpen ? "rotate-45 translate-y-2" : ""}`} />
-            <div className={`w-6 h-px bg-foreground transition-all duration-300 ${mobileMenuOpen ? "opacity-0" : ""}`} />
-            <div className={`w-6 h-px bg-foreground transition-all duration-300 ${mobileMenuOpen ? "-rotate-45 -translate-y-2" : ""}`} />
-          </button>
-        </div>
-
-        {mobileMenuOpen && (
-          <div className="md:hidden bg-background border-t border-border">
-            <nav className="flex flex-col px-6 py-8 space-y-6">
-              {[
-                { href: "/capabilities", label: "Capabilities" },
-                { href: "/insights", label: "Insights" },
-                { href: "/apply", label: "Apply" },
-              ].map((item) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className="text-foreground/70 text-lg tracking-wide hover:text-foreground transition-colors"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  {item.label}
-                </Link>
-              ))}
-            </nav>
-          </div>
-        )}
-      </header>
+      <Navigation />
 
       {/* Hero Section */}
       <section className="min-h-[70vh] flex flex-col justify-center px-6 sm:px-12 pt-32 pb-20 max-w-6xl mx-auto" data-animate id="hero">
@@ -346,31 +281,7 @@ export default function Capabilities() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="border-t border-border py-12 px-6 sm:px-12">
-        <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
-          <div className="flex items-center gap-3">
-            <Image
-              src="/stillwater-logo.png"
-              alt="Stillwater Media"
-              width={24}
-              height={24}
-              className="w-6 h-6 invert opacity-60"
-            />
-            <span className="text-foreground/40 text-xs tracking-[0.15em]">STILLWATER MEDIA</span>
-          </div>
-          
-          <p className="text-foreground/30 text-xs">
-            Charlotte, NC — Serving premium brands nationwide
-          </p>
-
-          <div className="flex items-center gap-8">
-            <Link href="/privacy-policy" className="text-foreground/40 text-xs hover:text-foreground/60 transition-colors">
-              Privacy
-            </Link>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   )
 }
