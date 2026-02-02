@@ -34,7 +34,7 @@ interface ApplicationFormData {
 export async function sendContactEmail(formData: ContactFormData) {
   try {
     const { data, error } = await resend.emails.send({
-      from: "Stillwater Media <inquiries@stillwatermedia.io>",
+      from: "Stillwater Media <onboarding@resend.dev>",
       to: ["info@stillwatermedia.io"],
       replyTo: formData.email,
       subject: `New Contact Form Submission from ${formData.name}`,
@@ -115,7 +115,7 @@ export async function sendContactEmail(formData: ContactFormData) {
 export async function sendApplicationEmail(formData: ApplicationFormData) {
   try {
     const { data, error } = await resend.emails.send({
-      from: "Stillwater Media <applications@stillwatermedia.io>",
+      from: "Stillwater Media <onboarding@resend.dev>",
       to: ["info@stillwatermedia.io"],
       replyTo: formData.email,
       subject: `New Partnership Application from ${formData.company}`,
