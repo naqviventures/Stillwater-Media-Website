@@ -34,13 +34,6 @@ export default function Home() {
     <div className="min-h-screen bg-background text-foreground">
       <Navigation />
 
-      {/* Tagline */}
-      <div className="fixed top-20 left-0 right-0 z-40 flex justify-center px-6">
-        <p className="text-foreground/40 text-xs tracking-[0.3em] font-medium">
-          SIGNAL. STRATEGY. SCALE.
-        </p>
-      </div>
-
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col justify-center px-6 sm:px-12 pt-32 pb-20 relative" data-animate id="hero">
         {/* Background Image */}
@@ -106,6 +99,15 @@ export default function Home() {
           </div>
           
           <p className="text-foreground/40 text-sm italic">Private references available upon request.</p>
+        </div>
+      </section>
+
+      {/* Tagline */}
+      <section className="py-20 px-6 sm:px-12">
+        <div className="max-w-6xl mx-auto text-center">
+          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-foreground/80 font-normal italic">
+            Signal. Strategy. Scale.
+          </h2>
         </div>
       </section>
 
