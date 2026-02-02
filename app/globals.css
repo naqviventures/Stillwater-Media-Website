@@ -4,41 +4,44 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: #fcf7f8;
-  --foreground: oklch(0.145 0 0);
-  --card: #fcf7f8;
-  --card-foreground: oklch(0.145 0 0);
-  --popover: #fcf7f8;
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
+  /* Luxury dark theme - near black background with warm off-white text */
+  --background: #0a0a0a;
+  --foreground: #f5f0e8;
+  --card: #111111;
+  --card-foreground: #f5f0e8;
+  --popover: #111111;
+  --popover-foreground: #f5f0e8;
+  --primary: #f5f0e8;
+  --primary-foreground: #0a0a0a;
+  --secondary: #1a1a1a;
+  --secondary-foreground: #f5f0e8;
+  --muted: #1a1a1a;
+  --muted-foreground: #a0998c;
+  --accent: #c9a962;
+  --accent-foreground: #0a0a0a;
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
+  --border: #2a2a2a;
+  --input: #1a1a1a;
+  --ring: #c9a962;
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
   --chart-4: oklch(0.828 0.189 84.429);
   --chart-5: oklch(0.769 0.188 70.08);
-  --radius: 0.625rem;
-  --sidebar: #fcf7f8;
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  --radius: 0.25rem;
+  --sidebar: #0a0a0a;
+  --sidebar-foreground: #f5f0e8;
+  --sidebar-primary: #f5f0e8;
+  --sidebar-primary-foreground: #0a0a0a;
+  --sidebar-accent: #1a1a1a;
+  --sidebar-accent-foreground: #f5f0e8;
+  --sidebar-border: #2a2a2a;
+  --sidebar-ring: #c9a962;
   --font-space-grotesk: "Space Grotesk", sans-serif;
-  --font-archivo-black: "Archivo Black", sans-serif;
+  --font-playfair: "Playfair Display", serif;
+  --gold: #c9a962;
+  --gold-light: #d4b978;
 }
 
 .dark {
@@ -77,9 +80,12 @@
 }
 
 @theme inline {
-  /* Updated font variables to use Archivo Black and Space Grotesk */
+  /* Updated font variables - Playfair Display for luxury serif headings, Space Grotesk for body */
   --font-sans: var(--font-space-grotesk);
-  --font-heading: var(--font-archivo-black);
+  --font-heading: var(--font-playfair);
+  --font-serif: var(--font-playfair);
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-light);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);

@@ -331,7 +331,7 @@ export default function ProgrammaticMediaBuying() {
             advanced targeting capabilities across the digital ecosystem.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 mb-6 sm:mb-8">
-            {["The Trade Desk", "Xandr", "Yahoo DSP", "Amazon DSP"].map((dsp, index) => (
+            {["The Trade Desk", "Stackadapt", "Illumin", "DV360", "Yahoo DSP", "Amazon DSP"].map((dsp, index) => (
               <div
                 key={index}
                 className={`text-center p-4 sm:p-6 bg-background rounded-lg border-2 border-black transition-all duration-500 hover:scale-105 hover:shadow-lg ${visibleSections.has("dsp-partners") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
