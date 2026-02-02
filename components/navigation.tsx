@@ -98,9 +98,9 @@ export function Footer() {
                 height={32}
                 className="w-8 h-8 transition-opacity duration-300 group-hover:opacity-80 invert"
               />
-              <span className="text-foreground text-sm tracking-[0.2em] font-medium">STILLWATER MEDIA</span>
+              <span className="text-foreground/90 text-sm tracking-[0.2em] font-medium">STILLWATER MEDIA</span>
             </Link>
-            <p className="text-foreground/50 text-sm">Charlotte, NC — Serving clients nationwide</p>
+            <p className="text-foreground/40 text-sm">Charlotte, NC — Serving clients nationwide</p>
           </div>
           
           <nav className="flex flex-wrap gap-8">
