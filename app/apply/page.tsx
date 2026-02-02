@@ -9,6 +9,7 @@ import Link from "next/link"
 import { useState } from "react"
 import { ArrowRight, ArrowLeft, Check } from "lucide-react"
 import Image from "next/image"
+import { sendApplicationEmail } from "@/lib/email"
 
 const STEPS = [
   { id: 1, title: "Contact" },
@@ -166,11 +167,16 @@ export default function ApplyPage() {
     e.preventDefault()
     setIsSubmitting(true)
     
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500))
+    const result = await sendApplicationEmail(formData)
+    
+    if (result.success) {
+      setIsSubmitted(true)
+    } else {
+      // Show error message
+      alert("There was an error submitting your application. Please try again or contact us directly at info@stillwatermedia.io")
+    }
     
     setIsSubmitting(false)
-    setIsSubmitted(true)
   }
 
   const isStepValid = () => {
