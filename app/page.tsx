@@ -91,9 +91,9 @@ export default function Home() {
               { icon: ShoppingBag, label: "Premium DTC" },
               { icon: TrendingUp, label: "Boutique wealth" }
             ].map((item, i) => (
-              <div key={i} className="flex flex-col items-center gap-4">
-                <item.icon className="w-8 h-8 text-accent/60" strokeWidth={1} />
-                <span className="text-foreground/60 text-xs tracking-wide text-center">{item.label}</span>
+              <div key={i} className="flex flex-col items-center gap-4 group cursor-pointer">
+                <item.icon className="w-8 h-8 text-accent/60 transition-all duration-300 group-hover:scale-110 group-hover:text-accent/90" strokeWidth={1} />
+                <span className="text-foreground/60 text-xs tracking-wide text-center transition-colors duration-300 group-hover:text-foreground/80">{item.label}</span>
               </div>
             ))}
           </div>
