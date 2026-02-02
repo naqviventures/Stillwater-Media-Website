@@ -208,9 +208,9 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className={`grid md:grid-cols-2 gap-12 mb-12 transition-all duration-1000 delay-200 ${visibleSections.has("selective") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
+          <div className={`max-w-2xl transition-all duration-1000 delay-200 ${visibleSections.has("selective") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
             {/* Best Fit */}
-            <div className="border border-border p-8">
+            <div className="border border-border p-8 mb-12">
               <h3 className="text-foreground text-sm tracking-[0.15em] mb-8">BEST FIT</h3>
               <ul className="space-y-4">
                 {[
@@ -228,30 +228,11 @@ export default function Home() {
               </ul>
             </div>
 
-            {/* Not a Fit */}
-            <div className="border border-border p-8">
-              <h3 className="text-foreground text-sm tracking-[0.15em] mb-8">NOT A FIT</h3>
-              <ul className="space-y-4">
-                {[
-                  "Low-margin, high-volume e-commerce",
-                  "Brands requiring overnight results",
-                  "Categories with regulatory restrictions",
-                  "Companies without clear positioning",
-                  "Budgets optimizing for lowest CPM"
-                ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-3 text-foreground/50 text-sm">
-                    <X className="h-4 w-4 text-foreground/30 mt-0.5 flex-shrink-0" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
+            <div className="border-t border-border pt-8">
+              <p className="text-foreground/50 text-sm">
+                <span className="text-foreground">Investment level is determined after engagement scope</span>
+              </p>
             </div>
-          </div>
-
-          <div className={`border-t border-border pt-8 transition-all duration-1000 delay-400 ${visibleSections.has("selective") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
-            <p className="text-foreground/50 text-sm">
-              Minimum engagement: <span className="text-foreground">$50,000/quarter media spend</span>
-            </p>
           </div>
         </div>
       </section>
