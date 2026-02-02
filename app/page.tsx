@@ -34,6 +34,13 @@ export default function Home() {
     <div className="min-h-screen bg-background text-foreground">
       <Navigation />
 
+      {/* Tagline */}
+      <div className="fixed top-20 left-0 right-0 z-40 flex justify-center px-6">
+        <p className="text-foreground/40 text-xs tracking-[0.3em] font-medium">
+          SIGNAL. STRATEGY. SCALE.
+        </p>
+      </div>
+
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col justify-center px-6 sm:px-12 pt-32 pb-20 relative" data-animate id="hero">
         {/* Background Image */}
