@@ -25,7 +25,7 @@ export function Navigation() {
             height={36}
             className="w-9 h-9 transition-opacity duration-300 group-hover:opacity-80 invert"
           />
-          <span className="text-foreground text-sm tracking-[0.2em] font-medium">STILLWATER</span>
+          <span className="text-foreground text-sm tracking-[0.2em] font-medium">STILLWATER MEDIA</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-10">
@@ -98,7 +98,7 @@ export function Footer() {
                 height={32}
                 className="w-8 h-8 transition-opacity duration-300 group-hover:opacity-80 invert"
               />
-              <span className="text-foreground text-sm tracking-[0.2em] font-medium">STILLWATER</span>
+              <span className="text-foreground text-sm tracking-[0.2em] font-medium">STILLWATER MEDIA</span>
             </Link>
             <p className="text-foreground/50 text-sm">Charlotte, NC — Serving clients nationwide</p>
           </div>
