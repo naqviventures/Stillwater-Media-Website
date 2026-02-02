@@ -3,7 +3,8 @@
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import Link from "next/link"
-import { useState } from "react"
+import { useState, useEffect } from "react"
+import { Moon, Sun } from "lucide-react"
 
 const navLinks = [
   { href: "/capabilities", label: "Capabilities" },
@@ -13,6 +14,24 @@ const navLinks = [
 
 export function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [theme, setTheme] = useState<'light' | 'dark'>('light')
+
+  useEffect(() => {
+    // Check for saved theme preference or default to light
+    const savedTheme = localStorage.getItem('theme') as 'light' | 'dark' | null
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+    const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light')
+    
+    setTheme(initialTheme)
+    document.documentElement.classList.toggle('dark', initialTheme === 'dark')
+  }, [])
+
+  const toggleTheme = () => {
+    const newTheme = theme === 'light' ? 'dark' : 'light'
+    setTheme(newTheme)
+    localStorage.setItem('theme', newTheme)
+    document.documentElement.classList.toggle('dark', newTheme === 'dark')
+  }
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
@@ -23,7 +42,7 @@ export function Navigation() {
             alt="Stillwater Media"
             width={36}
             height={36}
-            className="w-9 h-9 transition-opacity duration-300 group-hover:opacity-80 invert"
+            className="w-9 h-9 transition-opacity duration-300 group-hover:opacity-80 dark:invert"
           />
           <span className="text-foreground text-sm tracking-[0.2em] font-medium">STILLWATER MEDIA</span>
         </Link>
@@ -38,6 +57,13 @@ export function Navigation() {
               {item.label}
             </Link>
           ))}
+          <button
+            onClick={toggleTheme}
+            className="p-2 text-foreground/70 hover:text-foreground transition-colors duration-300"
+            aria-label="Toggle theme"
+          >
+            {theme === 'light' ? <Moon className="h-5 w-5" /> : <Sun className="h-5 w-5" />}
+          </button>
           <Link href="/apply">
             <Button className="bg-transparent border border-foreground/30 text-foreground hover:bg-foreground hover:text-background text-xs tracking-[0.15em] px-6 py-2 rounded-none transition-all duration-300">
               APPLY
@@ -45,15 +71,24 @@ export function Navigation() {
           </Link>
         </nav>
 
-        <button
-          className="md:hidden flex flex-col gap-1.5 p-2"
-          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          aria-label="Toggle menu"
-        >
-          <div className={`w-6 h-px bg-foreground transition-all duration-300 ${mobileMenuOpen ? "rotate-45 translate-y-2" : ""}`} />
-          <div className={`w-6 h-px bg-foreground transition-all duration-300 ${mobileMenuOpen ? "opacity-0" : ""}`} />
-          <div className={`w-6 h-px bg-foreground transition-all duration-300 ${mobileMenuOpen ? "-rotate-45 -translate-y-2" : ""}`} />
-        </button>
+        <div className="md:hidden flex items-center gap-3">
+          <button
+            onClick={toggleTheme}
+            className="p-2 text-foreground/70 hover:text-foreground transition-colors duration-300"
+            aria-label="Toggle theme"
+          >
+            {theme === 'light' ? <Moon className="h-5 w-5" /> : <Sun className="h-5 w-5" />}
+          </button>
+          <button
+            className="flex flex-col gap-1.5 p-2"
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            aria-label="Toggle menu"
+          >
+            <div className={`w-6 h-px bg-foreground transition-all duration-300 ${mobileMenuOpen ? "rotate-45 translate-y-2" : ""}`} />
+            <div className={`w-6 h-px bg-foreground transition-all duration-300 ${mobileMenuOpen ? "opacity-0" : ""}`} />
+            <div className={`w-6 h-px bg-foreground transition-all duration-300 ${mobileMenuOpen ? "-rotate-45 -translate-y-2" : ""}`} />
+          </button>
+        </div>
       </div>
 
       {/* Mobile Menu */}
@@ -96,7 +131,7 @@ export function Footer() {
                 alt="Stillwater Media"
                 width={32}
                 height={32}
-                className="w-8 h-8 transition-opacity duration-300 group-hover:opacity-80 invert"
+                className="w-8 h-8 transition-opacity duration-300 group-hover:opacity-80 dark:invert"
               />
               <span className="text-foreground/90 text-sm tracking-[0.2em] font-medium">STILLWATER MEDIA</span>
             </Link>

@@ -57,7 +57,7 @@ export function ArticleLayout({ title, subtitle, category, image, imageAlt, chil
           </header>
 
           {/* Article Content */}
-          <div className="prose prose-invert max-w-none">
+          <div className="prose dark:prose-invert max-w-none">
             {children}
           </div>
 
