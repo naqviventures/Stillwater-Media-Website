@@ -1,7 +1,5 @@
 # Robots.txt for Stillwater Media
 User-agent: *
 Allow: /
-Disallow: /api/
-Disallow: /admin/
 
-Sitemap: https://www.stillwatermedia.io/sitemap.xml
+Sitemap: https://stillwatermedia.io/sitemap.xml
