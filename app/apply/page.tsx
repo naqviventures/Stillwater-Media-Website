@@ -192,8 +192,19 @@ export default function ApplyPage() {
     <div className="min-h-screen bg-background text-foreground">
       <Navigation />
 
+      {/* Background Image */}
+      <div className="fixed inset-0 z-0">
+        <Image
+          src="/images/partnership-handshake.jpg"
+          alt=""
+          fill
+          className="object-cover opacity-10"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-background via-background/98 to-background" />
+      </div>
+
       {/* Main Content */}
-      <main className="pt-32 pb-24 px-6 sm:px-12">
+      <main className="pt-32 pb-24 px-6 sm:px-12 relative z-10">
         <div className="max-w-2xl mx-auto">
           
           {/* Confirmation State */}

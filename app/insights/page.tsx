@@ -62,8 +62,20 @@ export default function Insights() {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-16 px-6 sm:px-12">
-        <div className="max-w-6xl mx-auto">
+      <section className="pt-32 pb-16 px-6 sm:px-12 relative">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/images/insights-editorial.jpg"
+            alt=""
+            fill
+            className="object-cover opacity-20"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-background via-background/95 to-background" />
+        </div>
+        
+        <div className="max-w-6xl mx-auto relative z-10">
           <p className="text-accent text-xs tracking-[0.3em] mb-6">INSIGHTS</p>
           
           <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.1] mb-8 text-foreground font-normal tracking-tight">

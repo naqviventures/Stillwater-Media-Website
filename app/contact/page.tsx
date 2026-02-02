@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Navigation, Footer } from "@/components/navigation"
+import Image from "next/image"
 import { useEffect, useState } from "react"
 import { sendContactEmail } from "@/lib/email"
 import { ArrowRight, MapPin, Mail, Clock } from "lucide-react"
@@ -64,8 +65,20 @@ export default function Contact() {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-16 px-6 sm:px-12" data-animate id="hero">
-        <div className="max-w-6xl mx-auto">
+      <section className="pt-32 pb-16 px-6 sm:px-12 relative" data-animate id="hero">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/images/contact-minimal.jpg"
+            alt=""
+            fill
+            className="object-cover opacity-20"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-background via-background/95 to-background" />
+        </div>
+        
+        <div className="max-w-6xl mx-auto relative z-10">
           <div className={`transition-all duration-1000 ${visibleSections.has("hero") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"}`}>
             <p className="text-accent text-xs tracking-[0.3em] mb-6">CONTACT</p>
             

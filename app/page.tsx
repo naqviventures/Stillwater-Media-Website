@@ -35,8 +35,20 @@ export default function Home() {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="min-h-screen flex flex-col justify-center px-6 sm:px-12 pt-32 pb-20 max-w-6xl mx-auto" data-animate id="hero">
-        <div className={`transition-all duration-1000 ${visibleSections.has("hero") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"}`}>
+      <section className="min-h-screen flex flex-col justify-center px-6 sm:px-12 pt-32 pb-20 relative" data-animate id="hero">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/images/hero-luxury-abstract.jpg"
+            alt=""
+            fill
+            className="object-cover opacity-30"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-background via-background/95 to-background/80" />
+        </div>
+        
+        <div className={`max-w-6xl mx-auto relative z-10 transition-all duration-1000 ${visibleSections.has("hero") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"}`}>
           <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl leading-[1.1] mb-8 text-foreground font-normal tracking-tight">
             Performance media<br />
             <span className="italic">for premium brands</span>
@@ -47,7 +59,7 @@ export default function Home() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-16">
-            <Link href="/contact">
+            <Link href="/apply">
               <Button className="bg-foreground text-background hover:bg-accent hover:text-background text-xs tracking-[0.15em] px-8 py-4 rounded-none transition-all duration-300 group">
                 APPLY TO WORK WITH US
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
@@ -251,34 +263,47 @@ export default function Home() {
                 metric: "3.2x",
                 label: "ROAS Improvement",
                 description: "Luxury real estate developer achieved 3.2x return on ad spend through premium CTV placement and affluent audience targeting.",
-                category: "Real Estate"
+                category: "Real Estate",
+                image: "/images/case-study-real-estate.jpg"
               },
               {
                 metric: "47%",
                 label: "CAC Reduction",
                 description: "High-end automotive dealership group reduced customer acquisition cost by 47% while maintaining lead quality.",
-                category: "Automotive"
+                category: "Automotive",
+                image: "/images/case-study-automotive.jpg"
               },
               {
                 metric: "2.8x",
                 label: "Conversion Lift",
                 description: "Private wealth management firm saw 2.8x lift in qualified consultations through incrementality-tested campaigns.",
-                category: "Financial Services"
+                category: "Financial Services",
+                image: "/images/case-study-wealth.jpg"
               }
             ].map((study, index) => (
               <div 
                 key={index}
-                className={`border border-border p-8 transition-all duration-1000 hover:border-foreground/30 ${visibleSections.has("case-studies") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
+                className={`border border-border overflow-hidden transition-all duration-1000 hover:border-foreground/30 ${visibleSections.has("case-studies") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
                 style={{ transitionDelay: `${200 + index * 150}ms` }}
               >
-                <p className="text-foreground/40 text-xs tracking-[0.2em] mb-6">{study.category}</p>
-                <p className="font-heading text-4xl sm:text-5xl text-accent mb-2">{study.metric}</p>
-                <p className="text-foreground text-sm font-medium mb-4">{study.label}</p>
-                <p className="text-foreground/50 text-sm leading-relaxed mb-6">{study.description}</p>
-                <button className="text-foreground/60 text-xs tracking-[0.1em] hover:text-foreground transition-colors flex items-center gap-2 group">
-                  REQUEST FULL CASE STUDY
-                  <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1" />
-                </button>
+                <div className="h-48 relative">
+                  <Image
+                    src={study.image || "/placeholder.svg"}
+                    alt={study.category}
+                    fill
+                    className="object-cover opacity-70"
+                  />
+                </div>
+                <div className="p-8">
+                  <p className="text-foreground/40 text-xs tracking-[0.2em] mb-6">{study.category}</p>
+                  <p className="font-heading text-4xl sm:text-5xl text-accent mb-2">{study.metric}</p>
+                  <p className="text-foreground text-sm font-medium mb-4">{study.label}</p>
+                  <p className="text-foreground/50 text-sm leading-relaxed mb-6">{study.description}</p>
+                  <button className="text-foreground/60 text-xs tracking-[0.1em] hover:text-foreground transition-colors flex items-center gap-2 group">
+                    REQUEST FULL CASE STUDY
+                    <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1" />
+                  </button>
+                </div>
               </div>
             ))}
           </div>
