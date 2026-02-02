@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Navigation, Footer } from "@/components/navigation"
 import Link from "next/link"
 import { useEffect, useState } from "react"
-import { ArrowRight, Check, X } from "lucide-react"
+import { ArrowRight, Check, X, Plane, Users, Hotel, ShoppingBag, TrendingUp } from "lucide-react"
 import Image from "next/image"
 
 export default function Home() {
@@ -83,10 +83,17 @@ export default function Home() {
         <div className={`max-w-6xl mx-auto transition-all duration-1000 delay-200 ${visibleSections.has("social-proof") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
           <p className="text-foreground/50 text-xs tracking-[0.2em] mb-10">SELECTED ENGAGEMENTS</p>
           
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 items-center mb-10">
-            {[1, 2, 3, 4].map((i) => (
-              <div key={i} className="h-8 bg-foreground/10 rounded flex items-center justify-center">
-                <span className="text-foreground/30 text-xs tracking-wider">CLIENT LOGO</span>
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-8 md:gap-6 items-center mb-10">
+            {[
+              { icon: Plane, label: "Private aviation" },
+              { icon: Users, label: "Private clubs" },
+              { icon: Hotel, label: "Luxury hospitality" },
+              { icon: ShoppingBag, label: "Premium DTC" },
+              { icon: TrendingUp, label: "Boutique wealth" }
+            ].map((item, i) => (
+              <div key={i} className="flex flex-col items-center gap-4">
+                <item.icon className="w-8 h-8 text-accent/60" strokeWidth={1} />
+                <span className="text-foreground/60 text-xs tracking-wide text-center">{item.label}</span>
               </div>
             ))}
           </div>
