@@ -103,7 +103,7 @@ export default function Home() {
       </section>
 
       {/* Tagline */}
-      <section className="py-20 px-6 sm:px-12">
+      <section className="py-12 px-6 sm:px-12">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-foreground/80 font-normal italic">
             Signal. Strategy. Scale.
@@ -112,7 +112,7 @@ export default function Home() {
       </section>
 
       {/* What We Do Section */}
-      <section className="py-24 sm:py-32 px-6 sm:px-12" data-animate id="what-we-do">
+      <section className="pt-12 pb-24 sm:pt-16 sm:pb-32 px-6 sm:px-12" data-animate id="what-we-do">
         <div className="max-w-6xl mx-auto">
           <div className={`mb-16 transition-all duration-1000 ${visibleSections.has("what-we-do") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
             <p className="text-foreground/50 text-xs tracking-[0.2em] mb-4">CAPABILITIES</p>
