@@ -11,6 +11,7 @@ import Image from "next/image"
 export default function Home() {
   const [visibleSections, setVisibleSections] = useState<Set<string>>(new Set())
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [vantaEffect, setVantaEffect] = useState<any>(null)
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -30,47 +31,55 @@ export default function Home() {
     return () => observer.disconnect()
   }, [])
 
-  return (
-    <div className="min-h-screen bg-background text-foreground relative">
-      {/* Ambient Wave Background */}
-      <div className="wave-background">
-        <svg className="wave" viewBox="0 0 1440 320" preserveAspectRatio="none">
-          <path
-            fill="var(--gold)"
-            d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,138.7C960,139,1056,117,1152,101.3C1248,85,1344,75,1392,69.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-          />
-        </svg>
-        <svg className="wave" viewBox="0 0 1440 320" preserveAspectRatio="none">
-          <path
-            fill="var(--gold)"
-            d="M0,224L48,208C96,192,192,160,288,154.7C384,149,480,171,576,165.3C672,160,768,128,864,128C960,128,1056,160,1152,170.7C1248,181,1344,171,1392,165.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-          />
-        </svg>
-        <svg className="wave" viewBox="0 0 1440 320" preserveAspectRatio="none">
-          <path
-            fill="var(--gold)"
-            d="M0,160L48,176C96,192,192,224,288,224C384,224,480,192,576,165.3C672,139,768,117,864,128C960,139,1056,181,1152,186.7C1248,192,1344,160,1392,144L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-          />
-        </svg>
-      </div>
+  useEffect(() => {
+    const initVanta = () => {
+      // @ts-ignore
+      if (window.VANTA && window.THREE && !vantaEffect) {
+        const effect = (window as any).VANTA.FOG({
+          el: "#hero-vanta",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.00,
+          minWidth: 200.00,
+          highlightColor: 0xb8935f, // Brand gold
+          midtoneColor: 0x1a1a1a, // Dark charcoal
+          lowlightColor: 0x0a0a0a, // Almost black
+          baseColor: 0x0a0a0a, // Almost black
+          blurFactor: 0.65,
+          speed: 1.20,
+          zoom: 0.50
+        })
+        setVantaEffect(effect)
+      }
+    }
 
+    // Wait for scripts to load
+    const checkAndInit = setInterval(() => {
+      // @ts-ignore
+      if (window.VANTA && window.THREE) {
+        clearInterval(checkAndInit)
+        initVanta()
+      }
+    }, 100)
+
+    return () => {
+      if (vantaEffect) vantaEffect.destroy()
+      clearInterval(checkAndInit)
+    }
+  }, [vantaEffect])
+
+  return (
+    <div className="min-h-screen bg-background text-foreground">
       <Navigation />
 
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col justify-center px-6 sm:px-12 pt-32 pb-20 relative" data-animate id="hero">
-        {/* Background Image */}
-        <div className="absolute inset-0 z-0">
-          <Image
-            src="/images/hero-luxury-abstract.jpg"
-            alt=""
-            fill
-            className="object-cover opacity-30"
-            priority
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-background via-background/95 to-background/80" />
-        </div>
+        {/* Vanta Fog Background */}
+        <div id="hero-vanta" className="absolute inset-0 z-0" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/40 via-background/30 to-transparent z-[1]" />
         
-        <div className={`max-w-6xl mx-auto relative z-10 transition-all duration-1000 ${visibleSections.has("hero") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"}`}>
+        <div className={`max-w-6xl mx-auto relative z-[2] transition-all duration-1000 ${visibleSections.has("hero") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"}`}>
           <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl leading-[1.1] mb-8 text-foreground font-normal tracking-tight">
             Performance media<br />
             <span className="italic">for premium brands</span>
