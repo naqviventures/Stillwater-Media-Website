@@ -31,7 +31,29 @@ export default function Home() {
   }, [])
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="min-h-screen bg-background text-foreground relative">
+      {/* Ambient Wave Background */}
+      <div className="wave-background">
+        <svg className="wave" viewBox="0 0 1440 320" preserveAspectRatio="none">
+          <path
+            fill="var(--gold)"
+            d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,138.7C960,139,1056,117,1152,101.3C1248,85,1344,75,1392,69.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          />
+        </svg>
+        <svg className="wave" viewBox="0 0 1440 320" preserveAspectRatio="none">
+          <path
+            fill="var(--gold)"
+            d="M0,224L48,208C96,192,192,160,288,154.7C384,149,480,171,576,165.3C672,160,768,128,864,128C960,128,1056,160,1152,170.7C1248,181,1344,171,1392,165.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          />
+        </svg>
+        <svg className="wave" viewBox="0 0 1440 320" preserveAspectRatio="none">
+          <path
+            fill="var(--gold)"
+            d="M0,160L48,176C96,192,192,224,288,224C384,224,480,192,576,165.3C672,139,768,117,864,128C960,139,1056,181,1152,186.7C1248,192,1344,160,1392,144L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          />
+        </svg>
+      </div>
+
       <Navigation />
 
       {/* Hero Section */}
