@@ -145,7 +145,7 @@ export function Footer() {
               />
               <span className="text-foreground/90 text-sm tracking-[0.2em] font-medium">STILLWATER MEDIA</span>
             </Link>
-            <p className="text-foreground/40 text-sm">Charlotte, NC — Serving clients nationwide</p>
+            <p className="text-foreground/40 text-sm">Charlotte, NC — Serving clients nationwide and internationally</p>
           </div>
           
           <nav className="flex flex-wrap gap-8">
