@@ -95,9 +95,9 @@ export default function Home() {
                 height: 72,
               },
               {
-                src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/4c712f073b348846cf77773df105-2uDvrK2wUA7eZxy1htm5bYIxsCTaJL.webp",
-                alt: "Financial Independence Group",
-                height: 48,
+                src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pxg_logo_transparent-hYzi3h9jcpvwfZelS5c8y7HaHGQH4v.png",
+                alt: "PXG",
+                height: 64,
               },
               {
                 src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/6297b9faac36da5e098ea631_FLY_MasterLogo_RGB_Reverse%202-CTJ30129ucxz1nRDzATR9RCcIrVWta.png",
@@ -110,9 +110,9 @@ export default function Home() {
                 height: 72,
               },
               {
-                src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pxg_logo_transparent-hYzi3h9jcpvwfZelS5c8y7HaHGQH4v.png",
-                alt: "PXG",
-                height: 52,
+                src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/4c712f073b348846cf77773df105-2uDvrK2wUA7eZxy1htm5bYIxsCTaJL.webp",
+                alt: "Financial Independence Group",
+                height: 58,
               },
             ].map((logo) => (
               <div key={logo.alt} className="flex items-center justify-center">
