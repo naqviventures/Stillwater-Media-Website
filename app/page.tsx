@@ -133,9 +133,19 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Tagline */}
-      <section className="py-12 px-6 sm:px-12">
-        <div className="max-w-6xl mx-auto text-center">
+      {/* Tagline with Image */}
+      <section className="py-20 px-6 sm:px-12 relative overflow-hidden" data-animate id="tagline">
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/watch.png-URZpfwCFi9zKOHyh9NJCfKUHIvfW02.jpeg"
+            alt=""
+            fill
+            className={`object-cover transition-all duration-[2000ms] ${visibleSections.has("tagline") ? "opacity-20 scale-100" : "opacity-0 scale-105"}`}
+            loading="lazy"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-background via-background/90 to-background" />
+        </div>
+        <div className={`max-w-6xl mx-auto text-center relative z-10 transition-all duration-1000 ${visibleSections.has("tagline") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
           <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-foreground/80 font-normal italic">
             Signal. Strategy. Scale.
           </h2>
@@ -264,8 +274,18 @@ export default function Home() {
       </section>
 
       {/* Selective by Design Section */}
-      <section className="py-24 sm:py-32 px-6 sm:px-12" data-animate id="selective">
-        <div className="max-w-6xl mx-auto">
+      <section className="py-24 sm:py-32 px-6 sm:px-12 relative overflow-hidden" data-animate id="selective">
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/villa-3RcNXJukiq4qQyFvr6tmHFRssRvlBy.png"
+            alt=""
+            fill
+            className={`object-cover transition-all duration-[2000ms] ${visibleSections.has("selective") ? "opacity-15 scale-100" : "opacity-0 scale-105"}`}
+            loading="lazy"
+          />
+          <div className="absolute inset-0 bg-gradient-to-l from-background via-background/95 to-background" />
+        </div>
+        <div className="max-w-6xl mx-auto relative z-10">
           <div className={`mb-16 transition-all duration-1000 ${visibleSections.has("selective") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
             <p className="text-foreground/50 text-xs tracking-[0.2em] mb-4">FIT</p>
             <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-foreground font-normal">
@@ -310,41 +330,57 @@ export default function Home() {
             <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-foreground font-normal">Case Studies</h2>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
                 metric: "3.2x",
                 label: "ROAS Improvement",
                 description: "Luxury real estate developer achieved 3.2x return on ad spend through premium CTV placement and affluent audience targeting.",
                 category: "Real Estate",
-                image: "/images/case-study-real-estate.jpg"
+                image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/villa-3RcNXJukiq4qQyFvr6tmHFRssRvlBy.png"
+              },
+              {
+                metric: "52%",
+                label: "Membership Growth",
+                description: "Premier private golf club increased qualified membership inquiries by 52% through targeted digital campaigns reaching high-net-worth golfers.",
+                category: "Golf & Private Clubs",
+                image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/leather-pMiVazMlNKmAh3VIdfiAQtLTeQCVWN.png"
+              },
+              {
+                metric: "4.1x",
+                label: "Lead Quality Lift",
+                description: "Private aviation charter company achieved 4.1x improvement in lead quality through precision targeting of frequent flyers and business travelers.",
+                category: "Private Aviation",
+                image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pj-KZ1i4ebyIG3fBqRuF0Q51xaRuLD4lg.png"
               },
               {
                 metric: "47%",
                 label: "CAC Reduction",
                 description: "High-end automotive dealership group reduced customer acquisition cost by 47% while maintaining lead quality.",
                 category: "Automotive",
-                image: "/images/case-study-automotive.jpg"
+                image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/leather-pMiVazMlNKmAh3VIdfiAQtLTeQCVWN.png"
               },
               {
                 metric: "2.8x",
                 label: "Conversion Lift",
                 description: "Private wealth management firm saw 2.8x lift in qualified consultations through incrementality-tested campaigns.",
                 category: "Financial Services",
-                image: "/images/case-study-wealth.jpg"
+                image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/watch.png-URZpfwCFi9zKOHyh9NJCfKUHIvfW02.jpeg"
               }
             ].map((study, index) => (
               <div 
                 key={index}
-                className={`border border-border overflow-hidden transition-all duration-1000 hover:border-foreground/30 ${visibleSections.has("case-studies") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
+                className={`border border-border overflow-hidden transition-all duration-1000 hover:border-foreground/30 group ${visibleSections.has("case-studies") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
                 style={{ transitionDelay: `${200 + index * 150}ms` }}
               >
-                <div className="h-48 relative">
+                <div className="h-48 relative overflow-hidden">
                   <Image
                     src={study.image || "/placeholder.svg"}
                     alt={study.category}
                     fill
-                    className="object-cover opacity-70"
+                    className={`object-cover transition-all duration-[1500ms] group-hover:scale-105 ${visibleSections.has("case-studies") ? "opacity-60 scale-100" : "opacity-0 scale-110"}`}
+                    style={{ transitionDelay: `${300 + index * 150}ms` }}
+                    loading="lazy"
                   />
                 </div>
                 <div className="p-8">
@@ -361,6 +397,18 @@ export default function Home() {
             ))}
           </div>
         </div>
+      </section>
+
+      {/* Luxury Image Break */}
+      <section className="h-64 sm:h-80 relative overflow-hidden" data-animate id="image-break">
+        <Image
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/yacht%202-JiOsv4grWBl4qmjC9dsByIpoAOMGie.png"
+          alt=""
+          fill
+          className={`object-cover transition-all duration-[2500ms] ${visibleSections.has("image-break") ? "opacity-30 scale-100" : "opacity-0 scale-105"}`}
+          loading="lazy"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-card via-transparent to-background" />
       </section>
 
       {/* How We Work Section */}
@@ -393,8 +441,18 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-24 sm:py-32 px-6 sm:px-12 border-t border-border" data-animate id="cta">
-        <div className={`max-w-4xl mx-auto text-center transition-all duration-1000 ${visibleSections.has("cta") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
+      <section className="py-24 sm:py-32 px-6 sm:px-12 border-t border-border relative overflow-hidden" data-animate id="cta">
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/yacht.png-eZg3SkQdiov4FfwEKbytMDfT5j9kwd.jpeg"
+            alt=""
+            fill
+            className={`object-cover transition-all duration-[2000ms] ${visibleSections.has("cta") ? "opacity-10 scale-100" : "opacity-0 scale-105"}`}
+            loading="lazy"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-background via-background/95 to-background" />
+        </div>
+        <div className={`max-w-4xl mx-auto text-center relative z-10 transition-all duration-1000 ${visibleSections.has("cta") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
           <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-foreground font-normal mb-8">
             Ready to discuss <span className="italic">your goals?</span>
           </h2>
