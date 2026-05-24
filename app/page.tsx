@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Navigation, Footer } from "@/components/navigation"
 import Link from "next/link"
 import { useEffect, useState } from "react"
-import { ArrowRight, Check, X, Plane, Users, Hotel, ShoppingBag, TrendingUp } from "lucide-react"
+import { ArrowRight, Check, X, Plane, Users, Hotel, ShoppingBag, TrendingUp, Car } from "lucide-react"
 import Image from "next/image"
 
 export default function Home() {
@@ -136,15 +136,16 @@ export default function Home() {
       {/* Social Proof Strip */}
       <section className="border-b border-border py-16 px-6 sm:px-12" data-animate id="social-proof">
         <div className={`max-w-6xl mx-auto transition-all duration-1000 delay-200 ${visibleSections.has("social-proof") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
-          <p className="text-foreground/50 text-xs tracking-[0.2em] mb-10">SELECTED ENGAGEMENTS</p>
+          <p className="text-foreground/50 text-xs tracking-[0.2em] mb-10">EXPERTISE</p>
           
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-8 md:gap-6 items-center mb-10">
+          <div className="grid grid-cols-2 md:grid-cols-6 gap-8 md:gap-6 items-center mb-10">
             {[
               { icon: Plane, label: "Private aviation" },
               { icon: Users, label: "Private clubs" },
               { icon: Hotel, label: "Luxury hospitality" },
               { icon: ShoppingBag, label: "Premium DTC" },
-              { icon: TrendingUp, label: "Boutique wealth" }
+              { icon: TrendingUp, label: "Boutique wealth" },
+              { icon: Car, label: "Automotive" }
             ].map((item, i) => (
               <div key={i} className="flex flex-col items-center gap-4 group cursor-pointer">
                 <item.icon className="w-8 h-8 text-accent/60 transition-all duration-300 group-hover:scale-110 group-hover:text-accent/90" strokeWidth={1} />
