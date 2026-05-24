@@ -346,16 +346,18 @@ export default function Home() {
 
       {/* Selective by Design Section */}
       <section className="py-24 sm:py-32 px-6 sm:px-12 relative overflow-hidden" data-animate id="selective">
-        {/* Right-side image — occupies the right 50% only */}
-        <div className="absolute inset-y-0 right-0 w-1/2 z-0">
+        {/* Right-side image — occupies the right 50% only, entire container fades together */}
+        <div
+          className={`absolute inset-y-0 right-0 w-1/2 z-0 transition-all duration-[2000ms] ${visibleSections.has("selective") ? "opacity-100 scale-100" : "opacity-0 scale-105"}`}
+        >
           <Image
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cabana%202.png-YEYKHMWiAP2fSIDLmrqBa4MjwRfFlg.jpeg"
             alt=""
             fill
-            className={`object-cover transition-all duration-[2000ms] ${visibleSections.has("selective") ? "opacity-25 scale-100" : "opacity-0 scale-105"}`}
+            className="object-cover opacity-25"
             loading="lazy"
           />
-          {/* Fade from left (into the section bg) and slightly from right edge */}
+          {/* Fade from left edge into section bg, and soften right edge */}
           <div className="absolute inset-0 bg-gradient-to-r from-background via-background/30 to-background/60" />
         </div>
         <div className="max-w-6xl mx-auto relative z-10">
