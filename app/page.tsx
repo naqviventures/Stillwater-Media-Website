@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Navigation, Footer } from "@/components/navigation"
 import Link from "next/link"
 import { useEffect, useState } from "react"
-import { ArrowRight, Check, X, Plane, Users, Hotel, ShoppingBag, TrendingUp } from "lucide-react"
+import { ArrowRight, Check, X, Plane, Users, Hotel, ShoppingBag, TrendingUp, Car } from "lucide-react"
 import Image from "next/image"
 
 export default function Home() {
@@ -78,27 +78,58 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Social Proof Strip */}
-      <section className="border-y border-border py-16 px-6 sm:px-12" data-animate id="social-proof">
-        <div className={`max-w-6xl mx-auto transition-all duration-1000 delay-200 ${visibleSections.has("social-proof") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
-          <p className="text-foreground/50 text-xs tracking-[0.2em] mb-10">SELECTED ENGAGEMENTS</p>
-          
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-8 md:gap-6 items-center mb-10">
+      {/* Trusted By Brands */}
+      <section className="border-b border-border py-16 px-6 sm:px-12" data-animate id="trusted-by">
+        <div className={`max-w-6xl mx-auto transition-all duration-1000 ${visibleSections.has("trusted-by") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
+          <p className="text-foreground/40 text-xs tracking-[0.2em] mb-12 text-center">TRUSTED BY</p>
+          <div className="flex flex-wrap items-center justify-center gap-x-14 gap-y-10 md:gap-x-20">
             {[
-              { icon: Plane, label: "Private aviation" },
-              { icon: Users, label: "Private clubs" },
-              { icon: Hotel, label: "Luxury hospitality" },
-              { icon: ShoppingBag, label: "Premium DTC" },
-              { icon: TrendingUp, label: "Boutique wealth" }
-            ].map((item, i) => (
-              <div key={i} className="flex flex-col items-center gap-4 group cursor-pointer">
-                <item.icon className="w-8 h-8 text-accent/60 transition-all duration-300 group-hover:scale-110 group-hover:text-accent/90" strokeWidth={1} />
-                <span className="text-foreground/60 text-xs tracking-wide text-center transition-colors duration-300 group-hover:text-foreground/80">{item.label}</span>
+              {
+                src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/jetlinx-logo-white-e1769896941651-w3ubXqlqCYtEHFxcDTudDS762Th8bX.png",
+                alt: "JetLinx",
+                height: 44,
+              },
+              {
+                src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/w-hotels-logo-png-transparent-uthObCjSeGBfMKwtMi7udjDyTqhhNt.webp",
+                alt: "W Hotels",
+                height: 72,
+              },
+              {
+                src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pxg_logo_transparent-hYzi3h9jcpvwfZelS5c8y7HaHGQH4v.png",
+                alt: "PXG",
+                height: 64,
+              },
+              {
+                src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/6297b9faac36da5e098ea631_FLY_MasterLogo_RGB_Reverse%202-CTJ30129ucxz1nRDzATR9RCcIrVWta.png",
+                alt: "FLY Exclusive",
+                height: 44,
+              },
+              {
+                src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/preserve_logo_only_wordmark_white_text-T7CoWSAvi14KiCMscwBxe5qSm5cuHt.png",
+                alt: "Preserve",
+                height: 72,
+              },
+              {
+                src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/4c712f073b348846cf77773df105-2uDvrK2wUA7eZxy1htm5bYIxsCTaJL.webp",
+                alt: "Financial Independence Group",
+                height: 58,
+              },
+            ].map((logo) => (
+              <div key={logo.alt} className="flex items-center justify-center">
+                <img
+                  src={logo.src}
+                  alt={logo.alt}
+                  style={{
+                    height: logo.height,
+                    width: "auto",
+                    maxWidth: 200,
+                    filter: "brightness(0) opacity(0.55)",
+                  }}
+                  className="object-contain dark:[filter:brightness(0)_invert(1)_opacity(0.55)]"
+                />
               </div>
             ))}
           </div>
-          
-          <p className="text-foreground/40 text-sm italic">Private references available upon request.</p>
         </div>
       </section>
 
@@ -160,6 +191,31 @@ export default function Home() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Expertise Strip */}
+      <section className="border-t border-b border-border py-16 px-6 sm:px-12" data-animate id="social-proof">
+        <div className={`max-w-6xl mx-auto transition-all duration-1000 delay-200 ${visibleSections.has("social-proof") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
+          <p className="text-foreground/50 text-xs tracking-[0.2em] mb-10">EXPERTISE</p>
+          
+          <div className="grid grid-cols-2 md:grid-cols-6 gap-8 md:gap-6 items-center mb-10">
+            {[
+              { icon: Plane, label: "Private aviation" },
+              { icon: Users, label: "Private clubs" },
+              { icon: Hotel, label: "Luxury hospitality" },
+              { icon: ShoppingBag, label: "Premium DTC" },
+              { icon: TrendingUp, label: "Boutique wealth" },
+              { icon: Car, label: "Automotive" }
+            ].map((item, i) => (
+              <div key={i} className="flex flex-col items-center gap-4 group cursor-pointer">
+                <item.icon className="w-8 h-8 text-accent/60 transition-all duration-300 group-hover:scale-110 group-hover:text-accent/90" strokeWidth={1} />
+                <span className="text-foreground/60 text-xs tracking-wide text-center transition-colors duration-300 group-hover:text-foreground/80">{item.label}</span>
+              </div>
+            ))}
+          </div>
+          
+          <p className="text-foreground/40 text-sm italic">Private references available upon request.</p>
         </div>
       </section>
 
