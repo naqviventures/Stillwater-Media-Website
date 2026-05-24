@@ -135,3 +135,13 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Trusted by logos — light mode: dark grey, dark mode: warm gold tint */
+.trusted-logo {
+  filter: brightness(0) opacity(0.5);
+}
+
+.dark .trusted-logo {
+  /* brightness(0) makes it black, sepia+saturate+hue-rotate shifts to warm gold, opacity tones it down */
+  filter: brightness(0) invert(1) sepia(1) saturate(2) hue-rotate(5deg) opacity(0.65);
+}
