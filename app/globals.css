@@ -135,3 +135,12 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Trusted by logos — light mode: dark grey, dark mode: clean white (#f5f0e8) */
+.trusted-logo {
+  filter: brightness(0) opacity(0.5);
+}
+
+.dark .trusted-logo {
+  filter: brightness(0) invert(1) opacity(0.85);
+}
