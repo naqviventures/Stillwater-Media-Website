@@ -1,69 +1,19 @@
 "use client"
 
+import { useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { Navigation, Footer } from "@/components/navigation"
 import { ArrowRight } from "lucide-react"
+import { insightPosts, allCategories } from "@/lib/insights"
 
 export default function Insights() {
-  const blogPosts = [
-    {
-      slug: "programmatic-advertising-revolution-2024",
-      title: "The Programmatic Advertising Revolution: How AI is Transforming Digital Media Buying",
-      excerpt:
-        "Discover how artificial intelligence and machine learning are reshaping programmatic advertising, delivering unprecedented targeting precision and ROI optimization for modern marketers.",
-      image: "/programmatic-advertising-ai-revolution-dashboard.jpg",
-      category: "Programmatic",
-    },
-    {
-      slug: "connected-tv-advertising-guide",
-      title: "Connected TV Advertising: The Complete Guide to CTV Campaign Success",
-      excerpt:
-        "Master the art of Connected TV advertising with proven strategies for audience targeting, creative optimization, and performance measurement across streaming platforms.",
-      image: "/connected-tv-streaming-devices-and-smart-tv-interf.jpg",
-      category: "CTV",
-    },
-    {
-      slug: "ctv-advertising-high-net-worth-consumers",
-      title: "CTV Advertising for High-Net-Worth Consumers: Precision Targeting Strategies",
-      excerpt:
-        "Discover how to reach affluent audiences through Connected TV with premium placements, contextual targeting, and sophisticated measurement for luxury brands.",
-      image: "/images/ctv-advertising-high-net-worth.jpg",
-      category: "CTV",
-    },
-    {
-      slug: "billboard-advertising-digital-age",
-      title: "Billboard Advertising in the Digital Age: Integrating OOH with Programmatic Campaigns",
-      excerpt:
-        "Learn how traditional billboard advertising is evolving with digital integration, programmatic buying, and advanced attribution models for maximum impact.",
-      image: "/digital-billboard-advertising-with-programmatic.jpg",
-      category: "OOH",
-    },
-    {
-      slug: "programmatic-media-buying-charlotte-nc",
-      title: "Programmatic Media Buying in Charlotte, NC: Local Market Insights and Opportunities",
-      excerpt:
-        "Explore the unique programmatic advertising landscape in Charlotte, North Carolina, including local audience behaviors, market trends, and growth opportunities.",
-      image: "/charlotte-nc-skyline-with-digital-advertising-tech.jpg",
-      category: "Local",
-    },
-    {
-      slug: "real-time-bidding-optimization-strategies",
-      title: "Real-Time Bidding Optimization: Advanced Strategies for Programmatic Success",
-      excerpt:
-        "Unlock the power of real-time bidding with sophisticated optimization techniques, bid management strategies, and performance enhancement tactics.",
-      image: "/real-time-bidding-optimization-dashboard-with-data.jpg",
-      category: "Programmatic",
-    },
-    {
-      slug: "precision-lead-generation-strategies",
-      title: "Precision Lead Generation: Advanced Strategies for Real-Time Prospect Identification",
-      excerpt:
-        "Master the art of precision lead generation with cutting-edge techniques for identifying, qualifying, and converting high-value prospects in real-time.",
-      image: "/precision-lead-generation-targeting-dashboard.jpg",
-      category: "Lead Generation",
-    },
-  ]
+  const [activeCategory, setActiveCategory] = useState("All")
+
+  const filtered =
+    activeCategory === "All"
+      ? insightPosts
+      : insightPosts.filter((p) => p.category === activeCategory)
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -71,7 +21,6 @@ export default function Insights() {
 
       {/* Hero Section */}
       <section className="pt-32 pb-16 px-6 sm:px-12 relative">
-        {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
             src="/images/insights-editorial.jpg"
@@ -82,61 +31,93 @@ export default function Insights() {
           />
           <div className="absolute inset-0 bg-gradient-to-b from-background via-background/95 to-background" />
         </div>
-        
+
         <div className="max-w-6xl mx-auto relative z-10">
           <p className="text-accent text-xs tracking-[0.3em] mb-6">INSIGHTS</p>
-          
           <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.1] mb-8 text-foreground font-normal tracking-tight">
             Strategic <span className="italic">perspectives</span>
           </h1>
-          
           <p className="text-foreground/60 text-lg max-w-2xl leading-relaxed">
             Industry analysis, measurement methodologies, and strategic frameworks for premium brand media.
           </p>
         </div>
       </section>
 
-      {/* Blog Posts Grid */}
+      {/* Filter Tabs + Grid */}
       <section className="py-16 px-6 sm:px-12 border-t border-border">
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {blogPosts.map((post) => (
-              <article
-                key={post.slug}
-                className="group border border-border hover:border-foreground/30 transition-all duration-300"
+
+          {/* Category Filter */}
+          <div className="flex flex-wrap gap-2 mb-12">
+            {allCategories.map((cat) => (
+              <button
+                key={cat}
+                onClick={() => setActiveCategory(cat)}
+                className={`px-4 py-2 text-xs tracking-[0.15em] border transition-all duration-200 ${
+                  activeCategory === cat
+                    ? "border-foreground bg-foreground text-background"
+                    : "border-border text-foreground/50 hover:border-foreground/40 hover:text-foreground"
+                }`}
               >
-                <div className="h-48 bg-secondary relative overflow-hidden">
-                  <Image
-                    src={post.image || "/placeholder.svg"}
-                    alt={post.title}
-                    width={400}
-                    height={192}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                  <div className="absolute top-4 left-4">
-                    <span className="bg-background/90 backdrop-blur-sm text-foreground px-3 py-1 text-xs tracking-wide">
-                      {post.category}
-                    </span>
-                  </div>
-                </div>
-                <div className="p-6">
-                  <h2 className="font-heading text-foreground text-xl font-normal mb-3 leading-tight">
-                    <Link href={`/insights/${post.slug}`} className="hover:text-accent transition-colors duration-300">
-                      {post.title}
-                    </Link>
-                  </h2>
-                  <p className="text-foreground/50 text-sm leading-relaxed mb-4 line-clamp-3">{post.excerpt}</p>
-                  <Link
-                    href={`/insights/${post.slug}`}
-                    className="text-foreground/60 text-xs tracking-[0.1em] hover:text-foreground transition-colors duration-300 inline-flex items-center gap-2 group/link"
-                  >
-                    READ MORE
-                    <ArrowRight className="w-3 h-3 transition-transform group-hover/link:translate-x-1" />
-                  </Link>
-                </div>
-              </article>
+                {cat.toUpperCase()}
+              </button>
             ))}
+            <span className="ml-auto text-foreground/30 text-xs self-center tabular-nums">
+              {filtered.length} {filtered.length === 1 ? "article" : "articles"}
+            </span>
           </div>
+
+          {/* Posts Grid */}
+          {filtered.length > 0 ? (
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {filtered.map((post) => (
+                <article
+                  key={post.slug}
+                  className="group border border-border hover:border-foreground/30 transition-all duration-300"
+                >
+                  <div className="h-48 bg-secondary relative overflow-hidden">
+                    <Image
+                      src={post.image || "/placeholder.svg"}
+                      alt={post.title}
+                      width={400}
+                      height={192}
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+                    <div className="absolute top-4 left-4">
+                      <span className="bg-background/90 backdrop-blur-sm text-foreground px-3 py-1 text-xs tracking-wide">
+                        {post.category}
+                      </span>
+                    </div>
+                  </div>
+                  <div className="p-6">
+                    <h2 className="font-heading text-foreground text-xl font-normal mb-3 leading-tight">
+                      <Link
+                        href={`/insights/${post.slug}`}
+                        className="hover:text-accent transition-colors duration-300"
+                      >
+                        {post.title}
+                      </Link>
+                    </h2>
+                    <p className="text-foreground/50 text-sm leading-relaxed mb-4 line-clamp-3">
+                      {post.excerpt}
+                    </p>
+                    <Link
+                      href={`/insights/${post.slug}`}
+                      className="text-foreground/60 text-xs tracking-[0.1em] hover:text-foreground transition-colors duration-300 inline-flex items-center gap-2 group/link"
+                    >
+                      READ MORE
+                      <ArrowRight className="w-3 h-3 transition-transform group-hover/link:translate-x-1" />
+                    </Link>
+                  </div>
+                </article>
+              ))}
+            </div>
+          ) : (
+            <div className="text-center py-24 text-foreground/30 text-sm tracking-widest">
+              NO ARTICLES IN THIS CATEGORY YET
+            </div>
+          )}
+
         </div>
       </section>
 
