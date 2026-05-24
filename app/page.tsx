@@ -5,12 +5,68 @@ import { Button } from "@/components/ui/button"
 import { Navigation, Footer } from "@/components/navigation"
 import Link from "next/link"
 import { useEffect, useState } from "react"
-import { ArrowRight, Check, X, Plane, Users, Hotel, ShoppingBag, TrendingUp, Car } from "lucide-react"
+import { ArrowRight, Check, X, Plane, Users, Hotel, ShoppingBag, TrendingUp, Car, ChevronLeft, ChevronRight } from "lucide-react"
 import Image from "next/image"
 
 export default function Home() {
   const [visibleSections, setVisibleSections] = useState<Set<string>>(new Set())
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [caseStudyIndex, setCaseStudyIndex] = useState(0)
+
+  const caseStudies = [
+    {
+      metric: "3.2x",
+      label: "ROAS Improvement",
+      description: "Luxury real estate developer achieved 3.2x return on ad spend through premium CTV placement and affluent audience targeting.",
+      category: "Real Estate",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/villa-3RcNXJukiq4qQyFvr6tmHFRssRvlBy.png"
+    },
+    {
+      metric: "38%",
+      label: "ROAS on Equipment Sales",
+      description: "Premium golf equipment brand drove a 38% increase in direct revenue through CTV and programmatic targeting of avid golfers with household incomes above $250K.",
+      category: "Golf Equipment",
+      image: "/images/case-study-golf.jpg"
+    },
+    {
+      metric: "52%",
+      label: "Membership Inquiry Growth",
+      description: "Exclusive private country club grew qualified membership inquiries by 52% by reaching high-net-worth prospects through premium digital channels.",
+      category: "Private Clubs",
+      image: "/images/case-study-private-club.jpg"
+    },
+    {
+      metric: "4.1x",
+      label: "Lead Quality Lift",
+      description: "Private aviation charter company achieved 4.1x improvement in lead quality through precision targeting of frequent flyers and business travelers.",
+      category: "Private Aviation",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pj-KZ1i4ebyIG3fBqRuF0Q51xaRuLD4lg.png"
+    },
+    {
+      metric: "47%",
+      label: "CAC Reduction",
+      description: "High-end automotive dealership group reduced customer acquisition cost by 47% while maintaining lead quality through programmatic audience engineering.",
+      category: "Automotive",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/leather-pMiVazMlNKmAh3VIdfiAQtLTeQCVWN.png"
+    },
+    {
+      metric: "2.8x",
+      label: "Qualified Consultation Lift",
+      description: "Private wealth management firm saw 2.8x lift in qualified consultations through incrementality-tested campaigns targeting ultra-high-net-worth individuals.",
+      category: "Wealth Management",
+      image: "/images/case-study-wealth.jpg"
+    },
+    {
+      metric: "61%",
+      label: "Repeat Purchase Rate",
+      description: "Luxury direct-to-consumer timepiece brand achieved a 61% increase in repeat purchase rate through precision retargeting and affluent lookalike modeling.",
+      category: "Direct to Consumer",
+      image: "/images/case-study-dtc.jpg"
+    },
+  ]
+
+  const visibleCount = 3
+  const maxIndex = caseStudies.length - visibleCount
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -133,13 +189,35 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Tagline */}
-      <section className="py-12 px-6 sm:px-12">
-        <div className="max-w-6xl mx-auto text-center">
+      {/* Tagline with Image */}
+      <section className="py-20 px-6 sm:px-12 relative overflow-hidden" data-animate id="tagline">
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/leather-pMiVazMlNKmAh3VIdfiAQtLTeQCVWN.png"
+            alt=""
+            fill
+            className={`object-cover transition-all duration-[2000ms] ${visibleSections.has("tagline") ? "opacity-20 scale-100" : "opacity-0 scale-105"}`}
+            loading="lazy"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-background via-background/90 to-background" />
+        </div>
+        <div className={`max-w-6xl mx-auto text-center relative z-10 transition-all duration-1000 ${visibleSections.has("tagline") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
           <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-foreground/80 font-normal italic">
             Signal. Strategy. Scale.
           </h2>
         </div>
+      </section>
+
+      {/* Private Jet Image Break */}
+      <section className="h-64 sm:h-80 relative overflow-hidden" data-animate id="jet-break">
+        <Image
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pj-KZ1i4ebyIG3fBqRuF0Q51xaRuLD4lg.png"
+          alt=""
+          fill
+          className={`object-cover transition-all duration-[2500ms] ${visibleSections.has("jet-break") ? "opacity-30 scale-100" : "opacity-0 scale-105"}`}
+          loading="lazy"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-background via-transparent to-background" />
       </section>
 
       {/* What We Do Section */}
@@ -264,8 +342,18 @@ export default function Home() {
       </section>
 
       {/* Selective by Design Section */}
-      <section className="py-24 sm:py-32 px-6 sm:px-12" data-animate id="selective">
-        <div className="max-w-6xl mx-auto">
+      <section className="py-24 sm:py-32 px-6 sm:px-12 relative overflow-hidden" data-animate id="selective">
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/villa-3RcNXJukiq4qQyFvr6tmHFRssRvlBy.png"
+            alt=""
+            fill
+            className={`object-cover transition-all duration-[2000ms] ${visibleSections.has("selective") ? "opacity-15 scale-100" : "opacity-0 scale-105"}`}
+            loading="lazy"
+          />
+          <div className="absolute inset-0 bg-gradient-to-l from-background via-background/95 to-background" />
+        </div>
+        <div className="max-w-6xl mx-auto relative z-10">
           <div className={`mb-16 transition-all duration-1000 ${visibleSections.has("selective") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
             <p className="text-foreground/50 text-xs tracking-[0.2em] mb-4">FIT</p>
             <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-foreground font-normal">
@@ -303,64 +391,98 @@ export default function Home() {
       </section>
 
       {/* Case Studies Section */}
-      <section className="py-24 sm:py-32 px-6 sm:px-12 bg-card" data-animate id="case-studies">
-        <div className="max-w-6xl mx-auto">
-          <div className={`mb-16 transition-all duration-1000 ${visibleSections.has("case-studies") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
-            <p className="text-foreground/50 text-xs tracking-[0.2em] mb-4">RESULTS</p>
-            <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-foreground font-normal">Case Studies</h2>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            {[
-              {
-                metric: "3.2x",
-                label: "ROAS Improvement",
-                description: "Luxury real estate developer achieved 3.2x return on ad spend through premium CTV placement and affluent audience targeting.",
-                category: "Real Estate",
-                image: "/images/case-study-real-estate.jpg"
-              },
-              {
-                metric: "47%",
-                label: "CAC Reduction",
-                description: "High-end automotive dealership group reduced customer acquisition cost by 47% while maintaining lead quality.",
-                category: "Automotive",
-                image: "/images/case-study-automotive.jpg"
-              },
-              {
-                metric: "2.8x",
-                label: "Conversion Lift",
-                description: "Private wealth management firm saw 2.8x lift in qualified consultations through incrementality-tested campaigns.",
-                category: "Financial Services",
-                image: "/images/case-study-wealth.jpg"
-              }
-            ].map((study, index) => (
-              <div 
-                key={index}
-                className={`border border-border overflow-hidden transition-all duration-1000 hover:border-foreground/30 ${visibleSections.has("case-studies") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
-                style={{ transitionDelay: `${200 + index * 150}ms` }}
+      <section className="py-24 sm:py-32 bg-card overflow-hidden" data-animate id="case-studies">
+        <div className="max-w-6xl mx-auto px-6 sm:px-12">
+          <div className={`flex items-end justify-between mb-16 transition-all duration-1000 ${visibleSections.has("case-studies") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
+            <div>
+              <p className="text-foreground/50 text-xs tracking-[0.2em] mb-4">RESULTS</p>
+              <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-foreground font-normal">Case Studies</h2>
+            </div>
+            <div className="flex items-center gap-3">
+              <button
+                onClick={() => setCaseStudyIndex((i) => Math.max(0, i - 1))}
+                disabled={caseStudyIndex === 0}
+                className="w-10 h-10 border border-border flex items-center justify-center text-foreground/50 hover:text-foreground hover:border-foreground/50 transition-all duration-200 disabled:opacity-20 disabled:cursor-not-allowed"
+                aria-label="Previous case studies"
               >
-                <div className="h-48 relative">
-                  <Image
-                    src={study.image || "/placeholder.svg"}
-                    alt={study.category}
-                    fill
-                    className="object-cover opacity-70"
-                  />
-                </div>
-                <div className="p-8">
-                  <p className="text-foreground/40 text-xs tracking-[0.2em] mb-6">{study.category}</p>
-                  <p className="font-heading text-4xl sm:text-5xl text-accent mb-2">{study.metric}</p>
-                  <p className="text-foreground text-sm font-medium mb-4">{study.label}</p>
-                  <p className="text-foreground/50 text-sm leading-relaxed mb-6">{study.description}</p>
-                  <button className="text-foreground/60 text-xs tracking-[0.1em] hover:text-foreground transition-colors flex items-center gap-2 group">
-                    REQUEST FULL CASE STUDY
-                    <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1" />
-                  </button>
+                <ChevronLeft className="h-4 w-4" />
+              </button>
+              <span className="text-foreground/30 text-xs tracking-widest tabular-nums">
+                {caseStudyIndex + 1} — {Math.min(caseStudyIndex + visibleCount, caseStudies.length)} / {caseStudies.length}
+              </span>
+              <button
+                onClick={() => setCaseStudyIndex((i) => Math.min(maxIndex, i + 1))}
+                disabled={caseStudyIndex >= maxIndex}
+                className="w-10 h-10 border border-border flex items-center justify-center text-foreground/50 hover:text-foreground hover:border-foreground/50 transition-all duration-200 disabled:opacity-20 disabled:cursor-not-allowed"
+                aria-label="Next case studies"
+              >
+                <ChevronRight className="h-4 w-4" />
+              </button>
+            </div>
+          </div>
+        </div>
+
+        {/* Sliding track — no horizontal padding so cards bleed to edge */}
+        <div className="relative">
+          <div
+            className="flex transition-transform duration-700 ease-in-out"
+            style={{ transform: `translateX(calc(-${caseStudyIndex} * (min(400px, 85vw) + 1.5rem) + ${caseStudyIndex === 0 ? "max(1.5rem, calc((100vw - 72rem) / 2))" : "max(1.5rem, calc((100vw - 72rem) / 2))"}))` }}
+          >
+            {caseStudies.map((study, index) => (
+              <div
+                key={index}
+                className="flex-none group"
+                style={{ width: "min(400px, 85vw)", marginRight: "1.5rem" }}
+              >
+                <div className="border border-border overflow-hidden hover:border-foreground/30 transition-colors duration-300 h-full">
+                  <div className="h-48 relative overflow-hidden">
+                    <Image
+                      src={study.image}
+                      alt={study.category}
+                      fill
+                      className="object-cover opacity-70 group-hover:opacity-100 transition-all duration-700 group-hover:scale-105"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className="p-8">
+                    <p className="text-foreground/40 text-xs tracking-[0.2em] mb-6">{study.category}</p>
+                    <p className="font-heading text-4xl sm:text-5xl text-accent mb-2">{study.metric}</p>
+                    <p className="text-foreground text-sm font-medium mb-4">{study.label}</p>
+                    <p className="text-foreground/50 text-sm leading-relaxed mb-6">{study.description}</p>
+                    <Link href="/contact" className="text-foreground/60 text-xs tracking-[0.1em] hover:text-foreground transition-colors flex items-center gap-2 group/link">
+                      REQUEST FULL CASE STUDY
+                      <ArrowRight className="h-3 w-3 transition-transform group-hover/link:translate-x-1" />
+                    </Link>
+                  </div>
                 </div>
               </div>
             ))}
           </div>
         </div>
+
+        {/* Dot indicators */}
+        <div className={`flex justify-center gap-2 mt-10 px-6 transition-all duration-1000 ${visibleSections.has("case-studies") ? "opacity-100" : "opacity-0"}`}>
+          {Array.from({ length: maxIndex + 1 }).map((_, i) => (
+            <button
+              key={i}
+              onClick={() => setCaseStudyIndex(i)}
+              className={`h-px transition-all duration-300 ${i === caseStudyIndex ? "w-8 bg-foreground" : "w-4 bg-foreground/20"}`}
+              aria-label={`Go to slide ${i + 1}`}
+            />
+          ))}
+        </div>
+      </section>
+
+      {/* Luxury Image Break */}
+      <section className="h-64 sm:h-80 relative overflow-hidden" data-animate id="image-break">
+        <Image
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/yacht%202-JiOsv4grWBl4qmjC9dsByIpoAOMGie.png"
+          alt=""
+          fill
+          className={`object-cover transition-all duration-[2500ms] ${visibleSections.has("image-break") ? "opacity-30 scale-100" : "opacity-0 scale-105"}`}
+          loading="lazy"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-card via-transparent to-background" />
       </section>
 
       {/* How We Work Section */}
@@ -393,8 +515,18 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-24 sm:py-32 px-6 sm:px-12 border-t border-border" data-animate id="cta">
-        <div className={`max-w-4xl mx-auto text-center transition-all duration-1000 ${visibleSections.has("cta") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
+      <section className="py-24 sm:py-32 px-6 sm:px-12 border-t border-border relative overflow-hidden" data-animate id="cta">
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/yacht.png-eZg3SkQdiov4FfwEKbytMDfT5j9kwd.jpeg"
+            alt=""
+            fill
+            className={`object-cover transition-all duration-[2000ms] ${visibleSections.has("cta") ? "opacity-10 scale-100" : "opacity-0 scale-105"}`}
+            loading="lazy"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-background via-background/95 to-background" />
+        </div>
+        <div className={`max-w-4xl mx-auto text-center relative z-10 transition-all duration-1000 ${visibleSections.has("cta") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
           <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-foreground font-normal mb-8">
             Ready to discuss <span className="italic">your goals?</span>
           </h2>
