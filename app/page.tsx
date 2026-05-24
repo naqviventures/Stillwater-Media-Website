@@ -4,7 +4,7 @@ import type React from "react"
 import { Button } from "@/components/ui/button"
 import { Navigation, Footer } from "@/components/navigation"
 import Link from "next/link"
-import { useEffect, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import { ArrowRight, Check, X, Plane, Users, Hotel, ShoppingBag, TrendingUp, Car, ChevronLeft, ChevronRight } from "lucide-react"
 import Image from "next/image"
 
@@ -12,6 +12,7 @@ export default function Home() {
   const [visibleSections, setVisibleSections] = useState<Set<string>>(new Set())
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [caseStudyIndex, setCaseStudyIndex] = useState(0)
+  const touchStartX = useRef<number | null>(null)
 
   const caseStudies = [
     {
@@ -358,7 +359,7 @@ export default function Home() {
         </div>
         <div className="max-w-6xl mx-auto relative z-10">
           <div className={`mb-16 transition-all duration-1000 ${visibleSections.has("selective") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
-            <p className="text-foreground/50 text-xs tracking-[0.2em] mb-4">FIT</p>
+            <p className="text-foreground/50 text-xs tracking-[0.2em] mb-4">THE BEST FIT</p>
             <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-foreground font-normal">
               Selective <span className="italic">by design</span>
             </h2>
@@ -426,7 +427,17 @@ export default function Home() {
         </div>
 
         {/* Sliding track — no horizontal padding so cards bleed to edge */}
-        <div className="relative">
+        <div
+          className="relative"
+          onTouchStart={(e) => { touchStartX.current = e.touches[0].clientX }}
+          onTouchEnd={(e) => {
+            if (touchStartX.current === null) return
+            const delta = touchStartX.current - e.changedTouches[0].clientX
+            if (delta > 50) setCaseStudyIndex((i) => Math.min(maxIndex, i + 1))
+            else if (delta < -50) setCaseStudyIndex((i) => Math.max(0, i - 1))
+            touchStartX.current = null
+          }}
+        >
           <div
             className="flex transition-transform duration-700 ease-in-out"
             style={{ transform: `translateX(calc(-${caseStudyIndex} * (min(400px, 85vw) + 1.5rem) + ${caseStudyIndex === 0 ? "max(1.5rem, calc((100vw - 72rem) / 2))" : "max(1.5rem, calc((100vw - 72rem) / 2))"}))` }}
