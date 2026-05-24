@@ -13,7 +13,7 @@ export const metadata = {
     url: "https://stillwatermedia.io/insights/ctv-advertising-high-net-worth-consumers",
     images: [
       {
-        url: "https://stillwatermedia.io/images/ctv-advertising-high-net-worth.jpg",
+        url: "/images/ctv-advertising-high-net-worth.jpg",
         width: 1200,
         height: 630,
         alt: "Affluent couple watching premium streaming content on a large screen in a modern luxury living room",
@@ -25,7 +25,7 @@ export const metadata = {
     title: "How to Reach High-Net-Worth Consumers Through Premium CTV Advertising",
     description:
       "Learn how luxury brands use CTV to target affluent households on Disney+, Netflix & Prime Video with precision and brand safety.",
-    images: ["https://stillwatermedia.io/images/ctv-advertising-high-net-worth.jpg"],
+    images: ["/images/ctv-advertising-high-net-worth.jpg"],
   },
 }
 
@@ -43,7 +43,7 @@ export default function CTVAdvertisingHighNetWorth() {
               "Premium CTV advertising reaches affluent consumers where they stream. Learn how luxury brands use connected TV to target high-net-worth households with precision and brand safety.",
             image: {
               "@type": "ImageObject",
-              url: "https://stillwatermedia.io/images/ctv-advertising-high-net-worth.jpg",
+              url: "/images/ctv-advertising-high-net-worth.jpg",
               width: 1200,
               height: 630,
               caption:

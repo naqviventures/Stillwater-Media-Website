@@ -15,6 +15,11 @@ export default function Insights() {
       ? insightPosts
       : insightPosts.filter((p) => p.category === activeCategory)
 
+  const sorted = filtered.sort((a, b) => {
+    if (!a.date || !b.date) return 0
+    return new Date(b.date).getTime() - new Date(a.date).getTime()
+  })
+
   return (
     <div className="min-h-screen bg-background text-foreground">
       <Navigation />
@@ -63,14 +68,14 @@ export default function Insights() {
               </button>
             ))}
             <span className="ml-auto text-foreground/30 text-xs self-center tabular-nums">
-              {filtered.length} {filtered.length === 1 ? "article" : "articles"}
+              {sorted.length} {sorted.length === 1 ? "article" : "articles"}
             </span>
           </div>
 
           {/* Posts Grid */}
-          {filtered.length > 0 ? (
+          {sorted.length > 0 ? (
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {filtered.map((post) => (
+              {sorted.map((post) => (
                 <article
                   key={post.slug}
                   className="group border border-border hover:border-foreground/30 transition-all duration-300"
