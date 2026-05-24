@@ -170,21 +170,24 @@ export default function Home() {
                 alt: "Financial Independence Group",
                 height: 58,
               },
-            ].map((logo) => (
-              <div key={logo.alt} className="flex items-center justify-center">
-                <img
-                  src={logo.src}
-                  alt={logo.alt}
-                  style={{
-                    height: logo.height,
-                    width: "auto",
-                    maxWidth: 200,
-                    filter: "brightness(0) opacity(0.55)",
-                  }}
-                  className="object-contain dark:[filter:brightness(0)_invert(1)_opacity(0.55)]"
-                />
-              </div>
-            ))}
+            ].map((logo) => {
+              const isDark = false; // This will need to use a theme context, but inline filters work differently
+              return (
+                <div key={logo.alt} className="flex items-center justify-center">
+                  <img
+                    src={logo.src}
+                    alt={logo.alt}
+                    style={{
+                      height: logo.height,
+                      width: "auto",
+                      maxWidth: 200,
+                      filter: "brightness(0) opacity(0.55)",
+                    }}
+                    className="object-contain dark:invert dark:opacity-60"
+                  />
+                </div>
+              )
+            })}
           </div>
         </div>
       </section>
@@ -343,15 +346,19 @@ export default function Home() {
 
       {/* Selective by Design Section */}
       <section className="py-24 sm:py-32 px-6 sm:px-12 relative overflow-hidden" data-animate id="selective">
-        <div className="absolute inset-0 z-0">
+        {/* Right-side image — occupies the right 50% only, entire container fades together */}
+        <div
+          className={`absolute inset-y-0 right-0 w-1/2 z-0 transition-all duration-[2000ms] ${visibleSections.has("selective") ? "opacity-100 scale-100" : "opacity-0 scale-105"}`}
+        >
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/villa-3RcNXJukiq4qQyFvr6tmHFRssRvlBy.png"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cabana%202.png-YEYKHMWiAP2fSIDLmrqBa4MjwRfFlg.jpeg"
             alt=""
             fill
-            className={`object-cover transition-all duration-[2000ms] ${visibleSections.has("selective") ? "opacity-15 scale-100" : "opacity-0 scale-105"}`}
+            className="object-cover opacity-25"
             loading="lazy"
           />
-          <div className="absolute inset-0 bg-gradient-to-l from-background via-background/95 to-background" />
+          {/* Fade from left edge into section bg, and soften right edge */}
+          <div className="absolute inset-0 bg-gradient-to-r from-background via-background/30 to-background/60" />
         </div>
         <div className="max-w-6xl mx-auto relative z-10">
           <div className={`mb-16 transition-all duration-1000 ${visibleSections.has("selective") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
