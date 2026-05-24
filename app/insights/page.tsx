@@ -24,6 +24,14 @@ export default function Insights() {
       category: "CTV",
     },
     {
+      slug: "ctv-advertising-high-net-worth-consumers",
+      title: "CTV Advertising for High-Net-Worth Consumers: Precision Targeting Strategies",
+      excerpt:
+        "Discover how to reach affluent audiences through Connected TV with premium placements, contextual targeting, and sophisticated measurement for luxury brands.",
+      image: "/images/ctv-advertising-high-net-worth.jpg",
+      category: "CTV",
+    },
+    {
       slug: "billboard-advertising-digital-age",
       title: "Billboard Advertising in the Digital Age: Integrating OOH with Programmatic Campaigns",
       excerpt:
