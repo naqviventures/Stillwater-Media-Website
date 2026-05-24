@@ -170,21 +170,24 @@ export default function Home() {
                 alt: "Financial Independence Group",
                 height: 58,
               },
-            ].map((logo) => (
-              <div key={logo.alt} className="flex items-center justify-center">
-                <img
-                  src={logo.src}
-                  alt={logo.alt}
-                  style={{
-                    height: logo.height,
-                    width: "auto",
-                    maxWidth: 200,
-                    filter: "brightness(0) opacity(0.55)",
-                  }}
-                  className="object-contain dark:[filter:brightness(0)_invert(1)_opacity(0.55)]"
-                />
-              </div>
-            ))}
+            ].map((logo) => {
+              const isDark = false; // This will need to use a theme context, but inline filters work differently
+              return (
+                <div key={logo.alt} className="flex items-center justify-center">
+                  <img
+                    src={logo.src}
+                    alt={logo.alt}
+                    style={{
+                      height: logo.height,
+                      width: "auto",
+                      maxWidth: 200,
+                      filter: "brightness(0) opacity(0.55)",
+                    }}
+                    className="object-contain dark:invert dark:opacity-60"
+                  />
+                </div>
+              )
+            })}
           </div>
         </div>
       </section>
