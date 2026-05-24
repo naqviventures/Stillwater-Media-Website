@@ -208,6 +208,18 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Private Jet Image Break */}
+      <section className="h-64 sm:h-80 relative overflow-hidden" data-animate id="jet-break">
+        <Image
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pj-KZ1i4ebyIG3fBqRuF0Q51xaRuLD4lg.png"
+          alt=""
+          fill
+          className={`object-cover transition-all duration-[2500ms] ${visibleSections.has("jet-break") ? "opacity-30 scale-100" : "opacity-0 scale-105"}`}
+          loading="lazy"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-background via-transparent to-background" />
+      </section>
+
       {/* What We Do Section */}
       <section className="pt-12 pb-24 sm:pt-16 sm:pb-32 px-6 sm:px-12" data-animate id="what-we-do">
         <div className="max-w-6xl mx-auto">
@@ -428,7 +440,7 @@ export default function Home() {
                       src={study.image}
                       alt={study.category}
                       fill
-                      className="object-cover opacity-70 transition-transform duration-700 group-hover:scale-105"
+                      className="object-cover opacity-70 group-hover:opacity-100 transition-all duration-700 group-hover:scale-105"
                       loading="lazy"
                     />
                   </div>
