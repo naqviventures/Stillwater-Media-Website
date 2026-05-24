@@ -78,8 +78,58 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Trusted By Brands */}
+      <section className="border-b border-border py-14 px-6 sm:px-12" data-animate id="trusted-by">
+        <div className={`max-w-6xl mx-auto transition-all duration-1000 ${visibleSections.has("trusted-by") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
+          <p className="text-foreground/40 text-xs tracking-[0.2em] mb-10 text-center">TRUSTED BY</p>
+          <div className="flex flex-wrap items-center justify-center gap-x-12 gap-y-8 md:gap-x-16">
+            {[
+              {
+                src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/jetlinx-logo-white-e1769896941651-w3ubXqlqCYtEHFxcDTudDS762Th8bX.png",
+                alt: "JetLinx",
+                height: 32,
+              },
+              {
+                src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/w-hotels-logo-png-transparent-uthObCjSeGBfMKwtMi7udjDyTqhhNt.webp",
+                alt: "W Hotels",
+                height: 56,
+              },
+              {
+                src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/4c712f073b348846cf77773df105-2uDvrK2wUA7eZxy1htm5bYIxsCTaJL.webp",
+                alt: "Financial Independence Group",
+                height: 36,
+              },
+              {
+                src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/6297b9faac36da5e098ea631_FLY_MasterLogo_RGB_Reverse%202-CTJ30129ucxz1nRDzATR9RCcIrVWta.png",
+                alt: "FLY",
+                height: 28,
+              },
+              {
+                src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/preserve_logo_only_wordmark_white_text-T7CoWSAvi14KiCMscwBxe5qSm5cuHt.png",
+                alt: "Preserve",
+                height: 56,
+              },
+              {
+                src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pxg_logo_transparent-hYzi3h9jcpvwfZelS5c8y7HaHGQH4v.png",
+                alt: "PXG",
+                height: 40,
+              },
+            ].map((logo) => (
+              <div key={logo.alt} className="flex items-center justify-center">
+                <img
+                  src={logo.src}
+                  alt={logo.alt}
+                  style={{ height: logo.height, width: "auto", maxWidth: 160 }}
+                  className="object-contain grayscale opacity-40 dark:opacity-30 dark:invert"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Social Proof Strip */}
-      <section className="border-y border-border py-16 px-6 sm:px-12" data-animate id="social-proof">
+      <section className="border-b border-border py-16 px-6 sm:px-12" data-animate id="social-proof">
         <div className={`max-w-6xl mx-auto transition-all duration-1000 delay-200 ${visibleSections.has("social-proof") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
           <p className="text-foreground/50 text-xs tracking-[0.2em] mb-10">SELECTED ENGAGEMENTS</p>
           
