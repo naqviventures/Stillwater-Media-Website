@@ -10,16 +10,39 @@ import { ArrowLeft, ArrowRight } from "lucide-react"
 
 interface ArticleLayoutProps {
   title: string
-  subtitle: string
+  subtitle?: string
   category: string
   image: string
   imageAlt: string
+  imageCaption?: string
+  author?: string
+  date?: string
+  readingTime?: string
+  schemaMarkup?: Record<string, unknown>
   children: React.ReactNode
 }
 
-export function ArticleLayout({ title, subtitle, category, image, imageAlt, children }: ArticleLayoutProps) {
+export function ArticleLayout({ 
+  title, 
+  subtitle, 
+  category, 
+  image, 
+  imageAlt, 
+  imageCaption,
+  author,
+  date,
+  readingTime,
+  schemaMarkup,
+  children 
+}: ArticleLayoutProps) {
   return (
     <div className="min-h-screen bg-background text-foreground">
+      {schemaMarkup && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}
+        />
+      )}
       <Navigation />
 
       <article className="pt-32 pb-24 px-6 sm:px-12">
@@ -51,13 +74,28 @@ export function ArticleLayout({ title, subtitle, category, image, imageAlt, chil
             <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl text-foreground font-normal leading-tight mb-6">
               {title}
             </h1>
-            <p className="text-foreground/60 text-xl leading-relaxed">
-              {subtitle}
-            </p>
+            {subtitle && (
+              <p className="text-foreground/60 text-xl leading-relaxed mb-6">
+                {subtitle}
+              </p>
+            )}
+            {(author || date || readingTime) && (
+              <div className="flex flex-wrap items-center gap-4 text-sm text-foreground/50">
+                {author && <span>{author}</span>}
+                {author && (date || readingTime) && <span>•</span>}
+                {date && <span>{date}</span>}
+                {date && readingTime && <span>•</span>}
+                {readingTime && <span>{readingTime}</span>}
+              </div>
+            )}
           </header>
+          
+          {imageCaption && (
+            <p className="text-sm text-foreground/50 italic -mt-4 mb-8">{imageCaption}</p>
+          )}
 
           {/* Article Content */}
-          <div className="prose dark:prose-invert max-w-none">
+          <div className="prose prose-lg dark:prose-invert max-w-none prose-headings:font-heading prose-headings:font-normal prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:text-foreground/70 prose-p:leading-relaxed prose-p:mb-6 prose-li:text-foreground/70 prose-li:leading-relaxed prose-ul:my-6 prose-ol:my-6 prose-ul:space-y-2 prose-ol:space-y-3 prose-strong:text-foreground prose-a:text-foreground prose-a:underline hover:prose-a:no-underline prose-hr:my-8 prose-hr:border-border prose-table:my-6 prose-th:text-left prose-th:py-3 prose-th:px-4 prose-td:py-3 prose-td:px-4 prose-tr:border-b prose-tr:border-border">
             {children}
           </div>
 
