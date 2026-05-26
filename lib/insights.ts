@@ -9,6 +9,33 @@ export interface InsightPost {
 
 export const insightPosts: InsightPost[] = [
   {
+    slug: "affluent-audience-targeting",
+    title: "The Complete Guide to Affluent Audience Targeting in 2025",
+    excerpt:
+      "Learn how affluent audience targeting works—wealth signals, premium data sources, lookalike modeling, and the exact frameworks luxury brands use to reach HNW consumers.",
+    image: "/images/affluent-audience-targeting.jpg",
+    category: "Audience Strategy",
+    date: "2026-05-26",
+  },
+  {
+    slug: "brand-safe-programmatic-advertising",
+    title: "Why Brand-Safe Programmatic Advertising Is Non-Negotiable for Luxury Brands",
+    excerpt:
+      "Brand-safe programmatic advertising ensures your luxury brand never appears next to content that undermines premium equity. Learn private marketplaces, brand suitability tiers, and contextual safeguards.",
+    image: "/images/brand-safe-programmatic-advertising.jpg",
+    category: "Programmatic",
+    date: "2026-05-26",
+  },
+  {
+    slug: "incrementality-testing-luxury-brands",
+    title: "Incrementality Testing: The Metric Luxury Brands Can't Afford to Ignore",
+    excerpt:
+      "Incrementality testing reveals what your media actually causes—not just correlates with. Learn how luxury brands use holdout testing to prove real ad ROI.",
+    image: "/images/incrementality-testing-luxury-brands.jpg",
+    category: "Measurement",
+    date: "2026-05-25",
+  },
+  {
     slug: "ctv-advertising-high-net-worth-consumers",
     title: "How to Reach High-Net-Worth Consumers Through Premium CTV Advertising",
     excerpt:
