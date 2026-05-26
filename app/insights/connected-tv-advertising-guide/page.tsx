@@ -1,121 +1,284 @@
 import { ArticleLayout } from "@/components/article-layout"
 
+export const metadata = {
+  title: "Connected TV Advertising: Complete Guide to CTV Campaign Success | Stillwater Media",
+  description:
+    "Master Connected TV advertising with proven strategies for audience targeting, creative optimization, and performance measurement across streaming platforms.",
+  openGraph: {
+    title: "Connected TV Advertising: The Complete Guide to CTV Campaign Success",
+    description:
+      "Over 80% of US households have CTV devices. Learn how to build successful campaigns across Netflix, Disney+, and premium streaming platforms.",
+    type: "article",
+    url: "https://stillwatermedia.io/insights/connected-tv-advertising-guide",
+    images: [
+      {
+        url: "/connected-tv-streaming-devices-and-smart-tv-interf.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Connected TV devices and smart TV interface showing streaming content",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Connected TV Advertising: The Complete Guide to CTV Campaign Success",
+    description:
+      "Strategies for audience targeting, creative optimization, and measurement across premium streaming platforms.",
+    images: ["/connected-tv-streaming-devices-and-smart-tv-interf.jpg"],
+  },
+}
+
 export default function ConnectedTVAdvertisingGuide() {
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: "Connected TV Advertising: The Complete Guide to CTV Campaign Success",
+    description:
+      "A comprehensive guide to Connected TV advertising covering audience targeting, ad formats, creative best practices, and measurement strategies.",
+    image: {
+      "@type": "ImageObject",
+      url: "/connected-tv-streaming-devices-and-smart-tv-interf.jpg",
+      width: 1200,
+      height: 630,
+    },
+    author: {
+      "@type": "Organization",
+      name: "Stillwater Media",
+      url: "https://stillwatermedia.io",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Stillwater Media",
+      url: "https://stillwatermedia.io",
+      logo: {
+        "@type": "ImageObject",
+        url: "/stillwater-logo.png",
+      },
+    },
+    datePublished: "2025-11-15T08:00:00-05:00",
+    dateModified: "2025-11-15T08:00:00-05:00",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://stillwatermedia.io/insights/connected-tv-advertising-guide",
+    },
+    keywords:
+      "connected TV advertising, CTV advertising, streaming TV ads, OTT advertising, smart TV advertising, programmatic CTV",
+    articleSection: "CTV",
+    wordCount: 2200,
+    inLanguage: "en-US",
+  }
+
   return (
     <ArticleLayout
       title="Connected TV Advertising: The Complete Guide to CTV Campaign Success"
       subtitle="Master the art of Connected TV advertising with proven strategies for audience targeting, creative optimization, and performance measurement across streaming platforms."
       category="CTV"
       image="/connected-tv-streaming-devices-and-smart-tv-interf.jpg"
-      imageAlt="Connected TV advertising on streaming platforms"
+      imageAlt="Connected TV devices and smart TV interface showing streaming content"
+      schemaMarkup={schemaMarkup}
     >
-      <p className="text-foreground/70 leading-relaxed mb-6">
-        Connected TV (CTV) advertising has emerged as one of the most powerful and rapidly growing channels in
-        digital marketing. As traditional linear TV viewership continues to decline and streaming services
-        proliferate, advertisers are shifting significant portions of their budgets to CTV platforms. This
-        comprehensive guide will walk you through everything you need to know to create successful CTV campaigns
-        that drive real business results.
+      <p>
+        Connected TV (CTV) advertising has emerged as one of the most powerful channels in digital marketing. As traditional linear TV viewership continues to decline and streaming services proliferate, advertisers are shifting significant portions of their budgets to CTV platforms.
       </p>
 
-      <h2 className="font-heading text-2xl text-foreground font-normal mt-12 mb-4">
-        Understanding the Connected TV Landscape
-      </h2>
-
-      <p className="text-foreground/70 leading-relaxed mb-6">
-        Connected TV refers to any television that can connect to the internet and stream digital content. This
-        includes smart TVs, streaming devices like Roku and Apple TV, gaming consoles, and mobile devices casting to
-        TV screens. The CTV ecosystem encompasses major streaming platforms like Netflix, Hulu, Disney+, and
-        countless others, each offering unique advertising opportunities.
+      <p>
+        Over 80% of US households now have at least one connected TV device, and streaming viewership has surpassed traditional cable in many demographics. This guide covers everything you need to know to build successful CTV campaigns.
       </p>
 
-      <p className="text-foreground/70 leading-relaxed mb-6">
-        The growth of CTV has been explosive. Over 80% of US households now have at least one connected TV device,
-        and streaming viewership has surpassed traditional cable in many demographics. This shift represents a
-        fundamental change in how audiences consume video content and presents unprecedented opportunities for
-        advertisers to reach engaged viewers in premium environments.
+      <hr />
+
+      <h2>Understanding the Connected TV Landscape</h2>
+
+      <p>
+        Connected TV refers to any television that can connect to the internet and stream digital content:
       </p>
 
-      <h2 className="font-heading text-2xl text-foreground font-normal mt-12 mb-4">
-        CTV Advertising Formats and Opportunities
-      </h2>
+      <h3>CTV Device Types</h3>
 
-      <p className="text-foreground/70 leading-relaxed mb-6">
-        CTV advertising offers several distinct formats, each with unique advantages. Pre-roll ads appear before
-        content begins, capturing viewers' full attention when engagement is highest. Mid-roll ads are inserted
-        during natural content breaks, similar to traditional TV commercials but with better targeting capabilities.
-        Post-roll ads appear after content ends, ideal for driving immediate action from engaged viewers.
+      <ul>
+        <li><strong>Smart TVs</strong> — Television sets with built-in streaming capabilities</li>
+        <li><strong>Streaming devices</strong> — Roku, Apple TV, Fire Stick, Chromecast</li>
+        <li><strong>Gaming consoles</strong> — PlayStation, Xbox, Nintendo Switch</li>
+        <li><strong>Casting devices</strong> — Mobile devices mirroring to TV screens</li>
+      </ul>
+
+      <h3>Major Streaming Platforms</h3>
+
+      <ol>
+        <li><strong>Netflix</strong> — Ad-supported tier launched 2024, affluent audience</li>
+        <li><strong>Disney+</strong> — Family and entertainment focus, premium brand safety</li>
+        <li><strong>Prime Video</strong> — Amazon's intent data overlay, purchase behavior</li>
+        <li><strong>Hulu</strong> — Established ad-supported model, strong targeting</li>
+        <li><strong>Max (HBO)</strong> — Premium content, affluent subscribers</li>
+        <li><strong>Peacock</strong> — Live sports, news, NBC content library</li>
+      </ol>
+
+      <hr />
+
+      <h2>CTV Advertising Formats and Opportunities</h2>
+
+      <h3>Standard Ad Formats</h3>
+
+      <ul>
+        <li><strong>Pre-roll</strong> — Ads before content begins; highest attention and completion rates</li>
+        <li><strong>Mid-roll</strong> — Inserted during natural breaks; similar to traditional TV</li>
+        <li><strong>Post-roll</strong> — After content ends; ideal for direct response CTAs</li>
+        <li><strong>Pause ads</strong> — Display when viewer pauses; non-intrusive brand exposure</li>
+      </ul>
+
+      <h3>Interactive CTV Formats</h3>
+
+      <p>
+        Advanced formats that drive engagement beyond passive viewing:
       </p>
 
-      <p className="text-foreground/70 leading-relaxed mb-6">
-        Interactive CTV ads represent the cutting edge of the format, allowing viewers to engage directly with
-        content through their remote controls or mobile devices. These ads can include clickable elements, QR codes,
-        or companion experiences that bridge the gap between TV viewing and digital engagement. The result is a more
-        immersive advertising experience that drives higher engagement rates than traditional formats.
+      <ol>
+        <li><strong>QR code overlays</strong> — Connect TV viewing to mobile actions</li>
+        <li><strong>Clickable elements</strong> — Remote-navigable calls to action</li>
+        <li><strong>Shoppable ads</strong> — Direct purchase paths from ad exposure</li>
+        <li><strong>Companion experiences</strong> — Synchronized content on second screens</li>
+      </ol>
+
+      <hr />
+
+      <h2>Advanced Audience Targeting Strategies</h2>
+
+      <p>
+        CTV's greatest advantage over linear TV is sophisticated targeting capabilities:
       </p>
 
-      <h2 className="font-heading text-2xl text-foreground font-normal mt-12 mb-4">
-        Advanced Audience Targeting Strategies
-      </h2>
+      <h3>Targeting Dimensions</h3>
 
-      <p className="text-foreground/70 leading-relaxed mb-6">
-        One of CTV's greatest advantages is its sophisticated targeting capabilities. Unlike traditional TV
-        advertising, which relies primarily on broad demographic assumptions, CTV allows for precise audience
-        segmentation based on actual viewing behavior, purchase history, and digital footprints. Advertisers can
-        target specific households, not just general demographics.
+      <ul>
+        <li><strong>Demographic</strong> — Age, gender, income, education, household composition</li>
+        <li><strong>Behavioral</strong> — Viewing patterns, content preferences, engagement history</li>
+        <li><strong>First-party data</strong> — CRM onboarding, website visitors, customer lookalikes</li>
+        <li><strong>Intent signals</strong> — Purchase research, competitive brand interest</li>
+        <li><strong>Contextual</strong> — Content genre, show-level targeting, daypart</li>
+      </ul>
+
+      <h3>Household-Level Precision</h3>
+
+      <p>
+        Unlike linear TV's broad demographic assumptions, CTV enables:
       </p>
 
-      <p className="text-foreground/70 leading-relaxed mb-6">
-        Behavioral targeting in CTV goes beyond simple demographics to include viewing patterns, content
-        preferences, and engagement history. Advertisers can target users who watch specific genres, binge-watch
-        series, or prefer certain streaming platforms. This granular targeting ensures that ads reach the most
-        relevant audiences, improving both engagement rates and return on investment.
+      <ol>
+        <li>Deterministic matching to known households</li>
+        <li>Cross-device identity resolution within households</li>
+        <li>Frequency capping at the household level</li>
+        <li>Sequential messaging across family members</li>
+      </ol>
+
+      <hr />
+
+      <h2>Creative Best Practices for CTV Success</h2>
+
+      <h3>Environment Considerations</h3>
+
+      <p>
+        CTV viewing differs fundamentally from mobile and desktop:
       </p>
 
-      <h2 className="font-heading text-2xl text-foreground font-normal mt-12 mb-4">
-        Creative Best Practices for CTV Success
-      </h2>
+      <ul>
+        <li><strong>Large screen</strong> — Cinematic, high-production-value creative works best</li>
+        <li><strong>Lean-back experience</strong> — Viewers are relaxed, distraction-free</li>
+        <li><strong>Sound on</strong> — Audio is primary, not optional</li>
+        <li><strong>Shared viewing</strong> — Multiple household members often watch together</li>
+      </ul>
 
-      <p className="text-foreground/70 leading-relaxed mb-6">
-        Creating effective CTV creative requires understanding the unique viewing environment. Unlike mobile or
-        desktop ads, CTV ads are viewed on large screens in comfortable, distraction-free environments. This
-        presents an opportunity to create cinematic, high-production-value content that captures and holds viewer
-        attention.
+      <h3>Creative Guidelines</h3>
+
+      <ol>
+        <li><strong>Strong opening</strong> — First 3 seconds must capture attention and establish relevance</li>
+        <li><strong>Clear value proposition</strong> — Communicate benefit quickly and memorably</li>
+        <li><strong>Visual quality</strong> — HD/4K production standards expected</li>
+        <li><strong>Brand consistency</strong> — Maintain premium positioning throughout</li>
+        <li><strong>Clear CTA</strong> — Simple, memorable action for viewers to take</li>
+      </ol>
+
+      <h3>Optimal Ad Lengths</h3>
+
+      <ul>
+        <li><strong>15 seconds</strong> — Efficient reach, good for awareness and frequency</li>
+        <li><strong>30 seconds</strong> — Standard format, balanced storytelling and efficiency</li>
+        <li><strong>60+ seconds</strong> — Premium placements, complex messaging, consideration stage</li>
+      </ul>
+
+      <hr />
+
+      <h2>Measurement and Attribution in CTV</h2>
+
+      <h3>Key Performance Metrics</h3>
+
+      <ul>
+        <li><strong>Completion rate</strong> — Percentage of viewers watching full ad (target 95%+)</li>
+        <li><strong>Reach</strong> — Unique households exposed to campaign</li>
+        <li><strong>Frequency</strong> — Average exposures per household (typically cap at 3-5/week)</li>
+        <li><strong>Brand lift</strong> — Survey-measured awareness and consideration impact</li>
+        <li><strong>Search lift</strong> — Increase in branded search following exposure</li>
+        <li><strong>Website visits</strong> — Trackable visits attributed to CTV exposure</li>
+      </ul>
+
+      <h3>Attribution Methodologies</h3>
+
+      <ol>
+        <li><strong>Incrementality testing</strong> — Holdout groups measuring true causal impact</li>
+        <li><strong>Cross-device tracking</strong> — Connect CTV exposure to mobile/desktop actions</li>
+        <li><strong>Foot traffic attribution</strong> — Link ad exposure to store visits</li>
+        <li><strong>Conversion tracking</strong> — Match exposed households to conversion events</li>
+      </ol>
+
+      <hr />
+
+      <h2>Common CTV Campaign Mistakes</h2>
+
+      <h3>Avoid These Pitfalls</h3>
+
+      <ol>
+        <li><strong>Buying open exchange CTV</strong> — Fraud risk is high; use PMPs with named publishers</li>
+        <li><strong>No frequency caps</strong> — Without limits, households see ads 40+ times weekly</li>
+        <li><strong>Repurposed digital creative</strong> — Mobile/banner creative fails on TV screens</li>
+        <li><strong>Last-click attribution</strong> — Undervalues CTV's awareness contribution</li>
+        <li><strong>Treating CTV as direct response</strong> — Primary value is brand building and consideration</li>
+      </ol>
+
+      <h3>Best Practice Checklist</h3>
+
+      <ul>
+        <li>Private marketplace deals with premium publishers</li>
+        <li>Frequency caps at 3-5 exposures per household per week</li>
+        <li>TV-quality creative (not repurposed digital)</li>
+        <li>Incrementality measurement framework</li>
+        <li>Cross-channel integration with digital campaigns</li>
+      </ul>
+
+      <hr />
+
+      <h2>Key Takeaways</h2>
+
+      <p>
+        Connected TV advertising represents a fundamental shift in how brands reach and engage audiences:
       </p>
 
-      <p className="text-foreground/70 leading-relaxed mb-6">
-        The first few seconds of a CTV ad are crucial. With viewers accustomed to premium content, ads must
-        immediately establish relevance and value. Strong opening hooks, clear value propositions, and compelling
-        visuals are essential for preventing viewers from losing interest or switching content.
+      <ul>
+        <li><strong>Precision meets scale</strong> — Household-level targeting at television reach</li>
+        <li><strong>Premium environments</strong> — Brand-safe content from trusted publishers</li>
+        <li><strong>Measurable impact</strong> — Attribution capabilities beyond traditional TV</li>
+        <li><strong>Engaged audiences</strong> — Non-skippable, sound-on, lean-back viewing</li>
+      </ul>
+
+      <p>
+        The key to CTV success lies in treating it not as a replacement for traditional TV, but as a powerful new channel that combines the best aspects of television and digital advertising.
       </p>
 
-      <h2 className="font-heading text-2xl text-foreground font-normal mt-12 mb-4">
-        Measurement and Attribution in CTV
-      </h2>
+      <hr />
 
-      <p className="text-foreground/70 leading-relaxed mb-6">
-        Measuring CTV campaign performance requires a multi-faceted approach that goes beyond traditional TV
-        metrics. While reach and frequency remain important, CTV enables more sophisticated measurement including
-        completion rates, engagement metrics, and direct response tracking. Advanced attribution models can connect
-        CTV exposure to website visits, app downloads, and offline purchases.
-      </p>
-
-      <p className="text-foreground/70 leading-relaxed mb-6">
-        Cross-device tracking capabilities allow advertisers to understand how CTV exposure influences behavior
-        across other channels. Viewers might see an ad on their TV and later search for the brand on their mobile
-        device or visit a website on their laptop. Proper attribution modeling captures these cross-device
-        interactions to provide a complete picture of campaign impact.
-      </p>
-
-      <h2 className="font-heading text-2xl text-foreground font-normal mt-12 mb-4">
-        The Future of Connected TV
-      </h2>
-
-      <p className="text-foreground/70 leading-relaxed mb-6">
-        Connected TV advertising represents a fundamental shift in how brands reach and engage audiences. By
-        understanding the unique characteristics of the CTV environment and implementing sophisticated targeting,
-        creative, and measurement strategies, advertisers can achieve unprecedented levels of precision and
-        effectiveness. The key to success lies in treating CTV not as a replacement for traditional TV, but as a
-        powerful new channel that combines the best aspects of television and digital advertising.
+      <p className="text-sm italic text-foreground/60">
+        Stillwater Media builds premium CTV campaigns for luxury and high-consideration brands. We combine household-level targeting with brand-safe inventory and rigorous measurement.{" "}
+        <a href="/apply" className="underline hover:no-underline text-foreground">
+          Apply to work with us
+        </a>
       </p>
     </ArticleLayout>
   )
