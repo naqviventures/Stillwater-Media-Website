@@ -9,6 +9,24 @@ export interface InsightPost {
 
 export const insightPosts: InsightPost[] = [
   {
+    slug: "ctv-vs-linear-tv-luxury-brand-advertising",
+    title: "CTV vs. Linear TV: Which Wins for Luxury Brand Advertising?",
+    excerpt:
+      "A definitive comparison of CTV and linear TV for luxury advertisers — targeting capabilities, CPM benchmarks, brand lift measurement, and strategic allocation.",
+    image: "/images/ctv-vs-linear-tv-luxury-brand-advertising.png",
+    category: "CTV & Streaming",
+    date: "2026-05-27",
+  },
+  {
+    slug: "private-marketplace-deals-luxury-advertising",
+    title: "Private Marketplace Deals: Why Luxury Brands Need PMP Access",
+    excerpt:
+      "Discover why private marketplace deals are essential for luxury brands. Learn how to access PMP deals, negotiate with premium publishers, and build brand-safe programmatic strategy.",
+    image: "/images/private-marketplace-deals-luxury-advertising.png",
+    category: "Programmatic Strategy",
+    date: "2026-05-27",
+  },
+  {
     slug: "affluent-audience-targeting",
     title: "The Complete Guide to Affluent Audience Targeting in 2025",
     excerpt:
