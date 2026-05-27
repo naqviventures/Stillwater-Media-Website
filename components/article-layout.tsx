@@ -95,7 +95,7 @@ export function ArticleLayout({
           )}
 
           {/* Article Content */}
-          <div className="prose prose-lg dark:prose-invert max-w-none prose-headings:font-heading prose-headings:font-normal prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-p:text-foreground/70 prose-p:leading-relaxed prose-p:mb-6 prose-li:text-foreground/70 prose-li:leading-relaxed prose-ul:my-6 prose-ol:my-6 prose-ul:space-y-2 prose-ol:space-y-3 prose-strong:text-foreground prose-a:text-foreground prose-a:underline hover:prose-a:no-underline prose-hr:my-8 prose-hr:border-border prose-table:my-6 prose-th:text-left prose-th:py-3 prose-th:px-4 prose-td:py-3 prose-td:px-4 prose-tr:border-b prose-tr:border-border">
+          <div className="article-content max-w-none">
             {children}
           </div>
 
