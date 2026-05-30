@@ -9,6 +9,60 @@ export interface InsightPost {
 
 export const insightPosts: InsightPost[] = [
   {
+    slug: "disney-plus-netflix-prime-video-advertising",
+    title: "How to Advertise on Disney+, Netflix & Prime Video",
+    excerpt:
+      "Learn how luxury brands advertise on Disney+, Netflix, and Prime Video. Stillwater Media explains streaming TV ad formats, costs, and targeting strategies.",
+    image: "/images/disney-plus-netflix-prime-video-advertising.png",
+    category: "Streaming Advertising",
+    date: "2026-05-28",
+  },
+  {
+    slug: "multi-touch-attribution-high-consideration-brands",
+    title: "Multi-Touch Attribution for Long Sales Cycle Brands",
+    excerpt:
+      "Multi-touch attribution for high-consideration brands with long sales cycles. Stillwater Media explains which models work — and which lie — for luxury advertisers.",
+    image: "/images/multi-touch-attribution-high-consideration-brands.png",
+    category: "Measurement & Attribution",
+    date: "2026-05-28",
+  },
+  {
+    slug: "marketing-mix-modeling-luxury-brands",
+    title: "Marketing Mix Modeling for Luxury Brands",
+    excerpt:
+      "Learn how marketing mix modeling helps luxury brands allocate media budgets with precision, reduce wasted spend, and prove incremental revenue across channels.",
+    image: "/images/marketing-mix-modeling-luxury-brands.png",
+    category: "Measurement & Attribution",
+    date: "2026-05-29",
+  },
+  {
+    slug: "performance-media-agency-luxury-brands",
+    title: "Performance Media Agency for Luxury Brands",
+    excerpt:
+      "Discover how a performance media agency differs from traditional brand advertising—and why luxury brands with long sales cycles need a different approach entirely.",
+    image: "/images/performance-media-agency-luxury-brands.png",
+    category: "Agency & Strategy",
+    date: "2026-05-29",
+  },
+  {
+    slug: "first-party-data-luxury-advertising",
+    title: "First-Party Data Strategy for Luxury Brands",
+    excerpt:
+      "Learn how luxury brands can build a first-party data strategy that survives cookie deprecation—without sacrificing audience precision or brand safety.",
+    image: "/images/first-party-data-luxury-advertising.png",
+    category: "Strategy & Measurement",
+    date: "2026-05-30",
+  },
+  {
+    slug: "high-net-worth-audience-segments",
+    title: "High-Net-Worth Audience Segments: The Luxury Marketer's Guide",
+    excerpt:
+      "Discover how luxury marketers build, activate, and measure high-net-worth audience segments across premium CTV, programmatic, and first-party data platforms.",
+    image: "/images/high-net-worth-audience-segments.png",
+    category: "Affluent Audience Strategy",
+    date: "2026-05-30",
+  },
+  {
     slug: "ctv-vs-linear-tv-luxury-brand-advertising",
     title: "CTV vs. Linear TV: Which Wins for Luxury Brand Advertising?",
     excerpt:
