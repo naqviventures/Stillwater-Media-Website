@@ -3,14 +3,14 @@ import InsightsPage from "@/components/insights-page"
 import { insightPosts } from "@/lib/insights"
 
 export const metadata: Metadata = {
-  title: "Insights | Luxury Brand Advertising Strategy & Analysis",
-  description: "Strategic perspectives on CTV advertising, programmatic media buying, affluent audience targeting, and measurement frameworks for luxury and high-consideration brands.",
+  title: "Insights | Luxury Brand Advertising Blog & Strategy Guides",
+  description: "Expert insights on luxury brand advertising: CTV advertising strategies, programmatic media buying guides, high-net-worth audience targeting, marketing measurement, and industry playbooks for luxury real estate, private aviation, wealth management & automotive.",
   alternates: {
     canonical: "https://www.stillwatermedia.io/insights",
   },
   openGraph: {
     title: "Insights | Stillwater Media",
-    description: "Strategic perspectives on CTV advertising, programmatic media buying, and measurement frameworks for luxury brands.",
+    description: "Expert insights on CTV advertising, programmatic media buying, and high-net-worth audience targeting for luxury brands.",
     url: "https://www.stillwatermedia.io/insights",
     siteName: "Stillwater Media",
     locale: "en_US",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Insights | Stillwater Media",
-    description: "Strategic perspectives on CTV advertising, programmatic media buying, and measurement frameworks for luxury brands.",
+    description: "Expert insights on CTV advertising, programmatic media buying, and high-net-worth audience targeting for luxury brands.",
     images: ["https://www.stillwatermedia.io/images/insights-editorial.jpg"],
   },
 }
@@ -38,7 +38,7 @@ const blogSchema = {
   "@type": "CollectionPage",
   "@id": "https://www.stillwatermedia.io/insights/#collection",
   name: "Stillwater Media Insights",
-  description: "Strategic perspectives on CTV advertising, programmatic media buying, affluent audience targeting, and measurement frameworks for luxury brands.",
+  description: "Expert insights on luxury brand advertising: CTV advertising strategies, programmatic media buying guides, high-net-worth audience targeting, and industry playbooks.",
   url: "https://www.stillwatermedia.io/insights",
   isPartOf: {
     "@id": "https://www.stillwatermedia.io/#website",
@@ -57,12 +57,36 @@ const blogSchema = {
   },
 }
 
+// Breadcrumb schema
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://www.stillwatermedia.io",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Insights",
+      item: "https://www.stillwatermedia.io/insights",
+    },
+  ],
+}
+
 export default function Page() {
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <InsightsPage />
     </>

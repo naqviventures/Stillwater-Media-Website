@@ -2,14 +2,14 @@ import type { Metadata } from "next"
 import HomePage from "@/components/home-page"
 
 export const metadata: Metadata = {
-  title: "Stillwater Media | Performance Media for Luxury Brands",
-  description: "Selective performance media partner for luxury and high-consideration brands. Premium CTV advertising on Disney+, Netflix, and Prime Video. Programmatic media buying and affluent audience targeting with disciplined measurement. Charlotte, NC.",
+  title: "Stillwater Media | Luxury Brand Advertising Agency | CTV & Programmatic",
+  description: "Stillwater Media is the performance media agency for luxury brands. CTV advertising on Disney+, Netflix & Prime Video. Programmatic media buying and high-net-worth audience targeting for luxury real estate, private aviation, wealth management & automotive. Based in Charlotte, NC.",
   alternates: {
     canonical: "https://www.stillwatermedia.io",
   },
   openGraph: {
-    title: "Stillwater Media | Performance Media for Luxury Brands",
-    description: "Selective performance media partner for luxury and high-consideration brands. Premium CTV, programmatic advertising, and affluent audience engineering.",
+    title: "Stillwater Media | Luxury Brand Advertising Agency",
+    description: "The performance media agency for luxury brands. CTV advertising, programmatic media buying, and high-net-worth audience targeting for luxury real estate, private aviation, wealth management & automotive.",
     url: "https://www.stillwatermedia.io",
     siteName: "Stillwater Media",
     locale: "en_US",
@@ -19,14 +19,14 @@ export const metadata: Metadata = {
         url: "https://www.stillwatermedia.io/images/hero-luxury-abstract.jpg",
         width: 1200,
         height: 630,
-        alt: "Stillwater Media - Performance Media for Luxury Brands",
+        alt: "Stillwater Media - Luxury Brand Advertising Agency",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Stillwater Media | Performance Media for Luxury Brands",
-    description: "Selective performance media partner for luxury and high-consideration brands. Signal. Strategy. Scale.",
+    title: "Stillwater Media | Luxury Brand Advertising Agency",
+    description: "The performance media agency for luxury brands. CTV advertising, programmatic media buying, and high-net-worth audience targeting.",
     images: ["https://www.stillwatermedia.io/images/hero-luxury-abstract.jpg"],
   },
 }

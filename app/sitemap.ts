@@ -14,27 +14,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/capabilities`,
-      lastModified: new Date("2026-05-15"),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/apply`,
-      lastModified: new Date("2026-05-15"),
-      changeFrequency: "monthly",
-      priority: 0.9,
+      lastModified: new Date("2026-06-02"),
+      changeFrequency: "weekly",
+      priority: 0.95,
     },
     {
       url: `${baseUrl}/insights`,
       lastModified: new Date("2026-06-02"),
       changeFrequency: "daily",
+      priority: 0.95,
+    },
+    {
+      url: `${baseUrl}/apply`,
+      lastModified: new Date("2026-06-02"),
+      changeFrequency: "monthly",
       priority: 0.9,
     },
     {
       url: `${baseUrl}/contact`,
-      lastModified: new Date("2026-05-01"),
+      lastModified: new Date("2026-06-02"),
       changeFrequency: "monthly",
-      priority: 0.8,
+      priority: 0.85,
     },
     {
       url: `${baseUrl}/programmatic-media-buying`,
