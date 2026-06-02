@@ -9,7 +9,7 @@ export const metadata = {
     description:
       "Learn how private marketplace deals give luxury brands exclusive access to premium, brand-safe inventory — and why open exchange is the wrong environment for premium advertisers.",
     type: "article",
-    url: "https://stillwatermedia.io/insights/private-marketplace-deals-luxury-advertising",
+    url: "https://www.stillwatermedia.io/insights/private-marketplace-deals-luxury-advertising",
     images: [
       {
         url: "/images/private-marketplace-deals-luxury-advertising.png",
@@ -46,12 +46,12 @@ export default function PrivateMarketplacePage() {
     author: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
     },
     publisher: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
       logo: {
         "@type": "ImageObject",
         url: "/stillwater-logo.png",
@@ -61,7 +61,7 @@ export default function PrivateMarketplacePage() {
     dateModified: "2026-05-27",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://stillwatermedia.io/insights/private-marketplace-deals-luxury-advertising",
+      "@id": "https://www.stillwatermedia.io/insights/private-marketplace-deals-luxury-advertising",
     },
     keywords:
       "private marketplace deals, PMP advertising, luxury brand programmatic, premium publisher deals, brand-safe programmatic",

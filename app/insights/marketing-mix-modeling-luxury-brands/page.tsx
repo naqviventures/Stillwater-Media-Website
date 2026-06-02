@@ -9,7 +9,7 @@ export const metadata = {
     description:
       "Learn how marketing mix modeling helps luxury brands allocate media budgets with precision, reduce wasted spend, and prove incremental revenue.",
     type: "article",
-    url: "https://stillwatermedia.io/insights/marketing-mix-modeling-luxury-brands",
+    url: "https://www.stillwatermedia.io/insights/marketing-mix-modeling-luxury-brands",
     images: [
       {
         url: "/images/marketing-mix-modeling-luxury-brands.png",
@@ -45,12 +45,12 @@ export default function MarketingMixModelingPage() {
     author: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
     },
     publisher: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
       logo: {
         "@type": "ImageObject",
         url: "/stillwater-logo.png",
@@ -60,7 +60,7 @@ export default function MarketingMixModelingPage() {
     dateModified: "2026-05-29",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://stillwatermedia.io/insights/marketing-mix-modeling-luxury-brands",
+      "@id": "https://www.stillwatermedia.io/insights/marketing-mix-modeling-luxury-brands",
     },
     keywords:
       "marketing mix modeling luxury brands, media mix optimization, advertising ROI luxury, MMM methodology, media efficiency ratio",

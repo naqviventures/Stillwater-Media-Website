@@ -9,7 +9,7 @@ export const metadata = {
     description:
       "Move from intuition-based qualification to sophisticated analytical approaches that leverage multiple data sources and predictive modeling.",
     type: "article",
-    url: "https://stillwatermedia.io/insights/data-driven-lead-qualification",
+    url: "https://www.stillwatermedia.io/insights/data-driven-lead-qualification",
     images: [
       {
         url: "/data-driven-lead-qualification-analytics.jpg",
@@ -44,12 +44,12 @@ export default function DataDrivenLeadQualification() {
     author: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
     },
     publisher: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
       logo: {
         "@type": "ImageObject",
         url: "/stillwater-logo.png",
@@ -59,7 +59,7 @@ export default function DataDrivenLeadQualification() {
     dateModified: "2025-10-20T08:00:00-05:00",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://stillwatermedia.io/insights/data-driven-lead-qualification",
+      "@id": "https://www.stillwatermedia.io/insights/data-driven-lead-qualification",
     },
     keywords:
       "lead qualification, lead scoring, predictive analytics, sales intelligence, prospect assessment, data-driven marketing",

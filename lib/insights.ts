@@ -9,6 +9,60 @@ export interface InsightPost {
 
 export const insightPosts: InsightPost[] = [
   {
+    slug: "private-aviation-advertising-agency",
+    title: "Private Aviation Advertising Agency | Stillwater Media",
+    excerpt:
+      "How elite private aviation brands like JetLinx & FLY Exclusive win high-net-worth clients through programmatic, CTV, and precision digital advertising.",
+    image: "/images/private-aviation-advertising-agency.png",
+    category: "Vertical Strategy",
+    date: "2026-05-31",
+  },
+  {
+    slug: "roas-improvement-luxury-advertising",
+    title: "ROAS for Luxury Brands: CTV vs. Facebook",
+    excerpt:
+      "Luxury brand advertisers: CTV on Disney+ and Prime Video consistently outperforms Facebook ROAS when measured correctly. Here's the full comparison and methodology.",
+    image: "/images/roas-improvement-luxury-advertising.png",
+    category: "Measurement & Attribution",
+    date: "2026-05-31",
+  },
+  {
+    slug: "luxury-real-estate-programmatic-advertising",
+    title: "Luxury Real Estate Programmatic Advertising Playbook",
+    excerpt:
+      "How luxury real estate developers and brokerages use programmatic advertising to reach high-net-worth buyers. Strategy, channels, benchmarks, and targeting methodology from Stillwater Media.",
+    image: "/images/luxury-real-estate-programmatic-advertising.png",
+    category: "Vertical Strategy",
+    date: "2026-06-01",
+  },
+  {
+    slug: "wealth-management-digital-advertising",
+    title: "Wealth Management Digital Advertising: Reaching HNW Prospects",
+    excerpt:
+      "How wealth management firms and financial advisors reach high-net-worth prospects through programmatic advertising. Strategy, channels, and compliance-aware targeting from Stillwater Media.",
+    image: "/images/wealth-management-digital-advertising.png",
+    category: "Vertical Strategy",
+    date: "2026-06-01",
+  },
+  {
+    slug: "private-club-membership-marketing",
+    title: "Private Club Membership Marketing: A Digital Playbook",
+    excerpt:
+      "Discover how private clubs drive qualified membership inquiries through precision digital advertising. Stillwater Media's playbook for private club membership marketing.",
+    image: "/images/private-club-membership-marketing.png",
+    category: "Vertical Playbooks",
+    date: "2026-06-02",
+  },
+  {
+    slug: "luxury-automotive-advertising-agency",
+    title: "Luxury Automotive Advertising Agency | Stillwater Media",
+    excerpt:
+      "Stillwater Media's luxury automotive advertising playbook: how to escape Tier 2 co-op dependency and reach high-intent luxury car buyers through precision digital media.",
+    image: "/images/luxury-automotive-advertising-agency.png",
+    category: "Vertical Playbooks",
+    date: "2026-06-02",
+  },
+  {
     slug: "disney-plus-netflix-prime-video-advertising",
     title: "How to Advertise on Disney+, Netflix & Prime Video",
     excerpt:

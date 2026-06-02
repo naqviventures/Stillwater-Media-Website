@@ -10,7 +10,7 @@ export const metadata = {
     description:
       "Premium CTV advertising reaches affluent consumers where they stream. Stillwater Media reveals how luxury brands use connected TV for HNW targeting.",
     type: "article",
-    url: "https://stillwatermedia.io/insights/ctv-advertising-high-net-worth-consumers",
+    url: "https://www.stillwatermedia.io/insights/ctv-advertising-high-net-worth-consumers",
     images: [
       {
         url: "/images/ctv-advertising-high-net-worth.jpg",
@@ -52,19 +52,19 @@ export default function CTVAdvertisingHighNetWorth() {
             author: {
               "@type": "Organization",
               name: "Stillwater Media",
-              url: "https://stillwatermedia.io",
+              url: "https://www.stillwatermedia.io",
               logo: {
                 "@type": "ImageObject",
-                url: "https://stillwatermedia.io/stillwater-logo.png",
+                url: "https://www.stillwatermedia.io/stillwater-logo.png",
               },
             },
             publisher: {
               "@type": "Organization",
               name: "Stillwater Media",
-              url: "https://stillwatermedia.io",
+              url: "https://www.stillwatermedia.io",
               logo: {
                 "@type": "ImageObject",
-                url: "https://stillwatermedia.io/stillwater-logo.png",
+                url: "https://www.stillwatermedia.io/stillwater-logo.png",
                 width: 200,
                 height: 60,
               },

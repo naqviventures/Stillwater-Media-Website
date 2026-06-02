@@ -9,7 +9,7 @@ export const metadata = {
     description:
       "Most platforms claim to offer HNW targeting. Very few deliver it. Here's how to evaluate, build, and activate high-net-worth audience segments that actually reach affluent buyers.",
     type: "article",
-    url: "https://stillwatermedia.io/insights/high-net-worth-audience-segments",
+    url: "https://www.stillwatermedia.io/insights/high-net-worth-audience-segments",
     images: [
       {
         url: "/images/high-net-worth-audience-segments.png",
@@ -45,12 +45,12 @@ export default function HighNetWorthAudienceSegmentsPage() {
     author: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
     },
     publisher: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
       logo: {
         "@type": "ImageObject",
         url: "/stillwater-logo.png",
@@ -60,7 +60,7 @@ export default function HighNetWorthAudienceSegmentsPage() {
     dateModified: "2026-05-30",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://stillwatermedia.io/insights/high-net-worth-audience-segments",
+      "@id": "https://www.stillwatermedia.io/insights/high-net-worth-audience-segments",
     },
     keywords:
       "high-net-worth audience segments, ultra high net worth advertising, affluent audience targeting, HNW digital advertising, wealth-based segmentation, luxury consumer targeting",

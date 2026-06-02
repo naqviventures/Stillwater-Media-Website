@@ -19,10 +19,13 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
-  title: "Stillwater Media | Performance Media for Premium Brands",
-  description: "Selective performance media partner for luxury and high-consideration brands. Premium CTV, programmatic advertising, and affluent audience engineering with disciplined measurement.",
-  keywords: ["performance media", "luxury brands", "premium advertising", "CTV advertising", "programmatic media", "affluent audience targeting", "high-consideration brands", "Charlotte NC media agency"],
-  authors: [{ name: "Stillwater Media" }],
+  title: {
+    default: "Stillwater Media | Performance Media for Luxury Brands",
+    template: "%s | Stillwater Media",
+  },
+  description: "Selective performance media partner for luxury and high-consideration brands. Premium CTV advertising, programmatic media buying, and affluent audience targeting with disciplined measurement. Charlotte, NC.",
+  keywords: ["performance media agency", "luxury brand advertising", "premium CTV advertising", "programmatic media buying", "affluent audience targeting", "high-net-worth marketing", "luxury brand marketing", "CTV advertising agency", "streaming TV advertising", "private marketplace deals", "brand-safe advertising", "incrementality testing", "Charlotte NC media agency"],
+  authors: [{ name: "Stillwater Media", url: "https://www.stillwatermedia.io" }],
   creator: "Stillwater Media",
   publisher: "Stillwater Media",
   formatDetection: {
@@ -30,31 +33,32 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://stillwatermedia.io"),
+  metadataBase: new URL("https://www.stillwatermedia.io"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Stillwater Media | Performance Media for Premium Brands",
-    description: "Selective performance media partner for luxury and high-consideration brands. Signal. Strategy. Scale.",
-    url: "https://stillwatermedia.io",
+    title: "Stillwater Media | Performance Media for Luxury Brands",
+    description: "Selective performance media partner for luxury and high-consideration brands. Premium CTV, programmatic advertising, and affluent audience engineering.",
+    url: "https://www.stillwatermedia.io",
     siteName: "Stillwater Media",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "/images/hero-luxury-abstract.jpg",
+        url: "https://www.stillwatermedia.io/images/hero-luxury-abstract.jpg",
         width: 1200,
         height: 630,
-        alt: "Stillwater Media - Performance Media for Premium Brands",
+        alt: "Stillwater Media - Performance Media for Luxury Brands",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Stillwater Media | Performance Media for Premium Brands",
+    title: "Stillwater Media | Performance Media for Luxury Brands",
     description: "Selective performance media partner for luxury and high-consideration brands. Signal. Strategy. Scale.",
-    images: ["/images/hero-luxury-abstract.jpg"],
+    images: ["https://www.stillwatermedia.io/images/hero-luxury-abstract.jpg"],
+    creator: "@stillwatermedia",
   },
   robots: {
     index: true,
@@ -67,10 +71,86 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  verification: {
+    google: "YOUR_GOOGLE_SITE_VERIFICATION_CODE",
+  },
   icons: {
     icon: "/favicon.ico",
+    apple: "/apple-icon.png",
   },
-    generator: 'v0.app'
+  generator: "v0.app",
+  applicationName: "Stillwater Media",
+  referrer: "origin-when-cross-origin",
+  category: "Marketing Agency",
+}
+
+// Organization structured data for Google
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://www.stillwatermedia.io/#organization",
+  name: "Stillwater Media",
+  url: "https://www.stillwatermedia.io",
+  logo: "https://www.stillwatermedia.io/stillwater-logo.png",
+  description: "Selective performance media partner for luxury and high-consideration brands. Premium CTV advertising, programmatic media buying, and affluent audience targeting.",
+  foundingDate: "2023",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Charlotte",
+    addressRegion: "NC",
+    addressCountry: "US",
+  },
+  contactPoint: {
+    "@type": "ContactPoint",
+    contactType: "sales",
+    email: "hello@stillwatermedia.io",
+    url: "https://www.stillwatermedia.io/contact",
+  },
+  sameAs: [],
+  knowsAbout: [
+    "CTV Advertising",
+    "Programmatic Advertising",
+    "Luxury Brand Marketing",
+    "Affluent Audience Targeting",
+    "Performance Media",
+    "Premium Streaming Advertising",
+    "Private Marketplace Deals",
+    "Marketing Mix Modeling",
+    "Incrementality Testing",
+    "Multi-Touch Attribution",
+  ],
+  areaServed: {
+    "@type": "Country",
+    name: "United States",
+  },
+  serviceType: [
+    "Performance Media Buying",
+    "CTV Advertising",
+    "Programmatic Advertising",
+    "Affluent Audience Engineering",
+    "Marketing Measurement",
+  ],
+}
+
+// WebSite structured data for sitelinks search box
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://www.stillwatermedia.io/#website",
+  url: "https://www.stillwatermedia.io",
+  name: "Stillwater Media",
+  description: "Performance media for luxury brands",
+  publisher: {
+    "@id": "https://www.stillwatermedia.io/#organization",
+  },
+  potentialAction: {
+    "@type": "SearchAction",
+    target: {
+      "@type": "EntryPoint",
+      urlTemplate: "https://www.stillwatermedia.io/insights?q={search_term_string}",
+    },
+    "query-input": "required name=search_term_string",
+  },
 }
 
 export default function RootLayout({
@@ -81,6 +161,16 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        {/* Organization Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+        {/* Website Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
         {/* Google Tag Manager */}
         <Script
           id="google-tag-manager"

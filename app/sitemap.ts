@@ -1,106 +1,68 @@
 import type { MetadataRoute } from "next"
+import { insightPosts } from "@/lib/insights"
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://stillwatermedia.io"
+  const baseUrl = "https://www.stillwatermedia.io"
 
-  return [
+  // Core pages with high priority
+  const corePages: MetadataRoute.Sitemap = [
     {
       url: baseUrl,
-      lastModified: new Date(),
+      lastModified: new Date("2026-06-02"),
       changeFrequency: "weekly",
-      priority: 1,
+      priority: 1.0,
     },
     {
       url: `${baseUrl}/capabilities`,
-      lastModified: new Date(),
+      lastModified: new Date("2026-05-15"),
       changeFrequency: "monthly",
       priority: 0.9,
     },
     {
       url: `${baseUrl}/apply`,
-      lastModified: new Date(),
+      lastModified: new Date("2026-05-15"),
       changeFrequency: "monthly",
-      priority: 0.8,
+      priority: 0.9,
     },
     {
       url: `${baseUrl}/insights`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.8,
+      lastModified: new Date("2026-06-02"),
+      changeFrequency: "daily",
+      priority: 0.9,
     },
     {
       url: `${baseUrl}/contact`,
-      lastModified: new Date(),
+      lastModified: new Date("2026-05-01"),
       changeFrequency: "monthly",
-      priority: 0.7,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/programmatic-media-buying`,
+      lastModified: new Date("2026-05-01"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/precision-lead-finder`,
+      lastModified: new Date("2026-05-01"),
+      changeFrequency: "monthly",
+      priority: 0.8,
     },
     {
       url: `${baseUrl}/privacy-policy`,
-      lastModified: new Date(),
+      lastModified: new Date("2026-01-01"),
       changeFrequency: "yearly",
       priority: 0.3,
     },
-    // Blog Posts - Programmatic Media Buying
-    {
-      url: `${baseUrl}/insights/programmatic-advertising-revolution-2024`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/insights/connected-tv-advertising-guide`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/insights/billboard-advertising-digital-age`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/insights/programmatic-media-buying-charlotte-nc`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/insights/real-time-bidding-optimization-strategies`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    // Blog Posts - Precision Lead Finder
-    {
-      url: `${baseUrl}/insights/precision-lead-generation-strategies`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/insights/real-time-lead-finder-technology`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/insights/charlotte-nc-lead-generation-market`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/insights/data-driven-lead-qualification`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/insights/automated-lead-nurturing-systems`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
   ]
+
+  // Generate blog post entries dynamically from insights registry
+  const blogPosts: MetadataRoute.Sitemap = insightPosts.map((post) => ({
+    url: `${baseUrl}/insights/${post.slug}`,
+    lastModified: post.date ? new Date(post.date) : new Date("2026-05-01"),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }))
+
+  return [...corePages, ...blogPosts]
 }

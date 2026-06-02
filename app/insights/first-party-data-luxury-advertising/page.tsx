@@ -9,7 +9,7 @@ export const metadata = {
     description:
       "Luxury advertisers who rely on third-party cookies are already behind. Here's how to build a first-party data strategy that delivers precision targeting without privacy risk.",
     type: "article",
-    url: "https://stillwatermedia.io/insights/first-party-data-luxury-advertising",
+    url: "https://www.stillwatermedia.io/insights/first-party-data-luxury-advertising",
     images: [
       {
         url: "/images/first-party-data-luxury-advertising.png",
@@ -45,12 +45,12 @@ export default function FirstPartyDataPage() {
     author: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
     },
     publisher: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
       logo: {
         "@type": "ImageObject",
         url: "/stillwater-logo.png",
@@ -60,7 +60,7 @@ export default function FirstPartyDataPage() {
     dateModified: "2026-05-30",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://stillwatermedia.io/insights/first-party-data-luxury-advertising",
+      "@id": "https://www.stillwatermedia.io/insights/first-party-data-luxury-advertising",
     },
     keywords:
       "first-party data luxury advertising, cookieless targeting, identity resolution, privacy-first advertising, affluent audience targeting",

@@ -9,7 +9,7 @@ export const metadata = {
     description:
       "Over 80% of US households have CTV devices. Learn how to build successful campaigns across Netflix, Disney+, and premium streaming platforms.",
     type: "article",
-    url: "https://stillwatermedia.io/insights/connected-tv-advertising-guide",
+    url: "https://www.stillwatermedia.io/insights/connected-tv-advertising-guide",
     images: [
       {
         url: "/connected-tv-streaming-devices-and-smart-tv-interf.jpg",
@@ -44,12 +44,12 @@ export default function ConnectedTVAdvertisingGuide() {
     author: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
     },
     publisher: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
       logo: {
         "@type": "ImageObject",
         url: "/stillwater-logo.png",
@@ -59,7 +59,7 @@ export default function ConnectedTVAdvertisingGuide() {
     dateModified: "2025-11-15T08:00:00-05:00",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://stillwatermedia.io/insights/connected-tv-advertising-guide",
+      "@id": "https://www.stillwatermedia.io/insights/connected-tv-advertising-guide",
     },
     keywords:
       "connected TV advertising, CTV advertising, streaming TV ads, OTT advertising, smart TV advertising, programmatic CTV",

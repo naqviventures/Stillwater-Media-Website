@@ -9,7 +9,7 @@ export const metadata = {
     description:
       "How a performance media agency differs from traditional brand advertising — and why luxury brands with long sales cycles need a different approach.",
     type: "article",
-    url: "https://stillwatermedia.io/insights/performance-media-agency-luxury-brands",
+    url: "https://www.stillwatermedia.io/insights/performance-media-agency-luxury-brands",
     images: [
       {
         url: "/images/performance-media-agency-luxury-brands.png",
@@ -45,12 +45,12 @@ export default function PerformanceMediaAgencyPage() {
     author: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
     },
     publisher: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
       logo: {
         "@type": "ImageObject",
         url: "/stillwater-logo.png",
@@ -60,7 +60,7 @@ export default function PerformanceMediaAgencyPage() {
     dateModified: "2026-05-29",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://stillwatermedia.io/insights/performance-media-agency-luxury-brands",
+      "@id": "https://www.stillwatermedia.io/insights/performance-media-agency-luxury-brands",
     },
     keywords:
       "performance media agency luxury brands, luxury brand advertising, high-consideration brand advertising, programmatic vs direct media buying, luxury digital marketing agency",

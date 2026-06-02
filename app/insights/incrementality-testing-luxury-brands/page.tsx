@@ -9,7 +9,7 @@ export const metadata = {
     description:
       "Last-click attribution lies. Incrementality testing reveals what your media actually causes. Learn how luxury brands use holdout testing to prove real ad ROI.",
     type: "article",
-    url: "https://stillwatermedia.io/insights/incrementality-testing-luxury-brands",
+    url: "https://www.stillwatermedia.io/insights/incrementality-testing-luxury-brands",
     images: [
       {
         url: "/images/incrementality-testing-luxury-brands.jpg",
@@ -46,12 +46,12 @@ export default function IncementalityTestingPage() {
     author: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
     },
     publisher: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
       logo: {
         "@type": "ImageObject",
         url: "/stillwater-logo.png",
@@ -61,7 +61,7 @@ export default function IncementalityTestingPage() {
     dateModified: "2026-05-25T08:00:00-05:00",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://stillwatermedia.io/insights/incrementality-testing-luxury-brands",
+      "@id": "https://www.stillwatermedia.io/insights/incrementality-testing-luxury-brands",
     },
     keywords:
       "incrementality testing, holdout testing, luxury advertising, marketing mix modeling, ad attribution, media measurement, ROAS, luxury brands",
