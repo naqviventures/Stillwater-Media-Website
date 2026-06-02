@@ -9,7 +9,7 @@ export const metadata = {
     description:
       "Modern lead identification technology goes beyond lead scoring to leverage intent signals and predictive analytics for identifying prospects at the moment of highest receptivity.",
     type: "article",
-    url: "https://stillwatermedia.io/insights/real-time-lead-finder-technology",
+    url: "https://www.stillwatermedia.io/insights/real-time-lead-finder-technology",
     images: [
       {
         url: "/real-time-lead-finder-technology-dashboard.jpg",
@@ -44,12 +44,12 @@ export default function LeadFinderTechnology() {
     author: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
     },
     publisher: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
       logo: {
         "@type": "ImageObject",
         url: "/stillwater-logo.png",
@@ -59,7 +59,7 @@ export default function LeadFinderTechnology() {
     dateModified: "2025-07-30T08:00:00-05:00",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://stillwatermedia.io/insights/real-time-lead-finder-technology",
+      "@id": "https://www.stillwatermedia.io/insights/real-time-lead-finder-technology",
     },
     keywords:
       "lead identification, intent data, lead scoring, sales intelligence, real-time prospecting, B2B lead generation",

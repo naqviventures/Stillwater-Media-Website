@@ -9,7 +9,7 @@ export const metadata = {
     description:
       "A definitive comparison of CTV and linear TV for luxury advertisers — targeting capabilities, CPM benchmarks, brand lift measurement, and where each channel fits.",
     type: "article",
-    url: "https://stillwatermedia.io/insights/ctv-vs-linear-tv-luxury-brand-advertising",
+    url: "https://www.stillwatermedia.io/insights/ctv-vs-linear-tv-luxury-brand-advertising",
     images: [
       {
         url: "/images/ctv-vs-linear-tv-luxury-brand-advertising.png",
@@ -45,12 +45,12 @@ export default function CTVvsLinearTVPage() {
     author: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
     },
     publisher: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
       logo: {
         "@type": "ImageObject",
         url: "/stillwater-logo.png",
@@ -60,7 +60,7 @@ export default function CTVvsLinearTVPage() {
     dateModified: "2026-05-27",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://stillwatermedia.io/insights/ctv-vs-linear-tv-luxury-brand-advertising",
+      "@id": "https://www.stillwatermedia.io/insights/ctv-vs-linear-tv-luxury-brand-advertising",
     },
     keywords:
       "CTV vs linear TV, connected TV advertising, luxury brand television, streaming TV advertising, brand lift CTV, OTT advertising luxury",

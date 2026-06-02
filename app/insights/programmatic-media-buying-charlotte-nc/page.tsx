@@ -9,7 +9,7 @@ export const metadata = {
     description:
       "Charlotte's growing affluent professional population creates unique opportunities for strategic programmatic media buying in the Southeast.",
     type: "article",
-    url: "https://stillwatermedia.io/insights/programmatic-media-buying-charlotte-nc",
+    url: "https://www.stillwatermedia.io/insights/programmatic-media-buying-charlotte-nc",
     images: [
       {
         url: "/charlotte-nc-skyline-with-digital-advertising-tech.jpg",
@@ -44,12 +44,12 @@ export default function ProgrammaticCharlotte() {
     author: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
     },
     publisher: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
       logo: {
         "@type": "ImageObject",
         url: "/stillwater-logo.png",
@@ -59,7 +59,7 @@ export default function ProgrammaticCharlotte() {
     dateModified: "2025-09-05T08:00:00-05:00",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://stillwatermedia.io/insights/programmatic-media-buying-charlotte-nc",
+      "@id": "https://www.stillwatermedia.io/insights/programmatic-media-buying-charlotte-nc",
     },
     keywords:
       "Charlotte NC programmatic advertising, Charlotte digital marketing, Queen City media buying, Southeast programmatic, Charlotte DMA",

@@ -9,7 +9,7 @@ export const metadata = {
     description:
       "Luxury brands live and die by perception. Brand-safe programmatic advertising ensures your ad never appears next to content that undermines the premium equity you've spent decades building.",
     type: "article",
-    url: "https://stillwatermedia.io/insights/brand-safe-programmatic-advertising",
+    url: "https://www.stillwatermedia.io/insights/brand-safe-programmatic-advertising",
     images: [
       {
         url: "/images/brand-safe-programmatic-advertising.jpg",
@@ -47,12 +47,12 @@ export default function BrandSafeProgrammaticPage() {
     author: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
     },
     publisher: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
       logo: {
         "@type": "ImageObject",
         url: "/stillwater-logo.png",
@@ -62,7 +62,7 @@ export default function BrandSafeProgrammaticPage() {
     dateModified: "2026-05-26T08:00:00-05:00",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://stillwatermedia.io/insights/brand-safe-programmatic-advertising",
+      "@id": "https://www.stillwatermedia.io/insights/brand-safe-programmatic-advertising",
     },
     keywords:
       "brand-safe programmatic advertising, brand safety luxury brands, private marketplace deals, programmatic brand suitability, premium publisher deals",

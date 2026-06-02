@@ -9,7 +9,7 @@ export const metadata = {
     description:
       "Most attribution models were built for impulse purchases. Here's how high-consideration luxury brands should measure media across a 30–90 day sales cycle.",
     type: "article",
-    url: "https://stillwatermedia.io/insights/multi-touch-attribution-high-consideration-brands",
+    url: "https://www.stillwatermedia.io/insights/multi-touch-attribution-high-consideration-brands",
     images: [
       {
         url: "/images/multi-touch-attribution-high-consideration-brands.png",
@@ -45,12 +45,12 @@ export default function MultiTouchAttributionPage() {
     author: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
     },
     publisher: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
       logo: {
         "@type": "ImageObject",
         url: "/stillwater-logo.png",
@@ -60,7 +60,7 @@ export default function MultiTouchAttributionPage() {
     dateModified: "2026-05-28",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://stillwatermedia.io/insights/multi-touch-attribution-high-consideration-brands",
+      "@id": "https://www.stillwatermedia.io/insights/multi-touch-attribution-high-consideration-brands",
     },
     keywords:
       "multi-touch attribution high-consideration, ad attribution luxury brands, marketing mix modeling luxury brands, incrementality testing advertising, long sales cycle attribution, performance measurement premium advertising",

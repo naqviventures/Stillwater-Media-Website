@@ -9,7 +9,7 @@ export const metadata = {
     description:
       "Understanding and optimizing RTB mechanics is essential for premium brands seeking maximum programmatic efficiency and performance.",
     type: "article",
-    url: "https://stillwatermedia.io/insights/real-time-bidding-optimization-strategies",
+    url: "https://www.stillwatermedia.io/insights/real-time-bidding-optimization-strategies",
     images: [
       {
         url: "/real-time-bidding-optimization-dashboard-with-data.jpg",
@@ -44,12 +44,12 @@ export default function RTBOptimization() {
     author: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
     },
     publisher: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
       logo: {
         "@type": "ImageObject",
         url: "/stillwater-logo.png",
@@ -59,7 +59,7 @@ export default function RTBOptimization() {
     dateModified: "2025-08-20T08:00:00-05:00",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://stillwatermedia.io/insights/real-time-bidding-optimization-strategies",
+      "@id": "https://www.stillwatermedia.io/insights/real-time-bidding-optimization-strategies",
     },
     keywords:
       "real-time bidding, RTB optimization, programmatic advertising, bid strategy, supply path optimization, programmatic measurement",

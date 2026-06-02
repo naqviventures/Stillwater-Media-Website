@@ -9,7 +9,7 @@ export const metadata = {
     description:
       "Reaching high-net-worth consumers requires a fundamentally different targeting architecture than mass-market advertising. Learn the exact frameworks luxury brands use to find, qualify, and convert affluent prospects.",
     type: "article",
-    url: "https://stillwatermedia.io/insights/affluent-audience-targeting",
+    url: "https://www.stillwatermedia.io/insights/affluent-audience-targeting",
     images: [
       {
         url: "/images/affluent-audience-targeting.jpg",
@@ -47,12 +47,12 @@ export default function AffluentAudienceTargetingPage() {
     author: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
     },
     publisher: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
       logo: {
         "@type": "ImageObject",
         url: "/stillwater-logo.png",
@@ -62,7 +62,7 @@ export default function AffluentAudienceTargetingPage() {
     dateModified: "2026-05-26T08:00:00-05:00",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://stillwatermedia.io/insights/affluent-audience-targeting",
+      "@id": "https://www.stillwatermedia.io/insights/affluent-audience-targeting",
     },
     keywords:
       "affluent audience targeting, high-net-worth consumer advertising, HNW audience digital advertising, wealth-based segmentation, luxury buyer intent signals, affluent lookalike modeling",

@@ -9,7 +9,7 @@ export const metadata = {
     description:
       "Charlotte has emerged as one of the Southeast's most dynamic business hubs. Learn the lead generation strategies that drive success in the Queen City.",
     type: "article",
-    url: "https://stillwatermedia.io/insights/charlotte-nc-lead-generation-market",
+    url: "https://www.stillwatermedia.io/insights/charlotte-nc-lead-generation-market",
     images: [
       {
         url: "/charlotte-nc-business-district-lead-generation.jpg",
@@ -44,12 +44,12 @@ export default function CharlotteNCLeadGenerationMarket() {
     author: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
     },
     publisher: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
       logo: {
         "@type": "ImageObject",
         url: "/stillwater-logo.png",
@@ -59,7 +59,7 @@ export default function CharlotteNCLeadGenerationMarket() {
     dateModified: "2025-12-08T08:00:00-05:00",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://stillwatermedia.io/insights/charlotte-nc-lead-generation-market",
+      "@id": "https://www.stillwatermedia.io/insights/charlotte-nc-lead-generation-market",
     },
     keywords:
       "Charlotte NC lead generation, Charlotte business development, Queen City B2B marketing, Charlotte sales prospecting, North Carolina lead generation",

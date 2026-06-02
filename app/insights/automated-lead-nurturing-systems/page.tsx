@@ -9,7 +9,7 @@ export const metadata = {
     description:
       "Discover how sophisticated automated nurturing systems maintain prospect engagement with personalized, timely communications that guide prospects through their buying journey.",
     type: "article",
-    url: "https://stillwatermedia.io/insights/automated-lead-nurturing-systems",
+    url: "https://www.stillwatermedia.io/insights/automated-lead-nurturing-systems",
     images: [
       {
         url: "/automated-lead-nurturing-workflow-system.jpg",
@@ -44,12 +44,12 @@ export default function AutomatedLeadNurturingSystems() {
     author: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
     },
     publisher: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
       logo: {
         "@type": "ImageObject",
         url: "/stillwater-logo.png",
@@ -59,7 +59,7 @@ export default function AutomatedLeadNurturingSystems() {
     dateModified: "2026-03-15T08:00:00-05:00",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://stillwatermedia.io/insights/automated-lead-nurturing-systems",
+      "@id": "https://www.stillwatermedia.io/insights/automated-lead-nurturing-systems",
     },
     keywords:
       "automated lead nurturing, marketing automation, lead scoring, email sequences, behavioral triggers, sales funnel",

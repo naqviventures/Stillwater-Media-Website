@@ -9,7 +9,7 @@ export const metadata = {
     description:
       "Digital billboards and programmatic OOH are transforming out-of-home advertising into a precision marketing channel with targeting and measurement capabilities that rival digital media.",
     type: "article",
-    url: "https://stillwatermedia.io/insights/billboard-advertising-digital-age",
+    url: "https://www.stillwatermedia.io/insights/billboard-advertising-digital-age",
     images: [
       {
         url: "/digital-billboard-advertising-with-programmatic.jpg",
@@ -44,12 +44,12 @@ export default function BillboardAdvertisingDigitalAge() {
     author: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
     },
     publisher: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
       logo: {
         "@type": "ImageObject",
         url: "/stillwater-logo.png",
@@ -59,7 +59,7 @@ export default function BillboardAdvertisingDigitalAge() {
     dateModified: "2026-01-20T08:00:00-05:00",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://stillwatermedia.io/insights/billboard-advertising-digital-age",
+      "@id": "https://www.stillwatermedia.io/insights/billboard-advertising-digital-age",
     },
     keywords:
       "billboard advertising, digital billboards, programmatic OOH, out-of-home advertising, DOOH, outdoor advertising attribution",

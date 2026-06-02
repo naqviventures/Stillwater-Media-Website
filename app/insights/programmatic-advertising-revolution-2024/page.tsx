@@ -9,7 +9,7 @@ export const metadata = {
     description:
       "AI-driven programmatic advertising delivers unprecedented precision for premium brands. Learn how supply path optimization and first-party data integration are reshaping digital media buying.",
     type: "article",
-    url: "https://stillwatermedia.io/insights/programmatic-advertising-revolution-2024",
+    url: "https://www.stillwatermedia.io/insights/programmatic-advertising-revolution-2024",
     images: [
       {
         url: "/programmatic-advertising-ai-revolution-dashboard.jpg",
@@ -44,12 +44,12 @@ export default function ProgrammaticRevolution2024() {
     author: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
     },
     publisher: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
       logo: {
         "@type": "ImageObject",
         url: "/stillwater-logo.png",
@@ -59,7 +59,7 @@ export default function ProgrammaticRevolution2024() {
     dateModified: "2026-04-10T08:00:00-05:00",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://stillwatermedia.io/insights/programmatic-advertising-revolution-2024",
+      "@id": "https://www.stillwatermedia.io/insights/programmatic-advertising-revolution-2024",
     },
     keywords:
       "programmatic advertising, AI media buying, supply path optimization, first-party data, CTV advertising, premium programmatic",

@@ -9,7 +9,7 @@ export const metadata = {
     description:
       "Sophisticated lead generation methodologies that combine data-driven targeting, behavioral analysis, and automated qualification to deliver high-quality prospects at scale.",
     type: "article",
-    url: "https://stillwatermedia.io/insights/precision-lead-generation-strategies",
+    url: "https://www.stillwatermedia.io/insights/precision-lead-generation-strategies",
     images: [
       {
         url: "/precision-lead-generation-targeting-dashboard.jpg",
@@ -44,12 +44,12 @@ export default function PrecisionLeadGenerationStrategies() {
     author: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
     },
     publisher: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
       logo: {
         "@type": "ImageObject",
         url: "/stillwater-logo.png",
@@ -59,7 +59,7 @@ export default function PrecisionLeadGenerationStrategies() {
     dateModified: "2026-02-05T08:00:00-05:00",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://stillwatermedia.io/insights/precision-lead-generation-strategies",
+      "@id": "https://www.stillwatermedia.io/insights/precision-lead-generation-strategies",
     },
     keywords:
       "precision lead generation, lead qualification, prospect targeting, intent data, lead scoring, B2B lead generation",

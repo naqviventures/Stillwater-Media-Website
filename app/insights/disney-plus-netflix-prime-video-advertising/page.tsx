@@ -9,7 +9,7 @@ export const metadata = {
     description:
       "A strategic guide to streaming TV advertising on Disney+, Netflix, and Prime Video for luxury and high-consideration brands. Learn targeting, formats, and costs.",
     type: "article",
-    url: "https://stillwatermedia.io/insights/disney-plus-netflix-prime-video-advertising",
+    url: "https://www.stillwatermedia.io/insights/disney-plus-netflix-prime-video-advertising",
     images: [
       {
         url: "/images/disney-plus-netflix-prime-video-advertising.png",
@@ -45,12 +45,12 @@ export default function DisneyPlusNetflixPrimeVideoPage() {
     author: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
     },
     publisher: {
       "@type": "Organization",
       name: "Stillwater Media",
-      url: "https://stillwatermedia.io",
+      url: "https://www.stillwatermedia.io",
       logo: {
         "@type": "ImageObject",
         url: "/stillwater-logo.png",
@@ -60,7 +60,7 @@ export default function DisneyPlusNetflixPrimeVideoPage() {
     dateModified: "2026-05-28",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://stillwatermedia.io/insights/disney-plus-netflix-prime-video-advertising",
+      "@id": "https://www.stillwatermedia.io/insights/disney-plus-netflix-prime-video-advertising",
     },
     keywords:
       "Disney Plus advertising for brands, Netflix advertising premium brands, Prime Video advertising strategy, OTT advertising luxury brands, streaming TV advertising luxury, CTV advertising for wealthy consumers",
