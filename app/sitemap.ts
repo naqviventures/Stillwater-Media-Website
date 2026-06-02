@@ -8,7 +8,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const corePages: MetadataRoute.Sitemap = [
     {
       url: baseUrl,
-      lastModified: new Date("2026-06-01"),
+      lastModified: new Date("2026-06-02"),
       changeFrequency: "weekly",
       priority: 1.0,
     },
@@ -26,7 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/insights`,
-      lastModified: new Date("2026-06-01"),
+      lastModified: new Date("2026-06-02"),
       changeFrequency: "daily",
       priority: 0.9,
     },
