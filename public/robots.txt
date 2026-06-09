@@ -1,5 +1,0 @@
-# Robots.txt for Stillwater Media
-User-agent: *
-Allow: /
-
-Sitemap: https://stillwatermedia.io/sitemap.xml
