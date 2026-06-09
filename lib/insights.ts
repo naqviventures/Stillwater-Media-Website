@@ -9,6 +9,87 @@ export interface InsightPost {
 
 export const insightPosts: InsightPost[] = [
   {
+    slug: "programmatic-vs-direct-media-buying-luxury",
+    title: "Programmatic vs. Direct Media Buying: What's Right for Luxury Brands?",
+    excerpt:
+      "When does programmatic automation win, when do direct publisher deals win, and how do private marketplace deals bridge the gap? The hybrid buying architecture luxury brands need.",
+    image: "/images/programmatic-vs-direct-media-buying-luxury.png",
+    category: "Media Strategy",
+    date: "2026-06-08",
+  },
+  {
+    slug: "golf-equipment-advertising-affluent",
+    title: "Golf Equipment Advertising to Affluent Players: A Precision Targeting Guide",
+    excerpt:
+      "Most golf brands target golfers. The best ones target the right golfers — committed, high-income players with 15+ rounds a year and $3,000+ in annual equipment spend.",
+    image: "/images/golf-equipment-advertising-affluent.png",
+    category: "Vertical Strategy",
+    date: "2026-06-08",
+  },
+  {
+    slug: "luxury-hospitality-marketing-agency",
+    title: "Luxury Hospitality Marketing Agency: The Digital Media Playbook",
+    excerpt:
+      "The complete digital media playbook for luxury hospitality brands — CTV, programmatic, first-party data, and the channels that drive high-value direct bookings at scale.",
+    image: "/images/luxury-hospitality-marketing-agency.png",
+    category: "Vertical Playbooks",
+    date: "2026-06-07",
+  },
+  {
+    slug: "affluent-lookalike-modeling",
+    title: "Affluent Lookalike Modeling: Build Premium Audiences That Convert",
+    excerpt:
+      "How affluent lookalike modeling works, why mass-market seed data destroys accuracy, and the methodology luxury brands use to build high-value audiences that actually convert.",
+    image: "/images/affluent-lookalike-modeling.png",
+    category: "Audience Strategy",
+    date: "2026-06-07",
+  },
+  {
+    slug: "customer-acquisition-cost-luxury-brands",
+    title: "Customer Acquisition Cost Benchmarks for Luxury Brands",
+    excerpt:
+      "Most luxury brands don't know their true CAC — or why it's higher than it should be. Real benchmarks and strategies to reduce acquisition cost without sacrificing brand equity.",
+    image: "/images/customer-acquisition-cost-luxury-brands.png",
+    category: "Measurement & Attribution",
+    date: "2026-06-05",
+  },
+  {
+    slug: "frequency-capping-programmatic-luxury-brands",
+    title: "Frequency Capping: The Luxury Brand Advertiser's Guide",
+    excerpt:
+      "Too many impressions destroy luxury brand perception before a prospect ever converts. Learn optimal frequency caps by channel, format, and funnel stage.",
+    image: "/images/frequency-capping-programmatic-luxury-brands.png",
+    category: "Media Strategy",
+    date: "2026-06-04",
+  },
+  {
+    slug: "ai-powered-advertising-luxury-brands",
+    title: "How AI Is Transforming Luxury Brand Advertising",
+    excerpt:
+      "AI-powered advertising for luxury brands is no longer experimental — it's a competitive advantage. How Stillwater uses AI audience modeling, generative creative, and predictive optimization at scale.",
+    image: "/images/ai-powered-advertising-luxury-brands.png",
+    category: "Strategy & Innovation",
+    date: "2026-06-04",
+  },
+  {
+    slug: "dooh-affluent-location-targeting",
+    title: "Digital Out-of-Home Advertising for Luxury Brands: DOOH Affluent Location Targeting",
+    excerpt:
+      "DOOH affluent location targeting puts your luxury brand in front of HNW consumers at the exact moments they're most receptive. The complete programmatic out-of-home playbook.",
+    image: "/images/dooh-affluent-location-targeting.png",
+    category: "Out-of-Home",
+    date: "2026-06-03",
+  },
+  {
+    slug: "streaming-audio-advertising-luxury",
+    title: "Streaming Audio Advertising for Luxury Brands: Spotify Premium & Beyond",
+    excerpt:
+      "Streaming audio reaches affluent listeners during screen-free moments no other channel can access. How luxury brands use Spotify Premium, podcasts, and programmatic audio to target HNW consumers.",
+    image: "/images/streaming-audio-advertising-luxury.png",
+    category: "Audio Advertising",
+    date: "2026-06-03",
+  },
+  {
     slug: "private-aviation-advertising-agency",
     title: "Private Aviation Advertising Agency | Stillwater Media",
     excerpt:
