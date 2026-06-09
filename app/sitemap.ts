@@ -56,13 +56,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ]
 
-  // Generate blog post entries dynamically from insights registry
-  const blogPosts: MetadataRoute.Sitemap = insightPosts.map((post) => ({
-    url: `${baseUrl}/insights/${post.slug}`,
-    lastModified: post.date ? new Date(post.date) : new Date("2026-05-01"),
-    changeFrequency: "monthly" as const,
-    priority: 0.7,
-  }))
+  // Generate blog post entries dynamically from insights registry.
+  // Recently published posts (within 30 days) get higher priority and weekly
+  // change frequency to encourage faster crawl + indexing by Google, Bing, and
+  // AI search crawlers.
+  const now = Date.now()
+  const THIRTY_DAYS = 1000 * 60 * 60 * 24 * 30
+
+  const blogPosts: MetadataRoute.Sitemap = insightPosts.map((post) => {
+    const published = post.date ? new Date(post.date) : new Date("2026-05-01")
+    const isRecent = now - published.getTime() < THIRTY_DAYS
+
+    return {
+      url: `${baseUrl}/insights/${post.slug}`,
+      lastModified: published,
+      changeFrequency: isRecent ? ("weekly" as const) : ("monthly" as const),
+      priority: isRecent ? 0.8 : 0.7,
+    }
+  })
 
   return [...corePages, ...blogPosts]
 }
