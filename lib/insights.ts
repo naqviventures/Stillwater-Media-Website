@@ -9,6 +9,186 @@ export interface InsightPost {
 
 export const insightPosts: InsightPost[] = [
   {
+    slug: "ultra-high-net-worth-advertising-targeting",
+    title: "Ultra-High-Net-Worth Advertising: What Actually Works",
+    excerpt:
+      "Reaching ultra-high-net-worth individuals requires more than premium placements. The data signals, platforms, and audience architecture that actually converts UHNW prospects.",
+    image: "/images/ultra-high-net-worth-advertising-targeting.png",
+    category: "Affluent Audience Strategy",
+    date: "2026-06-24",
+  },
+  {
+    slug: "cookieless-targeting-luxury-advertising",
+    title: "Cookieless Targeting for Luxury Brands: What Actually Works",
+    excerpt:
+      "Third-party cookies are gone. How luxury and premium brands rebuild cookieless targeting using first-party data, identity resolution, and contextual signals.",
+    image: "/images/cookieless-targeting-luxury-advertising.png",
+    category: "Data & Privacy",
+    date: "2026-06-24",
+  },
+  {
+    slug: "boutique-hotel-advertising-digital",
+    title: "Boutique Hotel Advertising: Fill Rooms With High-Value Guests",
+    excerpt:
+      "How boutique and luxury hotels use digital media to drive direct bookings from high-value guests — channels, targeting, and the OTA-independence playbook.",
+    image: "/images/boutique-hotel-advertising-digital.png",
+    category: "Luxury Hospitality Marketing",
+    date: "2026-06-23",
+  },
+  {
+    slug: "luxury-timepiece-advertising-digital",
+    title: "Luxury Timepiece Advertising: Digital Channels That Move Premium Product",
+    excerpt:
+      "The digital channels that actually move premium timepieces — from CTV and premium publishers to collector-grade audience targeting for luxury watch brands.",
+    image: "/images/luxury-timepiece-advertising-digital.png",
+    category: "Luxury Brand Advertising",
+    date: "2026-06-23",
+  },
+  {
+    slug: "high-consideration-purchase-funnel",
+    title: "The High-Consideration Purchase Funnel for Luxury & Complex Brands",
+    excerpt:
+      "How media supports long, high-consideration sales cycles — mapping channels to funnel stages for luxury and complex-purchase brands that don't convert on first touch.",
+    image: "/images/high-consideration-purchase-funnel.png",
+    category: "Media Strategy",
+    date: "2026-06-22",
+  },
+  {
+    slug: "premium-publisher-direct-deals",
+    title: "Premium Publisher Direct Deals: Better ROI for Luxury Brands",
+    excerpt:
+      "Why direct deals with premium publishers outperform the open exchange for luxury brands — access, quality, brand safety, and how to structure them.",
+    image: "/images/premium-publisher-direct-deals.png",
+    category: "Programmatic Strategy",
+    date: "2026-06-22",
+  },
+  {
+    slug: "creative-sequencing-ctv-advertising",
+    title: "Creative Sequencing in CTV: How Luxury Brands Tell a Story Across Impressions",
+    excerpt:
+      "Creative sequencing delivers different ad messages based on viewer exposure, building narrative and intent across impressions. How luxury brands execute it in CTV.",
+    image: "/images/creative-sequencing-ctv-advertising.png",
+    category: "CTV & Streaming",
+    date: "2026-06-20",
+  },
+  {
+    slug: "media-efficiency-ratio-advertising",
+    title: "Media Efficiency Ratio: The KPI Luxury Advertisers Actually Need",
+    excerpt:
+      "Media efficiency ratio measures how much revenue each dollar of media spend generates — beyond ROAS. How luxury brands use MER to make smarter budget decisions.",
+    image: "/images/media-efficiency-ratio-advertising.png",
+    category: "Measurement & Attribution",
+    date: "2026-06-20",
+  },
+  {
+    slug: "luxury-brand-digital-marketing-strategy",
+    title: "Luxury Brand Digital Marketing Strategy: Why It Must Differ From Mass Market",
+    excerpt:
+      "Why luxury brand digital marketing must differ from mass-market playbooks — the strategy, channels, and creative discipline that protect brand equity while driving growth.",
+    image: "/images/luxury-brand-digital-marketing-strategy.png",
+    category: "Strategy",
+    date: "2026-06-19",
+  },
+  {
+    slug: "ott-advertising-luxury-brands",
+    title: "OTT Advertising for Luxury Brands: The Complete Guide",
+    excerpt:
+      "The complete guide to OTT advertising for luxury brands — platforms, ad formats, targeting, and measurement for reaching affluent streaming audiences at scale.",
+    image: "/images/ott-advertising-luxury-brands.png",
+    category: "Channels",
+    date: "2026-06-19",
+  },
+  {
+    slug: "brand-lift-measurement-ctv",
+    title: "Brand Lift Measurement for CTV: A Practical Guide",
+    excerpt:
+      "A practical guide to brand lift measurement for CTV — methodologies, benchmark ranges, and how incrementality and holdout testing fit together for luxury brands.",
+    image: "/images/brand-lift-measurement-ctv.png",
+    category: "Measurement & Attribution",
+    date: "2026-06-14",
+  },
+  {
+    slug: "millionaire-household-targeting-digital",
+    title: "Millionaire Household Targeting With Digital Media",
+    excerpt:
+      "How to find and reach millionaire households with digital media — data sources, segmentation models, and channel strategy for luxury brands. A Stillwater Media playbook.",
+    image: "/images/millionaire-household-targeting-digital.png",
+    category: "Affluent Audience Strategy",
+    date: "2026-06-14",
+  },
+  {
+    slug: "media-agency-charlotte-nc-luxury",
+    title: "Media Agency in Charlotte, NC: Built for Luxury Brands",
+    excerpt:
+      "Why a media agency in Charlotte, NC is positioned to serve luxury brands: wealth-market proximity, talent, and cost structure — without coastal markup.",
+    image: "/images/media-agency-charlotte-nc-luxury.png",
+    category: "Agency Insights",
+    date: "2026-06-12",
+  },
+  {
+    slug: "premium-dtc-brand-advertising",
+    title: "Premium DTC Brand Advertising Beyond Meta",
+    excerpt:
+      "How luxury DTC brands diversify beyond Meta into CTV, PMPs, and streaming audio to cut CAC and rebuild ROAS as social platform performance erodes.",
+    image: "/images/premium-dtc-brand-advertising.png",
+    category: "Performance Media Strategy",
+    date: "2026-06-12",
+  },
+  {
+    slug: "holdout-testing-advertising",
+    title: "Holdout Testing: How to Prove True Incremental Lift",
+    excerpt:
+      "How to design control groups that prove true incremental lift. Holdout testing methodology, benchmarks, and the mistakes that quietly invalidate results.",
+    image: "/images/holdout-testing-advertising.png",
+    category: "Measurement & Attribution",
+    date: "2026-06-11",
+  },
+  {
+    slug: "identity-resolution-luxury-advertising",
+    title: "Identity Resolution for Luxury Advertising After Cookies",
+    excerpt:
+      "How premium brands maintain precision targeting and measurement after cookie deprecation — the identity resolution frameworks that keep luxury campaigns accountable.",
+    image: "/images/identity-resolution-luxury-advertising.png",
+    category: "Data & Privacy",
+    date: "2026-06-11",
+  },
+  {
+    slug: "podcast-advertising-luxury-brands",
+    title: "Podcast Advertising for Luxury Brands",
+    excerpt:
+      "How luxury brands reach affluent, high-attention listeners through podcast advertising — host-read vs. programmatic, show selection, and measurement that holds up.",
+    image: "/images/podcast-advertising-luxury-brands.png",
+    category: "Streaming Audio / Podcast Advertising",
+    date: "2026-06-10",
+  },
+  {
+    slug: "native-advertising-premium-brands",
+    title: "Native Advertising for Premium Brands",
+    excerpt:
+      "How premium brands use native advertising to earn attention in editorial environments without cheapening brand equity — formats, publishers, and creative discipline.",
+    image: "/images/native-advertising-premium-brands.png",
+    category: "Native Advertising / Premium Publishing",
+    date: "2026-06-10",
+  },
+  {
+    slug: "youtube-select-advertising-luxury-brands",
+    title: "YouTube Select Advertising for Luxury Brands",
+    excerpt:
+      "How luxury brands use YouTube Select and premium CTV inventory to reach affluent viewers in brand-safe, top-tier content environments at scale.",
+    image: "/images/youtube-select-advertising-luxury-brands.png",
+    category: "Streaming Video / Premium CTV",
+    date: "2026-06-09",
+  },
+  {
+    slug: "brand-safety-programmatic-advertising",
+    title: "Brand Safety in Programmatic Advertising for Luxury Brands",
+    excerpt:
+      "How luxury brands protect premium equity in programmatic — brand safety vs. brand suitability, private marketplaces, and the contextual safeguards that matter.",
+    image: "/images/brand-safety-programmatic-advertising.png",
+    category: "Programmatic Advertising / Brand Strategy",
+    date: "2026-06-09",
+  },
+  {
     slug: "programmatic-vs-direct-media-buying-luxury",
     title: "Programmatic vs. Direct Media Buying: What's Right for Luxury Brands?",
     excerpt:
