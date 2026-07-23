@@ -9,6 +9,78 @@ export interface InsightPost {
 
 export const insightPosts: InsightPost[] = [
   {
+    slug: "premium-ctv-advertising-agency",
+    title: "How to Choose a Premium CTV Advertising Agency",
+    excerpt:
+      "What a premium CTV advertising agency does, how it buys Disney+, Netflix, and Prime Video inventory, and how to evaluate one for a luxury, high-LTV brand.",
+    image: "/images/premium-ctv-advertising-agency.png",
+    category: "Channel Deep-Dives",
+    date: "2026-07-22",
+  },
+  {
+    slug: "luxury-brand-advertising-agency",
+    title: "How to Choose a Luxury Brand Advertising Agency",
+    excerpt:
+      "How to choose a luxury brand advertising agency: what separates a real performance media partner from a creative shop, plus the questions to ask before you hire.",
+    image: "/images/luxury-brand-advertising-agency.png",
+    category: "Agency & Strategy",
+    date: "2026-07-22",
+  },
+  {
+    slug: "private-equity-firm-advertising",
+    title: "Private Equity Firm Advertising: The LP and Founder Playbook",
+    excerpt:
+      "Private equity firm advertising done properly: how to reach LPs, founders and intermediaries with compliant, brand-safe programmatic and premium CTV.",
+    image: "/images/private-equity-firm-advertising.png",
+    category: "Vertical Playbooks",
+    date: "2026-07-21",
+  },
+  {
+    slug: "media-measurement-beyond-last-click",
+    title: "Media Measurement Beyond Last Click: A Four-Layer System",
+    excerpt:
+      "Media measurement beyond last click: why last-touch misreads luxury campaigns, and the four-layer system that actually explains what drove revenue.",
+    image: "/images/media-measurement-beyond-last-click.png",
+    category: "Measurement & Attribution",
+    date: "2026-07-21",
+  },
+  {
+    slug: "luxury-intent-signal-targeting",
+    title: "Luxury Intent Signal Targeting: What Actually Predicts a Purchase",
+    excerpt:
+      "Luxury intent signal targeting explained — which behavioral signals actually predict high-value purchases, how to score them, and where most brands go wrong.",
+    image: "/images/luxury-intent-signal-targeting.png",
+    category: "Audience Strategy",
+    date: "2026-07-20",
+  },
+  {
+    slug: "best-advertising-channels-luxury-brands",
+    title: "The Best Advertising Channels for Luxury Brands (Ranked)",
+    excerpt:
+      "The best advertising channels for luxury brands, ranked by CPM, incrementality, and audience quality — with budget allocation benchmarks by vertical.",
+    image: "/images/best-advertising-channels-luxury-brands.png",
+    category: "Media Strategy",
+    date: "2026-07-20",
+  },
+  {
+    slug: "generative-ai-advertising-luxury",
+    title: "How Generative AI Is Changing Luxury Advertising Creative",
+    excerpt:
+      "How generative AI is changing luxury advertising creative, audience modeling, and media strategy — and what premium brands must get right to stay ahead.",
+    image: "/images/generative-ai-advertising-luxury.png",
+    category: "AI & Advertising Innovation",
+    date: "2026-06-25",
+  },
+  {
+    slug: "ctv-advertising-trends-2025-2026",
+    title: "CTV Advertising Trends 2025–2026: What Luxury Brands Need to Know",
+    excerpt:
+      "The definitive guide to CTV advertising trends 2025–2026. Learn what's changing in streaming TV, audience targeting, and measurement for luxury brands.",
+    image: "/images/ctv-advertising-trends-2025-2026.png",
+    category: "CTV & Streaming Advertising",
+    date: "2026-06-25",
+  },
+  {
     slug: "ultra-high-net-worth-advertising-targeting",
     title: "Ultra-High-Net-Worth Advertising: What Actually Works",
     excerpt:
