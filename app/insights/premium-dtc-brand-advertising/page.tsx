@@ -32,7 +32,7 @@ export const metadata = {
 }
 
 export default function PremiumDtcBrandAdvertisingPage() {
-  const schemaMarkup = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Premium DTC Brand Advertising: How Luxury Brands Escape Meta Dependency",
@@ -70,6 +70,11 @@ export default function PremiumDtcBrandAdvertisingPage() {
     articleSection: "Performance Media Strategy",
     wordCount: 2080,
     inLanguage: "en-US",
+  }
+
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/premium-dtc-brand-advertising#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Premium DTC Brand Advertising: How Luxury Brands Escape Meta Dependency","item":"https://www.stillwatermedia.io/insights/premium-dtc-brand-advertising"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/premium-dtc-brand-advertising#faq","mainEntity":[{"@type":"Question","name":"Q1: How much of a DTC brand's budget should be on Meta?","acceptedAnswer":{"@type":"Answer","text":"A1: As a rule of thumb, no single platform should exceed 40-45% of paid media spend once a premium DTC brand passes roughly $10M in revenue. Most Meta-dependent brands sit at 70-85%, which exposes their entire CAC structure to one platform's auction inflation and algorithm changes. The goal isn't leaving Meta — it's repositioning it as a conversion engine while premium channels handle demand creation."}},{"@type":"Question","name":"Q2: What is the best alternative to Meta ads for luxury DTC brands?","acceptedAnswer":{"@type":"Answer","text":"A2: Premium connected TV (CTV) on Disney+, Netflix, and Prime Video is the strongest first diversification channel for most luxury DTC brands. It offers household-income targeting, 95-98% completion rates, and a premium full-screen environment that protects brand positioning. Effective programs typically start at $20K-$50K/month and show measurable branded search lift within 6-10 weeks."}},{"@type":"Question","name":"Q3: How do you measure CTV advertising performance for DTC brands?","acceptedAnswer":{"@type":"Answer","text":"A3: The most reliable method is geo-matched holdout testing: run CTV in selected markets, hold out comparable control markets, and compare total revenue, branded search volume, and new-customer rates between them. Last-click attribution will dramatically undercount CTV because it rarely produces direct clicks; leading indicators like branded query lift typically appear in 2-6 weeks."}},{"@type":"Question","name":"Q4: Why is Meta ROAS declining for premium and luxury brands?","acceptedAnswer":{"@type":"Answer","text":"A4: Three compounding factors: auction CPMs for affluent audiences have inflated faster than broad audiences because more advertisers compete for high-income users; iOS signal loss degraded Meta's conversion modeling most severely for brands with long consideration cycles and modest conversion volume; and feed environments increasingly favor discount-responsive buyers over full-price luxury customers. The result is structural, not creative — and requires channel architecture changes rather than more ad testing."}},{"@type":"Question","name":"Q5: What is a good MER for a premium DTC brand?","acceptedAnswer":{"@type":"Answer","text":"A5: Most healthy premium DTC brands target a blended marketing efficiency ratio (total revenue ÷ total ad spend) of 4-7x, depending on gross margin and LTV profile. Brands with high repeat-purchase rates can operate at the lower end profitably, while single-purchase, high-AOV brands need the higher end. MER is more honest than channel-level ROAS once spend is diversified across channels that influence each other."}}]}],
   }
 
   return (

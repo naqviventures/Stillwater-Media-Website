@@ -32,7 +32,7 @@ export const metadata = {
 }
 
 export default function BrandLiftMeasurementCtvPage() {
-  const schemaMarkup = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "How to Measure Brand Lift From CTV Campaigns",
@@ -71,6 +71,11 @@ export default function BrandLiftMeasurementCtvPage() {
     articleSection: "Measurement & Attribution",
     wordCount: 2075,
     inLanguage: "en-US",
+  }
+
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/brand-lift-measurement-ctv#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"How to Measure Brand Lift From CTV Campaigns","item":"https://www.stillwatermedia.io/insights/brand-lift-measurement-ctv"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/brand-lift-measurement-ctv#faq","mainEntity":[{"@type":"Question","name":"Q1: How do you measure brand lift from a CTV campaign?","acceptedAnswer":{"@type":"Answer","text":"A1: Brand lift from CTV is typically measured using three complementary methods: survey-based brand lift studies that compare awareness and favorability between exposed and control groups, geo-holdout incrementality tests that compare actual business outcomes between markets with and without the campaign, and marketing mix modeling that isolates CTV's contribution to outcomes over time using historical data."}},{"@type":"Question","name":"Q2: Why doesn't last-click attribution work for CTV advertising?","acceptedAnswer":{"@type":"Answer","text":"A2: CTV ads run on televisions, typically without a clickable element, so viewers rarely click through directly. Last-click attribution systematically undercounts CTV's impact because it can only credit channels where a direct click-to-conversion path exists. Brand lift studies and incrementality testing are designed specifically to measure CTV's influence on awareness and downstream conversions instead."}},{"@type":"Question","name":"Q3: What is a good brand lift result for a CTV campaign?","acceptedAnswer":{"@type":"Answer","text":"A3: For luxury and high-consideration brands with adequate frequency (3+ exposures), ad recall lift of 4-12 percentage points and purchase intent lift of 2-6 percentage points over a matched control group are common benchmarks. For geo-holdout incrementality tests, a 5-15% lift in the target outcome relative to holdout markets is a reasonable target for well-targeted campaigns."}},{"@type":"Question","name":"Q4: What is a geo-holdout test in advertising?","acceptedAnswer":{"@type":"Answer","text":"A4: A geo-holdout test compares business outcomes between geographic markets where a campaign runs and statistically matched markets where it's deliberately withheld. By comparing the difference in outcomes between exposed and holdout markets over the campaign period, advertisers can isolate the true incremental impact of the campaign, separate from outcomes that would have occurred anyway."}},{"@type":"Question","name":"Q5: How long should a CTV incrementality test run?","acceptedAnswer":{"@type":"Answer","text":"A5: For high-consideration categories with sales cycles of 30-90 days, geo-holdout incrementality tests typically need to run 8-12 weeks minimum to capture the full window in which CTV exposure influences a purchase decision. Shorter tests risk missing conversions that occur after the measurement window closes."}}]}],
   }
 
   return (

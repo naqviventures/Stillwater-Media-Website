@@ -32,7 +32,7 @@ export const metadata = {
 }
 
 export default function PrecisionLeadGenerationStrategies() {
-  const schemaMarkup = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Precision Lead Generation Strategies: Advanced Targeting and Qualification Techniques",
@@ -69,6 +69,11 @@ export default function PrecisionLeadGenerationStrategies() {
     articleSection: "Lead Generation",
     wordCount: 2100,
     inLanguage: "en-US",
+  }
+
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/precision-lead-generation-strategies#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Precision Lead Generation Strategies: Advanced Targeting and Qualification Techniques","item":"https://www.stillwatermedia.io/insights/precision-lead-generation-strategies"}]}],
   }
 
   return (

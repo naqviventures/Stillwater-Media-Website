@@ -32,7 +32,7 @@ export const metadata = {
 }
 
 export default function LeadFinderTechnology() {
-  const schemaMarkup = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Real-Time Lead Identification: Technology and Strategy for High-Value Prospecting",
@@ -69,6 +69,11 @@ export default function LeadFinderTechnology() {
     articleSection: "Lead Generation",
     wordCount: 2000,
     inLanguage: "en-US",
+  }
+
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/real-time-lead-finder-technology#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Real-Time Lead Identification: Technology and Strategy for High-Value Prospecting","item":"https://www.stillwatermedia.io/insights/real-time-lead-finder-technology"}]}],
   }
 
   return (
