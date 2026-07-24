@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Billboard Advertising in the Digital Age: Integrating OOH with Programmatic | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/billboard-advertising-digital-age",
+  },
+  title: "Billboard Advertising in the Digital Age: Integrating OOH with Programmatic",
   description:
     "Learn how traditional billboard advertising is evolving with digital integration, programmatic buying, and advanced attribution models for maximum impact.",
   openGraph: {

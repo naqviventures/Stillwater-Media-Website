@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Brand Safety in Programmatic Advertising | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/brand-safety-programmatic-advertising",
+  },
+  title: "Brand Safety in Programmatic Advertising",
   description:
     "Brand safety in programmatic advertising isn't optional for luxury brands. Learn how Stillwater Media protects premium equity across every impression.",
   openGraph: {

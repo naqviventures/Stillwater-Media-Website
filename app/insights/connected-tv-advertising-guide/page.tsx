@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Connected TV Advertising: Complete Guide to CTV Campaign Success | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/connected-tv-advertising-guide",
+  },
+  title: "Connected TV Advertising: Complete Guide to CTV Campaign Success",
   description:
     "Master Connected TV advertising with proven strategies for audience targeting, creative optimization, and performance measurement across streaming platforms.",
   openGraph: {

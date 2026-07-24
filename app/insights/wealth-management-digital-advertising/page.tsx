@@ -1,7 +1,10 @@
 import { ArticleLayout } from '@/components/article-layout'
 
 export const metadata = {
-  title: "Wealth Management Digital Advertising: Reaching HNW Prospects | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/wealth-management-digital-advertising",
+  },
+  title: "Wealth Management Digital Advertising: Reaching HNW Prospects",
   description:
     "How wealth management firms and financial advisors reach high-net-worth prospects through programmatic advertising. Strategy, channels, and compliance-aware targeting from Stillwater Media.",
   openGraph: {

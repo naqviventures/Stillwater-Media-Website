@@ -1,6 +1,9 @@
 import { ArticleLayout } from '@/components/article-layout'
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/multi-touch-attribution-high-consideration-brands",
+  },
   title: "Multi-Touch Attribution for Long Sales Cycle Brands",
   description:
     "Multi-touch attribution for high-consideration brands with long sales cycles. Stillwater Media explains which models work — and which lie — for luxury advertisers.",

@@ -3,6 +3,9 @@ import { ArticleLayout } from "@/components/article-layout"
 export const metadata = {
   "title": "CTV Advertising Trends 2025–2026",
   "description": "The definitive guide to CTV advertising trends 2025–2026. Learn what's changing in streaming TV, audience targeting, and measurement for luxury brands.",
+  "alternates": {
+    "canonical": "https://www.stillwatermedia.io/insights/ctv-advertising-trends-2025-2026"
+  },
   "openGraph": {
     "title": "CTV Advertising Trends 2025–2026: What Luxury Brands Need to Know",
     "description": "Streaming has fractured. Audiences have migrated. Learn which CTV advertising trends 2025–2026 separate the brands winning premium attention from those wasting it.",
@@ -30,40 +33,115 @@ export const metadata = {
 export default function CtvAdvertisingTrends20252026Page() {
   const schemaMarkup = {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "CTV Advertising Trends 2025–2026: What Luxury Brands Need to Know",
-  "description": "A comprehensive guide to connected TV advertising trends in 2025 and 2026, covering streaming platform shifts, audience measurement advances, and premium media strategy for luxury and high-consideration brands.",
-  "image": {
-    "@type": "ImageObject",
-    "url": "https://www.stillwatermedia.io/images/ctv-advertising-trends-2025-2026.png",
-    "width": 1200,
-    "height": 630,
-    "caption": "CTV advertising trends dashboard for luxury brand media buyers in 2025–2026"
-  },
-  "author": {
-    "@type": "Organization",
-    "name": "Stillwater Media",
-    "url": "https://www.stillwatermedia.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Stillwater Media",
-    "url": "https://www.stillwatermedia.io",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "/stillwater-logo.png"
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "CTV Advertising Trends 2025–2026: What Luxury Brands Need to Know",
+      "description": "A comprehensive guide to connected TV advertising trends in 2025 and 2026, covering streaming platform shifts, audience measurement advances, and premium media strategy for luxury and high-consideration brands.",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.stillwatermedia.io/images/ctv-advertising-trends-2025-2026.png",
+        "width": 1200,
+        "height": 630,
+        "caption": "CTV advertising trends dashboard for luxury brand media buyers in 2025–2026"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "Stillwater Media",
+        "url": "https://www.stillwatermedia.io"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Stillwater Media",
+        "url": "https://www.stillwatermedia.io",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "/stillwater-logo.png"
+        }
+      },
+      "datePublished": "2026-06-25T08:00:00-05:00",
+      "dateModified": "2026-06-25T08:00:00-05:00",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.stillwatermedia.io/insights/ctv-advertising-trends-2025-2026"
+      },
+      "keywords": "CTV advertising trends 2025 2026, streaming TV advertising luxury, connected TV advertising for luxury brands, OTT advertising luxury brands, brand lift measurement CTV, premium CTV advertising agency",
+      "articleSection": "CTV & Streaming Advertising",
+      "wordCount": 2350,
+      "inLanguage": "en-US",
+      "@id": "https://www.stillwatermedia.io/insights/ctv-advertising-trends-2025-2026#article"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.stillwatermedia.io/insights/ctv-advertising-trends-2025-2026#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.stillwatermedia.io"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Insights",
+          "item": "https://www.stillwatermedia.io/insights"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "CTV Advertising Trends 2025–2026: What Luxury Brands Need to Know",
+          "item": "https://www.stillwatermedia.io/insights/ctv-advertising-trends-2025-2026"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.stillwatermedia.io/insights/ctv-advertising-trends-2025-2026#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are the biggest CTV advertising trends in 2025 and 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The most significant CTV advertising trends in 2025–2026 include the mass adoption of ad-supported streaming tiers by Netflix, Disney+, and Amazon Prime Video, making premium inventory more accessible to advertisers. First-party audience targeting is replacing demographic buying, measurement has evolved from proxies to incremental proof through matched market tests and brand lift studies, attention-weighted CPM is reshaping how brands value impressions, and shoppable and interactive ad formats are maturing at scale. For luxury brands specifically, access to private marketplace deals and cross-platform frequency management have become essential capabilities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does CTV advertising cost in 2025?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CTV advertising CPMs in 2025 range from approximately $12–$55 depending on the platform and inventory tier. Netflix and Disney+ command the highest CPMs ($29–$55) for premium, low-ad-load inventory, while Amazon Prime Video ranges from $15–$30 and Peacock and Paramount+ from $12–$35. Premium private marketplace deals with guaranteed inventory access often carry CPM floors but deliver materially better audience match rates and brand safety controls than open exchange, making them cost-effective for luxury brands when measured on a cost-per-qualified-impression basis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is CTV advertising measured in 2025?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CTV advertising is now measured through multiple methodologies simultaneously. Brand lift studies (available through platform-native tools and third parties like Nielsen) measure unaided awareness and consideration. Matched market holdout tests measure true incremental lift by comparing exposed vs. unexposed geographies. ACR data from smart TV manufacturers maps tune-in behavior to purchase data. Server-side pixel integrations connect CTV exposure to CRM outcomes — inquiries, appointments, and applications — with attribution windows up to 90 days. The \"CTV is unmeasurable\" critique that was valid in 2020 no longer applies to brands with proper measurement infrastructure."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between CTV and OTT advertising?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CTV (Connected TV) refers specifically to advertising delivered to a television screen via an internet-connected device — a smart TV, Apple TV, Roku, or gaming console. OTT (Over-The-Top) is a broader term that includes streaming video delivered across all devices: TVs, tablets, smartphones, and laptops. In practice, most premium advertisers use the terms interchangeably when discussing streaming ad inventory, but technically CTV is a subset of OTT. For luxury brands, CTV is typically prioritized over broader OTT because big-screen viewing drives higher attention scores and a more brand-appropriate consumption environment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which streaming platforms are best for luxury brand advertising?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For luxury brand advertising, Disney+ (including Hulu) and Netflix represent the highest-quality ad environments due to their constrained ad loads (4 minutes or less per hour), premium content libraries, and sophisticated first-party audience targeting capabilities. Amazon Prime Video offers the most powerful purchase-intent and behavioral signal overlay due to its e-commerce data integration. Peacock is valuable for live sports adjacency if your audience over-indexes on premium sports content. The optimal approach is not to pick one platform but to access all of them through a coordinated private marketplace strategy with unified frequency management across screens."
+          }
+        }
+      ]
     }
-  },
-  "datePublished": "2026-06-25T08:00:00-05:00",
-  "dateModified": "2026-06-25T08:00:00-05:00",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.stillwatermedia.io/insights/ctv-advertising-trends-2025-2026"
-  },
-  "keywords": "CTV advertising trends 2025 2026, streaming TV advertising luxury, connected TV advertising for luxury brands, OTT advertising luxury brands, brand lift measurement CTV, premium CTV advertising agency",
-  "articleSection": "CTV & Streaming Advertising",
-  "wordCount": 2350,
-  "inLanguage": "en-US"
+  ]
 }
 
   const articleHtml = "<p>CTV advertising trends in 2025–2026 are reshaping how premium brands reach affluent consumers — and the brands that understand what&#39;s changing are pulling ahead. Streaming has not simply replaced linear TV; it has fractured into a more complex, more measurable, and paradoxically more powerful environment for brands willing to navigate it with precision.</p>\n<p>For luxury and high-consideration brands — private aviation, wealth management, luxury real estate, premium automotive — the stakes are especially high. Your buyers are consuming premium content on Disney+, Netflix, Hulu, and Amazon Prime Video. They are unreachable by mass-market TV buys. They skip pre-roll and ignore banner ads. But they sit through 30-second spots on ad-supported streaming tiers because the content quality demands their full attention.</p>\n<p>This guide covers the most significant CTV advertising trends of 2025–2026 that every luxury marketing leader should understand, along with the strategic implications for premium campaigns.</p>\n<h2 id=\"the-ad-supported-streaming-tier-is-now-the-premium-inventory\">The Ad-Supported Streaming Tier Is Now the Premium Inventory</h2>\n<p>The single largest structural shift in streaming in 2024–2025 was the mass adoption of ad-supported tiers across every major platform. Netflix&#39;s ad-supported tier surpassed 40 million monthly active users globally by early 2025. Disney+ Basic (with ads) accounts for the majority of Disney+ U.S. subscribers. Amazon Prime Video moved to ads-on by default in January 2024.</p>\n<p>This matters enormously for luxury advertisers because the assumption that ad-free subscribers represent the premium audience is now outdated. IAB research shows that ad-supported streaming viewers skew older (35–54) and higher-income than their demographic counterparts on YouTube or social video. The viewer who opts into Netflix&#39;s Basic tier to save $6/month while keeping the premium content catalog is not cash-strapped — they are deliberate. They keep their discretionary spending for what matters.</p>\n<p>The practical implication: media plans that previously avoided ad-supported tiers to protect brand safety are now excluding the most reachable affluent audience on streaming. Premium CTV advertising in 2025 requires rethinking that assumption.</p>\n<h3 id=\"platform-maturity-and-ad-product-sophistication\">Platform Maturity and Ad Product Sophistication</h3>\n<table>\n<thead>\n<tr>\n<th>Platform</th>\n<th>Ad-Supported MAUs (2025 est.)</th>\n<th>Key Ad Products</th>\n<th>Min. CPM Range</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Netflix</td>\n<td>40M+ global</td>\n<td>Pause ads, sponsorships, 15/30-sec</td>\n<td>$29–$55</td>\n</tr>\n<tr>\n<td>Disney+ / Hulu</td>\n<td>50M+ combined</td>\n<td>Disney Select Suite, interactive</td>\n<td>$25–$50</td>\n</tr>\n<tr>\n<td>Amazon Prime Video</td>\n<td>115M+ U.S.</td>\n<td>Streaming TV Ads, Prime targeting</td>\n<td>$15–$30</td>\n</tr>\n<tr>\n<td>Peacock</td>\n<td>34M+</td>\n<td>Live sports adjacency, pause ads</td>\n<td>$18–$35</td>\n</tr>\n<tr>\n<td>Paramount+</td>\n<td>28M+</td>\n<td>Genre targeting, BVS formats</td>\n<td>$12–$25</td>\n</tr>\n</tbody></table>\n<p>Source: Company earnings reports, IAB State of Streaming 2025, Guideline TV marketplace data.</p>\n<h2 id=\"trend-1-first-party-audience-targeting-is-replacing-demographic-buying\">Trend 1: First-Party Audience Targeting Is Replacing Demographic Buying</h2>\n<p>Throughout 2024 and into 2025, the major streaming platforms have built increasingly sophisticated first-party data environments. Rather than buying &quot;Women 35–54 HHI $150K+&quot; through a third-party demographic tag, premium advertisers can now activate against platform-native behavioral signals.</p>\n<p>Netflix&#39;s ad infrastructure, built on Microsoft&#39;s Xandr platform and now largely in-house, allows targeting against content genre, viewing behavior, and completion rate patterns — signals that are far more predictive of purchase intent than age/gender/income alone. Disney&#39;s Luminate data platform enables targeting against Disney-native behavioral cohorts, including travel intent signals derived from Disney Vacation Club browsing, which are particularly relevant for luxury hospitality advertisers.</p>\n<p>Amazon&#39;s streaming inventory layered on top of its commerce and Prime behavioral data remains the most powerful signal stack in streaming for consumer brands. A viewer who recently searched Amazon for &quot;charter flight&quot; or browsed luxury watches is identifiable in the Amazon DSP — and reachable during Prime Video content with that signal active.</p>\n<p><strong>What this means for luxury brands:</strong> move away from broad demographic targeting on CTV and toward platform-native first-party audience activation. The cost-per-targeted-impression may be 30–40% higher, but the delivery accuracy is materially better — which directly impacts ROAS for high-LTV acquisitions.</p>\n<h2 id=\"trend-2-cross-platform-frequency-management-is-now-table-stakes\">Trend 2: Cross-Platform Frequency Management Is Now Table Stakes</h2>\n<p>One of the most persistent waste drivers in CTV campaigns has been frequency duplication across platforms. A viewer who subscribes to Disney+, Hulu, and Peacock could legally be served the same 30-second spot six times in a single evening session — across three different buys that each think they have first access.</p>\n<p>In 2025, the solutions to this problem are real and available, though not universally deployed. The key approaches:</p>\n<p><strong>Clean room frequency coordination</strong>: Platforms including Disney Advertising Sales and NBCU have participated in identity-based clean room experiments that allow advertisers to de-duplicate reach across environments using privacy-preserving ID graphs. The setup cost is higher, but the waste reduction for brands running eight-figure CTV budgets is significant.</p>\n<p><strong>DSP-level capping</strong>: Trade desks like The Trade Desk and DV360 have improved cross-CTV frequency controls, though these work only on programmatic inventory (not guaranteed buys). For brands accessing premium inventory through private marketplace deals, frequency rules need to be negotiated into the deal terms.</p>\n<p><strong>Contextual timing buffers</strong>: Some sophisticated buyers are implementing &quot;dark windows&quot; — periods following a confirmed impression where the same creative is suppressed across all platforms. This requires a data clean room or shared ID resolution layer but is achievable with the right tech stack.</p>\n<p>Luxury brands should care about this not just for efficiency but for experience. Nothing damages premium brand perception faster than overexposure — seeing the same 30-second spot for a private jet charter company four times in one evening transforms aspiration into irritation.</p>\n<h2 id=\"trend-3-ctv-measurement-has-graduated-from-proxies-to-proof\">Trend 3: CTV Measurement Has Graduated From Proxies to Proof</h2>\n<p>The longstanding criticism of CTV — that it was an awareness channel with no accountability — is now genuinely outdated. CTV measurement in 2025–2026 is sophisticated, multi-layered, and directly connectable to revenue outcomes for brands with the right attribution infrastructure.</p>\n<p>The measurement stack that leading premium advertisers are using includes:</p>\n<p><strong>Matched market testing</strong>: Geographic holdout experiments that isolate the incremental impact of CTV spend by comparing markets where the campaign ran against dark markets. This remains the gold standard for proving true lift.</p>\n<p><strong>ACR data partnerships</strong>: Automatic content recognition data from smart TV manufacturers (Samsung Ads, LG Ads, Vizio) can verify household-level tune-in for specific streaming content and overlay purchase data from retail partners. For luxury automotive brands, ACR data from an authorized dealer&#39;s CRM can prove whether CTV-exposed households converted to test drives.</p>\n<p><strong>Pixel-to-panel bridges</strong>: For brands with strong first-party data (e-commerce, financial services, luxury hospitality), server-side pixel integration with DSP delivery logs allows CTV exposure to be mapped against downstream CRM events — inquiries, appointments, applications — with 30- to 90-day attribution windows.</p>\n<p><strong>Brand lift studies</strong>: Platform-native lift studies (available through Hulu/Disney Ad Manager, Nielsen ONE, and Comscore Campaign Ratings) measure unaided awareness, consideration, and purchase intent lifts between exposed and control groups. For luxury brands with 30-day+ sales cycles, these mid-funnel metrics are often more directionally accurate than conversion-based ROAS.</p>\n<p>The shift from &quot;we can&#39;t measure CTV&quot; to &quot;we can measure CTV several ways simultaneously&quot; has fundamentally changed how sophisticated media buyers justify and optimize streaming investment.</p>\n<h2 id=\"trend-4-the-attention-economy-premium-is-reshaping-cpm-hierarchies\">Trend 4: The Attention Economy Premium Is Reshaping CPM Hierarchies</h2>\n<p>Not all CTV impressions are equal, and in 2025–2026, the market is finally beginning to price attention correctly. The concept of &quot;attention-weighted CPM&quot; — which values an impression based on the probability of active viewing rather than just the opportunity to be seen — is gaining adoption among premium buyers.</p>\n<p>Research from Dentsu&#39;s Attention Economy study (2024) found that CTV generates 4.2x the attention of social video and 2.7x the attention of digital display, when measured by eye-tracking and second-by-second engagement signals. For luxury brands, where the creative needs to convey craftsmanship, aspiration, and brand story — not just a logo and a price — this attention differential is existential.</p>\n<p>Premium CTV environments on Disney+, Netflix, and Peacock Premium have particularly high attention scores because:</p>\n<ul>\n<li>Content completion rates are high (viewers commit to long-form streaming content)</li>\n<li>Ad loads are constrained (Disney+ runs a maximum of 4 minutes of ads per hour)</li>\n<li>Ad-skipping is impossible on most premium streaming tiers (unlike YouTube)</li>\n<li>Big-screen viewing is dominant (68% of Disney+ viewing is on a TV, not a phone)</li>\n</ul>\n<p>The strategic implication: brands should not simply compare CTV CPMs to social video CPMs and declare social the winner because it costs less. The relevant metric is cost-per-attentive-second (CPAS), which typically favors premium CTV by a wide margin for complex, brand-narrative creative.</p>\n<h2 id=\"trend-5-shoppable-and-interactive-ctv-is-accelerating\">Trend 5: Shoppable and Interactive CTV Is Accelerating</h2>\n<p>One of the more significant 2025–2026 CTV advertising trends is the maturation of interactive ad formats — pause ads, QR-code overlays, voice-triggered actions, and shoppable units that allow viewers to engage with a brand without leaving content.</p>\n<p>Peacock and Hulu have been particularly aggressive here. Hulu&#39;s &quot;GatewayGo&quot; format serves a full-screen interactive ad when a viewer pauses content, displaying a QR code or &quot;Send to Phone&quot; option to capture the engagement moment. Amazon Prime Video&#39;s &quot;Send to Shopping Cart&quot; overlay is available for consumer goods brands.</p>\n<p>For luxury brands, the relevant formats are the high-touch versions: pause ads on Disney+ that allow a viewer to &quot;Request More Information&quot; about a private club, QR codes during a Peacock live sports broadcast that link to a wealth management firm&#39;s appointment scheduler, or voice-activated information requests through smart TV assistants linked to a yacht charter company&#39;s brochure request.</p>\n<p>These formats are not appropriate for every brand or every campaign — a UHNW audience member pausing a prestige drama to fill out a lead form is a different behavior than someone clicking through a YouTube bumper. But for brands with compelling creative and a clear next step, interactive CTV is a legitimate mid-funnel activation tool that was not viable at scale three years ago.</p>\n<h2 id=\"what-this-means-for-your-20252026-ctv-strategy\">What This Means for Your 2025–2026 CTV Strategy</h2>\n<p>The luxury brands winning on CTV right now share five strategic attributes:</p>\n<ol>\n<li><p><strong>They access premium inventory through private marketplace deals</strong>, not open exchange. PMPs with Disney Advertising Sales, NBCUniversal&#39;s One Platform, and Amazon Streaming TV Ads give direct access to premium publishers without the brand safety risk of open auction.</p>\n</li>\n<li><p><strong>They run creative sequencing across the funnel.</strong> Awareness (60-second brand films), consideration (30-second feature-forward spots), and conversion (15-second retargeting with direct response elements) are coordinated across platforms with a unified frequency story.</p>\n</li>\n<li><p><strong>They measure incrementally, not just attributionally.</strong> ROAS from last-click or view-through windows is a misleading proxy for CTV&#39;s true impact. Matched market tests and brand lift studies are the right accountability mechanisms.</p>\n</li>\n<li><p><strong>They buy attention, not just reach.</strong> They concentrate impressions in high-attention environments (Disney+, Hulu, Netflix) rather than maximizing reach across low-CPM, low-attention environments.</p>\n</li>\n<li><p><strong>They operate with audience precision.</strong> Platform first-party data, clean room integrations, and CRM-matched audiences replace blunt demographic buys.</p>\n</li>\n</ol>\n<h2 id=\"the-ctv-landscape-in-2026-whats-coming\">The CTV Landscape in 2026: What&#39;s Coming</h2>\n<p>Looking further into 2026, several developments will continue to shape premium CTV advertising:</p>\n<p><strong>Netflix&#39;s programmatic expansion</strong>: Netflix is gradually opening more inventory to programmatic buying through The Trade Desk and DV360 partnerships. Direct deals remain the premium option, but programmatic access will reduce friction for mid-market luxury brands.</p>\n<p><strong>Sports rights fragmentation</strong>: As NFL, NBA, and college sports rights continue migrating to streaming (Amazon Prime Video&#39;s Thursday Night Football, Peacock&#39;s exclusive NFL packages, Apple TV+&#39;s MLS and MLB content), sports adjacency becomes available to premium brands that previously needed broadcast relationships.</p>\n<p><strong>AI-driven creative personalization</strong>: Platforms are beginning to test dynamic ad serving that swaps creative elements (voiceover, color palette, end card offer) based on household-level signals. For luxury brands, this could mean serving different creative to a household that recently browsed yacht charters vs. one that is researching private equity funds.</p>\n<p><strong>Addressable linear convergence</strong>: The boundary between CTV and addressable linear TV (reached through MVPDs like Xfinity and DirecTV) is blurring, enabling unified buys across screens with household-level targeting that was previously impossible in traditional TV.</p>\n<h2 id=\"working-with-a-premium-ctv-advertising-agency\">Working With a Premium CTV Advertising Agency</h2>\n<p>Navigating CTV advertising trends 2025–2026 requires access, expertise, and relationships that most luxury brand marketing teams cannot build in-house. The platforms change their ad products quarterly. New measurement methodologies emerge every six months. Private marketplace deal structures are negotiated, not self-served.</p>\n<p>Stillwater Media specializes exclusively in luxury and high-consideration brands, which means our entire CTV practice is built around reaching affluent, high-LTV audiences with brand-appropriate creative in brand-safe environments. We hold PMPs with Disney, Amazon, and Peacock. We run matched-market incrementality tests. We sequence creative across platforms with coordinated frequency logic.</p>\n<p>If you are currently running CTV through a general-purpose agency — or not running it at all because the measurement never made sense — we would be glad to show you what a purpose-built luxury CTV program looks like.</p>"

@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Brand-Safe Programmatic Advertising for Luxury Brands | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/brand-safe-programmatic-advertising",
+  },
+  title: "Brand-Safe Programmatic Advertising for Luxury Brands",
   description:
     "Brand-safe programmatic advertising is non-negotiable for luxury brands. Learn how private marketplaces, blocklists, and brand suitability protect premium equity.",
   openGraph: {

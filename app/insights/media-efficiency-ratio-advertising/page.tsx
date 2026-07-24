@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Media Efficiency Ratio: The KPI Luxury Advertisers Need | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/media-efficiency-ratio-advertising",
+  },
+  title: "Media Efficiency Ratio: The KPI Luxury Advertisers Need",
   description:
     "Media efficiency ratio measures revenue per media dollar beyond ROAS. Learn how luxury brands use MER to make smarter budget decisions.",
   openGraph: {

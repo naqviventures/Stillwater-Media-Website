@@ -1,6 +1,9 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/golf-equipment-advertising-affluent",
+  },
   title: "Golf Equipment Advertising to Affluent Players | Guide",
   description:
     "Golf equipment advertising to affluent players requires precision targeting beyond demographics. Learn the media strategy that converts serious golfers into buyers.",

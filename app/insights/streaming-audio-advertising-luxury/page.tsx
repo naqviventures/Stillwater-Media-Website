@@ -1,6 +1,9 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/streaming-audio-advertising-luxury",
+  },
   title: "Streaming Audio Advertising for Luxury Brands | Spotify Premium & Beyond",
   description:
     "Streaming audio advertising reaches affluent listeners during screen-free moments no other channel can access. Learn how luxury brands use Spotify Premium, podcast audio, and programmatic audio to target HNW consumers.",

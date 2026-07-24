@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "The High-Consideration Purchase Funnel: A Media Strategy Guide | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/high-consideration-purchase-funnel",
+  },
+  title: "The High-Consideration Purchase Funnel: A Media Strategy Guide",
   description:
     "High-consideration brand advertising requires a media strategy built for long sales cycles. Learn how to map media to each funnel stage and measure what actually works.",
   openGraph: {

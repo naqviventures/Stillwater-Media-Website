@@ -1,7 +1,10 @@
 import { ArticleLayout } from '@/components/article-layout'
 
 export const metadata = {
-  title: "Private Aviation Advertising Agency | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/private-aviation-advertising-agency",
+  },
+  title: "Private Aviation Advertising Agency",
   description:
     "How elite private aviation brands like JetLinx & FLY Exclusive win high-net-worth clients through programmatic, CTV, and precision digital advertising.",
   openGraph: {

@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Holdout Testing in Advertising: Prove Your Media Works | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/holdout-testing-advertising",
+  },
+  title: "Holdout Testing in Advertising: Prove Your Media Works",
   description:
     "Holdout testing advertising guide: how to design control groups that prove true incremental lift. Methodology, benchmarks, and mistakes to avoid.",
   openGraph: {

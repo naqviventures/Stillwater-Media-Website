@@ -2,7 +2,10 @@ import { ArticleLayout } from "@/components/article-layout"
 import Link from "next/link"
 
 export const metadata = {
-  title: "How to Reach High-Net-Worth Consumers Through Premium CTV Advertising | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/ctv-advertising-high-net-worth-consumers",
+  },
+  title: "How to Reach High-Net-Worth Consumers Through Premium CTV Advertising",
   description:
     "Premium CTV advertising reaches affluent consumers where they stream. Learn how luxury brands use connected TV to target high-net-worth households with precision.",
   openGraph: {

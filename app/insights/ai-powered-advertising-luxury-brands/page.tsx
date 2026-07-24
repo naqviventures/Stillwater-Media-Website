@@ -1,6 +1,9 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/ai-powered-advertising-luxury-brands",
+  },
   title: "How AI Is Transforming Luxury Brand Advertising",
   description:
     "AI-powered advertising for luxury brands is no longer experimental—it's a competitive advantage. Learn how Stillwater Media uses AI to reach affluent consumers at scale.",

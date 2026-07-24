@@ -1,6 +1,9 @@
 import { ArticleLayout } from '@/components/article-layout'
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/marketing-mix-modeling-luxury-brands",
+  },
   title: "Marketing Mix Modeling for Luxury Brands",
   description:
     "Learn how marketing mix modeling helps luxury brands allocate media budgets with precision, reduce wasted spend, and prove incremental revenue across channels.",

@@ -1,6 +1,9 @@
 import { ArticleLayout } from '@/components/article-layout'
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/performance-media-agency-luxury-brands",
+  },
   title: "Performance Media Agency for Luxury Brands",
   description:
     "Discover how a performance media agency differs from traditional brand advertising—and why luxury brands with long sales cycles need a different approach entirely.",

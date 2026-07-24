@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Creative Sequencing in CTV Advertising: Tell a Story Across Impressions | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/creative-sequencing-ctv-advertising",
+  },
+  title: "Creative Sequencing in CTV Advertising: Tell a Story Across Impressions",
   description:
     "Creative sequencing in CTV delivers different messages based on viewer exposure, building narrative and intent. Here's how luxury brands execute it.",
   openGraph: {

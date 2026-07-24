@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Data-Driven Lead Qualification: Advanced Analytics for Prospect Assessment | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/data-driven-lead-qualification",
+  },
+  title: "Data-Driven Lead Qualification: Advanced Analytics for Prospect Assessment",
   description:
     "Transform your lead qualification process with sophisticated data analytics, predictive modeling, and automated scoring systems that identify high-value prospects.",
   openGraph: {

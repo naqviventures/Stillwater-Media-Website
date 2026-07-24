@@ -1,7 +1,10 @@
 import { ArticleLayout } from '@/components/article-layout'
 
 export const metadata = {
-  title: "Private Club Membership Marketing: A Digital Playbook | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/private-club-membership-marketing",
+  },
+  title: "Private Club Membership Marketing: A Digital Playbook",
   description:
     "Discover how private clubs drive qualified membership inquiries through precision digital advertising. Stillwater Media's playbook for private club membership marketing.",
   openGraph: {

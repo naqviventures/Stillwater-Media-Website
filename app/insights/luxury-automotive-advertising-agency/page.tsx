@@ -1,7 +1,10 @@
 import { ArticleLayout } from '@/components/article-layout'
 
 export const metadata = {
-  title: "Luxury Automotive Advertising Agency | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/luxury-automotive-advertising-agency",
+  },
+  title: "Luxury Automotive Advertising Agency",
   description:
     "Stillwater Media's luxury automotive advertising playbook: how to escape Tier 2 co-op dependency and reach high-intent luxury car buyers through precision digital media.",
   openGraph: {

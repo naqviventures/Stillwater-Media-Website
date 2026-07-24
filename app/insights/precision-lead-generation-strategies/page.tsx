@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Precision Lead Generation Strategies: Advanced Targeting and Qualification | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/precision-lead-generation-strategies",
+  },
+  title: "Precision Lead Generation Strategies: Advanced Targeting and Qualification",
   description:
     "Master precision lead generation with data-driven targeting, behavioral analysis, and automated qualification techniques to deliver high-quality prospects at scale.",
   openGraph: {

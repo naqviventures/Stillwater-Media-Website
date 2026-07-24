@@ -1,7 +1,10 @@
 import { ArticleLayout } from '@/components/article-layout'
 
 export const metadata = {
-  title: "Private Marketplace Deals for Luxury Advertising | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/private-marketplace-deals-luxury-advertising",
+  },
+  title: "Private Marketplace Deals for Luxury Advertising",
   description:
     "Discover why private marketplace deals are essential for luxury brands. Stillwater Media explains PMP access, premium publisher deals, and brand-safe programmatic strategy.",
   openGraph: {

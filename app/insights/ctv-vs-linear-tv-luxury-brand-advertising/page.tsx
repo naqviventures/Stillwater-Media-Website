@@ -1,7 +1,10 @@
 import { ArticleLayout } from '@/components/article-layout'
 
 export const metadata = {
-  title: "CTV vs. Linear TV for Luxury Brand Advertising | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/ctv-vs-linear-tv-luxury-brand-advertising",
+  },
+  title: "CTV vs. Linear TV for Luxury Brand Advertising",
   description:
     "CTV vs. linear TV: which wins for luxury brand advertisers? Stillwater Media compares targeting, measurement, cost, and brand lift across both channels for premium brands.",
   openGraph: {

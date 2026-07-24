@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "OTT Advertising for Luxury Brands: A Complete Guide | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/ott-advertising-luxury-brands",
+  },
+  title: "OTT Advertising for Luxury Brands: A Complete Guide",
   description:
     "The complete guide to OTT advertising for luxury brands—platforms, targeting, creative strategy, and measurement from performance agency Stillwater Media.",
   openGraph: {

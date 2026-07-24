@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Premium DTC Brand Advertising: Escape Meta Dependency | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/premium-dtc-brand-advertising",
+  },
+  title: "Premium DTC Brand Advertising: Escape Meta Dependency",
   description:
     "Premium DTC brand advertising beyond Meta: how luxury DTC brands diversify into CTV, PMPs, and streaming audio to cut CAC and rebuild ROAS.",
   openGraph: {

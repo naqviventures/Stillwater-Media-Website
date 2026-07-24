@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "How to Measure Brand Lift From CTV Campaigns | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/brand-lift-measurement-ctv",
+  },
+  title: "How to Measure Brand Lift From CTV Campaigns",
   description:
     "A practical guide to brand lift measurement for CTV: methodologies, benchmark ranges, and how incrementality and holdout testing fit together for luxury brands.",
   openGraph: {

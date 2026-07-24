@@ -1,6 +1,9 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/dooh-affluent-location-targeting",
+  },
   title: "Digital Out-of-Home Advertising for Luxury Brands | DOOH Affluent Location Targeting",
   description:
     "DOOH affluent location targeting puts your luxury brand in front of HNW consumers at the exact moments they're most receptive. Learn how premium brands use digital out-of-home to reach wealthy audiences with precision.",

@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Premium Publisher Direct Deals: Better ROI for Luxury Brands | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/premium-publisher-direct-deals",
+  },
+  title: "Premium Publisher Direct Deals: Better ROI for Luxury Brands",
   description:
     "Premium publisher direct deals give luxury brands brand-safe inventory, lower CPMs, and higher completion rates than open exchange. Here's how they outperform.",
   openGraph: {

@@ -1,7 +1,10 @@
 import { ArticleLayout } from '@/components/article-layout'
 
 export const metadata = {
-  title: "ROAS for Luxury Brands: CTV vs. Facebook | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/roas-improvement-luxury-advertising",
+  },
+  title: "ROAS for Luxury Brands: CTV vs. Facebook",
   description:
     "Luxury brand advertisers: CTV on Disney+ and Prime Video consistently outperforms Facebook ROAS when measured correctly. Here's the full comparison and methodology.",
   openGraph: {

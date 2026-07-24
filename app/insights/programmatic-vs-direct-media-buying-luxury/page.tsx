@@ -1,6 +1,9 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/programmatic-vs-direct-media-buying-luxury",
+  },
   title: "Programmatic vs. Direct Media Buying for Luxury Brands",
   description:
     "Programmatic vs direct media buying for luxury brands—learn when each approach wins, how PMPs bridge the gap, and why the best luxury media strategies use both.",

@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Millionaire Household Targeting: A Digital Playbook | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/millionaire-household-targeting-digital",
+  },
+  title: "Millionaire Household Targeting: A Digital Playbook",
   description:
     "How to find and reach millionaire households with digital media — data sources, segmentation models, and channel strategy for luxury brands. A Stillwater Media playbook.",
   openGraph: {

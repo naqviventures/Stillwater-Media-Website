@@ -1,7 +1,10 @@
 import { ArticleLayout } from '@/components/article-layout'
 
 export const metadata = {
-  title: "Luxury Real Estate Programmatic Advertising Playbook | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/luxury-real-estate-programmatic-advertising",
+  },
+  title: "Luxury Real Estate Programmatic Advertising Playbook",
   description:
     "How luxury real estate developers and brokerages use programmatic advertising to reach high-net-worth buyers. Strategy, channels, benchmarks, and targeting methodology from Stillwater Media.",
   openGraph: {

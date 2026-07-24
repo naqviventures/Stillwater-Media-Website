@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Boutique Hotel Advertising: Fill Rooms With HNW Guests | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/boutique-hotel-advertising-digital",
+  },
+  title: "Boutique Hotel Advertising: Fill Rooms With HNW Guests",
   description:
     "Boutique hotel advertising that attracts high-value guests. Learn the digital media channels, targeting strategies, and measurement frameworks that drive premium bookings.",
   openGraph: {
