@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Native Advertising for Premium Brands | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/native-advertising-premium-brands",
+  },
+  title: "Native Advertising for Premium Brands",
   description:
     "Native advertising for high-consideration brands done right: premium editorial placements, brand safety, and ROI measurement. A guide from Stillwater Media.",
   openGraph: {

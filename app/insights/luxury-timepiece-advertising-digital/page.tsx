@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Luxury Timepiece Advertising: Digital Channels That Work | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/luxury-timepiece-advertising-digital",
+  },
+  title: "Luxury Timepiece Advertising: Digital Channels That Work",
   description:
     "Luxury timepiece advertising through digital media that reaches serious buyers. Learn CTV, programmatic, and affluent audience strategies for premium watch brands.",
   openGraph: {

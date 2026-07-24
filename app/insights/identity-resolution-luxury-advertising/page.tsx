@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Identity Resolution for Luxury Advertisers Post-Cookie | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/identity-resolution-luxury-advertising",
+  },
+  title: "Identity Resolution for Luxury Advertisers Post-Cookie",
   description:
     "Identity resolution luxury advertising guide: how premium brands maintain precision targeting and measurement after cookie deprecation. Frameworks inside.",
   openGraph: {

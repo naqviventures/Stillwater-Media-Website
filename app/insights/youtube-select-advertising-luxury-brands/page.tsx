@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "YouTube Select Advertising for Luxury Brands | Stillwater",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/youtube-select-advertising-luxury-brands",
+  },
+  title: "YouTube Select Advertising for Luxury Brands",
   description:
     "YouTube Select gives luxury brands premium, brand-safe video placements. Learn how Stillwater Media activates YouTube Select to reach affluent audiences at scale.",
   openGraph: {

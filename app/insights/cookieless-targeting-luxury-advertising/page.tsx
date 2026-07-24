@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Cookieless Luxury Advertising: The Complete Strategy | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/cookieless-targeting-luxury-advertising",
+  },
+  title: "Cookieless Luxury Advertising: The Complete Strategy",
   description:
     "Third-party cookies are gone. Rebuild cookieless targeting using first-party data, identity resolution, and contextual signals for luxury brands.",
   openGraph: {

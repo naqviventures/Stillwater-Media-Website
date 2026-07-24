@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Automated Lead Nurturing Systems: Scalable Relationship Building | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/automated-lead-nurturing-systems",
+  },
+  title: "Automated Lead Nurturing Systems: Scalable Relationship Building",
   description:
     "Learn how automated lead nurturing systems maintain prospect engagement, build relationships, and guide leads through the sales funnel with personalized communications at scale.",
   openGraph: {

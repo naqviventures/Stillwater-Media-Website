@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Real-Time Bidding Optimization: Advanced Strategies for Premium Advertisers | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/real-time-bidding-optimization-strategies",
+  },
+  title: "Real-Time Bidding Optimization: Advanced Strategies for Premium Advertisers",
   description:
     "Master real-time bidding with advanced strategies for bid optimization, supply quality management, frequency control, and cross-device targeting.",
   openGraph: {

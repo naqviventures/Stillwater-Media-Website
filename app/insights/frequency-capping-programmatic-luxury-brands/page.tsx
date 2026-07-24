@@ -1,6 +1,9 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/frequency-capping-programmatic-luxury-brands",
+  },
   title: "Frequency Capping: The Luxury Brand Advertiser's Guide",
   description:
     "Frequency capping in programmatic advertising is critical for luxury brands. Too many impressions destroy brand perception. Learn optimal caps by channel and format.",

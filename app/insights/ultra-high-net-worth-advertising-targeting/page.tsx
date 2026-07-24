@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Ultra-High-Net-Worth Advertising: Strategies That Work | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/ultra-high-net-worth-advertising-targeting",
+  },
+  title: "Ultra-High-Net-Worth Advertising: Strategies That Work",
   description:
     "Reaching UHNW individuals requires more than premium placements. Learn the data signals, platforms, and strategies that convert ultra-high-net-worth prospects.",
   openGraph: {

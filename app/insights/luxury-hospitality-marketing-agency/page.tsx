@@ -1,6 +1,9 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/luxury-hospitality-marketing-agency",
+  },
   title: "Luxury Hospitality Marketing Agency: The Digital Media Playbook",
   description:
     "The complete digital media playbook for luxury hospitality brands — covering CTV, programmatic, first-party data, and the channels that drive high-value bookings at scale.",

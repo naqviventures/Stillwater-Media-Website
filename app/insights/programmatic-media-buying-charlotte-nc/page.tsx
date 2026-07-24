@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Programmatic Media Buying in Charlotte, NC: A Strategic Approach | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/programmatic-media-buying-charlotte-nc",
+  },
+  title: "Programmatic Media Buying in Charlotte, NC: A Strategic Approach",
   description:
     "Charlotte has emerged as a dynamic market for premium programmatic advertising. Learn strategies for reaching affluent audiences in the Queen City.",
   openGraph: {

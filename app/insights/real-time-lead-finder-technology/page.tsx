@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Real-Time Lead Identification: Technology and Strategy for High-Value Prospecting | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/real-time-lead-finder-technology",
+  },
+  title: "Real-Time Lead Identification: Technology and Strategy for High-Value Prospecting",
   description:
     "Identify and engage high-value prospects in real-time with intent signals, behavioral data, and predictive analytics that surface opportunities at peak receptivity.",
   openGraph: {

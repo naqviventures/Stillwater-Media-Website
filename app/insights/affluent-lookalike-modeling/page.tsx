@@ -1,6 +1,9 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/affluent-lookalike-modeling",
+  },
   title: "Affluent Lookalike Modeling: Build Premium Audiences That Convert",
   description:
     "Learn how affluent lookalike modeling works, why mass-market seed data destroys accuracy, and how luxury brands build high-value audiences that actually convert.",

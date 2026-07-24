@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Luxury Brand Digital Marketing Strategy: The Real Difference | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/luxury-brand-digital-marketing-strategy",
+  },
+  title: "Luxury Brand Digital Marketing Strategy: The Real Difference",
   description:
     "Why luxury brand digital marketing strategy must differ from mass market. Stillwater Media explains media, targeting, and measurement for premium brands.",
   openGraph: {

@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Media Agency Charlotte NC: Luxury Brand Advertising | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/media-agency-charlotte-nc-luxury",
+  },
+  title: "Media Agency Charlotte NC: Luxury Brand Advertising",
   description:
     "Why a media agency in Charlotte NC is positioned to serve luxury brands: wealth-market proximity, talent, and cost structure — without coastal markup.",
   openGraph: {

@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Incrementality Testing for Luxury Brands: The Metric You Can't Afford to Skip | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/incrementality-testing-luxury-brands",
+  },
+  title: "Incrementality Testing for Luxury Brands: The Metric You Can't Afford to Skip",
   description:
     "Incrementality testing reveals what your media actually causes — not just correlates with. Here's why luxury brands use holdout testing to prove real ad ROI.",
   openGraph: {

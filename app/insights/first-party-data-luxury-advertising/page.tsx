@@ -1,6 +1,9 @@
 import { ArticleLayout } from '@/components/article-layout'
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/first-party-data-luxury-advertising",
+  },
   title: "First-Party Data Strategy for Luxury Brands",
   description:
     "Learn how luxury brands can build a first-party data strategy that survives cookie deprecation—without sacrificing audience precision or brand safety.",

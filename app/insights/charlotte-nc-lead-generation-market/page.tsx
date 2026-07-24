@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Charlotte NC Lead Generation: Opportunities and Strategies | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/charlotte-nc-lead-generation-market",
+  },
+  title: "Charlotte NC Lead Generation: Opportunities and Strategies",
   description:
     "Comprehensive analysis of Charlotte's business environment and targeted lead generation strategies for the Queen City's competitive landscape.",
   openGraph: {

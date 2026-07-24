@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "The Programmatic Advertising Revolution: AI-Powered Media Buying | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/programmatic-advertising-revolution-2024",
+  },
+  title: "The Programmatic Advertising Revolution: AI-Powered Media Buying",
   description:
     "How AI and machine learning are transforming programmatic advertising. Learn about supply path optimization, first-party data, and CTV strategies for premium brands.",
   openGraph: {

@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Affluent Audience Targeting: The Complete 2025 Guide | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/affluent-audience-targeting",
+  },
+  title: "Affluent Audience Targeting: The Complete 2025 Guide",
   description:
     "Learn how affluent audience targeting works in 2025—wealth signals, premium data sources, lookalike modeling, and the exact frameworks luxury brands use to reach HNW consumers.",
   openGraph: {

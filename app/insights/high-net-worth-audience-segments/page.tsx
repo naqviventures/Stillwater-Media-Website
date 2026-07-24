@@ -1,6 +1,9 @@
 import { ArticleLayout } from '@/components/article-layout'
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/high-net-worth-audience-segments",
+  },
   title: "High-Net-Worth Audience Segments: The Luxury Marketer's Guide",
   description:
     "Discover how luxury marketers build, activate, and measure high-net-worth audience segments across premium CTV, programmatic, and first-party data platforms.",

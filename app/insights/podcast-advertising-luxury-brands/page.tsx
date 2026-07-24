@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Podcast Advertising for Luxury Brands | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/podcast-advertising-luxury-brands",
+  },
+  title: "Podcast Advertising for Luxury Brands",
   description:
     "Host-read or programmatic? Stillwater Media breaks down podcast advertising for luxury brands — networks, CPMs, brand safety, and how to measure ROI.",
   openGraph: {

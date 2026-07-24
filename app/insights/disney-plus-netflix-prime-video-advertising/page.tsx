@@ -1,6 +1,9 @@
 import { ArticleLayout } from '@/components/article-layout'
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/disney-plus-netflix-prime-video-advertising",
+  },
   title: "How to Advertise on Disney+, Netflix & Prime Video",
   description:
     "Learn how luxury brands advertise on Disney+, Netflix, and Prime Video. Stillwater Media explains streaming TV ad formats, costs, and targeting strategies.",

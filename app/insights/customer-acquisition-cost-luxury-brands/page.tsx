@@ -1,6 +1,9 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/customer-acquisition-cost-luxury-brands",
+  },
   title: "Customer Acquisition Cost Benchmarks for Luxury Brands",
   description:
     "Most luxury brands don't know their true CAC—or why it's higher than it should be. Here are real benchmarks and strategies to reduce customer acquisition cost without sacrificing brand equity.",
