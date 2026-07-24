@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Brand-Safe Programmatic Advertising for Luxury Brands | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/brand-safe-programmatic-advertising",
+  },
+  title: "Brand-Safe Programmatic Advertising for Luxury Brands",
   description:
     "Brand-safe programmatic advertising is non-negotiable for luxury brands. Learn how private marketplaces, blocklists, and brand suitability protect premium equity.",
   openGraph: {
@@ -29,7 +32,7 @@ export const metadata = {
 }
 
 export default function BrandSafeProgrammaticPage() {
-  const schemaMarkup = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline:
@@ -69,6 +72,11 @@ export default function BrandSafeProgrammaticPage() {
     articleSection: "Programmatic Advertising",
     wordCount: 2180,
     inLanguage: "en-US",
+  }
+
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/brand-safe-programmatic-advertising#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Why Brand-Safe Programmatic Advertising Is Non-Negotiable for Luxury Brands","item":"https://www.stillwatermedia.io/insights/brand-safe-programmatic-advertising"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/brand-safe-programmatic-advertising#faq","mainEntity":[{"@type":"Question","name":"What is brand-safe programmatic advertising?","acceptedAnswer":{"@type":"Answer","text":"Brand-safe programmatic advertising refers to a media buying approach that ensures digital ads appear only in contextually appropriate environments that do not damage the advertiser's brand reputation. This goes beyond basic content moderation to include publisher allowlists, private marketplace deals, and brand suitability scoring that evaluates whether an ad environment is fitting for a specific brand's positioning—not just whether the content is technically \"safe.\""}},{"@type":"Question","name":"Why do luxury brands need stricter brand safety standards than other advertisers?","acceptedAnswer":{"@type":"Answer","text":"Luxury brands depend on carefully cultivated perceptions of exclusivity, prestige, and quality—perceptions that can be damaged by placement alongside low-quality, sensationalist, or contextually inappropriate content. Unlike mass-market brands that can absorb reputational variance across millions of low-value impressions, luxury brands typically have smaller addressable audiences where each impression carries disproportionate weight in shaping brand perception among high-net-worth prospects."}},{"@type":"Question","name":"What is the difference between brand safety and brand suitability?","acceptedAnswer":{"@type":"Answer","text":"Brand safety addresses binary risks—whether content is harmful, illegal, or in violation of platform policies (hate speech, graphic violence, misinformation). Brand suitability addresses the more nuanced question of whether a specific environment is appropriate for a specific brand's positioning. An article about economic hardship may be perfectly \"safe\" content but wholly unsuitable for a luxury investment firm. Luxury brands need both, with greater emphasis on suitability."}},{"@type":"Question","name":"What is a private marketplace (PMP) deal and how does it improve brand safety?","acceptedAnswer":{"@type":"Answer","text":"A private marketplace deal is a direct, negotiated inventory agreement between an advertiser and a publisher, executed programmatically but outside the open real-time bidding auction. PMPs give buyers access to specified, premium publisher inventory at agreed-upon prices, with explicit knowledge of exactly where ads will appear. For luxury brands, PMP deals with premium editorial publishers (Condé Nast, Financial Times, Bloomberg, etc.) provide the highest possible brand environment quality because placement is agreed upon prospectively—not determined by algorithmic auction outcomes."}},{"@type":"Question","name":"What CPMs should luxury brands expect for brand-safe programmatic inventory?","acceptedAnswer":{"@type":"Answer","text":"Brand-safe programmatic inventory benchmarks vary by format and publisher tier. Private marketplace deals with premium editorial publishers typically run $20–$45 CPM for display and native formats, while programmatic guaranteed placements at top-tier publishers can reach $40–$80+ CPM. Brands seeing consistent sub-$10 CPMs in \"premium programmatic\" campaigns are almost certainly buying open exchange inventory, not genuinely brand-safe placements—regardless of vendor claims."}}]}],
   }
 
   return (

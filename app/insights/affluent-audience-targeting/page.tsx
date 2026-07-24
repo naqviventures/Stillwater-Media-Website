@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Affluent Audience Targeting: The Complete 2025 Guide | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/affluent-audience-targeting",
+  },
+  title: "Affluent Audience Targeting: The Complete 2025 Guide",
   description:
     "Learn how affluent audience targeting works in 2025—wealth signals, premium data sources, lookalike modeling, and the exact frameworks luxury brands use to reach HNW consumers.",
   openGraph: {
@@ -29,7 +32,7 @@ export const metadata = {
 }
 
 export default function AffluentAudienceTargetingPage() {
-  const schemaMarkup = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline:
@@ -69,6 +72,11 @@ export default function AffluentAudienceTargetingPage() {
     articleSection: "Audience Strategy",
     wordCount: 2290,
     inLanguage: "en-US",
+  }
+
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/affluent-audience-targeting#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"The Complete Guide to Affluent Audience Targeting in 2025","item":"https://www.stillwatermedia.io/insights/affluent-audience-targeting"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/affluent-audience-targeting#faq","mainEntity":[{"@type":"Question","name":"What is affluent audience targeting in digital advertising?","acceptedAnswer":{"@type":"Answer","text":"Affluent audience targeting is the practice of building and activating audience segments in digital advertising that identify individuals with high net worth, significant investable assets, or strong behavioral signals of luxury purchase intent—rather than relying solely on income demographics. Effective affluent targeting stacks wealth proxy signals (property ownership, vehicle registration, investment account activity), behavioral intent signals (category research, competitive brand engagement), psychographic alignment, and first-party CRM data into a multi-layer audience architecture that identifies genuinely qualified luxury prospects."}},{"@type":"Question","name":"How do you advertise to wealthy consumers online?","acceptedAnswer":{"@type":"Answer","text":"Advertising to wealthy consumers online requires both audience precision and premium channel selection. On the audience side, high-net-worth targeting should incorporate wealth proxy data (from providers like Experian Wealth Engine or Oracle Data Cloud), behavioral intent signals specific to your luxury category, and first-party customer lookalike models built from your highest-LTV existing customers. On the channel side, affluent consumers over-index in premium CTV (Disney+, Netflix, Hulu), premium publisher environments (Wall Street Journal, Financial Times, Bloomberg), streaming audio, and digital out-of-home in luxury retail and financial district locations."}},{"@type":"Question","name":"What data sources are used for high-net-worth audience targeting?","acceptedAnswer":{"@type":"Answer","text":"High-net-worth audience targeting draws on several data source categories: modeled wealth data from providers like Experian Wealth Engine, Oracle Data Cloud, and Neustar (based on property records, vehicle registration, and financial proxy signals); subscription-based publisher first-party data from premium editorial brands like The Wall Street Journal and Financial Times; behavioral intent data from DSP platforms that aggregate purchase and research signals; and the advertiser's own first-party CRM data activated through identity resolution platforms like LiveRamp or The Trade Desk's Unified ID 2.0 framework."}},{"@type":"Question","name":"How does affluent lookalike modeling work?","acceptedAnswer":{"@type":"Answer","text":"Affluent lookalike modeling starts with a seed audience of your best existing customers—specifically the top 15–20% by lifetime value, not your full customer list. A DSP or data partner analyzes the behavioral attributes of this seed audience across thousands of signal dimensions, then identifies other users in its data graph who share the highest-correlation patterns. The result is an expanded audience that statistically resembles your best customers. For luxury brands, effective lookalike expansion requires suppressing the expanded pool against wealth proxy filters to prevent dilution with users who share behavioral patterns but lack the underlying financial qualification to convert."}},{"@type":"Question","name":"What are the best digital advertising channels for reaching affluent consumers?","acceptedAnswer":{"@type":"Answer","text":"The highest-concentration affluent channels in digital advertising are premium connected TV (Disney+, Netflix, Hulu Live, Paramount+), digital out-of-home in luxury retail and financial district environments, premium publisher display and native (Wall Street Journal, Financial Times, Bloomberg, Robb Report, Architectural Digest), streaming audio on Spotify Premium and Apple Music, and YouTube Select lineups. Open exchange programmatic display, despite its cost efficiency, has relatively low affluent audience concentration and significant brand suitability risk, making it inappropriate as a primary channel for luxury brand campaigns."}}]}],
   }
 
   return (

@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "OTT Advertising for Luxury Brands: A Complete Guide | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/ott-advertising-luxury-brands",
+  },
+  title: "OTT Advertising for Luxury Brands: A Complete Guide",
   description:
     "The complete guide to OTT advertising for luxury brands—platforms, targeting, creative strategy, and measurement from performance agency Stillwater Media.",
   openGraph: {
@@ -29,7 +32,7 @@ export const metadata = {
 }
 
 export default function OttAdvertisingLuxuryBrandsPage() {
-  const schemaMarkup = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "OTT Advertising for Luxury Brands: The Complete Guide",
@@ -68,6 +71,11 @@ export default function OttAdvertisingLuxuryBrandsPage() {
     articleSection: "Channels",
     wordCount: 2420,
     inLanguage: "en-US",
+  }
+
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/ott-advertising-luxury-brands#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"OTT Advertising for Luxury Brands: The Complete Guide","item":"https://www.stillwatermedia.io/insights/ott-advertising-luxury-brands"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/ott-advertising-luxury-brands#faq","mainEntity":[{"@type":"Question","name":"What is OTT advertising and how does it work for luxury brands?","acceptedAnswer":{"@type":"Answer","text":"OTT advertising (over-the-top advertising) refers to video ads delivered through internet-based streaming platforms, bypassing traditional cable or satellite distribution. For luxury brands, OTT advertising works by placing video ads within premium content environments—like Disney+, Netflix, Prime Video, and Max—where affluent audiences are actively engaged with high-quality content. The brand benefit is twofold: the large-screen, lean-back viewing environment creates stronger brand recall than social or mobile video, and the premium content adjacency supports luxury brand positioning in a way that open-exchange digital inventory cannot."}},{"@type":"Question","name":"What OTT platforms are best for advertising to affluent consumers?","acceptedAnswer":{"@type":"Answer","text":"For reaching affluent consumers through OTT advertising, Disney+, Netflix, Prime Video, and Max (HBO) offer the strongest combination of audience income profile and content prestige. Netflix and Max index highest among HNW households, while Prime Video offers unique targeting advantages through Amazon's first-party purchase data. Disney+/Hulu provides the largest addressable inventory with strong demographic targeting capabilities. CPMs for targeted placements on these platforms typically range from $25 to $80, with qualified HNW audience targeting pushing effective CPMs to $60–$150."}},{"@type":"Question","name":"How much does OTT advertising cost for luxury brands?","acceptedAnswer":{"@type":"Answer","text":"Luxury brand OTT advertising campaigns typically require minimum commitments of $50,000–$250,000 for managed service deals with major streaming platforms. Programmatic OTT through a DSP can start at $15,000–$25,000 for initial testing. CPMs for targeted OTT inventory range from $25 to $80 per thousand impressions, with highly targeted (HNW audience, non-skippable, premium content) placements at the higher end. When targeting is applied to reach genuinely affluent audiences, effective CPMs on qualified impressions run $60–$150—meaningfully higher than open-exchange digital but appropriate given the audience quality and purchase value of luxury brand customers."}},{"@type":"Question","name":"How do you measure OTT advertising ROI for luxury brands?","acceptedAnswer":{"@type":"Answer","text":"The correct measurement approach for OTT advertising in luxury categories combines brand lift studies (to measure awareness, recall, and purchase consideration among exposed viewers), incrementality or holdout testing (to measure whether exposed audiences convert at higher rates than matched non-exposed groups over 60–90 day windows), and matched market testing (comparing conversion behavior in OTT markets versus control markets). Last-click attribution and 7-day conversion windows should not be used to evaluate OTT for luxury brands, as they fail to capture the extended consideration and decision timeline typical of high-value purchases."}},{"@type":"Question","name":"What creative formats work best for OTT advertising in luxury categories?","acceptedAnswer":{"@type":"Answer","text":"For luxury brand OTT advertising, 30-second non-skippable spots in premium content environments are the most effective format—achieving completion rates above 95% and providing sufficient time to establish brand world and communicate quality signals. 60-second spots are worth pursuing for prestige automotive, private aviation, and luxury hospitality brands where brand world establishment requires more time. The creative should prioritize cinematic production quality, brand recognition in the first 3 seconds, no discount or urgency messaging, and consistent audio branding—the living room environment rewards creative that respects the premium context of the placement."}}]}],
   }
 
   return (

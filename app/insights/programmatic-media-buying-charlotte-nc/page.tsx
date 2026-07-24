@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Programmatic Media Buying in Charlotte, NC: A Strategic Approach | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/programmatic-media-buying-charlotte-nc",
+  },
+  title: "Programmatic Media Buying in Charlotte, NC: A Strategic Approach",
   description:
     "Charlotte has emerged as a dynamic market for premium programmatic advertising. Learn strategies for reaching affluent audiences in the Queen City.",
   openGraph: {
@@ -29,7 +32,7 @@ export const metadata = {
 }
 
 export default function ProgrammaticCharlotte() {
-  const schemaMarkup = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Programmatic Media Buying in Charlotte, NC: A Strategic Approach",
@@ -66,6 +69,11 @@ export default function ProgrammaticCharlotte() {
     articleSection: "Local Markets",
     wordCount: 1800,
     inLanguage: "en-US",
+  }
+
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/programmatic-media-buying-charlotte-nc#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Programmatic Media Buying in Charlotte, NC: A Strategic Approach","item":"https://www.stillwatermedia.io/insights/programmatic-media-buying-charlotte-nc"}]}],
   }
 
   return (

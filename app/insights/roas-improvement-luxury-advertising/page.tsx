@@ -1,7 +1,10 @@
 import { ArticleLayout } from '@/components/article-layout'
 
 export const metadata = {
-  title: "ROAS for Luxury Brands: CTV vs. Facebook | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/roas-improvement-luxury-advertising",
+  },
+  title: "ROAS for Luxury Brands: CTV vs. Facebook",
   description:
     "Luxury brand advertisers: CTV on Disney+ and Prime Video consistently outperforms Facebook ROAS when measured correctly. Here's the full comparison and methodology.",
   openGraph: {
@@ -29,7 +32,7 @@ export const metadata = {
 }
 
 export default function RoasImprovementPage() {
-  const schemaMarkup = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "The ROI of Premium CTV Advertising vs. Facebook for Luxury Brands",
@@ -65,6 +68,11 @@ export default function RoasImprovementPage() {
     articleSection: "Measurement & Attribution",
     wordCount: 2400,
     inLanguage: "en-US",
+  }
+
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/roas-improvement-luxury-advertising#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"The ROI of Premium CTV Advertising vs. Facebook for Luxury Brands","item":"https://www.stillwatermedia.io/insights/roas-improvement-luxury-advertising"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/roas-improvement-luxury-advertising#faq","mainEntity":[{"@type":"Question","name":"Does CTV advertising have better ROAS than Facebook for luxury brands?","acceptedAnswer":{"@type":"Answer","text":"When measured through incrementality testing rather than platform self-reported attribution, premium CTV advertising consistently outperforms Facebook for luxury brands — with CTV ROAS in the 3.2x–6.1x range versus Facebook's 1.8x–2.9x in comparable campaigns. The key factor is measurement methodology: Facebook's default attribution window overcounts conversions by claiming credit for sales that would have occurred through branded search regardless of Facebook exposure, while CTV's upstream contribution to consideration and purchase intent is systematically underweighted in last-click models."}},{"@type":"Question","name":"Why is Facebook advertising less effective for luxury brand marketing?","acceptedAnswer":{"@type":"Answer","text":"Facebook advertising underperforms for luxury brands for three core reasons: audience quality ceilings, attribution inflation, and brand environment mismatch. Meta's wealth-based targeting segments are modeled from behavioral proxies and in-platform signals, which correlates weakly with actual high-net-worth consumer status — brands often reach aspirational audiences rather than buyers. Additionally, Facebook's self-reported ROAS overcounts conversions through overlapping attribution windows, and the feed environment does not carry the brand safety or premium adjacency that luxury brands require for perception management."}},{"@type":"Question","name":"How long should a luxury brand's advertising attribution window be?","acceptedAnswer":{"@type":"Answer","text":"Luxury brands with sales cycles longer than 30 days should use attribution windows of 60–90 days minimum, with incrementality holdout testing as the primary measurement methodology rather than platform-reported attribution. Standard 7-day click and 1-day view windows miss the vast majority of the actual conversion journey for high-consideration categories like private aviation, luxury real estate, and wealth management. Brands that measure at 30 days or less will systematically undervalue upper-funnel channels (CTV, programmatic) and over-attribute results to branded search."}},{"@type":"Question","name":"What is brand lift measurement in CTV advertising and how does it work?","acceptedAnswer":{"@type":"Answer","text":"Brand lift measurement in CTV advertising uses a split-panel methodology: a portion of the target audience is exposed to the campaign (test group) while a matched control group is suppressed from seeing the ads. Both groups are then surveyed on metrics including brand awareness, message recall, consideration, and purchase intent. The lift — the difference in positive responses between exposed and control groups — measures the campaign's causal impact on brand health. Nielsen ONE and iSpot.tv provide independent brand lift measurement for premium CTV campaigns. Studies should be run 3–4 times annually to track trend and optimize creative."}},{"@type":"Question","name":"What is a good ROAS for luxury brand advertising?","acceptedAnswer":{"@type":"Answer","text":"ROAS benchmarks for luxury brands depend heavily on the measurement methodology and product category. Using properly measured incrementality testing, luxury brands should target 3x–6x ROAS for premium CTV campaigns and 4x–8x for programmatic display on premium PMPs, with lower absolute ROAS acceptable on channels that are serving an awareness or consideration function rather than direct conversion. Comparing these to Facebook's self-reported ROAS (which averages 2x–4x across categories) without adjusting for attribution methodology will produce a misleadingly favorable view of social and unfavorable view of CTV."}}]}],
   }
 
   return (

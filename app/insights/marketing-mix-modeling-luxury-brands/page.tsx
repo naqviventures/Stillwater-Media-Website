@@ -1,6 +1,9 @@
 import { ArticleLayout } from '@/components/article-layout'
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/marketing-mix-modeling-luxury-brands",
+  },
   title: "Marketing Mix Modeling for Luxury Brands",
   description:
     "Learn how marketing mix modeling helps luxury brands allocate media budgets with precision, reduce wasted spend, and prove incremental revenue across channels.",
@@ -29,7 +32,7 @@ export const metadata = {
 }
 
 export default function MarketingMixModelingPage() {
-  const schemaMarkup = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Marketing Mix Modeling for Luxury Brands: The Complete Guide",
@@ -67,6 +70,11 @@ export default function MarketingMixModelingPage() {
     articleSection: "Measurement & Attribution",
     wordCount: 2250,
     inLanguage: "en-US",
+  }
+
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/marketing-mix-modeling-luxury-brands#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Marketing Mix Modeling for Luxury Brands: The Complete Guide","item":"https://www.stillwatermedia.io/insights/marketing-mix-modeling-luxury-brands"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/marketing-mix-modeling-luxury-brands#faq","mainEntity":[{"@type":"Question","name":"What is marketing mix modeling and how does it work?","acceptedAnswer":{"@type":"Answer","text":"Marketing mix modeling (MMM) is an econometric method that uses statistical regression to isolate the revenue contribution of each advertising channel, controlling for external factors like seasonality, pricing, and competitor activity. Unlike digital attribution, which tracks individual user journeys, MMM works at the aggregate level — analyzing historical spend and revenue data to build response curves that show how much incremental revenue each channel generates at different investment levels."}},{"@type":"Question","name":"How is marketing mix modeling different from multi-touch attribution?","acceptedAnswer":{"@type":"Answer","text":"Marketing mix modeling analyzes aggregate spend and revenue data across all channels (including offline) over weeks or quarters, making it ideal for brands with long sales cycles. Multi-touch attribution tracks individual user journeys through digital touchpoints in near real-time. MMM answers \"how should we allocate budget across channels?\" while MTA answers \"which digital touchpoints within a campaign are performing best?\" Luxury brands typically need both, operating at different decision horizons."}},{"@type":"Question","name":"How long does it take to build a marketing mix model?","acceptedAnswer":{"@type":"Answer","text":"A well-built MMM for a luxury or high-consideration brand requires 18–36 months of historical weekly data and takes 6–12 weeks to build, validate, and deliver actionable outputs. The initial model build is the longest phase; subsequent quarterly refreshes can be completed in 2–3 weeks once the model architecture is established and data pipelines are in place."}},{"@type":"Question","name":"How much does marketing mix modeling cost?","acceptedAnswer":{"@type":"Answer","text":"MMM for luxury brands typically costs $40,000–$120,000 per year depending on data complexity, number of channels modeled, and refresh cadence. For brands spending $2M+ annually on media, this represents less than 5% of media budget — and the allocation improvements identified typically exceed the modeling cost by a factor of 3x to 10x in the first year."}},{"@type":"Question","name":"Can marketing mix modeling work for luxury brands with long sales cycles?","acceptedAnswer":{"@type":"Answer","text":"Yes — and it works better for luxury brands than for CPG brands in many respects. MMM's aggregate methodology doesn't require cookie-based tracking, making it privacy-compliant and capable of capturing offline touchpoints like events, DOOH, and broadcast. The key adaptations required are longer adstock decay rates (3–6 weeks vs. 1–2 weeks for CPG), modeling against intermediate outcomes (inquiries, consultations) rather than final revenue, and ensuring 2+ years of training data to capture seasonality across multiple cycles."}}]}],
   }
 
   return (

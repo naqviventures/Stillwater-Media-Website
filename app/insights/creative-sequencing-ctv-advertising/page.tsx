@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Creative Sequencing in CTV Advertising: Tell a Story Across Impressions | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/creative-sequencing-ctv-advertising",
+  },
+  title: "Creative Sequencing in CTV Advertising: Tell a Story Across Impressions",
   description:
     "Creative sequencing in CTV delivers different messages based on viewer exposure, building narrative and intent. Here's how luxury brands execute it.",
   openGraph: {
@@ -29,7 +32,7 @@ export const metadata = {
 }
 
 export default function CreativeSequencingCtvAdvertisingPage() {
-  const schemaMarkup = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Creative Sequencing in CTV: How Luxury Brands Tell a Story Across Impressions",
@@ -68,6 +71,11 @@ export default function CreativeSequencingCtvAdvertisingPage() {
     articleSection: "CTV & Streaming",
     wordCount: 2210,
     inLanguage: "en-US",
+  }
+
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/creative-sequencing-ctv-advertising#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Creative Sequencing in CTV: How Luxury Brands Tell a Story Across Impressions","item":"https://www.stillwatermedia.io/insights/creative-sequencing-ctv-advertising"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/creative-sequencing-ctv-advertising#faq","mainEntity":[{"@type":"Question","name":"What is creative sequencing in CTV advertising?","acceptedAnswer":{"@type":"Answer","text":"Creative sequencing in CTV advertising is the practice of delivering different ad creatives to the same household in a deliberate order, based on prior exposure. Instead of running one ad repeatedly, brands deliver a chapter-by-chapter narrative—typically moving from brand awareness in the first impressions to consideration messaging in the middle, and a direct call to action in later impressions. The system tracks which creative a household has seen and serves the next chapter in sequence."}},{"@type":"Question","name":"How does sequential advertising work in connected TV?","acceptedAnswer":{"@type":"Answer","text":"Sequential advertising in CTV works by assigning impression-based frequency triggers to different creative assets within a campaign. When a household reaches the threshold for Creative A (typically 2 impressions), the DSP automatically shifts to serving Creative B. This requires household-level identity resolution—typically via IP address plus device graph—to maintain accurate frequency tracking across streaming sessions and devices. Platforms like The Trade Desk, Disney's Ad Manager, and Amazon DSP all support sequential creative logic natively."}},{"@type":"Question","name":"Why use creative sequencing for luxury brands?","acceptedAnswer":{"@type":"Answer","text":"Creative sequencing is especially valuable for luxury brands because high-consideration buyers don't make purchase decisions on a single impression. A prospect considering a $100,000+ product or service needs multiple touchpoints that progressively build brand familiarity, deepen rational consideration, and eventually deliver a specific behavioral invitation. Sequencing maps the creative strategy to the actual psychology of luxury purchase decisions—rather than running the same awareness message at high frequency, each impression advances the relationship."}},{"@type":"Question","name":"What is the ideal frequency cap for a CTV creative sequence?","acceptedAnswer":{"@type":"Answer","text":"Most CTV sequencing campaigns use a total household frequency of 7–10 impressions over a 4–6 week campaign window. A common starting architecture is: 2 impressions trigger Chapter 1 → Chapter 2 advancement, 2 additional impressions trigger Chapter 2 → Chapter 3, and Chapter 3 is capped at 3 impressions. Beyond 10 total impressions, audience attention returns diminish significantly. The household should then exit the active sequence and re-enter at the start of the next campaign flight."}},{"@type":"Question","name":"Which CTV platforms support sequential creative advertising?","acceptedAnswer":{"@type":"Answer","text":"The Trade Desk supports creative sequencing through impression-based creative rotation rules with household-level frequency tracking. Disney Advertising (Hulu, Disney+, ESPN+) supports sequential messaging via its Intent to View framework using first-party login data. Amazon's DSP enables sequencing conditioned on both impressions and behavioral signals. Peacock and NBCUniversal's One Platform support sequencing through programmatic guaranteed deals. For cross-platform sequencing, a unified DSP like The Trade Desk with Universal ID is recommended to deduplicate impressions across environments."}}]}],
   }
 
   return (

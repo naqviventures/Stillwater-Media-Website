@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Identity Resolution for Luxury Advertisers Post-Cookie | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/identity-resolution-luxury-advertising",
+  },
+  title: "Identity Resolution for Luxury Advertisers Post-Cookie",
   description:
     "Identity resolution luxury advertising guide: how premium brands maintain precision targeting and measurement after cookie deprecation. Frameworks inside.",
   openGraph: {
@@ -29,7 +32,7 @@ export const metadata = {
 }
 
 export default function IdentityResolutionLuxuryAdvertisingPage() {
-  const schemaMarkup = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Identity Resolution for Luxury Advertisers Post-Cookie",
@@ -67,6 +70,11 @@ export default function IdentityResolutionLuxuryAdvertisingPage() {
     articleSection: "Data & Privacy",
     wordCount: 2116,
     inLanguage: "en-US",
+  }
+
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/identity-resolution-luxury-advertising#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Identity Resolution for Luxury Advertisers Post-Cookie","item":"https://www.stillwatermedia.io/insights/identity-resolution-luxury-advertising"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/identity-resolution-luxury-advertising#faq","mainEntity":[{"@type":"Question","name":"Q1: What is identity resolution in advertising?","acceptedAnswer":{"@type":"Answer","text":"Identity resolution is the process of connecting fragmented signals — hashed emails, device IDs, IP addresses, CTV device data, and purchase records — into a single, persistent, privacy-compliant view of a person or household. It replaces the third-party cookie as the foundation for targeting, frequency control, and measurement across channels."}},{"@type":"Question","name":"Q2: How do luxury brands target affluent audiences without third-party cookies?","acceptedAnswer":{"@type":"Answer","text":"Luxury brands combine authenticated deterministic identifiers (like UID2 and RampID built from hashed emails), household-level identity graphs with appended wealth data, data clean room matching against premium publishers, and premium contextual targeting. Deterministic identity anchors targeting and measurement, while household graphs extend frequency control into unauthenticated CTV environments."}},{"@type":"Question","name":"Q3: What is the difference between deterministic and probabilistic identity matching?","acceptedAnswer":{"@type":"Answer","text":"Deterministic matching links records using authenticated signals like a logged-in hashed email, achieving accuracy above 95%, but only works on authenticated inventory. Probabilistic matching infers connections from IP addresses, device characteristics, and behavior, reaching more inventory but with 60–80% accuracy. Luxury brands should anchor on deterministic matching for targeting and measurement because probabilistic error rates corrupt optimization against small, high-value audiences."}},{"@type":"Question","name":"Q4: What is a data clean room and why do luxury advertisers use them?","acceptedAnswer":{"@type":"Answer","text":"A data clean room is a secure environment where a brand and a media partner match their datasets without either side exposing raw personally identifiable information. Luxury advertisers use clean rooms to measure conversions from premium streaming campaigns in a closed loop and to suppress existing clients from acquisition media — both essential when the customer base is small and each relationship is worth five figures or more."}},{"@type":"Question","name":"Q5: Why did CTV advertising survive cookie deprecation better than display advertising?","acceptedAnswer":{"@type":"Answer","text":"CTV never relied on browser cookies — it runs on device identifiers, authenticated app logins, and IP-based household graphs. That made CTV targeting and measurement structurally resilient to cookie deprecation, which is one reason premium streaming inventory has become the backbone of post-cookie luxury media plans. Cross-publisher frequency management on CTV still requires an active household identity strategy, however."}}]}],
   }
 
   return (

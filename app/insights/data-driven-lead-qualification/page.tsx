@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Data-Driven Lead Qualification: Advanced Analytics for Prospect Assessment | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/data-driven-lead-qualification",
+  },
+  title: "Data-Driven Lead Qualification: Advanced Analytics for Prospect Assessment",
   description:
     "Transform your lead qualification process with sophisticated data analytics, predictive modeling, and automated scoring systems that identify high-value prospects.",
   openGraph: {
@@ -29,7 +32,7 @@ export const metadata = {
 }
 
 export default function DataDrivenLeadQualification() {
-  const schemaMarkup = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Data-Driven Lead Qualification: Advanced Analytics for Superior Prospect Assessment",
@@ -66,6 +69,11 @@ export default function DataDrivenLeadQualification() {
     articleSection: "Data Analytics",
     wordCount: 2300,
     inLanguage: "en-US",
+  }
+
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/data-driven-lead-qualification#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Data-Driven Lead Qualification: Advanced Analytics for Superior Prospect Assessment","item":"https://www.stillwatermedia.io/insights/data-driven-lead-qualification"}]}],
   }
 
   return (

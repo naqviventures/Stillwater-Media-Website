@@ -1,7 +1,10 @@
 import { ArticleLayout } from '@/components/article-layout'
 
 export const metadata = {
-  title: "CTV vs. Linear TV for Luxury Brand Advertising | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/ctv-vs-linear-tv-luxury-brand-advertising",
+  },
+  title: "CTV vs. Linear TV for Luxury Brand Advertising",
   description:
     "CTV vs. linear TV: which wins for luxury brand advertisers? Stillwater Media compares targeting, measurement, cost, and brand lift across both channels for premium brands.",
   openGraph: {
@@ -29,7 +32,7 @@ export const metadata = {
 }
 
 export default function CTVvsLinearTVPage() {
-  const schemaMarkup = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "CTV vs. Linear TV: Which Wins for Luxury Brand Advertising?",
@@ -67,6 +70,11 @@ export default function CTVvsLinearTVPage() {
     articleSection: "CTV & Streaming",
     wordCount: 2240,
     inLanguage: "en-US",
+  }
+
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/ctv-vs-linear-tv-luxury-brand-advertising#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"CTV vs. Linear TV: Which Wins for Luxury Brand Advertising?","item":"https://www.stillwatermedia.io/insights/ctv-vs-linear-tv-luxury-brand-advertising"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/ctv-vs-linear-tv-luxury-brand-advertising#faq","mainEntity":[{"@type":"Question","name":"What is the difference between CTV and linear TV advertising?","acceptedAnswer":{"@type":"Answer","text":"Linear TV advertising involves buying commercial time on traditional broadcast or cable networks — your ad runs to everyone watching a given program, with no individual-level targeting. Connected TV (CTV) advertising runs on streaming platforms (Disney+, Hulu, Netflix, Prime Video) where viewers are authenticated, meaning the platform knows who they are. CTV enables demographic and behavioral audience targeting, precise geographic targeting, impression-level measurement, and household-level attribution — capabilities that simply do not exist in linear television buying."}},{"@type":"Question","name":"Is CTV or linear TV better for luxury brand advertising?","acceptedAnswer":{"@type":"Answer","text":"For most luxury brands, CTV is the stronger long-term investment because it enables targeting by who someone is — using wealth data, purchase intent signals, and household income modeling — rather than just inferring demographics from program selection. Linear TV still holds value for tentpole events (Super Bowl, major golf tournaments, awards shows) where affluent audiences concentrate and brand presence in cultural moments matters. The optimal strategy for most luxury advertisers is a hybrid model: 65–80% of television budget in premium CTV, 20–35% reserved for high-quality linear event buys."}},{"@type":"Question","name":"How much does CTV advertising cost compared to linear TV?","acceptedAnswer":{"@type":"Answer","text":"CTV CPMs range from $10–25 on open programmatic exchange to $35–80 on private marketplace deals with premium streaming publishers, and $45–120+ for direct deals with platforms like Disney+ or programmatic guaranteed buys on premium content. Linear TV scatter buys range from $15–35 CPM for cable news and sports to $25–50 CPM for national prime time, with event programming (Super Bowl) reaching $70–200+ CPM. While CTV often carries higher floor CPMs, the elimination of non-target audience waste typically produces lower cost-per-relevant-impression for luxury advertisers."}},{"@type":"Question","name":"Can you measure the ROI of CTV advertising?","acceptedAnswer":{"@type":"Answer","text":"Yes — CTV advertising offers significantly more robust ROI measurement than linear TV. Because every CTV impression is logged at the individual or household level, advertisers can match exposed households against first-party conversion data (website visits, form fills, purchases) through clean room environments. Brand lift studies using exposed vs. unexposed control groups can measure awareness and purchase intent lift with statistical confidence. Incrementality testing — suppressing the campaign from a random holdout group and comparing conversion rates — can prove true causal impact. These measurement capabilities require planning before campaign launch, but they are achievable within standard CTV campaign budgets."}},{"@type":"Question","name":"What streaming platforms should luxury brands advertise on?","acceptedAnswer":{"@type":"Answer","text":"The strongest platforms for luxury brand advertising in 2026 are Disney+ (premium content environment, broad affluent reach), Hulu (most mature AVOD platform, strong programmatic access, high HHI subscribers), Amazon Prime Video (purchase behavioral data layered into targeting, rapidly growing ad inventory), and Netflix (controlled brand safety environment, young affluent subscriber base). Platform selection should be driven by which platform's subscriber demographics best match your target customer profile, not by the largest reach number — a smaller, better-matched audience on one platform outperforms a larger, poorly-matched audience on another."}}]}],
   }
 
   return (

@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Luxury Brand Digital Marketing Strategy: The Real Difference | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/luxury-brand-digital-marketing-strategy",
+  },
+  title: "Luxury Brand Digital Marketing Strategy: The Real Difference",
   description:
     "Why luxury brand digital marketing strategy must differ from mass market. Stillwater Media explains media, targeting, and measurement for premium brands.",
   openGraph: {
@@ -29,7 +32,7 @@ export const metadata = {
 }
 
 export default function LuxuryBrandDigitalMarketingStrategyPage() {
-  const schemaMarkup = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Luxury Brand vs. Mass Market: Why Digital Marketing Strategy Must Be Completely Different",
@@ -68,6 +71,11 @@ export default function LuxuryBrandDigitalMarketingStrategyPage() {
     articleSection: "Strategy",
     wordCount: 2350,
     inLanguage: "en-US",
+  }
+
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/luxury-brand-digital-marketing-strategy#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Luxury Brand vs. Mass Market: Why Digital Marketing Strategy Must Be Completely Different","item":"https://www.stillwatermedia.io/insights/luxury-brand-digital-marketing-strategy"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/luxury-brand-digital-marketing-strategy#faq","mainEntity":[{"@type":"Question","name":"How is luxury brand digital marketing strategy different from regular digital marketing?","acceptedAnswer":{"@type":"Answer","text":"The core differences are in channel selection, audience targeting, creative approach, and measurement. Luxury strategy prioritizes brand environment quality over scale—using premium CTV, private marketplace deals, and brand-safe programmatic rather than open exchange or mass social placements. Audience targeting is built on verified wealth signals (income, net worth, property data) rather than interest categories. Creative emphasizes brand world-building over direct response. And measurement must account for 60–180 day sales cycles, not 7-day attribution windows."}},{"@type":"Question","name":"What digital marketing channels work best for luxury brands?","acceptedAnswer":{"@type":"Answer","text":"The highest-performing channels for luxury brands are premium CTV (Disney+, Netflix, Prime Video, Hulu), programmatic advertising through private marketplace deals with premium publishers, streaming audio on Spotify Premium and SiriusXM, YouTube Select (brand-safe premium inventory), DOOH in affluent physical contexts, and host-read podcast advertising. These channels are selected primarily because they create premium brand environments, not because they offer the lowest CPM."}},{"@type":"Question","name":"Why shouldn't luxury brands use the same advertising strategy as mass-market brands?","acceptedAnswer":{"@type":"Answer","text":"Mass-market advertising is optimized for reach and efficiency at the lowest possible cost per impression. For luxury brands, this approach erodes the perceived exclusivity and quality positioning that justifies premium pricing. Appearing in low-quality ad inventory, alongside discount brand messaging, or reaching non-affluent audiences through broad interest targeting directly undermines brand equity. Luxury brands need a different strategy because their audiences, purchase cycles, and positioning requirements are fundamentally different."}},{"@type":"Question","name":"How should luxury brands measure advertising ROI given long sales cycles?","acceptedAnswer":{"@type":"Answer","text":"Luxury brands should use a layered measurement approach: incrementality testing (holdout studies) to prove causal lift from media exposure; marketing mix modeling (MMM) to understand long-horizon channel contribution; brand lift studies to track awareness, consideration, and purchase intent; and multi-touch attribution for lower-funnel digital channels. Last-click attribution—the default in most platforms—is particularly misleading for luxury brands because it credits the final touchpoint (often branded search or retargeting) rather than the upper-funnel media that built initial consideration."}},{"@type":"Question","name":"What is a performance media agency for luxury brands?","acceptedAnswer":{"@type":"Answer","text":"A performance media agency for luxury brands is a specialized partner that combines brand-safe media buying, affluent audience targeting, and rigorous measurement—calibrated for the specific demands of premium categories. Unlike general-purpose media agencies, a luxury-focused performance agency has direct access to private marketplace deals with premium publishers, uses wealth signal data for audience targeting (not just interest categories), and builds measurement frameworks around long sales cycles rather than last-click attribution windows. Stillwater Media is an example of this type of agency, working exclusively with luxury and high-consideration brands."}}]}],
   }
 
   return (

@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Media Efficiency Ratio: The KPI Luxury Advertisers Need | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/media-efficiency-ratio-advertising",
+  },
+  title: "Media Efficiency Ratio: The KPI Luxury Advertisers Need",
   description:
     "Media efficiency ratio measures revenue per media dollar beyond ROAS. Learn how luxury brands use MER to make smarter budget decisions.",
   openGraph: {
@@ -29,7 +32,7 @@ export const metadata = {
 }
 
 export default function MediaEfficiencyRatioAdvertisingPage() {
-  const schemaMarkup = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Media Efficiency Ratio: The KPI Luxury Advertisers Actually Need",
@@ -67,6 +70,11 @@ export default function MediaEfficiencyRatioAdvertisingPage() {
     articleSection: "Measurement & Attribution",
     wordCount: 2180,
     inLanguage: "en-US",
+  }
+
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/media-efficiency-ratio-advertising#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Media Efficiency Ratio: The KPI Luxury Advertisers Actually Need","item":"https://www.stillwatermedia.io/insights/media-efficiency-ratio-advertising"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/media-efficiency-ratio-advertising#faq","mainEntity":[{"@type":"Question","name":"What is a media efficiency ratio in advertising?","acceptedAnswer":{"@type":"Answer","text":"Media efficiency ratio (MER) is a holistic advertising metric calculated by dividing total business revenue by total media spend over a given period. Unlike ROAS, which attributes revenue to individual channels, MER treats all paid media as a unified investment and measures aggregate business output against it. A brand generating $4M in revenue on $500K in media spend has a MER of 8.0."}},{"@type":"Question","name":"What's the difference between MER and ROAS?","acceptedAnswer":{"@type":"Answer","text":"ROAS (Return on Ad Spend) measures revenue attributed to a specific channel or campaign using platform-reported attribution. MER (Media Efficiency Ratio) measures total business revenue against total media spend without relying on attribution at all. ROAS is useful for tactical channel optimization; MER is used for strategic budget allocation and program-level health assessments. For brands with long sales cycles or multi-channel journeys, MER is the more reliable metric."}},{"@type":"Question","name":"What is a good media efficiency ratio for luxury brands?","acceptedAnswer":{"@type":"Answer","text":"MER benchmarks vary by business model and gross margin. Premium DTC brands typically target a MER of 3.0–5.0. Luxury DTC brands with higher margins often see MER of 5.0–8.0. High-LTV service businesses like private aviation, private clubs, or wealth management commonly operate at MER of 8.0–20.0 or higher, because the revenue per converted customer is large relative to media investment."}},{"@type":"Question","name":"How do I calculate my marketing efficiency ratio?","acceptedAnswer":{"@type":"Answer","text":"Calculate MER by dividing your total gross revenue for a period by your total paid media spend for that same period. Include all paid channels in the denominator—programmatic, CTV, social, search, DOOH, audio, podcasts, native. Do not include agency fees, SEO costs, or content production. Track weekly MER for anomaly detection, monthly MER for budget decisions, and rolling 90-day MER to account for sales cycle lag."}},{"@type":"Question","name":"Why is MER better than ROAS for high-consideration brands?","acceptedAnswer":{"@type":"Answer","text":"ROAS depends on platform-reported attribution, which systematically over-credits last-click direct-response channels and under-credits upper-funnel media like CTV, podcasts, and DOOH. For brands with 30–120 day sales cycles, most of the purchase journey happens outside attribution windows entirely. MER bypasses this problem by measuring whether the business is generating more revenue than it spends on media in aggregate—no attribution required."}}]}],
   }
 
   return (

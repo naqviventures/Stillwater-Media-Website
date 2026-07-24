@@ -4,9 +4,11 @@ import React from "react"
 
 import Image from "next/image"
 import Link from "next/link"
+import { usePathname } from "next/navigation"
 import { Navigation, Footer } from "@/components/navigation"
 import { Button } from "@/components/ui/button"
 import { ArrowLeft, ArrowRight } from "lucide-react"
+import { insightPosts } from "@/lib/insights"
 
 interface ArticleLayoutProps {
   title: string
@@ -33,8 +35,17 @@ export function ArticleLayout({
   date,
   readingTime,
   schemaMarkup,
-  children 
+  children
 }: ArticleLayoutProps) {
+  const pathname = usePathname()
+  const currentSlug = pathname?.split("/").filter(Boolean).pop()
+  const others = insightPosts.filter((p) => p.slug !== currentSlug)
+  const sameCategory = others.filter((p) => p.category === category)
+  const relatedPosts = [
+    ...sameCategory,
+    ...others.filter((p) => p.category !== category),
+  ].slice(0, 3)
+
   return (
     <div className="min-h-screen bg-background text-foreground">
       {schemaMarkup && (
@@ -114,6 +125,40 @@ export function ArticleLayout({
               </Button>
             </Link>
           </div>
+
+          {/* Related Insights (internal links for crawl depth + topical authority) */}
+          {relatedPosts.length > 0 && (
+            <section className="mt-16 pt-12 border-t border-border">
+              <h2 className="font-heading text-2xl text-foreground font-normal mb-8">
+                Related <span className="italic">insights</span>
+              </h2>
+              <div className="grid gap-8 sm:grid-cols-3">
+                {relatedPosts.map((post) => (
+                  <Link
+                    key={post.slug}
+                    href={`/insights/${post.slug}`}
+                    className="group block"
+                  >
+                    <div className="mb-4 overflow-hidden border border-border">
+                      <Image
+                        src={post.image || "/placeholder.svg"}
+                        alt={post.title}
+                        width={400}
+                        height={225}
+                        className="w-full h-40 object-cover transition-transform duration-300 group-hover:scale-105"
+                      />
+                    </div>
+                    <span className="text-foreground/50 text-xs tracking-[0.15em] uppercase">
+                      {post.category}
+                    </span>
+                    <h3 className="font-heading text-lg text-foreground font-normal leading-snug mt-2 group-hover:text-accent transition-colors">
+                      {post.title}
+                    </h3>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          )}
         </div>
       </article>
 

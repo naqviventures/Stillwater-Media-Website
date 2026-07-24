@@ -1,7 +1,10 @@
 import { ArticleLayout } from '@/components/article-layout'
 
 export const metadata = {
-  title: "Luxury Automotive Advertising Agency | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/luxury-automotive-advertising-agency",
+  },
+  title: "Luxury Automotive Advertising Agency",
   description:
     "Stillwater Media's luxury automotive advertising playbook: how to escape Tier 2 co-op dependency and reach high-intent luxury car buyers through precision digital media.",
   openGraph: {
@@ -29,7 +32,7 @@ export const metadata = {
 }
 
 export default function LuxuryAutomotivePage() {
-  const schemaMarkup = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Luxury Automotive Advertising Agency: Beyond Tier 2 and Dealer Co-Op",
@@ -65,6 +68,11 @@ export default function LuxuryAutomotivePage() {
     articleSection: "Vertical Playbooks",
     wordCount: 2200,
     inLanguage: "en-US",
+  }
+
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/luxury-automotive-advertising-agency#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Luxury Automotive Advertising Agency: Beyond Tier 2 and Dealer Co-Op","item":"https://www.stillwatermedia.io/insights/luxury-automotive-advertising-agency"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/luxury-automotive-advertising-agency#faq","mainEntity":[{"@type":"Question","name":"What does a luxury automotive advertising agency do differently from a standard auto agency?","acceptedAnswer":{"@type":"Answer","text":"A luxury automotive advertising agency builds precision audience targeting that reaches households at the $350,000+ income and $2M+ net worth level — far above the standard $100K+ HHI segments used in mass-market automotive campaigns. They secure private marketplace inventory on premium publishers (WSJ, Robb Report, Bloomberg) rather than open exchange, run cinematic CTV campaigns on Disney+ and Peacock with wealth-indicator targeting, and use multi-touch attribution models that can capture 60–180 day consideration paths rather than defaulting to last-click."}},{"@type":"Question","name":"How do you advertise luxury cars to high-net-worth buyers effectively?","acceptedAnswer":{"@type":"Answer","text":"Effective luxury automotive advertising to HNW buyers layers four targeting tiers: household income $350K+ from Experian ConsumerView, current luxury automotive ownership history (including competing marque ownership for conquest campaigns), lifestyle behavioral signals (private aviation, luxury hotel stays, club membership), and CRM lookalike modeling built from the dealership's actual buyer database. This four-tier approach consistently produces audiences that index 3–5x higher on purchase intent versus standard demographic segments, and reduces cost per qualified inquiry by 25–45% compared to broad demographic targeting."}},{"@type":"Question","name":"Is Tier 2 co-op advertising effective for luxury car dealerships?","acceptedAnswer":{"@type":"Answer","text":"Tier 2 co-op advertising is designed for volume dealers and mass-market vehicles — it performs poorly for luxury dealerships for three structural reasons. The audience targeting uses broad income segments ($100K+) that include millions of households who cannot afford a $120,000+ vehicle. The approved vendor lists favor open exchange inventory where luxury brands appear in low-quality editorial environments. And the attribution models default to short-window last-click, making the full consideration journey for a luxury vehicle purchase invisible. Luxury dealers benefit from using co-op compliance frameworks to fund precision campaigns through qualified vendors rather than accepting the default co-op media plan."}},{"@type":"Question","name":"What is the best digital channel for luxury automotive advertising?","acceptedAnswer":{"@type":"Answer","text":"Premium connected television (CTV) on platforms like Disney+, Max, and Peacock is the highest-performing top-of-funnel channel for luxury automotive because it delivers 60-second cinematic creative to households selected by wealth indicators directly in the living room. This is followed by private marketplace programmatic display in premium publisher environments (WSJ, Robb Report, Bloomberg), streaming audio during commute and recreational moments, and digital out-of-home in luxury retail and FBO locations. Meta and broad programmatic campaigns significantly underperform for luxury automotive given the income mismatch between platform demographics and vehicle price points."}},{"@type":"Question","name":"How long is the sales cycle for a luxury car purchase, and how does that affect advertising?","acceptedAnswer":{"@type":"Answer","text":"The typical luxury automotive purchase consideration period runs 60–180 days from first brand exposure to dealership visit, with ultra-luxury marques (Bentley, Rolls-Royce, Lamborghini) often exceeding six months. This long cycle requires attribution infrastructure that captures cross-device impression paths — standard 7-day or 30-day attribution windows miss the majority of touchpoints that influenced the purchase. Effective luxury automotive campaigns use impression-level path analysis, offline CRM conversion integration, and geofenced showroom visit attribution to reconstruct the full purchase journey and correctly credit upstream media investment."}}]}],
   }
 
   return (

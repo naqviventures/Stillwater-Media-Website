@@ -2,7 +2,10 @@ import { ArticleLayout } from "@/components/article-layout"
 import Link from "next/link"
 
 export const metadata = {
-  title: "How to Reach High-Net-Worth Consumers Through Premium CTV Advertising | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/ctv-advertising-high-net-worth-consumers",
+  },
+  title: "How to Reach High-Net-Worth Consumers Through Premium CTV Advertising",
   description:
     "Premium CTV advertising reaches affluent consumers where they stream. Learn how luxury brands use connected TV to target high-net-worth households with precision.",
   openGraph: {
@@ -36,6 +39,8 @@ export default function CTVAdvertisingHighNetWorth() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@graph": [Object.assign({"@id": "https://www.stillwatermedia.io/insights/ctv-advertising-high-net-worth-consumers#article"}, ({
             "@context": "https://schema.org",
             "@type": "Article",
             headline: "How to Reach High-Net-Worth Consumers Through Premium CTV Advertising",
@@ -74,6 +79,7 @@ export default function CTVAdvertisingHighNetWorth() {
             articleSection: "CTV",
             wordCount: 2400,
             inLanguage: "en-US",
+          })), {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/ctv-advertising-high-net-worth-consumers#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"How to Reach High-Net-Worth Consumers Through Premium CTV Advertising","item":"https://www.stillwatermedia.io/insights/ctv-advertising-high-net-worth-consumers"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/ctv-advertising-high-net-worth-consumers#faq","mainEntity":[{"@type":"Question","name":"What is CTV advertising and how does it work?","acceptedAnswer":{"@type":"Answer","text":"CTV advertising delivers video ads through internet-connected television devices — smart TVs, Roku, Apple TV, and streaming platforms. Unlike linear TV, CTV targets specific households using first-party data and behavioral signals, allowing luxury brands to reach high-net-worth consumers with precision rather than broad demographic buys."}},{"@type":"Question","name":"How do luxury brands target high-net-worth consumers on streaming TV?","acceptedAnswer":{"@type":"Answer","text":"Luxury brands reach HNW consumers on CTV through a combination of first-party data onboarding, intent signal layering, and private marketplace deals with premium streaming platforms like Disney+, Netflix, and Prime Video. These platforms offer household-level targeting that can identify affluent households based on income, purchase behavior, and luxury intent signals."}},{"@type":"Question","name":"What is a private marketplace (PMP) deal in CTV advertising?","acceptedAnswer":{"@type":"Answer","text":"A private marketplace deal is a direct arrangement between an advertiser and a specific streaming platform, bypassing the open programmatic exchange. PMP deals give luxury brands access to premium, brand-safe inventory with guaranteed content adjacency controls — ensuring ads run next to prestige content, not questionable material."}},{"@type":"Question","name":"How much does premium CTV advertising cost for luxury brands?","acceptedAnswer":{"@type":"Answer","text":"Premium CTV CPMs typically range from $25–$65 for luxury-targeted inventory, compared to $8–$18 for open exchange. The higher cost reflects genuine audience quality, brand safety verification, and completion rate guarantees. Luxury brands willing to pay premium CPMs typically see significantly lower cost-per-qualified-lead versus lower-CPM channels."}}]}],
           }),
         }}
       />

@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Real-Time Bidding Optimization: Advanced Strategies for Premium Advertisers | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/real-time-bidding-optimization-strategies",
+  },
+  title: "Real-Time Bidding Optimization: Advanced Strategies for Premium Advertisers",
   description:
     "Master real-time bidding with advanced strategies for bid optimization, supply quality management, frequency control, and cross-device targeting.",
   openGraph: {
@@ -29,7 +32,7 @@ export const metadata = {
 }
 
 export default function RTBOptimization() {
-  const schemaMarkup = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Real-Time Bidding Optimization: Advanced Strategies for Premium Advertisers",
@@ -66,6 +69,11 @@ export default function RTBOptimization() {
     articleSection: "Technology",
     wordCount: 2100,
     inLanguage: "en-US",
+  }
+
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/real-time-bidding-optimization-strategies#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Real-Time Bidding Optimization: Advanced Strategies for Premium Advertisers","item":"https://www.stillwatermedia.io/insights/real-time-bidding-optimization-strategies"}]}],
   }
 
   return (

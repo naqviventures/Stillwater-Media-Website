@@ -71,9 +71,6 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  verification: {
-    google: "YOUR_GOOGLE_SITE_VERIFICATION_CODE",
-  },
   icons: {
     icon: "/favicon.ico",
     apple: "/apple-icon.png",

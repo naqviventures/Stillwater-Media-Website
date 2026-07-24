@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Automated Lead Nurturing Systems: Scalable Relationship Building | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/automated-lead-nurturing-systems",
+  },
+  title: "Automated Lead Nurturing Systems: Scalable Relationship Building",
   description:
     "Learn how automated lead nurturing systems maintain prospect engagement, build relationships, and guide leads through the sales funnel with personalized communications at scale.",
   openGraph: {
@@ -29,7 +32,7 @@ export const metadata = {
 }
 
 export default function AutomatedLeadNurturingSystems() {
-  const schemaMarkup = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Automated Lead Nurturing Systems: Scalable Relationship Building Through Intelligent Automation",
@@ -66,6 +69,11 @@ export default function AutomatedLeadNurturingSystems() {
     articleSection: "Automation",
     wordCount: 2200,
     inLanguage: "en-US",
+  }
+
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/automated-lead-nurturing-systems#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Automated Lead Nurturing Systems: Scalable Relationship Building Through Intelligent Automation","item":"https://www.stillwatermedia.io/insights/automated-lead-nurturing-systems"}]}],
   }
 
   return (

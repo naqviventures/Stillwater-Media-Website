@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "The Programmatic Advertising Revolution: AI-Powered Media Buying | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/programmatic-advertising-revolution-2024",
+  },
+  title: "The Programmatic Advertising Revolution: AI-Powered Media Buying",
   description:
     "How AI and machine learning are transforming programmatic advertising. Learn about supply path optimization, first-party data, and CTV strategies for premium brands.",
   openGraph: {
@@ -29,7 +32,7 @@ export const metadata = {
 }
 
 export default function ProgrammaticRevolution2024() {
-  const schemaMarkup = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "The Programmatic Advertising Revolution: AI-Powered Media Buying in 2024",
@@ -66,6 +69,11 @@ export default function ProgrammaticRevolution2024() {
     articleSection: "Programmatic",
     wordCount: 1800,
     inLanguage: "en-US",
+  }
+
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/programmatic-advertising-revolution-2024#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"The Programmatic Advertising Revolution: AI-Powered Media Buying in 2024","item":"https://www.stillwatermedia.io/insights/programmatic-advertising-revolution-2024"}]}],
   }
 
   return (

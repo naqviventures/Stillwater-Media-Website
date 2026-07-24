@@ -1,7 +1,10 @@
 import { ArticleLayout } from '@/components/article-layout'
 
 export const metadata = {
-  title: "Luxury Real Estate Programmatic Advertising Playbook | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/luxury-real-estate-programmatic-advertising",
+  },
+  title: "Luxury Real Estate Programmatic Advertising Playbook",
   description:
     "How luxury real estate developers and brokerages use programmatic advertising to reach high-net-worth buyers. Strategy, channels, benchmarks, and targeting methodology from Stillwater Media.",
   openGraph: {
@@ -29,7 +32,7 @@ export const metadata = {
 }
 
 export default function LuxuryRealEstatePage() {
-  const schemaMarkup = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Luxury Real Estate Programmatic Advertising: A Complete Playbook",
@@ -65,6 +68,11 @@ export default function LuxuryRealEstatePage() {
     articleSection: "Vertical Strategy",
     wordCount: 2200,
     inLanguage: "en-US",
+  }
+
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/luxury-real-estate-programmatic-advertising#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Luxury Real Estate Programmatic Advertising: A Complete Playbook","item":"https://www.stillwatermedia.io/insights/luxury-real-estate-programmatic-advertising"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/luxury-real-estate-programmatic-advertising#faq","mainEntity":[{"@type":"Question","name":"How much does programmatic advertising cost for luxury real estate?","acceptedAnswer":{"@type":"Answer","text":"Premium CTV CPMs for verified high-net-worth audiences on platforms like Disney+, Netflix, and Prime Video typically range from $35–$65. Private marketplace display inventory for luxury contextual placements runs $18–$40 CPM. The more meaningful metric for luxury real estate is cost-per-qualified-inquiry, which typically falls between $800 and $4,500 depending on property price point, market size, and campaign targeting precision — high in absolute terms but appropriate given average transaction values above $3 million."}},{"@type":"Question","name":"What is the best advertising channel for luxury real estate?","acceptedAnswer":{"@type":"Answer","text":"Premium connected TV (CTV) on streaming platforms like Disney+, Netflix, and Prime Video is the most effective channel for reaching qualified luxury real estate buyers at the awareness stage. These platforms reach disproportionately affluent, highly educated households and allow cinematic storytelling that matches the quality standard of the properties being marketed. However, CTV works best as part of a full-funnel strategy that also includes PMP display, DOOH in affluent locations, and native advertising for consideration-stage content."}},{"@type":"Question","name":"How do you target high-net-worth home buyers with digital advertising?","acceptedAnswer":{"@type":"Answer","text":"Effective HNW buyer targeting layers multiple data signals: modeled wealth data (net worth $3M+, liquid investable assets $1M+), behavioral intent signals (active real estate research, recent luxury purchase behavior, life event triggers), and geographic context. The key distinction is targeting by wealth and investable assets — not just high income — since income alone is a poor proxy for luxury real estate purchase readiness. First-party lookalike modeling from past buyer data, when available, is the highest-quality targeting signal."}},{"@type":"Question","name":"How do you measure ROI for luxury real estate programmatic campaigns?","acceptedAnswer":{"@type":"Answer","text":"Luxury real estate requires a different measurement framework than e-commerce. Attribution windows should be set to 90–180 days minimum to capture the actual decision timeline. Incrementality testing via holdout groups validates true media lift versus organic interest. CRM integration allows qualified inquiries, site visits, and transactions to be matched back to media exposure, enabling deal-level ROI analysis even across long sales cycles. Standard last-click attribution models severely undercount the contribution of upper-funnel programmatic impressions."}},{"@type":"Question","name":"What is a private marketplace (PMP) deal and why does it matter for luxury real estate advertising?","acceptedAnswer":{"@type":"Answer","text":"A private marketplace deal is a pre-negotiated agreement between an advertiser and a specific publisher for access to that publisher's inventory at defined CPM rates, with brand safety guarantees and placement transparency. For luxury real estate advertisers, PMP deals are critical because they allow placement on specific premium publishers — luxury lifestyle media, business publications, private aviation content — rather than buying inventory through open exchanges where algorithmic optimization places ads on brand-misaligned content. PMP access is a prerequisite for protecting brand positioning in programmatic advertising."}}]}],
   }
 
   return (

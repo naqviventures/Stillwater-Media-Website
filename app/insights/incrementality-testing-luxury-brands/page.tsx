@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Incrementality Testing for Luxury Brands: The Metric You Can't Afford to Skip | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/incrementality-testing-luxury-brands",
+  },
+  title: "Incrementality Testing for Luxury Brands: The Metric You Can't Afford to Skip",
   description:
     "Incrementality testing reveals what your media actually causes — not just correlates with. Here's why luxury brands use holdout testing to prove real ad ROI.",
   openGraph: {
@@ -29,7 +32,7 @@ export const metadata = {
 }
 
 export default function IncementalityTestingPage() {
-  const schemaMarkup = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Incrementality Testing for Luxury Brands: The Metric You Can't Afford to Skip",
@@ -68,6 +71,11 @@ export default function IncementalityTestingPage() {
     articleSection: "Measurement",
     wordCount: 2500,
     inLanguage: "en-US",
+  }
+
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/incrementality-testing-luxury-brands#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Incrementality Testing for Luxury Brands: The Metric You Can't Afford to Skip","item":"https://www.stillwatermedia.io/insights/incrementality-testing-luxury-brands"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/incrementality-testing-luxury-brands#faq","mainEntity":[{"@type":"Question","name":"What is incrementality testing in advertising?","acceptedAnswer":{"@type":"Answer","text":"Incrementality testing measures the true causal impact of advertising by comparing conversion rates between an exposed group (who sees the ads) and a holdout group (who does not). The difference in conversion rates — adjusted for statistical significance — represents the genuine lift caused by the media, separate from conversions that would have happened organically."}},{"@type":"Question","name":"What is a holdout group in advertising?","acceptedAnswer":{"@type":"Answer","text":"A holdout group (also called a control group) is a randomly selected portion of your target audience that is deliberately withheld from seeing your advertising. By comparing their behavior to the exposed group, marketers can isolate the true incremental impact of their media spend from baseline conversion activity."}},{"@type":"Question","name":"Why is last-click attribution misleading for luxury brands?","acceptedAnswer":{"@type":"Answer","text":"Last-click attribution assigns full conversion credit to the final ad touchpoint before purchase, ignoring whether that touchpoint actually caused the decision. For luxury brands with long consideration cycles, customers often encounter the brand organically — through press, referrals, or reputation — and then encounter a paid ad just before purchase. The paid ad receives all the credit; incrementality testing reveals how much was genuinely caused by the media."}},{"@type":"Question","name":"How long should an incrementality test run?","acceptedAnswer":{"@type":"Answer","text":"Incrementality tests should run for the length of your typical sales cycle, minimum. For luxury brands, this is typically 45–180 days. Brands with longer consideration periods (wealth management, real estate, private aviation) need extended test windows to capture full downstream conversion behavior and avoid reading inconclusive early results as definitive findings."}},{"@type":"Question","name":"What percentage of ad conversions are truly incremental?","acceptedAnswer":{"@type":"Answer","text":"The answer varies significantly by channel and brand. Common findings show retargeting campaigns driving 15–40% truly incremental conversions, while upper-funnel channels like CTV often drive 25–45% incremental lift in metrics like brand search and site quality visits that standard attribution fails to capture at all."}}]}],
   }
 
   return (

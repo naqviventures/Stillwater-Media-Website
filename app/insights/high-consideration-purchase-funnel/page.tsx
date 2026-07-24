@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "The High-Consideration Purchase Funnel: A Media Strategy Guide | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/high-consideration-purchase-funnel",
+  },
+  title: "The High-Consideration Purchase Funnel: A Media Strategy Guide",
   description:
     "High-consideration brand advertising requires a media strategy built for long sales cycles. Learn how to map media to each funnel stage and measure what actually works.",
   openGraph: {
@@ -29,7 +32,7 @@ export const metadata = {
 }
 
 export default function HighConsiderationPurchaseFunnelPage() {
-  const schemaMarkup = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "The High-Consideration Purchase Funnel: How Media Supports Long Sales Cycles",
@@ -68,6 +71,11 @@ export default function HighConsiderationPurchaseFunnelPage() {
     articleSection: "Media Strategy",
     wordCount: 2280,
     inLanguage: "en-US",
+  }
+
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/high-consideration-purchase-funnel#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"The High-Consideration Purchase Funnel: How Media Supports Long Sales Cycles","item":"https://www.stillwatermedia.io/insights/high-consideration-purchase-funnel"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/high-consideration-purchase-funnel#faq","mainEntity":[{"@type":"Question","name":"What is a high-consideration purchase in marketing?","acceptedAnswer":{"@type":"Answer","text":"A high-consideration purchase is a buying decision that involves significant time, research, multiple stakeholders, and high perceived risk of making the wrong choice. Typical markers include sales cycles of 30 days or longer, multiple decision-makers (spouses, advisors, business partners), extensive information gathering before any vendor contact, and high irreversibility if the wrong choice is made. Examples include private aviation memberships, luxury real estate, wealth management engagements, luxury automotive, and private club memberships. High-consideration purchases require fundamentally different media strategies than low-involvement categories because standard attribution models, short measurement windows, and direct-response tactics are poorly matched to how these buyers actually make decisions."}},{"@type":"Question","name":"Why doesn't last-click attribution work for high-consideration brands?","acceptedAnswer":{"@type":"Answer","text":"Last-click attribution assigns 100% of conversion credit to the final touchpoint before purchase, which systematically undervalues every media interaction that occurred earlier in the purchase journey. For a prospect with a 90-day sales cycle, the CTV ad they saw in month one, the podcast they heard in month two, and the editorial content they engaged with in month three all contributed to the final decision — but last-click records only the branded search click or direct website visit that preceded the inquiry form submission. The result is that upper-funnel media appears to generate zero conversions and gets defunded, gradually hollowing out the pipeline that downstream tactics depend on."}},{"@type":"Question","name":"How should media budget be allocated for a brand with a 90-day sales cycle?","acceptedAnswer":{"@type":"Answer","text":"For a mature high-consideration brand with a 90-day sales cycle, a reasonable starting allocation is 35–40% in upper-funnel awareness channels (premium CTV, streaming audio, DOOH), 30–35% in mid-funnel consideration channels (retargeting, native/content, podcast), 20–25% in lower-funnel conversion channels (search, direct retargeting), and 5–10% reserved for measurement infrastructure including holdout testing and brand tracking. These allocations should be adjusted based on where the current constraint in the pipeline sits — if awareness is strong but consideration conversion is weak, shift budget toward mid-funnel channels and examine messaging for what's blocking shortlist entry."}},{"@type":"Question","name":"What media channels work best for high-consideration brand advertising?","acceptedAnswer":{"@type":"Answer","text":"Premium CTV is the dominant upper and mid-funnel channel for high-consideration brands reaching affluent audiences, delivering authenticated HNW households in high-attention, non-skippable environments on streaming platforms like Disney+, Hulu, and Peacock. Podcast advertising in business and lifestyle programming builds trust and consideration through host credibility transfer. Premium programmatic display in business and luxury editorial environments maintains brand presence during extended research phases. Search (SEM/SEO) is essential at active consideration and preference formation stages when prospects are specifically researching vendors. DOOH in affluent environments reinforces premium positioning in physical contexts. The critical principle is that no single channel covers the full journey — high-consideration advertising requires coordinated presence across multiple channels, each assigned a specific funnel role."}},{"@type":"Question","name":"How do you measure advertising effectiveness for a brand with a long sales cycle?","acceptedAnswer":{"@type":"Answer","text":"The measurement stack for high-consideration brands should include: brand tracking surveys (unaided awareness, ad recall) for upper-funnel; organic branded search volume lift and content engagement metrics for mid-funnel; multi-touch attribution with a lookback window matching the actual sales cycle length (90–180 days) for consideration-phase evaluation; CRM pipeline velocity analysis for preference formation; and closed-won revenue with full attribution for final conversion. Incrementality testing — running matched holdout groups withheld from specific media — provides the most reliable causal evidence of each channel's contribution and should be built into campaign planning from the outset rather than treated as an optional measurement add-on."}}]}],
   }
 
   return (

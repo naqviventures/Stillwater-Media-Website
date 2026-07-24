@@ -1,6 +1,9 @@
 import { ArticleLayout } from '@/components/article-layout'
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/multi-touch-attribution-high-consideration-brands",
+  },
   title: "Multi-Touch Attribution for Long Sales Cycle Brands",
   description:
     "Multi-touch attribution for high-consideration brands with long sales cycles. Stillwater Media explains which models work — and which lie — for luxury advertisers.",
@@ -29,7 +32,7 @@ export const metadata = {
 }
 
 export default function MultiTouchAttributionPage() {
-  const schemaMarkup = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Multi-Touch Attribution for Long Sales Cycle Brands",
@@ -67,6 +70,11 @@ export default function MultiTouchAttributionPage() {
     articleSection: "Measurement & Attribution",
     wordCount: 2300,
     inLanguage: "en-US",
+  }
+
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/multi-touch-attribution-high-consideration-brands#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Multi-Touch Attribution for Long Sales Cycle Brands","item":"https://www.stillwatermedia.io/insights/multi-touch-attribution-high-consideration-brands"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/multi-touch-attribution-high-consideration-brands#faq","mainEntity":[{"@type":"Question","name":"What is multi-touch attribution in advertising?","acceptedAnswer":{"@type":"Answer","text":"Multi-touch attribution is a measurement methodology that distributes conversion credit across multiple marketing touchpoints in a buyer's journey, rather than assigning all credit to a single interaction. Common models include linear (equal credit across all touchpoints), time-decay (more credit to recent touchpoints), and data-driven (algorithmic credit assignment based on observed path patterns). For most standard implementations, attribution is tracked via pixels, UTM parameters, and click IDs that follow a user from ad exposure to a conversion event on the advertiser's website."}},{"@type":"Question","name":"Why doesn't last-click attribution work for luxury brands?","acceptedAnswer":{"@type":"Answer","text":"Last-click attribution assigns 100% of conversion credit to the final tracked touchpoint before a conversion event — typically a branded search click or direct website visit. For luxury brands with 30–90 day sales cycles, this systematically ignores the streaming TV, programmatic, and display touchpoints that built brand familiarity in the weeks before the prospect searched the brand. This creates a feedback loop where brands cut upper-funnel brand-building channels based on attribution data, which then reduces future qualified search and direct traffic. Last-click measures correlation, not causation, and for extended sales cycles, it actively distorts the relationship between media investment and revenue outcomes."}},{"@type":"Question","name":"How long should an attribution lookback window be for luxury brands?","acceptedAnswer":{"@type":"Answer","text":"Attribution lookback windows for luxury and high-consideration brands should be set based on the empirical sales cycle length from CRM data. If 60% of closed deals show a first tracked touchpoint more than 45 days before close, lookback windows should be configured at 60 days minimum. For view-through attribution on streaming TV and premium video, 14–30 day windows are recommended. Most platforms default to much shorter windows (7-day or 30-day) that will invisibilize the majority of touchpoints in a long sales cycle journey."}},{"@type":"Question","name":"What is incrementality testing and how is it different from attribution?","acceptedAnswer":{"@type":"Answer","text":"Incrementality testing is a causal measurement methodology that compares conversion rates between an audience exposed to advertising and a randomly assigned holdout group that was not exposed. The difference in conversion rates represents the \"incremental lift\" — outcomes that would not have occurred without the advertising. Attribution assigns credit across observed touchpoints but cannot prove causation. Incrementality testing can, making it the most rigorous method for proving that a channel is actually driving outcomes rather than simply appearing in the conversion path alongside organic intent."}},{"@type":"Question","name":"Can CTV advertising be attributed properly?","acceptedAnswer":{"@type":"Answer","text":"Standard tag-based attribution systems cannot track CTV/streaming TV impressions to conversion events the same way they track web clicks, because television viewing does not generate cookies or click IDs. CTV attribution relies on two main methods: IP-address matching (matching the IP of a streaming device to subsequent web behavior from the same household) and device graph matching (using identity resolution data to connect TV exposure to digital conversion events). Both methods have matching accuracy limitations. The most reliable method for measuring CTV's contribution is incrementality testing with a properly structured holdout group, which captures the full causal impact without relying on cross-device identity matching."}}]}],
   }
 
   return (

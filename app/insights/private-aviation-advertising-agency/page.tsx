@@ -1,7 +1,10 @@
 import { ArticleLayout } from '@/components/article-layout'
 
 export const metadata = {
-  title: "Private Aviation Advertising Agency | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/private-aviation-advertising-agency",
+  },
+  title: "Private Aviation Advertising Agency",
   description:
     "How elite private aviation brands like JetLinx & FLY Exclusive win high-net-worth clients through programmatic, CTV, and precision digital advertising.",
   openGraph: {
@@ -29,7 +32,7 @@ export const metadata = {
 }
 
 export default function PrivateAviationAdvertisingPage() {
-  const schemaMarkup = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Private Aviation Advertising Agency: How JetLinx and FLY Exclusive Win Clients Online",
@@ -65,6 +68,11 @@ export default function PrivateAviationAdvertisingPage() {
     articleSection: "Vertical Strategy",
     wordCount: 2400,
     inLanguage: "en-US",
+  }
+
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/private-aviation-advertising-agency#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Private Aviation Advertising Agency: How JetLinx and FLY Exclusive Win Clients Online","item":"https://www.stillwatermedia.io/insights/private-aviation-advertising-agency"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/private-aviation-advertising-agency#faq","mainEntity":[{"@type":"Question","name":"How do you reach high-net-worth prospects for a private aviation brand?","acceptedAnswer":{"@type":"Answer","text":"Reaching high-net-worth prospects for private aviation requires layering financial and behavioral data signals rather than relying on basic demographic targeting. The most effective approach combines wealth-modeled audience segments (investable assets > $3M), business travel behavioral signals, and premium contextual placements alongside Bloomberg, Forbes, and aviation trade publications. CTV on platforms like Disney+ and Prime Video enables household-level targeting against these audiences at scale with completed view rates above 95%, creating brand presence that generic digital channels cannot match."}},{"@type":"Question","name":"What digital channels work best for private aviation advertising?","acceptedAnswer":{"@type":"Answer","text":"The highest-performing channel mix for private aviation typically allocates 35–40% to premium CTV (Disney+, Netflix, Prime Video), 20–25% to programmatic display and native on premium PMPs, 10–15% to digital out-of-home near FBO terminals, and 8–10% each to YouTube Select, streaming audio, and branded search. CTV builds the consideration relationship over 30–90-day windows; search captures intent when the decision moment arrives. Brands that rely exclusively on search are competing for a small slice of declared intent while ignoring the much larger consideration pool that CTV and programmatic can reach."}},{"@type":"Question","name":"How long does it take to see results from private aviation advertising campaigns?","acceptedAnswer":{"@type":"Answer","text":"Private aviation campaigns should be evaluated over 90–180 day attribution windows rather than 30-day cycles, because the typical sales cycle for fractional shares, jet cards, or membership programs runs 30–180 days from first exposure to close. Brands that measure at 30 days will systematically undervalue CTV and programmatic channels (which build consideration upstream) and over-attribute results to search (which captures the intent those earlier channels created). Incrementality testing with properly managed holdout groups is the most accurate way to attribute impact across this extended sales cycle."}},{"@type":"Question","name":"What is frequency capping in private aviation advertising and why does it matter?","acceptedAnswer":{"@type":"Answer","text":"Frequency capping limits how many times the same household or user sees your ad across a given time window. In private aviation advertising, over-serving the same prospect — running 20+ exposures per month on a single creative — does not increase conversion likelihood; it degrades brand perception among the exact audience you most need to impress. Best practice for luxury aviation brands is 3–4 CTV exposures per household per week and 5–7 programmatic display impressions per user per week, managed at the DSP level with unified cross-channel frequency controls."}},{"@type":"Question","name":"How should private aviation brands measure advertising ROI?","acceptedAnswer":{"@type":"Answer","text":"Private aviation advertising ROI should be measured through a stack that includes incrementality testing (holdout groups to isolate true causal impact), data-driven multi-touch attribution (not last-click), platform-level brand lift studies via CTV providers, and periodic media mix modeling to correlate spend curves with inquiry volume. Last-click attribution will consistently misattribute member acquisitions to branded search while ignoring the CTV and programmatic exposures that created the decision to search in the first place."}}]}],
   }
 
   return (

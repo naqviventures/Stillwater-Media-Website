@@ -1,7 +1,10 @@
 import { ArticleLayout } from '@/components/article-layout'
 
 export const metadata = {
-  title: "Wealth Management Digital Advertising: Reaching HNW Prospects | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/wealth-management-digital-advertising",
+  },
+  title: "Wealth Management Digital Advertising: Reaching HNW Prospects",
   description:
     "How wealth management firms and financial advisors reach high-net-worth prospects through programmatic advertising. Strategy, channels, and compliance-aware targeting from Stillwater Media.",
   openGraph: {
@@ -29,7 +32,7 @@ export const metadata = {
 }
 
 export default function WealthManagementPage() {
-  const schemaMarkup = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Wealth Management Digital Advertising: Reaching HNW Prospects at Scale",
@@ -65,6 +68,11 @@ export default function WealthManagementPage() {
     articleSection: "Vertical Strategy",
     wordCount: 2250,
     inLanguage: "en-US",
+  }
+
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/wealth-management-digital-advertising#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Wealth Management Digital Advertising: Reaching HNW Prospects at Scale","item":"https://www.stillwatermedia.io/insights/wealth-management-digital-advertising"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/wealth-management-digital-advertising#faq","mainEntity":[{"@type":"Question","name":"How do wealth management firms advertise online to high-net-worth prospects?","acceptedAnswer":{"@type":"Answer","text":"Effective wealth management digital advertising uses wealth signal targeting — modeled on net worth and investable assets, not just income — combined with life event triggers (business sales, executive transitions, retirement) to reach qualified HNW prospects at moments of financial complexity. Premium CTV on streaming platforms reaches affluent households at scale for brand building, while PMP display placements on financial media ensure contextual adjacency. LinkedIn is effective for business owner and executive segments when combined with wealth qualification data from third-party data partners."}},{"@type":"Question","name":"What is the best digital advertising channel for financial advisors?","acceptedAnswer":{"@type":"Answer","text":"Premium CTV (connected TV on platforms like Disney+, Netflix, and Prime Video) is the most effective brand-building channel for financial advisors targeting high-net-worth households, given its reach among affluent, highly educated viewers and its non-skippable, brand-safe format. For consideration-stage content, private marketplace (PMP) display placements on financial publications and native advertising on premium editorial sites (Forbes, Bloomberg adjacencies) perform well. LinkedIn is appropriate for advisors targeting business owners and executives specifically, though CPMs are high ($45–$90) relative to other channels."}},{"@type":"Question","name":"How do you measure ROI for wealth management advertising when sales cycles are so long?","acceptedAnswer":{"@type":"Answer","text":"Measuring ROI for wealth management advertising requires defining intermediate conversion events — consultation requests, white paper downloads, webinar registrations — that can be tracked with shorter attribution windows and used as leading indicators of eventual AUM conversion. CRM integration connects media exposure data to the prospect journey, enabling eventual deal-level attribution even across twelve-to-thirty-six-month cycles. Holdout group incrementality testing is the most rigorous method for validating that paid media is producing genuine lift above organic referral activity."}},{"@type":"Question","name":"What are the compliance requirements for wealth management digital advertising?","acceptedAnswer":{"@type":"Answer","text":"Wealth management firms registered with the SEC or state regulators must ensure all advertising creative includes required disclosures, avoids non-compliant performance claims, and is reviewed through an established compliance process before publishing. Programmatic campaigns should run through private marketplace deals with vetted publishers rather than open exchange — both for brand safety and to maintain inventory quality documentation. First-party data use and third-party audience targeting must comply with applicable privacy regulations and should be reviewed by compliance counsel before campaign launch."}},{"@type":"Question","name":"How much should a wealth management firm spend on digital advertising?","acceptedAnswer":{"@type":"Answer","text":"Digital advertising investment for wealth management firms targeting HNW prospects typically ranges from $25,000 to $150,000 per month depending on market scope, AUM minimum, and growth targets. Cost per qualified consultation request generally falls between $400 and $2,500. The relevant benchmark is not cost per lead in isolation but cost per qualified meeting — and qualified meeting cost relative to the lifetime revenue value of a new client relationship. For firms with average new client AUM of $3M+, even a $2,500 cost per qualified consultation represents strong economics relative to potential revenue."}}]}],
   }
 
   return (

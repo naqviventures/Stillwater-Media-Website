@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Billboard Advertising in the Digital Age: Integrating OOH with Programmatic | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/billboard-advertising-digital-age",
+  },
+  title: "Billboard Advertising in the Digital Age: Integrating OOH with Programmatic",
   description:
     "Learn how traditional billboard advertising is evolving with digital integration, programmatic buying, and advanced attribution models for maximum impact.",
   openGraph: {
@@ -29,7 +32,7 @@ export const metadata = {
 }
 
 export default function BillboardAdvertisingDigitalAge() {
-  const schemaMarkup = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Billboard Advertising in the Digital Age: Integrating OOH with Programmatic Campaigns",
@@ -66,6 +69,11 @@ export default function BillboardAdvertisingDigitalAge() {
     articleSection: "OOH",
     wordCount: 2400,
     inLanguage: "en-US",
+  }
+
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/billboard-advertising-digital-age#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Billboard Advertising in the Digital Age: Integrating OOH with Programmatic Campaigns","item":"https://www.stillwatermedia.io/insights/billboard-advertising-digital-age"}]}],
   }
 
   return (

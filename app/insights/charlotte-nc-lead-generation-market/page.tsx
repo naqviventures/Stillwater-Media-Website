@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Charlotte NC Lead Generation: Opportunities and Strategies | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/charlotte-nc-lead-generation-market",
+  },
+  title: "Charlotte NC Lead Generation: Opportunities and Strategies",
   description:
     "Comprehensive analysis of Charlotte's business environment and targeted lead generation strategies for the Queen City's competitive landscape.",
   openGraph: {
@@ -29,7 +32,7 @@ export const metadata = {
 }
 
 export default function CharlotteNCLeadGenerationMarket() {
-  const schemaMarkup = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Charlotte NC Lead Generation Market: Opportunities and Strategies for Local Business Growth",
@@ -66,6 +69,11 @@ export default function CharlotteNCLeadGenerationMarket() {
     articleSection: "Local Market",
     wordCount: 2100,
     inLanguage: "en-US",
+  }
+
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/charlotte-nc-lead-generation-market#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Charlotte NC Lead Generation Market: Opportunities and Strategies for Local Business Growth","item":"https://www.stillwatermedia.io/insights/charlotte-nc-lead-generation-market"}]}],
   }
 
   return (

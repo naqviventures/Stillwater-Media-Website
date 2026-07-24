@@ -1,7 +1,10 @@
 import { ArticleLayout } from "@/components/article-layout"
 
 export const metadata = {
-  title: "Millionaire Household Targeting: A Digital Playbook | Stillwater Media",
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/millionaire-household-targeting-digital",
+  },
+  title: "Millionaire Household Targeting: A Digital Playbook",
   description:
     "How to find and reach millionaire households with digital media — data sources, segmentation models, and channel strategy for luxury brands. A Stillwater Media playbook.",
   openGraph: {
@@ -29,7 +32,7 @@ export const metadata = {
 }
 
 export default function MillionaireHouseholdTargetingDigitalPage() {
-  const schemaMarkup = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "The Millionaire Household Targeting Playbook",
@@ -68,6 +71,11 @@ export default function MillionaireHouseholdTargetingDigitalPage() {
     articleSection: "Affluent Audience Strategy",
     wordCount: 2095,
     inLanguage: "en-US",
+  }
+
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/millionaire-household-targeting-digital#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"The Millionaire Household Targeting Playbook","item":"https://www.stillwatermedia.io/insights/millionaire-household-targeting-digital"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/millionaire-household-targeting-digital#faq","mainEntity":[{"@type":"Question","name":"Q1: Can you target millionaires directly on Facebook, Google, or The Trade Desk?","acceptedAnswer":{"@type":"Answer","text":"A1: No. No major ad platform has a verified \"net worth\" or \"millionaire\" targeting field. What's available are modeled proxies — household income estimates, property value data, and behavioral signals — that correlate with wealth but aren't direct measurements. Effective millionaire household targeting combines several of these proxies rather than relying on any single one."}},{"@type":"Question","name":"Q2: What is the most accurate way to reach affluent households digitally?","acceptedAnswer":{"@type":"Answer","text":"A2: Layering data sources produces the most accurate results: start with first-party customer data if available, add modeled household income or property value data as a filter, incorporate geographic precision (affluent zip codes or neighborhoods), and layer behavioral purchase-intent signals on top. No single data source alone reliably identifies affluent households."}},{"@type":"Question","name":"Q3: How many millionaire households are there in the U.S.?","acceptedAnswer":{"@type":"Answer","text":"A3: Roughly 8 million U.S. households have a net worth over $1 million excluding their primary residence, representing just over 6% of all households according to Federal Reserve Survey of Consumer Finances data. This concentration makes precise targeting essential — broad national campaigns waste the large majority of impressions on non-affluent audiences."}},{"@type":"Question","name":"Q4: What's the difference between income targeting and net worth targeting?","acceptedAnswer":{"@type":"Answer","text":"A4: Income reflects current cash flow, while net worth reflects accumulated assets — and they don't always align. A high-income dual-professional household and a lower-income retiree with significant accumulated wealth can both be \"affluent\" but have very different spending behaviors. Most luxury brands should prioritize discretionary spending propensity over either metric alone."}},{"@type":"Question","name":"Q5: Does affluent lookalike modeling actually work?","acceptedAnswer":{"@type":"Answer","text":"A5: It works well when seeded correctly — using your highest lifetime-value converters, not general website visitors or social engagers — and poorly when seeded from low-intent traffic. A smaller seed list of genuinely high-value customers produces tighter, more efficient lookalike audiences than a larger list of low-quality engagement data."}}]}],
   }
 
   return (

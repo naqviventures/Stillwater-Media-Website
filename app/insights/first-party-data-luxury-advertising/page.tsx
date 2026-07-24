@@ -1,6 +1,9 @@
 import { ArticleLayout } from '@/components/article-layout'
 
 export const metadata = {
+  alternates: {
+    canonical: "https://www.stillwatermedia.io/insights/first-party-data-luxury-advertising",
+  },
   title: "First-Party Data Strategy for Luxury Brands",
   description:
     "Learn how luxury brands can build a first-party data strategy that survives cookie deprecation—without sacrificing audience precision or brand safety.",
@@ -29,7 +32,7 @@ export const metadata = {
 }
 
 export default function FirstPartyDataPage() {
-  const schemaMarkup = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "First-Party Data Strategy for Luxury Brands in a Cookieless World",
@@ -67,6 +70,11 @@ export default function FirstPartyDataPage() {
     articleSection: "Strategy & Measurement",
     wordCount: 2250,
     inLanguage: "en-US",
+  }
+
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/first-party-data-luxury-advertising#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"First-Party Data Strategy for Luxury Brands in a Cookieless World","item":"https://www.stillwatermedia.io/insights/first-party-data-luxury-advertising"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/first-party-data-luxury-advertising#faq","mainEntity":[{"@type":"Question","name":"What is first-party data in advertising, and why does it matter for luxury brands?","acceptedAnswer":{"@type":"Answer","text":"First-party data refers to any information a brand collects directly from its own customers and prospects—website visitors, email subscribers, inquiry submitters, and purchasers—as opposed to data purchased from a third-party broker or collected via third-party cookies. For luxury brands, first-party data matters more than for mass-market advertisers because luxury addressable audiences are inherently small (often measured in thousands, not millions), and targeting precision is therefore more consequential. Losing 50% of your retargetable audience through cookie deprecation is catastrophic when your total qualified pool is 5,000 people; it's a manageable rounding error when your pool is 5 million."}},{"@type":"Question","name":"How does identity resolution work for luxury advertisers?","acceptedAnswer":{"@type":"Answer","text":"Identity resolution translates your CRM records—typically hashed email addresses—into bidding signals that are recognizable to DSPs and premium publishers across the programmatic ecosystem. Platforms like The Trade Desk's Unified ID 2.0 or LiveRamp's RampID act as the bridge, allowing your first-party data to find the same people across devices, browsers, and channels without relying on cookies. For luxury brands, match rates typically run 40–65% of verified email records, meaning that roughly half to two-thirds of your known prospects become addressable programmatically."}},{"@type":"Question","name":"What is a data clean room and should luxury brands use one?","acceptedAnswer":{"@type":"Answer","text":"A data clean room is a privacy-safe environment that allows two parties—such as a brand and a premium publisher—to match their respective first-party data without ever sharing the raw records. Disney, NBCUniversal, and Amazon all operate clean room environments where luxury advertisers can identify CRM overlap with authenticated subscribers and then target that overlap in premium streaming inventory. For luxury brands, clean room activations consistently outperform open-exchange programmatic targeting by 3–5x on qualified consideration metrics, making them a high-value component of any premium media strategy despite the higher setup complexity."}},{"@type":"Question","name":"How do luxury brands build lookalike audiences without third-party cookies?","acceptedAnswer":{"@type":"Answer","text":"Luxury brands build cookieless lookalike audiences by first resolving their best CRM records through an identity partner (UID2, RampID, etc.) and then passing that seed audience to a DSP's modeling engine or a data partner with an authenticated identity graph. The model identifies behavioral and demographic signatures that correlate with high-value customers and extends reach to new prospects who share those characteristics within publisher and platform audiences. The key difference from mass-market lookalike strategy is seed cohort selection: luxury brands should model off their highest-LTV or highest-intent segment, not their total CRM, and should request tight lookalike expansion (0.5–2% scale) rather than broad scale to preserve prospect concentration."}},{"@type":"Question","name":"What should luxury brands prioritize in a 90-day first-party data roadmap?","acceptedAnswer":{"@type":"Answer","text":"The first 30 days should focus on auditing existing data assets (CRM, analytics, ESP, sales records), evaluating CRM completeness and email verification rates, and selecting a Customer Data Platform appropriate for programmatic activation. Days 31–60 focus on identity resolution onboarding and initial audience segmentation. Days 61–90 focus on programmatic activation, clean room partnerships, lookalike model deployment, and instrumenting cross-channel frequency capping. The key principle throughout is sequencing: identity resolution must precede enrichment and modeling, and those must precede clean room activation. Brands that skip the audit and architecture phase typically find that downstream activation is constrained by poor data quality."}}]}],
   }
 
   return (
