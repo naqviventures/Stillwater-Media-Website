@@ -94,6 +94,52 @@ export default function LuxuryIntentSignalTargetingPage() {
           "item": "https://www.stillwatermedia.io/insights/luxury-intent-signal-targeting"
         }
       ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.stillwatermedia.io/insights/luxury-intent-signal-targeting#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Q1: What is luxury intent signal targeting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Luxury intent signal targeting is the practice of identifying affluent consumers who are actively progressing toward a high-value purchase, using observed behavioral signals rather than wealth demographics alone. It combines declared intent (quote requests, tour bookings), deep research behavior, category browsing, life-event triggers, and adjacency signals into a composite score, then concentrates media spend against the households showing the highest probability of being in-market."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Q2: How is intent targeting different from affluent demographic targeting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Demographic targeting identifies who can afford a purchase; intent targeting identifies who is likely to make one soon. Because in-market rates for luxury categories are often below 1% of the qualified wealth population, demographic-only targeting typically wastes over 99% of impressions on people who are not currently shopping. Effective luxury programs intersect both — wealth as the qualifier, intent as the prioritization signal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Q3: Which intent signals are the strongest predictors of a luxury purchase?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Declared intent signals — quote requests, brochure downloads, tour bookings, and pricing calculator use — are the strongest, typically delivering 8–20x lift over wealth-only targeting, though they are extremely low in scale. Deep research behavior such as multi-session comparison browsing and repeated pricing-page visits delivers 4–9x lift with somewhat more scale. Because the strongest signals are the rarest, effective programs layer multiple signal classes rather than relying on any single one."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Q4: How long do luxury purchase intent signals stay valid?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Decay windows vary dramatically by signal type. Declared intent decays fastest, holding most of its value for 7–21 days. Deep research signals remain useful for 14–45 days, category browsing for 30–60 days, and life-event triggers such as a liquidity event or business sale actually strengthen over 60–180 days as the buyer enters an active shopping phase. Applying a single flat lookback window across all signals is one of the most common and costly errors in luxury media."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Q5: Should luxury brands use first-party or third-party intent data?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "First-party signals should carry the majority of activation weight because they consistently outperform purchased segments — in our client programs, first-party-derived audiences typically deliver 2.5–6x the conversion rate of comparable third-party intent segments at no incremental data cost. Third-party data remains valuable for prospecting beyond an existing customer footprint, but should be evaluated on observed-behavior methodology, refresh cadence, addressable match rate, and willingness to support holdout testing."
+          }
+        }
+      ]
     }
   ]
 }

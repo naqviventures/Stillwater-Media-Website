@@ -32,7 +32,7 @@ export const metadata = {
 }
 
 export default function MediaAgencyCharlotteNcLuxuryPage() {
-  const schemaMarkup = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Media Agency Charlotte NC: Why Location Matters for Luxury Brands",
@@ -71,6 +71,11 @@ export default function MediaAgencyCharlotteNcLuxuryPage() {
     articleSection: "Agency Insights",
     wordCount: 2007,
     inLanguage: "en-US",
+  }
+
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/media-agency-charlotte-nc-luxury#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Media Agency Charlotte NC: Why Location Matters for Luxury Brands","item":"https://www.stillwatermedia.io/insights/media-agency-charlotte-nc-luxury"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/media-agency-charlotte-nc-luxury#faq","mainEntity":[{"@type":"Question","name":"Q1: Does it matter where my media agency is located?","acceptedAnswer":{"@type":"Answer","text":"A1: For media execution — programmatic buying, CTV, measurement — location is irrelevant because platform access is identical everywhere. What still varies by geography is cost structure, talent profile, and market fluency: coastal agencies carry 40-70% higher overhead that flows into fees, while agencies in markets like Charlotte can staff senior strategists at the same price point where coastal shops assign coordinators."}},{"@type":"Question","name":"Q2: Why is Charlotte NC a good location for a luxury media agency?","acceptedAnswer":{"@type":"Answer","text":"A2: Charlotte is the second-largest banking center in the U.S., which built a deep talent pool in statistical modeling, forecasting, and measurement — the analytical skills luxury media demands. It also sits at the center of the Southeast wealth corridor, with same-day access to high-growth affluent markets including Atlanta, Nashville, Charleston, Raleigh-Durham, and Florida's wealth-migration destinations."}},{"@type":"Question","name":"Q3: What should luxury brands look for in a media agency?","acceptedAnswer":{"@type":"Answer","text":"A3: Five things: documented experience with high-LTV, long-sales-cycle brands; active private marketplace access to premium inventory like Disney+, Netflix, and Prime Video; incrementality-based measurement rather than platform dashboard attribution; senior-led account service; and selectivity in client intake. Agencies that run mass-market playbooks — broad targeting and last-click optimization — typically erode luxury brand equity."}},{"@type":"Question","name":"Q4: Are Charlotte advertising agencies cheaper than New York agencies?","acceptedAnswer":{"@type":"Answer","text":"A4: Generally yes, but the more useful framing is value per senior hour. Charlotte agencies operate with substantially lower overhead, which means equivalent fees buy more strategist time rather than a lower-quality team. Media costs themselves (CPMs, platform fees) are identical regardless of agency location, so the savings concentrate in fees and service depth."}},{"@type":"Question","name":"Q5: Can a Charlotte media agency buy national CTV and programmatic campaigns?","acceptedAnswer":{"@type":"Answer","text":"A5: Yes — DSP seats, private marketplace deals, and streaming platform partnerships are geography-neutral, so a Charlotte agency buys the same Disney+, Netflix, and Prime Video inventory as any New York agency. Stillwater Media, for example, runs national and international campaigns for clients in private aviation, luxury hospitality, and premium consumer goods from its Charlotte headquarters."}}]}],
   }
 
   return (

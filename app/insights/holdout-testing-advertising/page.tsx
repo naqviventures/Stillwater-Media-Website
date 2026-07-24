@@ -32,7 +32,7 @@ export const metadata = {
 }
 
 export default function HoldoutTestingAdvertisingPage() {
-  const schemaMarkup = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Holdout Testing Explained: How to Prove Your Media Is Actually Working",
@@ -70,6 +70,11 @@ export default function HoldoutTestingAdvertisingPage() {
     articleSection: "Measurement & Attribution",
     wordCount: 2056,
     inLanguage: "en-US",
+  }
+
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/holdout-testing-advertising#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Holdout Testing Explained: How to Prove Your Media Is Actually Working","item":"https://www.stillwatermedia.io/insights/holdout-testing-advertising"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/holdout-testing-advertising#faq","mainEntity":[{"@type":"Question","name":"Q1: What is holdout testing in advertising?","acceptedAnswer":{"@type":"Answer","text":"Holdout testing is a randomized controlled experiment in which a statistically matched portion of an audience or market is deliberately excluded from advertising while the rest is exposed. Comparing conversion rates between the two groups isolates the true incremental impact of the media, since exposure is the only systematic difference between them."}},{"@type":"Question","name":"Q2: How is incremental lift calculated in a holdout test?","acceptedAnswer":{"@type":"Answer","text":"Incremental lift equals the test group conversion rate minus the control group conversion rate, divided by the control group conversion rate, multiplied by 100. For example, if exposed households convert at 0.42% and held-out households convert at 0.30%, the campaign produced a 40% incremental lift over baseline demand."}},{"@type":"Question","name":"Q3: What's the difference between holdout testing and attribution?","acceptedAnswer":{"@type":"Answer","text":"Attribution distributes credit among the touchpoints a converter was exposed to, but it cannot observe what would have happened without any ads. Holdout testing measures that counterfactual directly through a control group, revealing causation rather than correlation. Mature programs use holdout results to calibrate attribution, which then handles day-to-day pacing decisions."}},{"@type":"Question","name":"Q4: How long should a holdout test run for a luxury brand?","acceptedAnswer":{"@type":"Answer","text":"The test window must cover the full consideration cycle, which for high-consideration purchases typically means 8–16 weeks plus a post-exposure observation period. Ending a test after two or three weeks when the average buyer takes 90+ days to convert is one of the most common errors and systematically understates the media's true effect."}},{"@type":"Question","name":"Q5: What is a geo holdout test and when should brands use it?","acceptedAnswer":{"@type":"Answer","text":"A geo holdout withholds advertising from selected markets (DMAs or zip clusters) while matched markets receive media, then compares outcomes between the two sets. It's the preferred design for testing channels without user-level identity — like DOOH and streaming audio — for multi-channel tests, and for brands whose conversion volumes are too low for household-level randomization to reach statistical power."}}]}],
   }
 
   return (

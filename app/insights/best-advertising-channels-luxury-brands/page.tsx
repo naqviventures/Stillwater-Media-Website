@@ -94,6 +94,52 @@ export default function BestAdvertisingChannelsLuxuryBrandsPage() {
           "item": "https://www.stillwatermedia.io/insights/best-advertising-channels-luxury-brands"
         }
       ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.stillwatermedia.io/insights/best-advertising-channels-luxury-brands#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Q1: What is the best advertising channel for luxury brands?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Premium connected TV — specifically ad-supported tiers on Disney+, Netflix, Prime Video, Max, and Hulu — is the highest-leverage single channel for most luxury brands, because affluent households over-index on streaming and the format delivers 92–97% completion rates in a brand-safe environment. It typically earns 35–50% of budget during demand-generation phases. However, the best channel depends on customer lifetime value, sales cycle length, and available first-party data, and no luxury program should rely on a single channel."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Q2: What CPM should a luxury brand expect to pay?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Premium CTV through private marketplace deals typically transacts between $38 and $62 CPM, YouTube Select between $22 and $40, host-read podcasts between $28 and $55, and premium publisher direct display between $12 and $28. Open-exchange display at $2–$8 appears cheaper but delivers only 4–9% affluent composition, making its effective cost against the target audience far higher than premium inventory."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Q3: Should luxury brands advertise on Facebook and Instagram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Paid social works as a retargeting and audience-expansion layer for luxury brands, but performs poorly as a primary demand-generation channel because affluent composition is low (typically 6–18%) and platform-reported ROAS is systematically inflated relative to incremental contribution. LinkedIn performs better for wealth management, private equity, and B2B-adjacent luxury categories where seniority and firmographic targeting correlate with net worth."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Q4: How much should a luxury brand spend on paid search?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Paid search typically warrants 6–10% of a luxury media budget, and should be understood as demand capture rather than demand creation. In incrementality testing, non-brand search usually shows only 30–50% of platform-reported conversions as genuinely incremental, and brand search often shows under 15% — meaning search frequently intercepts demand that CTV, audio, and DOOH created."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Q5: Is podcast advertising effective for luxury brands?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Podcast advertising is one of the most underpriced channels for high-consideration luxury categories, delivering 25–35% HHI $200K+ composition on business and finance shows with 65–80% mid-roll listen-through. Host-read endorsements transfer credibility in a way display cannot, which measurably shortens consideration cycles for trust-dependent purchases like private aviation and wealth management. Because last-click models understate podcast contribution by 40–70%, it should be measured through geo-holdout testing."
+          }
+        }
+      ]
     }
   ]
 }

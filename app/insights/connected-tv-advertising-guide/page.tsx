@@ -32,7 +32,7 @@ export const metadata = {
 }
 
 export default function ConnectedTVAdvertisingGuide() {
-  const schemaMarkup = {
+  const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Connected TV Advertising: The Complete Guide to CTV Campaign Success",
@@ -69,6 +69,11 @@ export default function ConnectedTVAdvertisingGuide() {
     articleSection: "CTV",
     wordCount: 2200,
     inLanguage: "en-US",
+  }
+
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/connected-tv-advertising-guide#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Connected TV Advertising: The Complete Guide to CTV Campaign Success","item":"https://www.stillwatermedia.io/insights/connected-tv-advertising-guide"}]}],
   }
 
   return (
