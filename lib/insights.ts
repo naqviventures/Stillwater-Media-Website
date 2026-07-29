@@ -9,6 +9,42 @@ export interface InsightPost {
 
 export const insightPosts: InsightPost[] = [
   {
+    slug: "connected-tv-advertising-luxury-brands",
+    title: "Connected TV Advertising for Luxury Brands: The Complete Guide",
+    excerpt:
+      "How connected TV advertising for luxury brands works — premium streaming inventory, affluent targeting, deal types, CPM benchmarks, and incremental measurement.",
+    image: "/images/connected-tv-advertising-luxury-brands.png",
+    category: "CTV & Streaming",
+    date: "2026-07-29",
+  },
+  {
+    slug: "premium-programmatic-media-buying",
+    title: "Premium Programmatic Media Buying: How Luxury Brands Buy Safely",
+    excerpt:
+      "What premium programmatic media buying is and how it works — private deals, curated supply, affluent targeting, and measurement built for luxury brands.",
+    image: "/images/premium-programmatic-media-buying.png",
+    category: "Programmatic Strategy",
+    date: "2026-07-29",
+  },
+  {
+    slug: "high-net-worth-consumer-advertising",
+    title: "High-Net-Worth Consumer Advertising: How to Reach Affluent Buyers",
+    excerpt:
+      "How high-net-worth consumer advertising actually works — where affluent buyers spend attention, how to target them precisely, and how to measure the result.",
+    image: "/images/high-net-worth-consumer-advertising.png",
+    category: "Affluent Audience Strategy",
+    date: "2026-07-24",
+  },
+  {
+    slug: "programmatic-advertising-luxury-brands",
+    title: "Programmatic Advertising for Luxury Brands: The Complete Guide",
+    excerpt:
+      "How programmatic advertising for luxury brands works — deal types, brand-safe supply, affluent targeting, and measurement built for high-value purchases.",
+    image: "/images/programmatic-advertising-luxury-brands.png",
+    category: "Programmatic Strategy",
+    date: "2026-07-24",
+  },
+  {
     slug: "premium-ctv-advertising-agency",
     title: "How to Choose a Premium CTV Advertising Agency",
     excerpt:
