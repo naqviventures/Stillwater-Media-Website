@@ -9,6 +9,186 @@ export interface InsightPost {
 
 export const insightPosts: InsightPost[] = [
   {
+    slug: "incrementality-vs-attribution-advertising",
+    title: "Incrementality vs. Attribution in Advertising: Which One Should Drive Your Media Decisions?",
+    excerpt:
+      "Attribution assigns credit; incrementality proves causation. The four test designs, benchmark lift ranges by channel, and which metric should actually set your budget.",
+    image: "/images/incrementality-vs-attribution-advertising.png",
+    category: "Measurement & Attribution",
+    date: "2026-08-17",
+  },
+  {
+    slug: "media-mix-optimization-luxury",
+    title: "Media Mix Optimization for Luxury Brands: How to Reallocate Budget With Evidence",
+    excerpt:
+      "Optimizing to average ROAS is why luxury media plans stagnate. The marginal-return rule, saturation benchmarks by channel, and the quarterly reallocation cadence.",
+    image: "/images/media-mix-optimization-luxury.png",
+    category: "Strategy & Planning",
+    date: "2026-08-17",
+  },
+  {
+    slug: "ad-attribution-luxury-brands",
+    title: "Ad Attribution for Luxury Brands: How to Build a Model That Survives a 120-Day Sales Cycle",
+    excerpt:
+      "A 120-day sales cycle breaks every default attribution setting. The four-layer build — event capture, identity resolution, CRM closed loop, and credit assignment.",
+    image: "/images/ad-attribution-luxury-brands.png",
+    category: "Measurement & Attribution",
+    date: "2026-08-12",
+  },
+  {
+    slug: "luxury-buyer-intent-signals",
+    title: "Luxury Buyer Intent Signals: How to Tell Real Demand From Aspirational Browsing",
+    excerpt:
+      "Aspirational browsing looks exactly like purchase intent until you score it. The four-tier signal taxonomy, decay curves, and scoring model premium brands need.",
+    image: "/images/luxury-buyer-intent-signals.png",
+    category: "Affluent Audience Engineering",
+    date: "2026-08-12",
+  },
+  {
+    slug: "performance-measurement-premium-advertising",
+    title: "Performance Measurement for Premium Advertising: A Framework That Holds Up",
+    excerpt:
+      "Low volume, long cycles, offline conversions. The three-layer measurement stack, metric hierarchy, benchmark ranges, and cadence luxury brands need.",
+    image: "/images/performance-measurement-premium-advertising.png",
+    category: "Measurement & Attribution",
+    date: "2026-08-11",
+  },
+  {
+    slug: "premium-consumer-data-partnerships",
+    title: "Premium Consumer Data Partnerships: A Guide to Second-Party and Clean-Room Data",
+    excerpt:
+      "How luxury brands build second-party data partnerships and clean-room collaborations to reach affluent audiences precisely without relying on third-party segments.",
+    image: "/images/premium-consumer-data-partnerships.png",
+    category: "Affluent Audience Engineering",
+    date: "2026-08-09",
+  },
+  {
+    slug: "programmatic-advertising-ai-optimization",
+    title: "Programmatic Advertising AI Optimization: What Actually Moves Performance",
+    excerpt:
+      "How AI-driven bidding, budget allocation, and creative optimization work in programmatic — what to automate, what to control, and where AI quietly fails luxury brands.",
+    image: "/images/programmatic-advertising-ai-optimization.png",
+    category: "Programmatic Strategy",
+    date: "2026-08-08",
+  },
+  {
+    slug: "streaming-platform-advertising-agency",
+    title: "How to Choose a Streaming Platform Advertising Agency",
+    excerpt:
+      "What a streaming platform advertising agency does, how it buys premium CTV inventory across Disney+, Netflix, and Prime Video, and how to evaluate one for a luxury brand.",
+    image: "/images/streaming-platform-advertising-agency.png",
+    category: "CTV & Streaming",
+    date: "2026-08-06",
+  },
+  {
+    slug: "digital-marketing-agency-luxury-brands-southeast",
+    title: "Digital Marketing Agency for Luxury Brands in the Southeast",
+    excerpt:
+      "Why the Southeast has become a hub for luxury brand digital marketing — wealth-market growth, talent, and cost structure — and how to choose the right partner.",
+    image: "/images/digital-marketing-agency-luxury-brands-southeast.png",
+    category: "Agency & Strategy",
+    date: "2026-08-05",
+  },
+  {
+    slug: "how-to-reach-high-net-worth-consumers-online",
+    title: "How to Reach High-Net-Worth Consumers Online",
+    excerpt:
+      "Where affluent buyers actually spend attention online, how to target them precisely across premium channels, and how to measure whether it worked.",
+    image: "/images/how-to-reach-high-net-worth-consumers-online.png",
+    category: "Affluent Audience Strategy",
+    date: "2026-08-04",
+  },
+  {
+    slug: "streaming-tv-advertising-luxury",
+    title: "Streaming TV Advertising for Luxury Brands: The Complete Guide",
+    excerpt:
+      "How streaming TV advertising works for luxury brands — premium inventory, affluent targeting, ad formats, CPM benchmarks, and incremental measurement.",
+    image: "/images/streaming-tv-advertising-luxury.png",
+    category: "CTV & Streaming",
+    date: "2026-08-03",
+  },
+  {
+    slug: "luxury-digital-marketing-agency-charlotte-nc",
+    title: "Luxury Digital Marketing Agency in Charlotte, NC",
+    excerpt:
+      "Why Charlotte, NC is positioned to serve luxury brands: wealth-market proximity, talent, and cost structure without coastal markup — and what to look for in a partner.",
+    image: "/images/luxury-digital-marketing-agency-charlotte-nc.png",
+    category: "Agency Insights",
+    date: "2026-08-02",
+  },
+  {
+    slug: "high-end-car-dealership-programmatic",
+    title: "High-End Car Dealership Advertising: The Programmatic Playbook",
+    excerpt:
+      "How luxury and exotic car dealerships use programmatic and premium CTV to reach affluent, in-market buyers — targeting, creative, and measurement that drives showroom visits.",
+    image: "/images/high-end-car-dealership-programmatic.png",
+    category: "Vertical Strategy",
+    date: "2026-08-01",
+  },
+  {
+    slug: "private-jet-charter-marketing-digital",
+    title: "Private Jet Charter Marketing: The Digital Media Playbook",
+    excerpt:
+      "How private jet charter and card brands reach ultra-high-net-worth flyers through programmatic, CTV, and precision digital — targeting, creative, and measurement.",
+    image: "/images/private-jet-charter-marketing-digital.png",
+    category: "Vertical Strategy",
+    date: "2026-07-31",
+  },
+  {
+    slug: "financial-advisor-advertising-programmatic",
+    title: "Financial Advisor Advertising: The Programmatic Playbook",
+    excerpt:
+      "How financial advisors and wealth firms reach high-net-worth prospects through compliant programmatic and CTV — targeting, creative, and measurement that respects regulation.",
+    image: "/images/financial-advisor-advertising-programmatic.png",
+    category: "Vertical Strategy",
+    date: "2026-07-30",
+  },
+  {
+    slug: "how-to-measure-luxury-advertising-roi",
+    title: "How to Measure Luxury Advertising ROI",
+    excerpt:
+      "Why standard ROAS misreads luxury campaigns, and the metrics — incremental CAC, MER, LTV ratios — that actually explain what your premium media is generating.",
+    image: "/images/how-to-measure-luxury-advertising-roi.png",
+    category: "Measurement & Attribution",
+    date: "2026-07-29",
+  },
+  {
+    slug: "how-to-advertise-to-wealthy-consumers",
+    title: "How to Advertise to Wealthy Consumers",
+    excerpt:
+      "A practical guide to advertising to wealthy consumers — how to find them, what channels reach them, the creative that resonates, and how to measure the result.",
+    image: "/images/how-to-advertise-to-wealthy-consumers.png",
+    category: "Affluent Audience Strategy",
+    date: "2026-07-28",
+  },
+  {
+    slug: "what-is-ctv-advertising-how-it-works",
+    title: "What Is CTV Advertising and How Does It Work?",
+    excerpt:
+      "A clear explanation of connected TV advertising — how it works, the platforms and deal types, targeting and measurement, and why it matters for premium brands.",
+    image: "/images/what-is-ctv-advertising-how-it-works.png",
+    category: "CTV & Streaming",
+    date: "2026-07-27",
+  },
+  {
+    slug: "premium-display-advertising-network",
+    title: "Premium Display Advertising Networks: A Guide for Luxury Brands",
+    excerpt:
+      "How premium display networks and curated marketplaces let luxury brands run brand-safe display at scale — inventory quality, targeting, and measurement.",
+    image: "/images/premium-display-advertising-network.png",
+    category: "Programmatic Strategy",
+    date: "2026-07-26",
+  },
+  {
+    slug: "affluent-consumer-media-buying",
+    title: "Affluent Consumer Media Buying: How to Reach High-Value Audiences",
+    excerpt:
+      "How media buying for affluent consumers differs from mass market — inventory selection, audience engineering, frequency discipline, and measurement built for high-LTV brands.",
+    image: "/images/affluent-consumer-media-buying.png",
+    category: "Media Strategy",
+    date: "2026-07-25",
+  },
+  {
     slug: "connected-tv-advertising-luxury-brands",
     title: "Connected TV Advertising for Luxury Brands: The Complete Guide",
     excerpt:
