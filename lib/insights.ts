@@ -9,6 +9,42 @@ export interface InsightPost {
 
 export const insightPosts: InsightPost[] = [
   {
+    slug: "affluent-demographic-advertising-strategy",
+    title: "Affluent Demographic Advertising Strategy: How to Build a Media Plan Around Wealth",
+    excerpt:
+      "Demographics define eligibility, not intent. Budget allocation by funnel stage, channel mix benchmarks with CPM ranges, creative and frequency rules, and the measurement stack.",
+    image: "/images/affluent-demographic-advertising-strategy.png",
+    category: "Media Strategy",
+    date: "2026-08-19",
+  },
+  {
+    slug: "luxury-lifestyle-audience-segments",
+    title: "Luxury Lifestyle Audience Segments: Which Ones Actually Perform",
+    excerpt:
+      "Most lifestyle segments are survey-inferred, not observed. The nine that reliably perform, their real accuracy by construction method, and how to stack them with wealth and intent.",
+    image: "/images/luxury-lifestyle-audience-segments.png",
+    category: "Audience Strategy",
+    date: "2026-08-19",
+  },
+  {
+    slug: "true-incremental-lift-measurement",
+    title: "True Incremental Lift Measurement: How to Calculate What Your Media Actually Caused",
+    excerpt:
+      "Reported lift is mostly inflated by contamination, not causation. The lift equation, five test designs compared, the MDE math, and the six errors that break results.",
+    image: "/images/true-incremental-lift-measurement.png",
+    category: "Measurement & Attribution",
+    date: "2026-08-18",
+  },
+  {
+    slug: "wealth-based-audience-segmentation",
+    title: "Wealth-Based Audience Segmentation: How Luxury Brands Should Actually Tier Affluence",
+    excerpt:
+      "Household income is the weakest wealth signal available. The four segmentation axes, five reachable tiers, data-source accuracy benchmarks, and activation by channel.",
+    image: "/images/wealth-based-audience-segmentation.png",
+    category: "Audience Strategy",
+    date: "2026-08-18",
+  },
+  {
     slug: "incrementality-vs-attribution-advertising",
     title: "Incrementality vs. Attribution in Advertising: Which One Should Drive Your Media Decisions?",
     excerpt:
