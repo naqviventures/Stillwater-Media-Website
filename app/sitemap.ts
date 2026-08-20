@@ -37,18 +37,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.85,
     },
     {
-      url: `${baseUrl}/programmatic-media-buying`,
-      lastModified: new Date("2026-05-01"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/precision-lead-finder`,
-      lastModified: new Date("2026-05-01"),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
       url: `${baseUrl}/privacy-policy`,
       lastModified: new Date("2026-01-01"),
       changeFrequency: "yearly",

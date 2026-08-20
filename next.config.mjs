@@ -9,6 +9,20 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  async redirects() {
+    return [
+      {
+        source: "/precision-lead-finder",
+        destination: "/capabilities",
+        statusCode: 301,
+      },
+      {
+        source: "/programmatic-media-buying",
+        destination: "/capabilities",
+        statusCode: 301,
+      },
+    ]
+  },
 }
 
 export default nextConfig
