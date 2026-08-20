@@ -74,6 +74,12 @@ export default function CTVAdvertisingHighNetWorth() {
                 height: 60,
               },
             },
+            datePublished: "2026-05-24T08:00:00-05:00",
+            dateModified: "2026-05-24T08:00:00-05:00",
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id": "https://www.stillwatermedia.io/insights/ctv-advertising-high-net-worth-consumers",
+            },
             keywords:
               "CTV advertising, high-net-worth consumers, premium CTV, affluent audience targeting, luxury brand advertising, connected TV, streaming advertising",
             articleSection: "CTV",
