@@ -9,6 +9,141 @@ export interface InsightPost {
 
 export const insightPosts: InsightPost[] = [
   {
+    slug: "international-luxury-advertising-programmatic",
+    title: "International Luxury Advertising: A Programmatic Playbook for Cross-Border Growth",
+    excerpt:
+      "Brands treat new markets as a geo setting, not a separate ecosystem. Market-by-market CPMs, consent regimes, local inventory, and a four-phase entry sequence.",
+    image: "/images/international-luxury-advertising-programmatic.png",
+    category: "Programmatic Strategy",
+    date: "2026-09-01",
+  },
+  {
+    slug: "addressable-tv-advertising-luxury-brands",
+    title: "Addressable TV Advertising for Luxury Brands: Household Targeting, Real CPMs, and Where the Scale Stops",
+    excerpt:
+      "Two homes on the same street seeing different ads. How household-level addressable works, the match-rate cascade, CPM benchmarks, and when CTV does it cheaper.",
+    image: "/images/addressable-tv-advertising-luxury-brands.png",
+    category: "Connected TV",
+    date: "2026-09-01",
+  },
+  {
+    slug: "contextual-advertising-luxury-brands",
+    title: "Contextual Advertising for Luxury Brands: How Modern Contextual Actually Works",
+    excerpt:
+      "Modern contextual reads meaning, not keywords. Cookieless reach, adjacency and suitability control, how it pairs with audience data, and how to measure it honestly.",
+    image: "/images/contextual-advertising-luxury-brands.png",
+    category: "Programmatic Strategy",
+    date: "2026-09-01",
+  },
+  {
+    slug: "henry-audience-targeting-luxury-brands",
+    title: "HENRY Audience Targeting: How Luxury Brands Reach High Earners Not Rich Yet",
+    excerpt:
+      "High income, low accumulated wealth, enormous discretionary spend. The four sub-segments, a HENRY vs HNW vs UHNW planning table, CPM and CAC benchmarks, and a 90-day program.",
+    image: "/images/henry-audience-targeting-luxury-brands.png",
+    category: "Audience Strategy",
+    date: "2026-08-31",
+  },
+  {
+    slug: "luxury-wine-spirits-advertising",
+    title: "Luxury Wine & Spirits Advertising: A Programmatic Guide",
+    excerpt:
+      "Age-gating, channel restrictions, and the measurement discipline that separates reach from impact for premium wine and spirits brands.",
+    image: "/images/luxury-wine-spirits-advertising.png",
+    category: "Category Strategy",
+    date: "2026-08-31",
+  },
+  {
+    slug: "programmatic-curation-luxury-brands",
+    title: "Programmatic Curation for Luxury Brands: How Curated Deals Actually Work",
+    excerpt:
+      "Curation moves audience and supply decisions to the sell side. How curated PMPs are assembled, the fee stack nobody shows you, and how to audit and measure them.",
+    image: "/images/programmatic-curation-luxury-brands.png",
+    category: "Programmatic Strategy",
+    date: "2026-08-31",
+  },
+  {
+    slug: "luxury-fashion-brand-advertising-programmatic",
+    title: "Luxury Fashion Brand Advertising: A Programmatic Guide",
+    excerpt:
+      "The channel architecture, measurement comparison, and first-party data strategy that premium fashion brands need to run programmatic without diluting the brand.",
+    image: "/images/luxury-fashion-brand-advertising-programmatic.png",
+    category: "Category Strategy",
+    date: "2026-08-31",
+  },
+  {
+    slug: "shoppable-ctv-advertising-luxury-brands",
+    title: "Shoppable CTV Advertising for Luxury Brands: Formats, Sequencing, and What Actually Converts",
+    excerpt:
+      "Interactive TV promises the click luxury never had. The five shoppable formats compared, a three-stage sequence, and where shoppable helps versus hurts a premium brand.",
+    image: "/images/shoppable-ctv-advertising-luxury-brands.png",
+    category: "Connected TV",
+    date: "2026-08-31",
+  },
+  {
+    slug: "advertising-attention-metrics-luxury-brands",
+    title: "Advertising Attention Metrics for Luxury Brands: What They Measure and What They Miss",
+    excerpt:
+      "Attention is the metric between viewability and impact. The benchmark table by format, what attention data does and does not prove, and how to buy on attentive seconds.",
+    image: "/images/advertising-attention-metrics-luxury-brands.png",
+    category: "Measurement & Attribution",
+    date: "2026-08-31",
+  },
+  {
+    slug: "live-sports-streaming-advertising-luxury-brands",
+    title: "Live Sports Streaming Advertising for Luxury Brands: Where Affluent Attention Concentrates",
+    excerpt:
+      "Live sports is one of the last appointment-viewing occasions. How streaming rights packages work, affluent reach by property, and how to buy and measure it.",
+    image: "/images/live-sports-streaming-advertising-luxury-brands.png",
+    category: "Connected TV",
+    date: "2026-08-31",
+  },
+  {
+    slug: "ctv-ad-fraud-prevention",
+    title: "CTV Ad Fraud Prevention: How Luxury Brands Protect a Premium Video Budget",
+    excerpt:
+      "CTV's closed environment hides fraud that display would expose. The fraud types unique to CTV, the verification stack, and how to audit a premium video buy.",
+    image: "/images/ctv-ad-fraud-prevention.png",
+    category: "Connected TV",
+    date: "2026-08-31",
+  },
+  {
+    slug: "luxury-retail-media-networks",
+    title: "Luxury Retail Media Networks: How Premium Brands Should Actually Use Them",
+    excerpt:
+      "Retail media brings purchase data off-site. How luxury brands use retail media networks, what the fees are, and how to audit the closed-loop measurement claims.",
+    image: "/images/luxury-retail-media-networks.png",
+    category: "Programmatic Strategy",
+    date: "2026-08-31",
+  },
+  {
+    slug: "luxury-yacht-marketing-advertising",
+    title: "Luxury Yacht Marketing & Advertising: Reaching a Buyer Universe of Thousands",
+    excerpt:
+      "When the qualified universe is measured in thousands, waste elimination is everything. Channel mix, measurement methods, and how to reach yacht buyers precisely.",
+    image: "/images/luxury-yacht-marketing-advertising.png",
+    category: "Category Strategy",
+    date: "2026-08-31",
+  },
+  {
+    slug: "ctv-advertising-cost-cpm-benchmarks",
+    title: "CTV Advertising Cost & CPM Benchmarks: What Premium Video Actually Costs in 2026",
+    excerpt:
+      "Platform-by-platform CTV CPMs, the fee stack between spend and publisher payout, and the cost-per-attentive-second metric that should replace CPM for luxury buys.",
+    image: "/images/ctv-advertising-cost-cpm-benchmarks.png",
+    category: "Connected TV",
+    date: "2026-08-31",
+  },
+  {
+    slug: "amazon-dsp-vs-trade-desk-luxury",
+    title: "Amazon DSP vs. The Trade Desk for Luxury Brands: Which Platform Fits Which Plan",
+    excerpt:
+      "Two dominant DSPs, two very different strengths. How Amazon DSP and The Trade Desk compare on data, inventory, measurement, and fees for luxury and high-consideration brands.",
+    image: "/images/amazon-dsp-vs-trade-desk-luxury.png",
+    category: "Programmatic Strategy",
+    date: "2026-08-30",
+  },
+  {
     slug: "affluent-demographic-advertising-strategy",
     title: "Affluent Demographic Advertising Strategy: How to Build a Media Plan Around Wealth",
     excerpt:
