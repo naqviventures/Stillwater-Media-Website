@@ -144,6 +144,51 @@ export const insightPosts: InsightPost[] = [
     date: "2026-08-30",
   },
   {
+    slug: "programmatic-deal-types-compared",
+    title: "Programmatic Deal Types Compared: Open Auction, PMP, Preferred, and Programmatic Guaranteed",
+    excerpt:
+      "Every deal type buys the same impression differently. How open auction, PMP, preferred deals, and programmatic guaranteed compare on price, control, and priority.",
+    image: "/images/programmatic-deal-types-compared.png",
+    category: "Programmatic Strategy",
+    date: "2026-08-30",
+  },
+  {
+    slug: "data-clean-rooms-luxury-advertising",
+    title: "Data Clean Rooms for Luxury Advertising: How Privacy-Safe Matching Actually Works",
+    excerpt:
+      "Clean rooms let two parties match data without either seeing the other's. How the match works, the aggregation thresholds that limit it, and how luxury brands use them.",
+    image: "/images/data-clean-rooms-luxury-advertising.png",
+    category: "Data & Privacy",
+    date: "2026-08-30",
+  },
+  {
+    slug: "supply-path-optimization-premium-advertising",
+    title: "Supply Path Optimization for Premium Advertising: Cutting the Hidden Tax on Every Impression",
+    excerpt:
+      "The same impression is sold through a dozen paths at different prices. How SPO removes duplicative hops, the fee leakage it recovers, and how to audit your own paths.",
+    image: "/images/supply-path-optimization-premium-advertising.png",
+    category: "Programmatic Strategy",
+    date: "2026-08-30",
+  },
+  {
+    slug: "hnw-audience-digital-advertising",
+    title: "High-Net-Worth Audience Digital Advertising: Reaching the Top 1% Without Wasting the Budget",
+    excerpt:
+      "The HNW universe is small, mismodeled, and expensive to reach badly. The signal quality that matters, channel mix for HNW reach, and how to measure a small-audience buy.",
+    image: "/images/hnw-audience-digital-advertising.png",
+    category: "Audience Strategy",
+    date: "2026-08-30",
+  },
+  {
+    slug: "high-income-consumer-targeting",
+    title: "High-Income Consumer Targeting: Why Income Alone Is the Weakest Signal You Can Buy",
+    excerpt:
+      "Income data is inferred, stale, and weakly predictive of luxury intent. What actually predicts high-value behavior, the signal stack to build, and how to validate it.",
+    image: "/images/high-income-consumer-targeting.png",
+    category: "Audience Strategy",
+    date: "2026-08-30",
+  },
+  {
     slug: "affluent-demographic-advertising-strategy",
     title: "Affluent Demographic Advertising Strategy: How to Build a Media Plan Around Wealth",
     excerpt:
