@@ -169,7 +169,7 @@ export default function HomePage() {
                 src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/preserve_logo_only_wordmark_white_text-T7CoWSAvi14KiCMscwBxe5qSm5cuHt.png",
                 alt: "Preserve",
                 height: 72,
-                href: "https://www.preserve.com",
+                href: "https://www.thepreserveri.com",
               },
               {
                 src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/4c712f073b348846cf77773df105-2uDvrK2wUA7eZxy1htm5bYIxsCTaJL.webp",
