@@ -160,7 +160,7 @@ export const content: IndustryContent = {
   cta: {
     h2Line1: "Selective",
     h2Line2: "by design",
-    body: "We take a limited number of engagements each quarter. If you run a luxury rooftop or a dealer group and cost per sold unit is the constraint, apply and we will tell you honestly whether this model fits.",
+    body: "We take a limited number of engagements each quarter. If you run a luxury rooftop or a dealer group and cost per sold unit is the constraint, apply.",
   },
 
   related: {

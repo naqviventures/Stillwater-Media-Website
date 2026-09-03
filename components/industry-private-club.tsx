@@ -159,7 +159,7 @@ export const content: IndustryContent = {
   cta: {
     h2Line1: "Selective",
     h2Line2: "by design",
-    body: "We take a limited number of engagements each quarter. If you are marketing a club and membership growth or applicant quality is the constraint, apply and we will tell you honestly whether this model fits.",
+    body: "We take a limited number of engagements each quarter. If you are marketing a club and membership growth or applicant quality is the constraint, apply.",
   },
 
   related: {

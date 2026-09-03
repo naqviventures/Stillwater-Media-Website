@@ -159,7 +159,7 @@ export const content: IndustryContent = {
   cta: {
     h2Line1: "Selective",
     h2Line2: "by design",
-    body: "We take a limited number of engagements each quarter. If you are growing a premium brand's direct revenue and would rather not do it with discounts, apply and we will tell you honestly whether this model fits.",
+    body: "We take a limited number of engagements each quarter. If you are growing a premium brand's direct revenue and would rather not do it with discounts, apply.",
   },
 
   related: {
