@@ -1,10 +1,6 @@
 import type { Metadata } from "next"
 import IndustryPrivateClub, { content } from "@/components/industry-private-club"
-import {
-  buildFaqSchema,
-  buildServiceSchema,
-  buildBreadcrumbSchema,
-} from "@/components/industry-page-layout"
+import { buildFaqSchema, buildServiceSchema, buildBreadcrumbSchema } from "@/lib/industries"
 
 export const metadata: Metadata = {
   title: "Private Club Marketing Agency | Stillwater Media",

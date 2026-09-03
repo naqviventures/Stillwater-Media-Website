@@ -1,10 +1,6 @@
 import type { Metadata } from "next"
 import IndustryLuxuryRealEstate, { content } from "@/components/industry-luxury-real-estate"
-import {
-  buildFaqSchema,
-  buildServiceSchema,
-  buildBreadcrumbSchema,
-} from "@/components/industry-page-layout"
+import { buildFaqSchema, buildServiceSchema, buildBreadcrumbSchema } from "@/lib/industries"
 
 export const metadata: Metadata = {
   title: "Luxury Real Estate Advertising Agency | Stillwater Media",

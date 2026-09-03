@@ -1,10 +1,6 @@
 import type { Metadata } from "next"
 import IndustryWealthManagement, { content } from "@/components/industry-wealth-management"
-import {
-  buildFaqSchema,
-  buildServiceSchema,
-  buildBreadcrumbSchema,
-} from "@/components/industry-page-layout"
+import { buildFaqSchema, buildServiceSchema, buildBreadcrumbSchema } from "@/lib/industries"
 
 export const metadata: Metadata = {
   title: "Wealth Management Advertising Agency | Stillwater Media",
