@@ -13,16 +13,16 @@ export const SITE = "https://www.stillwatermedia.io"
 /*  different order re-sort explicitly to preserve their existing order.      */
 /* -------------------------------------------------------------------------- */
 
-export type Industry = { slug: string; label: string }
+export type Industry = { slug: string; label: string; lastModified: string }
 
 export const industries: Industry[] = [
-  { slug: "private-aviation-advertising", label: "Private Aviation" },
-  { slug: "wealth-management-advertising", label: "Wealth Management" },
-  { slug: "luxury-real-estate-advertising", label: "Luxury Real Estate" },
-  { slug: "luxury-automotive-advertising", label: "Luxury Automotive" },
-  { slug: "private-club-advertising", label: "Private Clubs & Golf" },
-  { slug: "luxury-goods-advertising", label: "Luxury Goods & Apparel" },
-  { slug: "luxury-hospitality-advertising", label: "Luxury Hospitality" },
+  { slug: "private-aviation-advertising", label: "Private Aviation", lastModified: "2026-09-04" },
+  { slug: "wealth-management-advertising", label: "Wealth Management", lastModified: "2026-09-04" },
+  { slug: "luxury-real-estate-advertising", label: "Luxury Real Estate", lastModified: "2026-09-04" },
+  { slug: "luxury-automotive-advertising", label: "Luxury Automotive", lastModified: "2026-09-04" },
+  { slug: "private-club-advertising", label: "Private Clubs & Golf", lastModified: "2026-09-04" },
+  { slug: "luxury-goods-advertising", label: "Luxury Goods & Apparel", lastModified: "2026-09-04" },
+  { slug: "luxury-hospitality-advertising", label: "Luxury Hospitality", lastModified: "2026-09-04" },
 ]
 
 export type SubItem = { h3: string; body: string }
