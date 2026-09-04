@@ -105,8 +105,9 @@ export const content: IndustryContent = {
   builtFor: {
     h2: "Who this is for",
     body: "Luxury developments and master-planned communities, high-end brokerages and teams, resort and second-home residential, and branded residences.",
-    disqualifier:
-      "Not a fit for a single listing or a short campaign around one property. The model earns out across a development, a portfolio or a brokerage's ongoing acquisition. For one house, a portal listing and a good agent will serve you better and cost less.",
+    worksBestH3: "Where this works best",
+    worksBest:
+      "This works best across a development, a portfolio or a brokerage's ongoing acquisition, where the audience you build keeps earning after the first closing. For a single property, a portal listing and a good agent will move faster and cost less, and we would rather tell you that than take the brief.",
   },
 
   engagement: {

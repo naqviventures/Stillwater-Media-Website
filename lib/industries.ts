@@ -60,7 +60,7 @@ export type IndustryContent = {
   /** Block 6 — empty array renders nothing at all (no wrapper, no heading). */
   proof: ProofEntry[]
 
-  builtFor: { h2: string; body: string; disqualifier: string }
+  builtFor: { h2: string; body: string; worksBestH3: string; worksBest: string }
 
   engagement: { h2: string; steps: { period: string; body: string }[] }
 

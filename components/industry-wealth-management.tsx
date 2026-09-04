@@ -107,8 +107,9 @@ export const content: IndustryContent = {
   builtFor: {
     h2: "Who this is for",
     body: "Independent advisory practices, RIAs, annuity and life insurance distributors, retirement planning specialists, and marketing organisations supporting a national advisor base.",
-    disqualifier:
-      "Not a fit for a practice that wants to be judged on lead volume in month one. If the internal metric is leads, the media will optimise to leads, and the cost per closed client will get worse while the report gets better. We would rather decline than deliver that.",
+    worksBestH3: "Where this works best",
+    worksBest:
+      "This works best for practices willing to be measured on funded relationships rather than lead volume. Media optimises toward whatever you count, so agreeing on what a closed client is before anything runs is what keeps the cost of one falling instead of the cost of a form fill.",
   },
 
   engagement: {
