@@ -24,7 +24,7 @@ export const content: IndustryContent = {
     h1Line2: "measured in thousands, not millions",
     subhead:
       "Charter, jet card, membership and fractional buyers are among the smallest addressable audiences in performance media — and among the most expensive to reach badly. We build multi-channel programmatic that stays present across a decision cycle measured in months, and we report it against deals in your CRM.",
-    image: "/images/industries-private-aviation.png",
+    image: "/images/industries-private-aviation.webp",
     imageAlt:
       "An unbranded business jet at rest on a private terminal apron at blue hour, warm apron lights on wet tarmac with a distant city skyline",
   },

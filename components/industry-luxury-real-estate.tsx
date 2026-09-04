@@ -15,7 +15,7 @@ export const content: IndustryContent = {
     h1Line2: "are not searching your listings yet",
     subhead:
       "The buyer for an eight-figure residence is rarely on a portal and frequently not in your market. We build audiences in the markets your buyers actually come from, and report against qualified private appointments.",
-    image: "/images/industries-luxury-real-estate.png",
+    image: "/images/industries-luxury-real-estate.webp",
     imageAlt:
       "A modern hillside residence at blue hour with warm interior light glowing through large windows above a still reflecting pool",
   },

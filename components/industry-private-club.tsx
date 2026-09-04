@@ -15,7 +15,7 @@ export const content: IndustryContent = {
     h1Line2: "not walk-ins",
     subhead:
       "The audience for a private club is a few thousand households inside one radius. That is a precision problem, not a reach problem — and it is usually bought as though it were the reverse.",
-    image: "/images/industries-private-club.png",
+    image: "/images/industries-private-club.webp",
     imageAlt: "An empty golf green under dawn mist with a stone clubhouse and one lit window in the distance",
   },
 

@@ -15,7 +15,7 @@ export const content: IndustryContent = {
     h1Line2: "cost per closed client, not cost per lead",
     subhead:
       "A practice measured on lead volume will reliably produce more leads and a worse business. We build media against the population with the balance-sheet capacity to become a funded relationship, and we report the cost of getting one.",
-    image: "/images/industries-wealth-management.png",
+    image: "/images/industries-wealth-management.webp",
     imageAlt:
       "A private high-floor study at dusk lit by a single brass lamp, with a city skyline visible through floor-to-ceiling windows",
   },

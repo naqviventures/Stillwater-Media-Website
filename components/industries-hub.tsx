@@ -16,7 +16,7 @@ const hub = {
     eyebrow: "Industries",
     h1Line1: "Industries",
     h1Line2: "where the buyer takes their time",
-    image: "/images/industries-hub.png",
+    image: "/images/industries-hub.webp",
     imageAlt:
       "An abstract composition of dark glass and stone panes at blue hour with a single warm gold light refracting through",
   },
