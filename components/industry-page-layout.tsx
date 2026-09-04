@@ -45,8 +45,8 @@ export default function IndustryPageLayout({ content }: { content: IndustryConte
         id="hero"
       >
         <div className="absolute inset-0 z-0">
-          <Image src={hero.image} alt={hero.imageAlt} fill className="object-cover opacity-25" priority />
-          <div className="absolute inset-0 bg-gradient-to-r from-background via-background/95 to-background/80" />
+          <Image src={hero.image} alt={hero.imageAlt} fill className="object-cover opacity-70" priority />
+          <div className="absolute inset-0 bg-gradient-to-r from-background via-background/85 to-background/30" />
         </div>
 
         <div
