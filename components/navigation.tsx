@@ -19,6 +19,7 @@ const industryLinks = [
   { href: "/industries/luxury-real-estate-advertising", label: "Luxury Real Estate" },
   { href: "/industries/luxury-automotive-advertising", label: "Luxury Automotive" },
   { href: "/industries/private-club-advertising", label: "Private Clubs & Golf" },
+  { href: "/industries/luxury-hospitality-advertising", label: "Luxury Hospitality" },
   { href: "/industries/luxury-goods-advertising", label: "Luxury Goods & Apparel" },
 ]
 

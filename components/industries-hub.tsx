@@ -56,6 +56,12 @@ const hub = {
         "A few thousand households inside one radius, and a product that discretion is part of.",
     },
     {
+      name: "Luxury Hospitality",
+      href: "/industries/luxury-hospitality-advertising",
+      description:
+        "Rooms that sell themselves through an OTA, and a direct channel that keeps paying commission for its own guests.",
+    },
+    {
       name: "Luxury Goods & Apparel",
       href: "/industries/luxury-goods-advertising",
       description:
