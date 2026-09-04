@@ -9,7 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const corePages: MetadataRoute.Sitemap = [
     {
       url: baseUrl,
-      lastModified: new Date("2026-06-02"),
+      lastModified: new Date("2026-09-04"),
       changeFrequency: "weekly",
       priority: 1.0,
     },
@@ -45,13 +45,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/industries`,
-      lastModified: new Date("2026-06-02"),
+      lastModified: new Date("2026-09-04"),
       changeFrequency: "monthly",
       priority: 0.9,
     },
-    ...industries.map(({ slug }) => ({
+    ...industries.map(({ slug, lastModified }) => ({
       url: `${baseUrl}/industries/${slug}`,
-      lastModified: new Date("2026-06-02"),
+      lastModified: new Date(lastModified),
       changeFrequency: "monthly" as const,
       priority: 0.9,
     })),
