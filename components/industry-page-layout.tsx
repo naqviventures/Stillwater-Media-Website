@@ -250,10 +250,7 @@ export default function IndustryPageLayout({ content }: { content: IndustryConte
             <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl leading-[1.15] text-foreground font-normal mb-8">
               {builtFor.h2}
             </h2>
-            <p className="text-foreground/70 text-base leading-relaxed mb-10">{builtFor.body}</p>
-            <div className="border-l-2 border-accent bg-card px-6 py-5">
-              <p className="text-foreground/60 text-sm leading-relaxed italic">{builtFor.disqualifier}</p>
-            </div>
+            <p className="text-foreground/70 text-base leading-relaxed">{builtFor.body}</p>
           </div>
         </div>
       </section>
