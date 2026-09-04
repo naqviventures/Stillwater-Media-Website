@@ -285,17 +285,17 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Expertise Strip */}
+      {/* Industries Strip */}
       <section className="border-t border-b border-border py-16 px-6 sm:px-12" data-animate id="social-proof">
         <div className={`max-w-6xl mx-auto transition-all duration-1000 delay-200 ${visibleSections.has("social-proof") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
-          <p className="text-foreground/50 text-xs tracking-[0.2em] mb-10">EXPERTISE</p>
+          <p className="text-foreground/50 text-xs tracking-[0.2em] mb-10">INDUSTRIES</p>
           
           <div className="grid grid-cols-2 md:grid-cols-6 gap-8 md:gap-6 items-center mb-10">
             {[
               { icon: Plane, label: "Private aviation", href: "/industries/private-aviation-advertising" },
               { icon: Users, label: "Private clubs", href: "/industries/private-club-advertising" },
-              { icon: Hotel, label: "Luxury hospitality", href: "/industries" },
-              { icon: ShoppingBag, label: "Premium DTC", href: "/industries/luxury-goods-advertising" },
+              { icon: Hotel, label: "Luxury hospitality", href: "/industries/luxury-hospitality-advertising" },
+              { icon: ShoppingBag, label: "Premium DTC", href: "/insights/premium-dtc-brand-advertising" },
               { icon: TrendingUp, label: "Boutique wealth", href: "/industries/wealth-management-advertising" },
               { icon: Car, label: "Automotive", href: "/industries/luxury-automotive-advertising" }
             ].map((item, i) => (
@@ -312,6 +312,14 @@ export default function HomePage() {
           </div>
           
           <p className="text-foreground/40 text-sm italic">Private references available upon request.</p>
+
+          <Link
+            href="/industries"
+            className="text-foreground/60 text-xs tracking-[0.1em] hover:text-foreground transition-colors flex items-center gap-2 group/link mt-6"
+          >
+            SEE ALL INDUSTRIES
+            <ArrowRight className="h-3 w-3 transition-transform group-hover/link:translate-x-1" />
+          </Link>
         </div>
       </section>
 

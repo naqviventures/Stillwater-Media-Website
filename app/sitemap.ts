@@ -55,6 +55,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       "luxury-automotive-advertising",
       "private-club-advertising",
       "luxury-goods-advertising",
+      "luxury-hospitality-advertising",
     ].map((slug) => ({
       url: `${baseUrl}/industries/${slug}`,
       lastModified: new Date("2026-06-02"),
