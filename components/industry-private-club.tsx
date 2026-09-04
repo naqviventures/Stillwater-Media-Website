@@ -104,8 +104,9 @@ export const content: IndustryContent = {
   builtFor: {
     h2: "Who this is for",
     body: "Private golf and country clubs, city and social clubs, yacht and beach clubs, residential club communities, and club management groups with several properties.",
-    disqualifier:
-      "Not a fit for a club that wants discounted initiation or public promotional offers. That approach works briefly and costs more in positioning than it returns in members, and reversing it takes years.",
+    worksBestH3: "Where this works best",
+    worksBest:
+      "This works best for clubs growing on desirability rather than on discounted initiation. Holding the price protects the thing being sold, and a waitlist built without a promotion is worth considerably more than one built with it.",
   },
 
   engagement: {

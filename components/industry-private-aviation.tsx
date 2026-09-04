@@ -114,8 +114,9 @@ export const content: IndustryContent = {
   builtFor: {
     h2: "Who this is for",
     body: "Charter operators, jet card and membership programmes, fractional programmes, aircraft management companies, and FBO or terminal groups with a consumer acquisition motive.",
-    disqualifier:
-      "This is not a fit for operators looking for a monthly report and a low retainer. The model depends on staying present across a long decision cycle, which means committing to a window long enough for the cycle to complete. If the plan is a thirty-day test, the honest answer is that you will not learn anything from it, and we will say so before you spend the money.",
+    worksBestH3: "Where this works best",
+    worksBest:
+      "This works best over a window long enough for the decision cycle to complete. Aviation buyers deliberate for months, so a programme judged at thirty days will report noise and miss the deals that were already forming inside it. Commit to a real window and the deal-level read at ninety days will tell you something you can act on.",
   },
 
   engagement: {

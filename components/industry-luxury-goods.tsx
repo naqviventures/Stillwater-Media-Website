@@ -104,8 +104,9 @@ export const content: IndustryContent = {
   builtFor: {
     h2: "Who this is for",
     body: "Premium apparel and accessories brands, jewellery and watches, luxury beauty and fragrance, premium equipment and sporting goods, and high-end home and design brands with a direct channel worth growing.",
-    disqualifier:
-      "Not a fit for a brand whose growth plan depends on promotional cadence. We are not the right agency to run a discount calendar, and pretending otherwise would waste a quarter for both of us.",
+    worksBestH3: "Where this works best",
+    worksBest:
+      "This works best for brands growing on demand rather than on discount, where the price position is worth protecting as much as the volume. That is the harder version of the job, and it is the one this model is built for.",
   },
 
   engagement: {

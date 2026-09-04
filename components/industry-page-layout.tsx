@@ -251,6 +251,10 @@ export default function IndustryPageLayout({ content }: { content: IndustryConte
               {builtFor.h2}
             </h2>
             <p className="text-foreground/70 text-base leading-relaxed">{builtFor.body}</p>
+            <h3 className="font-heading text-xl sm:text-2xl text-foreground mb-4 font-normal leading-tight mt-10">
+              {builtFor.worksBestH3}
+            </h3>
+            <p className="text-foreground/70 text-base leading-relaxed">{builtFor.worksBest}</p>
           </div>
         </div>
       </section>

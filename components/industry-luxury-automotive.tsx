@@ -105,8 +105,9 @@ export const content: IndustryContent = {
   builtFor: {
     h2: "Who this is for",
     body: "Luxury and exotic franchise rooftops, multi-rooftop dealer groups, pre-owned specialists in the premium segment, and groups adding new stores who need launch demand in an unfamiliar catchment.",
-    disqualifier:
-      "Not a fit for a group unwilling to share sales data. Without a match-back we would be reporting on proxies and calling it performance, and neither of us would learn anything worth the budget.",
+    worksBestH3: "Where this works best",
+    worksBest:
+      "This works best when a group can share its sales file for match-back. That is what lets us report cost per sold unit rather than store visits and form fills, which is the difference between knowing the media worked and assuming it did.",
   },
 
   engagement: {

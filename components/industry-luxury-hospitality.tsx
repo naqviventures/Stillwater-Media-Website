@@ -105,8 +105,9 @@ export const content: IndustryContent = {
   builtFor: {
     h2: "Who this is for",
     body: "Independent luxury hotels and resorts, small luxury collections and groups, boutique properties with a distinct point of view, private residence clubs and branded residences, and destination properties with a defined feeder-market pattern.",
-    disqualifier:
-      "Not a fit for a property whose plan is to discount its way to occupancy. Rate integrity and direct-channel growth are the same project, and a property that leads with price will train its guests to wait for the next offer.",
+    worksBestH3: "Where this works best",
+    worksBest:
+      "This works best for properties growing the direct channel while holding rate. Rate integrity and direct bookings are the same project — a property that leads with price teaches its guests to wait for the next offer, and that is slow to unwind.",
   },
 
   engagement: {
