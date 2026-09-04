@@ -145,34 +145,47 @@ export default function HomePage() {
                 src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/jetlinx-logo-white-e1769896941651-w3ubXqlqCYtEHFxcDTudDS762Th8bX.png",
                 alt: "JetLinx",
                 height: 44,
+                href: "https://www.jetlinx.com",
               },
               {
                 src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/w-hotels-logo-png-transparent-uthObCjSeGBfMKwtMi7udjDyTqhhNt.webp",
                 alt: "W Hotels",
                 height: 72,
+                href: "https://www.marriott.com/w-hotels/travel.mi",
               },
               {
                 src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pxg_logo_transparent-hYzi3h9jcpvwfZelS5c8y7HaHGQH4v.png",
                 alt: "PXG",
                 height: 64,
+                href: "https://www.pxg.com",
               },
               {
                 src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/6297b9faac36da5e098ea631_FLY_MasterLogo_RGB_Reverse%202-CTJ30129ucxz1nRDzATR9RCcIrVWta.png",
                 alt: "FLY Exclusive",
                 height: 44,
+                href: "https://www.flyexclusive.com",
               },
               {
                 src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/preserve_logo_only_wordmark_white_text-T7CoWSAvi14KiCMscwBxe5qSm5cuHt.png",
                 alt: "Preserve",
                 height: 72,
+                href: "https://www.thepreserveri.com",
               },
               {
                 src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/4c712f073b348846cf77773df105-2uDvrK2wUA7eZxy1htm5bYIxsCTaJL.webp",
                 alt: "Financial Independence Group",
                 height: 58,
+                href: "https://www.figmarketing.com",
               },
             ].map((logo) => (
-              <div key={logo.alt} className="flex items-center justify-center">
+              <a
+                key={logo.alt}
+                href={logo.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`Visit ${logo.alt}`}
+                className="flex items-center justify-center transition-opacity duration-300 hover:opacity-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+              >
                 <img
                   src={logo.src}
                   alt={logo.alt}
@@ -183,7 +196,7 @@ export default function HomePage() {
                   }}
                   className="object-contain trusted-logo"
                 />
-              </div>
+              </a>
             ))}
           </div>
         </div>
@@ -279,17 +292,22 @@ export default function HomePage() {
           
           <div className="grid grid-cols-2 md:grid-cols-6 gap-8 md:gap-6 items-center mb-10">
             {[
-              { icon: Plane, label: "Private aviation" },
-              { icon: Users, label: "Private clubs" },
-              { icon: Hotel, label: "Luxury hospitality" },
-              { icon: ShoppingBag, label: "Premium DTC" },
-              { icon: TrendingUp, label: "Boutique wealth" },
-              { icon: Car, label: "Automotive" }
+              { icon: Plane, label: "Private aviation", href: "/industries/private-aviation-advertising" },
+              { icon: Users, label: "Private clubs", href: "/industries/private-club-advertising" },
+              { icon: Hotel, label: "Luxury hospitality", href: "/industries" },
+              { icon: ShoppingBag, label: "Premium DTC", href: "/industries/luxury-goods-advertising" },
+              { icon: TrendingUp, label: "Boutique wealth", href: "/industries/wealth-management-advertising" },
+              { icon: Car, label: "Automotive", href: "/industries/luxury-automotive-advertising" }
             ].map((item, i) => (
-              <div key={i} className="flex flex-col items-center gap-4 group cursor-pointer">
+              <Link
+                key={i}
+                href={item.href}
+                aria-label={item.label}
+                className="flex flex-col items-center gap-4 group cursor-pointer rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/60 focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+              >
                 <item.icon className="w-8 h-8 text-accent/60 transition-all duration-300 group-hover:scale-110 group-hover:text-accent/90" strokeWidth={1} />
                 <span className="text-foreground/60 text-xs tracking-wide text-center transition-colors duration-300 group-hover:text-foreground/80">{item.label}</span>
-              </div>
+              </Link>
             ))}
           </div>
           

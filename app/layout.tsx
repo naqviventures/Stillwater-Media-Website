@@ -377,7 +377,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           }}
         />
       </head>
-      <body className={`font-sans ${playfairDisplay.variable} ${spaceGrotesk.variable} antialiased`}>
+      <body
+        suppressHydrationWarning
+        className={`font-sans ${playfairDisplay.variable} ${spaceGrotesk.variable} antialiased`}
+      >
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe

@@ -42,6 +42,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "yearly",
       priority: 0.3,
     },
+    {
+      url: `${baseUrl}/industries`,
+      lastModified: new Date("2026-06-02"),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    ...[
+      "private-aviation-advertising",
+      "wealth-management-advertising",
+      "luxury-real-estate-advertising",
+      "luxury-automotive-advertising",
+      "private-club-advertising",
+      "luxury-goods-advertising",
+    ].map((slug) => ({
+      url: `${baseUrl}/industries/${slug}`,
+      lastModified: new Date("2026-06-02"),
+      changeFrequency: "monthly" as const,
+      priority: 0.9,
+    })),
   ]
 
   // Generate blog post entries dynamically from insights registry.

@@ -4,16 +4,27 @@ import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import Link from "next/link"
 import { useState, useEffect } from "react"
-import { Moon, Sun } from "lucide-react"
+import { Moon, Sun, ChevronDown } from "lucide-react"
 
 const navLinks = [
   { href: "/capabilities", label: "Capabilities" },
+  { href: "/industries", label: "Industries" },
   { href: "/insights", label: "Insights" },
   { href: "/contact", label: "Contact" },
 ]
 
+const industryLinks = [
+  { href: "/industries/private-aviation-advertising", label: "Private Aviation" },
+  { href: "/industries/wealth-management-advertising", label: "Wealth Management" },
+  { href: "/industries/luxury-real-estate-advertising", label: "Luxury Real Estate" },
+  { href: "/industries/luxury-automotive-advertising", label: "Luxury Automotive" },
+  { href: "/industries/private-club-advertising", label: "Private Clubs & Golf" },
+  { href: "/industries/luxury-goods-advertising", label: "Luxury Goods & Apparel" },
+]
+
 export function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [industriesOpen, setIndustriesOpen] = useState(false)
   const [theme, setTheme] = useState<'light' | 'dark'>('light')
 
   useEffect(() => {
@@ -58,15 +69,66 @@ export function Navigation() {
         </Link>
 
         <nav className="hidden md:flex items-center gap-10">
-          {navLinks.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className="text-foreground/70 text-sm tracking-wide hover:text-foreground transition-colors duration-300"
-            >
-              {item.label}
-            </Link>
-          ))}
+          {navLinks.map((item) =>
+            item.label === "Industries" ? (
+              <div
+                key={item.href}
+                className="relative"
+                onMouseEnter={() => setIndustriesOpen(true)}
+                onMouseLeave={() => setIndustriesOpen(false)}
+                onFocus={() => setIndustriesOpen(true)}
+                onBlur={(e) => {
+                  if (!e.currentTarget.contains(e.relatedTarget as Node)) setIndustriesOpen(false)
+                }}
+              >
+                <Link
+                  href={item.href}
+                  className="flex items-center gap-1 text-foreground/70 text-sm tracking-wide hover:text-foreground transition-colors duration-300"
+                  aria-haspopup="true"
+                  aria-expanded={industriesOpen}
+                >
+                  {item.label}
+                  <ChevronDown
+                    className={`h-3.5 w-3.5 transition-transform duration-300 ${industriesOpen ? "rotate-180" : ""}`}
+                  />
+                </Link>
+
+                {/* Hover dropdown */}
+                <div
+                  className={`absolute top-full left-1/2 -translate-x-1/2 pt-4 transition-all duration-200 ${
+                    industriesOpen ? "opacity-100 visible" : "opacity-0 invisible"
+                  }`}
+                >
+                  <div
+                    className={`w-64 bg-background/95 backdrop-blur-md border border-border shadow-xl py-2 transition-all duration-300 ${
+                      industriesOpen ? "translate-y-0" : "-translate-y-2"
+                    }`}
+                  >
+                    {industryLinks.map((sub, index) => (
+                      <Link
+                        key={sub.href}
+                        href={sub.href}
+                        className={`block px-5 py-2.5 text-foreground/70 text-sm tracking-wide hover:text-foreground hover:bg-foreground/5 transition-all duration-300 ${
+                          industriesOpen ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-3"
+                        }`}
+                        style={{ transitionDelay: industriesOpen ? `${index * 60}ms` : "0ms" }}
+                      >
+                        {sub.label}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            ) : (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="text-foreground/70 text-sm tracking-wide hover:text-foreground transition-colors duration-300"
+              >
+                {item.label}
+              </Link>
+            ),
+          )}
           <Link href="/apply">
             <Button className="bg-transparent border border-foreground/30 text-foreground hover:bg-foreground hover:text-background text-xs tracking-[0.15em] px-6 py-2 rounded-none transition-all duration-300">
               APPLY
