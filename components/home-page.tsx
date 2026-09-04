@@ -292,17 +292,22 @@ export default function HomePage() {
           
           <div className="grid grid-cols-2 md:grid-cols-6 gap-8 md:gap-6 items-center mb-10">
             {[
-              { icon: Plane, label: "Private aviation" },
-              { icon: Users, label: "Private clubs" },
-              { icon: Hotel, label: "Luxury hospitality" },
-              { icon: ShoppingBag, label: "Premium DTC" },
-              { icon: TrendingUp, label: "Boutique wealth" },
-              { icon: Car, label: "Automotive" }
+              { icon: Plane, label: "Private aviation", href: "/industries/private-aviation-advertising" },
+              { icon: Users, label: "Private clubs", href: "/industries/private-club-advertising" },
+              { icon: Hotel, label: "Luxury hospitality", href: "/industries" },
+              { icon: ShoppingBag, label: "Premium DTC", href: "/industries/luxury-goods-advertising" },
+              { icon: TrendingUp, label: "Boutique wealth", href: "/industries/wealth-management-advertising" },
+              { icon: Car, label: "Automotive", href: "/industries/luxury-automotive-advertising" }
             ].map((item, i) => (
-              <div key={i} className="flex flex-col items-center gap-4 group cursor-pointer">
+              <Link
+                key={i}
+                href={item.href}
+                aria-label={item.label}
+                className="flex flex-col items-center gap-4 group cursor-pointer rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/60 focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+              >
                 <item.icon className="w-8 h-8 text-accent/60 transition-all duration-300 group-hover:scale-110 group-hover:text-accent/90" strokeWidth={1} />
                 <span className="text-foreground/60 text-xs tracking-wide text-center transition-colors duration-300 group-hover:text-foreground/80">{item.label}</span>
-              </div>
+              </Link>
             ))}
           </div>
           
