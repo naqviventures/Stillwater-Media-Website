@@ -6,6 +6,25 @@
 
 export const SITE = "https://www.stillwatermedia.io"
 
+/* -------------------------------------------------------------------------- */
+/*  Single source of truth for the industry verticals: slug + label only.     */
+/*  Editorial copy (hub card descriptions) intentionally stays in its         */
+/*  component. Order here matches the sitemap; consumers that render in a      */
+/*  different order re-sort explicitly to preserve their existing order.      */
+/* -------------------------------------------------------------------------- */
+
+export type Industry = { slug: string; label: string }
+
+export const industries: Industry[] = [
+  { slug: "private-aviation-advertising", label: "Private Aviation" },
+  { slug: "wealth-management-advertising", label: "Wealth Management" },
+  { slug: "luxury-real-estate-advertising", label: "Luxury Real Estate" },
+  { slug: "luxury-automotive-advertising", label: "Luxury Automotive" },
+  { slug: "private-club-advertising", label: "Private Clubs & Golf" },
+  { slug: "luxury-goods-advertising", label: "Luxury Goods & Apparel" },
+  { slug: "luxury-hospitality-advertising", label: "Luxury Hospitality" },
+]
+
 export type SubItem = { h3: string; body: string }
 
 export type ProofEntry = { heading: string; body: string[] }

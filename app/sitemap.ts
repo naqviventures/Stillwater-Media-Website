@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next"
 import { insightPosts } from "@/lib/insights"
+import { industries } from "@/lib/industries"
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.stillwatermedia.io"
@@ -48,15 +49,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.9,
     },
-    ...[
-      "private-aviation-advertising",
-      "wealth-management-advertising",
-      "luxury-real-estate-advertising",
-      "luxury-automotive-advertising",
-      "private-club-advertising",
-      "luxury-goods-advertising",
-      "luxury-hospitality-advertising",
-    ].map((slug) => ({
+    ...industries.map(({ slug }) => ({
       url: `${baseUrl}/industries/${slug}`,
       lastModified: new Date("2026-06-02"),
       changeFrequency: "monthly" as const,
