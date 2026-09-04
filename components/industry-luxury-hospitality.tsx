@@ -15,7 +15,7 @@ export const content: IndustryContent = {
     h1Line2: "from the OTA to your own front door",
     subhead:
       "Every booking that arrives through a travel site costs you a commission and a guest relationship you never own. We build demand before the search begins and measure against direct revenue, not room nights.",
-    image: "/images/industries-luxury-hospitality.png",
+    image: "/images/industries-luxury-hospitality.webp",
     imageAlt:
       "A resort terrace at dusk with a single lit lantern on a stone table and an empty infinity pool reflecting a darkening sky",
   },

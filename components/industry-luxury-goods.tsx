@@ -15,7 +15,7 @@ export const content: IndustryContent = {
     h1Line2: "without discounting the brand",
     subhead:
       "Performance media's default lever is the discount, and the discount is the fastest way to damage a premium price position. We build demand and measure it incrementally, so the upper funnel stops being the first thing cut.",
-    image: "/images/industries-luxury-goods.png",
+    image: "/images/industries-luxury-goods.webp",
     imageAlt: "Unbranded premium leather and glass objects on dark stone, lit by a single warm directional light",
   },
 

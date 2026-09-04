@@ -15,7 +15,7 @@ export const content: IndustryContent = {
     h1Line2: "cost per sold unit, rooftop by rooftop",
     subhead:
       "Most luxury dealer media is planned by DMA, reported on store visits, and bought three times over by three tiers of budget. We plan by drive radius, manage frequency across the group, and match back to the sales file.",
-    image: "/images/industries-luxury-automotive.png",
+    image: "/images/industries-luxury-automotive.webp",
     imageAlt:
       "An unbranded luxury car under a single warm overhead light in a dark minimal concrete showroom, reflected on a polished floor",
   },

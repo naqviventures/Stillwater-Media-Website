@@ -6,6 +6,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { useEffect, useState } from "react"
 import { ArrowRight, ChevronRight } from "lucide-react"
+import { industries } from "@/lib/industries"
 
 /* -------------------------------------------------------------------------- */
 /*  Hub copy — edit here without touching JSX.                                */
@@ -16,7 +17,7 @@ const hub = {
     eyebrow: "Industries",
     h1Line1: "Industries",
     h1Line2: "where the buyer takes their time",
-    image: "/images/industries-hub.png",
+    image: "/images/industries-hub.webp",
     imageAlt:
       "An abstract composition of dark glass and stone panes at blue hour with a single warm gold light refracting through",
   },
@@ -24,51 +25,52 @@ const hub = {
     "Stillwater Media works in categories where the customer is worth a great deal and takes a long time to decide. That combination changes almost everything about how media should be bought — how wide you target, how long you stay present, and which number you are allowed to call success.",
     "The architecture is not the same from one category to the next. A private aviation buyer and a private club member are both affluent, and almost nothing else about reaching them is alike. These pages set out how we build for each.",
   ],
-  cards: [
+  // Editorial card copy stays here, keyed by slug. Card order (Hospitality
+  // before Goods) is preserved; name + href are resolved from the shared
+  // single source of truth in lib/industries.ts.
+  cardCopy: [
     {
-      name: "Private Aviation",
-      href: "/industries/private-aviation-advertising",
+      slug: "private-aviation-advertising",
       description:
         "A buyer pool small enough to exhaust, and a decision cycle that outlasts most campaigns.",
     },
     {
-      name: "Wealth Management",
-      href: "/industries/wealth-management-advertising",
+      slug: "wealth-management-advertising",
       description:
         "Where lead volume is a vanity metric and the only number that matters is cost per closed client.",
     },
     {
-      name: "Luxury Real Estate",
-      href: "/industries/luxury-real-estate-advertising",
+      slug: "luxury-real-estate-advertising",
       description:
         "Buyers who are not searching your listings yet, and often are not in your market at all.",
     },
     {
-      name: "Luxury Automotive",
-      href: "/industries/luxury-automotive-advertising",
+      slug: "luxury-automotive-advertising",
       description:
         "Three tiers of budget buying the same shopper, and a conversion that happens offline.",
     },
     {
-      name: "Private Clubs & Golf",
-      href: "/industries/private-club-advertising",
+      slug: "private-club-advertising",
       description:
         "A few thousand households inside one radius, and a product that discretion is part of.",
     },
     {
-      name: "Luxury Hospitality",
-      href: "/industries/luxury-hospitality-advertising",
+      slug: "luxury-hospitality-advertising",
       description:
         "Rooms that sell themselves through an OTA, and a direct channel that keeps paying commission for its own guests.",
     },
     {
-      name: "Luxury Goods & Apparel",
-      href: "/industries/luxury-goods-advertising",
+      slug: "luxury-goods-advertising",
       description:
         "Growing direct revenue without reaching for the one lever that damages a premium price.",
     },
   ],
 }
+
+const industryCards = hub.cardCopy.map(({ slug, description }) => {
+  const industry = industries.find((i) => i.slug === slug)!
+  return { name: industry.label, href: `/industries/${industry.slug}`, description }
+})
 
 export default function IndustriesHub() {
   const [visible, setVisible] = useState<Set<string>>(new Set())
@@ -143,7 +145,7 @@ export default function IndustriesHub() {
       <section className="border-t border-border py-24 px-6 sm:px-12" data-animate id="grid">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-border">
-            {hub.cards.map((card, index) => (
+            {industryCards.map((card, index) => (
               <Link
                 key={card.href}
                 href={card.href}

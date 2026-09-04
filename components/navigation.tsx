@@ -5,6 +5,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { useState, useEffect } from "react"
 import { Moon, Sun, ChevronDown } from "lucide-react"
+import { industries } from "@/lib/industries"
 
 const navLinks = [
   { href: "/capabilities", label: "Capabilities" },
@@ -13,15 +14,22 @@ const navLinks = [
   { href: "/contact", label: "Contact" },
 ]
 
-const industryLinks = [
-  { href: "/industries/private-aviation-advertising", label: "Private Aviation" },
-  { href: "/industries/wealth-management-advertising", label: "Wealth Management" },
-  { href: "/industries/luxury-real-estate-advertising", label: "Luxury Real Estate" },
-  { href: "/industries/luxury-automotive-advertising", label: "Luxury Automotive" },
-  { href: "/industries/private-club-advertising", label: "Private Clubs & Golf" },
-  { href: "/industries/luxury-hospitality-advertising", label: "Luxury Hospitality" },
-  { href: "/industries/luxury-goods-advertising", label: "Luxury Goods & Apparel" },
+// Menu order differs from the shared array (Hospitality before Goods), so we
+// resolve slug + label from the single source of truth in the menu's own order.
+const industryMenuOrder = [
+  "private-aviation-advertising",
+  "wealth-management-advertising",
+  "luxury-real-estate-advertising",
+  "luxury-automotive-advertising",
+  "private-club-advertising",
+  "luxury-hospitality-advertising",
+  "luxury-goods-advertising",
 ]
+
+const industryLinks = industryMenuOrder.map((slug) => {
+  const industry = industries.find((i) => i.slug === slug)!
+  return { href: `/industries/${industry.slug}`, label: industry.label }
+})
 
 export function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)

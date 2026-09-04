@@ -45,8 +45,8 @@ export default function IndustryPageLayout({ content }: { content: IndustryConte
         id="hero"
       >
         <div className="absolute inset-0 z-0">
-          <Image src={hero.image} alt={hero.imageAlt} fill className="object-cover opacity-25" priority />
-          <div className="absolute inset-0 bg-gradient-to-r from-background via-background/95 to-background/80" />
+          <Image src={hero.image} alt={hero.imageAlt} fill className="object-cover opacity-70" priority />
+          <div className="absolute inset-0 bg-gradient-to-r from-background via-background/85 to-background/30" />
         </div>
 
         <div
@@ -250,10 +250,7 @@ export default function IndustryPageLayout({ content }: { content: IndustryConte
             <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl leading-[1.15] text-foreground font-normal mb-8">
               {builtFor.h2}
             </h2>
-            <p className="text-foreground/70 text-base leading-relaxed mb-10">{builtFor.body}</p>
-            <div className="border-l-2 border-accent bg-card px-6 py-5">
-              <p className="text-foreground/60 text-sm leading-relaxed italic">{builtFor.disqualifier}</p>
-            </div>
+            <p className="text-foreground/70 text-base leading-relaxed">{builtFor.body}</p>
           </div>
         </div>
       </section>
