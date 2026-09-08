@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Luxury Fashion Brand Advertising: A Programmatic Playbook",
     description:
-      "Premium supply, wealth-based segmentation, and measurement that respects desirability — the media architecture luxury fashion houses actually need.",
+      "Premium supply, wealth-based segmentation, and measurement that respects desirability - the media architecture luxury fashion houses actually need.",
     images: [{ url: image, alt: imageAlt }],
   },
 }
@@ -43,12 +43,12 @@ const faqs = [
   {
     question: "Does programmatic advertising damage a luxury fashion brand?",
     answer:
-      "Open-exchange programmatic can, because it places brand creative in environments the house cannot inspect or approve. Programmatic bought through private marketplace deals with publisher-level transparency does not — it is simply an efficient purchasing mechanism for inventory a brand would have bought directly anyway. The distinction is entirely about supply path and transparency, not about the technology, and the $8–$15 CPM savings from open exchange are never worth the adjacency risk in this category.",
+      "Open-exchange programmatic can, because it places brand creative in environments the house cannot inspect or approve. Programmatic bought through private marketplace deals with publisher-level transparency does not - it is simply an efficient purchasing mechanism for inventory a brand would have bought directly anyway. The distinction is entirely about supply path and transparency, not about the technology, and the $8–$15 CPM savings from open exchange are never worth the adjacency risk in this category.",
   },
   {
     question: "What CPMs should luxury fashion brands expect in premium environments?",
     answer:
-      "Across US private marketplace buying in 2025 and 2026, premium CTV for luxury fashion typically ranges from $32 to $58 CPM, private marketplace display from $14 to $32, YouTube Select from $18 to $35, paid social from $8 to $22, streaming audio and podcasts from $22 to $38, and DOOH from $9 to $20. Wealth-based audience layers and tight brand-safety controls push these toward the upper end of each range, which is the intended trade — precision against an affluent audience is worth more than efficiency against a broad one.",
+      "Across US private marketplace buying in 2025 and 2026, premium CTV for luxury fashion typically ranges from $32 to $58 CPM, private marketplace display from $14 to $32, YouTube Select from $18 to $35, paid social from $8 to $22, streaming audio and podcasts from $22 to $38, and DOOH from $9 to $20. Wealth-based audience layers and tight brand-safety controls push these toward the upper end of each range, which is the intended trade - precision against an affluent audience is worth more than efficiency against a broad one.",
   },
   {
     question: "How do luxury fashion brands measure advertising effectiveness without relying on last-click?",
@@ -132,13 +132,13 @@ export default function Page() {
       category="Luxury Verticals"
       image={image}
       imageAlt={imageAlt}
-      imageCaption="Luxury fashion brands spend decades building desirability — media planning should be held to the same standard of restraint as the product."
+      imageCaption="Luxury fashion brands spend decades building desirability - media planning should be held to the same standard of restraint as the product."
       schemaMarkup={schemaMarkup}
     >
       <p>
         Luxury fashion brand advertising carries a constraint almost no other category faces: the media itself can damage
         the asset. A private aviation operator whose banner appears beside a clickbait listicle loses a little dignity. A
-        fashion house in the same placement loses something structural — the perception of scarcity and taste that took
+        fashion house in the same placement loses something structural - the perception of scarcity and taste that took
         forty years and several creative directors to build. Every media decision in this category is therefore two
         decisions: what it buys, and what it costs the brand to be seen buying it.
       </p>
@@ -146,8 +146,8 @@ export default function Page() {
         That tension explains why so many fashion houses have historically kept programmatic at arm&apos;s length,
         running print, out-of-home, and a tightly curated set of publisher direct deals while treating biddable channels
         as the domain of the e-commerce team. The split no longer holds. Luxury apparel now does 25–35% of its volume
-        through digital channels in most Western markets, and the audiences that matter — high-net-worth households,
-        aspirational high earners, and the international traveling shopper — are reachable at scale in premium streaming
+        through digital channels in most Western markets, and the audiences that matter - high-net-worth households,
+        aspirational high earners, and the international traveling shopper - are reachable at scale in premium streaming
         and programmatic environments that simply did not exist in a buyable form five years ago.
       </p>
       <p>This is the architecture we build for luxury fashion and premium apparel brands, and the specific places it tends to go wrong.</p>
@@ -163,7 +163,7 @@ export default function Page() {
       </p>
       <p>
         <strong>Purchase behavior is bimodal.</strong> A luxury fashion customer base splits into a small cohort of repeat
-        clients — often 8–12% of customers generating 40–60% of revenue — and a large aspirational cohort buying entry
+        clients - often 8–12% of customers generating 40–60% of revenue - and a large aspirational cohort buying entry
         price points once or twice a year. These require entirely different media. Planning consequence: never run one
         funnel. Run two, with separate creative, separate supply, and separate success metrics.
       </p>
@@ -271,14 +271,14 @@ export default function Page() {
       </p>
       <p>
         The audience economics have also shifted decisively. Ad-supported streaming tiers now index meaningfully toward
-        higher household income than legacy assumptions suggest — the ad tier subscriber on premium services is frequently
+        higher household income than legacy assumptions suggest - the ad tier subscriber on premium services is frequently
         a cost-conscious high earner rather than a downmarket viewer. Combined with wealth-based audience layers, that
         produces addressable affluent reach at a quality level that print alone cannot deliver.
       </p>
       <p>
         Practical guidance: buy CTV for luxury fashion exclusively through private marketplace deals with publisher-level
-        transparency. Open-exchange CTV in this category carries unacceptable adjacency risk, and the CPM savings —
-        typically $8–$15 — are not worth a single placement beside content the creative director would find embarrassing.
+        transparency. Open-exchange CTV in this category carries unacceptable adjacency risk, and the CPM savings -
+        typically $8–$15 - are not worth a single placement beside content the creative director would find embarrassing.
       </p>
 
       <h3>Where paid social earns its place, and where it does not</h3>
@@ -289,7 +289,7 @@ export default function Page() {
       <ul>
         <li>
           <strong>Run to the aspirational cohort</strong> with entry price points, gifting moments, and campaign imagery
-          adapted — not cropped — for vertical formats.
+          adapted - not cropped - for vertical formats.
         </li>
         <li>
           <strong>Suppress the core client</strong> from broad prospecting and promotional creative entirely. Reach them
@@ -324,7 +324,7 @@ export default function Page() {
         </li>
         <li>
           <strong>Wealth and asset-based segmentation.</strong> Household income above defined thresholds, investable
-          asset modeling, property value, and net worth signals — layered rather than used alone, because income alone is
+          asset modeling, property value, and net worth signals - layered rather than used alone, because income alone is
           a weak predictor of luxury spend.
         </li>
         <li>
@@ -333,13 +333,13 @@ export default function Page() {
           under-used signal.
         </li>
         <li>
-          <strong>Modeled expansion.</strong> Lookalikes built from the repeat-client cohort specifically — never from all
+          <strong>Modeled expansion.</strong> Lookalikes built from the repeat-client cohort specifically - never from all
           purchasers, which dilutes the model with one-time gift buyers.
         </li>
       </ol>
       <p>
         A hard rule we apply: cap modeled expansion at roughly 3–5x the seed audience size. Beyond that, in our own
-        measurement, incremental lift per impression falls sharply while volume metrics keep improving — the classic
+        measurement, incremental lift per impression falls sharply while volume metrics keep improving - the classic
         signature of an audience that has stopped being an audience. Building this well depends on{" "}
         <a href="/insights/first-party-data-luxury-advertising">first-party data in luxury advertising</a> being connected
         rather than trapped in a point-of-sale system.
@@ -359,8 +359,8 @@ export default function Page() {
         disproportionate share of contribution margin.
       </p>
       <p>
-        <strong>The aspirational funnel</strong> targets high-earning households who buy entry price points — the
-        fragrance, the small leather good, the knitwear — once or twice a year and represent the brand&apos;s future core.
+        <strong>The aspirational funnel</strong> targets high-earning households who buy entry price points - the
+        fragrance, the small leather good, the knitwear - once or twice a year and represent the brand&apos;s future core.
         Media here is broader and more biddable: paid social, YouTube, Pinterest, search, and CTV reach extensions. The
         success metric is new-customer acquisition cost and first-purchase-to-second-purchase conversion within twelve
         months, which is the only number that reveals whether acquisition is building a client base or renting a
@@ -369,7 +369,7 @@ export default function Page() {
       <p>
         The separation must be enforced technically, not just conceptually. Repeat clients should be suppressed from
         aspirational prospecting audiences and, critically, from any promotional creative. We have audited fashion
-        accounts where the top decile of customers received an average of eleven markdown impressions per month — a
+        accounts where the top decile of customers received an average of eleven markdown impressions per month - a
         reliable way to teach the most valuable clients in the file that waiting is rewarded.
       </p>
       <p>
@@ -401,7 +401,7 @@ export default function Page() {
         </li>
         <li>
           <strong>Rotate on the collection calendar.</strong> Creative fatigue in luxury fashion runs faster than in most
-          categories — we plan refreshes at four to six weeks, aligned to product drops rather than to arbitrary flight
+          categories - we plan refreshes at four to six weeks, aligned to product drops rather than to arbitrary flight
           dates.
         </li>
         <li>
@@ -422,7 +422,7 @@ export default function Page() {
         <strong>Incrementality testing as the primary arbiter.</strong> Geographic holdouts or audience-level PSA control
         cells, run for a full flight, measuring incremental revenue and incremental new-customer acquisition. For luxury
         fashion clients we typically find true incrementality on retargeting-heavy programs runs 20–40% of what last-click
-        reports — a gap large enough to change budget allocation entirely.
+        reports - a gap large enough to change budget allocation entirely.
       </p>
       <p>
         <strong>Media mix modeling on an annual cadence.</strong> With seasonality this pronounced, MMM needs at least two
@@ -430,7 +430,7 @@ export default function Page() {
       </p>
       <p>
         <strong>Brand lift as a co-equal metric, not a nice-to-have.</strong> Measure unaided awareness, consideration,
-        and — critically — perceived exclusivity. A campaign that lifts consideration while depressing perceived
+        and - critically - perceived exclusivity. A campaign that lifts consideration while depressing perceived
         exclusivity has cost more than it earned.
       </p>
       <p>

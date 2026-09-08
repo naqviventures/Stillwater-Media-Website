@@ -130,7 +130,7 @@ export default function Page() {
       category="Luxury Verticals"
       image={image}
       imageAlt={imageAlt}
-      imageCaption="In fine wine and rare spirits, scarcity is the product — and media that ignores that fact spends against demand it can never fulfill."
+      imageCaption="In fine wine and rare spirits, scarcity is the product - and media that ignores that fact spends against demand it can never fulfill."
       schemaMarkup={schemaMarkup}
     >
       <p>
@@ -158,8 +158,8 @@ export default function Page() {
       </p>
       <p>
         <strong>Audience composition standards govern where you can run.</strong> Industry self-regulatory codes
-        maintained by DISCUS and the Wine Institute set a minimum legal-drinking-age audience composition threshold —
-        73.6% of the audience must be LDA+ — for placement in any measured medium. Platforms enforce their own overlays on
+        maintained by DISCUS and the Wine Institute set a minimum legal-drinking-age audience composition threshold -
+        73.6% of the audience must be LDA+ - for placement in any measured medium. Platforms enforce their own overlays on
         top of it. Planning consequence: audience verification and pre-bid composition controls are not a compliance
         afterthought, they are a media buying constraint that shapes which inventory is even available.
       </p>
@@ -256,7 +256,7 @@ export default function Page() {
       <p>
         Two notes on these ranges. CTV CPMs for alcohol brands sit 8%–18% above general market rates because
         age-composition targeting shrinks the addressable pool and several premium publishers apply category surcharges.
-        And retail media is the single most under-allocated line in most beverage plans we audit — it is the only channel
+        And retail media is the single most under-allocated line in most beverage plans we audit - it is the only channel
         in the list that returns something close to a purchase signal. Our view on{" "}
         <a href="/insights/luxury-retail-media-networks">luxury retail media networks</a> explains why.
       </p>
@@ -276,7 +276,7 @@ export default function Page() {
         <li>
           <strong>Wealth and asset segmentation.</strong> Investable assets, property value, and secondary residence
           ownership rather than income alone. Fine wine collecting correlates far more tightly with net worth and home
-          characteristics — cellar-capable properties — than with reported income. Our approach to{" "}
+          characteristics - cellar-capable properties - than with reported income. Our approach to{" "}
           <a href="/insights/wealth-based-audience-segmentation">wealth-based audience segmentation</a> details the signal
           set.
         </li>
@@ -368,7 +368,7 @@ export default function Page() {
         The workable answer is a two-tier design: geo{" "}
         <a href="/insights/holdout-testing-advertising">holdout testing</a> as the primary arbiter of incrementality, run
         two or three times a year on meaningful budget, with depletion data and retail media reporting as the continuous
-        read between tests. Brand lift belongs in the stack for allocated and prestige SKUs, where equity — not volume —
+        read between tests. Brand lift belongs in the stack for allocated and prestige SKUs, where equity - not volume -
         is the objective.
       </p>
       <p>
@@ -382,13 +382,13 @@ export default function Page() {
         Luxury beverage demand is not evenly distributed across the year, and it is not driven by the brand&apos;s
         marketing calendar. It is driven by occasions, and the gifting-weighted ones dominate. For most premium spirits
         portfolios, the eight weeks from mid-November through the first week of January represent 25–40% of annual volume,
-        with a second concentration around Father&apos;s Day, graduation season, and — for Champagne and sparkling wine
-        specifically — a narrow late-December spike that can approach half of category annual movement.
+        with a second concentration around Father&apos;s Day, graduation season, and - for Champagne and sparkling wine
+        specifically - a narrow late-December spike that can approach half of category annual movement.
       </p>
       <p>
         Three planning consequences follow. First, premium CTV inventory for the Q4 window is effectively committed by
         late summer; brands that begin planning in September pay materially more for materially worse placement. Second,
-        the creative brief changes by occasion — a gifting message and a self-purchase message are different ads, and
+        the creative brief changes by occasion - a gifting message and a self-purchase message are different ads, and
         running one during the other&apos;s window depresses response measurably. Third, retail media weight should lead
         the physical shopping window by roughly two to three weeks, because premium beverage gifting is planned earlier
         than commodity gifting.
@@ -410,7 +410,7 @@ export default function Page() {
       <p>
         This audience behaves differently in three ways that matter for media. They research before purchase, often for
         weeks, which makes contextual placement in critique, auction, and provenance content unusually productive. They
-        buy in multiples — cases and verticals rather than bottles — so a single conversion carries several times the
+        buy in multiples - cases and verticals rather than bottles - so a single conversion carries several times the
         value of an ordinary purchase. And they are largely unreachable through the category segments most brands buy,
         because their identifying behaviors are auction registration, cellar management software use, storage facility
         rental, and provenance research rather than retail browsing.
@@ -418,7 +418,7 @@ export default function Page() {
       <p>
         Reaching them takes curated or first-party data rather than off-the-shelf segments, and it justifies a higher CPM
         than the general affluent pool. When we size this cohort for clients, it typically represents 2–5% of the
-        addressable audience and 20–35% of the value of the addressable audience — a ratio that argues for a dedicated
+        addressable audience and 20–35% of the value of the addressable audience - a ratio that argues for a dedicated
         line item rather than an assumption that broad targeting will find them.
       </p>
 
@@ -439,7 +439,7 @@ export default function Page() {
       <p>
         <strong>Delegating compliance to the platform.</strong> Platform age-gating and self-regulatory audience
         composition standards are not equivalent, and neither substitutes for the brand&apos;s own legal review.
-        Compliance posture should be documented per channel, and reviewed by counsel — this article is not legal advice.
+        Compliance posture should be documented per channel, and reviewed by counsel - this article is not legal advice.
       </p>
       <p>
         <strong>Buying the category segment and calling it targeting.</strong> A modeled &quot;wine enthusiast&quot;
@@ -452,7 +452,7 @@ export default function Page() {
         trade areas rather than distributed evenly. Compliance controls are pre-bid and documented, not remediated in
         post-campaign reporting. At least one geo holdout is running at any given time, sized to read at 8–12 weeks. And
         the prestige tier of the portfolio is measured on equity and pricing outcomes while the volume tier is measured on
-        incremental depletions — two objectives, two measurement frameworks, one plan. Audio plays a quiet but useful role
+        incremental depletions - two objectives, two measurement frameworks, one plan. Audio plays a quiet but useful role
         here; see our note on{" "}
         <a href="/insights/streaming-audio-advertising-luxury">streaming audio advertising for luxury brands</a>.
       </p>

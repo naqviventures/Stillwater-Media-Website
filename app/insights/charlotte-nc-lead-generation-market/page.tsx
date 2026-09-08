@@ -90,7 +90,7 @@ export default function CharlotteNCLeadGenerationMarket() {
       </p>
 
       <p>
-        Success in the Charlotte market requires understanding its distinct business culture—one that values relationship-building, professional networks, and proven track records.
+        Success in the Charlotte market requires understanding its distinct business culture-one that values relationship-building, professional networks, and proven track records.
       </p>
 
       <hr />
@@ -104,11 +104,11 @@ export default function CharlotteNCLeadGenerationMarket() {
       <h3>Key Economic Drivers</h3>
 
       <ul>
-        <li><strong>Financial services</strong> — Bank of America, Wells Fargo, and Truist headquarters drive a sophisticated business environment</li>
-        <li><strong>Healthcare</strong> — Atrium Health and Novant Health lead major healthcare systems with regional reach</li>
-        <li><strong>Technology</strong> — Growing tech sector with both established players and emerging startups</li>
-        <li><strong>Energy</strong> — Duke Energy headquarters and renewable energy investment create opportunities</li>
-        <li><strong>Logistics</strong> — Strategic location makes Charlotte a distribution and supply chain hub</li>
+        <li><strong>Financial services</strong> - Bank of America, Wells Fargo, and Truist headquarters drive a sophisticated business environment</li>
+        <li><strong>Healthcare</strong> - Atrium Health and Novant Health lead major healthcare systems with regional reach</li>
+        <li><strong>Technology</strong> - Growing tech sector with both established players and emerging startups</li>
+        <li><strong>Energy</strong> - Duke Energy headquarters and renewable energy investment create opportunities</li>
+        <li><strong>Logistics</strong> - Strategic location makes Charlotte a distribution and supply chain hub</li>
       </ul>
 
       <h3>Business Culture Characteristics</h3>
@@ -118,10 +118,10 @@ export default function CharlotteNCLeadGenerationMarket() {
       </p>
 
       <ol>
-        <li><strong>Conservative decision-making</strong> — Thorough due diligence before vendor commitments</li>
-        <li><strong>Relationship emphasis</strong> — Strong preference for established connections</li>
-        <li><strong>Long sales cycles</strong> — Patience and persistence required in lead nurturing</li>
-        <li><strong>Professional networks</strong> — Industry associations and referrals carry significant weight</li>
+        <li><strong>Conservative decision-making</strong> - Thorough due diligence before vendor commitments</li>
+        <li><strong>Relationship emphasis</strong> - Strong preference for established connections</li>
+        <li><strong>Long sales cycles</strong> - Patience and persistence required in lead nurturing</li>
+        <li><strong>Professional networks</strong> - Industry associations and referrals carry significant weight</li>
       </ol>
 
       <hr />
@@ -135,10 +135,10 @@ export default function CharlotteNCLeadGenerationMarket() {
       <h3>Networking and Relationship Building</h3>
 
       <ul>
-        <li><strong>Charlotte Chamber of Commerce</strong> — Central hub for business community engagement</li>
-        <li><strong>Charlotte Business Journal events</strong> — Industry-specific networking opportunities</li>
-        <li><strong>Industry associations</strong> — Financial, healthcare, and tech verticals each have active communities</li>
-        <li><strong>Alumni networks</strong> — UNC Charlotte, Queens University, and regional school connections matter</li>
+        <li><strong>Charlotte Chamber of Commerce</strong> - Central hub for business community engagement</li>
+        <li><strong>Charlotte Business Journal events</strong> - Industry-specific networking opportunities</li>
+        <li><strong>Industry associations</strong> - Financial, healthcare, and tech verticals each have active communities</li>
+        <li><strong>Alumni networks</strong> - UNC Charlotte, Queens University, and regional school connections matter</li>
       </ul>
 
       <h3>Market Preferences</h3>
@@ -148,10 +148,10 @@ export default function CharlotteNCLeadGenerationMarket() {
       </p>
 
       <ol>
-        <li><strong>Local presence</strong> — Companies with Charlotte offices or demonstrated regional commitment</li>
-        <li><strong>Community involvement</strong> — Participation in local events and civic organizations</li>
-        <li><strong>Referral-based introductions</strong> — Warm introductions outperform cold outreach significantly</li>
-        <li><strong>Proven track record</strong> — Case studies and references from regional clients</li>
+        <li><strong>Local presence</strong> - Companies with Charlotte offices or demonstrated regional commitment</li>
+        <li><strong>Community involvement</strong> - Participation in local events and civic organizations</li>
+        <li><strong>Referral-based introductions</strong> - Warm introductions outperform cold outreach significantly</li>
+        <li><strong>Proven track record</strong> - Case studies and references from regional clients</li>
       </ol>
 
       <hr />
@@ -165,28 +165,28 @@ export default function CharlotteNCLeadGenerationMarket() {
       </p>
 
       <ul>
-        <li><strong>Compliance solutions</strong> — Regulatory technology and risk management services</li>
-        <li><strong>Technology platforms</strong> — Banking software, fintech integration, cybersecurity</li>
-        <li><strong>Professional services</strong> — Legal, accounting, and consulting serving financial institutions</li>
-        <li><strong>Talent solutions</strong> — Recruiting and staffing for specialized financial roles</li>
+        <li><strong>Compliance solutions</strong> - Regulatory technology and risk management services</li>
+        <li><strong>Technology platforms</strong> - Banking software, fintech integration, cybersecurity</li>
+        <li><strong>Professional services</strong> - Legal, accounting, and consulting serving financial institutions</li>
+        <li><strong>Talent solutions</strong> - Recruiting and staffing for specialized financial roles</li>
       </ul>
 
       <h3>Healthcare Organizations</h3>
 
       <ul>
-        <li><strong>Medical technology</strong> — Devices, equipment, and healthcare IT systems</li>
-        <li><strong>Facility management</strong> — Services supporting hospital and clinic operations</li>
-        <li><strong>Revenue cycle</strong> — Billing, coding, and financial management solutions</li>
-        <li><strong>Patient experience</strong> — Technologies improving care delivery and satisfaction</li>
+        <li><strong>Medical technology</strong> - Devices, equipment, and healthcare IT systems</li>
+        <li><strong>Facility management</strong> - Services supporting hospital and clinic operations</li>
+        <li><strong>Revenue cycle</strong> - Billing, coding, and financial management solutions</li>
+        <li><strong>Patient experience</strong> - Technologies improving care delivery and satisfaction</li>
       </ul>
 
       <h3>Technology Sector</h3>
 
       <ul>
-        <li><strong>Software development</strong> — Custom development and integration services</li>
-        <li><strong>Cybersecurity</strong> — Growing demand across all industries</li>
-        <li><strong>Cloud services</strong> — Infrastructure and platform solutions</li>
-        <li><strong>Digital marketing</strong> — Services supporting tech company growth</li>
+        <li><strong>Software development</strong> - Custom development and integration services</li>
+        <li><strong>Cybersecurity</strong> - Growing demand across all industries</li>
+        <li><strong>Cloud services</strong> - Infrastructure and platform solutions</li>
+        <li><strong>Digital marketing</strong> - Services supporting tech company growth</li>
       </ul>
 
       <hr />
@@ -200,11 +200,11 @@ export default function CharlotteNCLeadGenerationMarket() {
       <h3>Key Business Districts</h3>
 
       <ol>
-        <li><strong>Uptown</strong> — Corporate headquarters, financial services concentration</li>
-        <li><strong>South Park</strong> — Affluent business community, professional services</li>
-        <li><strong>Ballantyne</strong> — Corporate campuses, technology companies</li>
-        <li><strong>University City</strong> — Research, education-adjacent businesses</li>
-        <li><strong>Airport Corridor</strong> — Logistics, distribution, hospitality</li>
+        <li><strong>Uptown</strong> - Corporate headquarters, financial services concentration</li>
+        <li><strong>South Park</strong> - Affluent business community, professional services</li>
+        <li><strong>Ballantyne</strong> - Corporate campuses, technology companies</li>
+        <li><strong>University City</strong> - Research, education-adjacent businesses</li>
+        <li><strong>Airport Corridor</strong> - Logistics, distribution, hospitality</li>
       </ol>
 
       <h3>Regional Expansion Markets</h3>
@@ -214,10 +214,10 @@ export default function CharlotteNCLeadGenerationMarket() {
       </p>
 
       <ul>
-        <li><strong>Lake Norman (Mecklenburg/Iredell)</strong> — Affluent residential, growing commercial</li>
-        <li><strong>Union County</strong> — Rapid growth, emerging business parks</li>
-        <li><strong>Cabarrus County</strong> — Motorsports industry, manufacturing</li>
-        <li><strong>York County (SC)</strong> — Tax advantages driving business relocation</li>
+        <li><strong>Lake Norman (Mecklenburg/Iredell)</strong> - Affluent residential, growing commercial</li>
+        <li><strong>Union County</strong> - Rapid growth, emerging business parks</li>
+        <li><strong>Cabarrus County</strong> - Motorsports industry, manufacturing</li>
+        <li><strong>York County (SC)</strong> - Tax advantages driving business relocation</li>
       </ul>
 
       <hr />
@@ -231,19 +231,19 @@ export default function CharlotteNCLeadGenerationMarket() {
       <h3>Digital Lead Generation Tactics</h3>
 
       <ul>
-        <li><strong>Local SEO</strong> — Charlotte-specific keywords and Google Business optimization</li>
-        <li><strong>LinkedIn marketing</strong> — Critical platform for Charlotte's professional community</li>
-        <li><strong>Content marketing</strong> — Thought leadership establishing local expertise</li>
-        <li><strong>Targeted advertising</strong> — Geographic and industry-focused digital campaigns</li>
+        <li><strong>Local SEO</strong> - Charlotte-specific keywords and Google Business optimization</li>
+        <li><strong>LinkedIn marketing</strong> - Critical platform for Charlotte's professional community</li>
+        <li><strong>Content marketing</strong> - Thought leadership establishing local expertise</li>
+        <li><strong>Targeted advertising</strong> - Geographic and industry-focused digital campaigns</li>
       </ul>
 
       <h3>Online Presence Requirements</h3>
 
       <ol>
-        <li><strong>Local directory listings</strong> — Charlotte Chamber, BBB, industry directories</li>
-        <li><strong>Review presence</strong> — Google reviews and industry-specific platforms</li>
-        <li><strong>Social proof</strong> — Local client testimonials and case studies</li>
-        <li><strong>Event visibility</strong> — Promotion of local speaking and networking participation</li>
+        <li><strong>Local directory listings</strong> - Charlotte Chamber, BBB, industry directories</li>
+        <li><strong>Review presence</strong> - Google reviews and industry-specific platforms</li>
+        <li><strong>Social proof</strong> - Local client testimonials and case studies</li>
+        <li><strong>Event visibility</strong> - Promotion of local speaking and networking participation</li>
       </ol>
 
       <hr />
@@ -253,19 +253,19 @@ export default function CharlotteNCLeadGenerationMarket() {
       <h3>Relationship-First Approach</h3>
 
       <ol>
-        <li><strong>Build before you sell</strong> — Establish relationships before pitching</li>
-        <li><strong>Leverage introductions</strong> — Ask for warm referrals from existing connections</li>
-        <li><strong>Attend consistently</strong> — Regular presence at industry and networking events</li>
-        <li><strong>Give value first</strong> — Share insights and resources without immediate expectation</li>
+        <li><strong>Build before you sell</strong> - Establish relationships before pitching</li>
+        <li><strong>Leverage introductions</strong> - Ask for warm referrals from existing connections</li>
+        <li><strong>Attend consistently</strong> - Regular presence at industry and networking events</li>
+        <li><strong>Give value first</strong> - Share insights and resources without immediate expectation</li>
       </ol>
 
       <h3>Content and Thought Leadership</h3>
 
       <ul>
-        <li><strong>Local market insights</strong> — Content addressing Charlotte-specific challenges</li>
-        <li><strong>Industry commentary</strong> — Perspectives on trends affecting local businesses</li>
-        <li><strong>Case studies</strong> — Success stories featuring regional clients (with permission)</li>
-        <li><strong>Speaking opportunities</strong> — Present at Charlotte business events and conferences</li>
+        <li><strong>Local market insights</strong> - Content addressing Charlotte-specific challenges</li>
+        <li><strong>Industry commentary</strong> - Perspectives on trends affecting local businesses</li>
+        <li><strong>Case studies</strong> - Success stories featuring regional clients (with permission)</li>
+        <li><strong>Speaking opportunities</strong> - Present at Charlotte business events and conferences</li>
       </ul>
 
       <hr />
@@ -277,11 +277,11 @@ export default function CharlotteNCLeadGenerationMarket() {
       </p>
 
       <ul>
-        <li><strong>Understand the culture</strong> — Charlotte values relationships, patience, and professionalism</li>
-        <li><strong>Build local presence</strong> — Demonstrate commitment to the Charlotte community</li>
-        <li><strong>Target strategically</strong> — Leverage geographic and industry-specific opportunities</li>
-        <li><strong>Combine digital and traditional</strong> — Use both online and in-person relationship building</li>
-        <li><strong>Think regionally</strong> — Charlotte businesses often serve the broader Southeast</li>
+        <li><strong>Understand the culture</strong> - Charlotte values relationships, patience, and professionalism</li>
+        <li><strong>Build local presence</strong> - Demonstrate commitment to the Charlotte community</li>
+        <li><strong>Target strategically</strong> - Leverage geographic and industry-specific opportunities</li>
+        <li><strong>Combine digital and traditional</strong> - Use both online and in-person relationship building</li>
+        <li><strong>Think regionally</strong> - Charlotte businesses often serve the broader Southeast</li>
       </ul>
 
       <p>

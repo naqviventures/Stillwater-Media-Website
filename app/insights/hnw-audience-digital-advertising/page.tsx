@@ -7,16 +7,16 @@ const imagePath = "/images/hnw-audience-digital-advertising.png"
 export const metadata: Metadata = {
   title: "HNW Audience Digital Advertising: The Operating Playbook",
   description:
-    "HNW audience digital advertising explained — where the 8.5M U.S. HNW households actually spend media time, channel benchmarks, and a full activation plan.",
+    "HNW audience digital advertising explained - where the 8.5M U.S. HNW households actually spend media time, channel benchmarks, and a full activation plan.",
   alternates: { canonical: canonicalUrl },
   openGraph: {
     title: "HNW Audience Digital Advertising: The Operating Playbook",
     description:
-      "A senior media strategist's operating guide to HNW audience digital advertising — the real structure of the U.S. high-net-worth population, where their media time goes, channel-by-channel benchmarks, a four-stage campaign architecture, and the measurement stack.",
+      "A senior media strategist's operating guide to HNW audience digital advertising - the real structure of the U.S. high-net-worth population, where their media time goes, channel-by-channel benchmarks, a four-stage campaign architecture, and the measurement stack.",
     type: "article",
     url: canonicalUrl,
     images: [
-      { url: imagePath, width: 1200, height: 630, alt: "HNW audience digital advertising — Stillwater Media" },
+      { url: imagePath, width: 1200, height: 630, alt: "HNW audience digital advertising - Stillwater Media" },
     ],
     locale: "en_US",
     siteName: "Stillwater Media",
@@ -38,13 +38,13 @@ const schemaMarkup = {
       "@type": "Article",
       headline: "HNW Audience Digital Advertising: The Operating Playbook",
       description:
-        "A senior media strategist's operating guide to HNW audience digital advertising for luxury and high-consideration brands — the real size and internal structure of the roughly 8.5 million U.S. high-net-worth households, where their media consumption concentrates, channel-by-channel CPM and completion benchmarks, a four-stage campaign architecture, frequency and creative rules, and a measurement stack for sales cycles longer than 90 days.",
+        "A senior media strategist's operating guide to HNW audience digital advertising for luxury and high-consideration brands - the real size and internal structure of the roughly 8.5 million U.S. high-net-worth households, where their media consumption concentrates, channel-by-channel CPM and completion benchmarks, a four-stage campaign architecture, frequency and creative rules, and a measurement stack for sales cycles longer than 90 days.",
       image: {
         "@type": "ImageObject",
         url: `https://www.stillwatermedia.io${imagePath}`,
         width: 1200,
         height: 630,
-        caption: "HNW audience digital advertising — Stillwater Media",
+        caption: "HNW audience digital advertising - Stillwater Media",
       },
       author: { "@type": "Organization", name: "Stillwater Media" },
       publisher: {
@@ -77,7 +77,7 @@ const schemaMarkup = {
           name: "How many high-net-worth households are there in the United States?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "There are roughly 8.5 million HNW households in the United States — households with $1M+ in investable assets excluding primary residence — which is about 2.4% of all households. Within that, the $1M–$5M tier holds roughly 7.4 million households, the $5M–$30M very-HNW tier about 1.1 million, and the $30M+ UHNW tier about 140,000. The addressable center of gravity for most luxury advertisers is the $1M–$5M tier: large enough for real media economics, wealthy enough to transact.",
+            text: "There are roughly 8.5 million HNW households in the United States - households with $1M+ in investable assets excluding primary residence - which is about 2.4% of all households. Within that, the $1M–$5M tier holds roughly 7.4 million households, the $5M–$30M very-HNW tier about 1.1 million, and the $30M+ UHNW tier about 140,000. The addressable center of gravity for most luxury advertisers is the $1M–$5M tier: large enough for real media economics, wealthy enough to transact.",
           },
         },
         {
@@ -85,7 +85,7 @@ const schemaMarkup = {
           name: "Are wealthy consumers actually unreachable through digital advertising?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "No — they are differently reachable. HNW households over-index heavily on ad-free subscription tiers, so a substantial share of their screen time is genuinely unavailable at any price. But they are reachable through ad-supported premium streaming tiers, long-form business and interest podcasts that index 150–250 against $1M+ households, DOOH against private terminals and clubs, and a narrow set of premium publishers. The myth of unreachability comes from planning against the channels the other 97.6% of households use by default.",
+            text: "No - they are differently reachable. HNW households over-index heavily on ad-free subscription tiers, so a substantial share of their screen time is genuinely unavailable at any price. But they are reachable through ad-supported premium streaming tiers, long-form business and interest podcasts that index 150–250 against $1M+ households, DOOH against private terminals and clubs, and a narrow set of premium publishers. The myth of unreachability comes from planning against the channels the other 97.6% of households use by default.",
           },
         },
         {
@@ -93,7 +93,7 @@ const schemaMarkup = {
           name: "What does a four-stage HNW campaign architecture look like?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Stage 1 is capacity qualification — building the eligibility layer from deterministic wealth signals with AND logic and matching first-party CRM data. Stage 2 is category framing, using premium CTV and publisher video to become the recognized name before the prospect enters an active window, measured with brand lift not ROAS. Stage 3 is consideration, shifting creative to proof and adding podcasts and streaming audio for trust transfer. Stage 4 is intent capture, where the smallest, most active tier gets the highest CPMs and tightest creative.",
+            text: "Stage 1 is capacity qualification - building the eligibility layer from deterministic wealth signals with AND logic and matching first-party CRM data. Stage 2 is category framing, using premium CTV and publisher video to become the recognized name before the prospect enters an active window, measured with brand lift not ROAS. Stage 3 is consideration, shifting creative to proof and adding podcasts and streaming audio for trust transfer. Stage 4 is intent capture, where the smallest, most active tier gets the highest CPMs and tightest creative.",
           },
         },
         {
@@ -127,12 +127,12 @@ export default function Page() {
       category="Affluent Audience Strategy"
       image={imagePath}
       imageAlt="Stillwater Media guide illustration on HNW audience digital advertising showing five unmarked concentric brass rings narrowing to a single lit obsidian sphere on dark slate"
-      imageCaption="Roughly 2.4% of U.S. households hold the wealth luxury brands compete for — the entire discipline is getting to them without paying to reach the other 97.6%."
+      imageCaption="Roughly 2.4% of U.S. households hold the wealth luxury brands compete for - the entire discipline is getting to them without paying to reach the other 97.6%."
       schemaMarkup={schemaMarkup}
     >
       <p>
-        HNW audience digital advertising is the discipline of reaching high-net-worth households — generally defined as
-        $1M+ in investable assets excluding primary residence — through addressable digital channels, with enough
+        HNW audience digital advertising is the discipline of reaching high-net-worth households - generally defined as
+        $1M+ in investable assets excluding primary residence - through addressable digital channels, with enough
         targeting precision that the media economics survive the small size of the population. That last clause is the
         whole problem. There are roughly 8.5 million HNW households in the United States, about 2.4% of all households,
         and the standard digital media plan is built to reach the other 97.6% efficiently.
@@ -202,7 +202,7 @@ export default function Page() {
       </div>
       <p>
         Two practical conclusions. First, the addressable center of gravity for most luxury advertisers is the $1M–$5M
-        tier — large enough for real media economics, wealthy enough to transact. Second, above roughly $30M in assets,
+        tier - large enough for real media economics, wealthy enough to transact. Second, above roughly $30M in assets,
         digital advertising should be planned as an air-cover and credibility layer supporting a relationship-driven
         sales motion, not as a demand-generation engine. Plans that promise programmatic acquisition of UHNW clients are
         selling something they cannot deliver.
@@ -210,7 +210,7 @@ export default function Page() {
 
       <h2>Where High-Net-Worth Media Time Actually Goes</h2>
       <p>
-        The persistent myth in affluent marketing is that wealthy consumers are unreachable. They are not unreachable —
+        The persistent myth in affluent marketing is that wealthy consumers are unreachable. They are not unreachable -
         they are differently reachable, and they are systematically underrepresented in the ad-supported environments
         most plans buy by default.
       </p>
@@ -229,7 +229,7 @@ export default function Page() {
       <p>
         <strong>They are physically concentrated in identifiable places.</strong> Private terminals, marinas, club
         corridors, medical and legal office districts, and specific residential zones. DOOH against these locations is
-        behavioral targeting disguised as geography — presence at an FBO is an observed fact, not an inference.
+        behavioral targeting disguised as geography - presence at an FBO is an observed fact, not an inference.
       </p>
       <p>
         <strong>They read a narrow set of premium publishers.</strong> The Wall Street Journal, Financial Times,
@@ -238,7 +238,7 @@ export default function Page() {
       </p>
       <p>
         <strong>They engage with search and category research late.</strong> Because sales cycles are long, HNW
-        prospects often do not search until they are already in an active consideration window — which makes upper-funnel
+        prospects often do not search until they are already in an active consideration window - which makes upper-funnel
         presence a prerequisite for capturing that search rather than an alternative to it.
       </p>
 
@@ -312,31 +312,31 @@ export default function Page() {
         High-consideration purchases do not respond to a flat always-on budget. This is the structure we build against a
         90-to-365-day cycle.
       </p>
-      <h3>Stage 1 — Capacity qualification (weeks 0–3)</h3>
+      <h3>Stage 1 - Capacity qualification (weeks 0–3)</h3>
       <p>
-        Before a dollar is spent, the eligibility layer is constructed from deterministic wealth signals — property
-        equity and multi-property ownership, modeled investable-asset tiers, occupational and business-entity identity —
+        Before a dollar is spent, the eligibility layer is constructed from deterministic wealth signals - property
+        equity and multi-property ownership, modeled investable-asset tiers, occupational and business-entity identity -
         combined with AND logic. Household income is applied only as a secondary qualifier, never as the primary.
         First-party CRM data is hashed and matched to establish a seed and a suppression list. Expect 40–70% match rates
         on a clean client file.
       </p>
-      <h3>Stage 2 — Category framing (months 1–3)</h3>
+      <h3>Stage 2 - Category framing (months 1–3)</h3>
       <p>
         Premium CTV and premium publisher video carry the majority of budget, with 60–70% of spend on 30-second
         brand-establishing creative. The objective is not clicks. It is being the recognized name in the category before
-        the prospect enters an active window. Measure with brand lift studies and search-volume lift — judging this
+        the prospect enters an active window. Measure with brand lift studies and search-volume lift - judging this
         stage on ROAS is the most common way good HNW plans get killed prematurely.
       </p>
-      <h3>Stage 3 — Consideration (months 2–6, overlapping)</h3>
+      <h3>Stage 3 - Consideration (months 2–6, overlapping)</h3>
       <p>
         Sequenced creative shifts from category to proof: specific fleet, specific property, specific advisory model,
         named client outcomes. Podcasts and streaming audio enter here because trust transfer matters at this stage.
         Frequency is managed tightly. Site visitation, content depth, and calculator or configurator engagement become
         the primary intermediate metrics.
       </p>
-      <h3>Stage 4 — Intent capture (continuous)</h3>
+      <h3>Stage 4 - Intent capture (continuous)</h3>
       <p>
-        The intent tier — prospects showing active in-category research behavior — gets the highest CPMs on the plan and
+        The intent tier - prospects showing active in-category research behavior - gets the highest CPMs on the plan and
         the tightest creative. This is where $45–$70 CPM premium CTV inventory is defensible, because the audience is
         measured in the low tens of thousands and the value of a single conversion is measured in six figures. Paid
         search, retargeting via curated PMPs, and direct outreach coordination live here.
@@ -435,7 +435,7 @@ export default function Page() {
 
       <h2>Work With Stillwater Media</h2>
       <p>
-        Stillwater Media builds affluent media programs for luxury and high-consideration brands — engineering
+        Stillwater Media builds affluent media programs for luxury and high-consideration brands - engineering
         capacity-first audiences, routing spend through premium and curated supply, and proving incremental lift with
         holdout designs from day one. We accept a limited number of engagements each quarter.{" "}
         <a href="/apply">Apply to work with us →</a>

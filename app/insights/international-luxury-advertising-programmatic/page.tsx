@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "International Luxury Advertising: A Programmatic Playbook for Cross-Border Growth",
     description:
-      "Market-by-market CPMs, privacy regimes, inventory realities, and creative localization for luxury brands expanding beyond the US — from Stillwater Media.",
+      "Market-by-market CPMs, privacy regimes, inventory realities, and creative localization for luxury brands expanding beyond the US - from Stillwater Media.",
     type: "article",
     url: canonicalUrl,
     siteName: "Stillwater Media",
@@ -38,7 +38,7 @@ const faqs = [
   {
     question: "How do you choose which international markets a luxury brand should enter first?",
     answer:
-      "Rank candidate markets by the count of households above the relevant wealth threshold — $1M+ investable assets for most categories, $30M+ net worth for private aviation and ultra-prime property — then discount for category and cultural fit, and eliminate any market where the brand cannot yet sell, deliver, or service the product. Population and GDP are poor predictors of luxury demand, and most US luxury brands finish this exercise with three to five viable first-wave markets rather than a dozen.",
+      "Rank candidate markets by the count of households above the relevant wealth threshold - $1M+ investable assets for most categories, $30M+ net worth for private aviation and ultra-prime property - then discount for category and cultural fit, and eliminate any market where the brand cannot yet sell, deliver, or service the product. Population and GDP are poor predictors of luxury demand, and most US luxury brands finish this exercise with three to five viable first-wave markets rather than a dozen.",
   },
   {
     question: "What do CPMs look like for luxury advertising outside the United States?",
@@ -53,7 +53,7 @@ const faqs = [
   {
     question: "Should international campaigns use global streaming platforms or local broadcasters?",
     answer:
-      "Both, with local broadcaster VOD treated as non-optional rather than supplementary. Netflix, Disney+, Prime Video, and YouTube sell inventory across most luxury markets, but ITVX and Channel 4 in the UK, Joyn and RTL+ in Germany, TVer in Japan, and the Australian BVOD players hold premium reach that global platforms do not replicate — planning a market without its local incumbents means buying that market at roughly half strength.",
+      "Both, with local broadcaster VOD treated as non-optional rather than supplementary. Netflix, Disney+, Prime Video, and YouTube sell inventory across most luxury markets, but ITVX and Channel 4 in the UK, Joyn and RTL+ in Germany, TVer in Japan, and the Australian BVOD players hold premium reach that global platforms do not replicate - planning a market without its local incumbents means buying that market at roughly half strength.",
   },
   {
     question: "How long before a new international market becomes efficient?",
@@ -133,13 +133,13 @@ export default function Page() {
       category="Programmatic Strategy"
       image={image}
       imageAlt={imageAlt}
-      imageCaption="The affluent audience is global; the media systems that reach them are stubbornly national — and that gap is where most international luxury campaigns lose their first quarter."
+      imageCaption="The affluent audience is global; the media systems that reach them are stubbornly national - and that gap is where most international luxury campaigns lose their first quarter."
       schemaMarkup={schemaMarkup}
     >
       <p>
         International luxury advertising fails for a predictable reason: brands treat additional markets as a geographic
         setting in an existing campaign rather than as separate media ecosystems with their own inventory, pricing, consent
-        law, and cultural grammar. The audience genuinely is global — a Dubai-based buyer, a Singapore family office
+        law, and cultural grammar. The audience genuinely is global - a Dubai-based buyer, a Singapore family office
         principal, and a Zurich collector may want the same watch, the same aircraft, the same villa. The systems that
         reach them are not global at all. CPMs vary by more than 5x across the markets luxury brands care about, consent
         requirements differ enough to invalidate an entire targeting approach, and the streaming platforms that anchor a US
@@ -181,7 +181,7 @@ export default function Page() {
 
       <h2>International Luxury Advertising Benchmarks, Market by Market</h2>
       <p>
-        The following ranges reflect what we see for premium, brand-safe inventory against affluent audiences — not
+        The following ranges reflect what we see for premium, brand-safe inventory against affluent audiences - not
         open-exchange run-of-network pricing, which can be a fraction of these figures and is generally not worth buying
         for luxury.
       </p>
@@ -272,14 +272,14 @@ export default function Page() {
       </div>
       <p>
         Two takeaways from this table matter more than the numbers themselves. First, the CPM spread between markets is
-        narrower than most brands expect — the real cost difference is in data, not media. Second, the consent column, not
+        narrower than most brands expect - the real cost difference is in data, not media. Second, the consent column, not
         the CPM column, determines what a campaign can actually do, which is why the next section exists.
       </p>
 
       <h2>Privacy Regimes Change the Targeting Strategy, Not Just the Paperwork</h2>
       <p>
         Under GDPR and its analogues, behavioral targeting requires affirmative consent, and consent rates on premium
-        European publishers commonly run <strong>45–70%</strong> — meaning a third or more of the audience is simply
+        European publishers commonly run <strong>45–70%</strong> - meaning a third or more of the audience is simply
         unavailable to audience-based buying, regardless of budget. That is not a compliance footnote; it is a strategy
         input.
       </p>
@@ -309,8 +309,8 @@ export default function Page() {
       </ul>
       <p>
         In the Gulf markets the constraint inverts: data rules are lighter but <strong>content standards are stricter</strong>.
-        Creative review for cultural and regulatory acceptability — depictions of alcohol, dress, and religious sensitivity
-        — should be built into the timeline as a two-week step, not discovered at trafficking.
+        Creative review for cultural and regulatory acceptability - depictions of alcohol, dress, and religious sensitivity
+        - should be built into the timeline as a two-week step, not discovered at trafficking.
       </p>
 
       <h2>Affluent Audience Data Is Not Equally Available Everywhere</h2>
@@ -348,7 +348,7 @@ export default function Page() {
       <p>
         The planning consequence is straightforward: outside North America, build the audience from inventory quality,
         geography, and context rather than expecting to buy a wealth segment off the shelf. Brands that budget for US-style
-        audience precision in Frankfurt or Riyadh spend the first quarter discovering it is not for sale — a problem the
+        audience precision in Frankfurt or Riyadh spend the first quarter discovering it is not for sale - a problem the
         broader shift toward{" "}
         <a href="/insights/cookieless-targeting-luxury-advertising">cookieless targeting</a> only sharpens.
       </p>
@@ -371,7 +371,7 @@ export default function Page() {
       </p>
       <p>
         <strong>Where DOOH outperforms its US role.</strong> In Dubai, Singapore, Hong Kong, and central London, affluent
-        audiences are geographically concentrated in ways US audiences are not — financial districts, luxury retail
+        audiences are geographically concentrated in ways US audiences are not - financial districts, luxury retail
         corridors, private aviation terminals, five-star hotel clusters. Premium{" "}
         <a href="/insights/dooh-affluent-location-targeting">DOOH targeted to affluent locations</a> in these markets
         frequently outperforms its US benchmark because the geography does the targeting.
@@ -388,7 +388,7 @@ export default function Page() {
       </p>
       <ol>
         <li>
-          <strong>Localize the proof, not just the language.</strong> Credibility signals are market-specific — a US
+          <strong>Localize the proof, not just the language.</strong> Credibility signals are market-specific - a US
           brand&apos;s press mentions and client logos carry little weight in Riyadh or Osaka. Substitute locally
           recognized proof.
         </li>
@@ -411,23 +411,23 @@ export default function Page() {
       <h2>Sequencing an International Launch</h2>
       <p>We plan cross-border expansion in four phases, and we resist compressing them.</p>
       <p>
-        <strong>Phase 1 — Diagnostic (weeks 1–4).</strong> Size wealth-qualified households per market, audit fulfillment
+        <strong>Phase 1 - Diagnostic (weeks 1–4).</strong> Size wealth-qualified households per market, audit fulfillment
         feasibility, map consent regime and available inventory, and pull existing organic and inbound demand by geography.
         Existing unpaid demand from a market is the single best predictor of paid efficiency there.
       </p>
       <p>
-        <strong>Phase 2 — Beachhead test (weeks 5–16).</strong> Run one or two markets only, with a minimum of{" "}
+        <strong>Phase 2 - Beachhead test (weeks 5–16).</strong> Run one or two markets only, with a minimum of{" "}
         <strong>$60,000–$100,000 per market per quarter</strong>. Below that, neither reach nor read is sufficient. Anchor
         on premium CTV plus contextual PMP display, with two creative variants.
       </p>
       <p>
-        <strong>Phase 3 — Measurement and validation (weeks 12–20).</strong> Read against a geo holdout, not attributed
+        <strong>Phase 3 - Measurement and validation (weeks 12–20).</strong> Read against a geo holdout, not attributed
         conversions. Expect qualified-inquiry cost in a new market to run{" "}
         <strong>30–60% above the home market for the first two quarters</strong>, then converge as data and creative
         learning accumulate. Brands that judge month two against home-market efficiency abandon viable markets prematurely.
       </p>
       <p>
-        <strong>Phase 4 — Scale or exit (week 20 onward).</strong> Expand markets that clear a defined incremental
+        <strong>Phase 4 - Scale or exit (week 20 onward).</strong> Expand markets that clear a defined incremental
         cost-per-qualified-inquiry threshold; exit the others without sentiment. Adding a third and fourth market before the
         first two have a clean read is the most reliable way to spend a year learning nothing.
       </p>
@@ -483,7 +483,7 @@ export default function Page() {
       </ul>
       <p>
         International expansion rewards patience and punishes breadth. The brands that do it well pick few markets, buy
-        premium inventory, localize seriously, measure experimentally, and let the results — not the map — decide where the
+        premium inventory, localize seriously, measure experimentally, and let the results - not the map - decide where the
         next dollar goes.
       </p>
 

@@ -6,11 +6,11 @@ export const metadata = {
   },
   title: "Podcast Advertising for Luxury Brands",
   description:
-    "Host-read or programmatic? Stillwater Media breaks down podcast advertising for luxury brands — networks, CPMs, brand safety, and how to measure ROI.",
+    "Host-read or programmatic? Stillwater Media breaks down podcast advertising for luxury brands - networks, CPMs, brand safety, and how to measure ROI.",
   openGraph: {
     title: "Podcast Advertising for Luxury Brands: Host-Read vs. Programmatic | Stillwater Media",
     description:
-      "Host-read or programmatic? Stillwater Media breaks down podcast advertising for luxury brands — networks, CPMs, brand safety, and how to measure ROI.",
+      "Host-read or programmatic? Stillwater Media breaks down podcast advertising for luxury brands - networks, CPMs, brand safety, and how to measure ROI.",
     type: "article",
     url: "https://www.stillwatermedia.io/insights/podcast-advertising-luxury-brands",
     images: [
@@ -26,7 +26,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Podcast Advertising for Luxury Brands: Host-Read vs. Programmatic | Stillwater Media",
     description:
-      "Host-read or programmatic? Stillwater Media breaks down podcast advertising for luxury brands — networks, CPMs, brand safety, and how to measure ROI.",
+      "Host-read or programmatic? Stillwater Media breaks down podcast advertising for luxury brands - networks, CPMs, brand safety, and how to measure ROI.",
     images: ["/images/podcast-advertising-luxury-brands.png"],
   },
 }
@@ -74,7 +74,7 @@ export default function PodcastAdvertisingLuxuryBrandsPage() {
 
   const schemaMarkup = {
     "@context": "https://schema.org",
-    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/podcast-advertising-luxury-brands#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Podcast Advertising for Luxury Brands: Host-Read vs. Programmatic","item":"https://www.stillwatermedia.io/insights/podcast-advertising-luxury-brands"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/podcast-advertising-luxury-brands#faq","mainEntity":[{"@type":"Question","name":"Q1: What is the difference between host-read and programmatic podcast advertising?","acceptedAnswer":{"@type":"Answer","text":"A1: Host-read podcast ads are recorded by the show's host in their own voice and embedded permanently into the episode, carrying an implicit trust endorsement but limited to show-level targeting and requiring 4-12 weeks of production lead time. Programmatic podcast ads use dynamic ad insertion to drop a pre-produced audio spot into an episode at the moment of streaming, enabling demographic, geographic, and retargeting capabilities at scale across thousands of shows, but without the host's personal endorsement. Host-read typically commands $20-$50 CPM versus $15-$30 CPM for programmatic, reflecting the value of the host's credibility."}},{"@type":"Question","name":"Q2: How much does podcast advertising cost for luxury brands?","acceptedAnswer":{"@type":"Answer","text":"A2: Podcast advertising costs vary significantly by format and show tier. Host-read placements on well-matched, high-engagement shows typically range from $20-$50 CPM, with top-tier business and finance shows commanding the higher end of that range due to audience affluence. Programmatic podcast advertising, purchased through demand-side platforms with dynamic ad insertion, typically ranges from $15-$30 CPM. For luxury brands, the relevant comparison isn't CPM alone but cost-per-qualified-listener — a higher CPM on a tightly-matched audience often produces better economics than a lower CPM on a loosely-matched, high-volume show."}},{"@type":"Question","name":"Q3: Which podcast genres reach the most affluent audiences?","acceptedAnswer":{"@type":"Answer","text":"A3: Business and finance, technology and innovation, long-form news and current affairs, and niche hobbyist categories like golf, sailing, and aviation consistently over-index on listeners with high household incomes and professional seniority, according to Edison Research's Infinite Dial study. Food, wine, and culinary culture podcasts also reach affluent audiences, particularly shows focused on fine dining and culinary travel. Genre popularity and audience affluence are not the same thing — a smaller finance podcast can deliver a higher concentration of high-net-worth listeners than a much larger general-interest show."}},{"@type":"Question","name":"Q4: How do you measure ROI from podcast advertising?","acceptedAnswer":{"@type":"Answer","text":"A4: For host-read campaigns, measurement relies on unique promo codes per show, vanity URLs, post-campaign brand lift surveys comparing exposed versus control audiences, and branded search lift analysis. For programmatic campaigns, measurement uses pixel-based attribution matching device IDs to website conversions, incrementality testing through geo-holdouts that suppress podcast ads in select markets, and cross-channel deduplication against other audio and video buys. Luxury brands should expect podcast advertising's primary value to show up as consideration-stage influence in multi-touch attribution models, not as immediate last-click conversions."}},{"@type":"Question","name":"Q5: Is podcast advertising brand safe for luxury and premium brands?","acceptedAnswer":{"@type":"Answer","text":"A5: Podcast advertising can be highly brand safe when proper review processes are followed, but it requires more manual diligence than programmatic display because a host's editorial opinions and tone become directly associated with any brand they endorse. For host-read placements, brand safety review should include listening to recent episodes, auditing the host's public social media commentary, and reviewing sponsorship history. For programmatic placements, category exclusion lists, keyword blocklists, and supply path optimization through verified marketplaces are essential — the same brand safety toolkit used in programmatic display and video advertising."}}]}],
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/podcast-advertising-luxury-brands#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Podcast Advertising for Luxury Brands: Host-Read vs. Programmatic","item":"https://www.stillwatermedia.io/insights/podcast-advertising-luxury-brands"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/podcast-advertising-luxury-brands#faq","mainEntity":[{"@type":"Question","name":"Q1: What is the difference between host-read and programmatic podcast advertising?","acceptedAnswer":{"@type":"Answer","text":"A1: Host-read podcast ads are recorded by the show's host in their own voice and embedded permanently into the episode, carrying an implicit trust endorsement but limited to show-level targeting and requiring 4-12 weeks of production lead time. Programmatic podcast ads use dynamic ad insertion to drop a pre-produced audio spot into an episode at the moment of streaming, enabling demographic, geographic, and retargeting capabilities at scale across thousands of shows, but without the host's personal endorsement. Host-read typically commands $20-$50 CPM versus $15-$30 CPM for programmatic, reflecting the value of the host's credibility."}},{"@type":"Question","name":"Q2: How much does podcast advertising cost for luxury brands?","acceptedAnswer":{"@type":"Answer","text":"A2: Podcast advertising costs vary significantly by format and show tier. Host-read placements on well-matched, high-engagement shows typically range from $20-$50 CPM, with top-tier business and finance shows commanding the higher end of that range due to audience affluence. Programmatic podcast advertising, purchased through demand-side platforms with dynamic ad insertion, typically ranges from $15-$30 CPM. For luxury brands, the relevant comparison isn't CPM alone but cost-per-qualified-listener - a higher CPM on a tightly-matched audience often produces better economics than a lower CPM on a loosely-matched, high-volume show."}},{"@type":"Question","name":"Q3: Which podcast genres reach the most affluent audiences?","acceptedAnswer":{"@type":"Answer","text":"A3: Business and finance, technology and innovation, long-form news and current affairs, and niche hobbyist categories like golf, sailing, and aviation consistently over-index on listeners with high household incomes and professional seniority, according to Edison Research's Infinite Dial study. Food, wine, and culinary culture podcasts also reach affluent audiences, particularly shows focused on fine dining and culinary travel. Genre popularity and audience affluence are not the same thing - a smaller finance podcast can deliver a higher concentration of high-net-worth listeners than a much larger general-interest show."}},{"@type":"Question","name":"Q4: How do you measure ROI from podcast advertising?","acceptedAnswer":{"@type":"Answer","text":"A4: For host-read campaigns, measurement relies on unique promo codes per show, vanity URLs, post-campaign brand lift surveys comparing exposed versus control audiences, and branded search lift analysis. For programmatic campaigns, measurement uses pixel-based attribution matching device IDs to website conversions, incrementality testing through geo-holdouts that suppress podcast ads in select markets, and cross-channel deduplication against other audio and video buys. Luxury brands should expect podcast advertising's primary value to show up as consideration-stage influence in multi-touch attribution models, not as immediate last-click conversions."}},{"@type":"Question","name":"Q5: Is podcast advertising brand safe for luxury and premium brands?","acceptedAnswer":{"@type":"Answer","text":"A5: Podcast advertising can be highly brand safe when proper review processes are followed, but it requires more manual diligence than programmatic display because a host's editorial opinions and tone become directly associated with any brand they endorse. For host-read placements, brand safety review should include listening to recent episodes, auditing the host's public social media commentary, and reviewing sponsorship history. For programmatic placements, category exclusion lists, keyword blocklists, and supply path optimization through verified marketplaces are essential - the same brand safety toolkit used in programmatic display and video advertising."}}]}],
   }
 
   return (
@@ -85,14 +85,14 @@ export default function PodcastAdvertisingLuxuryBrandsPage() {
       readingTime="10 min"
       category="Streaming Audio"
       image="/images/podcast-advertising-luxury-brands.png"
-      imageAlt="Stillwater Media podcast advertising for luxury brands — affluent listener wearing premium headphones engaged with long-form audio content in a refined home setting"
-      imageCaption="Podcast advertising reaches luxury buyers in their most attentive, distraction-free moments — and the format you choose determines whether that attention converts."
+      imageAlt="Stillwater Media podcast advertising for luxury brands - affluent listener wearing premium headphones engaged with long-form audio content in a refined home setting"
+      imageCaption="Podcast advertising reaches luxury buyers in their most attentive, distraction-free moments - and the format you choose determines whether that attention converts."
       schemaMarkup={schemaMarkup}
     >
       <p>
         Podcast advertising for luxury brands occupies an unusual position in the media landscape: it is simultaneously
-        one of the oldest direct-response formats in digital media — host-read endorsements have existed since
-        podcasting's earliest days — and one of the fastest-growing programmatic categories, with dynamic ad insertion
+        one of the oldest direct-response formats in digital media - host-read endorsements have existed since
+        podcasting's earliest days - and one of the fastest-growing programmatic categories, with dynamic ad insertion
         now available across thousands of shows. For a luxury brand, this creates a real strategic decision that most
         media plans gloss over: do you buy a host's voice, or do you buy an audience?
       </p>
@@ -111,16 +111,16 @@ export default function PodcastAdvertisingLuxuryBrandsPage() {
       <p>
         Podcast listening skews toward exactly the demographic luxury brands are trying to reach. According to Edison
         Research's Infinite Dial study, podcast listeners over-index on household income, education level, and
-        professional seniority compared to the general population — a pattern that has held consistently for years.
+        professional seniority compared to the general population - a pattern that has held consistently for years.
         Roughly 4 in 10 monthly podcast listeners in the US report household incomes above $75,000, and the share climbs
-        further among listeners of business, finance, technology, and culture-focused shows — exactly the categories
+        further among listeners of business, finance, technology, and culture-focused shows - exactly the categories
         where private aviation, wealth management, and luxury automotive brands find natural fit.
       </p>
 
       <p>
         Beyond demographics, the format itself produces a different kind of attention than most digital channels.
-        Podcast listening is overwhelmingly a single-tasking or near-single-tasking activity — commuting, working out,
-        doing chores — which means the audio channel doesn't compete with a feed of visual stimuli the way social or
+        Podcast listening is overwhelmingly a single-tasking or near-single-tasking activity - commuting, working out,
+        doing chores - which means the audio channel doesn't compete with a feed of visual stimuli the way social or
         display does. Nielsen's audio research has consistently found that podcast ads achieve higher message recall
         than most digital video formats, in part because the listener's visual attention isn't divided.
       </p>
@@ -135,13 +135,13 @@ export default function PodcastAdvertisingLuxuryBrandsPage() {
         </li>
         <li>
           <strong>Long-form context.</strong> Podcast episodes run 30 minutes to 2+ hours. That length allows for ad
-          reads that explain a product's value proposition in 60-90 seconds — far more than the 6-15 second windows
+          reads that explain a product's value proposition in 60-90 seconds - far more than the 6-15 second windows
           available in CTV or social video.
         </li>
         <li>
-          <strong>Niche concentration.</strong> Podcasts let brands buy into extremely specific audience niches — a
+          <strong>Niche concentration.</strong> Podcasts let brands buy into extremely specific audience niches - a
           show about single malt scotch, a show about general aviation, a show about portfolio construction for
-          high-net-worth investors — at a level of topical precision that's difficult to replicate at scale in other
+          high-net-worth investors - at a level of topical precision that's difficult to replicate at scale in other
           channels.
         </li>
       </ul>
@@ -203,7 +203,7 @@ export default function PodcastAdvertisingLuxuryBrandsPage() {
           </tr>
           <tr>
             <td>Brand safety control</td>
-            <td>High — full visibility into show and host before buying</td>
+            <td>High - full visibility into show and host before buying</td>
             <td>Requires exclusion lists and category controls</td>
           </tr>
           <tr>
@@ -225,7 +225,7 @@ export default function PodcastAdvertisingLuxuryBrandsPage() {
         Host-read advertising is sold directly by networks or through host-specific ad sales representatives (Podcast
         One, Westwood One, and many independent shows manage this in-house). The brand provides a set of talking points,
         key messages, and often a promo code or unique URL for tracking. The host then reads the ad in their own voice
-        and style — sometimes scripted closely, sometimes given creative latitude to weave the read into their natural
+        and style - sometimes scripted closely, sometimes given creative latitude to weave the read into their natural
         cadence.
       </p>
 
@@ -241,7 +241,7 @@ export default function PodcastAdvertisingLuxuryBrandsPage() {
           management firm, a golf podcast for a golf equipment brand)
         </li>
         <li>
-          The brand has a story that benefits from narrative explanation — not just a product feature, but a "why this
+          The brand has a story that benefits from narrative explanation - not just a product feature, but a "why this
           matters" case
         </li>
         <li>
@@ -254,7 +254,7 @@ export default function PodcastAdvertisingLuxuryBrandsPage() {
 
       <p>
         Programmatic podcast advertising uses dynamic ad insertion (DAI) technology to drop a pre-produced audio ad into
-        an episode at the moment it's streamed or downloaded — meaning the same episode can serve different ads to
+        an episode at the moment it's streamed or downloaded - meaning the same episode can serve different ads to
         different listeners based on their location, device, and audience segment membership. This is functionally
         similar to programmatic display or video: brands buy through demand-side platforms (DSPs) that have integrated
         podcast supply, set targeting parameters, and the ad is inserted algorithmically.
@@ -264,19 +264,19 @@ export default function PodcastAdvertisingLuxuryBrandsPage() {
 
       <ul>
         <li>
-          <strong>Geographic targeting</strong> — serving a private club's ad only to listeners within driving distance
+          <strong>Geographic targeting</strong> - serving a private club's ad only to listeners within driving distance
           of the club
         </li>
         <li>
-          <strong>Retargeting</strong> — serving podcast ads to website visitors who didn't convert, using the same
+          <strong>Retargeting</strong> - serving podcast ads to website visitors who didn't convert, using the same
           identity graphs used in CTV and display
         </li>
         <li>
-          <strong>Frequency management</strong> — controlling how often a given listener hears the ad across the entire
+          <strong>Frequency management</strong> - controlling how often a given listener hears the ad across the entire
           podcast buy, not just within a single show
         </li>
         <li>
-          <strong>Scaled reach</strong> — accessing inventory across thousands of shows without negotiating individual
+          <strong>Scaled reach</strong> - accessing inventory across thousands of shows without negotiating individual
           host-read deals
         </li>
       </ul>
@@ -298,26 +298,26 @@ export default function PodcastAdvertisingLuxuryBrandsPage() {
 
       <ul>
         <li>
-          <strong>Business and finance</strong> — investing, entrepreneurship, market analysis shows attract listeners
+          <strong>Business and finance</strong> - investing, entrepreneurship, market analysis shows attract listeners
           actively managing significant assets
         </li>
         <li>
-          <strong>Technology and innovation</strong> — skews toward higher income, early-adopter professionals
+          <strong>Technology and innovation</strong> - skews toward higher income, early-adopter professionals
         </li>
         <li>
-          <strong>News and current affairs (long-form)</strong> — particularly shows aimed at policy, economics, and
+          <strong>News and current affairs (long-form)</strong> - particularly shows aimed at policy, economics, and
           global affairs
         </li>
         <li>
-          <strong>Golf, sailing, and aviation</strong> — niche hobbyist content with naturally affluent audiences due
+          <strong>Golf, sailing, and aviation</strong> - niche hobbyist content with naturally affluent audiences due
           to the cost barriers of the activities themselves
         </li>
         <li>
-          <strong>Food, wine, and culinary culture</strong> — particularly shows focused on fine dining, wine
+          <strong>Food, wine, and culinary culture</strong> - particularly shows focused on fine dining, wine
           collecting, and culinary travel
         </li>
         <li>
-          <strong>True crime and narrative documentary</strong> — broadly popular but useful when paired with
+          <strong>True crime and narrative documentary</strong> - broadly popular but useful when paired with
           demographic targeting layers in programmatic buys, since raw genre popularity alone doesn't guarantee
           affluent reach
         </li>
@@ -327,7 +327,7 @@ export default function PodcastAdvertisingLuxuryBrandsPage() {
         The key insight for luxury media planners: genre popularity and audience affluence are not the same thing. A
         true crime podcast with 2 million downloads per episode may have a lower concentration of high-net-worth
         listeners than a finance podcast with 80,000 downloads. For brands where customer LTV exceeds $5,000, the
-        smaller, more concentrated audience is almost always the better buy — even at a higher effective CPM.
+        smaller, more concentrated audience is almost always the better buy - even at a higher effective CPM.
       </p>
 
       <hr className="my-8" />
@@ -337,7 +337,7 @@ export default function PodcastAdvertisingLuxuryBrandsPage() {
       <p>
         Brand safety in podcast advertising operates differently than in programmatic display or video, but the stakes
         are arguably higher. A host's editorial opinions, tone, and the topics they cover become associated with any
-        brand whose ad runs during that episode — and unlike a programmatic display impression that disappears in
+        brand whose ad runs during that episode - and unlike a programmatic display impression that disappears in
         milliseconds, a podcast ad read is embedded in an episode that may be downloaded and listened to for years.
       </p>
 
@@ -345,22 +345,22 @@ export default function PodcastAdvertisingLuxuryBrandsPage() {
 
       <ul>
         <li>
-          <strong>Editorial review of recent episodes</strong> — listening to (or having a media partner review)
+          <strong>Editorial review of recent episodes</strong> - listening to (or having a media partner review)
           several recent episodes to confirm tone, language standards, and subject matter align with brand values
         </li>
         <li>
-          <strong>Host social media audit</strong> — a host's public commentary outside the podcast itself can create
+          <strong>Host social media audit</strong> - a host's public commentary outside the podcast itself can create
           reputational association even if the show content itself is unobjectionable
         </li>
         <li>
-          <strong>Sponsorship history review</strong> — understanding what other brands have advertised on the show,
+          <strong>Sponsorship history review</strong> - understanding what other brands have advertised on the show,
           and whether any conflicts or category exclusivity issues exist
         </li>
       </ul>
 
       <p>
         For programmatic placements, brand safety requires the same category exclusion and keyword blocklist tools used
-        in programmatic display and video — plus podcast-specific considerations like excluding shows below a minimum
+        in programmatic display and video - plus podcast-specific considerations like excluding shows below a minimum
         production quality threshold, and using supply path optimization to buy only through verified, transparent
         marketplaces rather than unvetted open exchanges.
       </p>
@@ -370,7 +370,7 @@ export default function PodcastAdvertisingLuxuryBrandsPage() {
       <h2>Measuring Podcast Advertising ROI</h2>
 
       <p>
-        Podcast measurement has historically been podcasting's biggest weakness relative to digital channels — and it
+        Podcast measurement has historically been podcasting's biggest weakness relative to digital channels - and it
         remains an area where expectations need to be calibrated correctly.
       </p>
 
@@ -385,7 +385,7 @@ export default function PodcastAdvertisingLuxuryBrandsPage() {
           Post-campaign brand lift surveys, measuring awareness and consideration shifts among the show's audience
           versus a control group
         </li>
-        <li>Search lift analysis — measuring increases in branded search volume during and after the campaign flight</li>
+        <li>Search lift analysis - measuring increases in branded search volume during and after the campaign flight</li>
       </ul>
 
       <p>
@@ -409,7 +409,7 @@ export default function PodcastAdvertisingLuxuryBrandsPage() {
         typically drive a 3-8% lift in branded search volume during the flight, with effects often persisting for 1-2
         weeks post-campaign due to the format's high recall properties. Programmatic campaigns, when properly targeted,
         typically achieve 0.5-1.5% click-through-to-landing-page rates from listeners who engage with companion display
-        or QR elements — though podcast advertising's primary value for luxury brands is rarely direct response; it's
+        or QR elements - though podcast advertising's primary value for luxury brands is rarely direct response; it's
         consideration-stage influence that shows up in attribution models weeks later.
       </p>
 
@@ -427,7 +427,7 @@ export default function PodcastAdvertisingLuxuryBrandsPage() {
       <p>
         <strong>Skipping the host audit.</strong> Brands that buy host-read inventory purely on download numbers,
         without reviewing how the host actually presents sponsor content, frequently end up with reads that feel
-        disconnected from the brand's positioning — undermining the trust-transfer effect that makes host-read valuable
+        disconnected from the brand's positioning - undermining the trust-transfer effect that makes host-read valuable
         in the first place.
       </p>
 
@@ -440,7 +440,7 @@ export default function PodcastAdvertisingLuxuryBrandsPage() {
       <p>
         <strong>Ignoring frequency across the portfolio.</strong> Brands running podcast campaigns across multiple shows
         without frequency coordination can inadvertently over-saturate listeners who subscribe to multiple shows within
-        the same network — particularly common with business and finance podcast networks that share significant
+        the same network - particularly common with business and finance podcast networks that share significant
         audience overlap.
       </p>
 
@@ -452,23 +452,23 @@ export default function PodcastAdvertisingLuxuryBrandsPage() {
 
       <ul>
         <li>
-          <strong>Audience-first show selection</strong> — we prioritize audience composition data (income, professional
+          <strong>Audience-first show selection</strong> - we prioritize audience composition data (income, professional
           category, purchase intent signals) over raw download counts when evaluating show inventory
         </li>
         <li>
-          <strong>Format matching to objective</strong> — host-read for brand affinity and category education;
+          <strong>Format matching to objective</strong> - host-read for brand affinity and category education;
           programmatic for retargeting, geographic precision, and scaled awareness
         </li>
         <li>
-          <strong>Brand safety review on every host-read placement</strong> — episode review, host audit, and
+          <strong>Brand safety review on every host-read placement</strong> - episode review, host audit, and
           sponsorship history check before any commitment
         </li>
         <li>
-          <strong>Coordinated frequency management</strong> — podcast buys are planned alongside CTV and streaming audio
+          <strong>Coordinated frequency management</strong> - podcast buys are planned alongside CTV and streaming audio
           to manage total audio/video frequency at the household level
         </li>
         <li>
-          <strong>Layered measurement</strong> — promo codes and vanity URLs for host-read; pixel-based and
+          <strong>Layered measurement</strong> - promo codes and vanity URLs for host-read; pixel-based and
           incrementality measurement for programmatic; search lift tracking across both
         </li>
       </ul>
@@ -478,13 +478,13 @@ export default function PodcastAdvertisingLuxuryBrandsPage() {
       <h2>Ready to Add Podcast Advertising to Your Media Mix?</h2>
 
       <p>
-        Podcast advertising for luxury brands works best when it's treated as a precision instrument — matched to
+        Podcast advertising for luxury brands works best when it's treated as a precision instrument - matched to
         specific audience niches and measured with the same rigor as the rest of a performance media program, not
         bought as an afterthought "brand awareness" line item.
       </p>
 
       <p>
-        Stillwater Media plans and executes podcast campaigns — host-read and programmatic — as part of integrated audio
+        Stillwater Media plans and executes podcast campaigns - host-read and programmatic - as part of integrated audio
         strategies for luxury and high-consideration brands.
       </p>
 

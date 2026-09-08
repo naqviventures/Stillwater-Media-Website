@@ -4,7 +4,7 @@ import IndustriesHub from "@/components/industries-hub"
 export const metadata: Metadata = {
   title: "Industries | Luxury & High-Consideration Media | Stillwater",
   description:
-    "Stillwater Media builds programmatic media for categories with high customer lifetime value and long consideration cycles — private aviation, wealth management, luxury real estate, automotive, private clubs and luxury goods.",
+    "Stillwater Media builds programmatic media for categories with high customer lifetime value and long consideration cycles - private aviation, wealth management, luxury real estate, automotive, private clubs and luxury goods.",
   alternates: {
     canonical: "https://www.stillwatermedia.io/industries",
   },

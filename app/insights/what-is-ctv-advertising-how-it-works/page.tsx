@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: "What Is CTV Advertising and How Does It Work? A Plain-English Guide",
     description:
-      "A strategist's guide to connected TV advertising — what CTV is, how connected TV ads are bought and targeted, the formats and platforms involved, what it costs, how it differs from linear TV, and how brands measure it.",
+      "A strategist's guide to connected TV advertising - what CTV is, how connected TV ads are bought and targeted, the formats and platforms involved, what it costs, how it differs from linear TV, and how brands measure it.",
     type: "article",
     url: "https://www.stillwatermedia.io/insights/what-is-ctv-advertising-how-it-works",
     images: [
@@ -37,13 +37,13 @@ export default function WhatIsCtvAdvertisingHowItWorksPage() {
     "@type": "Article",
     headline: "What Is CTV Advertising and How Does It Work? A Plain-English Guide",
     description:
-      "A strategist's guide to connected TV advertising — what CTV advertising is, how connected TV ads are bought, targeted, and served, the platforms and formats involved, how CTV differs from linear TV and OTT, what it costs, common mistakes, and how brands measure CTV beyond the click.",
+      "A strategist's guide to connected TV advertising - what CTV advertising is, how connected TV ads are bought, targeted, and served, the platforms and formats involved, how CTV differs from linear TV and OTT, what it costs, common mistakes, and how brands measure CTV beyond the click.",
     image: {
       "@type": "ImageObject",
       url: "https://www.stillwatermedia.io/images/what-is-ctv-advertising-how-it-works.png",
       width: 1200,
       height: 630,
-      caption: "What CTV advertising is and how it works — Stillwater Media",
+      caption: "What CTV advertising is and how it works - Stillwater Media",
     },
     author: {
       "@type": "Organization",
@@ -99,7 +99,7 @@ export default function WhatIsCtvAdvertisingHowItWorksPage() {
             name: "What is CTV advertising?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "CTV (connected TV) advertising is the practice of delivering television commercials through internet-connected devices that stream video — smart TVs, Roku, Amazon Fire TV, Apple TV, and consoles — and buying them with the targeting, flexibility, and measurement of digital rather than the blunt demographics of broadcast. The ad travels over the internet to a specific device, so it can be targeted and measured for each household.",
+              text: "CTV (connected TV) advertising is the practice of delivering television commercials through internet-connected devices that stream video - smart TVs, Roku, Amazon Fire TV, Apple TV, and consoles - and buying them with the targeting, flexibility, and measurement of digital rather than the blunt demographics of broadcast. The ad travels over the internet to a specific device, so it can be targeted and measured for each household.",
             },
           },
           {
@@ -107,7 +107,7 @@ export default function WhatIsCtvAdvertisingHowItWorksPage() {
             name: "How does CTV advertising work?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "The advertiser defines a target audience, selects premium streaming inventory through private marketplace or direct deals, and — when a matching household starts or pauses a stream — wins the impression through a real-time programmatic auction or a negotiated deal. The winning ad is stitched into the stream and delivered full-screen to that specific device, then impressions, completions, and downstream outcomes are measured back to the exposed households.",
+              text: "The advertiser defines a target audience, selects premium streaming inventory through private marketplace or direct deals, and - when a matching household starts or pauses a stream - wins the impression through a real-time programmatic auction or a negotiated deal. The winning ad is stitched into the stream and delivered full-screen to that specific device, then impressions, completions, and downstream outcomes are measured back to the exposed households.",
             },
           },
           {
@@ -115,7 +115,7 @@ export default function WhatIsCtvAdvertisingHowItWorksPage() {
             name: "How is CTV different from OTT and linear TV?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "CTV describes the device — an internet-connected television. OTT describes the delivery method — video delivered over the top of cable, on any device including phones and laptops. A CTV ad is always OTT, but an OTT ad is not always CTV. Linear TV is the traditional broadcast and cable schedule bought by network and daypart against broad demographics, without household-level targeting or precise frequency control.",
+              text: "CTV describes the device - an internet-connected television. OTT describes the delivery method - video delivered over the top of cable, on any device including phones and laptops. A CTV ad is always OTT, but an OTT ad is not always CTV. Linear TV is the traditional broadcast and cable schedule bought by network and daypart against broad demographics, without household-level targeting or precise frequency control.",
             },
           },
           {
@@ -148,15 +148,15 @@ export default function WhatIsCtvAdvertisingHowItWorksPage() {
       category="CTV & Streaming"
       image="/images/what-is-ctv-advertising-how-it-works.png"
       imageAlt="Stillwater Media guide illustration explaining what CTV advertising is and how it works showing a large premium connected television glowing softly in a refined living room at dusk representing connected TV advertising for affluent households"
-      imageCaption="CTV advertising delivers a full-screen television commercial through an internet-connected streaming device — bought, targeted, and measured with the precision of digital."
+      imageCaption="CTV advertising delivers a full-screen television commercial through an internet-connected streaming device - bought, targeted, and measured with the precision of digital."
       schemaMarkup={schemaMarkup}
     >
       <p>
-        CTV advertising — short for connected TV advertising — is the practice of delivering television commercials
+        CTV advertising - short for connected TV advertising - is the practice of delivering television commercials
         through internet-connected devices that stream video, such as smart TVs, Roku, Amazon Fire TV, Apple TV, and
         gaming consoles, and buying those commercials with the targeting, flexibility, and measurement of digital rather
         than the blunt demographics of broadcast. In plain terms, it is what happens when the thirty-second TV spot leaves
-        the cable box and moves onto the big screen through apps like Disney+, Netflix, Hulu, Peacock, and Prime Video —
+        the cable box and moves onto the big screen through apps like Disney+, Netflix, Hulu, Peacock, and Prime Video -
         and, in the move, becomes addressable to a specific household rather than sprayed at everyone watching a given
         channel at a given time. That single shift, from &quot;who happens to be watching this program&quot; to &quot;this
         specific household we chose,&quot; is the reason CTV advertising has become the fastest-growing premium video
@@ -168,7 +168,7 @@ export default function WhatIsCtvAdvertisingHowItWorksPage() {
         often from sophisticated marketers new to the channel is deceptively simple: what is CTV advertising, and how does
         it actually work under the hood? The concept is easy to state and easy to misunderstand, because CTV borrows
         vocabulary from both traditional television and digital advertising while behaving like neither. This guide answers
-        the question completely — what CTV is, how a connected TV ad is bought and served, how it is targeted, what it
+        the question completely - what CTV is, how a connected TV ad is bought and served, how it is targeted, what it
         costs, how it differs from linear TV and OTT, the mistakes that waste budget, and how the channel is measured.
       </p>
 
@@ -177,7 +177,7 @@ export default function WhatIsCtvAdvertisingHowItWorksPage() {
       <h2>What CTV Advertising Actually Is</h2>
 
       <p>
-        Connected TV refers to any television set connected to the internet and capable of streaming video — either a
+        Connected TV refers to any television set connected to the internet and capable of streaming video - either a
         smart TV with built-in apps or a conventional TV paired with a streaming device or console. CTV advertising is the
         video advertising served inside the streaming content on those devices. The defining characteristic is not the
         screen size but the delivery path: the ad travels over the internet to a specific device, which means it can be
@@ -187,12 +187,12 @@ export default function WhatIsCtvAdvertisingHowItWorksPage() {
 
       <p>
         It helps to separate three terms that are often used interchangeably and shouldn&apos;t be. <strong>CTV</strong>{" "}
-        describes the device — the internet-connected television. <strong>OTT</strong>, or over-the-top, describes the
-        delivery method — video content delivered &quot;over the top&quot; of traditional cable and satellite, whether
+        describes the device - the internet-connected television. <strong>OTT</strong>, or over-the-top, describes the
+        delivery method - video content delivered &quot;over the top&quot; of traditional cable and satellite, whether
         watched on a TV, laptop, tablet, or phone. <strong>Streaming</strong> is the everyday word for the experience. A
         CTV ad is always OTT, but an OTT ad is not always CTV; an ad shown in a streaming app on a phone is OTT but not
-        connected TV. For a premium brand, the distinction matters because the CTV impression — full screen, in the living
-        room, with the sound on and no ad-skipping — is the highest-attention video impression in the digital ecosystem.
+        connected TV. For a premium brand, the distinction matters because the CTV impression - full screen, in the living
+        room, with the sound on and no ad-skipping - is the highest-attention video impression in the digital ecosystem.
       </p>
 
       <hr className="my-8" />
@@ -207,7 +207,7 @@ export default function WhatIsCtvAdvertisingHowItWorksPage() {
       <ol>
         <li>
           <strong>Audience definition.</strong> Rather than choosing a network and daypart, the advertiser defines a
-          target audience — for a luxury brand, typically an affluent household segment built from first-party data,
+          target audience - for a luxury brand, typically an affluent household segment built from first-party data,
           deterministic wealth signals, and intent data.
         </li>
         <li>
@@ -222,7 +222,7 @@ export default function WhatIsCtvAdvertisingHowItWorksPage() {
         </li>
         <li>
           <strong>Ad decisioning and delivery.</strong> The winning ad is stitched into the stream and delivered to that
-          specific device, so two households watching the same show can see two entirely different commercials — the
+          specific device, so two households watching the same show can see two entirely different commercials - the
           essence of addressable television.
         </li>
         <li>
@@ -230,8 +230,8 @@ export default function WhatIsCtvAdvertisingHowItWorksPage() {
           thirty-second spot, in a lean-back environment with the sound on.
         </li>
         <li>
-          <strong>Measurement.</strong> The impression, completion, and downstream signals — site visits, branded search,
-          inquiries, conversions — are captured and tied back to the exposed households, closing a measurement loop that
+          <strong>Measurement.</strong> The impression, completion, and downstream signals - site visits, branded search,
+          inquiries, conversions - are captured and tied back to the exposed households, closing a measurement loop that
           linear TV never had.
         </li>
       </ol>
@@ -249,7 +249,7 @@ export default function WhatIsCtvAdvertisingHowItWorksPage() {
 
       <p>
         Targeting is where connected TV advertising decisively separates itself from broadcast. Linear TV buys an
-        approximation — &quot;adults 25–54 watching this network&quot; — and hopes the right people are in the room. CTV
+        approximation - &quot;adults 25–54 watching this network&quot; - and hopes the right people are in the room. CTV
         buys the household directly. The most valuable targeting layers for a premium brand are:
       </p>
 
@@ -264,7 +264,7 @@ export default function WhatIsCtvAdvertisingHowItWorksPage() {
         </li>
         <li>
           <strong>Behavioral and intent signals.</strong> Households showing in-market behavior for a relevant
-          high-consideration category — private aviation, luxury real estate, wealth management — layered on top of the
+          high-consideration category - private aviation, luxury real estate, wealth management - layered on top of the
           affluence filter.
         </li>
         <li>
@@ -280,7 +280,7 @@ export default function WhatIsCtvAdvertisingHowItWorksPage() {
       <p>
         Because these layers combine, a luxury advertiser can do something impossible on cable: buy the intersection of
         &quot;affluent household,&quot; &quot;in-market for our category,&quot; and &quot;resembles our best customers&quot;
-        — and then cap the number of times each household sees the ad. That precision is why CTV advertising for
+        - and then cap the number of times each household sees the ad. That precision is why CTV advertising for
         high-net-worth consumers has become a cornerstone of premium media plans.
       </p>
 
@@ -355,8 +355,8 @@ export default function WhatIsCtvAdvertisingHowItWorksPage() {
       </table>
 
       <p>
-        The row that matters most for a high-consideration brand is targeting. Linear TV&apos;s waste — paying to reach
-        millions of households that will never buy a $90,000 watch or charter a jet — is exactly what CTV eliminates by
+        The row that matters most for a high-consideration brand is targeting. Linear TV&apos;s waste - paying to reach
+        millions of households that will never buy a $90,000 watch or charter a jet - is exactly what CTV eliminates by
         buying the household rather than the program. The second most important row is frequency control: CTV lets a brand
         cap exposure across every app and publisher in the plan, so the same affluent household is not bombarded.
       </p>
@@ -368,7 +368,7 @@ export default function WhatIsCtvAdvertisingHowItWorksPage() {
       <p>
         CTV carries a premium CPM (cost per thousand impressions), and understanding why is essential to budgeting the
         channel honestly. Premium connected TV inventory typically runs <strong>$25–$50 CPM</strong>, with the most
-        sought-after supply — major streaming platforms, live sports, and tightly targeted affluent audiences — reaching{" "}
+        sought-after supply - major streaming platforms, live sports, and tightly targeted affluent audiences - reaching{" "}
         <strong>$50 or higher</strong>. Broader, less-curated ad-supported streaming inventory can be found at lower rates,
         but for a luxury brand the premium tiers are usually the right buy. By comparison, prime-time linear TV can look
         cheaper on a raw CPM basis, but that comparison is misleading: linear&apos;s low CPM buys enormous waste, while
@@ -386,7 +386,7 @@ export default function WhatIsCtvAdvertisingHowItWorksPage() {
       <ul>
         <li>
           <strong>Treating CTV like linear.</strong> Buying broad reach and ignoring the channel&apos;s targeting and
-          frequency controls surrenders the entire advantage — a brand ends up paying premium CPMs for broadcast-style
+          frequency controls surrenders the entire advantage - a brand ends up paying premium CPMs for broadcast-style
           waste.
         </li>
         <li>
@@ -406,14 +406,14 @@ export default function WhatIsCtvAdvertisingHowItWorksPage() {
 
       <p>
         Because a connected TV ad is a lean-back, full-screen experience, it does its work on attention and consideration,
-        not immediate clicks — so measuring it by last-click attribution guarantees it will look weaker than it is. Serious
+        not immediate clicks - so measuring it by last-click attribution guarantees it will look weaker than it is. Serious
         CTV measurement uses four methods in combination. <strong>View-through analysis</strong> connects households exposed
         to the CTV ad with subsequent site visits, branded searches, and conversions, capturing influence that never
         produced a click. <strong>Brand lift studies</strong> survey matched exposed and unexposed audiences to isolate
         shifts in awareness, consideration, and favorability. <strong>Incrementality and holdout testing</strong> withholds
         CTV from a matched control group or geography and measures the true causal lift in qualified inquiries and sales.
-        And <strong>completion and quality metrics</strong> — video completion rate, verified household reach, frequency
-        distribution, and invalid-traffic rates — confirm the impressions were genuine, full, and delivered to the right
+        And <strong>completion and quality metrics</strong> - video completion rate, verified household reach, frequency
+        distribution, and invalid-traffic rates - confirm the impressions were genuine, full, and delivered to the right
         screens.
       </p>
 
@@ -424,11 +424,11 @@ export default function WhatIsCtvAdvertisingHowItWorksPage() {
       <p>
         The strategic case for CTV is simple: the affluent audiences luxury brands most want to reach have largely
         abandoned traditional television, and CTV is where their attention went. Connected TV delivers the emotional power
-        and full-screen impact of a television commercial — the medium best suited to building a premium brand — while
+        and full-screen impact of a television commercial - the medium best suited to building a premium brand - while
         adding the household-level targeting, frequency control, and measurement of digital. It is the rare channel that is
         simultaneously a brand-building medium and a measurable performance one, which is precisely what a high-consideration
         brand with long sales cycles and high lifetime value needs. Understood correctly, CTV advertising is not
-        &quot;digital video&quot; and it is not &quot;TV on the internet&quot;; it is addressable television — the first
+        &quot;digital video&quot; and it is not &quot;TV on the internet&quot;; it is addressable television - the first
         version of TV a brand can aim, cap, and prove.
       </p>
 

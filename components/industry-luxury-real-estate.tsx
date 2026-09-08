@@ -2,7 +2,7 @@ import IndustryPageLayout, { type IndustryContent, type ProofEntry } from "@/com
 
 // Proof entries are added only after written client approval covering the
 // metric, the time period, the measurement method, and the anonymised
-// description. Empty array renders nothing — that is intended.
+// description. Empty array renders nothing - that is intended.
 const proof: ProofEntry[] = []
 
 export const content: IndustryContent = {
@@ -44,19 +44,19 @@ export const content: IndustryContent = {
       "The job is to be present in the buyer's world before the property search begins, then to be findable and persuasive once it does. That means building demand outside the local market and capturing it wherever the buyer happens to be.",
     items: [
       {
-        h3: "CTV and premium video — feeder-market demand",
+        h3: "CTV and premium video - feeder-market demand",
         body: "Streaming inventory against modelled high-net-worth households in the markets buyers actually relocate from, not only the DMA the property sits in. This is where out-of-market demand is created.",
       },
       {
-        h3: "Programmatic display and native — lifestyle to listing",
+        h3: "Programmatic display and native - lifestyle to listing",
         body: "Creative sequenced from the life the property offers toward the property itself. Leading with a listing to a cold audience asks for a decision before there is any reason to make one.",
       },
       {
-        h3: "Geo-fenced and out-of-home — where it earns its place",
+        h3: "Geo-fenced and out-of-home - where it earns its place",
         body: "Against relevant physical locations when the catchment genuinely justifies it. Used deliberately and sparingly, not as a default line item.",
       },
       {
-        h3: "Retargeting — toward an appointment",
+        h3: "Retargeting - toward an appointment",
         body: "Warm audiences driven to a private appointment or a personal enquiry, not to a brochure download. In this category the brochure is the end of the conversation, not the beginning.",
       },
     ],
@@ -77,7 +77,7 @@ export const content: IndustryContent = {
       },
       {
         h3: "Relocation and second-home signals",
-        body: "Movement, seasonal residence and second-property behaviour — the difference between a wealthy household and a wealthy household with a reason to buy.",
+        body: "Movement, seasonal residence and second-property behaviour - the difference between a wealthy household and a wealthy household with a reason to buy.",
       },
       {
         h3: "Luxury travel and hospitality behaviour",
@@ -93,7 +93,7 @@ export const content: IndustryContent = {
     ],
     linkedParagraph: {
       before:
-        "Because the transaction cycle is long and lumpy, we also insist on a measurement window long enough to contain a closing. Judging a luxury property campaign on a single month is how good campaigns get cancelled one month before they work — which is the argument we make on ",
+        "Because the transaction cycle is long and lumpy, we also insist on a measurement window long enough to contain a closing. Judging a luxury property campaign on a single month is how good campaigns get cancelled one month before they work - which is the argument we make on ",
       linkText: "every engagement",
       href: "/capabilities",
       after: ".",

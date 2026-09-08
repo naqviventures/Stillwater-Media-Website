@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Affluent Demographic Advertising Strategy: How to Build a Media Plan Around Wealth",
     description:
-      "A senior media strategist's framework for affluent demographic advertising strategy — why demographic-only affluent plans underperform, the four inputs that should govern budget allocation, channel mix benchmarks by funnel stage, creative rules that hold up in front of wealthy audiences, flighting against 60–180 day consideration windows, and the measurement stack required to prove any of it worked.",
+      "A senior media strategist's framework for affluent demographic advertising strategy - why demographic-only affluent plans underperform, the four inputs that should govern budget allocation, channel mix benchmarks by funnel stage, creative rules that hold up in front of wealthy audiences, flighting against 60–180 day consideration windows, and the measurement stack required to prove any of it worked.",
     type: "article",
     url: canonicalUrl,
     images: [
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
         url: imagePath,
         width: 1200,
         height: 630,
-        alt: "Affluent demographic advertising strategy — Stillwater Media",
+        alt: "Affluent demographic advertising strategy - Stillwater Media",
       },
     ],
     locale: "en_US",
@@ -43,13 +43,13 @@ const schemaMarkup = {
       "@type": "Article",
       headline: "Affluent Demographic Advertising Strategy: How to Build a Media Plan Around Wealth",
       description:
-        "A senior media strategist's framework for building an affluent demographic advertising strategy for luxury and high-consideration brands — why demographic qualification alone produces expensive, poorly converting reach, the four planning inputs that should govern budget allocation, channel mix benchmarks by funnel stage with CPM and engagement ranges, creative and frequency rules for wealthy audiences, flighting against 60 to 180 day consideration windows, common failure modes in inherited plans, and the incrementality-led measurement stack required to validate performance.",
+        "A senior media strategist's framework for building an affluent demographic advertising strategy for luxury and high-consideration brands - why demographic qualification alone produces expensive, poorly converting reach, the four planning inputs that should govern budget allocation, channel mix benchmarks by funnel stage with CPM and engagement ranges, creative and frequency rules for wealthy audiences, flighting against 60 to 180 day consideration windows, common failure modes in inherited plans, and the incrementality-led measurement stack required to validate performance.",
       image: {
         "@type": "ImageObject",
         url: `https://www.stillwatermedia.io${imagePath}`,
         width: 1200,
         height: 630,
-        caption: "Affluent demographic advertising strategy — Stillwater Media",
+        caption: "Affluent demographic advertising strategy - Stillwater Media",
       },
       author: { "@type": "Organization", name: "Stillwater Media" },
       publisher: {
@@ -95,7 +95,7 @@ const schemaMarkup = {
           name: "Is targeting by household income enough to reach affluent consumers?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "No — household income is the weakest widely available wealth signal because it measures how quickly a household earns rather than what it can actually deploy. In the plans we audit, income-only affluent segments typically contain 60–75% households that cannot transact at a luxury price point, which shows up as strong engagement metrics paired with poor lead quality. A stronger definition layers capacity signals such as net worth or property value with demonstrated spending in adjacent luxury categories, then prioritizes by in-category intent.",
+            text: "No - household income is the weakest widely available wealth signal because it measures how quickly a household earns rather than what it can actually deploy. In the plans we audit, income-only affluent segments typically contain 60–75% households that cannot transact at a luxury price point, which shows up as strong engagement metrics paired with poor lead quality. A stronger definition layers capacity signals such as net worth or property value with demonstrated spending in adjacent luxury categories, then prioritizes by in-category intent.",
           },
         },
         {
@@ -103,7 +103,7 @@ const schemaMarkup = {
           name: "How should a luxury brand split its media budget across the funnel?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "A useful starting allocation is 40–55% to awareness and demand creation, 25–35% to consideration, 15–25% to capture, and 5–10% held as a standing testing reserve. The weighting toward the upper funnel exists because only a small share of the qualified universe — often 0.5–2% per quarter in categories like private aviation or luxury real estate — is actively in market at any moment, so a capture-heavy plan runs out of demand to harvest. The capture line should be explicitly capped, since retargeting and branded search absorb budget indefinitely while largely re-buying conversions already in motion.",
+            text: "A useful starting allocation is 40–55% to awareness and demand creation, 25–35% to consideration, 15–25% to capture, and 5–10% held as a standing testing reserve. The weighting toward the upper funnel exists because only a small share of the qualified universe - often 0.5–2% per quarter in categories like private aviation or luxury real estate - is actively in market at any moment, so a capture-heavy plan runs out of demand to harvest. The capture line should be explicitly capped, since retargeting and branded search absorb budget indefinitely while largely re-buying conversions already in motion.",
           },
         },
         {
@@ -119,7 +119,7 @@ const schemaMarkup = {
           name: "How do you measure the ROI of advertising to affluent audiences?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Geo-based holdout testing should be the primary read, because it measures total incremental qualified demand and survives cookie loss, walled gardens, and offline or phone-based conversions. Layer channel-level incrementality tests on retargeting and branded search — the two lines most likely to claim credit for demand that already existed — plus brand lift studies on CTV and audio, and marketing mix modeling once 18–24 months of clean data exists. Report a single blended efficiency metric alongside channel detail so no individual channel can be optimized into looking good while overall business results decline.",
+            text: "Geo-based holdout testing should be the primary read, because it measures total incremental qualified demand and survives cookie loss, walled gardens, and offline or phone-based conversions. Layer channel-level incrementality tests on retargeting and branded search - the two lines most likely to claim credit for demand that already existed - plus brand lift studies on CTV and audio, and marketing mix modeling once 18–24 months of clean data exists. Report a single blended efficiency metric alongside channel detail so no individual channel can be optimized into looking good while overall business results decline.",
           },
         },
       ],
@@ -137,7 +137,7 @@ export default function Page() {
       category="Media Strategy"
       image={imagePath}
       imageAlt="Stillwater Media guide illustration on affluent demographic advertising strategy showing an open brass drafting compass standing on fanned architectural plan sheets on a dark walnut desk"
-      imageCaption="A demographic defines who is eligible to buy — the plan around it decides whether they ever consider you."
+      imageCaption="A demographic defines who is eligible to buy - the plan around it decides whether they ever consider you."
       schemaMarkup={schemaMarkup}
     >
       <p>
@@ -154,7 +154,7 @@ export default function Page() {
       </p>
       <p>
         At Stillwater Media we plan and buy for brands where customer lifetime value exceeds $5,000 and sales cycles run
-        past 30 days — private aviation, luxury real estate, wealth management, private clubs, premium automotive, luxury
+        past 30 days - private aviation, luxury real estate, wealth management, private clubs, premium automotive, luxury
         hospitality, and premium DTC. Nearly every plan we inherit has the same three defects: the audience is defined by
         one weak variable, the budget is allocated by channel habit rather than by funnel stage, and the measurement can't
         distinguish media-driven demand from demand that would have arrived anyway. Here is the framework we use instead.
@@ -176,19 +176,19 @@ export default function Page() {
       <p>A functional affluent demographic advertising strategy layers four inputs rather than one:</p>
       <ol>
         <li>
-          <strong>Capacity</strong> — net worth, investable assets, or property value, which establishes who can plausibly
+          <strong>Capacity</strong> - net worth, investable assets, or property value, which establishes who can plausibly
           buy.
         </li>
         <li>
-          <strong>Category propensity</strong> — demonstrated spending in adjacent luxury categories, which separates the
+          <strong>Category propensity</strong> - demonstrated spending in adjacent luxury categories, which separates the
           affluent who buy your kind of thing from those who don't.
         </li>
         <li>
-          <strong>Intent</strong> — search behavior, site visitation, content consumption, and comparison activity inside
+          <strong>Intent</strong> - search behavior, site visitation, content consumption, and comparison activity inside
           the category, which identifies who is currently in a decision window.
         </li>
         <li>
-          <strong>Context</strong> — the inventory environment the impression runs in, which for premium brands functions
+          <strong>Context</strong> - the inventory environment the impression runs in, which for premium brands functions
           as a targeting variable in its own right.
         </li>
       </ol>
@@ -203,7 +203,7 @@ export default function Page() {
       <p>
         The most consequential decision in an affluent media plan is not which platform to buy but how much of the budget
         serves demand that already exists versus demand you have to create. Luxury and high-consideration categories have
-        thin in-market populations at any given moment — for private aviation, luxury real estate, and wealth management we
+        thin in-market populations at any given moment - for private aviation, luxury real estate, and wealth management we
         typically model 0.5–2% of the qualified universe as actively in-market in a given quarter. A plan that spends
         everything on capture starves itself within a year.
       </p>
@@ -252,7 +252,7 @@ export default function Page() {
         </table>
       </div>
       <p>
-        Two rules govern how this table is applied. First, the capture line is capped, not maximized — retargeting and
+        Two rules govern how this table is applied. First, the capture line is capped, not maximized - retargeting and
         branded search absorb budget indefinitely because they report beautifully, and in a long sales cycle they largely
         re-buy conversions that were already coming. Second, the testing reserve is a standing line item, not a leftover. In
         categories where the qualified audience is measured in hundreds of thousands rather than tens of millions, the
@@ -285,49 +285,49 @@ export default function Page() {
             <tr>
               <td>Premium CTV (major streamers, PMP)</td>
               <td>$38–$65</td>
-              <td>Very high — non-skippable, full screen</td>
+              <td>Very high - non-skippable, full screen</td>
               <td>Good with data overlay</td>
               <td>Core awareness engine</td>
             </tr>
             <tr>
               <td>YouTube Select</td>
               <td>$22–$40</td>
-              <td>High — sound-on, lean-forward</td>
+              <td>High - sound-on, lean-forward</td>
               <td>Moderate to good</td>
               <td>Reach extension, sequencing</td>
             </tr>
             <tr>
               <td>Podcast (premium shows, host-read)</td>
               <td>$25–$50</td>
-              <td>Very high — trust transfer</td>
+              <td>Very high - trust transfer</td>
               <td>Contextual, not deterministic</td>
               <td>Credibility and consideration</td>
             </tr>
             <tr>
               <td>Streaming audio</td>
               <td>$12–$25</td>
-              <td>Moderate — background listening</td>
+              <td>Moderate - background listening</td>
               <td>Good with subscriber data</td>
               <td>Frequency at low cost</td>
             </tr>
             <tr>
               <td>Premium native editorial</td>
               <td>$15–$35</td>
-              <td>Moderate to high — dwell time</td>
+              <td>Moderate to high - dwell time</td>
               <td>Contextual</td>
               <td>Long-form proof and education</td>
             </tr>
             <tr>
               <td>DOOH (private terminals, club and retail corridors)</td>
               <td>$10–$28</td>
-              <td>Moderate — high-frequency, geo-locked</td>
+              <td>Moderate - high-frequency, geo-locked</td>
               <td>Geographic proxy</td>
               <td>Reaching UHNW where data fails</td>
             </tr>
             <tr>
               <td>Private marketplace display</td>
               <td>$8–$20</td>
-              <td>Lower — supporting role</td>
+              <td>Lower - supporting role</td>
               <td>Good with data overlay</td>
               <td>Consideration reinforcement</td>
             </tr>
@@ -369,7 +369,7 @@ export default function Page() {
       <p>
         <strong>Cap frequency deliberately.</strong> For high-consideration categories we plan 3–5 impressions per
         household per week and 12–20 per flight, enforced across platforms rather than within each one. Above roughly 8
-        weekly impressions we observe declining engagement and rising negative brand sentiment in lift studies — an
+        weekly impressions we observe declining engagement and rising negative brand sentiment in lift studies - an
         ultra-premium brand appearing relentlessly reads as a brand that needs the business.
       </p>
       <p>
@@ -390,7 +390,7 @@ export default function Page() {
         </li>
         <li>
           <strong>Seasonal amplification</strong> on the two or three windows where category demand genuinely concentrates
-          — for private aviation, pre-holiday and Q1 tax-planning periods; for luxury real estate, spring and early fall
+          - for private aviation, pre-holiday and Q1 tax-planning periods; for luxury real estate, spring and early fall
           inventory cycles.
         </li>
         <li>
@@ -409,7 +409,7 @@ export default function Page() {
       <p>The stack we run instead:</p>
       <ol>
         <li>
-          <strong>Geo-based holdout testing</strong> as the primary read — match markets on baseline volume and
+          <strong>Geo-based holdout testing</strong> as the primary read - match markets on baseline volume and
           seasonality, suppress media in the control set, measure the delta in total qualified inquiries. This is the only
           method that survives cookie loss, walled gardens, and offline conversion entirely.
         </li>
@@ -423,11 +423,11 @@ export default function Page() {
         </li>
         <li>
           <strong>Marketing mix modeling</strong> once the brand has 18–24 months of clean weekly data and enough spend
-          variation to fit — useful for annual allocation, too slow for in-flight decisions.
+          variation to fit - useful for annual allocation, too slow for in-flight decisions.
         </li>
         <li>
-          <strong>A single blended efficiency metric</strong> — media efficiency ratio or fully blended CAC against
-          qualified pipeline — reported alongside the channel-level detail so that no channel can be optimized into looking
+          <strong>A single blended efficiency metric</strong> - media efficiency ratio or fully blended CAC against
+          qualified pipeline - reported alongside the channel-level detail so that no channel can be optimized into looking
           good while the business gets worse.
         </li>
       </ol>
@@ -443,8 +443,8 @@ export default function Page() {
         meaningfully.
       </p>
       <p>
-        <strong>Private aviation.</strong> The qualified universe is tiny — often 150,000 to 400,000 U.S. households once
-        wealth and flight-behavior qualification are applied — so reach saturates quickly and frequency management becomes
+        <strong>Private aviation.</strong> The qualified universe is tiny - often 150,000 to 400,000 U.S. households once
+        wealth and flight-behavior qualification are applied - so reach saturates quickly and frequency management becomes
         the primary lever rather than audience expansion. Budget skews further toward consideration than the baseline table
         suggests, and DOOH around fixed-base operator approaches and private terminal corridors earns a disproportionate
         share because household-level data is weakest exactly where the money is.
@@ -458,14 +458,14 @@ export default function Page() {
       <p>
         <strong>Wealth management and financial advisory.</strong> Compliance review adds two to four weeks to every
         creative cycle, which means the creative library must be built in advance and rotated rather than iterated
-        in-flight. Trust signals outperform capability claims, and the conversion event is almost never a form fill — it is
+        in-flight. Trust signals outperform capability claims, and the conversion event is almost never a form fill - it is
         an introductory conversation, which makes offline conversion feedback into the buying platforms essential rather
         than optional.
       </p>
       <p>
         <strong>Private clubs and luxury hospitality.</strong> Demand is seasonal and locally concentrated, so flighting
         matters more than in any other vertical we run. The most productive audience layer is frequently membership
-        adjacency — households resembling current members on wealth and lifestyle axes — rather than purchased interest
+        adjacency - households resembling current members on wealth and lifestyle axes - rather than purchased interest
         segments.
       </p>
       <p>
@@ -492,8 +492,8 @@ export default function Page() {
           success metric and runs the attribution model, the number will be flattering. Holdouts are the antidote.
         </li>
         <li>
-          <strong>Treating brand safety as a keyword blocklist.</strong> Blocklists handle the obvious. Inventory quality —
-          publisher-level allowlists, PMP curation, and made-for-advertising domain exclusion — handles the rest, and it is
+          <strong>Treating brand safety as a keyword blocklist.</strong> Blocklists handle the obvious. Inventory quality -
+          publisher-level allowlists, PMP curation, and made-for-advertising domain exclusion - handles the rest, and it is
           where the actual risk to a premium brand lives.
         </li>
       </ul>
@@ -504,7 +504,7 @@ export default function Page() {
         produces the fastest measurable improvement is: rebuild the audience definition around capacity and category
         propensity first, cap the lower-funnel lines second, move the freed budget into premium CTV and curated private
         marketplace inventory third, and stand up a geo holdout before any of it launches so the change can actually be
-        evaluated. In our experience that sequence moves cost per qualified opportunity 20–40% inside two quarters — not
+        evaluated. In our experience that sequence moves cost per qualified opportunity 20–40% inside two quarters - not
         because the media got cheaper, but because it stopped being spent on people who were never going to buy.
       </p>
       <p>
@@ -525,7 +525,7 @@ export default function Page() {
       </p>
       <h3>Is targeting by household income enough to reach affluent consumers?</h3>
       <p>
-        No — household income is the weakest widely available wealth signal because it measures how quickly a household
+        No - household income is the weakest widely available wealth signal because it measures how quickly a household
         earns rather than what it can actually deploy. In the plans we audit, income-only affluent segments typically
         contain 60–75% households that cannot transact at a luxury price point, which shows up as strong engagement metrics
         paired with poor lead quality. A stronger definition layers capacity signals such as net worth or property value
@@ -535,8 +535,8 @@ export default function Page() {
       <p>
         A useful starting allocation is 40–55% to awareness and demand creation, 25–35% to consideration, 15–25% to
         capture, and 5–10% held as a standing testing reserve. The weighting toward the upper funnel exists because only a
-        small share of the qualified universe — often 0.5–2% per quarter in categories like private aviation or luxury real
-        estate — is actively in market at any moment, so a capture-heavy plan runs out of demand to harvest. The capture
+        small share of the qualified universe - often 0.5–2% per quarter in categories like private aviation or luxury real
+        estate - is actively in market at any moment, so a capture-heavy plan runs out of demand to harvest. The capture
         line should be explicitly capped, since retargeting and branded search absorb budget indefinitely while largely
         re-buying conversions already in motion.
       </p>
@@ -554,8 +554,8 @@ export default function Page() {
       <p>
         Geo-based holdout testing should be the primary read, because it measures total incremental qualified demand and
         survives cookie loss, walled gardens, and offline or phone-based conversions. Layer channel-level incrementality
-        tests on retargeting and branded search — the two lines most likely to claim credit for demand that already existed
-        — plus brand lift studies on CTV and audio, and marketing mix modeling once 18–24 months of clean data exists.
+        tests on retargeting and branded search - the two lines most likely to claim credit for demand that already existed
+        - plus brand lift studies on CTV and audio, and marketing mix modeling once 18–24 months of clean data exists.
         Report a single blended efficiency metric alongside channel detail so no individual channel can be optimized into
         looking good while overall business results decline.
       </p>

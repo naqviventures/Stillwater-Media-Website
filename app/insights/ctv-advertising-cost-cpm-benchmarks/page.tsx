@@ -3,7 +3,7 @@ import { ArticleLayout } from "@/components/article-layout"
 
 const title = "CTV Advertising Cost: 2026 CPM Benchmarks by Platform"
 const description =
-  "What CTV advertising cost looks like in 2026 — CPM benchmarks by platform, the fee stack between budget and screen, and what luxury brands pay."
+  "What CTV advertising cost looks like in 2026 - CPM benchmarks by platform, the fee stack between budget and screen, and what luxury brands pay."
 const slug = "ctv-advertising-cost-cpm-benchmarks"
 const canonical = `https://www.stillwatermedia.io/insights/${slug}`
 const image = `/images/${slug}.png`
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     siteName: "Stillwater Media",
     locale: "en_US",
     publishedTime,
-    images: [{ url: image, width: 1200, height: 630, alt: `Stillwater Media — ${title}` }],
+    images: [{ url: image, width: 1200, height: 630, alt: `Stillwater Media - ${title}` }],
   },
   twitter: {
     card: "summary_large_image",
@@ -104,7 +104,7 @@ const articleSchema = {
           name: "Why is my CTV CPM higher than the rate the publisher quoted?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Four fee layers sit between an advertiser's budget and the publisher's payout: agency fees of 8–20%, DSP fees of 6–15%, audience data fees of $1.50–6.00 CPM, and SSP take rates of 10–20%. Stacked, these can mean a $50 gross CPM delivers only $30–34 to the publisher. Track your working media ratio — the share of budget reaching publishers as paid inventory — and target 70–80% for a premium CTV program.",
+            text: "Four fee layers sit between an advertiser's budget and the publisher's payout: agency fees of 8–20%, DSP fees of 6–15%, audience data fees of $1.50–6.00 CPM, and SSP take rates of 10–20%. Stacked, these can mean a $50 gross CPM delivers only $30–34 to the publisher. Track your working media ratio - the share of budget reaching publishers as paid inventory - and target 70–80% for a premium CTV program.",
           },
         },
         {
@@ -120,7 +120,7 @@ const articleSchema = {
           name: "Is a higher CTV CPM worth paying for?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Frequently, yes — price in connected TV tracks how well a publisher can prove who is watching and how scarce the viewing moment is. A $68 CPM against a live golf broadcast reaching verified high-net-worth households will often deliver lower cost per incremental conversion than a $29 CPM against undisclosed general-entertainment supply. Judge inventory on cost per outcome rather than on media price, and never let CPM be the optimization target.",
+            text: "Frequently, yes - price in connected TV tracks how well a publisher can prove who is watching and how scarce the viewing moment is. A $68 CPM against a live golf broadcast reaching verified high-net-worth households will often deliver lower cost per incremental conversion than a $29 CPM against undisclosed general-entertainment supply. Judge inventory on cost per outcome rather than on media price, and never let CPM be the optimization target.",
           },
         },
       ],
@@ -137,20 +137,20 @@ export default function Page() {
       readingTime="16 min read"
       category="Media Buying & Benchmarks"
       image={image}
-      imageAlt="Stillwater Media illustration of CTV advertising cost — a brass balance scale on slate weighing many small discs against one larger smoked-glass disc"
+      imageAlt="Stillwater Media illustration of CTV advertising cost - a brass balance scale on slate weighing many small discs against one larger smoked-glass disc"
       imageCaption="The cheapest thousand impressions in connected TV and the most expensive thousand are rarely bought by the same advertiser for the same reason."
       schemaMarkup={articleSchema}
     >
       <p>
         Ask five vendors what CTV advertising cost looks like and you will get five numbers between $14 and $70, all of
         them defensible and none of them comparable. The spread is not vendor dishonesty. Connected TV advertising cost
-        is a function of four independent variables — the publisher, the deal type, the audience layer and the fee stack
-        — and most quotes disclose only one of them. This piece unpacks all four, gives current CPM benchmark ranges by
+        is a function of four independent variables - the publisher, the deal type, the audience layer and the fee stack
+        - and most quotes disclose only one of them. This piece unpacks all four, gives current CPM benchmark ranges by
         platform, and offers a way to judge whether a $52 premium CTV buy is expensive or the cheapest thing on your
         plan.
       </p>
       <p>
-        We buy connected TV for brands where customer lifetime value exceeds $5,000 — private aviation, wealth
+        We buy connected TV for brands where customer lifetime value exceeds $5,000 - private aviation, wealth
         management, luxury real estate, private clubs, premium DTC. At those economics the question is never &quot;what
         is the lowest CPM available.&quot; It is &quot;what is the lowest CPM at which I still reach the household I need,
         in an environment I would be willing to appear in, with a signal clean enough to measure.&quot; Those are
@@ -161,7 +161,7 @@ export default function Page() {
       <p>
         The blended average CTV CPM across the US market currently sits near <strong>$26</strong>, with the bulk of
         campaigns transacting between <strong>$25 and $35</strong> and the full market spanning roughly{" "}
-        <strong>$15 to $45</strong>. That blended figure is directionally useful and practically useless — it averages a
+        <strong>$15 to $45</strong>. That blended figure is directionally useful and practically useless - it averages a
         Tubi FAST channel impression against a Netflix premium pod, which is like averaging the price of a hotel room in
         Charlotte with one in Aspen at Christmas.
       </p>
@@ -172,16 +172,16 @@ export default function Page() {
       </p>
       <ul>
         <li>
-          <strong>Commodity streaming inventory</strong> — long-tail FAST channels, unnamed app supply, remnant
-          open-exchange impressions — has settled at <strong>$14 to $25</strong> and is still under downward pressure.
+          <strong>Commodity streaming inventory</strong> - long-tail FAST channels, unnamed app supply, remnant
+          open-exchange impressions - has settled at <strong>$14 to $25</strong> and is still under downward pressure.
         </li>
         <li>
-          <strong>Mid-tier named-app inventory</strong> — the standard programmatic buy on Hulu, Peacock, Roku Channel,
-          Paramount+ — transacts at <strong>$25 to $35</strong>.
+          <strong>Mid-tier named-app inventory</strong> - the standard programmatic buy on Hulu, Peacock, Roku Channel,
+          Paramount+ - transacts at <strong>$25 to $35</strong>.
         </li>
         <li>
-          <strong>Premium and audience-targeted inventory</strong> — direct or curated access to Netflix, Disney+, Prime
-          Video's higher tiers, live sport, and anything with a validated affluent overlay — holds firm at{" "}
+          <strong>Premium and audience-targeted inventory</strong> - direct or curated access to Netflix, Disney+, Prime
+          Video's higher tiers, live sport, and anything with a validated affluent overlay - holds firm at{" "}
           <strong>$40 to $65</strong>.
         </li>
       </ul>
@@ -276,7 +276,7 @@ export default function Page() {
         &quot;Hulu&quot; on a line item can mean a mid-roll inside a marquee original or a pre-roll on a library title at
         2 a.m.; the CPM often does not distinguish. Ask for content-level or genre-level reporting before you accept a
         rate as fair. Second, <strong>the sport line is real and it is where luxury dollars are increasingly going</strong>{" "}
-        — a private aviation brand reaching a golf broadcast household at $68 is frequently outperforming the same brand
+        - a private aviation brand reaching a golf broadcast household at $68 is frequently outperforming the same brand
         reaching a general entertainment household at $29.
       </p>
 
@@ -306,7 +306,7 @@ export default function Page() {
       </ol>
       <p>
         Stacked, a $50 gross CPM can deliver $30 to $34 of value to the publisher. That difference does not vanish into
-        fraud — it pays for real infrastructure — but it does mean two campaigns quoted at the same CPM can put wildly
+        fraud - it pays for real infrastructure - but it does mean two campaigns quoted at the same CPM can put wildly
         different amounts of money in front of an actual viewer.
       </p>
       <p>
@@ -354,14 +354,14 @@ export default function Page() {
 
       <h2>What affluent audience targeting adds to CTV advertising cost</h2>
       <p>
-        Every wealth-targeting layer narrows delivery and raises effective CPM twice — once through the data fee, once
+        Every wealth-targeting layer narrows delivery and raises effective CPM twice - once through the data fee, once
         through the auction density created by other bidders chasing the same 4 million households.
       </p>
       <p>Rough incremental costs on top of a base CTV CPM:</p>
       <ul>
         <li>
           <strong>Modeled household income $250K+:</strong> +$1.50 to $2.50 CPM. Cheap, broad, and only moderately
-          accurate — modeled income at the household level carries meaningful error.
+          accurate - modeled income at the household level carries meaningful error.
         </li>
         <li>
           <strong>Verified investable assets $1M+:</strong> +$3.00 to $5.00 CPM. Substantially better precision, sourced
@@ -416,7 +416,7 @@ export default function Page() {
         At an effective $45 CPM, $100,000 buys about 2.2 million impressions. Against an affluent target at a 4x
         effective frequency, that is roughly 550,000 households reached. For a private aviation brand where a single
         membership conversion is worth six figures, the arithmetic is forgiving. For a $600 AOV premium DTC brand, it is
-        not — and that brand should be buying mid-tier inventory with a broader audience definition and far more
+        not - and that brand should be buying mid-tier inventory with a broader audience definition and far more
         aggressive frequency discipline.
       </p>
 
@@ -436,7 +436,7 @@ export default function Page() {
         </li>
         <li>
           <strong>Treating platform-reported performance as measurement.</strong> A walled garden grading its own
-          delivery produces flattering numbers. Keep an independent read — the design principles are in our comparison
+          delivery produces flattering numbers. Keep an independent read - the design principles are in our comparison
           of <a href="/insights/incrementality-vs-attribution-advertising">incrementality versus attribution</a>.
         </li>
       </ol>
@@ -446,7 +446,7 @@ export default function Page() {
         CTV advertising cost is best understood as a spectrum from roughly $14 to $95, where price tracks three things:
         how well the publisher can prove who is watching, how scarce the moment is, and how many intermediaries are
         standing between your budget and the screen. Luxury brands should expect to transact at the upper-middle of that
-        range — <strong>$38 to $55 effective CPM</strong> for premium environments with a verified affluent layer — and
+        range - <strong>$38 to $55 effective CPM</strong> for premium environments with a verified affluent layer - and
         should be far more concerned with their working media ratio and their measurement design than with shaving three
         dollars off a rate card.
       </p>
@@ -476,8 +476,8 @@ export default function Page() {
       <p>
         Four fee layers sit between an advertiser's budget and the publisher's payout: agency fees of 8–20%, DSP fees of
         6–15%, audience data fees of $1.50–6.00 CPM, and SSP take rates of 10–20%. Stacked, these can mean a $50 gross
-        CPM delivers only $30–34 to the publisher. Track your working media ratio — the share of budget reaching
-        publishers as paid inventory — and target 70–80% for a premium CTV program.
+        CPM delivers only $30–34 to the publisher. Track your working media ratio - the share of budget reaching
+        publishers as paid inventory - and target 70–80% for a premium CTV program.
       </p>
       <h3>How much should a luxury brand budget for connected TV advertising?</h3>
       <p>
@@ -489,7 +489,7 @@ export default function Page() {
       </p>
       <h3>Is a higher CTV CPM worth paying for?</h3>
       <p>
-        Frequently, yes — price in connected TV tracks how well a publisher can prove who is watching and how scarce the
+        Frequently, yes - price in connected TV tracks how well a publisher can prove who is watching and how scarce the
         viewing moment is. A $68 CPM against a live golf broadcast reaching verified high-net-worth households will often
         deliver lower cost per incremental conversion than a $29 CPM against undisclosed general-entertainment supply.
         Judge inventory on cost per outcome rather than on media price, and never let CPM be the optimization target.

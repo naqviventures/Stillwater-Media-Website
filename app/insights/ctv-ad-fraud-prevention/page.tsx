@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     siteName: "Stillwater Media",
     locale: "en_US",
     publishedTime,
-    images: [{ url: image, width: 1200, height: 630, alt: `Stillwater Media — ${title}` }],
+    images: [{ url: image, width: 1200, height: 630, alt: `Stillwater Media - ${title}` }],
   },
   twitter: {
     card: "summary_large_image",
@@ -96,7 +96,7 @@ const articleSchema = {
           name: "What is a normal invalid traffic rate for CTV campaigns?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "A well-run premium CTV campaign should hold post-bid invalid traffic at or below 0.5%, and industry measurement shows optimized CTV campaigns averaging roughly 0.1%. Anything between 0.5% and 1.5% is acceptable but worth monitoring, and anything above 2% should be investigated immediately. For context, non-optimized CTV campaigns — those without pre-bid filtering, curated supply, and active verification — average 9.1% invalid traffic, which is roughly 91 times the optimized rate on the same channel.",
+            text: "A well-run premium CTV campaign should hold post-bid invalid traffic at or below 0.5%, and industry measurement shows optimized CTV campaigns averaging roughly 0.1%. Anything between 0.5% and 1.5% is acceptable but worth monitoring, and anything above 2% should be investigated immediately. For context, non-optimized CTV campaigns - those without pre-bid filtering, curated supply, and active verification - average 9.1% invalid traffic, which is roughly 91 times the optimized rate on the same channel.",
           },
         },
         {
@@ -104,7 +104,7 @@ const articleSchema = {
           name: "How do you prevent CTV ad fraud?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The single most effective control is buying through curated supply — private marketplace deals and programmatic guaranteed arrangements with named publishers — rather than the open exchange, because forged app bundle IDs cannot enter a direct relationship. Layer on enforcement of app-ads.txt and sellers.json so the DSP only bids on authorized paths, run pre-bid and post-bid verification in parallel, maintain a vetted inclusion list rather than relying on blocklists, cap supply path length, and write invalid-traffic clawback thresholds into insertion orders. These are configuration decisions, not software purchases.",
+            text: "The single most effective control is buying through curated supply - private marketplace deals and programmatic guaranteed arrangements with named publishers - rather than the open exchange, because forged app bundle IDs cannot enter a direct relationship. Layer on enforcement of app-ads.txt and sellers.json so the DSP only bids on authorized paths, run pre-bid and post-bid verification in parallel, maintain a vetted inclusion list rather than relying on blocklists, cap supply path length, and write invalid-traffic clawback thresholds into insertion orders. These are configuration decisions, not software purchases.",
           },
         },
         {
@@ -120,7 +120,7 @@ const articleSchema = {
           name: "Why does CTV ad fraud cost luxury advertisers more?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Three factors compound. Premium CTV CPMs run roughly three to five times mass-market rates, so each fraudulent impression destroys several times more value. Affluent target audiences are small — often a few million households rather than tens of millions — so wasted impressions consume a finite reach pool rather than a renewable one. And invalid traffic inflates impression counts, which understates true frequency and contaminates incrementality and brand lift measurement, meaning the campaign is also being optimized against corrupted data.",
+            text: "Three factors compound. Premium CTV CPMs run roughly three to five times mass-market rates, so each fraudulent impression destroys several times more value. Affluent target audiences are small - often a few million households rather than tens of millions - so wasted impressions consume a finite reach pool rather than a renewable one. And invalid traffic inflates impression counts, which understates true frequency and contaminates incrementality and brand lift measurement, meaning the campaign is also being optimized against corrupted data.",
           },
         },
         {
@@ -128,7 +128,7 @@ const articleSchema = {
           name: "Does a high video completion rate mean CTV inventory is high quality?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "No — a completion rate above 99% is usually a warning sign. Genuine premium CTV completion rates fall between roughly 93% and 98% because real viewers leave the room, change channels, or skip where the platform permits it. Fraudulent inventory reports near-perfect completion precisely because no human is present to interrupt playback, so buyers who treat completion rate as a quality proxy tend to optimize budget toward their worst supply.",
+            text: "No - a completion rate above 99% is usually a warning sign. Genuine premium CTV completion rates fall between roughly 93% and 98% because real viewers leave the room, change channels, or skip where the platform permits it. Fraudulent inventory reports near-perfect completion precisely because no human is present to interrupt playback, so buyers who treat completion rate as a quality proxy tend to optimize budget toward their worst supply.",
           },
         },
       ],
@@ -145,15 +145,15 @@ export default function Page() {
       readingTime="11 min read"
       category="Media Quality & Measurement"
       image={image}
-      imageAlt="Stillwater Media illustration of CTV ad fraud prevention — a darkened luxury living room lit only by a large blank screen casting cool blue light"
-      imageCaption="On the same connected TV inventory, one buying posture delivers 0.1% invalid traffic and another delivers 9.1% — the screen looks identical either way."
+      imageAlt="Stillwater Media illustration of CTV ad fraud prevention - a darkened luxury living room lit only by a large blank screen casting cool blue light"
+      imageCaption="On the same connected TV inventory, one buying posture delivers 0.1% invalid traffic and another delivers 9.1% - the screen looks identical either way."
       schemaMarkup={articleSchema}
     >
       <p>
         CTV ad fraud prevention is now the single largest source of avoidable waste in premium video budgets, and the gap
         between advertisers who do it well and advertisers who assume their DSP handles it is enormous. Industry
         measurement in 2026 puts non-optimized connected TV campaigns at a 9.1% invalid traffic rate while optimized
-        campaigns on the same channel run at 0.1% — roughly a 91x difference produced entirely by buying posture, not by
+        campaigns on the same channel run at 0.1% - roughly a 91x difference produced entirely by buying posture, not by
         inventory availability. For a brand spending $2 million a year in CTV, that spread is about $180,000 in
         impressions delivered to something that is not a household.
       </p>
@@ -175,8 +175,8 @@ export default function Page() {
       </p>
       <p>
         <strong>There is no browser, so there are no cookies, no user agent to interrogate, and no rendered page to
-        inspect.</strong> Verification has to rely on bid-stream signals — IP address, device ID, app bundle ID,
-        publisher ID, content object — all of which are self-declared by the seller and all of which can be fabricated.
+        inspect.</strong> Verification has to rely on bid-stream signals - IP address, device ID, app bundle ID,
+        publisher ID, content object - all of which are self-declared by the seller and all of which can be fabricated.
       </p>
       <p>
         <strong>Server-side ad insertion (SSAI) is the norm, not the exception.</strong> SSAI stitches ads into a video
@@ -208,7 +208,7 @@ export default function Page() {
               <td>App spoofing</td>
               <td>A low-value or fake app declares itself as a premium publisher's bundle ID</td>
               <td>app-ads.txt mismatch, seller ID inconsistency</td>
-              <td>High — most common</td>
+              <td>High - most common</td>
             </tr>
             <tr>
               <td>Device spoofing</td>
@@ -238,7 +238,7 @@ export default function Page() {
               <td>Misrepresented inventory</td>
               <td>Mobile or web video sold as CTV at CTV CPMs</td>
               <td>Device type inconsistency in bid stream</td>
-              <td>Medium — often not technically fraud, always waste</td>
+              <td>Medium - often not technically fraud, always waste</td>
             </tr>
           </tbody>
         </table>
@@ -305,7 +305,7 @@ export default function Page() {
         </table>
       </div>
       <p>
-        Two counterintuitive notes. A video completion rate above 99% is a red flag, not a triumph — real households
+        Two counterintuitive notes. A video completion rate above 99% is a red flag, not a triumph - real households
         leave the room, change channels, and hit skip on the platforms that allow it. And an unusually long tail of app
         bundles is the most reliable early warning sign available to a buyer without specialist tooling; legitimate
         premium CTV supply is concentrated, and a campaign touching 3,000 apps is not buying premium CTV regardless of
@@ -321,8 +321,8 @@ export default function Page() {
       <p>
         The most effective CTV ad fraud prevention control is refusing to transact with sellers you cannot name.{" "}
         <a href="/insights/private-marketplace-deals-luxury-advertising">Private marketplace deals</a> and programmatic
-        guaranteed arrangements with named publishers — Disney+, Netflix, Prime Video, Hulu, Peacock, Roku Channel,
-        Samsung TV Plus — remove the app-spoofing and fake-app vectors almost entirely, because the inventory never
+        guaranteed arrangements with named publishers - Disney+, Netflix, Prime Video, Hulu, Peacock, Roku Channel,
+        Samsung TV Plus - remove the app-spoofing and fake-app vectors almost entirely, because the inventory never
         enters an open auction where a bundle ID can be forged. Open-exchange CTV should be a small, closely monitored
         share of any premium plan, if it appears at all.
       </p>
@@ -352,7 +352,7 @@ export default function Page() {
       </p>
       <h3>5. Maintain an inclusion list, not just an exclusion list</h3>
       <p>
-        Blocklists are permanently behind — a tenfold increase in fraudulent apps means the list is stale the day it is
+        Blocklists are permanently behind - a tenfold increase in fraudulent apps means the list is stale the day it is
         published. An allowlist of vetted app bundles, refreshed quarterly, inverts the problem: new supply must earn its
         way in rather than being blocked after it has already taken budget. For most luxury brands, a 100–200 app
         inclusion list captures the great majority of legitimate reach.
@@ -365,7 +365,7 @@ export default function Page() {
       </p>
       <h3>7. Make make-goods and clawbacks contractual</h3>
       <p>
-        Insert IVT thresholds into your insertion orders — a common structure is full credit on any impressions measured
+        Insert IVT thresholds into your insertion orders - a common structure is full credit on any impressions measured
         as invalid above 1%, verified by a named third party. Sellers who resist this clause are pricing the risk into
         your rate without telling you.
       </p>
@@ -373,27 +373,27 @@ export default function Page() {
       <h2>A 30-Day CTV Supply Quality Audit</h2>
       <p>Most advertisers do not need a new vendor to find out where they stand. They need one focused month.</p>
       <p>
-        <strong>Week 1 — Pull the raw app-level delivery report.</strong> Not the top-25 summary the platform surfaces
+        <strong>Week 1 - Pull the raw app-level delivery report.</strong> Not the top-25 summary the platform surfaces
         by default; the full list of every app bundle ID that received an impression, with spend, impressions, and
         completion rate against each. Sort by impression volume descending and by completion rate descending. The first
         list tells you whether your supply is concentrated. The second surfaces the near-100% completion outliers that
         warrant scrutiny.
       </p>
       <p>
-        <strong>Week 2 — Validate the top 200 bundles against app-ads.txt.</strong> For each bundle, confirm the
+        <strong>Week 2 - Validate the top 200 bundles against app-ads.txt.</strong> For each bundle, confirm the
         publisher's app-ads.txt file authorizes the seller ID that delivered the impression, and confirm that seller's
         sellers.json entry resolves to a real, named business. Every mismatch is either a misconfiguration or a spoof,
         and both are reasons to pause the path. Advertisers running this exercise for the first time typically find
         2%–8% of spend on unauthorized paths.
       </p>
       <p>
-        <strong>Week 3 — Reconcile three impression counts.</strong> DSP-reported delivery, verification vendor measured
-        impressions, and — for direct and PMP deals — publisher-side reporting. Flag any seller with a discrepancy above
+        <strong>Week 3 - Reconcile three impression counts.</strong> DSP-reported delivery, verification vendor measured
+        impressions, and - for direct and PMP deals - publisher-side reporting. Flag any seller with a discrepancy above
         3%–5%, and any seller whose discrepancy is consistently one-directional. Random variance is normal; systematic
         over-delivery is not.
       </p>
       <p>
-        <strong>Week 4 — Map the supply path for your ten largest sellers.</strong> For each, document the number of
+        <strong>Week 4 - Map the supply path for your ten largest sellers.</strong> For each, document the number of
         intermediaries between your DSP and the publisher, the disclosed take rate at each hop, and whether a direct or
         programmatic guaranteed alternative exists at a comparable effective CPM. In most audits, at least three of the
         ten can be replaced with a shorter path at a lower net cost, because the fees stripped out of the chain exceed
@@ -421,7 +421,7 @@ export default function Page() {
           <strong>Measurement is corrupted, not just the delivery.</strong> This is the underrated cost. Invalid traffic
           inflates impression counts, which deflates measured frequency, which distorts{" "}
           <a href="/insights/true-incremental-lift-measurement">incrementality and brand lift readouts</a>. A brand with
-          6% IVT is not only wasting 6% of budget — it is optimizing the other 94% against contaminated signal. We
+          6% IVT is not only wasting 6% of budget - it is optimizing the other 94% against contaminated signal. We
           routinely find that cleaning supply improves measured campaign performance by more than the fraud rate alone
           would predict, because the optimization loop starts working on real data.
         </li>
@@ -487,14 +487,14 @@ export default function Page() {
       <p>
         A well-run premium CTV campaign should hold post-bid invalid traffic at or below 0.5%, and industry measurement
         shows optimized CTV campaigns averaging roughly 0.1%. Anything between 0.5% and 1.5% is acceptable but worth
-        monitoring, and anything above 2% should be investigated immediately. For context, non-optimized CTV campaigns —
-        those without pre-bid filtering, curated supply, and active verification — average 9.1% invalid traffic, which is
+        monitoring, and anything above 2% should be investigated immediately. For context, non-optimized CTV campaigns -
+        those without pre-bid filtering, curated supply, and active verification - average 9.1% invalid traffic, which is
         roughly 91 times the optimized rate on the same channel.
       </p>
       <h3>How do you prevent CTV ad fraud?</h3>
       <p>
-        The single most effective control is buying through curated supply — private marketplace deals and programmatic
-        guaranteed arrangements with named publishers — rather than the open exchange, because forged app bundle IDs
+        The single most effective control is buying through curated supply - private marketplace deals and programmatic
+        guaranteed arrangements with named publishers - rather than the open exchange, because forged app bundle IDs
         cannot enter a direct relationship. Layer on enforcement of app-ads.txt and sellers.json so the DSP only bids on
         authorized paths, run pre-bid and post-bid verification in parallel, maintain a vetted inclusion list rather than
         relying on blocklists, cap supply path length, and write invalid-traffic clawback thresholds into insertion
@@ -511,14 +511,14 @@ export default function Page() {
       <h3>Why does CTV ad fraud cost luxury advertisers more?</h3>
       <p>
         Three factors compound. Premium CTV CPMs run roughly three to five times mass-market rates, so each fraudulent
-        impression destroys several times more value. Affluent target audiences are small — often a few million
-        households rather than tens of millions — so wasted impressions consume a finite reach pool rather than a
+        impression destroys several times more value. Affluent target audiences are small - often a few million
+        households rather than tens of millions - so wasted impressions consume a finite reach pool rather than a
         renewable one. And invalid traffic inflates impression counts, which understates true frequency and contaminates
         incrementality and brand lift measurement, meaning the campaign is also being optimized against corrupted data.
       </p>
       <h3>Does a high video completion rate mean CTV inventory is high quality?</h3>
       <p>
-        No — a completion rate above 99% is usually a warning sign. Genuine premium CTV completion rates fall between
+        No - a completion rate above 99% is usually a warning sign. Genuine premium CTV completion rates fall between
         roughly 93% and 98% because real viewers leave the room, change channels, or skip where the platform permits it.
         Fraudulent inventory reports near-perfect completion precisely because no human is present to interrupt playback,
         so buyers who treat completion rate as a quality proxy tend to optimize budget toward their worst supply.

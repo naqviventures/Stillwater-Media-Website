@@ -246,7 +246,7 @@ export const insightPosts: InsightPost[] = [
     slug: "ad-attribution-luxury-brands",
     title: "Ad Attribution for Luxury Brands: How to Build a Model That Survives a 120-Day Sales Cycle",
     excerpt:
-      "A 120-day sales cycle breaks every default attribution setting. The four-layer build — event capture, identity resolution, CRM closed loop, and credit assignment.",
+      "A 120-day sales cycle breaks every default attribution setting. The four-layer build - event capture, identity resolution, CRM closed loop, and credit assignment.",
     image: "/images/ad-attribution-luxury-brands.png",
     category: "Measurement & Attribution",
     date: "2026-08-12",
@@ -282,7 +282,7 @@ export const insightPosts: InsightPost[] = [
     slug: "programmatic-advertising-ai-optimization",
     title: "Programmatic Advertising AI Optimization: What Actually Moves Performance",
     excerpt:
-      "How AI-driven bidding, budget allocation, and creative optimization work in programmatic — what to automate, what to control, and where AI quietly fails luxury brands.",
+      "How AI-driven bidding, budget allocation, and creative optimization work in programmatic - what to automate, what to control, and where AI quietly fails luxury brands.",
     image: "/images/programmatic-advertising-ai-optimization.png",
     category: "Programmatic Strategy",
     date: "2026-08-08",
@@ -300,7 +300,7 @@ export const insightPosts: InsightPost[] = [
     slug: "digital-marketing-agency-luxury-brands-southeast",
     title: "Digital Marketing Agency for Luxury Brands in the Southeast",
     excerpt:
-      "Why the Southeast has become a hub for luxury brand digital marketing — wealth-market growth, talent, and cost structure — and how to choose the right partner.",
+      "Why the Southeast has become a hub for luxury brand digital marketing - wealth-market growth, talent, and cost structure - and how to choose the right partner.",
     image: "/images/digital-marketing-agency-luxury-brands-southeast.png",
     category: "Agency & Strategy",
     date: "2026-08-05",
@@ -318,7 +318,7 @@ export const insightPosts: InsightPost[] = [
     slug: "streaming-tv-advertising-luxury",
     title: "Streaming TV Advertising for Luxury Brands: The Complete Guide",
     excerpt:
-      "How streaming TV advertising works for luxury brands — premium inventory, affluent targeting, ad formats, CPM benchmarks, and incremental measurement.",
+      "How streaming TV advertising works for luxury brands - premium inventory, affluent targeting, ad formats, CPM benchmarks, and incremental measurement.",
     image: "/images/streaming-tv-advertising-luxury.png",
     category: "CTV & Streaming",
     date: "2026-08-03",
@@ -327,7 +327,7 @@ export const insightPosts: InsightPost[] = [
     slug: "luxury-digital-marketing-agency-charlotte-nc",
     title: "Luxury Digital Marketing Agency in Charlotte, NC",
     excerpt:
-      "Why Charlotte, NC is positioned to serve luxury brands: wealth-market proximity, talent, and cost structure without coastal markup — and what to look for in a partner.",
+      "Why Charlotte, NC is positioned to serve luxury brands: wealth-market proximity, talent, and cost structure without coastal markup - and what to look for in a partner.",
     image: "/images/luxury-digital-marketing-agency-charlotte-nc.png",
     category: "Agency Insights",
     date: "2026-08-02",
@@ -336,7 +336,7 @@ export const insightPosts: InsightPost[] = [
     slug: "high-end-car-dealership-programmatic",
     title: "High-End Car Dealership Advertising: The Programmatic Playbook",
     excerpt:
-      "How luxury and exotic car dealerships use programmatic and premium CTV to reach affluent, in-market buyers — targeting, creative, and measurement that drives showroom visits.",
+      "How luxury and exotic car dealerships use programmatic and premium CTV to reach affluent, in-market buyers - targeting, creative, and measurement that drives showroom visits.",
     image: "/images/high-end-car-dealership-programmatic.png",
     category: "Vertical Strategy",
     date: "2026-08-01",
@@ -345,7 +345,7 @@ export const insightPosts: InsightPost[] = [
     slug: "private-jet-charter-marketing-digital",
     title: "Private Jet Charter Marketing: The Digital Media Playbook",
     excerpt:
-      "How private jet charter and card brands reach ultra-high-net-worth flyers through programmatic, CTV, and precision digital — targeting, creative, and measurement.",
+      "How private jet charter and card brands reach ultra-high-net-worth flyers through programmatic, CTV, and precision digital - targeting, creative, and measurement.",
     image: "/images/private-jet-charter-marketing-digital.png",
     category: "Vertical Strategy",
     date: "2026-07-31",
@@ -354,7 +354,7 @@ export const insightPosts: InsightPost[] = [
     slug: "financial-advisor-advertising-programmatic",
     title: "Financial Advisor Advertising: The Programmatic Playbook",
     excerpt:
-      "How financial advisors and wealth firms reach high-net-worth prospects through compliant programmatic and CTV — targeting, creative, and measurement that respects regulation.",
+      "How financial advisors and wealth firms reach high-net-worth prospects through compliant programmatic and CTV - targeting, creative, and measurement that respects regulation.",
     image: "/images/financial-advisor-advertising-programmatic.png",
     category: "Vertical Strategy",
     date: "2026-07-30",
@@ -363,7 +363,7 @@ export const insightPosts: InsightPost[] = [
     slug: "how-to-measure-luxury-advertising-roi",
     title: "How to Measure Luxury Advertising ROI",
     excerpt:
-      "Why standard ROAS misreads luxury campaigns, and the metrics — incremental CAC, MER, LTV ratios — that actually explain what your premium media is generating.",
+      "Why standard ROAS misreads luxury campaigns, and the metrics - incremental CAC, MER, LTV ratios - that actually explain what your premium media is generating.",
     image: "/images/how-to-measure-luxury-advertising-roi.png",
     category: "Measurement & Attribution",
     date: "2026-07-29",
@@ -372,7 +372,7 @@ export const insightPosts: InsightPost[] = [
     slug: "how-to-advertise-to-wealthy-consumers",
     title: "How to Advertise to Wealthy Consumers",
     excerpt:
-      "A practical guide to advertising to wealthy consumers — how to find them, what channels reach them, the creative that resonates, and how to measure the result.",
+      "A practical guide to advertising to wealthy consumers - how to find them, what channels reach them, the creative that resonates, and how to measure the result.",
     image: "/images/how-to-advertise-to-wealthy-consumers.png",
     category: "Affluent Audience Strategy",
     date: "2026-07-28",
@@ -381,7 +381,7 @@ export const insightPosts: InsightPost[] = [
     slug: "what-is-ctv-advertising-how-it-works",
     title: "What Is CTV Advertising and How Does It Work?",
     excerpt:
-      "A clear explanation of connected TV advertising — how it works, the platforms and deal types, targeting and measurement, and why it matters for premium brands.",
+      "A clear explanation of connected TV advertising - how it works, the platforms and deal types, targeting and measurement, and why it matters for premium brands.",
     image: "/images/what-is-ctv-advertising-how-it-works.png",
     category: "CTV & Streaming",
     date: "2026-07-27",
@@ -390,7 +390,7 @@ export const insightPosts: InsightPost[] = [
     slug: "premium-display-advertising-network",
     title: "Premium Display Advertising Networks: A Guide for Luxury Brands",
     excerpt:
-      "How premium display networks and curated marketplaces let luxury brands run brand-safe display at scale — inventory quality, targeting, and measurement.",
+      "How premium display networks and curated marketplaces let luxury brands run brand-safe display at scale - inventory quality, targeting, and measurement.",
     image: "/images/premium-display-advertising-network.png",
     category: "Programmatic Strategy",
     date: "2026-07-26",
@@ -399,7 +399,7 @@ export const insightPosts: InsightPost[] = [
     slug: "affluent-consumer-media-buying",
     title: "Affluent Consumer Media Buying: How to Reach High-Value Audiences",
     excerpt:
-      "How media buying for affluent consumers differs from mass market — inventory selection, audience engineering, frequency discipline, and measurement built for high-LTV brands.",
+      "How media buying for affluent consumers differs from mass market - inventory selection, audience engineering, frequency discipline, and measurement built for high-LTV brands.",
     image: "/images/affluent-consumer-media-buying.png",
     category: "Media Strategy",
     date: "2026-07-25",
@@ -408,7 +408,7 @@ export const insightPosts: InsightPost[] = [
     slug: "connected-tv-advertising-luxury-brands",
     title: "Connected TV Advertising for Luxury Brands: The Complete Guide",
     excerpt:
-      "How connected TV advertising for luxury brands works — premium streaming inventory, affluent targeting, deal types, CPM benchmarks, and incremental measurement.",
+      "How connected TV advertising for luxury brands works - premium streaming inventory, affluent targeting, deal types, CPM benchmarks, and incremental measurement.",
     image: "/images/connected-tv-advertising-luxury-brands.png",
     category: "CTV & Streaming",
     date: "2026-07-29",
@@ -417,7 +417,7 @@ export const insightPosts: InsightPost[] = [
     slug: "premium-programmatic-media-buying",
     title: "Premium Programmatic Media Buying: How Luxury Brands Buy Safely",
     excerpt:
-      "What premium programmatic media buying is and how it works — private deals, curated supply, affluent targeting, and measurement built for luxury brands.",
+      "What premium programmatic media buying is and how it works - private deals, curated supply, affluent targeting, and measurement built for luxury brands.",
     image: "/images/premium-programmatic-media-buying.png",
     category: "Programmatic Strategy",
     date: "2026-07-29",
@@ -426,7 +426,7 @@ export const insightPosts: InsightPost[] = [
     slug: "high-net-worth-consumer-advertising",
     title: "High-Net-Worth Consumer Advertising: How to Reach Affluent Buyers",
     excerpt:
-      "How high-net-worth consumer advertising actually works — where affluent buyers spend attention, how to target them precisely, and how to measure the result.",
+      "How high-net-worth consumer advertising actually works - where affluent buyers spend attention, how to target them precisely, and how to measure the result.",
     image: "/images/high-net-worth-consumer-advertising.png",
     category: "Affluent Audience Strategy",
     date: "2026-07-24",
@@ -435,7 +435,7 @@ export const insightPosts: InsightPost[] = [
     slug: "programmatic-advertising-luxury-brands",
     title: "Programmatic Advertising for Luxury Brands: The Complete Guide",
     excerpt:
-      "How programmatic advertising for luxury brands works — deal types, brand-safe supply, affluent targeting, and measurement built for high-value purchases.",
+      "How programmatic advertising for luxury brands works - deal types, brand-safe supply, affluent targeting, and measurement built for high-value purchases.",
     image: "/images/programmatic-advertising-luxury-brands.png",
     category: "Programmatic Strategy",
     date: "2026-07-24",
@@ -480,7 +480,7 @@ export const insightPosts: InsightPost[] = [
     slug: "luxury-intent-signal-targeting",
     title: "Luxury Intent Signal Targeting: What Actually Predicts a Purchase",
     excerpt:
-      "Luxury intent signal targeting explained — which behavioral signals actually predict high-value purchases, how to score them, and where most brands go wrong.",
+      "Luxury intent signal targeting explained - which behavioral signals actually predict high-value purchases, how to score them, and where most brands go wrong.",
     image: "/images/luxury-intent-signal-targeting.png",
     category: "Audience Strategy",
     date: "2026-07-20",
@@ -489,7 +489,7 @@ export const insightPosts: InsightPost[] = [
     slug: "best-advertising-channels-luxury-brands",
     title: "The Best Advertising Channels for Luxury Brands (Ranked)",
     excerpt:
-      "The best advertising channels for luxury brands, ranked by CPM, incrementality, and audience quality — with budget allocation benchmarks by vertical.",
+      "The best advertising channels for luxury brands, ranked by CPM, incrementality, and audience quality - with budget allocation benchmarks by vertical.",
     image: "/images/best-advertising-channels-luxury-brands.png",
     category: "Media Strategy",
     date: "2026-07-20",
@@ -498,7 +498,7 @@ export const insightPosts: InsightPost[] = [
     slug: "generative-ai-advertising-luxury",
     title: "How Generative AI Is Changing Luxury Advertising Creative",
     excerpt:
-      "How generative AI is changing luxury advertising creative, audience modeling, and media strategy — and what premium brands must get right to stay ahead.",
+      "How generative AI is changing luxury advertising creative, audience modeling, and media strategy - and what premium brands must get right to stay ahead.",
     image: "/images/generative-ai-advertising-luxury.png",
     category: "AI & Advertising Innovation",
     date: "2026-06-25",
@@ -534,7 +534,7 @@ export const insightPosts: InsightPost[] = [
     slug: "boutique-hotel-advertising-digital",
     title: "Boutique Hotel Advertising: Fill Rooms With High-Value Guests",
     excerpt:
-      "How boutique and luxury hotels use digital media to drive direct bookings from high-value guests — channels, targeting, and the OTA-independence playbook.",
+      "How boutique and luxury hotels use digital media to drive direct bookings from high-value guests - channels, targeting, and the OTA-independence playbook.",
     image: "/images/boutique-hotel-advertising-digital.png",
     category: "Luxury Hospitality Marketing",
     date: "2026-06-23",
@@ -543,7 +543,7 @@ export const insightPosts: InsightPost[] = [
     slug: "luxury-timepiece-advertising-digital",
     title: "Luxury Timepiece Advertising: Digital Channels That Move Premium Product",
     excerpt:
-      "The digital channels that actually move premium timepieces — from CTV and premium publishers to collector-grade audience targeting for luxury watch brands.",
+      "The digital channels that actually move premium timepieces - from CTV and premium publishers to collector-grade audience targeting for luxury watch brands.",
     image: "/images/luxury-timepiece-advertising-digital.png",
     category: "Luxury Brand Advertising",
     date: "2026-06-23",
@@ -552,7 +552,7 @@ export const insightPosts: InsightPost[] = [
     slug: "high-consideration-purchase-funnel",
     title: "The High-Consideration Purchase Funnel for Luxury & Complex Brands",
     excerpt:
-      "How media supports long, high-consideration sales cycles — mapping channels to funnel stages for luxury and complex-purchase brands that don't convert on first touch.",
+      "How media supports long, high-consideration sales cycles - mapping channels to funnel stages for luxury and complex-purchase brands that don't convert on first touch.",
     image: "/images/high-consideration-purchase-funnel.png",
     category: "Media Strategy",
     date: "2026-06-22",
@@ -561,7 +561,7 @@ export const insightPosts: InsightPost[] = [
     slug: "premium-publisher-direct-deals",
     title: "Premium Publisher Direct Deals: Better ROI for Luxury Brands",
     excerpt:
-      "Why direct deals with premium publishers outperform the open exchange for luxury brands — access, quality, brand safety, and how to structure them.",
+      "Why direct deals with premium publishers outperform the open exchange for luxury brands - access, quality, brand safety, and how to structure them.",
     image: "/images/premium-publisher-direct-deals.png",
     category: "Programmatic Strategy",
     date: "2026-06-22",
@@ -579,7 +579,7 @@ export const insightPosts: InsightPost[] = [
     slug: "media-efficiency-ratio-advertising",
     title: "Media Efficiency Ratio: The KPI Luxury Advertisers Actually Need",
     excerpt:
-      "Media efficiency ratio measures how much revenue each dollar of media spend generates — beyond ROAS. How luxury brands use MER to make smarter budget decisions.",
+      "Media efficiency ratio measures how much revenue each dollar of media spend generates - beyond ROAS. How luxury brands use MER to make smarter budget decisions.",
     image: "/images/media-efficiency-ratio-advertising.png",
     category: "Measurement & Attribution",
     date: "2026-06-20",
@@ -588,7 +588,7 @@ export const insightPosts: InsightPost[] = [
     slug: "luxury-brand-digital-marketing-strategy",
     title: "Luxury Brand Digital Marketing Strategy: Why It Must Differ From Mass Market",
     excerpt:
-      "Why luxury brand digital marketing must differ from mass-market playbooks — the strategy, channels, and creative discipline that protect brand equity while driving growth.",
+      "Why luxury brand digital marketing must differ from mass-market playbooks - the strategy, channels, and creative discipline that protect brand equity while driving growth.",
     image: "/images/luxury-brand-digital-marketing-strategy.png",
     category: "Strategy",
     date: "2026-06-19",
@@ -597,7 +597,7 @@ export const insightPosts: InsightPost[] = [
     slug: "ott-advertising-luxury-brands",
     title: "OTT Advertising for Luxury Brands: The Complete Guide",
     excerpt:
-      "The complete guide to OTT advertising for luxury brands — platforms, ad formats, targeting, and measurement for reaching affluent streaming audiences at scale.",
+      "The complete guide to OTT advertising for luxury brands - platforms, ad formats, targeting, and measurement for reaching affluent streaming audiences at scale.",
     image: "/images/ott-advertising-luxury-brands.png",
     category: "Channels",
     date: "2026-06-19",
@@ -606,7 +606,7 @@ export const insightPosts: InsightPost[] = [
     slug: "brand-lift-measurement-ctv",
     title: "Brand Lift Measurement for CTV: A Practical Guide",
     excerpt:
-      "A practical guide to brand lift measurement for CTV — methodologies, benchmark ranges, and how incrementality and holdout testing fit together for luxury brands.",
+      "A practical guide to brand lift measurement for CTV - methodologies, benchmark ranges, and how incrementality and holdout testing fit together for luxury brands.",
     image: "/images/brand-lift-measurement-ctv.png",
     category: "Measurement & Attribution",
     date: "2026-06-14",
@@ -615,7 +615,7 @@ export const insightPosts: InsightPost[] = [
     slug: "millionaire-household-targeting-digital",
     title: "Millionaire Household Targeting With Digital Media",
     excerpt:
-      "How to find and reach millionaire households with digital media — data sources, segmentation models, and channel strategy for luxury brands. A Stillwater Media playbook.",
+      "How to find and reach millionaire households with digital media - data sources, segmentation models, and channel strategy for luxury brands. A Stillwater Media playbook.",
     image: "/images/millionaire-household-targeting-digital.png",
     category: "Affluent Audience Strategy",
     date: "2026-06-14",
@@ -624,7 +624,7 @@ export const insightPosts: InsightPost[] = [
     slug: "media-agency-charlotte-nc-luxury",
     title: "Media Agency in Charlotte, NC: Built for Luxury Brands",
     excerpt:
-      "Why a media agency in Charlotte, NC is positioned to serve luxury brands: wealth-market proximity, talent, and cost structure — without coastal markup.",
+      "Why a media agency in Charlotte, NC is positioned to serve luxury brands: wealth-market proximity, talent, and cost structure - without coastal markup.",
     image: "/images/media-agency-charlotte-nc-luxury.png",
     category: "Agency Insights",
     date: "2026-06-12",
@@ -651,7 +651,7 @@ export const insightPosts: InsightPost[] = [
     slug: "identity-resolution-luxury-advertising",
     title: "Identity Resolution for Luxury Advertising After Cookies",
     excerpt:
-      "How premium brands maintain precision targeting and measurement after cookie deprecation — the identity resolution frameworks that keep luxury campaigns accountable.",
+      "How premium brands maintain precision targeting and measurement after cookie deprecation - the identity resolution frameworks that keep luxury campaigns accountable.",
     image: "/images/identity-resolution-luxury-advertising.png",
     category: "Data & Privacy",
     date: "2026-06-11",
@@ -660,7 +660,7 @@ export const insightPosts: InsightPost[] = [
     slug: "podcast-advertising-luxury-brands",
     title: "Podcast Advertising for Luxury Brands",
     excerpt:
-      "How luxury brands reach affluent, high-attention listeners through podcast advertising — host-read vs. programmatic, show selection, and measurement that holds up.",
+      "How luxury brands reach affluent, high-attention listeners through podcast advertising - host-read vs. programmatic, show selection, and measurement that holds up.",
     image: "/images/podcast-advertising-luxury-brands.png",
     category: "Streaming Audio / Podcast Advertising",
     date: "2026-06-10",
@@ -669,7 +669,7 @@ export const insightPosts: InsightPost[] = [
     slug: "native-advertising-premium-brands",
     title: "Native Advertising for Premium Brands",
     excerpt:
-      "How premium brands use native advertising to earn attention in editorial environments without cheapening brand equity — formats, publishers, and creative discipline.",
+      "How premium brands use native advertising to earn attention in editorial environments without cheapening brand equity - formats, publishers, and creative discipline.",
     image: "/images/native-advertising-premium-brands.png",
     category: "Native Advertising / Premium Publishing",
     date: "2026-06-10",
@@ -687,7 +687,7 @@ export const insightPosts: InsightPost[] = [
     slug: "brand-safety-programmatic-advertising",
     title: "Brand Safety in Programmatic Advertising for Luxury Brands",
     excerpt:
-      "How luxury brands protect premium equity in programmatic — brand safety vs. brand suitability, private marketplaces, and the contextual safeguards that matter.",
+      "How luxury brands protect premium equity in programmatic - brand safety vs. brand suitability, private marketplaces, and the contextual safeguards that matter.",
     image: "/images/brand-safety-programmatic-advertising.png",
     category: "Programmatic Advertising / Brand Strategy",
     date: "2026-06-09",
@@ -705,7 +705,7 @@ export const insightPosts: InsightPost[] = [
     slug: "golf-equipment-advertising-affluent",
     title: "Golf Equipment Advertising to Affluent Players: A Precision Targeting Guide",
     excerpt:
-      "Most golf brands target golfers. The best ones target the right golfers — committed, high-income players with 15+ rounds a year and $3,000+ in annual equipment spend.",
+      "Most golf brands target golfers. The best ones target the right golfers - committed, high-income players with 15+ rounds a year and $3,000+ in annual equipment spend.",
     image: "/images/golf-equipment-advertising-affluent.png",
     category: "Vertical Strategy",
     date: "2026-06-08",
@@ -714,7 +714,7 @@ export const insightPosts: InsightPost[] = [
     slug: "luxury-hospitality-marketing-agency",
     title: "Luxury Hospitality Marketing Agency: The Digital Media Playbook",
     excerpt:
-      "The complete digital media playbook for luxury hospitality brands — CTV, programmatic, first-party data, and the channels that drive high-value direct bookings at scale.",
+      "The complete digital media playbook for luxury hospitality brands - CTV, programmatic, first-party data, and the channels that drive high-value direct bookings at scale.",
     image: "/images/luxury-hospitality-marketing-agency.png",
     category: "Vertical Playbooks",
     date: "2026-06-07",
@@ -732,7 +732,7 @@ export const insightPosts: InsightPost[] = [
     slug: "customer-acquisition-cost-luxury-brands",
     title: "Customer Acquisition Cost Benchmarks for Luxury Brands",
     excerpt:
-      "Most luxury brands don't know their true CAC — or why it's higher than it should be. Real benchmarks and strategies to reduce acquisition cost without sacrificing brand equity.",
+      "Most luxury brands don't know their true CAC - or why it's higher than it should be. Real benchmarks and strategies to reduce acquisition cost without sacrificing brand equity.",
     image: "/images/customer-acquisition-cost-luxury-brands.png",
     category: "Measurement & Attribution",
     date: "2026-06-05",
@@ -750,7 +750,7 @@ export const insightPosts: InsightPost[] = [
     slug: "ai-powered-advertising-luxury-brands",
     title: "How AI Is Transforming Luxury Brand Advertising",
     excerpt:
-      "AI-powered advertising for luxury brands is no longer experimental — it's a competitive advantage. How Stillwater uses AI audience modeling, generative creative, and predictive optimization at scale.",
+      "AI-powered advertising for luxury brands is no longer experimental - it's a competitive advantage. How Stillwater uses AI audience modeling, generative creative, and predictive optimization at scale.",
     image: "/images/ai-powered-advertising-luxury-brands.png",
     category: "Strategy & Innovation",
     date: "2026-06-04",
@@ -840,7 +840,7 @@ export const insightPosts: InsightPost[] = [
     slug: "multi-touch-attribution-high-consideration-brands",
     title: "Multi-Touch Attribution for Long Sales Cycle Brands",
     excerpt:
-      "Multi-touch attribution for high-consideration brands with long sales cycles. Stillwater Media explains which models work — and which lie — for luxury advertisers.",
+      "Multi-touch attribution for high-consideration brands with long sales cycles. Stillwater Media explains which models work - and which lie - for luxury advertisers.",
     image: "/images/multi-touch-attribution-high-consideration-brands.png",
     category: "Measurement & Attribution",
     date: "2026-05-28",
@@ -858,7 +858,7 @@ export const insightPosts: InsightPost[] = [
     slug: "performance-media-agency-luxury-brands",
     title: "Performance Media Agency for Luxury Brands",
     excerpt:
-      "Discover how a performance media agency differs from traditional brand advertising—and why luxury brands with long sales cycles need a different approach entirely.",
+      "Discover how a performance media agency differs from traditional brand advertising-and why luxury brands with long sales cycles need a different approach entirely.",
     image: "/images/performance-media-agency-luxury-brands.png",
     category: "Agency & Strategy",
     date: "2026-05-29",
@@ -867,7 +867,7 @@ export const insightPosts: InsightPost[] = [
     slug: "first-party-data-luxury-advertising",
     title: "First-Party Data Strategy for Luxury Brands",
     excerpt:
-      "Learn how luxury brands can build a first-party data strategy that survives cookie deprecation—without sacrificing audience precision or brand safety.",
+      "Learn how luxury brands can build a first-party data strategy that survives cookie deprecation-without sacrificing audience precision or brand safety.",
     image: "/images/first-party-data-luxury-advertising.png",
     category: "Strategy & Measurement",
     date: "2026-05-30",
@@ -885,7 +885,7 @@ export const insightPosts: InsightPost[] = [
     slug: "ctv-vs-linear-tv-luxury-brand-advertising",
     title: "CTV vs. Linear TV: Which Wins for Luxury Brand Advertising?",
     excerpt:
-      "A definitive comparison of CTV and linear TV for luxury advertisers — targeting capabilities, CPM benchmarks, brand lift measurement, and strategic allocation.",
+      "A definitive comparison of CTV and linear TV for luxury advertisers - targeting capabilities, CPM benchmarks, brand lift measurement, and strategic allocation.",
     image: "/images/ctv-vs-linear-tv-luxury-brand-advertising.png",
     category: "CTV & Streaming",
     date: "2026-05-27",
@@ -903,7 +903,7 @@ export const insightPosts: InsightPost[] = [
     slug: "affluent-audience-targeting",
     title: "The Complete Guide to Affluent Audience Targeting in 2025",
     excerpt:
-      "Learn how affluent audience targeting works—wealth signals, premium data sources, lookalike modeling, and the exact frameworks luxury brands use to reach HNW consumers.",
+      "Learn how affluent audience targeting works-wealth signals, premium data sources, lookalike modeling, and the exact frameworks luxury brands use to reach HNW consumers.",
     image: "/images/affluent-audience-targeting.jpg",
     category: "Audience Strategy",
     date: "2026-05-26",
@@ -921,7 +921,7 @@ export const insightPosts: InsightPost[] = [
     slug: "incrementality-testing-luxury-brands",
     title: "Incrementality Testing: The Metric Luxury Brands Can't Afford to Ignore",
     excerpt:
-      "Incrementality testing reveals what your media actually causes—not just correlates with. Learn how luxury brands use holdout testing to prove real ad ROI.",
+      "Incrementality testing reveals what your media actually causes-not just correlates with. Learn how luxury brands use holdout testing to prove real ad ROI.",
     image: "/images/incrementality-testing-luxury-brands.jpg",
     category: "Measurement",
     date: "2026-05-25",
@@ -1002,7 +1002,7 @@ export const insightPosts: InsightPost[] = [
     slug: "charlotte-nc-lead-generation-market",
     title: "Charlotte, NC Lead Generation Market: Opportunities and Competitive Landscape",
     excerpt:
-      "A deep dive into the Charlotte lead generation ecosystem — from key industries and audience segments to the tactics that outperform in the Carolinas market.",
+      "A deep dive into the Charlotte lead generation ecosystem - from key industries and audience segments to the tactics that outperform in the Carolinas market.",
     image: "/charlotte-nc-business-district-lead-generation.jpg",
     category: "Local",
     date: "2026-01-10",

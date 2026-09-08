@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Shoppable CTV Advertising for Luxury Brands: The 2026 Playbook",
     description:
-      "Interactive CTV formats now carry real benchmark data. Here is how luxury and high-consideration brands should use shoppable CTV advertising — and where it fails.",
+      "Interactive CTV formats now carry real benchmark data. Here is how luxury and high-consideration brands should use shoppable CTV advertising - and where it fails.",
     type: "article",
     url: canonicalUrl,
     siteName: "Stillwater Media",
@@ -38,7 +38,7 @@ const faqs = [
   {
     question: "What is shoppable CTV advertising?",
     answer:
-      "Shoppable CTV advertising is a connected TV ad format that layers an interactive response mechanism — a QR code, a remote-navigable overlay, a send-to-device prompt, or a product gallery — onto a streaming video spot. Rather than ending in passive exposure, the ad gives the viewer a way to act immediately, either by scanning with a phone or by responding with the remote. For luxury and high-consideration brands, the value is less about immediate purchase and more about identifying which households are genuinely interested during a sales cycle that may run 60 to 180 days.",
+      "Shoppable CTV advertising is a connected TV ad format that layers an interactive response mechanism - a QR code, a remote-navigable overlay, a send-to-device prompt, or a product gallery - onto a streaming video spot. Rather than ending in passive exposure, the ad gives the viewer a way to act immediately, either by scanning with a phone or by responding with the remote. For luxury and high-consideration brands, the value is less about immediate purchase and more about identifying which households are genuinely interested during a sales cycle that may run 60 to 180 days.",
   },
   {
     question: "What is a good engagement rate for shoppable CTV advertising?",
@@ -48,12 +48,12 @@ const faqs = [
   {
     question: "How much more does shoppable CTV cost than standard CTV advertising?",
     answer:
-      "Interactive formats generally add $2 to $22 to the CPM depending on the format and platform, with QR overlays at the low end and full shoppable carousels or premium interactive units at the high end. On a $38 base CPM, a $12 interactive premium costs roughly $12,000 per million impressions. That premium is justified when the resulting action-to-qualified-inquiry economics clear your acquisition threshold — which for brands with customer LTV above $5,000 they usually do, and for thin-margin products they usually do not.",
+      "Interactive formats generally add $2 to $22 to the CPM depending on the format and platform, with QR overlays at the low end and full shoppable carousels or premium interactive units at the high end. On a $38 base CPM, a $12 interactive premium costs roughly $12,000 per million impressions. That premium is justified when the resulting action-to-qualified-inquiry economics clear your acquisition threshold - which for brands with customer LTV above $5,000 they usually do, and for thin-margin products they usually do not.",
   },
   {
     question: "Does shoppable CTV work for luxury brands with long sales cycles?",
     answer:
-      "Yes, but for a different reason than it works in retail. In categories with 30-plus day consideration windows, the interaction is not a purchase signal — it is an identification signal that arrives months before closed-won data. That makes shoppable CTV one of the few in-flight optimization inputs available to private aviation, luxury real estate, wealth management, and private club marketers. The critical discipline is measuring downstream qualified inquiries against a holdout rather than crediting the scans themselves.",
+      "Yes, but for a different reason than it works in retail. In categories with 30-plus day consideration windows, the interaction is not a purchase signal - it is an identification signal that arrives months before closed-won data. That makes shoppable CTV one of the few in-flight optimization inputs available to private aviation, luxury real estate, wealth management, and private club marketers. The critical discipline is measuring downstream qualified inquiries against a holdout rather than crediting the scans themselves.",
   },
   {
     question: "How do you measure whether shoppable CTV is actually driving incremental results?",
@@ -132,7 +132,7 @@ export default function Page() {
       category="Connected TV"
       image={image}
       imageAlt={imageAlt}
-      imageCaption="The most valuable interaction in shoppable CTV is not the click — it is the moment an affluent household decides the brand is worth a second screen."
+      imageCaption="The most valuable interaction in shoppable CTV is not the click - it is the moment an affluent household decides the brand is worth a second screen."
       schemaMarkup={schemaMarkup}
     >
       <p>
@@ -140,14 +140,14 @@ export default function Page() {
         for luxury and high-consideration clients now carries an interactive component, and the format has matured enough
         that the honest question is no longer &quot;does it work&quot; but &quot;where does it earn its premium.&quot; For
         a private aviation operator selling $180,000 jet cards or a builder marketing $4M coastal residences, an on-screen
-        interaction is not a purchase — it is a hand raised in a household we could not otherwise identify. That
+        interaction is not a purchase - it is a hand raised in a household we could not otherwise identify. That
         distinction governs every decision below.
       </p>
       <p>
         The mechanics are simple. A standard 30-second CTV spot runs in a premium streaming environment. Layered on top
         is an interactive element: a QR code, an on-screen prompt navigable by remote, a &quot;send me more&quot; action
         that pushes an email or SMS to the account holder, or a companion unit that persists after the video completes.
-        The viewer engages, and something measurable happens — a scan, a request, a site session on a phone in the same
+        The viewer engages, and something measurable happens - a scan, a request, a site session on a phone in the same
         household.
       </p>
       <p>
@@ -159,7 +159,7 @@ export default function Page() {
 
       <h2>Why Shoppable CTV Advertising Fits High-Consideration Categories</h2>
       <p>
-        The received wisdom is that interactive TV formats belong to commerce — beauty, apparel, snacks, anything with a
+        The received wisdom is that interactive TV formats belong to commerce - beauty, apparel, snacks, anything with a
         sub-$100 impulse threshold. That framing undersells the format for luxury.
       </p>
       <p>
@@ -262,7 +262,7 @@ export default function Page() {
         <li>
           <strong>Household affluence correlates negatively with scan rate.</strong> HNW households scan less. In our
           data, campaigns targeting $500K+ household income deliver QR scan rates roughly 25–40% below broad-reach
-          benchmarks. Do not read that as failure — read it as a reminder that the denominator changed.
+          benchmarks. Do not read that as failure - read it as a reminder that the denominator changed.
         </li>
         <li>
           <strong>Dayparts matter enormously.</strong> Weekend afternoon and 8–11pm weekday scan rates run 1.5x to 2.2x
@@ -283,7 +283,7 @@ export default function Page() {
         targeting depends heavily on the audience layer rather than the content adjacency.
       </p>
       <p>
-        <strong>Amazon</strong> offers the tightest closed loop when the advertiser sells anything Amazon can attribute —
+        <strong>Amazon</strong> offers the tightest closed loop when the advertiser sells anything Amazon can attribute -
         which for luxury is a narrower set than it sounds. Interactive formats on Prime Video and Fire TV connect to
         Amazon&apos;s purchase and browse graph, which is genuinely useful for premium DTC and luxury goods, and
         considerably less useful for a private jet operator. Amazon&apos;s interactive units carry meaningful CPM
@@ -322,7 +322,7 @@ export default function Page() {
       <h3>2. Model whether the premium can pay for itself</h3>
       <p>
         The arithmetic is unforgiving and worth doing on a napkin. If a standard CTV impression costs $38 CPM and the
-        interactive version costs $50, you are paying $12 per thousand — roughly $12,000 on a million impressions — for
+        interactive version costs $50, you are paying $12 per thousand - roughly $12,000 on a million impressions - for
         the interactive layer. At a 0.35% action rate, that is 3,500 actions at about $3.43 each in incremental cost. If
         your historic action-to-qualified-inquiry rate is 8%, you are paying roughly $43 in premium per qualified
         inquiry. Against a $5,000+ LTV threshold, that clears easily. Against a thin-margin product, it does not.
@@ -338,7 +338,7 @@ export default function Page() {
       <p>
         Interactive units are more intrusive than standard spots, and irritation compounds. We hold interactive CTV
         frequency to 3–4 exposures per household per week, below our standard CTV ceiling. Above roughly six weekly
-        exposures, interaction rates in our data decline while completed rates stay flat — a clean signal of format
+        exposures, interaction rates in our data decline while completed rates stay flat - a clean signal of format
         fatigue rather than audience fatigue.
       </p>
       <h3>5. Instrument the landing experience for the second screen</h3>
@@ -353,7 +353,7 @@ export default function Page() {
         This is where most shoppable CTV programs quietly fail. Interaction data is compelling and easy to over-credit.
         Design a geographic or audience-level holdout from the start, run it for the full flight, and evaluate lift on
         qualified inquiries and pipeline rather than on scans. In our own testing, roughly 35–55% of measured
-        post-exposure conversions in interactive CTV campaigns would have occurred without the interactive layer — the
+        post-exposure conversions in interactive CTV campaigns would have occurred without the interactive layer - the
         layer accelerated them rather than created them. That is still valuable. It is not the same as incremental.
       </p>
 
@@ -364,18 +364,18 @@ export default function Page() {
       </p>
       <p>The sequence we build for most high-consideration clients runs in three stages:</p>
       <p>
-        <strong>Stage one — atmospheric reach.</strong> Standard 30-second premium CTV against a broad affluent
+        <strong>Stage one - atmospheric reach.</strong> Standard 30-second premium CTV against a broad affluent
         prospecting audience, no interactive layer, no premium paid. The job here is establishing that the brand exists
         and is of a certain caliber. Typically 55–65% of CTV budget.
       </p>
       <p>
-        <strong>Stage two — interactive re-engagement.</strong> Households that reached at least 50% completion on the
+        <strong>Stage two - interactive re-engagement.</strong> Households that reached at least 50% completion on the
         stage-one spot receive the interactive version, usually within seven to ten days. This is where the CPM premium is
         spent, and it is spent against households that have already demonstrated attention. In our campaigns, interaction
         rates in stage two run 2.1x to 3.4x higher than the same creative served cold. Typically 25–35% of CTV budget.
       </p>
       <p>
-        <strong>Stage three — cross-channel closure.</strong> Households that interacted move into a
+        <strong>Stage three - cross-channel closure.</strong> Households that interacted move into a
         suppression-and-sequencing logic across programmatic display, YouTube, and paid social with creative that assumes
         familiarity. Interactive CTV budget is not spent again here; the identifier is more valuable than another
         impression. Typically 10–15% of budget, though this stage usually draws from a separate line.
@@ -388,8 +388,8 @@ export default function Page() {
       </p>
       <p>
         One caveat worth stating plainly: sequencing requires reliable household-level identity across the flight. If your
-        CTV supply cannot deliver consistent household identifiers — which is a real limitation on some device-level
-        inventory — sequencing degrades into approximate frequency management, and the stage-two premium stops being
+        CTV supply cannot deliver consistent household identifiers - which is a real limitation on some device-level
+        inventory - sequencing degrades into approximate frequency management, and the stage-two premium stops being
         justified. Validate identity match rates before committing budget to the structure. Our approach to{" "}
         <a href="/insights/frequency-capping-programmatic-luxury-brands">
           frequency capping in programmatic for luxury brands
@@ -406,7 +406,7 @@ export default function Page() {
         </li>
         <li>
           <strong>Running interactive formats across the entire buy.</strong> Interactivity belongs on mid- and
-          lower-funnel audiences — site visitors, CRM matches, high-intent segments — not on prospecting inventory where
+          lower-funnel audiences - site visitors, CRM matches, high-intent segments - not on prospecting inventory where
           the premium buys nothing.
         </li>
         <li>
@@ -429,7 +429,7 @@ export default function Page() {
         A luxury automotive client of ours ran interactive CTV across Roku and Disney inventory to a $350K+ household
         income audience layered with in-market automotive signals. The interactive layer added $9 CPM. Over an eleven-week
         flight against a 15% geographic holdout, the interactive cells produced a 22% lift in dealership configurator
-        sessions and a 14% lift in scheduled test drives versus the standard-video control. The scan rate was 0.31% —
+        sessions and a 14% lift in scheduled test drives versus the standard-video control. The scan rate was 0.31% -
         unremarkable against broad benchmarks, and entirely beside the point.
       </p>
       <p>

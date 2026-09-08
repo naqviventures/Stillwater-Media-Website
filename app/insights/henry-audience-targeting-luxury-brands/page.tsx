@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "HENRY Audience Targeting: How Luxury Brands Reach High Earners Not Rich Yet",
     description:
-      "Who HENRYs actually are, how to segment them without paying HNW CPMs, real CAC and CPM benchmarks, and which luxury categories should pursue them — from Stillwater Media.",
+      "Who HENRYs actually are, how to segment them without paying HNW CPMs, real CAC and CPM benchmarks, and which luxury categories should pursue them - from Stillwater Media.",
     type: "article",
     url: canonicalUrl,
     siteName: "Stillwater Media",
@@ -38,17 +38,17 @@ const faqs = [
   {
     question: "What does HENRY mean in marketing?",
     answer:
-      "HENRY stands for \u201cHigh Earner, Not Rich Yet\u201d — a household with strong current income but comparatively little accumulated wealth. In media planning terms the working definition is $150,000 to $500,000 in household income with under roughly $1 million in investable assets, which describes an estimated 12–18 million US households and represents the largest reachable pool of qualified demand for most premium and luxury brands.",
+      "HENRY stands for \u201cHigh Earner, Not Rich Yet\u201d - a household with strong current income but comparatively little accumulated wealth. In media planning terms the working definition is $150,000 to $500,000 in household income with under roughly $1 million in investable assets, which describes an estimated 12–18 million US households and represents the largest reachable pool of qualified demand for most premium and luxury brands.",
   },
   {
     question: "How is HENRY audience targeting different from high-net-worth targeting?",
     answer:
-      "The two audiences buy under different constraints: HNW purchase decisions are limited by preference and timing, while HENRY decisions are limited by cash flow. That difference changes everything downstream — HENRYs respond to entry-tier products, visible financing, and value substantiation, they are far more reachable on ad-supported streaming because wealthier households buy ad-free tiers, and reaching them costs roughly 40–55% less per household than reaching a verified high-net-worth audience.",
+      "The two audiences buy under different constraints: HNW purchase decisions are limited by preference and timing, while HENRY decisions are limited by cash flow. That difference changes everything downstream - HENRYs respond to entry-tier products, visible financing, and value substantiation, they are far more reachable on ad-supported streaming because wealthier households buy ad-free tiers, and reaching them costs roughly 40–55% less per household than reaching a verified high-net-worth audience.",
   },
   {
     question: "Can you buy a HENRY audience segment from a data provider?",
     answer:
-      "Not reliably. Segments sold under the HENRY label are typically modeled household income overlaid with an age filter, which is not the same construct and does not exclude genuinely wealthy households. The stronger approach is to build the segment in four layers — modeled income, active suppression of high investable-asset households, category behavior overlays, and a lookalike model trained on your own entry-tier customers — with the expectation that third-party income models run about 55–75% accurate at the $150K+ threshold.",
+      "Not reliably. Segments sold under the HENRY label are typically modeled household income overlaid with an age filter, which is not the same construct and does not exclude genuinely wealthy households. The stronger approach is to build the segment in four layers - modeled income, active suppression of high investable-asset households, category behavior overlays, and a lookalike model trained on your own entry-tier customers - with the expectation that third-party income models run about 55–75% accurate at the $150K+ threshold.",
   },
   {
     question: "Which channels reach HENRY audiences most efficiently?",
@@ -133,12 +133,12 @@ export default function Page() {
       category="Audience Strategy"
       image={image}
       imageAlt={imageAlt}
-      imageCaption="The HENRY household has the income of a luxury buyer and the balance sheet of someone still building one — and that gap defines everything about how to reach them."
+      imageCaption="The HENRY household has the income of a luxury buyer and the balance sheet of someone still building one - and that gap defines everything about how to reach them."
       schemaMarkup={schemaMarkup}
     >
       <p>
         HENRY audience targeting is the practice of reaching households with high current income and comparatively low
-        accumulated net worth — the &quot;High Earners, Not Rich Yet&quot; cohort, typically defined as $150,000 to
+        accumulated net worth - the &quot;High Earners, Not Rich Yet&quot; cohort, typically defined as $150,000 to
         $500,000 in household income with under roughly $1 million in investable assets. They are not high-net-worth
         buyers, and treating them as such is one of the most reliable ways to waste a luxury media budget. They are also,
         for most premium brands, the largest reachable pool of qualified demand in the United States, and the population
@@ -169,12 +169,12 @@ export default function Page() {
         </li>
         <li>
           <strong>Spending posture:</strong> meaningful discretionary outlay on categories with status or experience value
-          — travel, dining, apparel, vehicles, fitness, home.
+          - travel, dining, apparel, vehicles, fitness, home.
         </li>
       </ul>
       <p>
         By that definition the HENRY population in the US sits in the range of 12–18 million households depending on where
-        the income floor is drawn — roughly two to three times the size of the household population above $500,000 in
+        the income floor is drawn - roughly two to three times the size of the household population above $500,000 in
         income, and dramatically larger than the sub-2-million households with over $5 million in investable assets. That
         size difference is the entire strategic argument for HENRY audience targeting: the cohort is reachable at scale, at
         CPMs well below what wealth-tier data commands, and it converts on entry-tier products that most luxury brands
@@ -195,7 +195,7 @@ export default function Page() {
         </li>
         <li>
           <strong>Established income, constrained liquidity (38–52).</strong> Strong salaries absorbed by mortgages,
-          private school tuition, and family costs. They buy considered, durable, justifiable purchases — vehicles,
+          private school tuition, and family costs. They buy considered, durable, justifiable purchases - vehicles,
           watches, home improvement, wealth management relationships.
         </li>
         <li>
@@ -307,7 +307,7 @@ export default function Page() {
       </div>
       <p>
         The row that surprises most CMOs is achievable CPM. HENRY inventory is not cheap in absolute terms, but reaching an
-        emerging-affluent household costs roughly 40–55% less than reaching a verified HNW household — and for products
+        emerging-affluent household costs roughly 40–55% less than reaching a verified HNW household - and for products
         priced between $1,000 and $75,000, that difference usually outweighs the higher conversion rate the wealthier
         audience delivers.
       </p>
@@ -327,7 +327,7 @@ export default function Page() {
       </p>
       <p>
         <strong>Layer 2: Exclude the wealthy.</strong> This is the step nearly everyone skips. If you want HENRY behavior,
-        suppress households with high investable-asset scores — otherwise your &quot;HENRY&quot; segment is simply an
+        suppress households with high investable-asset scores - otherwise your &quot;HENRY&quot; segment is simply an
         affluent segment with your best-converting HNW households included, and your reported results will be flattered by
         an audience you were not trying to buy. Suppression is also how you keep entry-tier messaging away from customers
         who should be seeing the flagship offer.
@@ -377,7 +377,7 @@ export default function Page() {
         </li>
         <li>
           <strong>Retail media networks.</strong> Increasingly viable for HENRY reach because purchase data resolves the
-          income-model accuracy problem — you are targeting demonstrated spending rather than modeled income.
+          income-model accuracy problem - you are targeting demonstrated spending rather than modeled income.
         </li>
       </ul>
       <p>
@@ -410,7 +410,7 @@ export default function Page() {
       <p>
         <strong>Days 1–15: Define the segment and the entry rung.</strong> Agree the income band, the asset suppression
         rule, and the specific product or tier the campaign is selling. If the brand cannot name the entry rung, the media
-        cannot fix it — that work happens first.
+        cannot fix it - that work happens first.
       </p>
       <p>
         <strong>Days 16–30: Build and size.</strong> Construct the four-layer segment, size it in the DSP, and check reach
@@ -420,7 +420,7 @@ export default function Page() {
       <p>
         <strong>Days 31–60: Run a structured test, not a rollout.</strong> Three to five cells maximum, split by
         sub-segment and by channel, with matched creative and a holdout region excluded from all of them. Resist
-        optimizing the cells against each other before week four — early performance differences in a 2–10 week
+        optimizing the cells against each other before week four - early performance differences in a 2–10 week
         consideration cycle are mostly noise.
       </p>
       <p>
@@ -432,7 +432,7 @@ export default function Page() {
       <p>
         The discipline that matters here is refusing to declare victory early. HENRY campaigns produce encouraging click
         and engagement metrics almost immediately, because the cohort is large, media-literate, and interested in the
-        category — which makes them the easiest audience in luxury to be wrong about.
+        category - which makes them the easiest audience in luxury to be wrong about.
       </p>
 
       <h2>Measurement: The Trap of Flattering Attribution</h2>
@@ -444,7 +444,7 @@ export default function Page() {
       </p>
       <p>
         The second is <strong>LTV timing</strong>. HENRY customers frequently have lower first-purchase value but longer,
-        steeper spending trajectories — they are the cohort most likely to move up-tier within three to five years. Judging
+        steeper spending trajectories - they are the cohort most likely to move up-tier within three to five years. Judging
         them on first-order value understates their worth, often by a factor of two or more once repeat and up-tier
         purchases are counted. Model HENRY acquisition against 36-month value, not against initial order value, and hold
         the line when finance asks why blended <a href="/insights/customer-acquisition-cost-luxury-brands">CAC</a> rose.
@@ -469,7 +469,7 @@ export default function Page() {
         </li>
         <li>
           <strong>Do not pursue:</strong> ultra-prime real estate, whole-aircraft sales, bespoke commissions, family office
-          services. The cohort cannot transact, and the media spent reaching them is spent twice — once in wasted
+          services. The cohort cannot transact, and the media spent reaching them is spent twice - once in wasted
           impressions, once in the brand dilution of appearing where the flagship shouldn&apos;t.
         </li>
       </ul>
@@ -478,16 +478,16 @@ export default function Page() {
         audience with the same message erodes both. The flagship buyer sees financing language attached to a product they
         were never going to finance; the entry buyer sees pricing that makes the brand feel unreachable and disengages.{" "}
         <a href="/insights/wealth-based-audience-segmentation">Wealth-tier suppression</a> is not only a targeting hygiene
-        issue — it is what allows two different messages to coexist under one brand without either one undermining the
+        issue - it is what allows two different messages to coexist under one brand without either one undermining the
         other. Every serious HENRY program we run is paired with a suppression rule and a separate HNW line item carrying
-        different creative — including full{" "}
-        <a href="/insights/premium-dtc-brand-advertising">premium DTC brand advertising</a> tracks — and the two are
+        different creative - including full{" "}
+        <a href="/insights/premium-dtc-brand-advertising">premium DTC brand advertising</a> tracks - and the two are
         reported separately from the first week.
       </p>
       <p>
         The strategic frame we recommend to clients is that HENRY audience targeting is a pipeline investment with a
         near-term revenue justification. It should pay for itself on entry-tier volume within the current fiscal year, and
-        the compounding value — customers who move up-tier as their balance sheets catch up to their incomes — is the
+        the compounding value - customers who move up-tier as their balance sheets catch up to their incomes - is the
         return you collect later.
       </p>
 

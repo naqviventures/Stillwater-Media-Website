@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "True Incremental Lift Measurement: How to Calculate What Your Media Actually Caused",
     description:
-      "A senior strategist's guide to true incremental lift measurement — the lift equation and its four variants, the five test designs compared on bias and cost, the minimum detectable effect math that determines whether a test can succeed before you run it, and the six contamination sources that make reported lift look larger than reality.",
+      "A senior strategist's guide to true incremental lift measurement - the lift equation and its four variants, the five test designs compared on bias and cost, the minimum detectable effect math that determines whether a test can succeed before you run it, and the six contamination sources that make reported lift look larger than reality.",
     type: "article",
     url: canonicalUrl,
     images: [
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
         url: imagePath,
         width: 1200,
         height: 630,
-        alt: "True incremental lift measurement — Stillwater Media",
+        alt: "True incremental lift measurement - Stillwater Media",
       },
     ],
     locale: "en_US",
@@ -43,13 +43,13 @@ const schemaMarkup = {
       "@type": "Article",
       headline: "True Incremental Lift Measurement: How to Calculate What Your Media Actually Caused",
       description:
-        "A senior media strategist's guide to true incremental lift measurement — the difference between observed performance and causal contribution, the lift equation and its four working variants including absolute lift, relative lift, incremental ROAS and incremental CAC, a comparison of five test designs across bias, cost and time to read, the minimum detectable effect calculation that determines whether a test is worth running before it launches, the six contamination sources that systematically inflate reported lift, and the measurement cadence luxury and high-consideration brands should operate on.",
+        "A senior media strategist's guide to true incremental lift measurement - the difference between observed performance and causal contribution, the lift equation and its four working variants including absolute lift, relative lift, incremental ROAS and incremental CAC, a comparison of five test designs across bias, cost and time to read, the minimum detectable effect calculation that determines whether a test is worth running before it launches, the six contamination sources that systematically inflate reported lift, and the measurement cadence luxury and high-consideration brands should operate on.",
       image: {
         "@type": "ImageObject",
         url: `https://www.stillwatermedia.io${imagePath}`,
         width: 1200,
         height: 630,
-        caption: "True incremental lift measurement — Stillwater Media",
+        caption: "True incremental lift measurement - Stillwater Media",
       },
       author: { "@type": "Organization", name: "Stillwater Media" },
       publisher: {
@@ -87,7 +87,7 @@ const schemaMarkup = {
           name: "What is true incremental lift measurement?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "True incremental lift measurement is the process of isolating the conversions or revenue that occurred because a campaign ran and would not have occurred otherwise, calculated as the difference in outcome rate between a randomized exposed group and a comparable unexposed control group. It differs from attribution, which assigns credit for conversions that already happened to the touchpoints that preceded them without establishing whether those touchpoints caused anything. Incrementality answers \"what did this media cause,\" while attribution answers \"what did this media touch\" — and for most channels those two numbers differ by a wide margin.",
+            text: "True incremental lift measurement is the process of isolating the conversions or revenue that occurred because a campaign ran and would not have occurred otherwise, calculated as the difference in outcome rate between a randomized exposed group and a comparable unexposed control group. It differs from attribution, which assigns credit for conversions that already happened to the touchpoints that preceded them without establishing whether those touchpoints caused anything. Incrementality answers \"what did this media cause,\" while attribution answers \"what did this media touch\" - and for most channels those two numbers differ by a wide margin.",
           },
         },
         {
@@ -103,7 +103,7 @@ const schemaMarkup = {
           name: "Why is platform-reported ROAS higher than incremental ROAS?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Platform-reported ROAS counts every conversion that occurred within an attribution window after an ad impression or click, including conversions that would have happened with no advertising at all. Because delivery algorithms optimize toward users already likely to convert, the exposed population is systematically more valuable than the average user before any ad serves. In practice this means retargeting and branded search — which target people already in-market or already searching your brand name — show the largest gaps, frequently overstating incremental contribution by 200% to 600%.",
+            text: "Platform-reported ROAS counts every conversion that occurred within an attribution window after an ad impression or click, including conversions that would have happened with no advertising at all. Because delivery algorithms optimize toward users already likely to convert, the exposed population is systematically more valuable than the average user before any ad serves. In practice this means retargeting and branded search - which target people already in-market or already searching your brand name - show the largest gaps, frequently overstating incremental contribution by 200% to 600%.",
           },
         },
         {
@@ -111,7 +111,7 @@ const schemaMarkup = {
           name: "How long should an incrementality test run?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Test duration should be set by your conversion lag distribution and required sample size, not by convenience. Geo holdout tests for premium video typically need six to ten weeks, ghost-ad tests on programmatic display three to six weeks, and user-level holdouts four to eight weeks — plus a two-to-four-week pre-period A/A validation to confirm the groups behave identically before treatment starts. Brands with 90-to-180-day sales cycles, common in private aviation and luxury real estate, must extend the measurement window to match the actual lag to close or the test will report no lift simply because the conversions have not landed yet.",
+            text: "Test duration should be set by your conversion lag distribution and required sample size, not by convenience. Geo holdout tests for premium video typically need six to ten weeks, ghost-ad tests on programmatic display three to six weeks, and user-level holdouts four to eight weeks - plus a two-to-four-week pre-period A/A validation to confirm the groups behave identically before treatment starts. Brands with 90-to-180-day sales cycles, common in private aviation and luxury real estate, must extend the measurement window to match the actual lag to close or the test will report no lift simply because the conversions have not landed yet.",
           },
         },
         {
@@ -119,7 +119,7 @@ const schemaMarkup = {
           name: "Can luxury brands with small audiences run valid incrementality tests?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes, but the test design has to respect the volume constraint. Small-audience brands should test at the channel level rather than the creative or placement level, use a mid-funnel proxy event such as a consultation request or configurator completion that occurs eight to twenty times more often than a closed sale, and calculate the minimum detectable effect before launching to confirm the test can actually resolve an effect of plausible size. A brand with a 0.9% baseline conversion rate can detect a 20% relative lift with roughly 58,000 users per group, but detecting a 5% lift would require close to a million per group — which is why setting a realistic MDE in advance is the difference between a decisive result and an inconclusive one.",
+            text: "Yes, but the test design has to respect the volume constraint. Small-audience brands should test at the channel level rather than the creative or placement level, use a mid-funnel proxy event such as a consultation request or configurator completion that occurs eight to twenty times more often than a closed sale, and calculate the minimum detectable effect before launching to confirm the test can actually resolve an effect of plausible size. A brand with a 0.9% baseline conversion rate can detect a 20% relative lift with roughly 58,000 users per group, but detecting a 5% lift would require close to a million per group - which is why setting a realistic MDE in advance is the difference between a decisive result and an inconclusive one.",
           },
         },
       ],
@@ -137,14 +137,14 @@ export default function Page() {
       category="Measurement & Attribution"
       image={imagePath}
       imageAlt="Stillwater Media guide illustration on true incremental lift measurement showing an antique brass equal-arm balance with two nearly level pans of polished spheres on dark marble"
-      imageCaption="Incrementality is a difference, not a total — and the entire discipline is about measuring that difference cleanly enough to trust it."
+      imageCaption="Incrementality is a difference, not a total - and the entire discipline is about measuring that difference cleanly enough to trust it."
       schemaMarkup={schemaMarkup}
     >
       <p>
         True incremental lift measurement is the practice of isolating the conversions, revenue, or pipeline that exist{" "}
         <em>because</em> a campaign ran and would not have existed otherwise. It is a subtraction, not a sum. Every other
-        reporting number a media platform produces — attributed conversions, view-through revenue, platform-reported
-        ROAS — is a count of outcomes that happened near an ad. Incremental lift is the far smaller and far more useful
+        reporting number a media platform produces - attributed conversions, view-through revenue, platform-reported
+        ROAS - is a count of outcomes that happened near an ad. Incremental lift is the far smaller and far more useful
         number that survives when you remove the outcomes that would have happened anyway.
       </p>
       <p>
@@ -152,7 +152,7 @@ export default function Page() {
         real estate, private club, and premium hospitality accounts Stillwater Media plans and buys for, platform-reported
         conversions typically overstate true incremental contribution by 20% to 40% in prospecting channels and by 200% to
         600% in retargeting and branded search. Brands that never close that gap are not making bad decisions occasionally
-        — they are making systematically biased decisions every quarter, in the same direction, in favor of the channels
+        - they are making systematically biased decisions every quarter, in the same direction, in favor of the channels
         that are best at taking credit.
       </p>
       <p>
@@ -176,7 +176,7 @@ export default function Page() {
       <p>
         The word <em>identical</em> is doing enormous work in that sentence, and it is where nearly all measurement
         failures originate. If your "control" is simply the people the platform chose not to show ads to, it is not a
-        control — algorithmic delivery selects for likelihood to convert, so the exposed group was already more likely to
+        control - algorithmic delivery selects for likelihood to convert, so the exposed group was already more likely to
         buy before a single impression served. Comparing them measures the algorithm's targeting skill, not the
         advertising's causal effect.
       </p>
@@ -190,22 +190,22 @@ export default function Page() {
       <p>Once you have a clean test, four derived figures do all the practical work:</p>
       <ol>
         <li>
-          <strong>Absolute lift</strong> — the raw difference in conversion rate, expressed in percentage points. Exposed
+          <strong>Absolute lift</strong> - the raw difference in conversion rate, expressed in percentage points. Exposed
           group converts at 2.4%, control at 1.8%, absolute lift is 0.6 points. This is the number to use when sizing
           total incremental volume.
         </li>
         <li>
-          <strong>Relative lift</strong> — absolute lift divided by the control rate: 0.6 ÷ 1.8 = 33%. This is the number
+          <strong>Relative lift</strong> - absolute lift divided by the control rate: 0.6 ÷ 1.8 = 33%. This is the number
           to use when comparing channels or campaigns of different baseline sizes, and the number most often quoted
           without context.
         </li>
         <li>
-          <strong>Incremental ROAS (iROAS)</strong> — incremental revenue divided by media spend. For high-consideration
+          <strong>Incremental ROAS (iROAS)</strong> - incremental revenue divided by media spend. For high-consideration
           brands this should be calculated on <em>booked</em> revenue or qualified pipeline, not on the lead event,
           because lead-to-close rates diverge sharply between channels.
         </li>
         <li>
-          <strong>Incremental CAC</strong> — media spend divided by incremental customers. This is the figure that
+          <strong>Incremental CAC</strong> - media spend divided by incremental customers. This is the figure that
           belongs in a board deck. For our client set, incremental CAC typically runs 1.4× to 3.2× the platform-reported
           CAC, and that multiple is itself diagnostic: channels with the widest gap are the channels most heavily
           harvesting existing demand.
@@ -219,7 +219,7 @@ export default function Page() {
       <h2>Five Test Designs for True Incremental Lift Measurement, Compared</h2>
       <p>
         There is no universally correct design. The right one depends on your conversion volume, your channel mix, and
-        whether user-level randomization is even possible — which, in CTV and DOOH, it usually is not.
+        whether user-level randomization is even possible - which, in CTV and DOOH, it usually is not.
       </p>
       <div className="overflow-x-auto">
         <table>
@@ -282,22 +282,22 @@ export default function Page() {
         <strong>Geo holdout is the default for premium video.</strong> Because CTV impressions on Disney+, Netflix, Prime
         Video, and Hulu inventory cannot be reliably randomized at the household level across every supply path, geography
         is the only assignment unit you fully control. Design it by matching markets on pre-period conversion rate,
-        seasonality shape, and category penetration — not on population size alone. Twenty to forty matched market pairs is
+        seasonality shape, and category penetration - not on population size alone. Twenty to forty matched market pairs is
         a healthy target; below ten pairs the variance between markets swamps the effect you are trying to detect.
       </p>
       <p>
         <strong>Ghost ads are the cleanest design available and the most under-used.</strong> In a ghost-ad test the DSP
         records which users <em>would have</em> won the auction for a control-group user and logs the impression without
-        serving it. That control group is exposed to identical selection pressure — same auction, same bid, same targeting
-        — differing only in whether creative rendered. If your DSP supports it, it is the gold standard for display and
+        serving it. That control group is exposed to identical selection pressure - same auction, same bid, same targeting
+        - differing only in whether creative rendered. If your DSP supports it, it is the gold standard for display and
         programmatic video. Ask the question directly during platform selection; support varies more than vendors
         advertise.
       </p>
       <p>
         <strong>Synthetic control is a fallback, not a peer.</strong> It builds a weighted composite of untreated markets
         that tracks the treated market closely in the pre-period, then measures divergence after launch. It is genuinely
-        useful when a brand opens one market at a time — a private club, a single resort property, a regional dealership
-        group — but it is a modeling assumption, not a randomization, and it should be reported with wider uncertainty
+        useful when a brand opens one market at a time - a private club, a single resort property, a regional dealership
+        group - but it is a modeling assumption, not a randomization, and it should be reported with wider uncertainty
         than its outputs usually suggest.
       </p>
 
@@ -315,7 +315,7 @@ export default function Page() {
       <p>
         Run it for a realistic high-consideration case. A wealth management firm with a 0.9% inquiry rate wanting to detect
         a 20% relative lift needs roughly 21 × (0.009 × 0.991) ÷ (0.009 × 0.20)² ≈ 57,800 users per group. That is
-        achievable. The same firm wanting to detect a 5% relative lift needs roughly 925,000 per group — which, for a brand
+        achievable. The same firm wanting to detect a 5% relative lift needs roughly 925,000 per group - which, for a brand
         whose entire addressable audience is a few million affluent households, is not achievable in a quarter.
       </p>
       <p>The practical consequences:</p>
@@ -333,7 +333,7 @@ export default function Page() {
         <li>
           <strong>Use an upper-funnel proxy when volume is thin.</strong> Qualified site actions, configurator
           completions, brochure requests, or scheduled consultations occur 8–20× more often than closed business and can
-          power a test in weeks rather than years — provided you have first validated that the proxy correlates with
+          power a test in weeks rather than years - provided you have first validated that the proxy correlates with
           revenue.
         </li>
       </ul>
@@ -342,7 +342,7 @@ export default function Page() {
       <p>
         A result is worth acting on when three conditions hold together: the confidence interval excludes zero, the point
         estimate is large enough to change a decision, and the pre-period between test and control groups shows no
-        meaningful divergence. Skipping the third check is common and costly — an A/A validation period of two to four
+        meaningful divergence. Skipping the third check is common and costly - an A/A validation period of two to four
         weeks before the treatment starts is the cheapest insurance in measurement.
       </p>
 
@@ -366,7 +366,7 @@ export default function Page() {
         <li>
           <strong>Conversion window mismatch.</strong> High-consideration purchases with 30–180 day cycles read as
           no-lift if the measurement window closes at 30 days. Set the window from your actual observed lag-to-close
-          distribution — for private aviation and luxury real estate that is frequently 90 days or more.
+          distribution - for private aviation and luxury real estate that is frequently 90 days or more.
         </li>
         <li>
           <strong>Novelty and seasonality confounds.</strong> Tests launched alongside a product release, a rate change,
@@ -382,7 +382,7 @@ export default function Page() {
 
       <h2>Turning Test Results Into Planning Coefficients</h2>
       <p>
-        A finished test is not a deliverable. The deliverable is a <em>calibration coefficient</em> — a per-channel
+        A finished test is not a deliverable. The deliverable is a <em>calibration coefficient</em> - a per-channel
         multiplier that converts platform-reported performance into estimated true contribution, applied continuously
         between tests.
       </p>
@@ -441,14 +441,14 @@ export default function Page() {
         </table>
       </div>
       <p>
-        Two cautions. Coefficients are <strong>spend-level dependent</strong> — a channel measured at $80K per month does
+        Two cautions. Coefficients are <strong>spend-level dependent</strong> - a channel measured at $80K per month does
         not carry the same coefficient at $400K, because saturation reduces marginal incrementality. And they are{" "}
         <strong>perishable</strong>, drifting materially within two to three quarters as audiences saturate and creative
         fatigues. Re-derive rather than inherit.
       </p>
       <p>
         Applied properly, the coefficient turns a single expensive experiment into a decision input used in every weekly
-        optimization for the following quarter. That leverage — not the headline lift number — is the actual return on a
+        optimization for the following quarter. That leverage - not the headline lift number - is the actual return on a
         measurement program.
       </p>
 
@@ -500,7 +500,7 @@ export default function Page() {
         randomized exposed group and a comparable unexposed control group. It differs from attribution, which assigns
         credit for conversions that already happened to the touchpoints that preceded them without establishing whether
         those touchpoints caused anything. Incrementality answers &quot;what did this media cause,&quot; while attribution
-        answers &quot;what did this media touch&quot; — and for most channels those two numbers differ by a wide margin.
+        answers &quot;what did this media touch&quot; - and for most channels those two numbers differ by a wide margin.
       </p>
       <h3>How do you calculate incremental lift?</h3>
       <p>
@@ -516,15 +516,15 @@ export default function Page() {
         Platform-reported ROAS counts every conversion that occurred within an attribution window after an ad impression
         or click, including conversions that would have happened with no advertising at all. Because delivery algorithms
         optimize toward users already likely to convert, the exposed population is systematically more valuable than the
-        average user before any ad serves. In practice this means retargeting and branded search — which target people
-        already in-market or already searching your brand name — show the largest gaps, frequently overstating incremental
+        average user before any ad serves. In practice this means retargeting and branded search - which target people
+        already in-market or already searching your brand name - show the largest gaps, frequently overstating incremental
         contribution by 200% to 600%.
       </p>
       <h3>How long should an incrementality test run?</h3>
       <p>
         Test duration should be set by your conversion lag distribution and required sample size, not by convenience. Geo
         holdout tests for premium video typically need six to ten weeks, ghost-ad tests on programmatic display three to
-        six weeks, and user-level holdouts four to eight weeks — plus a two-to-four-week pre-period A/A validation to
+        six weeks, and user-level holdouts four to eight weeks - plus a two-to-four-week pre-period A/A validation to
         confirm the groups behave identically before treatment starts. Brands with 90-to-180-day sales cycles, common in
         private aviation and luxury real estate, must extend the measurement window to match the actual lag to close or
         the test will report no lift simply because the conversions have not landed yet.
@@ -536,7 +536,7 @@ export default function Page() {
         configurator completion that occurs eight to twenty times more often than a closed sale, and calculate the minimum
         detectable effect before launching to confirm the test can actually resolve an effect of plausible size. A brand
         with a 0.9% baseline conversion rate can detect a 20% relative lift with roughly 58,000 users per group, but
-        detecting a 5% lift would require close to a million per group — which is why setting a realistic MDE in advance is
+        detecting a 5% lift would require close to a million per group - which is why setting a realistic MDE in advance is
         the difference between a decisive result and an inconclusive one.
       </p>
     </ArticleLayout>

@@ -37,7 +37,7 @@ export default function AffluentLookalikeModelingPage() {
     "@type": "Article",
     headline: "Affluent Lookalike Modeling: How to Build Premium Audiences That Actually Convert",
     description:
-      "A strategic guide to affluent lookalike modeling for luxury brands — covering seed audience quality, data partnerships, platform selection, and why mass-market approaches destroy high-value campaign performance.",
+      "A strategic guide to affluent lookalike modeling for luxury brands - covering seed audience quality, data partnerships, platform selection, and why mass-market approaches destroy high-value campaign performance.",
     image: {
       "@type": "ImageObject",
       url: "/images/affluent-lookalike-modeling.png",
@@ -74,7 +74,7 @@ export default function AffluentLookalikeModelingPage() {
 
   const schemaMarkup = {
     "@context": "https://schema.org",
-    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/affluent-lookalike-modeling#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Affluent Lookalike Modeling: How to Build Premium Audiences That Actually Convert","item":"https://www.stillwatermedia.io/insights/affluent-lookalike-modeling"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/affluent-lookalike-modeling#faq","mainEntity":[{"@type":"Question","name":"What is affluent lookalike modeling in digital advertising?","acceptedAnswer":{"@type":"Answer","text":"Affluent lookalike modeling is the process of using your highest-value existing customer data — enriched with third-party wealth signals — as a seed to find new prospects who share similar financial, behavioral, and lifestyle characteristics. Unlike standard lookalike audiences, which optimize for general behavioral similarity, affluent lookalike modeling applies household income tiers, net worth overlays, and luxury category affinity scores to ensure the expanded audience reflects actual purchasing power, not just surface-level demographic similarity."}},{"@type":"Question","name":"Why do standard Meta lookalike audiences fail for luxury brands?","acceptedAnswer":{"@type":"Answer","text":"Standard Meta lookalike audiences optimize for behavioral patterns across a broad population and anchor on the most common signals in your seed list — age, interests, device, and content consumption. These signals don't capture the financial attributes that drive luxury purchase behavior: net worth, liquidity, discretionary spend capacity, or real estate ownership. The algorithm finds people who look similar on social media but often have household incomes far below the threshold needed to convert on high-consideration luxury purchases."}},{"@type":"Question","name":"How do I enrich first-party data for luxury lookalike audiences?","acceptedAnswer":{"@type":"Answer","text":"Export your high-LTV customer segment from your CRM (hashed emails plus postal addresses where available), then run the file through a data onboarding partner such as LiveRamp, Acxiom, or Experian Marketing Services. These platforms match your records to offline wealth databases and append household-level attributes — estimated net worth tier, investable assets range, property ownership status, and luxury category affinity scores. Upload the enriched, hashed file to your DSP or ad platform. The enrichment step gives the lookalike algorithm far richer signal and typically reduces unqualified traffic by 25–40%."}},{"@type":"Question","name":"What percentage lookalike should luxury brands use?","acceptedAnswer":{"@type":"Answer","text":"For luxury and high-consideration brands, the practical ceiling for lookalike similarity is 1–2% on social platforms like Meta, and equivalent tightness settings on DSPs like The Trade Desk. As you expand to 5%, 10%, or broader, statistical similarity to your seed deteriorates rapidly and audience quality degrades. To scale volume without loosening match quality, extend reach across additional premium channels (CTV, premium display, streaming audio) rather than expanding the lookalike percentage on any single platform."}},{"@type":"Question","name":"How often should I refresh my affluent lookalike seed audience?","acceptedAnswer":{"@type":"Answer","text":"For active luxury campaigns, seed audiences should be refreshed at minimum quarterly. Customer behavior evolves, new high-LTV cohorts are acquired, and the purchase signals that define your best customers can shift — particularly after product launches, market expansions, or price changes. Platforms like LiveRamp offer automated Always On Audiences that refresh the underlying seed continuously, ensuring your lookalike pools remain anchored in recent behavioral and transactional data rather than a static historical snapshot."}}]}],
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/affluent-lookalike-modeling#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Affluent Lookalike Modeling: How to Build Premium Audiences That Actually Convert","item":"https://www.stillwatermedia.io/insights/affluent-lookalike-modeling"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/affluent-lookalike-modeling#faq","mainEntity":[{"@type":"Question","name":"What is affluent lookalike modeling in digital advertising?","acceptedAnswer":{"@type":"Answer","text":"Affluent lookalike modeling is the process of using your highest-value existing customer data - enriched with third-party wealth signals - as a seed to find new prospects who share similar financial, behavioral, and lifestyle characteristics. Unlike standard lookalike audiences, which optimize for general behavioral similarity, affluent lookalike modeling applies household income tiers, net worth overlays, and luxury category affinity scores to ensure the expanded audience reflects actual purchasing power, not just surface-level demographic similarity."}},{"@type":"Question","name":"Why do standard Meta lookalike audiences fail for luxury brands?","acceptedAnswer":{"@type":"Answer","text":"Standard Meta lookalike audiences optimize for behavioral patterns across a broad population and anchor on the most common signals in your seed list - age, interests, device, and content consumption. These signals don't capture the financial attributes that drive luxury purchase behavior: net worth, liquidity, discretionary spend capacity, or real estate ownership. The algorithm finds people who look similar on social media but often have household incomes far below the threshold needed to convert on high-consideration luxury purchases."}},{"@type":"Question","name":"How do I enrich first-party data for luxury lookalike audiences?","acceptedAnswer":{"@type":"Answer","text":"Export your high-LTV customer segment from your CRM (hashed emails plus postal addresses where available), then run the file through a data onboarding partner such as LiveRamp, Acxiom, or Experian Marketing Services. These platforms match your records to offline wealth databases and append household-level attributes - estimated net worth tier, investable assets range, property ownership status, and luxury category affinity scores. Upload the enriched, hashed file to your DSP or ad platform. The enrichment step gives the lookalike algorithm far richer signal and typically reduces unqualified traffic by 25–40%."}},{"@type":"Question","name":"What percentage lookalike should luxury brands use?","acceptedAnswer":{"@type":"Answer","text":"For luxury and high-consideration brands, the practical ceiling for lookalike similarity is 1–2% on social platforms like Meta, and equivalent tightness settings on DSPs like The Trade Desk. As you expand to 5%, 10%, or broader, statistical similarity to your seed deteriorates rapidly and audience quality degrades. To scale volume without loosening match quality, extend reach across additional premium channels (CTV, premium display, streaming audio) rather than expanding the lookalike percentage on any single platform."}},{"@type":"Question","name":"How often should I refresh my affluent lookalike seed audience?","acceptedAnswer":{"@type":"Answer","text":"For active luxury campaigns, seed audiences should be refreshed at minimum quarterly. Customer behavior evolves, new high-LTV cohorts are acquired, and the purchase signals that define your best customers can shift - particularly after product launches, market expansions, or price changes. Platforms like LiveRamp offer automated Always On Audiences that refresh the underlying seed continuously, ensuring your lookalike pools remain anchored in recent behavioral and transactional data rather than a static historical snapshot."}}]}],
   }
 
   return (
@@ -83,8 +83,8 @@ export default function AffluentLookalikeModelingPage() {
       subtitle="Done correctly, it lets you find thousands of new prospects who mirror your best customers. Done incorrectly, it floods your campaigns with mid-market tire-kickers."
       category="Audience Strategy"
       image="/images/affluent-lookalike-modeling.png"
-      imageAlt="Stillwater Media affluent lookalike modeling — visualization of premium consumer audience data segmentation for luxury brand advertising"
-      imageCaption="The quality of your seed audience determines the quality of every dollar you scale — affluent lookalike modeling is where luxury campaigns are won or lost before the first impression is served."
+      imageAlt="Stillwater Media affluent lookalike modeling - visualization of premium consumer audience data segmentation for luxury brand advertising"
+      imageCaption="The quality of your seed audience determines the quality of every dollar you scale - affluent lookalike modeling is where luxury campaigns are won or lost before the first impression is served."
       date="June 7, 2026"
       readingTime="9 min"
       author="Stillwater Media"
@@ -93,7 +93,7 @@ export default function AffluentLookalikeModelingPage() {
       <p>
         Affluent lookalike modeling is the single highest-leverage technique available to luxury advertisers who want to
         scale without sacrificing audience quality. Done correctly, it lets you find thousands of new prospects who mirror
-        the behavioral, financial, and lifestyle signatures of your best existing customers — without ever touching their
+        the behavioral, financial, and lifestyle signatures of your best existing customers - without ever touching their
         personal data. Done incorrectly, it floods your campaigns with mid-market tire-kickers whose household income
         peaked at $80,000.
       </p>
@@ -103,14 +103,14 @@ export default function AffluentLookalikeModelingPage() {
 
       <h2>Why Standard Lookalike Audiences Fail Luxury Brands</h2>
       <p>
-        Every major platform — Meta, Google, The Trade Desk, DV360 — offers lookalike creation. But these tools were
+        Every major platform - Meta, Google, The Trade Desk, DV360 - offers lookalike creation. But these tools were
         designed for volume, not precision. The algorithm anchors on the most common signals in your seed list: age,
         general interests, device type. For a DTC brand selling $30 sneakers, this works. For a private aviation company
-        selling $150,000 memberships, it&apos;s a disaster — the algorithm finds people who look like your customers on
+        selling $150,000 memberships, it&apos;s a disaster - the algorithm finds people who look like your customers on
         the surface but misses entirely on net worth, liquidity, and discretionary income.
       </p>
       <p>
-        The result is high impression volume, strong CTRs, and conversion numbers that look promising — right up until
+        The result is high impression volume, strong CTRs, and conversion numbers that look promising - right up until
         your sales team reports that none of the inbound leads can afford the product.
       </p>
 
@@ -123,7 +123,7 @@ export default function AffluentLookalikeModelingPage() {
         Before you touch a platform, pull your top 10–15% by LTV and run a cohort analysis. For most luxury brands this
         surfaces non-obvious signals: research cycles of 14–45 days before first contact, multiple touchpoints across
         premium publishers (FT, WSJ, Architectural Digest), organic brand search appearing mid-funnel rather than
-        top-of-funnel, and low price-check behavior. This cohort becomes your seed — you&apos;re modeling a specific
+        top-of-funnel, and low price-check behavior. This cohort becomes your seed - you&apos;re modeling a specific
         behavioral and financial archetype, not &quot;customers.&quot;
       </p>
 
@@ -192,7 +192,7 @@ export default function AffluentLookalikeModelingPage() {
         <li>Exclude known price-sensitive behavioral segments (frequent discount searchers, coupon audiences)</li>
         <li>Exclude geographic clusters below your income floor threshold</li>
         <li>Exclude &quot;aspirational consumption&quot; segments that engage with luxury content but don&apos;t convert</li>
-        <li>Layer in brand safety exclusions — context conditions receptivity, and brand safety is an audience quality signal</li>
+        <li>Layer in brand safety exclusions - context conditions receptivity, and brand safety is an audience quality signal</li>
       </ul>
 
       <hr />
@@ -217,11 +217,11 @@ export default function AffluentLookalikeModelingPage() {
 
       <h2>How Stillwater Media Builds Affluent Lookalike Audiences</h2>
       <p>
-        Our approach begins with a full audit of CRM data quality — LTV cohort depth, first-party signal richness, and
+        Our approach begins with a full audit of CRM data quality - LTV cohort depth, first-party signal richness, and
         offline transaction data that can be matched to digital identity. For clients with limited first-party data, we
         build seed audiences from curated third-party partnerships (Experian, Acxiom, Oracle Data Cloud), filtering
         aggressively by income tier and category affinity. Every lookalike pool we build is continuously monitored for
-        demographic drift — when engagement patterns become inconsistent with the core high-value profile, we rebuild from
+        demographic drift - when engagement patterns become inconsistent with the core high-value profile, we rebuild from
         seed rather than continuing to optimize a deteriorating audience.
       </p>
 
@@ -230,7 +230,7 @@ export default function AffluentLookalikeModelingPage() {
       <h2>Precision First, Scale Second</h2>
       <p>
         Luxury growth is not a volume problem. It&apos;s a signal problem. When your audience modeling infrastructure is
-        built on the right signals, scaling spend doesn&apos;t dilute quality — it compounds it.
+        built on the right signals, scaling spend doesn&apos;t dilute quality - it compounds it.
       </p>
 
       <hr />

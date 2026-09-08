@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     siteName: "Stillwater Media",
     locale: "en_US",
     publishedTime,
-    images: [{ url: image, width: 1200, height: 630, alt: `Stillwater Media — ${title}` }],
+    images: [{ url: image, width: 1200, height: 630, alt: `Stillwater Media - ${title}` }],
   },
   twitter: {
     card: "summary_large_image",
@@ -88,7 +88,7 @@ const articleSchema = {
           name: "How much does live sports streaming advertising cost?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Marquee live sports inventory on streaming platforms — professional football and basketball, major golf, Grand Slam tennis — generally clears between $45 and $80 CPM in 2026, with secondary live sports in the $30 to $50 range and sports-adjacent content such as highlights and studio programming between $22 and $38. That compares to roughly $25 to $45 for premium general-entertainment CTV bought through private marketplace deals and $12 to $22 on the open exchange. Interactive or event-triggered formats add a further 20% to 50% premium, and most marquee programmatic guaranteed deals carry minimums between $75,000 and $250,000.",
+            text: "Marquee live sports inventory on streaming platforms - professional football and basketball, major golf, Grand Slam tennis - generally clears between $45 and $80 CPM in 2026, with secondary live sports in the $30 to $50 range and sports-adjacent content such as highlights and studio programming between $22 and $38. That compares to roughly $25 to $45 for premium general-entertainment CTV bought through private marketplace deals and $12 to $22 on the open exchange. Interactive or event-triggered formats add a further 20% to 50% premium, and most marquee programmatic guaranteed deals carry minimums between $75,000 and $250,000.",
           },
         },
         {
@@ -104,7 +104,7 @@ const articleSchema = {
           name: "Which sports deliver the most affluent audiences?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Major golf and Grand Slam tennis index highest on households earning $250,000 or more — roughly two to three times the general population — but their absolute affluent reach is small, so frequency saturates quickly. Professional football and basketball index far lower, at approximately 1.1 to 1.4 times, but their audience volume is large enough that the affluent segment inside them often exceeds the entire audience of a niche sport. The most effective structure for luxury brands is a barbell: a small contextual allocation to a high-index sport plus a larger, wealth-targeted allocation inside a high-volume sport.",
+            text: "Major golf and Grand Slam tennis index highest on households earning $250,000 or more - roughly two to three times the general population - but their absolute affluent reach is small, so frequency saturates quickly. Professional football and basketball index far lower, at approximately 1.1 to 1.4 times, but their audience volume is large enough that the affluent segment inside them often exceeds the entire audience of a niche sport. The most effective structure for luxury brands is a barbell: a small contextual allocation to a high-index sport plus a larger, wealth-targeted allocation inside a high-volume sport.",
           },
         },
         {
@@ -112,7 +112,7 @@ const articleSchema = {
           name: "How do you measure the impact of live sports advertising?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Use geo-based holdouts, household-level holdouts, or a brand lift study fielded during the event window — never click-through rate, which is a rounding error on a non-clickable large-screen placement. A geo holdout withholds sports delivery from matched designated market areas and compares qualified inquiries, branded search, and direct traffic across exposed and held-out geographies for two to four weeks after the event. Size the test before committing budget: allocations below roughly $60,000 in a single window rarely generate enough exposed households to detect a lift smaller than 20% with statistical confidence.",
+            text: "Use geo-based holdouts, household-level holdouts, or a brand lift study fielded during the event window - never click-through rate, which is a rounding error on a non-clickable large-screen placement. A geo holdout withholds sports delivery from matched designated market areas and compares qualified inquiries, branded search, and direct traffic across exposed and held-out geographies for two to four weeks after the event. Size the test before committing budget: allocations below roughly $60,000 in a single window rarely generate enough exposed households to detect a lift smaller than 20% with statistical confidence.",
           },
         },
         {
@@ -137,8 +137,8 @@ export default function Page() {
       readingTime="11 min read"
       category="Premium CTV Strategy"
       image={image}
-      imageAlt="Stillwater Media illustration of live sports streaming advertising — an empty luxury media room lit by a large screen showing a blurred, glowing stadium field"
-      imageCaption="Live sports is the only remaining inventory where a luxury brand can reach a million affluent households in the same ninety seconds — and the CPM reflects it."
+      imageAlt="Stillwater Media illustration of live sports streaming advertising - an empty luxury media room lit by a large screen showing a blurred, glowing stadium field"
+      imageCaption="Live sports is the only remaining inventory where a luxury brand can reach a million affluent households in the same ninety seconds - and the CPM reflects it."
       schemaMarkup={articleSchema}
     >
       <p>
@@ -170,15 +170,15 @@ export default function Page() {
         Live sports still produces that. A conference championship, a major golf weekend, or a Grand Slam final delivers
         a concentrated audience inside a three-to-four-hour window, and the ad pods within that window cannot be skipped,
         fast-forwarded, or time-shifted past. The rights migration to streaming over the last three seasons means those
-        pods are now addressable — buyable with the same audience data, frequency controls, and measurement
+        pods are now addressable - buyable with the same audience data, frequency controls, and measurement
         infrastructure as the rest of a programmatic plan. That combination, mass simultaneity plus household-level
         addressability, did not exist five years ago in any purchasable form.
       </p>
       <p>
         There is a second, less-discussed property: live sports viewing is disproportionately co-viewing. Household
         viewing panels consistently show live sports averaging 1.7 to 2.4 viewers per screen against roughly 1.2 to 1.4
-        for general on-demand streaming. For a brand selling a considered purchase into a household — a second property,
-        a jet card, a family wealth relationship — reaching two decision-makers in one impression materially changes the
+        for general on-demand streaming. For a brand selling a considered purchase into a household - a second property,
+        a jet card, a family wealth relationship - reaching two decision-makers in one impression materially changes the
         effective CPM. A $60 CPM at 2.1 viewers per screen is a $28.60 cost per viewer, which is inside the range of
         general CTV bought at one viewer per impression.
       </p>
@@ -234,8 +234,8 @@ export default function Page() {
         </table>
       </div>
       <p>
-        Three cost drivers move a buy within these ranges. First, format: interactive and event-triggered units — a QR
-        overlay, a shoppable frame, a score-triggered creative swap — carry a further 20% to 50% premium over standard
+        Three cost drivers move a buy within these ranges. First, format: interactive and event-triggered units - a QR
+        overlay, a shoppable frame, a score-triggered creative swap - carry a further 20% to 50% premium over standard
         :30 video in the same pod. Second, position: first-in-pod and post-scoring-play placements price above
         rotational. Third, guarantee structure: programmatic guaranteed inventory with a fixed impression commitment
         typically prices 10% to 20% above the same publisher's non-guaranteed PMP floor, and for a marquee event that is
@@ -246,7 +246,7 @@ export default function Page() {
       <p>
         This is where most luxury sports buys go wrong. Brands buy the sport they associate with wealth rather than the
         sport that delivers affluent reach at a defensible cost. Golf and tennis index extremely well on household income
-        and investable assets, but their absolute affluent reach is small — the audience is concentrated, and after two
+        and investable assets, but their absolute affluent reach is small - the audience is concentrated, and after two
         weekends you are buying the same 400,000 households a fourteenth time. Football indexes far lower but delivers so
         much absolute volume that the affluent sub-audience inside it is often larger than the entire audience of a niche
         sport.
@@ -315,7 +315,7 @@ export default function Page() {
         environment is what takes an in-target rate from the low forties into the seventies.
       </p>
 
-      <h2>When the premium is worth paying — and when it is not</h2>
+      <h2>When the premium is worth paying - and when it is not</h2>
       <p>We use four tests before recommending a live sports allocation. A brand should clear at least three.</p>
       <ol>
         <li>
@@ -324,7 +324,7 @@ export default function Page() {
           make this arithmetic work regardless of how well the audience indexes.
         </li>
         <li>
-          <strong>The simultaneity test.</strong> There is a genuine reason to compress reach into a narrow window — a
+          <strong>The simultaneity test.</strong> There is a genuine reason to compress reach into a narrow window - a
           launch, an enrollment period, a seasonal purchase window, a market entry. If the campaign is an always-on
           efficiency play, general premium CTV bought through{" "}
           <a href="/insights/private-marketplace-deals-luxury-advertising">private marketplace deals</a> will beat sports
@@ -362,7 +362,7 @@ export default function Page() {
         </li>
         <li>
           <strong>Set a hard frequency ceiling before flight.</strong> Live sports pods repeat aggressively. Without a
-          household-level cap — we typically set three to five exposures per household per event window — a single
+          household-level cap - we typically set three to five exposures per household per event window - a single
           afternoon can consume a quarter of the budget on one percent of the households.
         </li>
         <li>
@@ -379,7 +379,7 @@ export default function Page() {
       <h3>Programmatic guaranteed, PMP, or open exchange?</h3>
       <p>
         For marquee live inventory, programmatic guaranteed is the default and PMP is the fallback. Open exchange has
-        essentially no legitimate role — live rights holders do not release their premium pods into open auction, so
+        essentially no legitimate role - live rights holders do not release their premium pods into open auction, so
         anything appearing there labeled as live sports deserves scrutiny before it deserves a bid. This is one of the
         environments where{" "}
         <a href="/insights/supply-path-optimization-premium-advertising">supply path discipline</a> is not a hygiene
@@ -402,7 +402,7 @@ export default function Page() {
       <p>
         Whichever you choose, size the test before you buy. A live sports allocation under roughly $60,000 in a single
         window rarely produces enough exposed households to detect a lift smaller than 20% with confidence, which means
-        the honest answer is often that the buy is too small to measure — and a buy you cannot measure at a $60 CPM is a
+        the honest answer is often that the buy is too small to measure - and a buy you cannot measure at a $60 CPM is a
         buy you should not make. Our approach to{" "}
         <a href="/insights/incrementality-testing-luxury-brands">incrementality testing</a> treats the measurement design
         as part of the media plan, not a report generated after it.
@@ -432,7 +432,7 @@ export default function Page() {
       <h2>Work with Stillwater Media</h2>
       <p>
         We build live sports allocations for luxury and high-consideration brands where the arithmetic supports the
-        premium — and we say so plainly when it does not. That means event-level planning, wealth-based audience layering
+        premium - and we say so plainly when it does not. That means event-level planning, wealth-based audience layering
         on top of contextual selection, hard frequency governance, and a holdout design specified before the first
         dollar is committed. We take a limited number of engagements each quarter so that every plan gets that level of
         scrutiny. It is the same discipline we bring to our{" "}
@@ -447,8 +447,8 @@ export default function Page() {
       <h2>Frequently Asked Questions</h2>
       <h3>How much does live sports streaming advertising cost?</h3>
       <p>
-        Marquee live sports inventory on streaming platforms — professional football and basketball, major golf, Grand
-        Slam tennis — generally clears between $45 and $80 CPM in 2026, with secondary live sports in the $30 to $50
+        Marquee live sports inventory on streaming platforms - professional football and basketball, major golf, Grand
+        Slam tennis - generally clears between $45 and $80 CPM in 2026, with secondary live sports in the $30 to $50
         range and sports-adjacent content such as highlights and studio programming between $22 and $38. That compares to
         roughly $25 to $45 for premium general-entertainment CTV bought through private marketplace deals and $12 to $22
         on the open exchange. Interactive or event-triggered formats add a further 20% to 50% premium, and most marquee
@@ -465,8 +465,8 @@ export default function Page() {
       </p>
       <h3>Which sports deliver the most affluent audiences?</h3>
       <p>
-        Major golf and Grand Slam tennis index highest on households earning $250,000 or more — roughly two to three
-        times the general population — but their absolute affluent reach is small, so frequency saturates quickly.
+        Major golf and Grand Slam tennis index highest on households earning $250,000 or more - roughly two to three
+        times the general population - but their absolute affluent reach is small, so frequency saturates quickly.
         Professional football and basketball index far lower, at approximately 1.1 to 1.4 times, but their audience
         volume is large enough that the affluent segment inside them often exceeds the entire audience of a niche sport.
         The most effective structure for luxury brands is a barbell: a small contextual allocation to a high-index sport
@@ -474,7 +474,7 @@ export default function Page() {
       </p>
       <h3>How do you measure the impact of live sports advertising?</h3>
       <p>
-        Use geo-based holdouts, household-level holdouts, or a brand lift study fielded during the event window — never
+        Use geo-based holdouts, household-level holdouts, or a brand lift study fielded during the event window - never
         click-through rate, which is a rounding error on a non-clickable large-screen placement. A geo holdout withholds
         sports delivery from matched designated market areas and compares qualified inquiries, branded search, and direct
         traffic across exposed and held-out geographies for two to four weeks after the event. Size the test before

@@ -48,7 +48,7 @@ export type IndustryContent = {
   architecture: { h2: string; intro: string; items: SubItem[]; outro?: string }
   dataLayer: { h2: string; intro: string; items: SubItem[] }
 
-  /** Block 5 — prose with one inline link inside the final paragraph. */
+  /** Block 5 - prose with one inline link inside the final paragraph. */
   measure: {
     h2: string
     /** Paragraphs rendered before the linked paragraph. */
@@ -57,7 +57,7 @@ export type IndustryContent = {
     linkedParagraph: { before: string; linkText: string; href: string; after: string }
   }
 
-  /** Block 6 — empty array renders nothing at all (no wrapper, no heading). */
+  /** Block 6 - empty array renders nothing at all (no wrapper, no heading). */
   proof: ProofEntry[]
 
   builtFor: { h2: string; body: string; worksBestH3: string; worksBest: string }

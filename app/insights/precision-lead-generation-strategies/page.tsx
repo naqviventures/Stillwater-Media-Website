@@ -90,7 +90,7 @@ export default function PrecisionLeadGenerationStrategies() {
       </p>
 
       <p>
-        In today's competitive business environment, generic lead generation approaches fail to deliver the quality and efficiency required for sustainable growth. For brands with customer lifetime values above $5,000, precision targeting and qualification are not optional—they are essential.
+        In today's competitive business environment, generic lead generation approaches fail to deliver the quality and efficiency required for sustainable growth. For brands with customer lifetime values above $5,000, precision targeting and qualification are not optional-they are essential.
       </p>
 
       <hr />
@@ -102,24 +102,24 @@ export default function PrecisionLeadGenerationStrategies() {
       </p>
 
       <ol>
-        <li><strong>Historical customer analysis</strong> — Examining your best customers to identify common attributes, behaviors, and journeys</li>
-        <li><strong>Predictive model construction</strong> — Building statistical models that score prospects based on conversion likelihood</li>
-        <li><strong>Intent signal layering</strong> — Adding real-time behavioral data that indicates purchase readiness</li>
-        <li><strong>Continuous refinement</strong> — Updating models based on conversion outcomes and sales feedback</li>
+        <li><strong>Historical customer analysis</strong> - Examining your best customers to identify common attributes, behaviors, and journeys</li>
+        <li><strong>Predictive model construction</strong> - Building statistical models that score prospects based on conversion likelihood</li>
+        <li><strong>Intent signal layering</strong> - Adding real-time behavioral data that indicates purchase readiness</li>
+        <li><strong>Continuous refinement</strong> - Updating models based on conversion outcomes and sales feedback</li>
       </ol>
 
       <h3>Key Data Sources for Prospect Identification</h3>
 
       <ul>
-        <li><strong>Firmographic data</strong> — Company size, industry, revenue, employee count, technology stack</li>
-        <li><strong>Demographic data</strong> — Job title, seniority level, department, decision-making authority</li>
-        <li><strong>Behavioral data</strong> — Website visits, content consumption, email engagement, event attendance</li>
-        <li><strong>Intent data</strong> — Third-party signals indicating active research in your category</li>
-        <li><strong>Technographic data</strong> — Current technology solutions, integration requirements, vendor relationships</li>
+        <li><strong>Firmographic data</strong> - Company size, industry, revenue, employee count, technology stack</li>
+        <li><strong>Demographic data</strong> - Job title, seniority level, department, decision-making authority</li>
+        <li><strong>Behavioral data</strong> - Website visits, content consumption, email engagement, event attendance</li>
+        <li><strong>Intent data</strong> - Third-party signals indicating active research in your category</li>
+        <li><strong>Technographic data</strong> - Current technology solutions, integration requirements, vendor relationships</li>
       </ul>
 
       <p>
-        Intent data analysis provides real-time insights into prospect behavior and purchase readiness, enabling timely engagement when prospects are actively researching solutions. This approach transforms lead generation from reactive to proactive—capturing prospects at optimal moments in their buying journey when conversion probability is highest.
+        Intent data analysis provides real-time insights into prospect behavior and purchase readiness, enabling timely engagement when prospects are actively researching solutions. This approach transforms lead generation from reactive to proactive-capturing prospects at optimal moments in their buying journey when conversion probability is highest.
       </p>
 
       <hr />
@@ -131,10 +131,10 @@ export default function PrecisionLeadGenerationStrategies() {
       </p>
 
       <ul>
-        <li><strong>Behavioral patterns</strong> — How prospects research, evaluate, and make decisions</li>
-        <li><strong>Psychographic characteristics</strong> — Values, priorities, risk tolerance, decision-making style</li>
-        <li><strong>Contextual factors</strong> — Current business challenges, growth stage, competitive pressures</li>
-        <li><strong>Timing signals</strong> — Contract renewals, budget cycles, organizational changes</li>
+        <li><strong>Behavioral patterns</strong> - How prospects research, evaluate, and make decisions</li>
+        <li><strong>Psychographic characteristics</strong> - Values, priorities, risk tolerance, decision-making style</li>
+        <li><strong>Contextual factors</strong> - Current business challenges, growth stage, competitive pressures</li>
+        <li><strong>Timing signals</strong> - Contract renewals, budget cycles, organizational changes</li>
       </ul>
 
       <h3>Account-Based Targeting</h3>
@@ -144,10 +144,10 @@ export default function PrecisionLeadGenerationStrategies() {
       </p>
 
       <ol>
-        <li><strong>Target account selection</strong> — Identifying companies that match your ideal customer profile</li>
-        <li><strong>Buying committee mapping</strong> — Understanding all decision-makers and influencers within each account</li>
-        <li><strong>Personalized engagement plans</strong> — Developing account-specific messaging and content strategies</li>
-        <li><strong>Multi-threaded outreach</strong> — Engaging multiple stakeholders simultaneously to build consensus</li>
+        <li><strong>Target account selection</strong> - Identifying companies that match your ideal customer profile</li>
+        <li><strong>Buying committee mapping</strong> - Understanding all decision-makers and influencers within each account</li>
+        <li><strong>Personalized engagement plans</strong> - Developing account-specific messaging and content strategies</li>
+        <li><strong>Multi-threaded outreach</strong> - Engaging multiple stakeholders simultaneously to build consensus</li>
       </ol>
 
       <h3>Lookalike Modeling</h3>
@@ -178,19 +178,19 @@ export default function PrecisionLeadGenerationStrategies() {
       <h3>Website Behavior Analysis</h3>
 
       <ul>
-        <li><strong>Page-level engagement</strong> — Which pages prospects visit and how long they spend</li>
-        <li><strong>Content consumption patterns</strong> — What topics, formats, and depth levels resonate</li>
-        <li><strong>Conversion path analysis</strong> — How prospects move from awareness to consideration to decision</li>
-        <li><strong>Return visit patterns</strong> — Frequency and recency of engagement over time</li>
+        <li><strong>Page-level engagement</strong> - Which pages prospects visit and how long they spend</li>
+        <li><strong>Content consumption patterns</strong> - What topics, formats, and depth levels resonate</li>
+        <li><strong>Conversion path analysis</strong> - How prospects move from awareness to consideration to decision</li>
+        <li><strong>Return visit patterns</strong> - Frequency and recency of engagement over time</li>
       </ul>
 
       <h3>Intent Signal Categories</h3>
 
       <ol>
-        <li><strong>First-party intent</strong> — Direct engagement with your brand's content and properties</li>
-        <li><strong>Second-party intent</strong> — Engagement with partner and publisher content in your category</li>
-        <li><strong>Third-party intent</strong> — Aggregated research behavior across the web from data providers</li>
-        <li><strong>Competitive intent</strong> — Engagement with competitor brands and comparison content</li>
+        <li><strong>First-party intent</strong> - Direct engagement with your brand's content and properties</li>
+        <li><strong>Second-party intent</strong> - Engagement with partner and publisher content in your category</li>
+        <li><strong>Third-party intent</strong> - Aggregated research behavior across the web from data providers</li>
+        <li><strong>Competitive intent</strong> - Engagement with competitor brands and comparison content</li>
       </ol>
 
       <p>
@@ -206,11 +206,11 @@ export default function PrecisionLeadGenerationStrategies() {
       </p>
 
       <ul>
-        <li><strong>Email sequences</strong> — Personalized nurture campaigns based on engagement and intent signals</li>
-        <li><strong>Programmatic display</strong> — Targeted advertising to qualified prospects across premium publishers</li>
-        <li><strong>LinkedIn outreach</strong> — Direct engagement with decision-makers through professional networks</li>
-        <li><strong>Content syndication</strong> — Distributing high-value content through relevant industry channels</li>
-        <li><strong>Retargeting</strong> — Re-engaging website visitors with relevant messaging and offers</li>
+        <li><strong>Email sequences</strong> - Personalized nurture campaigns based on engagement and intent signals</li>
+        <li><strong>Programmatic display</strong> - Targeted advertising to qualified prospects across premium publishers</li>
+        <li><strong>LinkedIn outreach</strong> - Direct engagement with decision-makers through professional networks</li>
+        <li><strong>Content syndication</strong> - Distributing high-value content through relevant industry channels</li>
+        <li><strong>Retargeting</strong> - Re-engaging website visitors with relevant messaging and offers</li>
       </ul>
 
       <h3>Sequential Messaging Campaigns</h3>
@@ -220,10 +220,10 @@ export default function PrecisionLeadGenerationStrategies() {
       </p>
 
       <ol>
-        <li><strong>Awareness</strong> — Educational content that establishes credibility and relevance</li>
-        <li><strong>Consideration</strong> — Comparative information, case studies, and social proof</li>
-        <li><strong>Evaluation</strong> — Detailed solution information, ROI calculators, and consultation offers</li>
-        <li><strong>Decision</strong> — Direct sales engagement with qualified, informed prospects</li>
+        <li><strong>Awareness</strong> - Educational content that establishes credibility and relevance</li>
+        <li><strong>Consideration</strong> - Comparative information, case studies, and social proof</li>
+        <li><strong>Evaluation</strong> - Detailed solution information, ROI calculators, and consultation offers</li>
+        <li><strong>Decision</strong> - Direct sales engagement with qualified, informed prospects</li>
       </ol>
 
       <hr />
@@ -237,19 +237,19 @@ export default function PrecisionLeadGenerationStrategies() {
       <h3>Scoring Dimensions</h3>
 
       <ul>
-        <li><strong>Demographic fit</strong> — How closely the prospect matches your ideal customer profile</li>
-        <li><strong>Behavioral engagement</strong> — Depth and frequency of interaction with your brand</li>
-        <li><strong>Intent signals</strong> — Active research behavior indicating purchase readiness</li>
-        <li><strong>Timing indicators</strong> — Signals suggesting immediate or near-term buying potential</li>
+        <li><strong>Demographic fit</strong> - How closely the prospect matches your ideal customer profile</li>
+        <li><strong>Behavioral engagement</strong> - Depth and frequency of interaction with your brand</li>
+        <li><strong>Intent signals</strong> - Active research behavior indicating purchase readiness</li>
+        <li><strong>Timing indicators</strong> - Signals suggesting immediate or near-term buying potential</li>
       </ul>
 
       <h3>Score Thresholds and Actions</h3>
 
       <ol>
-        <li><strong>Marketing Qualified Lead (MQL)</strong> — Meets minimum criteria for continued nurturing</li>
-        <li><strong>Sales Accepted Lead (SAL)</strong> — Passed to sales for initial outreach and discovery</li>
-        <li><strong>Sales Qualified Lead (SQL)</strong> — Confirmed as genuine opportunity with defined next steps</li>
-        <li><strong>Sales Qualified Opportunity (SQO)</strong> — Active deal with defined timeline and budget</li>
+        <li><strong>Marketing Qualified Lead (MQL)</strong> - Meets minimum criteria for continued nurturing</li>
+        <li><strong>Sales Accepted Lead (SAL)</strong> - Passed to sales for initial outreach and discovery</li>
+        <li><strong>Sales Qualified Lead (SQL)</strong> - Confirmed as genuine opportunity with defined next steps</li>
+        <li><strong>Sales Qualified Opportunity (SQO)</strong> - Active deal with defined timeline and budget</li>
       </ol>
 
       <p>
@@ -273,7 +273,7 @@ export default function PrecisionLeadGenerationStrategies() {
       </ul>
 
       <p>
-        The brands that invest in precision lead generation infrastructure—data, targeting, scoring, and measurement—will consistently outperform competitors relying on volume-based approaches.
+        The brands that invest in precision lead generation infrastructure-data, targeting, scoring, and measurement-will consistently outperform competitors relying on volume-based approaches.
       </p>
 
       <hr />

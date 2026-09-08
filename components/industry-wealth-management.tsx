@@ -2,7 +2,7 @@ import IndustryPageLayout, { type IndustryContent, type ProofEntry } from "@/com
 
 // Proof entries are added only after written client approval covering the
 // metric, the time period, the measurement method, and the anonymised
-// description. Empty array renders nothing — that is intended.
+// description. Empty array renders nothing - that is intended.
 const proof: ProofEntry[] = []
 
 export const content: IndustryContent = {
@@ -44,19 +44,19 @@ export const content: IndustryContent = {
       "The sequence matters more than the channel list. Advisory purchases are trust purchases, which means the brand has to be familiar before the offer is relevant. Running capture channels without a demand layer produces a short, cheap, disappointing campaign.",
     items: [
       {
-        h3: "CTV and premium video — category authority",
+        h3: "CTV and premium video - category authority",
         body: "Streaming inventory against net-worth-banded households, establishing the firm as a credible custodian before any offer appears. In a trust category, the first job of media is to make the brand recognisable.",
       },
       {
-        h3: "Programmatic display and native — the qualification layer",
+        h3: "Programmatic display and native - the qualification layer",
         body: "Net-worth-banded audiences layered with retirement, rollover and guaranteed-income intent. This is where the audience definition does the real work, and where a broad plan quietly bleeds budget.",
       },
       {
-        h3: "Paid social — capture and retargeting",
+        h3: "Paid social - capture and retargeting",
         body: "Lower-funnel capture against warm audiences, sequenced from the demand the upper funnel created. Effective, and consistently over-credited by last-touch reporting.",
       },
       {
-        h3: "Search — advisor and product intent",
+        h3: "Search - advisor and product intent",
         body: "Terms for advisors, products and the specific questions that precede a rollover. Low volume, high intent, and best treated as the closing end of the chain rather than the whole of it.",
       },
     ],
@@ -95,7 +95,7 @@ export const content: IndustryContent = {
     ],
     linkedParagraph: {
       before:
-        "Where a practice runs several channels at once, we argue for a holdout rather than a channel-by-channel attribution fight. Parallel campaigns judged on platform-reported cost per acquisition reward whichever platform reports most generously, not whichever actually produced the client. That is a measurement design problem, and it is solvable before the money is spent — which is the approach we take across ",
+        "Where a practice runs several channels at once, we argue for a holdout rather than a channel-by-channel attribution fight. Parallel campaigns judged on platform-reported cost per acquisition reward whichever platform reports most generously, not whichever actually produced the client. That is a measurement design problem, and it is solvable before the money is spent - which is the approach we take across ",
       linkText: "every engagement",
       href: "/capabilities",
       after: ".",

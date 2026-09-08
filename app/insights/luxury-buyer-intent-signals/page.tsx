@@ -15,7 +15,7 @@ export const metadata: Metadata = {
       "Most luxury intent targeting buys the wrong signal at the wrong moment. A four-tier taxonomy of luxury buyer intent signals, decay curves by signal type, a practical scoring model, benchmark conversion ranges, and the activation sequence that matches signal strength to media weight.",
     type: "article",
     url: canonicalUrl,
-    images: [{ url: imagePath, width: 1200, height: 630, alt: "Luxury buyer intent signals — Stillwater Media" }],
+    images: [{ url: imagePath, width: 1200, height: 630, alt: "Luxury buyer intent signals - Stillwater Media" }],
     locale: "en_US",
     siteName: "Stillwater Media",
     publishedTime: "2026-08-12",
@@ -36,13 +36,13 @@ const schemaMarkup = {
       "@type": "Article",
       headline: "Luxury Buyer Intent Signals: How to Tell Real Demand From Aspirational Browsing",
       description:
-        "A senior media strategist's guide to luxury buyer intent signals — why affluent categories generate enormous volumes of aspirational browsing that reads identically to purchase intent in most data sets; a four-tier taxonomy separating declared, behavioral, contextual, and inferred signals; decay curves showing how quickly each signal type loses predictive value; a practical intent scoring model with weighting guidance; benchmark conversion ranges by signal tier; the activation sequence that matches media weight to signal strength; and the five mistakes that cause premium advertisers to overpay for third-party intent segments that do not predict purchase.",
+        "A senior media strategist's guide to luxury buyer intent signals - why affluent categories generate enormous volumes of aspirational browsing that reads identically to purchase intent in most data sets; a four-tier taxonomy separating declared, behavioral, contextual, and inferred signals; decay curves showing how quickly each signal type loses predictive value; a practical intent scoring model with weighting guidance; benchmark conversion ranges by signal tier; the activation sequence that matches media weight to signal strength; and the five mistakes that cause premium advertisers to overpay for third-party intent segments that do not predict purchase.",
       image: {
         "@type": "ImageObject",
         url: `https://www.stillwatermedia.io${imagePath}`,
         width: 1200,
         height: 630,
-        caption: "Luxury buyer intent signals — Stillwater Media",
+        caption: "Luxury buyer intent signals - Stillwater Media",
       },
       author: { "@type": "Organization", name: "Stillwater Media" },
       publisher: {
@@ -75,7 +75,7 @@ const schemaMarkup = {
           name: "What are luxury buyer intent signals?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Luxury buyer intent signals are the observable behaviors, explicit declarations, and contextual conditions indicating that a person is actively moving toward a high-value purchase rather than merely browsing aspirationally. They fall into four tiers ordered by how much effort they cost the person to produce — declared intent such as a quote request or booked showing, high-cost behavioral patterns such as configurator completion or repeat pricing-page visits, contextual conditions such as high-value ZIP+4 residence or event attendance, and inferred third-party or modeled segments.",
+            text: "Luxury buyer intent signals are the observable behaviors, explicit declarations, and contextual conditions indicating that a person is actively moving toward a high-value purchase rather than merely browsing aspirationally. They fall into four tiers ordered by how much effort they cost the person to produce - declared intent such as a quote request or booked showing, high-cost behavioral patterns such as configurator completion or repeat pricing-page visits, contextual conditions such as high-value ZIP+4 residence or event attendance, and inferred third-party or modeled segments.",
           },
         },
         {
@@ -83,7 +83,7 @@ const schemaMarkup = {
           name: "How do you tell real luxury purchase intent from aspirational browsing?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Require two independent signal types before treating a profile as high-intent: a capacity signal proving the person can transact — property value, verified financial relationship, prior purchase, firmographic match — and a timing signal proving an active decision, such as a configurator completion or repeat pricing visit within the last few weeks. Behavioral engagement alone is close to unusable in luxury categories because enthusiasts and aspirational researchers generate far more of it than actual buyers do.",
+            text: "Require two independent signal types before treating a profile as high-intent: a capacity signal proving the person can transact - property value, verified financial relationship, prior purchase, firmographic match - and a timing signal proving an active decision, such as a configurator completion or repeat pricing visit within the last few weeks. Behavioral engagement alone is close to unusable in luxury categories because enthusiasts and aspirational researchers generate far more of it than actual buyers do.",
           },
         },
         {
@@ -99,7 +99,7 @@ const schemaMarkup = {
           name: "Are third-party intent segments worth it for luxury advertisers?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "They carry real value for reach extension but should never define a primary audience, and they typically command a 40–70% CPM premium over untargeted inventory that is frequently unjustified. Before buying, require the provider to disclose exactly what behavior qualifies a profile for membership and how often the segment is rebuilt — a segment that cannot answer both questions specifically should be treated as the lowest-confidence tier and validated against closed-won revenue before any budget scales into it.",
+            text: "They carry real value for reach extension but should never define a primary audience, and they typically command a 40–70% CPM premium over untargeted inventory that is frequently unjustified. Before buying, require the provider to disclose exactly what behavior qualifies a profile for membership and how often the segment is rebuilt - a segment that cannot answer both questions specifically should be treated as the lowest-confidence tier and validated against closed-won revenue before any budget scales into it.",
           },
         },
         {
@@ -125,7 +125,7 @@ export default function Page() {
       category="Affluent Audience Engineering"
       image={imagePath}
       imageAlt="Stillwater Media guide illustration on luxury buyer intent signals showing an antique brass compass resting on layered contour charts on a marble desk under warm lamplight at blue hour"
-      imageCaption="In luxury categories the loudest signals are almost never the truest ones — the discipline is knowing which needle to follow."
+      imageCaption="In luxury categories the loudest signals are almost never the truest ones - the discipline is knowing which needle to follow."
       schemaMarkup={schemaMarkup}
     >
       <p>
@@ -139,7 +139,7 @@ export default function Page() {
       <p>
         At Stillwater Media we build affluent audience programs for brands in private aviation, luxury real estate,
         wealth management, private clubs, and premium automotive, and the most expensive mistake we see is not
-        underinvesting in intent data — it is buying it uncritically. A brand pays a 40–70% CPM premium for a
+        underinvesting in intent data - it is buying it uncritically. A brand pays a 40–70% CPM premium for a
         third-party &quot;luxury auto intenders&quot; segment, sees a healthy click-through rate, and never discovers
         that the segment is dominated by enthusiasts who will never enter a showroom. This is a guide to reading intent
         properly: what the real signals are, how fast each one decays, how to score them, and how to match media weight
@@ -168,8 +168,8 @@ export default function Page() {
         and verified financial relationships than from any income label.
       </p>
       <p>
-        The consequence: intent for luxury must be constructed from <em>qualifying</em> signals — evidence of capacity —
-        combined with <em>timing</em> signals — evidence of an active decision. Either one alone is a coin flip.
+        The consequence: intent for luxury must be constructed from <em>qualifying</em> signals - evidence of capacity -
+        combined with <em>timing</em> signals - evidence of an active decision. Either one alone is a coin flip.
       </p>
 
       <h2>The Four-Tier Luxury Intent Signal Taxonomy</h2>
@@ -178,7 +178,7 @@ export default function Page() {
         principle: the more effort or exposure a behavior requires, the more predictive it is.
       </p>
 
-      <h3>Tier 1 — Declared Intent (Highest Value)</h3>
+      <h3>Tier 1 - Declared Intent (Highest Value)</h3>
       <p>
         The person has explicitly stated an intention to a party who can act on it. Requesting a quote, booking a
         consultation, joining a waitlist, scheduling a private showing, submitting a membership inquiry, initiating a
@@ -186,16 +186,16 @@ export default function Page() {
         first-party data. A Tier 1 signal should trigger the heaviest media response you are willing to fund.
       </p>
 
-      <h3>Tier 2 — High-Cost Behavioral Signals</h3>
+      <h3>Tier 2 - High-Cost Behavioral Signals</h3>
       <p>
         Actions that require meaningful effort but stop short of declaration: repeated returns to inventory or pricing
         pages, use of a configurator to completion, downloading a specification sheet or fee schedule, watching more
         than 75% of a long-form product film, saving or comparing specific units, opening three or more emails in a
-        sequence within a week. Individually weak, these compound quickly — the pattern is what carries the signal, not
+        sequence within a week. Individually weak, these compound quickly - the pattern is what carries the signal, not
         the single event.
       </p>
 
-      <h3>Tier 3 — Contextual and Environmental Signals</h3>
+      <h3>Tier 3 - Contextual and Environmental Signals</h3>
       <p>
         Conditions surrounding the person rather than actions by them: presence in a high-value ZIP+4, exposure inside a
         premium editorial or CTV environment, attendance at a category event, proximity to a dealership or clubhouse
@@ -204,7 +204,7 @@ export default function Page() {
         everything else.
       </p>
 
-      <h3>Tier 4 — Inferred and Modeled Signals</h3>
+      <h3>Tier 4 - Inferred and Modeled Signals</h3>
       <p>
         Third-party intent segments, lookalike expansions, modeled affluence scores, and interest categories. These have
         real utility for reach extension but should be treated as the lowest-confidence tier and never as a primary
@@ -289,8 +289,8 @@ export default function Page() {
       </div>
       <p>
         The operational rule that follows: <strong>build capacity signals into your always-on base audience and let
-        timing signals govern flighting and frequency.</strong> Advertisers who invert this — running always-on
-        retargeting against decayed timing signals while ignoring capacity — pay premium rates to reach people whose
+        timing signals govern flighting and frequency.</strong> Advertisers who invert this - running always-on
+        retargeting against decayed timing signals while ignoring capacity - pay premium rates to reach people whose
         decision closed months ago.
       </p>
 
@@ -311,7 +311,7 @@ export default function Page() {
         </li>
         <li>
           <strong>Require a capacity gate.</strong> Do not allow a profile to enter your highest-value tier on
-          behavioral signals alone. Require at least one capacity indicator — property value, verified financial
+          behavioral signals alone. Require at least one capacity indicator - property value, verified financial
           relationship, prior purchase, firmographic match.
         </li>
         <li>
@@ -327,12 +327,12 @@ export default function Page() {
       <p>
         In practice, well-constructed score bands separate sharply. Across premium engagements we typically see top-band
         audiences convert at 4–10x the rate of an undifferentiated site-visitor pool, with mid-band audiences landing
-        somewhere in between and the bottom band performing no better than broad prospecting — which is itself a useful
+        somewhere in between and the bottom band performing no better than broad prospecting - which is itself a useful
         finding, because it tells you what to stop paying a premium for.
       </p>
 
       <h2>Matching Media Weight to Signal Strength</h2>
-      <p>Signal quality should govern channel selection, frequency, and creative — not just bid.</p>
+      <p>Signal quality should govern channel selection, frequency, and creative - not just bid.</p>
       <ul>
         <li>
           <strong>Top band (declared intent, capacity confirmed):</strong> Highest frequency, most personal creative,
@@ -342,7 +342,7 @@ export default function Page() {
         </li>
         <li>
           <strong>Mid band (behavioral pattern, capacity confirmed):</strong> Moderate frequency with proof-oriented
-          creative — specifications, comparisons, third-party validation. Caps around 2–4 per week. This is where most
+          creative - specifications, comparisons, third-party validation. Caps around 2–4 per week. This is where most
           premium CTV budget should sit.
         </li>
         <li>
@@ -366,7 +366,7 @@ export default function Page() {
         sites fire a single &quot;page view&quot; event and a form submission, which discards nearly everything useful
         in between. Instrument the specific interactions that indicate depth: configurator step completions, spec-sheet
         downloads, filter and comparison usage, return visits to the same inventory item, scroll depth on pricing pages,
-        and video completion at defined thresholds. Each should be a discrete, named event flowing to your warehouse —
+        and video completion at defined thresholds. Each should be a discrete, named event flowing to your warehouse -
         not just to a platform pixel, which will retain it only as long as the platform&apos;s own lookback allows.
       </p>
       <p>
@@ -378,7 +378,7 @@ export default function Page() {
       <p>
         <strong>Email and owned-channel engagement</strong> behaves differently in luxury than in retail. A single click
         on a &quot;schedule a private consultation&quot; link is worth more than twenty opens of a newsletter, and the
-        pattern of engagement across a sequence — three opens in one week after months of silence — is often the
+        pattern of engagement across a sequence - three opens in one week after months of silence - is often the
         earliest reliable timing signal a brand receives.
       </p>
       <p>
@@ -389,8 +389,8 @@ export default function Page() {
         score quality we see.
       </p>
       <p>
-        <strong>Second-party partnerships</strong> — data cooperatives with non-competing luxury brands,
-        publisher-direct audience sharing inside a clean room, and endemic partner integrations — sit between your
+        <strong>Second-party partnerships</strong> - data cooperatives with non-competing luxury brands,
+        publisher-direct audience sharing inside a clean room, and endemic partner integrations - sit between your
         first-party data and the open market in both quality and cost. They are underused because they require
         relationship work rather than a purchase order, which is precisely why the brands that do build them hold an
         advantage that is difficult to replicate.
@@ -414,7 +414,7 @@ export default function Page() {
         </li>
         <li>
           <strong>Running uncapped retargeting on decayed signals.</strong> After a signal&apos;s practical window
-          closes, continued retargeting is not persistence — it is spending brand equity on irritation.
+          closes, continued retargeting is not persistence - it is spending brand equity on irritation.
         </li>
         <li>
           <strong>Ignoring the quiet buyer.</strong> Build a parallel audience from CRM prior-purchaser and
@@ -445,7 +445,7 @@ export default function Page() {
       <p>
         Luxury buyer intent signals are the observable behaviors, explicit declarations, and contextual conditions
         indicating that a person is actively moving toward a high-value purchase rather than merely browsing
-        aspirationally. They fall into four tiers ordered by how much effort they cost the person to produce — declared
+        aspirationally. They fall into four tiers ordered by how much effort they cost the person to produce - declared
         intent such as a quote request or booked showing, high-cost behavioral patterns such as configurator completion
         or repeat pricing-page visits, contextual conditions such as high-value ZIP+4 residence or event attendance, and
         inferred third-party or modeled segments.
@@ -453,7 +453,7 @@ export default function Page() {
       <h3>How do you tell real luxury purchase intent from aspirational browsing?</h3>
       <p>
         Require two independent signal types before treating a profile as high-intent: a capacity signal proving the
-        person can transact — property value, verified financial relationship, prior purchase, firmographic match — and
+        person can transact - property value, verified financial relationship, prior purchase, firmographic match - and
         a timing signal proving an active decision, such as a configurator completion or repeat pricing visit within the
         last few weeks. Behavioral engagement alone is close to unusable in luxury categories because enthusiasts and
         aspirational researchers generate far more of it than actual buyers do.
@@ -471,7 +471,7 @@ export default function Page() {
         They carry real value for reach extension but should never define a primary audience, and they typically command
         a 40–70% CPM premium over untargeted inventory that is frequently unjustified. Before buying, require the
         provider to disclose exactly what behavior qualifies a profile for membership and how often the segment is
-        rebuilt — a segment that cannot answer both questions specifically should be treated as the lowest-confidence
+        rebuilt - a segment that cannot answer both questions specifically should be treated as the lowest-confidence
         tier and validated against closed-won revenue before any budget scales into it.
       </p>
       <h3>How do you build an intent score for a luxury brand?</h3>

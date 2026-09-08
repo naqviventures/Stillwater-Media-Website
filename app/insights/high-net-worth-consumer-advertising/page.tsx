@@ -6,11 +6,11 @@ export const metadata = {
   },
   title: "High-Net-Worth Consumer Advertising: How to Reach Affluent Buyers",
   description:
-    "How high-net-worth consumer advertising actually works — where affluent buyers spend attention, how to target them precisely, and how to measure the result.",
+    "How high-net-worth consumer advertising actually works - where affluent buyers spend attention, how to target them precisely, and how to measure the result.",
   openGraph: {
     title: "High-Net-Worth Consumer Advertising: How to Reach Affluent Buyers",
     description:
-      "A practical guide to high-net-worth consumer advertising — where affluent audiences spend attention now, how to target them with deterministic wealth data, which channels perform, and how to measure a long, high-value purchase.",
+      "A practical guide to high-net-worth consumer advertising - where affluent audiences spend attention now, how to target them with deterministic wealth data, which channels perform, and how to measure a long, high-value purchase.",
     type: "article",
     url: "https://www.stillwatermedia.io/insights/high-net-worth-consumer-advertising",
     images: [
@@ -26,7 +26,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "How to Reach High-Net-Worth Consumers With Advertising",
     description:
-      "Affluent audiences are not a demographic checkbox. Here is how high-net-worth consumer advertising really works — the data, the channels, and the measurement.",
+      "Affluent audiences are not a demographic checkbox. Here is how high-net-worth consumer advertising really works - the data, the channels, and the measurement.",
     images: ["/images/high-net-worth-consumer-advertising.png"],
   },
 }
@@ -37,13 +37,13 @@ export default function HighNetWorthConsumerAdvertisingPage() {
     "@type": "Article",
     headline: "High-Net-Worth Consumer Advertising: How to Reach Affluent Buyers",
     description:
-      "A strategist's guide to high-net-worth consumer advertising — why affluent audiences require different media, how to build wealth-based audience segments from deterministic and first-party data, which channels reach HNW households, common targeting mistakes, benchmark CPMs, and how to measure advertising against a long, high-value purchase cycle.",
+      "A strategist's guide to high-net-worth consumer advertising - why affluent audiences require different media, how to build wealth-based audience segments from deterministic and first-party data, which channels reach HNW households, common targeting mistakes, benchmark CPMs, and how to measure advertising against a long, high-value purchase cycle.",
     image: {
       "@type": "ImageObject",
       url: "https://www.stillwatermedia.io/images/high-net-worth-consumer-advertising.png",
       width: 1200,
       height: 630,
-      caption: "How high-net-worth consumer advertising works for luxury brands — Stillwater Media",
+      caption: "How high-net-worth consumer advertising works for luxury brands - Stillwater Media",
     },
     author: {
       "@type": "Organization",
@@ -99,7 +99,7 @@ export default function HighNetWorthConsumerAdvertisingPage() {
             name: "What is high-net-worth consumer advertising?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "High-net-worth consumer advertising is the discipline of reaching affluent households — typically those with $1M or more in investable assets — with brand and performance media built around precision rather than mass reach. Because the audience is small, hard to reach, and highly valuable, it prioritizes the quality of the audience and the credibility of the environment over the volume of impressions, concentrating spend in premium channels like connected TV, premium audio, and curated publishers.",
+              text: "High-net-worth consumer advertising is the discipline of reaching affluent households - typically those with $1M or more in investable assets - with brand and performance media built around precision rather than mass reach. Because the audience is small, hard to reach, and highly valuable, it prioritizes the quality of the audience and the credibility of the environment over the volume of impressions, concentrating spend in premium channels like connected TV, premium audio, and curated publishers.",
             },
           },
           {
@@ -107,7 +107,7 @@ export default function HighNetWorthConsumerAdvertisingPage() {
             name: "How do you reach high-net-worth consumers online?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "You follow their attention into premium, paid, ad-light environments — subscription streaming (connected TV), premium podcasts and audio, YouTube Select, premium publishers, and digital out-of-home in affluent locations — and you target using deterministic wealth signals and first-party data rather than broad income bands. The goal is to be present credibly in the few environments affluent buyers actually choose, not to maximize cheap reach across the open web.",
+              text: "You follow their attention into premium, paid, ad-light environments - subscription streaming (connected TV), premium podcasts and audio, YouTube Select, premium publishers, and digital out-of-home in affluent locations - and you target using deterministic wealth signals and first-party data rather than broad income bands. The goal is to be present credibly in the few environments affluent buyers actually choose, not to maximize cheap reach across the open web.",
             },
           },
           {
@@ -115,7 +115,7 @@ export default function HighNetWorthConsumerAdvertisingPage() {
             name: "What is the difference between targeting income and targeting wealth?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Household income measures earnings, while wealth measures accumulated assets, and the two often diverge. A dual-income professional household can report high income while holding little investable wealth, and much of the genuinely affluent population does not surface in income-based segments at all. Effective high-net-worth advertising targets observed wealth signals — property values, investable-asset indicators, and luxury purchase behavior — because income alone reaches high earners rather than high-net-worth households.",
+              text: "Household income measures earnings, while wealth measures accumulated assets, and the two often diverge. A dual-income professional household can report high income while holding little investable wealth, and much of the genuinely affluent population does not surface in income-based segments at all. Effective high-net-worth advertising targets observed wealth signals - property values, investable-asset indicators, and luxury purchase behavior - because income alone reaches high earners rather than high-net-worth households.",
             },
           },
           {
@@ -123,7 +123,7 @@ export default function HighNetWorthConsumerAdvertisingPage() {
             name: "Which channels work best for advertising to wealthy consumers?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "A coordinated premium mix works best: premium connected TV for full-attention awareness and consideration, premium audio and podcasts for trusted reach, YouTube Select and premium video for scale, premium native and display for the research phase, and digital out-of-home in affluent geographies for physical-world reinforcement — all tied together with programmatic targeting through private marketplace deals. No single cheap channel, social included, can carry a luxury brand to affluent audiences on its own.",
+              text: "A coordinated premium mix works best: premium connected TV for full-attention awareness and consideration, premium audio and podcasts for trusted reach, YouTube Select and premium video for scale, premium native and display for the research phase, and digital out-of-home in affluent geographies for physical-world reinforcement - all tied together with programmatic targeting through private marketplace deals. No single cheap channel, social included, can carry a luxury brand to affluent audiences on its own.",
             },
           },
           {
@@ -155,15 +155,15 @@ export default function HighNetWorthConsumerAdvertisingPage() {
         High-net-worth consumer advertising is not mass-market advertising with a bigger budget. It is a different
         discipline built on a different truth: the audience is small, hard to reach at scale, skeptical of anything that
         feels like a pitch, and worth a great deal when reached correctly. A single high-net-worth household can be worth
-        more than a thousand mass-market impressions, which means the entire economics of the campaign — how you find the
-        audience, where you place the message, how you measure the result — has to be rebuilt around precision rather
+        more than a thousand mass-market impressions, which means the entire economics of the campaign - how you find the
+        audience, where you place the message, how you measure the result - has to be rebuilt around precision rather
         than reach. Get that right and a modest budget outperforms a large one. Get it wrong and you spend a premium to
         talk to people who will never buy.
       </p>
 
       <p>
         At Stillwater Media we build high-net-worth consumer advertising programs for luxury and high-consideration
-        brands — clients where customer lifetime value exceeds $5,000 and the sales cycle runs longer than thirty days.
+        brands - clients where customer lifetime value exceeds $5,000 and the sales cycle runs longer than thirty days.
         This guide lays out how the discipline actually works: who the affluent audience is, where their attention has
         moved, how to target them without wasting the budget on look-alikes of the wealthy, and how to measure
         advertising against a purchase that rarely happens in a single click.
@@ -182,8 +182,8 @@ export default function HighNetWorthConsumerAdvertisingPage() {
       <p>
         First, <strong>scarcity</strong>. High-net-worth households are, by definition, a small slice of the population,
         so a campaign that maximizes raw reach necessarily spends most of its money on the wrong people. Second,{" "}
-        <strong>attention economics</strong>. Affluent buyers spend disproportionately on paid, ad-light environments —
-        subscription streaming, premium publishers, curated audio — and disproportionately little time in the cheap,
+        <strong>attention economics</strong>. Affluent buyers spend disproportionately on paid, ad-light environments -
+        subscription streaming, premium publishers, curated audio - and disproportionately little time in the cheap,
         ad-saturated inventory where mass campaigns live. Third, <strong>decision behavior</strong>. High-value
         purchases are considered, researched, and often made with an advisor, partner, or committee involved, over weeks
         or months, which means a single conversion event rarely tells the true story of what the advertising did.
@@ -197,7 +197,7 @@ export default function HighNetWorthConsumerAdvertisingPage() {
 
       <hr className="my-8" />
 
-      <h2>Who Counts as High-Net-Worth — and Why the Definition Matters</h2>
+      <h2>Who Counts as High-Net-Worth - and Why the Definition Matters</h2>
 
       <p>
         Precision starts with definition. &quot;Wealthy&quot; is a marketing adjective; high-net-worth is a measurable
@@ -249,7 +249,7 @@ export default function HighNetWorthConsumerAdvertisingPage() {
       <p>
         The practical lesson is that a brand selling a $15,000 product and a brand selling a $2M product are not chasing
         the same audience and should not run the same media. Blurring these tiers is one of the most common and
-        expensive mistakes in affluent advertising — you either overspend on scarce UHNW reach you do not need, or you
+        expensive mistakes in affluent advertising - you either overspend on scarce UHNW reach you do not need, or you
         optimize toward mass-affluent look-alikes who cannot afford the product. The definition you target should follow
         directly from your price point and unit economics.
       </p>
@@ -266,19 +266,19 @@ export default function HighNetWorthConsumerAdvertisingPage() {
       <p>
         The most important shift is toward <strong>paid subscription streaming</strong>. High-income households
         over-index heavily on services like Netflix, Disney+, Max, and Prime Video, and under-index on the ad-supported
-        linear television that once reached them — which is why connected TV advertising for high-net-worth consumers
+        linear television that once reached them - which is why connected TV advertising for high-net-worth consumers
         has become the anchor channel for most luxury brands. Alongside CTV, affluent audiences concentrate in{" "}
-        <strong>premium publisher environments</strong> — established business, financial, and lifestyle titles with
-        real editorial standards — and in <strong>curated audio</strong>, including premium podcasts and ad-supported
+        <strong>premium publisher environments</strong> - established business, financial, and lifestyle titles with
+        real editorial standards - and in <strong>curated audio</strong>, including premium podcasts and ad-supported
         tiers of streaming audio that skew affluent. <strong>YouTube&apos;s premium and Select inventory</strong>{" "}
         reaches them at scale in a brand-safe context, and <strong>digital out-of-home</strong> in affluent geographies
-        — private aviation terminals, luxury retail districts, financial centers — intercepts them in the physical
+        - private aviation terminals, luxury retail districts, financial centers - intercepts them in the physical
         world.
       </p>
 
       <p>
         What these environments share is that they are chosen and paid for, professionally produced, and consumed with
-        attention. That is the opposite of the cheap, interruptive, background inventory where mass reach is bought — and
+        attention. That is the opposite of the cheap, interruptive, background inventory where mass reach is bought - and
         it is exactly where a high-net-worth consumer advertising program should concentrate its budget.
       </p>
 
@@ -288,7 +288,7 @@ export default function HighNetWorthConsumerAdvertisingPage() {
 
       <p>
         Reaching the right households is where most affluent campaigns quietly fail, because generic &quot;high
-        income&quot; targeting is far too blunt. Household income is a weak proxy for wealth — a dual-income professional
+        income&quot; targeting is far too blunt. Household income is a weak proxy for wealth - a dual-income professional
         household can report a high income while holding little investable wealth, and much of the truly affluent
         population does not show up in income-based segments at all. Effective high-net-worth consumer advertising layers
         stronger signals.
@@ -301,14 +301,14 @@ export default function HighNetWorthConsumerAdvertisingPage() {
           becomes the foundation for everything else.
         </li>
         <li>
-          <strong>Deterministic wealth signals.</strong> Rather than modeled income bands, use observed indicators —
-          property values, investable-asset markers, luxury purchase history, and premium credential data — sourced
+          <strong>Deterministic wealth signals.</strong> Rather than modeled income bands, use observed indicators -
+          property values, investable-asset markers, luxury purchase history, and premium credential data - sourced
           through compliant premium consumer data partnerships. These define a genuine affluent segment, not a look-alike
           of one.
         </li>
         <li>
           <strong>Luxury buyer intent signals.</strong> Layer in behavioral signals that indicate active consideration in
-          the category — research behavior, premium content consumption, and category-relevant activity — to separate the
+          the category - research behavior, premium content consumption, and category-relevant activity - to separate the
           affluent-and-in-market from the merely affluent.
         </li>
         <li>
@@ -319,7 +319,7 @@ export default function HighNetWorthConsumerAdvertisingPage() {
       </ol>
 
       <p>
-        The order matters. Start from deterministic wealth and first-party data, then expand — never start from a broad
+        The order matters. Start from deterministic wealth and first-party data, then expand - never start from a broad
         &quot;affluent&quot; demographic and hope to filter down. The former reaches real high-net-worth households; the
         latter spends a premium CPM to reach the middle of the market.
       </p>
@@ -345,7 +345,7 @@ export default function HighNetWorthConsumerAdvertisingPage() {
       </p>
 
       <p>
-        The mistake to avoid is over-reliance on a single cheap channel — usually social — because it is measurable and
+        The mistake to avoid is over-reliance on a single cheap channel - usually social - because it is measurable and
         inexpensive. It reaches some affluent consumers, but it cannot carry a luxury brand alone, and last-click
         optimization inside it will systematically pull the budget toward the cheapest, least affluent impressions. A
         high-net-worth consumer advertising program uses performance discipline to make a premium mix efficient, not to
@@ -381,11 +381,11 @@ export default function HighNetWorthConsumerAdvertisingPage() {
 
       <p>
         Several principles separate advertising that resonates with affluent buyers from advertising that repels them.{" "}
-        <strong>Restraint outperforms urgency</strong> — the discount-driven, scarcity-timer language that lifts
+        <strong>Restraint outperforms urgency</strong> - the discount-driven, scarcity-timer language that lifts
         mass-market conversion signals the wrong tier to a high-net-worth buyer, who reads a hard sell as a downgrade.{" "}
-        <strong>Craft is a proxy for quality</strong> — an affluent audience judges the production value of the
+        <strong>Craft is a proxy for quality</strong> - an affluent audience judges the production value of the
         advertising as a stand-in for the quality of the product, so a visibly cheap execution beside premium content
-        does measurable damage. <strong>Specificity beats aspiration</strong> — vague luxury signifiers ring hollow to
+        does measurable damage. <strong>Specificity beats aspiration</strong> - vague luxury signifiers ring hollow to
         people who live the life the ad is gesturing at, while concrete substance about the product, the craftsmanship, or
         the outcome earns credibility. And because the affluent purchase is considered,{" "}
         <strong>the message should assume a long relationship</strong> rather than a single transaction, seeding trust
@@ -408,10 +408,10 @@ export default function HighNetWorthConsumerAdvertisingPage() {
         control group or geography and measure the lift in qualified inquiries, conversions, or branded search among the
         exposed audience. It is the only method that isolates causation, and it is essential for channels like CTV and
         audio that produce no click. <strong>Brand lift measurement</strong> surveys shifts in awareness, consideration,
-        and intent between exposed and unexposed audiences — the right instrument for the upper-funnel perception work
+        and intent between exposed and unexposed audiences - the right instrument for the upper-funnel perception work
         that affluent advertising depends on. And <strong>attribution built for long cycles</strong> credits each
-        channel&apos;s role across a thirty-to-ninety-day journey, feeding downstream CRM outcomes — qualified leads,
-        closed high-value deals — back into the buying platforms so optimization trains on real revenue rather than proxy
+        channel&apos;s role across a thirty-to-ninety-day journey, feeding downstream CRM outcomes - qualified leads,
+        closed high-value deals - back into the buying platforms so optimization trains on real revenue rather than proxy
         clicks. Measured this way, high-net-worth consumer advertising can be held to a genuine business standard: cost
         per qualified affluent lead and return on ad spend against real customer lifetime value, not cost per impression.
       </p>

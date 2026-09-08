@@ -104,10 +104,10 @@ export default function AutomatedLeadNurturingSystems() {
       <h3>Key Workflow Components</h3>
 
       <ul>
-        <li><strong>Branching logic</strong> — Adapts messaging based on prospect responses, engagement levels, and qualification criteria</li>
-        <li><strong>Conditional triggers</strong> — Initiates specific sequences when prospects take defined actions</li>
-        <li><strong>Wait steps</strong> — Introduces appropriate delays based on prospect behavior and response patterns</li>
-        <li><strong>Exit conditions</strong> — Removes prospects from sequences when they convert, disengage, or no longer qualify</li>
+        <li><strong>Branching logic</strong> - Adapts messaging based on prospect responses, engagement levels, and qualification criteria</li>
+        <li><strong>Conditional triggers</strong> - Initiates specific sequences when prospects take defined actions</li>
+        <li><strong>Wait steps</strong> - Introduces appropriate delays based on prospect behavior and response patterns</li>
+        <li><strong>Exit conditions</strong> - Removes prospects from sequences when they convert, disengage, or no longer qualify</li>
       </ul>
 
       <h3>Multi-Touch Sequence Design</h3>
@@ -117,10 +117,10 @@ export default function AutomatedLeadNurturingSystems() {
       </p>
 
       <ol>
-        <li><strong>Email</strong> — Primary communication channel for educational content and direct engagement</li>
-        <li><strong>Retargeting ads</strong> — Reinforces messaging across the web and social platforms</li>
-        <li><strong>Direct mail</strong> — High-impact touchpoint for high-value prospects</li>
-        <li><strong>Sales outreach</strong> — Triggered when prospects reach qualification thresholds</li>
+        <li><strong>Email</strong> - Primary communication channel for educational content and direct engagement</li>
+        <li><strong>Retargeting ads</strong> - Reinforces messaging across the web and social platforms</li>
+        <li><strong>Direct mail</strong> - High-impact touchpoint for high-value prospects</li>
+        <li><strong>Sales outreach</strong> - Triggered when prospects reach qualification thresholds</li>
       </ol>
 
       <p>
@@ -138,11 +138,11 @@ export default function AutomatedLeadNurturingSystems() {
       <h3>High-Value Behavioral Triggers</h3>
 
       <ul>
-        <li><strong>Pricing page visits</strong> — Indicates active evaluation; trigger sales outreach or comparison content</li>
-        <li><strong>Case study downloads</strong> — Shows interest in proof; follow up with relevant success stories</li>
-        <li><strong>Multiple session visits</strong> — Signals research phase; provide comprehensive resources</li>
-        <li><strong>Cart or application abandonment</strong> — Requires immediate follow-up with objection handling</li>
-        <li><strong>Email re-engagement</strong> — Opens after dormancy indicate renewed interest; restart nurture sequence</li>
+        <li><strong>Pricing page visits</strong> - Indicates active evaluation; trigger sales outreach or comparison content</li>
+        <li><strong>Case study downloads</strong> - Shows interest in proof; follow up with relevant success stories</li>
+        <li><strong>Multiple session visits</strong> - Signals research phase; provide comprehensive resources</li>
+        <li><strong>Cart or application abandonment</strong> - Requires immediate follow-up with objection handling</li>
+        <li><strong>Email re-engagement</strong> - Opens after dormancy indicate renewed interest; restart nurture sequence</li>
       </ul>
 
       <h3>Email Engagement Optimization</h3>
@@ -152,9 +152,9 @@ export default function AutomatedLeadNurturingSystems() {
       </p>
 
       <ul>
-        <li><strong>Open rate patterns</strong> — Adjust send times based on when individual prospects engage</li>
-        <li><strong>Click behavior</strong> — Identify content interests and tailor future messaging</li>
-        <li><strong>Non-engagement</strong> — Trigger win-back sequences or reduce frequency to prevent unsubscribes</li>
+        <li><strong>Open rate patterns</strong> - Adjust send times based on when individual prospects engage</li>
+        <li><strong>Click behavior</strong> - Identify content interests and tailor future messaging</li>
+        <li><strong>Non-engagement</strong> - Trigger win-back sequences or reduce frequency to prevent unsubscribes</li>
       </ul>
 
       <hr />
@@ -168,11 +168,11 @@ export default function AutomatedLeadNurturingSystems() {
       <h3>Personalization Dimensions</h3>
 
       <ol>
-        <li><strong>Industry-specific content</strong> — Case studies, terminology, and challenges relevant to their sector</li>
-        <li><strong>Role-based messaging</strong> — Different value propositions for executives versus practitioners</li>
-        <li><strong>Behavioral customization</strong> — Content based on pages viewed, downloads, and engagement history</li>
-        <li><strong>Stage-appropriate content</strong> — Educational content early, comparison content during evaluation</li>
-        <li><strong>Company size relevance</strong> — Enterprise versus mid-market positioning and social proof</li>
+        <li><strong>Industry-specific content</strong> - Case studies, terminology, and challenges relevant to their sector</li>
+        <li><strong>Role-based messaging</strong> - Different value propositions for executives versus practitioners</li>
+        <li><strong>Behavioral customization</strong> - Content based on pages viewed, downloads, and engagement history</li>
+        <li><strong>Stage-appropriate content</strong> - Educational content early, comparison content during evaluation</li>
+        <li><strong>Company size relevance</strong> - Enterprise versus mid-market positioning and social proof</li>
       </ol>
 
       <h3>Content Recommendation Systems</h3>
@@ -199,19 +199,19 @@ export default function AutomatedLeadNurturingSystems() {
       <h3>Scoring Integration Points</h3>
 
       <ul>
-        <li><strong>Engagement scoring</strong> — Tracks cumulative interaction with nurturing content</li>
-        <li><strong>Fit scoring</strong> — Assesses demographic and firmographic alignment with ICP</li>
-        <li><strong>Intent scoring</strong> — Measures behavioral signals indicating purchase readiness</li>
-        <li><strong>Negative scoring</strong> — Accounts for disqualifying behaviors or attributes</li>
+        <li><strong>Engagement scoring</strong> - Tracks cumulative interaction with nurturing content</li>
+        <li><strong>Fit scoring</strong> - Assesses demographic and firmographic alignment with ICP</li>
+        <li><strong>Intent scoring</strong> - Measures behavioral signals indicating purchase readiness</li>
+        <li><strong>Negative scoring</strong> - Accounts for disqualifying behaviors or attributes</li>
       </ul>
 
       <h3>Progressive Qualification Techniques</h3>
 
       <ol>
-        <li><strong>Gated content progression</strong> — Collect additional information with each download</li>
-        <li><strong>Interactive assessments</strong> — Quizzes and calculators that gather qualification data</li>
-        <li><strong>Preference centers</strong> — Allow prospects to self-identify interests and needs</li>
-        <li><strong>Survey integration</strong> — Periodic check-ins that update prospect profiles</li>
+        <li><strong>Gated content progression</strong> - Collect additional information with each download</li>
+        <li><strong>Interactive assessments</strong> - Quizzes and calculators that gather qualification data</li>
+        <li><strong>Preference centers</strong> - Allow prospects to self-identify interests and needs</li>
+        <li><strong>Survey integration</strong> - Periodic check-ins that update prospect profiles</li>
       </ol>
 
       <p>
@@ -229,10 +229,10 @@ export default function AutomatedLeadNurturingSystems() {
       <h3>Channel Selection Criteria</h3>
 
       <ul>
-        <li><strong>Prospect preference</strong> — Which channels they engage with most</li>
-        <li><strong>Message type</strong> — Complex content via email; urgency via SMS</li>
-        <li><strong>Funnel stage</strong> — Awareness via display; consideration via email and content</li>
-        <li><strong>Response history</strong> — Prioritize channels with demonstrated engagement</li>
+        <li><strong>Prospect preference</strong> - Which channels they engage with most</li>
+        <li><strong>Message type</strong> - Complex content via email; urgency via SMS</li>
+        <li><strong>Funnel stage</strong> - Awareness via display; consideration via email and content</li>
+        <li><strong>Response history</strong> - Prioritize channels with demonstrated engagement</li>
       </ul>
 
       <h3>Cross-Channel Attribution</h3>
@@ -259,11 +259,11 @@ export default function AutomatedLeadNurturingSystems() {
       <h3>Key Performance Metrics</h3>
 
       <ul>
-        <li><strong>Engagement rates</strong> — Open rates, click rates, and content consumption</li>
-        <li><strong>Progression rates</strong> — Movement through funnel stages</li>
-        <li><strong>Conversion rates</strong> — MQL to SQL to opportunity to close</li>
-        <li><strong>Time in nurture</strong> — Duration before conversion or disqualification</li>
-        <li><strong>Revenue attribution</strong> — Pipeline and closed revenue influenced by nurturing</li>
+        <li><strong>Engagement rates</strong> - Open rates, click rates, and content consumption</li>
+        <li><strong>Progression rates</strong> - Movement through funnel stages</li>
+        <li><strong>Conversion rates</strong> - MQL to SQL to opportunity to close</li>
+        <li><strong>Time in nurture</strong> - Duration before conversion or disqualification</li>
+        <li><strong>Revenue attribution</strong> - Pipeline and closed revenue influenced by nurturing</li>
       </ul>
 
       <h3>Continuous Optimization</h3>
@@ -298,7 +298,7 @@ export default function AutomatedLeadNurturingSystems() {
       </ol>
 
       <p>
-        For brands with complex sales cycles and high customer values, automated nurturing is not optional—it is the foundation of scalable demand generation.
+        For brands with complex sales cycles and high customer values, automated nurturing is not optional-it is the foundation of scalable demand generation.
       </p>
 
       <hr />

@@ -7,16 +7,16 @@ const imagePath = "/images/high-income-consumer-targeting.png"
 export const metadata: Metadata = {
   title: "High Income Consumer Targeting: What Actually Works",
   description:
-    "High income consumer targeting explained — why income data is the weakest wealth proxy, what to use instead, accuracy benchmarks, and channel activation.",
+    "High income consumer targeting explained - why income data is the weakest wealth proxy, what to use instead, accuracy benchmarks, and channel activation.",
   alternates: { canonical: canonicalUrl },
   openGraph: {
     title: "High Income Consumer Targeting: Why Income Is the Weakest Signal You Have",
     description:
-      "A senior media strategist's guide to high income consumer targeting — how income data is modeled, why HHI segments carry 35–55% precision, the four signals that outperform income, and channel-by-channel activation.",
+      "A senior media strategist's guide to high income consumer targeting - how income data is modeled, why HHI segments carry 35–55% precision, the four signals that outperform income, and channel-by-channel activation.",
     type: "article",
     url: canonicalUrl,
     images: [
-      { url: imagePath, width: 1200, height: 630, alt: "High income consumer targeting — Stillwater Media" },
+      { url: imagePath, width: 1200, height: 630, alt: "High income consumer targeting - Stillwater Media" },
     ],
     locale: "en_US",
     siteName: "Stillwater Media",
@@ -38,13 +38,13 @@ const schemaMarkup = {
       "@type": "Article",
       headline: "High Income Consumer Targeting: Why Income Is the Weakest Signal You Have",
       description:
-        "A senior media strategist's guide to high income consumer targeting for luxury and high-consideration advertisers — how household income segments are actually constructed, why most $250K+ HHI segments run only 35–55% precision, the four wealth signals that consistently outperform income, a three-layer stacking framework, and channel-by-channel activation guidance.",
+        "A senior media strategist's guide to high income consumer targeting for luxury and high-consideration advertisers - how household income segments are actually constructed, why most $250K+ HHI segments run only 35–55% precision, the four wealth signals that consistently outperform income, a three-layer stacking framework, and channel-by-channel activation guidance.",
       image: {
         "@type": "ImageObject",
         url: `https://www.stillwatermedia.io${imagePath}`,
         width: 1200,
         height: 630,
-        caption: "High income consumer targeting — Stillwater Media",
+        caption: "High income consumer targeting - Stillwater Media",
       },
       author: { "@type": "Organization", name: "Stillwater Media" },
       publisher: {
@@ -77,7 +77,7 @@ const schemaMarkup = {
           name: "Why is household income the weakest signal for luxury targeting?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Almost nobody reports income to a data provider, so income segments are modeled — inferred from where a household lives, what it buys, and census tabulations for statistically similar households. A segment labeled '$250,000+ Household Income' usually means 'lives in a block group with high median income and exhibits correlated purchase behavior,' which is not the same statement. That gap is where a great deal of luxury media budget disappears, because a renter two streets from a country club inherits the club members' income profile.",
+            text: "Almost nobody reports income to a data provider, so income segments are modeled - inferred from where a household lives, what it buys, and census tabulations for statistically similar households. A segment labeled '$250,000+ Household Income' usually means 'lives in a block group with high median income and exhibits correlated purchase behavior,' which is not the same statement. That gap is where a great deal of luxury media budget disappears, because a renter two streets from a country club inherits the club members' income profile.",
           },
         },
         {
@@ -85,7 +85,7 @@ const schemaMarkup = {
           name: "How accurate are modeled income segments?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Precision varies sharply by construction method. Census block-group modeling runs roughly 35–50% precision against verified panels, survey panel projection 30–45%, credit-adjacent inference 55–75%, property and public records 80–95% on the record, and observed transactional evidence 70–90%. Scale and accuracy are inversely related — the biggest income segments in any DSP audience library are almost always the weakest, because scale is achieved through modeling.",
+            text: "Precision varies sharply by construction method. Census block-group modeling runs roughly 35–50% precision against verified panels, survey panel projection 30–45%, credit-adjacent inference 55–75%, property and public records 80–95% on the record, and observed transactional evidence 70–90%. Scale and accuracy are inversely related - the biggest income segments in any DSP audience library are almost always the weakest, because scale is achieved through modeling.",
           },
         },
         {
@@ -101,7 +101,7 @@ const schemaMarkup = {
           name: "What is the correct way to stack affluent audience signals?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Use three layers with AND logic, in order: Layer 1 capacity (property equity, investable-asset tier, or occupational identity) defines who can transact; Layer 2 liquidity and life stage (recent liquidity events, business sale signals, relocation) defines who can transact now; Layer 3 in-category intent (site visitation, comparison research, first-party CRM activity) defines who is actively considering. A properly stacked audience always shrinks when a qualifier is added — if it grows, the segments were combined with OR logic by mistake.",
+            text: "Use three layers with AND logic, in order: Layer 1 capacity (property equity, investable-asset tier, or occupational identity) defines who can transact; Layer 2 liquidity and life stage (recent liquidity events, business sale signals, relocation) defines who can transact now; Layer 3 in-category intent (site visitation, comparison research, first-party CRM activity) defines who is actively considering. A properly stacked audience always shrinks when a qualifier is added - if it grows, the segments were combined with OR logic by mistake.",
           },
         },
         {
@@ -127,19 +127,19 @@ export default function Page() {
       category="Audience Strategy"
       image={imagePath}
       imageAlt="Stillwater Media guide illustration on high income consumer targeting showing an unmarked brass balance scale tipping toward a single dense weight over many small brass discs on dark slate"
-      imageCaption="Income tells you what a household earns; it does not tell you what a household can commit — and in luxury media, only the second one buys."
+      imageCaption="Income tells you what a household earns; it does not tell you what a household can commit - and in luxury media, only the second one buys."
       schemaMarkup={schemaMarkup}
     >
       <p>
         High income consumer targeting is the practice of directing media spend at households above a stated household
-        income threshold — typically $150K, $250K, or $500K+ — using data segments sold through DSPs, data marketplaces,
+        income threshold - typically $150K, $250K, or $500K+ - using data segments sold through DSPs, data marketplaces,
         and platform-native audience libraries. It is the most commonly used affluence filter in digital advertising,
         and in our experience running media for private aviation, luxury real estate, wealth management, private clubs,
         and premium DTC brands, it is also the least reliable one.
       </p>
       <p>
         That is a strong claim, so here is the mechanism behind it. Almost nobody reports their income to a data
-        provider. Income segments are therefore <em>modeled</em> — inferred from where you live, what you buy, what you
+        provider. Income segments are therefore <em>modeled</em> - inferred from where you live, what you buy, what you
         browse, and what census tabulations say about households that look statistically similar to you. The label on
         the segment says &quot;$250,000+ Household Income.&quot; The underlying data says &quot;lives in a block group
         whose median income is high, and exhibits purchase behaviors correlated with that block group.&quot; Those are
@@ -157,7 +157,7 @@ export default function Page() {
       <p>
         <strong>Census block-group modeling.</strong> The provider maps a household&apos;s address to a census block
         group (roughly 600–3,000 people) and assigns the block-group income distribution to that household. Fast, cheap,
-        near-total coverage — which is why it underpins the majority of large HHI segments. It is also the source of the
+        near-total coverage - which is why it underpins the majority of large HHI segments. It is also the source of the
         most common defect in affluent targeting: a renter in a starter apartment two streets from a country club
         inherits the club members&apos; income profile.
       </p>
@@ -169,13 +169,13 @@ export default function Page() {
       <p>
         <strong>Survey panel projection.</strong> A panel of tens of thousands of self-reporting consumers is weighted
         and projected onto tens of millions of devices. This is how the largest, cheapest income segments achieve their
-        scale, and why they are the least accurate — the model is extrapolating hard, and self-reported income skews
+        scale, and why they are the least accurate - the model is extrapolating hard, and self-reported income skews
         upward.
       </p>
       <p>
         <strong>Transactional and registration evidence.</strong> Actual observed high-ticket purchases, property
-        records, aircraft and vessel registrations, professional licensure. This is not income data at all — it is
-        capacity data — and it is the most predictive input available for luxury advertisers.
+        records, aircraft and vessel registrations, professional licensure. This is not income data at all - it is
+        capacity data - and it is the most predictive input available for luxury advertisers.
       </p>
 
       <h3>Precision by construction method</h3>
@@ -235,13 +235,13 @@ export default function Page() {
         </table>
       </div>
       <p>
-        Two things follow. First, scale and accuracy are inversely related — the biggest income segments in any DSP
+        Two things follow. First, scale and accuracy are inversely related - the biggest income segments in any DSP
         audience library are almost always the weakest, because scale is achieved through modeling. Second, the CPM
         premium on better data is trivially small next to the waste it prevents. Paying $4 more per thousand to double
         your qualified-reach rate is one of the easiest arbitrages in premium media.
       </p>
 
-      <h2>High Income Is Not High Net Worth — and the Difference Decides Your Plan</h2>
+      <h2>High Income Is Not High Net Worth - and the Difference Decides Your Plan</h2>
       <p>
         This distinction is not academic. A $400,000-a-year household in a high-cost metro with two private school
         tuitions, a large mortgage, and no meaningful liquid position behaves nothing like a $180,000-a-year household
@@ -249,15 +249,15 @@ export default function Page() {
         <em>balance sheet</em> and <em>discretionary confidence</em>.
       </p>
       <p>
-        The industry has a name for the first group — HENRYs, High Earners Not Rich Yet — and they are the dominant
+        The industry has a name for the first group - HENRYs, High Earners Not Rich Yet - and they are the dominant
         population inside any large income segment. They are excellent prospects for aspirational premium DTC at
         $300–$1,500 price points. They are poor prospects for a $600,000 fractional jet card, a $4M second home, or a
         $10M advisory relationship.
       </p>
       <p>
         When a client&apos;s product carries a lifetime value above $5,000 and a sales cycle longer than 30 days, income
-        alone will produce a top-of-funnel that engages well and converts terribly. That specific signature — high CTR,
-        high video completion, weak qualified-lead rate — is the diagnostic fingerprint of an income-only audience, and
+        alone will produce a top-of-funnel that engages well and converts terribly. That specific signature - high CTR,
+        high video completion, weak qualified-lead rate - is the diagnostic fingerprint of an income-only audience, and
         it is the most common problem we find in inherited media plans.
       </p>
 
@@ -279,7 +279,7 @@ export default function Page() {
         <li>
           <strong>Category transaction evidence.</strong> Someone who has actually chartered a jet, purchased a
           $20,000+ watch, booked a $2,000-per-night suite, or bought a vehicle above $120,000 has demonstrated both
-          capacity and willingness. Scale is small — often 1–5% of the size of a comparable income segment — but this is
+          capacity and willingness. Scale is small - often 1–5% of the size of a comparable income segment - but this is
           the layer that produces conversions.
         </li>
         <li>
@@ -293,16 +293,16 @@ export default function Page() {
       <p>The order matters, and getting it backward is the second-most-common defect we see.</p>
       <ul>
         <li>
-          <strong>Layer 1 — Capacity (eligibility floor).</strong> Property equity, investable-asset tier, or
+          <strong>Layer 1 - Capacity (eligibility floor).</strong> Property equity, investable-asset tier, or
           occupational identity. This defines who <em>can</em> transact. Applied with AND logic, never OR.
         </li>
         <li>
-          <strong>Layer 2 — Liquidity and life stage (qualification).</strong> Recent liquidity events, business sale
+          <strong>Layer 2 - Liquidity and life stage (qualification).</strong> Recent liquidity events, business sale
           signals, relocation, empty-nest transitions, inheritance-adjacent indicators. This defines who can transact{" "}
           <em>now</em>.
         </li>
         <li>
-          <strong>Layer 3 — In-category intent (prioritization).</strong> Site visitation, comparison research,
+          <strong>Layer 3 - In-category intent (prioritization).</strong> Site visitation, comparison research,
           competitor engagement, first-party CRM activity. This defines who is <em>actively considering</em>.
         </li>
       </ul>
@@ -310,7 +310,7 @@ export default function Page() {
         A representative build for a private aviation client narrows from roughly 4.5 million capacity-qualified U.S.
         households, to about 300,000 with a liquidity or life-stage marker, to somewhere between 10,000 and 25,000
         showing in-category intent in a given month. Each tier deserves different creative, different frequency, and
-        different budget treatment — the intent tier can support $45–$70 CPMs on premium CTV inventory that would be
+        different budget treatment - the intent tier can support $45–$70 CPMs on premium CTV inventory that would be
         indefensible against the top of the funnel.
       </p>
 
@@ -334,7 +334,7 @@ export default function Page() {
 
       <h2>Activating High Income Audiences by Channel</h2>
       <p>
-        Targeting precision is only half the equation — the delivery environment determines whether a qualified
+        Targeting precision is only half the equation - the delivery environment determines whether a qualified
         impression is worth anything.
       </p>
       <p>
@@ -345,7 +345,7 @@ export default function Page() {
       </p>
       <p>
         <strong>Programmatic display and video via private marketplace.</strong> Open exchange is where affluent
-        targeting goes to die — not because the audience data fails, but because the inventory quality collapses.
+        targeting goes to die - not because the audience data fails, but because the inventory quality collapses.
         Running qualified audiences through curated PMPs and premium publisher direct deals typically lifts viewability
         from the high-50s into the 70–80% range.
       </p>
@@ -357,7 +357,7 @@ export default function Page() {
       <p>
         <strong>Streaming audio and podcasts.</strong> Subscription-tier listeners skew meaningfully more affluent than
         ad-tier populations, and podcast audiences in business, finance, and golf verticals routinely index 150–220
-        against $250K+ households — often at lower effective cost than equivalent CTV reach.
+        against $250K+ households - often at lower effective cost than equivalent CTV reach.
       </p>
 
       <h2>Three Failure Modes and How to Diagnose Them</h2>

@@ -2,7 +2,7 @@ import IndustryPageLayout, { type IndustryContent, type ProofEntry } from "@/com
 
 // Proof entries are added only after written client approval covering the
 // metric, the time period, the measurement method, and the anonymised
-// description. Empty array renders nothing — that is intended.
+// description. Empty array renders nothing - that is intended.
 const proof: ProofEntry[] = []
 
 export const content: IndustryContent = {
@@ -41,22 +41,22 @@ export const content: IndustryContent = {
   architecture: {
     h2: "How we assemble the channels",
     intro:
-      "The plan is built around one rooftop's actual catchment, then extended across the group with frequency managed centrally. That order matters — a group-level plan disaggregated to rooftops produces waste at every store.",
+      "The plan is built around one rooftop's actual catchment, then extended across the group with frequency managed centrally. That order matters - a group-level plan disaggregated to rooftops produces waste at every store.",
     items: [
       {
-        h3: "CTV and online video — in-market demand inside the radius",
+        h3: "CTV and online video - in-market demand inside the radius",
         body: "Streaming inventory against in-market affluent households within the true drive radius. Model-level creative, not brand-level, because the shopper is already choosing between specific cars.",
       },
       {
-        h3: "Programmatic display and native — the consideration layer",
+        h3: "Programmatic display and native - the consideration layer",
         body: "Sequenced by model and by where the shopper sits in their consideration set. Conquest audiences handled separately from loyalty audiences, because the message is not the same.",
       },
       {
-        h3: "Retargeting — from configurator behaviour",
+        h3: "Retargeting - from configurator behaviour",
         body: "Built from vehicle detail page and configurator activity, which is the strongest in-market signal a dealer owns and the one most often left unused.",
       },
       {
-        h3: "Search — model and trim intent",
+        h3: "Search - model and trim intent",
         body: "Aligned to the model and trim terms buyers actually use rather than generic category terms, and coordinated with tier-one and tier-two activity rather than bidding against it.",
       },
     ],
@@ -65,7 +65,7 @@ export const content: IndustryContent = {
   dataLayer: {
     h2: "The audience is the strategy",
     intro:
-      "Automotive has better in-market signals than almost any other luxury category. The failure is rarely data availability — it is geography and frequency discipline.",
+      "Automotive has better in-market signals than almost any other luxury category. The failure is rarely data availability - it is geography and frequency discipline.",
     items: [
       {
         h3: "In-market shopping signals",
@@ -89,11 +89,11 @@ export const content: IndustryContent = {
   measure: {
     h2: "What we measure",
     leadParagraphs: [
-      "Cost per sold unit, matched back to the dealer's sales file where the group will share it. Store visits, form fills and lead volume are diagnostics — they tell you whether the machine is running, not whether it is producing.",
+      "Cost per sold unit, matched back to the dealer's sales file where the group will share it. Store visits, form fills and lead volume are diagnostics - they tell you whether the machine is running, not whether it is producing.",
     ],
     linkedParagraph: {
       before:
-        "A match-back requires the group to share sales data, and we understand why that is a conversation. But without it, the programme is being judged on proxies, and proxies are precisely how dealer media has been overstated for a generation. We would rather have the harder conversation early, on this engagement as on ",
+        "A match-back requires the group to share sales data, and we understand why that is a conversation. But without it, the program is being judged on proxies, and proxies are precisely how dealer media has been overstated for a generation. We would rather have the harder conversation early, on this engagement as on ",
       linkText: "every other",
       href: "/capabilities",
       after: ".",

@@ -38,7 +38,7 @@ export default function IndustryPageLayout({ content }: { content: IndustryConte
     <div className="min-h-screen bg-background text-foreground">
       <Navigation />
 
-      {/* Block 1 — HERO */}
+      {/* Block 1 - HERO */}
       <section
         className="min-h-[80vh] flex flex-col justify-center px-6 sm:px-12 pt-32 pb-20 relative"
         data-animate
@@ -52,7 +52,7 @@ export default function IndustryPageLayout({ content }: { content: IndustryConte
         <div
           className={`max-w-6xl mx-auto w-full relative z-10 transition-all duration-1000 ${visible.has("hero") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"}`}
         >
-          {/* Visible breadcrumb — backs the BreadcrumbList schema */}
+          {/* Visible breadcrumb - backs the BreadcrumbList schema */}
           <nav aria-label="Breadcrumb" className="mb-8">
             <ol className="flex items-center gap-2 text-xs tracking-wide text-foreground/50">
               <li>
@@ -101,7 +101,7 @@ export default function IndustryPageLayout({ content }: { content: IndustryConte
         </div>
       </section>
 
-      {/* Block 2 — THE PROBLEM */}
+      {/* Block 2 - THE PROBLEM */}
       <section className="border-t border-border py-24 px-6 sm:px-12" data-animate id="problem">
         <div className="max-w-6xl mx-auto">
           <h2
@@ -126,7 +126,7 @@ export default function IndustryPageLayout({ content }: { content: IndustryConte
         </div>
       </section>
 
-      {/* Block 3 — THE ARCHITECTURE */}
+      {/* Block 3 - THE ARCHITECTURE */}
       <section className="border-t border-border py-24 px-6 sm:px-12" data-animate id="architecture">
         <div className="max-w-6xl mx-auto">
           <div
@@ -161,7 +161,7 @@ export default function IndustryPageLayout({ content }: { content: IndustryConte
         </div>
       </section>
 
-      {/* Block 4 — THE DATA LAYER */}
+      {/* Block 4 - THE DATA LAYER */}
       <section className="border-t border-border py-24 px-6 sm:px-12" data-animate id="data-layer">
         <div className="max-w-6xl mx-auto">
           <div
@@ -189,7 +189,7 @@ export default function IndustryPageLayout({ content }: { content: IndustryConte
         </div>
       </section>
 
-      {/* Block 5 — WHAT WE MEASURE */}
+      {/* Block 5 - WHAT WE MEASURE */}
       <section className="border-t border-border py-24 px-6 sm:px-12" data-animate id="measure">
         <div className="max-w-4xl mx-auto">
           <h2
@@ -216,7 +216,7 @@ export default function IndustryPageLayout({ content }: { content: IndustryConte
         </div>
       </section>
 
-      {/* Block 6 — PROOF (renders nothing when the array is empty) */}
+      {/* Block 6 - PROOF (renders nothing when the array is empty) */}
       {proof.length > 0 && (
         <section className="border-t border-border py-24 px-6 sm:px-12" data-animate id="proof">
           <div className="max-w-4xl mx-auto">
@@ -241,7 +241,7 @@ export default function IndustryPageLayout({ content }: { content: IndustryConte
         </section>
       )}
 
-      {/* Block 7 — BUILT FOR */}
+      {/* Block 7 - BUILT FOR */}
       <section className="border-t border-border py-24 px-6 sm:px-12" data-animate id="built-for">
         <div className="max-w-4xl mx-auto">
           <div
@@ -259,7 +259,7 @@ export default function IndustryPageLayout({ content }: { content: IndustryConte
         </div>
       </section>
 
-      {/* Block 8 — ENGAGEMENT */}
+      {/* Block 8 - ENGAGEMENT */}
       <section className="border-t border-border py-24 px-6 sm:px-12" data-animate id="engagement">
         <div className="max-w-6xl mx-auto">
           <h2
@@ -282,7 +282,7 @@ export default function IndustryPageLayout({ content }: { content: IndustryConte
         </div>
       </section>
 
-      {/* Block 9 — FAQ */}
+      {/* Block 9 - FAQ */}
       <section className="border-t border-border py-24 px-6 sm:px-12" data-animate id="faq">
         <div className="max-w-4xl mx-auto">
           <h2
@@ -303,7 +303,7 @@ export default function IndustryPageLayout({ content }: { content: IndustryConte
         </div>
       </section>
 
-      {/* Block 10 — CTA */}
+      {/* Block 10 - CTA */}
       <section className="border-t border-border py-24 px-6 sm:px-12" data-animate id="cta">
         <div className="max-w-4xl mx-auto text-center">
           <div
@@ -332,7 +332,7 @@ export default function IndustryPageLayout({ content }: { content: IndustryConte
         </div>
       </section>
 
-      {/* Block 11 — RELATED */}
+      {/* Block 11 - RELATED */}
       <section className="border-t border-border py-24 px-6 sm:px-12" data-animate id="related">
         <div className="max-w-6xl mx-auto">
           <h2

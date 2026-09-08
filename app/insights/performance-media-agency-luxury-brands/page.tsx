@@ -6,11 +6,11 @@ export const metadata = {
   },
   title: "Performance Media Agency for Luxury Brands",
   description:
-    "Discover how a performance media agency differs from traditional brand advertising—and why luxury brands with long sales cycles need a different approach entirely.",
+    "Discover how a performance media agency differs from traditional brand advertising-and why luxury brands with long sales cycles need a different approach entirely.",
   openGraph: {
     title: "Performance Media Agency for Luxury Brands | Stillwater Media",
     description:
-      "How a performance media agency differs from traditional brand advertising — and why luxury brands with long sales cycles need a different approach.",
+      "How a performance media agency differs from traditional brand advertising - and why luxury brands with long sales cycles need a different approach.",
     type: "article",
     url: "https://www.stillwatermedia.io/insights/performance-media-agency-luxury-brands",
     images: [
@@ -26,7 +26,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Performance Media Agency for Luxury Brands | Stillwater Media",
     description:
-      "What separates a performance media agency from a traditional brand agency — and why the distinction is critical for luxury and high-consideration brands.",
+      "What separates a performance media agency from a traditional brand agency - and why the distinction is critical for luxury and high-consideration brands.",
     images: ["/images/performance-media-agency-luxury-brands.png"],
   },
 }
@@ -37,7 +37,7 @@ export default function PerformanceMediaAgencyPage() {
     "@type": "Article",
     headline: "Performance Media Agency for Luxury Brands: How It Differs From Traditional Brand Advertising",
     description:
-      "Discover how a performance media agency differs from traditional brand advertising — and why luxury brands with long sales cycles need this approach.",
+      "Discover how a performance media agency differs from traditional brand advertising - and why luxury brands with long sales cycles need this approach.",
     image: {
       "@type": "ImageObject",
       url: "/images/performance-media-agency-luxury-brands.png",
@@ -74,17 +74,17 @@ export default function PerformanceMediaAgencyPage() {
 
   const schemaMarkup = {
     "@context": "https://schema.org",
-    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/performance-media-agency-luxury-brands#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Performance Media Agency for Luxury Brands: How It Differs From Traditional Brand Advertising","item":"https://www.stillwatermedia.io/insights/performance-media-agency-luxury-brands"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/performance-media-agency-luxury-brands#faq","mainEntity":[{"@type":"Question","name":"What does a performance media agency do differently than a traditional ad agency?","acceptedAnswer":{"@type":"Answer","text":"A performance media agency optimizes every campaign element—channel selection, audience targeting, creative sequencing, and budget allocation—against measurable business outcomes like qualified leads, revenue, and customer acquisition cost. Traditional ad agencies primarily optimize for awareness metrics such as reach, frequency, and brand recall scores, which are inputs to performance rather than outcomes. Performance media agencies also invest in attribution infrastructure, including incrementality testing and multi-touch measurement, that most traditional agencies do not offer."}},{"@type":"Question","name":"Why do luxury brands need a specialized performance media agency?","acceptedAnswer":{"@type":"Answer","text":"Luxury brands have unique media requirements that generalist performance agencies are not designed to address: long sales cycles that standard attribution models cannot capture, brand safety standards that exclude most open-exchange programmatic inventory, and target audiences too narrow and affluent to be reached accurately through broad demographic targeting. A specialized performance media agency builds audience architecture from verified wealth signals, accesses premium inventory through private marketplace deals, and designs measurement systems calibrated to the actual length of the luxury purchase cycle."}},{"@type":"Question","name":"What is the difference between attributed ROI and incremental ROI in advertising?","acceptedAnswer":{"@type":"Answer","text":"Attributed ROI measures the revenue that analytics platforms assign credit to based on user touchpoints before conversion. Incremental ROI measures only the revenue that actually would not have occurred without the advertising. The gap between the two—often 40–60% for mature brands with retargeting programs—represents media spend that is taking credit for organic conversions rather than causing new ones. Performance media agencies use holdout testing and geo-based lift studies to measure incremental ROI directly, allowing for more accurate budget optimization."}},{"@type":"Question","name":"How do you evaluate whether a media agency is truly performance-focused?","acceptedAnswer":{"@type":"Answer","text":"Ask for three things: a supply path audit showing where your inventory is purchased and at what cost, documentation of any incrementality tests run for comparable clients, and a reporting framework that connects media spend to pipeline and revenue rather than reach and impression metrics. Agencies that cannot provide all three are optimizing to attribution models, not to your business outcomes."}},{"@type":"Question","name":"What KPIs should a performance media agency report for luxury brand campaigns?","acceptedAnswer":{"@type":"Answer","text":"Effective performance media reporting for luxury brands should track: verified HNW reach and audience composition (not just impressions), cost per qualified lead disaggregated by channel, assisted conversion rates by funnel stage, incremental lift from holdout or geo-based tests, and LTV-adjusted customer acquisition cost across the full sales cycle. Blended ROAS numbers that aggregate all channels hide the performance variation between upper-funnel brand channels and lower-funnel conversion channels, making optimization impossible."}}]}],
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/performance-media-agency-luxury-brands#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Performance Media Agency for Luxury Brands: How It Differs From Traditional Brand Advertising","item":"https://www.stillwatermedia.io/insights/performance-media-agency-luxury-brands"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/performance-media-agency-luxury-brands#faq","mainEntity":[{"@type":"Question","name":"What does a performance media agency do differently than a traditional ad agency?","acceptedAnswer":{"@type":"Answer","text":"A performance media agency optimizes every campaign element-channel selection, audience targeting, creative sequencing, and budget allocation-against measurable business outcomes like qualified leads, revenue, and customer acquisition cost. Traditional ad agencies primarily optimize for awareness metrics such as reach, frequency, and brand recall scores, which are inputs to performance rather than outcomes. Performance media agencies also invest in attribution infrastructure, including incrementality testing and multi-touch measurement, that most traditional agencies do not offer."}},{"@type":"Question","name":"Why do luxury brands need a specialized performance media agency?","acceptedAnswer":{"@type":"Answer","text":"Luxury brands have unique media requirements that generalist performance agencies are not designed to address: long sales cycles that standard attribution models cannot capture, brand safety standards that exclude most open-exchange programmatic inventory, and target audiences too narrow and affluent to be reached accurately through broad demographic targeting. A specialized performance media agency builds audience architecture from verified wealth signals, accesses premium inventory through private marketplace deals, and designs measurement systems calibrated to the actual length of the luxury purchase cycle."}},{"@type":"Question","name":"What is the difference between attributed ROI and incremental ROI in advertising?","acceptedAnswer":{"@type":"Answer","text":"Attributed ROI measures the revenue that analytics platforms assign credit to based on user touchpoints before conversion. Incremental ROI measures only the revenue that actually would not have occurred without the advertising. The gap between the two-often 40–60% for mature brands with retargeting programs-represents media spend that is taking credit for organic conversions rather than causing new ones. Performance media agencies use holdout testing and geo-based lift studies to measure incremental ROI directly, allowing for more accurate budget optimization."}},{"@type":"Question","name":"How do you evaluate whether a media agency is truly performance-focused?","acceptedAnswer":{"@type":"Answer","text":"Ask for three things: a supply path audit showing where your inventory is purchased and at what cost, documentation of any incrementality tests run for comparable clients, and a reporting framework that connects media spend to pipeline and revenue rather than reach and impression metrics. Agencies that cannot provide all three are optimizing to attribution models, not to your business outcomes."}},{"@type":"Question","name":"What KPIs should a performance media agency report for luxury brand campaigns?","acceptedAnswer":{"@type":"Answer","text":"Effective performance media reporting for luxury brands should track: verified HNW reach and audience composition (not just impressions), cost per qualified lead disaggregated by channel, assisted conversion rates by funnel stage, incremental lift from holdout or geo-based tests, and LTV-adjusted customer acquisition cost across the full sales cycle. Blended ROAS numbers that aggregate all channels hide the performance variation between upper-funnel brand channels and lower-funnel conversion channels, making optimization impossible."}}]}],
   }
 
   return (
     <ArticleLayout
       title="How a Performance Media Agency for Luxury Brands Differs From Traditional Advertising"
-      subtitle="Performance media isn't the opposite of brand building — it's what happens when brand strategy meets rigorous accountability."
+      subtitle="Performance media isn't the opposite of brand building - it's what happens when brand strategy meets rigorous accountability."
       category="Agency & Strategy"
       image="/images/performance-media-agency-luxury-brands.png"
       imageAlt="Stillwater Media performance media agency workspace illustrating precision-driven luxury brand advertising strategy and media planning"
-      imageCaption="Performance media isn't the opposite of brand building — it's what happens when brand strategy meets rigorous accountability."
+      imageCaption="Performance media isn't the opposite of brand building - it's what happens when brand strategy meets rigorous accountability."
       date="May 29, 2026"
       readingTime="9 min"
       author="Stillwater Media"
@@ -93,7 +93,7 @@ export default function PerformanceMediaAgencyPage() {
       <h2>What "Performance Media" Actually Means in a Luxury Context</h2>
 
       <p>
-        The word &quot;performance&quot; gets misunderstood. In direct response advertising, performance means optimizing for clicks, leads, or purchases — often at the expense of brand experience. That version of performance media is not appropriate for luxury.
+        The word &quot;performance&quot; gets misunderstood. In direct response advertising, performance means optimizing for clicks, leads, or purchases - often at the expense of brand experience. That version of performance media is not appropriate for luxury.
       </p>
 
       <p>
@@ -109,7 +109,7 @@ export default function PerformanceMediaAgencyPage() {
       </ul>
 
       <p>
-        This is what distinguishes a performance media approach from traditional brand advertising — not an abandonment of brand values, but an insistence that brand investment be treated with the same analytical rigor as any other business decision.
+        This is what distinguishes a performance media approach from traditional brand advertising - not an abandonment of brand values, but an insistence that brand investment be treated with the same analytical rigor as any other business decision.
       </p>
 
       <hr />
@@ -117,7 +117,7 @@ export default function PerformanceMediaAgencyPage() {
       <h2>The Traditional Brand Agency Model: What It Gets Right and Where It Falls Short</h2>
 
       <p>
-        Traditional brand advertising agencies — particularly those serving luxury clients — excel at several things:
+        Traditional brand advertising agencies - particularly those serving luxury clients - excel at several things:
       </p>
 
       <ul>
@@ -205,7 +205,7 @@ export default function PerformanceMediaAgencyPage() {
 
       <h3>Long Sales Cycles Create Measurement Blind Spots</h3>
       <p>
-        A private aviation prospect may see your CTV ad in January, attend an aviation expo in March, and submit a first-flight request in May. Traditional advertising counts the January CTV impression and the May request, but has no way of connecting them. A performance media framework — built on holdout testing, marketing mix modeling, and multi-touch analysis — creates the architecture to understand that four-month journey.
+        A private aviation prospect may see your CTV ad in January, attend an aviation expo in March, and submit a first-flight request in May. Traditional advertising counts the January CTV impression and the May request, but has no way of connecting them. A performance media framework - built on holdout testing, marketing mix modeling, and multi-touch analysis - creates the architecture to understand that four-month journey.
       </p>
 
       <h3>High Transaction Values Make Efficiency Differences Consequential</h3>
@@ -215,7 +215,7 @@ export default function PerformanceMediaAgencyPage() {
 
       <h3>Brand Safety Requirements Demand Active Management</h3>
       <p>
-        Luxury brands cannot appear adjacent to content that undermines their brand positioning. This sounds obvious, but traditional programmatic buying — running across open exchanges with broad keyword exclusions — routinely places luxury brands in brand-unsafe environments.
+        Luxury brands cannot appear adjacent to content that undermines their brand positioning. This sounds obvious, but traditional programmatic buying - running across open exchanges with broad keyword exclusions - routinely places luxury brands in brand-unsafe environments.
       </p>
 
       <p>
@@ -224,7 +224,7 @@ export default function PerformanceMediaAgencyPage() {
 
       <h3>The Affluent Audience Is Not Where Most Agencies Think It Is</h3>
       <p>
-        Traditional brand agencies for luxury often over-weight TV broadcast, glossy print adjacencies, and high-reach social placements. These channels reach everyone — including the 93% of the audience who will never be customers of a high-consideration luxury brand.
+        Traditional brand agencies for luxury often over-weight TV broadcast, glossy print adjacencies, and high-reach social placements. These channels reach everyone - including the 93% of the audience who will never be customers of a high-consideration luxury brand.
       </p>
 
       <p>
@@ -236,7 +236,7 @@ export default function PerformanceMediaAgencyPage() {
       <h2>What to Look for in a Performance Media Agency for Your Luxury Brand</h2>
 
       <p>
-        Not all agencies that claim &quot;performance&quot; capabilities are equipped to serve luxury clients properly. The wrong performance agency — one that optimizes for the wrong metrics, runs aggressive direct-response creative in premium environments, or prioritizes CTR over brand equity — can actually damage a luxury brand.
+        Not all agencies that claim &quot;performance&quot; capabilities are equipped to serve luxury clients properly. The wrong performance agency - one that optimizes for the wrong metrics, runs aggressive direct-response creative in premium environments, or prioritizes CTR over brand equity - can actually damage a luxury brand.
       </p>
 
       <p>

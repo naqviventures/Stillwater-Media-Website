@@ -74,17 +74,17 @@ export default function DOOHAffluentLocationTargetingPage() {
 
   const schemaMarkup = {
     "@context": "https://schema.org",
-    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/dooh-affluent-location-targeting#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Digital Out-of-Home Advertising for Luxury Brands: A Complete DOOH Strategy Guide","item":"https://www.stillwatermedia.io/insights/dooh-affluent-location-targeting"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/dooh-affluent-location-targeting#faq","mainEntity":[{"@type":"Question","name":"What is DOOH affluent location targeting?","acceptedAnswer":{"@type":"Answer","text":"DOOH affluent location targeting is the practice of buying programmatic digital out-of-home advertising inventory at specific physical locations where high-net-worth consumers concentrate — private aviation terminals, luxury residential buildings, premium fitness facilities, and exclusive club environments. Rather than buying OOH on raw traffic count, programmatic DOOH uses anonymized mobile device data to validate that the audience present at a given screen matches an affluent demographic profile, enabling premium brands to pay for verified affluent impressions rather than estimated reach."}},{"@type":"Question","name":"How much does programmatic DOOH cost for luxury brands?","acceptedAnswer":{"@type":"Answer","text":"Programmatic DOOH CPMs for luxury-relevant inventory range from $20 to $120 depending on venue type and market. Private aviation terminal displays command the highest rates ($45–$120 CPM) due to extremely limited supply and exceptionally high audience quality. Premium highway large-format in affluent corridors runs $25–$60 CPM. Luxury residential elevator screens range from $30–$75 CPM. Effective monthly budgets for a single-market luxury DOOH campaign start around $15,000–$25,000 to generate meaningful frequency against an affluent target audience."}},{"@type":"Question","name":"How do you measure DOOH advertising ROI?","acceptedAnswer":{"@type":"Answer","text":"DOOH ROI is measured through device graph attribution — a methodology that cross-references the mobile advertising IDs (MAIDs) of devices detected near exposed screens against downstream behaviors including physical location visits, branded website sessions, and CRM prospect matches. This allows brands to calculate exposed audience visit rates (how many people who saw the ad visited a physical location), web lift among exposed cohorts, and CRM match rates. Sophisticated campaigns also run holdout tests comparing exposed vs. unexposed audience cohorts to isolate true incremental impact."}},{"@type":"Question","name":"Can DOOH advertising be targeted to wealthy neighborhoods?","acceptedAnswer":{"@type":"Answer","text":"Yes. Programmatic DOOH platforms allow brands to select inventory in ZIP codes with median household incomes above defined thresholds, and to validate audience composition at the device level using behavioral and demographic data overlays. Beyond neighborhood-level geotargeting, luxury brands can target specific venue types — private aviation terminals, luxury residential buildings, premium fitness clubs — where affluent audience concentration is exceptionally high regardless of broader neighborhood income levels."}},{"@type":"Question","name":"How does DOOH integrate with digital advertising campaigns?","acceptedAnswer":{"@type":"Answer","text":"DOOH integrates with digital campaigns through a physical-to-digital retargeting handoff. When a device is detected near a DOOH screen during an active campaign, that device's advertising ID enters a retargeting pool and receives sequenced digital follow-up across CTV, premium display, and native advertising. This converts a single DOOH impression into the first touchpoint in a multi-channel sequence, dramatically increasing attribution clarity and allowing brands to move a prospect from physical awareness through digital consideration and toward conversion."}}]}],
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/dooh-affluent-location-targeting#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Digital Out-of-Home Advertising for Luxury Brands: A Complete DOOH Strategy Guide","item":"https://www.stillwatermedia.io/insights/dooh-affluent-location-targeting"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/dooh-affluent-location-targeting#faq","mainEntity":[{"@type":"Question","name":"What is DOOH affluent location targeting?","acceptedAnswer":{"@type":"Answer","text":"DOOH affluent location targeting is the practice of buying programmatic digital out-of-home advertising inventory at specific physical locations where high-net-worth consumers concentrate - private aviation terminals, luxury residential buildings, premium fitness facilities, and exclusive club environments. Rather than buying OOH on raw traffic count, programmatic DOOH uses anonymized mobile device data to validate that the audience present at a given screen matches an affluent demographic profile, enabling premium brands to pay for verified affluent impressions rather than estimated reach."}},{"@type":"Question","name":"How much does programmatic DOOH cost for luxury brands?","acceptedAnswer":{"@type":"Answer","text":"Programmatic DOOH CPMs for luxury-relevant inventory range from $20 to $120 depending on venue type and market. Private aviation terminal displays command the highest rates ($45–$120 CPM) due to extremely limited supply and exceptionally high audience quality. Premium highway large-format in affluent corridors runs $25–$60 CPM. Luxury residential elevator screens range from $30–$75 CPM. Effective monthly budgets for a single-market luxury DOOH campaign start around $15,000–$25,000 to generate meaningful frequency against an affluent target audience."}},{"@type":"Question","name":"How do you measure DOOH advertising ROI?","acceptedAnswer":{"@type":"Answer","text":"DOOH ROI is measured through device graph attribution - a methodology that cross-references the mobile advertising IDs (MAIDs) of devices detected near exposed screens against downstream behaviors including physical location visits, branded website sessions, and CRM prospect matches. This allows brands to calculate exposed audience visit rates (how many people who saw the ad visited a physical location), web lift among exposed cohorts, and CRM match rates. Sophisticated campaigns also run holdout tests comparing exposed vs. unexposed audience cohorts to isolate true incremental impact."}},{"@type":"Question","name":"Can DOOH advertising be targeted to wealthy neighborhoods?","acceptedAnswer":{"@type":"Answer","text":"Yes. Programmatic DOOH platforms allow brands to select inventory in ZIP codes with median household incomes above defined thresholds, and to validate audience composition at the device level using behavioral and demographic data overlays. Beyond neighborhood-level geotargeting, luxury brands can target specific venue types - private aviation terminals, luxury residential buildings, premium fitness clubs - where affluent audience concentration is exceptionally high regardless of broader neighborhood income levels."}},{"@type":"Question","name":"How does DOOH integrate with digital advertising campaigns?","acceptedAnswer":{"@type":"Answer","text":"DOOH integrates with digital campaigns through a physical-to-digital retargeting handoff. When a device is detected near a DOOH screen during an active campaign, that device's advertising ID enters a retargeting pool and receives sequenced digital follow-up across CTV, premium display, and native advertising. This converts a single DOOH impression into the first touchpoint in a multi-channel sequence, dramatically increasing attribution clarity and allowing brands to move a prospect from physical awareness through digital consideration and toward conversion."}}]}],
   }
 
   return (
     <ArticleLayout
       title="Digital Out-of-Home Advertising for Luxury Brands"
-      subtitle="DOOH affluent location targeting has matured from a blunt reach tactic into one of the most precise tools available to luxury marketers—a digital billboard in the right place at the right time can outperform a six-figure paid social campaign."
+      subtitle="DOOH affluent location targeting has matured from a blunt reach tactic into one of the most precise tools available to luxury marketers-a digital billboard in the right place at the right time can outperform a six-figure paid social campaign."
       category="Out-of-Home"
       image="/images/dooh-affluent-location-targeting.png"
-      imageAlt="Stillwater Media DOOH affluent location targeting — luxury digital billboard display in premium urban district reaching high-net-worth consumers"
-      imageCaption="DOOH placements in high-traffic affluent corridors deliver luxury brand impressions at the moment of maximum receptivity — when wealthy consumers are physically present in the environments that define their lifestyle."
+      imageAlt="Stillwater Media DOOH affluent location targeting - luxury digital billboard display in premium urban district reaching high-net-worth consumers"
+      imageCaption="DOOH placements in high-traffic affluent corridors deliver luxury brand impressions at the moment of maximum receptivity - when wealthy consumers are physically present in the environments that define their lifestyle."
       date="June 3, 2026"
       readingTime="9 min"
       author="Stillwater Media"
@@ -94,14 +94,14 @@ export default function DOOHAffluentLocationTargetingPage() {
         DOOH affluent location targeting has matured from a blunt reach tactic into one of the most precise tools
         available to luxury marketers. A digital billboard in the right zip code at the right time of day, synced with
         real-time audience data and followed by a coordinated CTV retargeting sequence, can outperform a six-figure paid
-        social campaign. Most luxury brands aren&apos;t using it this way — which means the opportunity is still open.
+        social campaign. Most luxury brands aren&apos;t using it this way - which means the opportunity is still open.
       </p>
 
       <hr />
 
       <h2>What DOOH Actually Is (Beyond the Billboard)</h2>
       <p>
-        Digital out-of-home advertising encompasses any digitally rendered, publicly displayed advertising surface — from
+        Digital out-of-home advertising encompasses any digitally rendered, publicly displayed advertising surface - from
         large-format billboards on premium highways, to elevator screens in Class A office towers, to digital displays in
         private aviation terminals and high-end fitness facilities. Unlike traditional vinyl OOH, DOOH screens:
       </p>
@@ -113,8 +113,8 @@ export default function DOOHAffluentLocationTargetingPage() {
       </ul>
       <p>
         The programmatic DOOH ecosystem has consolidated around platforms like Vistar Media, Place Exchange, Lamar
-        Digital, and Clear Channel Outdoor. Premium inventory — private aviation terminals, luxury hotel lobbies, yacht
-        marinas, high-income residential elevator banks — remains largely accessible through curated private marketplace
+        Digital, and Clear Channel Outdoor. Premium inventory - private aviation terminals, luxury hotel lobbies, yacht
+        marinas, high-income residential elevator banks - remains largely accessible through curated private marketplace
         deals.
       </p>
 
@@ -138,8 +138,8 @@ export default function DOOHAffluentLocationTargetingPage() {
       </p>
       <p>
         <strong>4. Luxury Automotive Dealership Corridors.</strong> A luxury brand&apos;s most logical prospect already
-        owns a comparable product. DOOH near Porsche, Ferrari, Bentley, and McLaren dealerships — especially in service
-        and waiting areas — delivers contextually relevant impressions to verified buyers.
+        owns a comparable product. DOOH near Porsche, Ferrari, Bentley, and McLaren dealerships - especially in service
+        and waiting areas - delivers contextually relevant impressions to verified buyers.
       </p>
       <p>
         <strong>5. Golf Courses and Private Club Campuses.</strong> Country club campuses and yacht clubs serve highly
@@ -167,7 +167,7 @@ export default function DOOHAffluentLocationTargetingPage() {
           composition exceeds a threshold.
         </li>
         <li>
-          <strong>Creative delivery:</strong> the brand&apos;s spot runs synced to contextual triggers — clear weather,
+          <strong>Creative delivery:</strong> the brand&apos;s spot runs synced to contextual triggers - clear weather,
           weekend mornings, proximity to its own dealerships.
         </li>
         <li>

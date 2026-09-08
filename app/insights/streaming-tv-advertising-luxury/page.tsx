@@ -37,13 +37,13 @@ export default function StreamingTvAdvertisingLuxuryPage() {
     "@type": "Article",
     headline: "Streaming TV Advertising for Luxury Brands: The Complete Guide",
     description:
-      "A strategist's guide to streaming TV advertising for luxury brands — how premium and high-consideration brands reach affluent viewers across Netflix, Disney+, Hulu, Max, and Prime Video with household-level precision, premium brand-safe placement, controlled frequency, creative built for the living-room screen, and measurement suited to a considered purchase rather than the last click.",
+      "A strategist's guide to streaming TV advertising for luxury brands - how premium and high-consideration brands reach affluent viewers across Netflix, Disney+, Hulu, Max, and Prime Video with household-level precision, premium brand-safe placement, controlled frequency, creative built for the living-room screen, and measurement suited to a considered purchase rather than the last click.",
     image: {
       "@type": "ImageObject",
       url: "https://www.stillwatermedia.io/images/streaming-tv-advertising-luxury.png",
       width: 1200,
       height: 630,
-      caption: "Streaming TV advertising for luxury brands — Stillwater Media",
+      caption: "Streaming TV advertising for luxury brands - Stillwater Media",
     },
     author: {
       "@type": "Organization",
@@ -67,7 +67,7 @@ export default function StreamingTvAdvertisingLuxuryPage() {
     },
     keywords:
       "streaming TV advertising luxury, connected TV advertising for luxury brands, OTT advertising luxury brands, premium CTV advertising agency, CTV advertising for high-net-worth consumers, affluent audience targeting, Disney Plus advertising for brands, Netflix advertising premium brands, brand-safe programmatic advertising, frequency capping programmatic, brand lift measurement CTV",
-    articleSection: "Channel Deep-Dives — Streaming TV",
+    articleSection: "Channel Deep-Dives - Streaming TV",
     wordCount: 2065,
     inLanguage: "en-US",
   }
@@ -99,7 +99,7 @@ export default function StreamingTvAdvertisingLuxuryPage() {
             name: "What is streaming TV advertising for luxury brands?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Streaming TV advertising for luxury brands is the practice of reaching affluent, high-net-worth viewers on ad-supported streaming services like Netflix, Disney+, Hulu, Max, and Prime Video with household-level precision, premium brand-safe placement, and measurement built for a considered purchase. It combines the full-screen emotional impact of television with the targeting, frequency control, and accountability of digital — exactly the combination a premium, high-consideration purchase requires.",
+              text: "Streaming TV advertising for luxury brands is the practice of reaching affluent, high-net-worth viewers on ad-supported streaming services like Netflix, Disney+, Hulu, Max, and Prime Video with household-level precision, premium brand-safe placement, and measurement built for a considered purchase. It combines the full-screen emotional impact of television with the targeting, frequency control, and accountability of digital - exactly the combination a premium, high-consideration purchase requires.",
             },
           },
           {
@@ -107,7 +107,7 @@ export default function StreamingTvAdvertisingLuxuryPage() {
             name: "Which streaming platforms should luxury brands advertise on?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Affluent viewers are distributed across services, so a serious luxury program is rarely built on one platform — the strongest options are Netflix's ad tier, Disney's platform spanning Disney+, Hulu, and ESPN, Amazon Prime Video with its purchase signals, Max, Peacock, and Paramount+, plus curated premium FAST channels. The priority is concentrating on premium, brand-safe content across these services rather than chasing the cheapest long-tail CTV inventory.",
+              text: "Affluent viewers are distributed across services, so a serious luxury program is rarely built on one platform - the strongest options are Netflix's ad tier, Disney's platform spanning Disney+, Hulu, and ESPN, Amazon Prime Video with its purchase signals, Max, Peacock, and Paramount+, plus curated premium FAST channels. The priority is concentrating on premium, brand-safe content across these services rather than chasing the cheapest long-tail CTV inventory.",
             },
           },
           {
@@ -115,7 +115,7 @@ export default function StreamingTvAdvertisingLuxuryPage() {
             name: "How do you target affluent viewers on streaming TV?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "You target affluent viewers by layering compliant, household-level signals rather than broad demographics: first-party CRM data, deterministic wealth indicators such as income and property value, category intent and in-market signals, affluent geographic targeting, and lookalike models built from your best existing customers. Because streaming is addressable at the household level, these signals apply directly to the living-room screen — a precision linear television never offered.",
+              text: "You target affluent viewers by layering compliant, household-level signals rather than broad demographics: first-party CRM data, deterministic wealth indicators such as income and property value, category intent and in-market signals, affluent geographic targeting, and lookalike models built from your best existing customers. Because streaming is addressable at the household level, these signals apply directly to the living-room screen - a precision linear television never offered.",
             },
           },
           {
@@ -123,7 +123,7 @@ export default function StreamingTvAdvertisingLuxuryPage() {
             name: "Is streaming TV better than linear TV for luxury brands?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "For reaching a small, valuable audience with accountability, streaming usually leads because it offers household-level affluent targeting, managed frequency, and closed-loop measurement that linear cannot match, while still delivering full-screen, sound-on impact. Linear TV remains strong for mass awareness and live-event moments, so the two can complement each other — but streaming is typically the more efficient core of a premium video program.",
+              text: "For reaching a small, valuable audience with accountability, streaming usually leads because it offers household-level affluent targeting, managed frequency, and closed-loop measurement that linear cannot match, while still delivering full-screen, sound-on impact. Linear TV remains strong for mass awareness and live-event moments, so the two can complement each other - but streaming is typically the more efficient core of a premium video program.",
             },
           },
           {
@@ -145,15 +145,15 @@ export default function StreamingTvAdvertisingLuxuryPage() {
       author="Stillwater Media"
       date="August 5, 2026"
       readingTime="13 min"
-      category="Channel Deep-Dives — Streaming TV"
+      category="Channel Deep-Dives - Streaming TV"
       image="/images/streaming-tv-advertising-luxury.png"
       imageAlt="Stillwater Media guide illustration on streaming TV advertising for luxury brands showing an elegant, empty living room with a large glowing screen at blue hour, representing affluent viewers watching premium streaming services on the living-room screen"
-      imageCaption="Affluent audiences have moved to streaming — and the living-room screen is where a luxury brand can reach them at full attention, if it is bought with precision and protected by brand safety."
+      imageCaption="Affluent audiences have moved to streaming - and the living-room screen is where a luxury brand can reach them at full attention, if it is bought with precision and protected by brand safety."
       schemaMarkup={schemaMarkup}
     >
       <p>
         Streaming TV advertising for luxury brands is the practice of reaching affluent, high-net-worth viewers on
-        ad-supported streaming services — Netflix, Disney+, Hulu, Max, Prime Video, Peacock, and Paramount+ — with
+        ad-supported streaming services - Netflix, Disney+, Hulu, Max, Prime Video, Peacock, and Paramount+ - with
         household-level precision, premium brand-safe placement, and measurement built for a considered purchase, rather than
         buying broad, unaddressable spots the way linear television always has. For a luxury brand, streaming TV combines the
         emotional, full-screen impact of television with the targeting, frequency control, and measurability of digital,
@@ -163,7 +163,7 @@ export default function StreamingTvAdvertisingLuxuryPage() {
       </p>
 
       <p>
-        At Stillwater Media we build streaming and connected TV programs for luxury and high-consideration brands — clients
+        At Stillwater Media we build streaming and connected TV programs for luxury and high-consideration brands - clients
         whose customer lifetime value runs above $5,000 and whose sales cycles exceed 30 days. Streaming TV has become a
         foundational channel for that profile, because affluent households have moved decisively to streaming and because the
         medium lets a premium brand reach exactly the right households, in premium content, at controlled frequency, and then
@@ -175,7 +175,7 @@ export default function StreamingTvAdvertisingLuxuryPage() {
       <h2>Why Streaming TV Fits Luxury Brands</h2>
 
       <p>
-        Streaming TV — often used interchangeably with connected TV (CTV) and over-the-top (OTT) advertising — solves a
+        Streaming TV - often used interchangeably with connected TV (CTV) and over-the-top (OTT) advertising - solves a
         problem luxury brands have wrestled with for decades. Traditional linear television offered unmatched emotional
         storytelling and prestige, but it was bought against broad age-and-gender demographics with no way to isolate
         affluent households, no meaningful frequency control across a campaign, and almost no closed-loop measurement.
@@ -187,7 +187,7 @@ export default function StreamingTvAdvertisingLuxuryPage() {
         First, the audience is there. Affluent and high-net-worth households have adopted premium streaming services at high
         rates and spend a large and growing share of their viewing time on them, so the living-room screen now reaches them
         where linear increasingly cannot. Second, the buy is addressable. Streaming lets a brand reach specific affluent
-        households — defined by wealth, intent, geography, and first-party data — rather than everyone watching a given
+        households - defined by wealth, intent, geography, and first-party data - rather than everyone watching a given
         program. Third, the medium is accountable. Streaming impressions can be tied to household-level exposure, brand lift,
         site visits, and downstream conversions, so a luxury brand can finally connect premium video to business outcomes
         rather than accepting it on faith.
@@ -257,7 +257,7 @@ export default function StreamingTvAdvertisingLuxuryPage() {
         </li>
         <li>
           <strong>Intent and in-market signals.</strong> Households showing category interest or purchase intent relevant to
-          the brand — a private jet card, a luxury vehicle, a wealth-management relationship.
+          the brand - a private jet card, a luxury vehicle, a wealth-management relationship.
         </li>
         <li>
           <strong>Geographic precision.</strong> Affluent ZIP codes, drive-time radii for local luxury businesses, and
@@ -271,7 +271,7 @@ export default function StreamingTvAdvertisingLuxuryPage() {
 
       <p>
         Because streaming is addressable at the household level, these signals can be applied to the living-room screen
-        itself — a precision linear television never offered. The goal is to reach the intersection of affluent, relevant,
+        itself - a precision linear television never offered. The goal is to reach the intersection of affluent, relevant,
         and in-market, because that intersection is small, valuable, and worth far more per impression than broad reach.
       </p>
 
@@ -300,8 +300,8 @@ export default function StreamingTvAdvertisingLuxuryPage() {
           </tr>
           <tr>
             <td>Affluent precision</td>
-            <td>High — reach specific affluent households</td>
-            <td>Low — waste against the mass audience</td>
+            <td>High - reach specific affluent households</td>
+            <td>Low - waste against the mass audience</td>
           </tr>
           <tr>
             <td>Frequency control</td>
@@ -339,12 +339,12 @@ export default function StreamingTvAdvertisingLuxuryPage() {
       <p>
         Streaming TV is a full-screen, sound-on, non-skippable environment in the highest-attention room of the home, and the
         creative should honor that. For a luxury brand, this is an opportunity to tell an emotional, cinematic brand story at
-        a production quality that matches the audience&apos;s expectations — because an affluent viewer reads a cheap-looking
+        a production quality that matches the audience&apos;s expectations - because an affluent viewer reads a cheap-looking
         spot as a signal about the brand itself. A few principles hold. Lead with brand and craft rather than price and
         urgency; affluent viewers respond to design, experience, and exclusivity, not discount messaging. Match production
         values to the medium and the audience, since the living-room screen magnifies both quality and its absence. Sequence
-        creative across the consideration window rather than repeating one spot — an aspirational brand introduction, then a
-        proof point on craftsmanship or experience, then a specific offer or invitation lower in the funnel — using frequency
+        creative across the consideration window rather than repeating one spot - an aspirational brand introduction, then a
+        proof point on craftsmanship or experience, then a specific offer or invitation lower in the funnel - using frequency
         capping so presence never tips into irritation. And design for sound-on, full-attention viewing, the opposite of the
         muted, scrollable environment of social feeds.
       </p>
@@ -356,11 +356,11 @@ export default function StreamingTvAdvertisingLuxuryPage() {
       <p>
         Because a luxury purchase unfolds over weeks of multi-touch, cross-screen consideration, sound measurement of
         streaming TV looks well past the last click. The metrics that matter fall into a few layers. Delivery and attention
-        metrics — reach and frequency against the target affluent audience, and video completion rate — confirm the media
-        reached the right households at full attention. Brand-impact metrics — brand lift studies measuring awareness,
-        consideration, and favorability among exposed versus unexposed households — capture the upper-funnel effect streaming
-        is especially good at driving. Outcome metrics — site visits, branded search, qualified leads, and conversions
-        connected back to household-level exposure — tie the media to business results. And, on the largest line items,
+        metrics - reach and frequency against the target affluent audience, and video completion rate - confirm the media
+        reached the right households at full attention. Brand-impact metrics - brand lift studies measuring awareness,
+        consideration, and favorability among exposed versus unexposed households - capture the upper-funnel effect streaming
+        is especially good at driving. Outcome metrics - site visits, branded search, qualified leads, and conversions
+        connected back to household-level exposure - tie the media to business results. And, on the largest line items,
         incrementality or holdout testing proves the streaming media caused genuinely new business rather than reaching
         people who would have converted anyway. Finally, acquired customers should be tracked to lifetime value, because for
         a high-LTV luxury brand, the true efficiency of streaming only becomes clear when a converted household is valued over
@@ -380,7 +380,7 @@ export default function StreamingTvAdvertisingLuxuryPage() {
       <ol>
         <li>
           <strong>Define the affluent audience.</strong> Before any inventory is bought, the target household is engineered
-          from first-party data, deterministic wealth signals, intent, and geography — because everything downstream depends
+          from first-party data, deterministic wealth signals, intent, and geography - because everything downstream depends
           on reaching the right households.
         </li>
         <li>
@@ -403,14 +403,14 @@ export default function StreamingTvAdvertisingLuxuryPage() {
         </li>
         <li>
           <strong>Optimize against outcomes, not delivery.</strong> As data returns, budget shifts toward the platforms,
-          content, and audiences producing genuine lift and qualified demand — the opposite of optimizing to the cheapest
+          content, and audiences producing genuine lift and qualified demand - the opposite of optimizing to the cheapest
           completed view.
         </li>
       </ol>
 
       <p>
-        Streaming TV advertising for luxury brands succeeds or fails on this discipline. The channel&apos;s advantage —
-        precise, accountable, premium reach — only materializes when the program is built this way from the start; bought
+        Streaming TV advertising for luxury brands succeeds or fails on this discipline. The channel&apos;s advantage -
+        precise, accountable, premium reach - only materializes when the program is built this way from the start; bought
         carelessly, streaming becomes just another source of cheap, unaddressable impressions that happen to run on a
         television screen.
       </p>
@@ -467,7 +467,7 @@ export default function StreamingTvAdvertisingLuxuryPage() {
       <p>
         If you are a luxury or high-consideration brand ready to reach affluent viewers on the living-room screen with
         precision and accountability, we should talk. We take a limited number of engagements each quarter and work best with
-        brands whose customer lifetime value exceeds $5,000 and whose sales cycles run longer than 30 days — the profile where
+        brands whose customer lifetime value exceeds $5,000 and whose sales cycles run longer than 30 days - the profile where
         precision, premium placement, and honest measurement genuinely change the outcome.
       </p>
     </ArticleLayout>

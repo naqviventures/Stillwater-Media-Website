@@ -6,7 +6,7 @@ export const metadata = {
   },
   title: "Multi-Touch Attribution for Long Sales Cycle Brands",
   description:
-    "Multi-touch attribution for high-consideration brands with long sales cycles. Stillwater Media explains which models work — and which lie — for luxury advertisers.",
+    "Multi-touch attribution for high-consideration brands with long sales cycles. Stillwater Media explains which models work - and which lie - for luxury advertisers.",
   openGraph: {
     title: "Multi-Touch Attribution for Long Sales Cycle Brands | Stillwater Media",
     description:
@@ -37,7 +37,7 @@ export default function MultiTouchAttributionPage() {
     "@type": "Article",
     headline: "Multi-Touch Attribution for Long Sales Cycle Brands",
     description:
-      "A strategic guide to multi-touch attribution for high-consideration brands with extended sales cycles — covering attribution model types, their limitations for luxury categories, and the measurement frameworks that actually capture media's contribution to revenue.",
+      "A strategic guide to multi-touch attribution for high-consideration brands with extended sales cycles - covering attribution model types, their limitations for luxury categories, and the measurement frameworks that actually capture media's contribution to revenue.",
     image: {
       "@type": "ImageObject",
       url: "/images/multi-touch-attribution-high-consideration-brands.png",
@@ -74,7 +74,7 @@ export default function MultiTouchAttributionPage() {
 
   const schemaMarkup = {
     "@context": "https://schema.org",
-    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/multi-touch-attribution-high-consideration-brands#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Multi-Touch Attribution for Long Sales Cycle Brands","item":"https://www.stillwatermedia.io/insights/multi-touch-attribution-high-consideration-brands"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/multi-touch-attribution-high-consideration-brands#faq","mainEntity":[{"@type":"Question","name":"What is multi-touch attribution in advertising?","acceptedAnswer":{"@type":"Answer","text":"Multi-touch attribution is a measurement methodology that distributes conversion credit across multiple marketing touchpoints in a buyer's journey, rather than assigning all credit to a single interaction. Common models include linear (equal credit across all touchpoints), time-decay (more credit to recent touchpoints), and data-driven (algorithmic credit assignment based on observed path patterns). For most standard implementations, attribution is tracked via pixels, UTM parameters, and click IDs that follow a user from ad exposure to a conversion event on the advertiser's website."}},{"@type":"Question","name":"Why doesn't last-click attribution work for luxury brands?","acceptedAnswer":{"@type":"Answer","text":"Last-click attribution assigns 100% of conversion credit to the final tracked touchpoint before a conversion event — typically a branded search click or direct website visit. For luxury brands with 30–90 day sales cycles, this systematically ignores the streaming TV, programmatic, and display touchpoints that built brand familiarity in the weeks before the prospect searched the brand. This creates a feedback loop where brands cut upper-funnel brand-building channels based on attribution data, which then reduces future qualified search and direct traffic. Last-click measures correlation, not causation, and for extended sales cycles, it actively distorts the relationship between media investment and revenue outcomes."}},{"@type":"Question","name":"How long should an attribution lookback window be for luxury brands?","acceptedAnswer":{"@type":"Answer","text":"Attribution lookback windows for luxury and high-consideration brands should be set based on the empirical sales cycle length from CRM data. If 60% of closed deals show a first tracked touchpoint more than 45 days before close, lookback windows should be configured at 60 days minimum. For view-through attribution on streaming TV and premium video, 14–30 day windows are recommended. Most platforms default to much shorter windows (7-day or 30-day) that will invisibilize the majority of touchpoints in a long sales cycle journey."}},{"@type":"Question","name":"What is incrementality testing and how is it different from attribution?","acceptedAnswer":{"@type":"Answer","text":"Incrementality testing is a causal measurement methodology that compares conversion rates between an audience exposed to advertising and a randomly assigned holdout group that was not exposed. The difference in conversion rates represents the \"incremental lift\" — outcomes that would not have occurred without the advertising. Attribution assigns credit across observed touchpoints but cannot prove causation. Incrementality testing can, making it the most rigorous method for proving that a channel is actually driving outcomes rather than simply appearing in the conversion path alongside organic intent."}},{"@type":"Question","name":"Can CTV advertising be attributed properly?","acceptedAnswer":{"@type":"Answer","text":"Standard tag-based attribution systems cannot track CTV/streaming TV impressions to conversion events the same way they track web clicks, because television viewing does not generate cookies or click IDs. CTV attribution relies on two main methods: IP-address matching (matching the IP of a streaming device to subsequent web behavior from the same household) and device graph matching (using identity resolution data to connect TV exposure to digital conversion events). Both methods have matching accuracy limitations. The most reliable method for measuring CTV's contribution is incrementality testing with a properly structured holdout group, which captures the full causal impact without relying on cross-device identity matching."}}]}],
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/multi-touch-attribution-high-consideration-brands#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Multi-Touch Attribution for Long Sales Cycle Brands","item":"https://www.stillwatermedia.io/insights/multi-touch-attribution-high-consideration-brands"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/multi-touch-attribution-high-consideration-brands#faq","mainEntity":[{"@type":"Question","name":"What is multi-touch attribution in advertising?","acceptedAnswer":{"@type":"Answer","text":"Multi-touch attribution is a measurement methodology that distributes conversion credit across multiple marketing touchpoints in a buyer's journey, rather than assigning all credit to a single interaction. Common models include linear (equal credit across all touchpoints), time-decay (more credit to recent touchpoints), and data-driven (algorithmic credit assignment based on observed path patterns). For most standard implementations, attribution is tracked via pixels, UTM parameters, and click IDs that follow a user from ad exposure to a conversion event on the advertiser's website."}},{"@type":"Question","name":"Why doesn't last-click attribution work for luxury brands?","acceptedAnswer":{"@type":"Answer","text":"Last-click attribution assigns 100% of conversion credit to the final tracked touchpoint before a conversion event - typically a branded search click or direct website visit. For luxury brands with 30–90 day sales cycles, this systematically ignores the streaming TV, programmatic, and display touchpoints that built brand familiarity in the weeks before the prospect searched the brand. This creates a feedback loop where brands cut upper-funnel brand-building channels based on attribution data, which then reduces future qualified search and direct traffic. Last-click measures correlation, not causation, and for extended sales cycles, it actively distorts the relationship between media investment and revenue outcomes."}},{"@type":"Question","name":"How long should an attribution lookback window be for luxury brands?","acceptedAnswer":{"@type":"Answer","text":"Attribution lookback windows for luxury and high-consideration brands should be set based on the empirical sales cycle length from CRM data. If 60% of closed deals show a first tracked touchpoint more than 45 days before close, lookback windows should be configured at 60 days minimum. For view-through attribution on streaming TV and premium video, 14–30 day windows are recommended. Most platforms default to much shorter windows (7-day or 30-day) that will invisibilize the majority of touchpoints in a long sales cycle journey."}},{"@type":"Question","name":"What is incrementality testing and how is it different from attribution?","acceptedAnswer":{"@type":"Answer","text":"Incrementality testing is a causal measurement methodology that compares conversion rates between an audience exposed to advertising and a randomly assigned holdout group that was not exposed. The difference in conversion rates represents the \"incremental lift\" - outcomes that would not have occurred without the advertising. Attribution assigns credit across observed touchpoints but cannot prove causation. Incrementality testing can, making it the most rigorous method for proving that a channel is actually driving outcomes rather than simply appearing in the conversion path alongside organic intent."}},{"@type":"Question","name":"Can CTV advertising be attributed properly?","acceptedAnswer":{"@type":"Answer","text":"Standard tag-based attribution systems cannot track CTV/streaming TV impressions to conversion events the same way they track web clicks, because television viewing does not generate cookies or click IDs. CTV attribution relies on two main methods: IP-address matching (matching the IP of a streaming device to subsequent web behavior from the same household) and device graph matching (using identity resolution data to connect TV exposure to digital conversion events). Both methods have matching accuracy limitations. The most reliable method for measuring CTV's contribution is incrementality testing with a properly structured holdout group, which captures the full causal impact without relying on cross-device identity matching."}}]}],
   }
 
   return (
@@ -84,7 +84,7 @@ export default function MultiTouchAttributionPage() {
       category="Measurement & Attribution"
       image="/images/multi-touch-attribution-high-consideration-brands.png"
       imageAlt="Executive analytics setup illustrating Stillwater Media's multi-touch attribution framework for high-consideration luxury brand campaigns"
-      imageCaption="The tools that measure a $2 impulse purchase will misread a $250,000 aviation membership — here's the framework luxury brands actually need."
+      imageCaption="The tools that measure a $2 impulse purchase will misread a $250,000 aviation membership - here's the framework luxury brands actually need."
       date="May 28, 2026"
       readingTime="9 min"
       author="Stillwater Media"
@@ -92,7 +92,7 @@ export default function MultiTouchAttributionPage() {
     >
       <h2>The Attribution Lie That Luxury Brands Keep Telling Themselves</h2>
       <p>
-        Last-click attribution remains the default measurement framework in the majority of marketing dashboards. Under last-click, 100% of conversion credit is assigned to the final touchpoint before a tracked conversion event — typically a form fill, a phone call, or a website visit flagged as a goal completion.
+        Last-click attribution remains the default measurement framework in the majority of marketing dashboards. Under last-click, 100% of conversion credit is assigned to the final touchpoint before a tracked conversion event - typically a form fill, a phone call, or a website visit flagged as a goal completion.
       </p>
 
       <p>
@@ -100,19 +100,19 @@ export default function MultiTouchAttributionPage() {
       </p>
 
       <ol>
-        <li>Prospect sees a premium CTV ad during a streaming drama — no click</li>
-        <li>Two weeks later, a programmatic display ad runs at a luxury news publisher — no click</li>
-        <li>Prospect sees a LinkedIn native ad featuring a client testimonial — no click</li>
+        <li>Prospect sees a premium CTV ad during a streaming drama - no click</li>
+        <li>Two weeks later, a programmatic display ad runs at a luxury news publisher - no click</li>
+        <li>Prospect sees a LinkedIn native ad featuring a client testimonial - no click</li>
         <li>Three weeks later, the prospect Google searches the brand name for the first time</li>
         <li>They click the branded paid search result and fill out an inquiry form</li>
       </ol>
 
       <p>
-        Under last-click, branded paid search gets 100% of the credit. The CTV, display, and native placements register as zero. The marketing director, seeing this data, reallocates budget toward branded search — which was only being searched because the upper-funnel channels built enough familiarity for the prospect to seek the brand out. They cut CTV. Inquiries decline. They conclude CTV didn&apos;t work.
+        Under last-click, branded paid search gets 100% of the credit. The CTV, display, and native placements register as zero. The marketing director, seeing this data, reallocates budget toward branded search - which was only being searched because the upper-funnel channels built enough familiarity for the prospect to seek the brand out. They cut CTV. Inquiries decline. They conclude CTV didn&apos;t work.
       </p>
 
       <p>
-        This is not a hypothetical. This cycle plays out constantly in luxury and high-consideration categories. Last-click attribution doesn&apos;t just miscount — it actively inverts the relationship between cause and effect.
+        This is not a hypothetical. This cycle plays out constantly in luxury and high-consideration categories. Last-click attribution doesn&apos;t just miscount - it actively inverts the relationship between cause and effect.
       </p>
 
       <hr />
@@ -129,15 +129,15 @@ export default function MultiTouchAttributionPage() {
 
       <h3>First-Click Attribution</h3>
       <p><strong>How it works:</strong> 100% of credit to the first tracked touchpoint.</p>
-      <p><strong>Failure mode for luxury brands:</strong> Overvalues the channel that generated initial awareness — typically useful for budget justification for prospecting campaigns — but ignores all mid-funnel nurturing touchpoints. Can cause brands to overfund awareness at the expense of consideration.</p>
+      <p><strong>Failure mode for luxury brands:</strong> Overvalues the channel that generated initial awareness - typically useful for budget justification for prospecting campaigns - but ignores all mid-funnel nurturing touchpoints. Can cause brands to overfund awareness at the expense of consideration.</p>
 
       <h3>Linear Attribution</h3>
       <p><strong>How it works:</strong> Equal credit distributed across all tracked touchpoints in the conversion path.</p>
-      <p><strong>Failure mode for luxury brands:</strong> Treats all touchpoints as equivalent regardless of their role in the funnel. A brand safety display impression gets the same weight as a high-intent streaming ad watched to completion. Also limited by what is trackable — CTV, DOOH, streaming audio, and brand lift from podcast sponsorships are often invisible to standard tag-based attribution.</p>
+      <p><strong>Failure mode for luxury brands:</strong> Treats all touchpoints as equivalent regardless of their role in the funnel. A brand safety display impression gets the same weight as a high-intent streaming ad watched to completion. Also limited by what is trackable - CTV, DOOH, streaming audio, and brand lift from podcast sponsorships are often invisible to standard tag-based attribution.</p>
 
       <h3>Time Decay Attribution</h3>
       <p><strong>How it works:</strong> More credit to touchpoints closer in time to the conversion event.</p>
-      <p><strong>Failure mode for luxury brands:</strong> This model was built to reward recency. For a 90-day sales cycle, it discounts the CTV brand impression from Week 1 almost entirely — assigning most credit to whatever happened in Week 8. It systematically devalues the brand-building that created the conditions for the eventual conversion.</p>
+      <p><strong>Failure mode for luxury brands:</strong> This model was built to reward recency. For a 90-day sales cycle, it discounts the CTV brand impression from Week 1 almost entirely - assigning most credit to whatever happened in Week 8. It systematically devalues the brand-building that created the conditions for the eventual conversion.</p>
 
       <h3>Data-Driven Attribution (Google, Meta)</h3>
       <p><strong>How it works:</strong> Machine learning assigns fractional credit based on observed path-to-conversion patterns within the platform's walled garden.</p>
@@ -148,7 +148,7 @@ export default function MultiTouchAttributionPage() {
       <h2>What Actually Works: A Measurement Stack for High-Consideration Brands</h2>
 
       <p>
-        The correct answer for luxury and high-consideration brands is not a better attribution model — it is a different measurement philosophy that triangulates across three complementary methodologies.
+        The correct answer for luxury and high-consideration brands is not a better attribution model - it is a different measurement philosophy that triangulates across three complementary methodologies.
       </p>
 
       <h3>Layer 1: Media Mix Modeling (MMM)</h3>
@@ -157,7 +157,7 @@ export default function MultiTouchAttributionPage() {
       </p>
 
       <p>
-        For luxury brands with longer planning horizons and meaningful non-digital media spend, MMM provides the macro-level budget allocation guidance that no digital attribution tool can replicate. Modern lightweight MMM tools — including open-source frameworks like Meta&apos;s Robyn and Google&apos;s Meridian — have made this methodology accessible to brands that would previously have needed enterprise research contracts to run it.
+        For luxury brands with longer planning horizons and meaningful non-digital media spend, MMM provides the macro-level budget allocation guidance that no digital attribution tool can replicate. Modern lightweight MMM tools - including open-source frameworks like Meta&apos;s Robyn and Google&apos;s Meridian - have made this methodology accessible to brands that would previously have needed enterprise research contracts to run it.
       </p>
 
       <p><strong>What MMM does well:</strong> Channel-agnostic budget optimization, incorporating brand and non-digital media, identifying saturation curves by channel, long-range planning.</p>
@@ -169,7 +169,7 @@ export default function MultiTouchAttributionPage() {
       </p>
 
       <p>
-        For a luxury real estate developer, an incrementality test might run as follows: 30% of the target ZIP codes receive no CTV advertising for a 60-day flight, while 70% receive normal campaign exposure. At the end of the flight, inquiry rates from the holdout group are compared to the exposed group. The difference — controlling for organic conversion rate — represents the incremental lift attributable to the CTV campaign.
+        For a luxury real estate developer, an incrementality test might run as follows: 30% of the target ZIP codes receive no CTV advertising for a 60-day flight, while 70% receive normal campaign exposure. At the end of the flight, inquiry rates from the holdout group are compared to the exposed group. The difference - controlling for organic conversion rate - represents the incremental lift attributable to the CTV campaign.
       </p>
 
       <p>
@@ -181,11 +181,11 @@ export default function MultiTouchAttributionPage() {
 
       <h3>Layer 3: Multi-Touch Attribution (Used Correctly)</h3>
       <p>
-        Multi-touch attribution still has a role in a high-consideration brand&apos;s measurement stack — but that role is limited to tactical, within-channel optimization rather than cross-channel budget allocation. Using a data-driven attribution model within a single programmatic platform provides useful signals about which creative formats, audience segments, or placement types are more often present in conversion paths. This helps optimize toward higher-quality placements without requiring it to carry the entire measurement burden.
+        Multi-touch attribution still has a role in a high-consideration brand&apos;s measurement stack - but that role is limited to tactical, within-channel optimization rather than cross-channel budget allocation. Using a data-driven attribution model within a single programmatic platform provides useful signals about which creative formats, audience segments, or placement types are more often present in conversion paths. This helps optimize toward higher-quality placements without requiring it to carry the entire measurement burden.
       </p>
 
       <p>
-        The key discipline is not allowing MTA data to drive cross-channel budget decisions — that responsibility belongs to MMM and incrementality testing results.
+        The key discipline is not allowing MTA data to drive cross-channel budget decisions - that responsibility belongs to MMM and incrementality testing results.
       </p>
 
       <hr />
@@ -207,7 +207,7 @@ export default function MultiTouchAttributionPage() {
             <td>✗</td>
             <td>✗</td>
             <td>Poor</td>
-            <td>Reporting only — not decision-making</td>
+            <td>Reporting only - not decision-making</td>
           </tr>
           <tr>
             <td>Linear MTA</td>
@@ -252,7 +252,7 @@ export default function MultiTouchAttributionPage() {
       <h2>Setting Up the Right Attribution Windows for High-Consideration Purchases</h2>
 
       <p>
-        One of the most overlooked configuration decisions in attribution is the lookback window — the number of days backward from a conversion event that the model considers for touchpoint credit. The default settings in most ad platforms are:
+        One of the most overlooked configuration decisions in attribution is the lookback window - the number of days backward from a conversion event that the model considers for touchpoint credit. The default settings in most ad platforms are:
       </p>
 
       <ul>
@@ -284,7 +284,7 @@ export default function MultiTouchAttributionPage() {
       </p>
 
       <p>
-        First, the financial stakes per conversion are higher. A single closed private aviation membership or high-end real estate transaction may represent $50,000 to $500,000 in revenue. Misattributing a dozen of those per quarter due to faulty measurement methodology represents a material business impact — not just a reporting imprecision.
+        First, the financial stakes per conversion are higher. A single closed private aviation membership or high-end real estate transaction may represent $50,000 to $500,000 in revenue. Misattributing a dozen of those per quarter due to faulty measurement methodology represents a material business impact - not just a reporting imprecision.
       </p>
 
       <p>
