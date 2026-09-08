@@ -233,7 +233,7 @@ export function Footer() {
                   aria-label={label}
                   className="text-foreground/40 hover:text-accent transition-colors duration-300"
                 >
-                  <Icon className="w-5 h-5" />
+                  <Icon className="w-5 h-5" strokeWidth={1.25} />
                 </a>
               ))}
             </div>
