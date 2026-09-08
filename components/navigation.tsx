@@ -4,8 +4,14 @@ import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import Link from "next/link"
 import { useState, useEffect } from "react"
-import { Moon, Sun, ChevronDown } from "lucide-react"
+import { Moon, Sun, ChevronDown, Instagram, Facebook, Linkedin } from "lucide-react"
 import { industries } from "@/lib/industries"
+
+const socialLinks = [
+  { href: "https://www.instagram.com/stillwatermedia.agency/", label: "Instagram", Icon: Instagram },
+  { href: "https://www.facebook.com/people/Stillwater-Media/61594423522973/", label: "Facebook", Icon: Facebook },
+  { href: "https://www.linkedin.com/company/stillwater-media-agency/", label: "LinkedIn", Icon: Linkedin },
+]
 
 const navLinks = [
   { href: "/capabilities", label: "Capabilities" },
@@ -216,7 +222,21 @@ export function Footer() {
               />
               <span className="text-foreground/90 text-sm tracking-[0.2em] font-medium">STILLWATER MEDIA</span>
             </Link>
-            <p className="text-foreground/40 text-sm">Charlotte, NC - Serving clients nationwide and internationally</p>
+            <p className="text-foreground/40 text-sm mb-4">Charlotte, NC - Serving clients nationwide and internationally</p>
+            <div className="flex items-center gap-4">
+              {socialLinks.map(({ href, label, Icon }) => (
+                <a
+                  key={label}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={label}
+                  className="text-foreground/40 hover:text-accent transition-colors duration-300"
+                >
+                  <Icon className="w-5 h-5" strokeWidth={1.25} />
+                </a>
+              ))}
+            </div>
           </div>
           
           <nav className="flex flex-wrap gap-8">
