@@ -2,7 +2,7 @@ import IndustryPageLayout, { type IndustryContent, type ProofEntry } from "@/com
 
 // Proof entries are added only after written client approval covering the
 // metric, the time period, the measurement method, and the anonymised
-// description. Empty array renders nothing — that is intended.
+// description. Empty array renders nothing - that is intended.
 const proof: ProofEntry[] = []
 
 export const content: IndustryContent = {
@@ -25,7 +25,7 @@ export const content: IndustryContent = {
     items: [
       {
         h3: "The OTA is a customer you rent",
-        body: "Booking platforms deliver volume and take a commission on every stay, and the guest relationship stays theirs. Worse, a property that relies on them ends up advertising to win back guests it already served. The cost is not the commission line — it is that nothing compounds.",
+        body: "Booking platforms deliver volume and take a commission on every stay, and the guest relationship stays theirs. Worse, a property that relies on them ends up advertising to win back guests it already served. The cost is not the commission line - it is that nothing compounds.",
       },
       {
         h3: "The decision starts long before the search",
@@ -44,19 +44,19 @@ export const content: IndustryContent = {
       "The objective is to be present while the destination is being chosen, then to be the obvious direct option once the property is. That means building demand in feeder markets and capturing it before an OTA does.",
     items: [
       {
-        h3: "CTV and premium video — destination and property demand",
+        h3: "CTV and premium video - destination and property demand",
         body: "Streaming inventory against affluent households in the markets guests actually travel from. This is where the short list gets formed, and it is the only layer that influences the decision before price comparison begins.",
       },
       {
-        h3: "Programmatic display and native — the consideration layer",
+        h3: "Programmatic display and native - the consideration layer",
         body: "Creative sequenced from the experience toward the stay, against travel-intent and affluent-lifestyle audiences. Property photography does the work here; rate messaging does not.",
       },
       {
-        h3: "Retargeting — toward the direct booking",
+        h3: "Retargeting - toward the direct booking",
         body: "Warm audiences driven to the property's own booking path, with the direct advantage made explicit. This is the layer that decides whether the booking is yours or the platform's, and it is worth funding accordingly.",
       },
       {
-        h3: "Search — brand defence and demand capture",
+        h3: "Search - brand defence and demand capture",
         body: "Property and destination terms, including defending your own brand terms against platforms bidding on them. Losing your own name in search is the most expensive avoidable line in hospitality media.",
       },
     ],
@@ -107,7 +107,7 @@ export const content: IndustryContent = {
     body: "Independent luxury hotels and resorts, small luxury collections and groups, boutique properties with a distinct point of view, private residence clubs and branded residences, and destination properties with a defined feeder-market pattern.",
     worksBestH3: "Where this works best",
     worksBest:
-      "This works best for properties growing the direct channel while holding rate. Rate integrity and direct bookings are the same project — a property that leads with price teaches its guests to wait for the next offer, and that is slow to unwind.",
+      "This works best for properties growing the direct channel while holding rate. Rate integrity and direct bookings are the same project - a property that leads with price teaches its guests to wait for the next offer, and that is slow to unwind.",
   },
 
   engagement: {

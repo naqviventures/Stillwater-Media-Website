@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: "Private Marketplace Deals: Why Luxury Brands Need PMP Access",
     description:
-      "Learn how private marketplace deals give luxury brands exclusive access to premium, brand-safe inventory — and why open exchange is the wrong environment for premium advertisers.",
+      "Learn how private marketplace deals give luxury brands exclusive access to premium, brand-safe inventory - and why open exchange is the wrong environment for premium advertisers.",
     type: "article",
     url: "https://www.stillwatermedia.io/insights/private-marketplace-deals-luxury-advertising",
     images: [
@@ -26,7 +26,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Private Marketplace Deals for Luxury Advertisers",
     description:
-      "PMP deals give luxury brands curated, invitation-only access to premium inventory. Here's how they work — and why they're non-negotiable.",
+      "PMP deals give luxury brands curated, invitation-only access to premium inventory. Here's how they work - and why they're non-negotiable.",
     images: ["/images/private-marketplace-deals-luxury-advertising.png"],
   },
 }
@@ -37,7 +37,7 @@ export default function PrivateMarketplacePage() {
     "@type": "Article",
     headline: "Private Marketplace Deals: Why Luxury Brands Need PMP Access",
     description:
-      "A comprehensive guide to private marketplace deals in programmatic advertising — what PMPs are, how they work, and why they are the right media environment for luxury and premium brands.",
+      "A comprehensive guide to private marketplace deals in programmatic advertising - what PMPs are, how they work, and why they are the right media environment for luxury and premium brands.",
     image: {
       "@type": "ImageObject",
       url: "/images/private-marketplace-deals-luxury-advertising.png",
@@ -75,7 +75,7 @@ export default function PrivateMarketplacePage() {
 
   const schemaMarkup = {
     "@context": "https://schema.org",
-    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/private-marketplace-deals-luxury-advertising#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Private Marketplace Deals: Why Luxury Brands Need PMP Access","item":"https://www.stillwatermedia.io/insights/private-marketplace-deals-luxury-advertising"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/private-marketplace-deals-luxury-advertising#faq","mainEntity":[{"@type":"Question","name":"What is a private marketplace deal in advertising?","acceptedAnswer":{"@type":"Answer","text":"A private marketplace deal (PMP) is a programmatic advertising transaction where a publisher creates an invitation-only auction environment — called a deal ID — that is shared exclusively with pre-approved advertisers or agencies. Unlike the open exchange where anyone can bid on remnant inventory, PMP deals give approved buyers first-look or exclusive access to premium publisher inventory at a negotiated price floor, before any unsold impressions flow into the broader market."}},{"@type":"Question","name":"Why do luxury brands need private marketplace deals instead of open exchange programmatic?","acceptedAnswer":{"@type":"Answer","text":"Luxury brands need PMP access because the open programmatic exchange concentrates remnant inventory, high invalid traffic rates (20–35% of impressions), and unpredictable brand adjacency. Premium brands cannot control what content their ads appear next to on open exchange. Private marketplace deals include explicit publisher-side brand safety guarantees, curated inventory from pre-screened premium publishers, and viewability rates that run 70–85% — roughly 20–30 percentage points higher than open exchange averages. For advertisers whose brand equity is a core business asset, open exchange carries risks that PMPs eliminate."}},{"@type":"Question","name":"How do I access private marketplace deals for my brand?","acceptedAnswer":{"@type":"Answer","text":"Accessing private marketplace deals requires working with an agency that has established relationships with premium publishers, since deal IDs are not publicly available — they must be offered by the publisher's programmatic sales team to known, trusted buyers. Once a deal is negotiated, your agency activates the deal ID within a demand-side platform (DSP) like The Trade Desk or DV360, sets bids at or above the floor price, and monitors win rates and delivery. Brands without agency publisher relationships cannot access these deals independently."}},{"@type":"Question","name":"What is the difference between a preferred deal and a private auction in programmatic advertising?","acceptedAnswer":{"@type":"Answer","text":"A preferred deal gives a single buyer first-look access to a publisher's inventory at a fixed price, with no obligation to purchase on either side. A private auction is a closed competitive bidding environment where multiple pre-approved buyers compete for the same premium inventory at a price floor set by the publisher. Programmatic guaranteed is a third structure where both volume and price are committed in advance, functioning most similarly to a traditional direct insertion order but executed programmatically."}},{"@type":"Question","name":"What floor CPMs should luxury brands expect for private marketplace deals?","acceptedAnswer":{"@type":"Answer","text":"Floor CPMs for private marketplace deals vary significantly by format and publisher. Premium display on top-tier publishers typically runs $15–30 CPM. High-impact display and custom units range from $30–60 CPM. Digital video (outstream) typically floors at $25–45 CPM. Connected TV and premium streaming inventory through PMP deals often runs $50–120+ CPM. These floors are higher than open exchange clearing prices, but the improvement in audience quality, viewability, brand safety, and completion rates generally produces lower effective CPMs on a quality-adjusted basis."}}]}],
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/private-marketplace-deals-luxury-advertising#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Private Marketplace Deals: Why Luxury Brands Need PMP Access","item":"https://www.stillwatermedia.io/insights/private-marketplace-deals-luxury-advertising"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/private-marketplace-deals-luxury-advertising#faq","mainEntity":[{"@type":"Question","name":"What is a private marketplace deal in advertising?","acceptedAnswer":{"@type":"Answer","text":"A private marketplace deal (PMP) is a programmatic advertising transaction where a publisher creates an invitation-only auction environment - called a deal ID - that is shared exclusively with pre-approved advertisers or agencies. Unlike the open exchange where anyone can bid on remnant inventory, PMP deals give approved buyers first-look or exclusive access to premium publisher inventory at a negotiated price floor, before any unsold impressions flow into the broader market."}},{"@type":"Question","name":"Why do luxury brands need private marketplace deals instead of open exchange programmatic?","acceptedAnswer":{"@type":"Answer","text":"Luxury brands need PMP access because the open programmatic exchange concentrates remnant inventory, high invalid traffic rates (20–35% of impressions), and unpredictable brand adjacency. Premium brands cannot control what content their ads appear next to on open exchange. Private marketplace deals include explicit publisher-side brand safety guarantees, curated inventory from pre-screened premium publishers, and viewability rates that run 70–85% - roughly 20–30 percentage points higher than open exchange averages. For advertisers whose brand equity is a core business asset, open exchange carries risks that PMPs eliminate."}},{"@type":"Question","name":"How do I access private marketplace deals for my brand?","acceptedAnswer":{"@type":"Answer","text":"Accessing private marketplace deals requires working with an agency that has established relationships with premium publishers, since deal IDs are not publicly available - they must be offered by the publisher's programmatic sales team to known, trusted buyers. Once a deal is negotiated, your agency activates the deal ID within a demand-side platform (DSP) like The Trade Desk or DV360, sets bids at or above the floor price, and monitors win rates and delivery. Brands without agency publisher relationships cannot access these deals independently."}},{"@type":"Question","name":"What is the difference between a preferred deal and a private auction in programmatic advertising?","acceptedAnswer":{"@type":"Answer","text":"A preferred deal gives a single buyer first-look access to a publisher's inventory at a fixed price, with no obligation to purchase on either side. A private auction is a closed competitive bidding environment where multiple pre-approved buyers compete for the same premium inventory at a price floor set by the publisher. Programmatic guaranteed is a third structure where both volume and price are committed in advance, functioning most similarly to a traditional direct insertion order but executed programmatically."}},{"@type":"Question","name":"What floor CPMs should luxury brands expect for private marketplace deals?","acceptedAnswer":{"@type":"Answer","text":"Floor CPMs for private marketplace deals vary significantly by format and publisher. Premium display on top-tier publishers typically runs $15–30 CPM. High-impact display and custom units range from $30–60 CPM. Digital video (outstream) typically floors at $25–45 CPM. Connected TV and premium streaming inventory through PMP deals often runs $50–120+ CPM. These floors are higher than open exchange clearing prices, but the improvement in audience quality, viewability, brand safety, and completion rates generally produces lower effective CPMs on a quality-adjusted basis."}}]}],
   }
 
   return (
@@ -93,7 +93,7 @@ export default function PrivateMarketplacePage() {
     >
       <h2>What Is a Private Marketplace Deal in Advertising?</h2>
       <p>
-        A <strong>private marketplace deal</strong> is a programmatic transaction that sits between a fully manual direct IO (insertion order) and the open real-time bidding (RTB) exchange. The publisher creates a deal ID — a specific auction environment — that is shared only with approved advertisers or agencies. When inventory becomes available matching the deal parameters, it is offered to those buyers first, at a price floor set by the publisher, before any remnant inventory falls into the open exchange.
+        A <strong>private marketplace deal</strong> is a programmatic transaction that sits between a fully manual direct IO (insertion order) and the open real-time bidding (RTB) exchange. The publisher creates a deal ID - a specific auction environment - that is shared only with approved advertisers or agencies. When inventory becomes available matching the deal parameters, it is offered to those buyers first, at a price floor set by the publisher, before any remnant inventory falls into the open exchange.
       </p>
 
       <p>PMPs come in several forms:</p>
@@ -117,7 +117,7 @@ export default function PrivateMarketplacePage() {
 
       <h2>Why Open Exchange Is Incompatible With Luxury Brand Standards</h2>
       <p>
-        To understand why PMPs matter, you have to understand what happens on the open exchange. When a publisher cannot sell an impression through direct channels, it flows into the open auction. This remnant inventory is bid on by thousands of DSPs running campaigns across every conceivable category — fast food, payday loans, adult entertainment, personal injury attorneys.
+        To understand why PMPs matter, you have to understand what happens on the open exchange. When a publisher cannot sell an impression through direct channels, it flows into the open auction. This remnant inventory is bid on by thousands of DSPs running campaigns across every conceivable category - fast food, payday loans, adult entertainment, personal injury attorneys.
       </p>
 
       <p>The problems for luxury advertisers are structural:</p>
@@ -150,12 +150,12 @@ export default function PrivateMarketplacePage() {
 
       <h3>Audience Quality</h3>
       <p>
-        Publishers who offer PMP access to luxury advertisers — The Wall Street Journal, Condé Nast properties, Bloomberg, Financial Times, Architectural Digest, Robb Report, and similar outlets — command those audiences because their content attracts them. The contextual signal that comes from reaching someone actively reading about wealth management, luxury travel, or fine real estate is worth more than any third-party audience segment.
+        Publishers who offer PMP access to luxury advertisers - The Wall Street Journal, Condé Nast properties, Bloomberg, Financial Times, Architectural Digest, Robb Report, and similar outlets - command those audiences because their content attracts them. The contextual signal that comes from reaching someone actively reading about wealth management, luxury travel, or fine real estate is worth more than any third-party audience segment.
       </p>
 
       <h3>Brand Safety Guarantees</h3>
       <p>
-        PMP deals include explicit brand safety commitments from the publisher. You know exactly which domains, which content categories, and which placement types your campaign touches. There is no need to rely entirely on third-party brand safety tools to catch problems after the fact — the supply itself is pre-screened.
+        PMP deals include explicit brand safety commitments from the publisher. You know exactly which domains, which content categories, and which placement types your campaign touches. There is no need to rely entirely on third-party brand safety tools to catch problems after the fact - the supply itself is pre-screened.
       </p>
 
       <hr />
@@ -204,7 +204,7 @@ export default function PrivateMarketplacePage() {
         <tbody>
           <tr>
             <td>Publisher curation</td>
-            <td>None — all sellers</td>
+            <td>None - all sellers</td>
             <td>Pre-selected premium publishers</td>
           </tr>
           <tr>
@@ -259,7 +259,7 @@ export default function PrivateMarketplacePage() {
 
       <h2>Which Publishers Offer PMP Access Relevant to Luxury Advertisers?</h2>
       <p>
-        Not every publisher worth reaching offers PMP deals directly — some only operate through publisher consortia or SSP-managed deals. The landscape relevant to luxury advertisers includes:
+        Not every publisher worth reaching offers PMP deals directly - some only operate through publisher consortia or SSP-managed deals. The landscape relevant to luxury advertisers includes:
       </p>
 
       <h3>Financial and Business</h3>
@@ -305,7 +305,7 @@ export default function PrivateMarketplacePage() {
 
       <h2>Ready to Access Premium Publisher Deals?</h2>
       <p>
-        If you are currently running programmatic campaigns on open exchange — or through an agency that cannot describe the specific deal IDs your campaigns run on — you are overpaying for underperforming inventory in environments that carry real brand risk. The brands we work with do not accept that trade.
+        If you are currently running programmatic campaigns on open exchange - or through an agency that cannot describe the specific deal IDs your campaigns run on - you are overpaying for underperforming inventory in environments that carry real brand risk. The brands we work with do not accept that trade.
       </p>
 
       <p>

@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: "CTV vs. Linear TV: Which Wins for Luxury Brand Advertising?",
     description:
-      "A definitive comparison of CTV and linear TV for luxury advertisers — targeting capabilities, CPM benchmarks, brand lift measurement, and where each channel fits.",
+      "A definitive comparison of CTV and linear TV for luxury advertisers - targeting capabilities, CPM benchmarks, brand lift measurement, and where each channel fits.",
     type: "article",
     url: "https://www.stillwatermedia.io/insights/ctv-vs-linear-tv-luxury-brand-advertising",
     images: [
@@ -37,7 +37,7 @@ export default function CTVvsLinearTVPage() {
     "@type": "Article",
     headline: "CTV vs. Linear TV: Which Wins for Luxury Brand Advertising?",
     description:
-      "A comprehensive comparison of connected TV (CTV) and linear television advertising for luxury brands — covering targeting, measurement, CPM benchmarks, brand lift, and strategic allocation.",
+      "A comprehensive comparison of connected TV (CTV) and linear television advertising for luxury brands - covering targeting, measurement, CPM benchmarks, brand lift, and strategic allocation.",
     image: {
       "@type": "ImageObject",
       url: "/images/ctv-vs-linear-tv-luxury-brand-advertising.png",
@@ -74,17 +74,17 @@ export default function CTVvsLinearTVPage() {
 
   const schemaMarkup = {
     "@context": "https://schema.org",
-    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/ctv-vs-linear-tv-luxury-brand-advertising#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"CTV vs. Linear TV: Which Wins for Luxury Brand Advertising?","item":"https://www.stillwatermedia.io/insights/ctv-vs-linear-tv-luxury-brand-advertising"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/ctv-vs-linear-tv-luxury-brand-advertising#faq","mainEntity":[{"@type":"Question","name":"What is the difference between CTV and linear TV advertising?","acceptedAnswer":{"@type":"Answer","text":"Linear TV advertising involves buying commercial time on traditional broadcast or cable networks — your ad runs to everyone watching a given program, with no individual-level targeting. Connected TV (CTV) advertising runs on streaming platforms (Disney+, Hulu, Netflix, Prime Video) where viewers are authenticated, meaning the platform knows who they are. CTV enables demographic and behavioral audience targeting, precise geographic targeting, impression-level measurement, and household-level attribution — capabilities that simply do not exist in linear television buying."}},{"@type":"Question","name":"Is CTV or linear TV better for luxury brand advertising?","acceptedAnswer":{"@type":"Answer","text":"For most luxury brands, CTV is the stronger long-term investment because it enables targeting by who someone is — using wealth data, purchase intent signals, and household income modeling — rather than just inferring demographics from program selection. Linear TV still holds value for tentpole events (Super Bowl, major golf tournaments, awards shows) where affluent audiences concentrate and brand presence in cultural moments matters. The optimal strategy for most luxury advertisers is a hybrid model: 65–80% of television budget in premium CTV, 20–35% reserved for high-quality linear event buys."}},{"@type":"Question","name":"How much does CTV advertising cost compared to linear TV?","acceptedAnswer":{"@type":"Answer","text":"CTV CPMs range from $10–25 on open programmatic exchange to $35–80 on private marketplace deals with premium streaming publishers, and $45–120+ for direct deals with platforms like Disney+ or programmatic guaranteed buys on premium content. Linear TV scatter buys range from $15–35 CPM for cable news and sports to $25–50 CPM for national prime time, with event programming (Super Bowl) reaching $70–200+ CPM. While CTV often carries higher floor CPMs, the elimination of non-target audience waste typically produces lower cost-per-relevant-impression for luxury advertisers."}},{"@type":"Question","name":"Can you measure the ROI of CTV advertising?","acceptedAnswer":{"@type":"Answer","text":"Yes — CTV advertising offers significantly more robust ROI measurement than linear TV. Because every CTV impression is logged at the individual or household level, advertisers can match exposed households against first-party conversion data (website visits, form fills, purchases) through clean room environments. Brand lift studies using exposed vs. unexposed control groups can measure awareness and purchase intent lift with statistical confidence. Incrementality testing — suppressing the campaign from a random holdout group and comparing conversion rates — can prove true causal impact. These measurement capabilities require planning before campaign launch, but they are achievable within standard CTV campaign budgets."}},{"@type":"Question","name":"What streaming platforms should luxury brands advertise on?","acceptedAnswer":{"@type":"Answer","text":"The strongest platforms for luxury brand advertising in 2026 are Disney+ (premium content environment, broad affluent reach), Hulu (most mature AVOD platform, strong programmatic access, high HHI subscribers), Amazon Prime Video (purchase behavioral data layered into targeting, rapidly growing ad inventory), and Netflix (controlled brand safety environment, young affluent subscriber base). Platform selection should be driven by which platform's subscriber demographics best match your target customer profile, not by the largest reach number — a smaller, better-matched audience on one platform outperforms a larger, poorly-matched audience on another."}}]}],
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/ctv-vs-linear-tv-luxury-brand-advertising#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"CTV vs. Linear TV: Which Wins for Luxury Brand Advertising?","item":"https://www.stillwatermedia.io/insights/ctv-vs-linear-tv-luxury-brand-advertising"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/ctv-vs-linear-tv-luxury-brand-advertising#faq","mainEntity":[{"@type":"Question","name":"What is the difference between CTV and linear TV advertising?","acceptedAnswer":{"@type":"Answer","text":"Linear TV advertising involves buying commercial time on traditional broadcast or cable networks - your ad runs to everyone watching a given program, with no individual-level targeting. Connected TV (CTV) advertising runs on streaming platforms (Disney+, Hulu, Netflix, Prime Video) where viewers are authenticated, meaning the platform knows who they are. CTV enables demographic and behavioral audience targeting, precise geographic targeting, impression-level measurement, and household-level attribution - capabilities that simply do not exist in linear television buying."}},{"@type":"Question","name":"Is CTV or linear TV better for luxury brand advertising?","acceptedAnswer":{"@type":"Answer","text":"For most luxury brands, CTV is the stronger long-term investment because it enables targeting by who someone is - using wealth data, purchase intent signals, and household income modeling - rather than just inferring demographics from program selection. Linear TV still holds value for tentpole events (Super Bowl, major golf tournaments, awards shows) where affluent audiences concentrate and brand presence in cultural moments matters. The optimal strategy for most luxury advertisers is a hybrid model: 65–80% of television budget in premium CTV, 20–35% reserved for high-quality linear event buys."}},{"@type":"Question","name":"How much does CTV advertising cost compared to linear TV?","acceptedAnswer":{"@type":"Answer","text":"CTV CPMs range from $10–25 on open programmatic exchange to $35–80 on private marketplace deals with premium streaming publishers, and $45–120+ for direct deals with platforms like Disney+ or programmatic guaranteed buys on premium content. Linear TV scatter buys range from $15–35 CPM for cable news and sports to $25–50 CPM for national prime time, with event programming (Super Bowl) reaching $70–200+ CPM. While CTV often carries higher floor CPMs, the elimination of non-target audience waste typically produces lower cost-per-relevant-impression for luxury advertisers."}},{"@type":"Question","name":"Can you measure the ROI of CTV advertising?","acceptedAnswer":{"@type":"Answer","text":"Yes - CTV advertising offers significantly more robust ROI measurement than linear TV. Because every CTV impression is logged at the individual or household level, advertisers can match exposed households against first-party conversion data (website visits, form fills, purchases) through clean room environments. Brand lift studies using exposed vs. unexposed control groups can measure awareness and purchase intent lift with statistical confidence. Incrementality testing - suppressing the campaign from a random holdout group and comparing conversion rates - can prove true causal impact. These measurement capabilities require planning before campaign launch, but they are achievable within standard CTV campaign budgets."}},{"@type":"Question","name":"What streaming platforms should luxury brands advertise on?","acceptedAnswer":{"@type":"Answer","text":"The strongest platforms for luxury brand advertising in 2026 are Disney+ (premium content environment, broad affluent reach), Hulu (most mature AVOD platform, strong programmatic access, high HHI subscribers), Amazon Prime Video (purchase behavioral data layered into targeting, rapidly growing ad inventory), and Netflix (controlled brand safety environment, young affluent subscriber base). Platform selection should be driven by which platform's subscriber demographics best match your target customer profile, not by the largest reach number - a smaller, better-matched audience on one platform outperforms a larger, poorly-matched audience on another."}}]}],
   }
 
   return (
     <ArticleLayout
       title="CTV vs. Linear TV: Which Wins for Luxury Brand Advertising?"
-      subtitle="A definitive comparison of CTV and linear TV for luxury advertisers — targeting capabilities, CPM benchmarks, brand lift measurement, and strategic allocation."
+      subtitle="A definitive comparison of CTV and linear TV for luxury advertisers - targeting capabilities, CPM benchmarks, brand lift measurement, and strategic allocation."
       category="CTV & Streaming"
       image="/images/ctv-vs-linear-tv-luxury-brand-advertising.png"
       imageAlt="Split-screen visual of connected TV streaming interface versus traditional broadcast television"
-      imageCaption="Linear TV delivers reach. Connected TV delivers the right people — and the ability to prove it."
+      imageCaption="Linear TV delivers reach. Connected TV delivers the right people - and the ability to prove it."
       date="May 27, 2026"
       readingTime="10 min"
       author="Stillwater Media"
@@ -96,11 +96,11 @@ export default function CTVvsLinearTVPage() {
       </p>
 
       <p>
-        Connected TV is structurally different at its foundation. The viewer is authenticated — logged into a streaming platform — which means the platform knows who they are. Demographics, content preferences, subscription tier, device behavior, and household data are all attached to the impression. When a luxury advertiser runs a CTV campaign targeting households with $500K+ in investable assets, they are describing a real, identifiable audience that CTV platforms can locate and serve.
+        Connected TV is structurally different at its foundation. The viewer is authenticated - logged into a streaming platform - which means the platform knows who they are. Demographics, content preferences, subscription tier, device behavior, and household data are all attached to the impression. When a luxury advertiser runs a CTV campaign targeting households with $500K+ in investable assets, they are describing a real, identifiable audience that CTV platforms can locate and serve.
       </p>
 
       <p>
-        That distinction — anonymous audience inference on linear versus authenticated individual targeting on CTV — is the axis around which every other comparison rotates.
+        That distinction - anonymous audience inference on linear versus authenticated individual targeting on CTV - is the axis around which every other comparison rotates.
       </p>
 
       <hr />
@@ -115,7 +115,7 @@ export default function CTVvsLinearTVPage() {
       </p>
 
       <p>
-        This does not mean linear TV is valueless for luxury brands. Events programming — the Super Bowl, major golf tournaments, tennis Grand Slams, award shows — concentrates affluent, aspirational audiences in ways that scatter-buy linear never does. The mistake is buying linear scatter inventory year-round and calling it a television strategy.
+        This does not mean linear TV is valueless for luxury brands. Events programming - the Super Bowl, major golf tournaments, tennis Grand Slams, award shows - concentrates affluent, aspirational audiences in ways that scatter-buy linear never does. The mistake is buying linear scatter inventory year-round and calling it a television strategy.
       </p>
 
       <hr />
@@ -125,7 +125,7 @@ export default function CTVvsLinearTVPage() {
 
       <h3>Deterministic Audience Matching</h3>
       <p>
-        Streaming platforms that require authentication know who their users are. Disney+ can match against its own subscriber data — HHI, household composition, location, subscription tier, viewing behavior. Amazon Prime Video has the additional advantage of purchase behavior: Amazon knows what its users have bought, creating purchase intent signals unavailable elsewhere.
+        Streaming platforms that require authentication know who their users are. Disney+ can match against its own subscriber data - HHI, household composition, location, subscription tier, viewing behavior. Amazon Prime Video has the additional advantage of purchase behavior: Amazon knows what its users have bought, creating purchase intent signals unavailable elsewhere.
       </p>
 
       <h3>Third-Party Audience Enrichment</h3>
@@ -147,7 +147,7 @@ export default function CTVvsLinearTVPage() {
 
       <h2>Measurement and Attribution: CTV's Structural Edge</h2>
       <p>
-        Perhaps the most important difference between CTV and linear TV for a performance-oriented luxury advertiser is measurement capability. Linear TV measurement is fundamentally sample-based and probabilistic. CTV measurement operates on impression-level data — every served impression is logged, timestamped, and tied to a user ID.
+        Perhaps the most important difference between CTV and linear TV for a performance-oriented luxury advertiser is measurement capability. Linear TV measurement is fundamentally sample-based and probabilistic. CTV measurement operates on impression-level data - every served impression is logged, timestamped, and tied to a user ID.
       </p>
 
       <h3>Brand Lift Studies</h3>
@@ -162,7 +162,7 @@ export default function CTVvsLinearTVPage() {
 
       <h3>Incrementality Testing</h3>
       <p>
-        Holdout methodology — randomly suppressing your CTV campaign from a matched control group and comparing conversion rates — works at scale in CTV environments. For luxury brands with long sales cycles, incrementality measurement is the only rigorous way to prove that the TV investment is actually driving outcomes.
+        Holdout methodology - randomly suppressing your CTV campaign from a matched control group and comparing conversion rates - works at scale in CTV environments. For luxury brands with long sales cycles, incrementality measurement is the only rigorous way to prove that the TV investment is actually driving outcomes.
       </p>
 
       <hr />
@@ -177,35 +177,35 @@ export default function CTVvsLinearTVPage() {
         </thead>
         <tbody>
           <tr>
-            <td>Linear TV — National Scatter (prime time)</td>
+            <td>Linear TV - National Scatter (prime time)</td>
             <td>$25–50</td>
           </tr>
           <tr>
-            <td>Linear TV — Cable News / Sports (scatter)</td>
+            <td>Linear TV - Cable News / Sports (scatter)</td>
             <td>$15–35</td>
           </tr>
           <tr>
-            <td>Linear TV — Major Events (Super Bowl, Masters)</td>
+            <td>Linear TV - Major Events (Super Bowl, Masters)</td>
             <td>$70–200+</td>
           </tr>
           <tr>
-            <td>CTV — Open Programmatic Exchange</td>
+            <td>CTV - Open Programmatic Exchange</td>
             <td>$10–25</td>
           </tr>
           <tr>
-            <td>CTV — Private Marketplace Deal</td>
+            <td>CTV - Private Marketplace Deal</td>
             <td>$35–80</td>
           </tr>
           <tr>
-            <td>CTV — Disney+ / Hulu Direct Deal</td>
+            <td>CTV - Disney+ / Hulu Direct Deal</td>
             <td>$45–90</td>
           </tr>
           <tr>
-            <td>CTV — Netflix / Prime Video (managed service)</td>
+            <td>CTV - Netflix / Prime Video (managed service)</td>
             <td>$30–55</td>
           </tr>
           <tr>
-            <td>CTV — Programmatic Guaranteed, Premium Content</td>
+            <td>CTV - Programmatic Guaranteed, Premium Content</td>
             <td>$55–120</td>
           </tr>
         </tbody>
@@ -294,7 +294,7 @@ export default function CTVvsLinearTVPage() {
 
       <h2>The Hybrid Strategy: How Stillwater Allocates Television Budgets</h2>
       <p>
-        The right answer for most luxury advertisers is not a binary choice — it is a deliberate hybrid model that uses each channel for what it does best:
+        The right answer for most luxury advertisers is not a binary choice - it is a deliberate hybrid model that uses each channel for what it does best:
       </p>
 
       <h3>Linear TV for Reach Anchoring</h3>
@@ -304,7 +304,7 @@ export default function CTVvsLinearTVPage() {
 
       <h3>CTV for Precision and Continuity</h3>
       <p>
-        The majority of television investment should move to premium CTV environments — streaming inventory on Disney+, Hulu, Prime Video, and Peacock purchased through private marketplace deals or managed service deals. Layer deterministic affluent audience targeting. Use frequency capping (typically 3–5 exposures per household over 30 days) to maintain message pressure without overexposure. Budget: 65–80% of total television allocation.
+        The majority of television investment should move to premium CTV environments - streaming inventory on Disney+, Hulu, Prime Video, and Peacock purchased through private marketplace deals or managed service deals. Layer deterministic affluent audience targeting. Use frequency capping (typically 3–5 exposures per household over 30 days) to maintain message pressure without overexposure. Budget: 65–80% of total television allocation.
       </p>
 
       <h3>Measurement Infrastructure</h3>
@@ -345,7 +345,7 @@ export default function CTVvsLinearTVPage() {
       </p>
 
       <p>
-        CTV offers what luxury brands have always needed but could never access through television: the ability to target by who someone is rather than where they are watching. For a category where the difference between a qualified prospect and a non-prospect is behavioral and financial, authenticated audience data is transformational. The ability to tell a sequential story across multiple streaming touchpoints — awareness, consideration, conversion — using different creative executions tied to where a prospect is in the purchase funnel is genuinely powerful.
+        CTV offers what luxury brands have always needed but could never access through television: the ability to target by who someone is rather than where they are watching. For a category where the difference between a qualified prospect and a non-prospect is behavioral and financial, authenticated audience data is transformational. The ability to tell a sequential story across multiple streaming touchpoints - awareness, consideration, conversion - using different creative executions tied to where a prospect is in the purchase funnel is genuinely powerful.
       </p>
 
       <p>

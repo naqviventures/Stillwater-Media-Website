@@ -136,7 +136,7 @@
   }
 }
 
-/* Trusted by logos — light mode: dark grey, dark mode: clean white (#f5f0e8) */
+/* Trusted by logos - light mode: dark grey, dark mode: clean white (#f5f0e8) */
 .trusted-logo {
   filter: brightness(0) opacity(0.5);
 }

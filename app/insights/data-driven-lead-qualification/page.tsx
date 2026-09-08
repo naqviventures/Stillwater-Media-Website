@@ -104,20 +104,20 @@ export default function DataDrivenLeadQualification() {
       <h3>Primary Data Sources</h3>
 
       <ul>
-        <li><strong>Website interactions</strong> — Pages viewed, time on site, content downloads, form submissions</li>
-        <li><strong>Email engagement</strong> — Opens, clicks, replies, unsubscribes, forward behavior</li>
-        <li><strong>Social media activity</strong> — Engagement with brand content, profile data, connections</li>
-        <li><strong>CRM data</strong> — Historical interactions, sales notes, deal history</li>
-        <li><strong>Third-party data</strong> — Firmographic enrichment, intent signals, technographic data</li>
+        <li><strong>Website interactions</strong> - Pages viewed, time on site, content downloads, form submissions</li>
+        <li><strong>Email engagement</strong> - Opens, clicks, replies, unsubscribes, forward behavior</li>
+        <li><strong>Social media activity</strong> - Engagement with brand content, profile data, connections</li>
+        <li><strong>CRM data</strong> - Historical interactions, sales notes, deal history</li>
+        <li><strong>Third-party data</strong> - Firmographic enrichment, intent signals, technographic data</li>
       </ul>
 
       <h3>Data Integration Requirements</h3>
 
       <ol>
-        <li><strong>Unified prospect records</strong> — Consolidate data from disparate sources into single profiles</li>
-        <li><strong>Real-time synchronization</strong> — Ensure qualification decisions reflect current information</li>
-        <li><strong>Data quality management</strong> — Clean, validate, and deduplicate incoming data</li>
-        <li><strong>Privacy compliance</strong> — Handle data according to GDPR, CCPA, and other regulations</li>
+        <li><strong>Unified prospect records</strong> - Consolidate data from disparate sources into single profiles</li>
+        <li><strong>Real-time synchronization</strong> - Ensure qualification decisions reflect current information</li>
+        <li><strong>Data quality management</strong> - Clean, validate, and deduplicate incoming data</li>
+        <li><strong>Privacy compliance</strong> - Handle data according to GDPR, CCPA, and other regulations</li>
       </ol>
 
       <hr />
@@ -131,11 +131,11 @@ export default function DataDrivenLeadQualification() {
       <h3>Scoring Dimensions</h3>
 
       <ul>
-        <li><strong>Demographic fit</strong> — Company size, industry, revenue, location, job title</li>
-        <li><strong>Behavioral engagement</strong> — Website activity, email interaction, content consumption</li>
-        <li><strong>Intent signals</strong> — Research behavior, competitive evaluation, buying committee activity</li>
-        <li><strong>Timing indicators</strong> — Budget cycles, contract renewals, organizational changes</li>
-        <li><strong>Negative factors</strong> — Disqualifying behaviors, competitor status, poor fit indicators</li>
+        <li><strong>Demographic fit</strong> - Company size, industry, revenue, location, job title</li>
+        <li><strong>Behavioral engagement</strong> - Website activity, email interaction, content consumption</li>
+        <li><strong>Intent signals</strong> - Research behavior, competitive evaluation, buying committee activity</li>
+        <li><strong>Timing indicators</strong> - Budget cycles, contract renewals, organizational changes</li>
+        <li><strong>Negative factors</strong> - Disqualifying behaviors, competitor status, poor fit indicators</li>
       </ul>
 
       <h3>Machine Learning Enhancement</h3>
@@ -145,19 +145,19 @@ export default function DataDrivenLeadQualification() {
       </p>
 
       <ol>
-        <li><strong>Model training</strong> — Learn from historical conversion outcomes</li>
-        <li><strong>Pattern recognition</strong> — Identify non-obvious correlations with conversion</li>
-        <li><strong>Adaptive scoring</strong> — Adjust weights as market conditions and buyer behavior evolve</li>
-        <li><strong>Feedback integration</strong> — Incorporate sales team input on lead quality</li>
+        <li><strong>Model training</strong> - Learn from historical conversion outcomes</li>
+        <li><strong>Pattern recognition</strong> - Identify non-obvious correlations with conversion</li>
+        <li><strong>Adaptive scoring</strong> - Adjust weights as market conditions and buyer behavior evolve</li>
+        <li><strong>Feedback integration</strong> - Incorporate sales team input on lead quality</li>
       </ol>
 
       <h3>Predictive Capabilities</h3>
 
       <ul>
-        <li><strong>Conversion probability</strong> — Likelihood of becoming a customer</li>
-        <li><strong>Lifetime value prediction</strong> — Expected revenue from the relationship</li>
-        <li><strong>Time to close</strong> — Estimated sales cycle duration</li>
-        <li><strong>Deal size forecasting</strong> — Predicted contract value</li>
+        <li><strong>Conversion probability</strong> - Likelihood of becoming a customer</li>
+        <li><strong>Lifetime value prediction</strong> - Expected revenue from the relationship</li>
+        <li><strong>Time to close</strong> - Estimated sales cycle duration</li>
+        <li><strong>Deal size forecasting</strong> - Predicted contract value</li>
       </ul>
 
       <hr />
@@ -171,10 +171,10 @@ export default function DataDrivenLeadQualification() {
       </p>
 
       <ul>
-        <li><strong>Engagement depth</strong> — Not just page views, but time on page and scroll depth</li>
-        <li><strong>Content preferences</strong> — Topics that resonate and formats that engage</li>
-        <li><strong>Interaction sequences</strong> — Patterns that indicate progression through buying stages</li>
-        <li><strong>Return visit behavior</strong> — Frequency and recency of engagement</li>
+        <li><strong>Engagement depth</strong> - Not just page views, but time on page and scroll depth</li>
+        <li><strong>Content preferences</strong> - Topics that resonate and formats that engage</li>
+        <li><strong>Interaction sequences</strong> - Patterns that indicate progression through buying stages</li>
+        <li><strong>Return visit behavior</strong> - Frequency and recency of engagement</li>
       </ul>
 
       <h3>Intent Signal Categories</h3>
@@ -217,20 +217,20 @@ export default function DataDrivenLeadQualification() {
       </p>
 
       <ul>
-        <li><strong>Company size</strong> — Employee count and revenue ranges that convert well</li>
-        <li><strong>Industry vertical</strong> — Sectors where your solution delivers proven value</li>
-        <li><strong>Technology stack</strong> — Compatibility with existing systems and tools</li>
-        <li><strong>Geographic factors</strong> — Regions with strong product-market fit</li>
-        <li><strong>Organizational structure</strong> — Decision-making patterns and buying processes</li>
+        <li><strong>Company size</strong> - Employee count and revenue ranges that convert well</li>
+        <li><strong>Industry vertical</strong> - Sectors where your solution delivers proven value</li>
+        <li><strong>Technology stack</strong> - Compatibility with existing systems and tools</li>
+        <li><strong>Geographic factors</strong> - Regions with strong product-market fit</li>
+        <li><strong>Organizational structure</strong> - Decision-making patterns and buying processes</li>
       </ul>
 
       <h3>Contact-Level Qualification</h3>
 
       <ol>
-        <li><strong>Title and seniority</strong> — Authority to influence or make purchase decisions</li>
-        <li><strong>Department alignment</strong> — Relevance to your solution's value proposition</li>
-        <li><strong>Buying role</strong> — Champion, decision-maker, influencer, or gatekeeper</li>
-        <li><strong>Engagement authority</strong> — Ability to commit time and resources to evaluation</li>
+        <li><strong>Title and seniority</strong> - Authority to influence or make purchase decisions</li>
+        <li><strong>Department alignment</strong> - Relevance to your solution's value proposition</li>
+        <li><strong>Buying role</strong> - Champion, decision-maker, influencer, or gatekeeper</li>
+        <li><strong>Engagement authority</strong> - Ability to commit time and resources to evaluation</li>
       </ol>
 
       <hr />
@@ -240,30 +240,30 @@ export default function DataDrivenLeadQualification() {
       <h3>Workflow Components</h3>
 
       <ul>
-        <li><strong>Automatic scoring</strong> — Apply algorithms as new leads enter the system</li>
-        <li><strong>Threshold-based routing</strong> — Direct leads to appropriate teams based on score</li>
-        <li><strong>Alert triggers</strong> — Notify sales when high-value leads are identified</li>
-        <li><strong>Nurture assignment</strong> — Place lower-scored leads into appropriate sequences</li>
+        <li><strong>Automatic scoring</strong> - Apply algorithms as new leads enter the system</li>
+        <li><strong>Threshold-based routing</strong> - Direct leads to appropriate teams based on score</li>
+        <li><strong>Alert triggers</strong> - Notify sales when high-value leads are identified</li>
+        <li><strong>Nurture assignment</strong> - Place lower-scored leads into appropriate sequences</li>
       </ul>
 
       <h3>Lead Status Progression</h3>
 
       <ol>
-        <li><strong>Raw lead</strong> — Initial capture, minimal information</li>
-        <li><strong>Enriched lead</strong> — Data appended, basic qualification assessed</li>
-        <li><strong>Marketing Qualified Lead (MQL)</strong> — Meets engagement and fit thresholds</li>
-        <li><strong>Sales Accepted Lead (SAL)</strong> — Sales confirms qualification criteria</li>
-        <li><strong>Sales Qualified Lead (SQL)</strong> — Confirmed opportunity with buying intent</li>
-        <li><strong>Opportunity</strong> — Active deal in pipeline with defined next steps</li>
+        <li><strong>Raw lead</strong> - Initial capture, minimal information</li>
+        <li><strong>Enriched lead</strong> - Data appended, basic qualification assessed</li>
+        <li><strong>Marketing Qualified Lead (MQL)</strong> - Meets engagement and fit thresholds</li>
+        <li><strong>Sales Accepted Lead (SAL)</strong> - Sales confirms qualification criteria</li>
+        <li><strong>Sales Qualified Lead (SQL)</strong> - Confirmed opportunity with buying intent</li>
+        <li><strong>Opportunity</strong> - Active deal in pipeline with defined next steps</li>
       </ol>
 
       <h3>Dynamic Routing Rules</h3>
 
       <ul>
-        <li><strong>Territory assignment</strong> — Route by geography or named accounts</li>
-        <li><strong>Expertise matching</strong> — Assign based on industry or solution specialty</li>
-        <li><strong>Capacity balancing</strong> — Distribute leads based on rep availability</li>
-        <li><strong>Performance optimization</strong> — Route high-value leads to top performers</li>
+        <li><strong>Territory assignment</strong> - Route by geography or named accounts</li>
+        <li><strong>Expertise matching</strong> - Assign based on industry or solution specialty</li>
+        <li><strong>Capacity balancing</strong> - Distribute leads based on rep availability</li>
+        <li><strong>Performance optimization</strong> - Route high-value leads to top performers</li>
       </ul>
 
       <hr />
@@ -273,19 +273,19 @@ export default function DataDrivenLeadQualification() {
       <h3>Progressive Profiling Techniques</h3>
 
       <ol>
-        <li><strong>Smart forms</strong> — Ask different questions on subsequent visits</li>
-        <li><strong>Gated content progression</strong> — Collect additional fields with each download</li>
-        <li><strong>Interactive assessments</strong> — Gather qualification data through quizzes and tools</li>
-        <li><strong>Survey integration</strong> — Periodic check-ins that update prospect profiles</li>
+        <li><strong>Smart forms</strong> - Ask different questions on subsequent visits</li>
+        <li><strong>Gated content progression</strong> - Collect additional fields with each download</li>
+        <li><strong>Interactive assessments</strong> - Gather qualification data through quizzes and tools</li>
+        <li><strong>Survey integration</strong> - Periodic check-ins that update prospect profiles</li>
       </ol>
 
       <h3>Third-Party Enrichment</h3>
 
       <ul>
-        <li><strong>Firmographic data</strong> — Company details from providers like ZoomInfo, Clearbit</li>
-        <li><strong>Technographic data</strong> — Technology stack information for compatibility assessment</li>
-        <li><strong>Intent data</strong> — Third-party signals indicating active research</li>
-        <li><strong>Social data</strong> — LinkedIn and other profile information</li>
+        <li><strong>Firmographic data</strong> - Company details from providers like ZoomInfo, Clearbit</li>
+        <li><strong>Technographic data</strong> - Technology stack information for compatibility assessment</li>
+        <li><strong>Intent data</strong> - Third-party signals indicating active research</li>
+        <li><strong>Social data</strong> - LinkedIn and other profile information</li>
       </ul>
 
       <hr />
@@ -297,15 +297,15 @@ export default function DataDrivenLeadQualification() {
       </p>
 
       <ul>
-        <li><strong>Multi-source data</strong> — Combine behavioral, demographic, and intent signals</li>
-        <li><strong>Predictive modeling</strong> — Forecast conversion probability and lifetime value</li>
-        <li><strong>Automated workflows</strong> — Ensure consistent, rapid qualification</li>
-        <li><strong>Continuous improvement</strong> — Machine learning refines accuracy over time</li>
-        <li><strong>Sales alignment</strong> — Deliver leads that sales teams actually want to work</li>
+        <li><strong>Multi-source data</strong> - Combine behavioral, demographic, and intent signals</li>
+        <li><strong>Predictive modeling</strong> - Forecast conversion probability and lifetime value</li>
+        <li><strong>Automated workflows</strong> - Ensure consistent, rapid qualification</li>
+        <li><strong>Continuous improvement</strong> - Machine learning refines accuracy over time</li>
+        <li><strong>Sales alignment</strong> - Deliver leads that sales teams actually want to work</li>
       </ul>
 
       <p>
-        For brands where customer acquisition costs are significant and sales cycles are complex, data-driven qualification is not optional—it is the foundation of efficient, scalable growth.
+        For brands where customer acquisition costs are significant and sales cycles are complex, data-driven qualification is not optional-it is the foundation of efficient, scalable growth.
       </p>
 
       <hr />

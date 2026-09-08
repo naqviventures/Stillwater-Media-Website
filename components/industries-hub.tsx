@@ -9,7 +9,7 @@ import { ArrowRight, ChevronRight } from "lucide-react"
 import { industries } from "@/lib/industries"
 
 /* -------------------------------------------------------------------------- */
-/*  Hub copy — edit here without touching JSX.                                */
+/*  Hub copy - edit here without touching JSX.                                */
 /* -------------------------------------------------------------------------- */
 
 const hub = {
@@ -22,7 +22,7 @@ const hub = {
       "An abstract composition of dark glass and stone panes at blue hour with a single warm gold light refracting through",
   },
   intro: [
-    "Stillwater Media works in categories where the customer is worth a great deal and takes a long time to decide. That combination changes almost everything about how media should be bought — how wide you target, how long you stay present, and which number you are allowed to call success.",
+    "Stillwater Media works in categories where the customer is worth a great deal and takes a long time to decide. That combination changes almost everything about how media should be bought - how wide you target, how long you stay present, and which number you are allowed to call success.",
     "The architecture is not the same from one category to the next. A private aviation buyer and a private club member are both affluent, and almost nothing else about reaching them is alike. These pages set out how we build for each.",
   ],
   // Editorial card copy stays here, keyed by slug. Card order (Hospitality

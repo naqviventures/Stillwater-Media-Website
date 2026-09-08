@@ -12,10 +12,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Media Mix Optimization for Luxury Brands: How to Reallocate Budget With Evidence",
     description:
-      "Most luxury media plans are inherited, not optimized. A senior strategist's guide to media mix optimization for luxury brands — saturation and diminishing-returns curves, the marginal-return reallocation rule, channel-level saturation benchmarks, the constraints premium brands must impose on pure efficiency logic, and the quarterly operating cadence that makes optimization compound.",
+      "Most luxury media plans are inherited, not optimized. A senior strategist's guide to media mix optimization for luxury brands - saturation and diminishing-returns curves, the marginal-return reallocation rule, channel-level saturation benchmarks, the constraints premium brands must impose on pure efficiency logic, and the quarterly operating cadence that makes optimization compound.",
     type: "article",
     url: canonicalUrl,
-    images: [{ url: imagePath, width: 1200, height: 630, alt: "Media mix optimization for luxury brands — Stillwater Media" }],
+    images: [{ url: imagePath, width: 1200, height: 630, alt: "Media mix optimization for luxury brands - Stillwater Media" }],
     locale: "en_US",
     siteName: "Stillwater Media",
     publishedTime: "2026-08-17",
@@ -36,13 +36,13 @@ const schemaMarkup = {
       "@type": "Article",
       headline: "Media Mix Optimization for Luxury Brands: How to Reallocate Budget With Evidence",
       description:
-        "A senior media strategist's guide to media mix optimization for luxury brands — why optimizing to average return rather than marginal return is the single most common allocation error, how saturation and diminishing-returns curves differ by channel in premium portfolios, the four inputs required before any reallocation, a step-by-step marginal-return reallocation procedure with worked math, channel-level saturation benchmarks from branded search through premium CTV and DOOH, the brand-equity and inventory-quality constraints luxury brands must impose on pure efficiency logic, and the quarterly operating cadence that turns optimization into compounding advantage.",
+        "A senior media strategist's guide to media mix optimization for luxury brands - why optimizing to average return rather than marginal return is the single most common allocation error, how saturation and diminishing-returns curves differ by channel in premium portfolios, the four inputs required before any reallocation, a step-by-step marginal-return reallocation procedure with worked math, channel-level saturation benchmarks from branded search through premium CTV and DOOH, the brand-equity and inventory-quality constraints luxury brands must impose on pure efficiency logic, and the quarterly operating cadence that turns optimization into compounding advantage.",
       image: {
         "@type": "ImageObject",
         url: `https://www.stillwatermedia.io${imagePath}`,
         width: 1200,
         height: 630,
-        caption: "Media mix optimization for luxury brands — Stillwater Media",
+        caption: "Media mix optimization for luxury brands - Stillwater Media",
       },
       author: { "@type": "Organization", name: "Stillwater Media" },
       publisher: {
@@ -75,7 +75,7 @@ const schemaMarkup = {
           name: "What is media mix optimization?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Media mix optimization is the planning process of allocating budget across channels so that the next dollar spent produces the greatest incremental return, using calibrated channel efficiency, response curves, and operational constraints as inputs. It is distinct from marketing mix modeling, which is the econometric measurement technique that estimates each channel's historical contribution and response curve — the model measures, the optimization decides. A brand can perform credible media mix optimization without a formal MMM, but not without some estimate of how each channel responds to changes in spend.",
+            text: "Media mix optimization is the planning process of allocating budget across channels so that the next dollar spent produces the greatest incremental return, using calibrated channel efficiency, response curves, and operational constraints as inputs. It is distinct from marketing mix modeling, which is the econometric measurement technique that estimates each channel's historical contribution and response curve - the model measures, the optimization decides. A brand can perform credible media mix optimization without a formal MMM, but not without some estimate of how each channel responds to changes in spend.",
           },
         },
         {
@@ -83,7 +83,7 @@ const schemaMarkup = {
           name: "How do you optimize a media mix for a luxury brand?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Run a six-step quarterly cycle: recalibrate attributed performance using incrementality coefficients, estimate the marginal return on the next increment of spend in each channel, rank channels by marginal rather than average return, apply brand and inventory constraints to define the feasible space, move budget in bounded increments of no more than 15–20% of a channel's spend per quarter, and reserve 5–10% of working media for deliberate testing. Luxury adds constraints that pure efficiency logic will violate — premium inventory floors, cross-channel frequency ceilings, and minimum brand presence in high-visibility environments.",
+            text: "Run a six-step quarterly cycle: recalibrate attributed performance using incrementality coefficients, estimate the marginal return on the next increment of spend in each channel, rank channels by marginal rather than average return, apply brand and inventory constraints to define the feasible space, move budget in bounded increments of no more than 15–20% of a channel's spend per quarter, and reserve 5–10% of working media for deliberate testing. Luxury adds constraints that pure efficiency logic will violate - premium inventory floors, cross-channel frequency ceilings, and minimum brand presence in high-visibility environments.",
           },
         },
         {
@@ -91,7 +91,7 @@ const schemaMarkup = {
           name: "Why is average ROAS the wrong metric for budget allocation?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Because every channel has diminishing returns, average ROAS describes the productivity of all dollars already spent while allocation decisions concern only the next dollar. Retargeting and branded search almost always show the highest average returns and the lowest marginal returns, because both are capped by audiences you already own — site visitors and people already searching your name — so additional budget buys frequency rather than reach. Ranking channels by average return therefore reliably concentrates budget in demand harvesting and starves the upper-funnel channels that generate the demand being harvested.",
+            text: "Because every channel has diminishing returns, average ROAS describes the productivity of all dollars already spent while allocation decisions concern only the next dollar. Retargeting and branded search almost always show the highest average returns and the lowest marginal returns, because both are capped by audiences you already own - site visitors and people already searching your name - so additional budget buys frequency rather than reach. Ranking channels by average return therefore reliably concentrates budget in demand harvesting and starves the upper-funnel channels that generate the demand being harvested.",
           },
         },
         {
@@ -107,7 +107,7 @@ const schemaMarkup = {
           name: "How much budget should a luxury brand put into upper-funnel channels?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "For brands with sales cycles longer than 60 days, upper-funnel channels — premium CTV, streaming audio, DOOH, and YouTube Select — typically warrant 45–65% of working media, with retargeting held to 8–15% and branded search to 5–12%. The reason this looks aggressive relative to standard performance-marketing advice is that click-based attribution cannot see most of the upper-funnel contribution, so brands without incrementality calibration systematically under-fund it. The allocation is only defensible once holdout testing has established each channel's true incremental contribution.",
+            text: "For brands with sales cycles longer than 60 days, upper-funnel channels - premium CTV, streaming audio, DOOH, and YouTube Select - typically warrant 45–65% of working media, with retargeting held to 8–15% and branded search to 5–12%. The reason this looks aggressive relative to standard performance-marketing advice is that click-based attribution cannot see most of the upper-funnel contribution, so brands without incrementality calibration systematically under-fund it. The allocation is only defensible once holdout testing has established each channel's true incremental contribution.",
           },
         },
       ],
@@ -125,12 +125,12 @@ export default function Page() {
       category="Strategy & Planning"
       image={imagePath}
       imageAlt="Stillwater Media guide illustration on media mix optimization for luxury brands showing graduated brass calibration weights in a walnut case with two lifted out and repositioned on dark marble"
-      imageCaption="Optimization is not finding the best channel — it is knowing precisely which weight to move, and by how much."
+      imageCaption="Optimization is not finding the best channel - it is knowing precisely which weight to move, and by how much."
       schemaMarkup={schemaMarkup}
     >
       <p>
         Media mix optimization for luxury brands is the discipline of moving budget to the point where the <em>next</em>{" "}
-        dollar produces the most incremental revenue — not the point where the <em>average</em> dollar looks most
+        dollar produces the most incremental revenue - not the point where the <em>average</em> dollar looks most
         efficient in a dashboard. That distinction sounds academic until you see what it costs. Nearly every stagnant
         luxury media plan we inherit shares the same signature: budget concentrated in the channels with the highest
         reported ROAS, those channels saturated well past their productive range, and every genuinely under-invested
@@ -138,7 +138,7 @@ export default function Page() {
       </p>
       <p>
         At Stillwater Media we plan and buy for brands in private aviation, luxury real estate, wealth management,
-        private clubs, premium automotive, and luxury hospitality — categories where customer LTV routinely exceeds
+        private clubs, premium automotive, and luxury hospitality - categories where customer LTV routinely exceeds
         $5,000 and where the wrong allocation compounds quietly for years. This is the working method we use for media
         mix optimization: the inputs required before you touch anything, the marginal-return math that drives
         reallocation, the saturation behavior of each channel in a premium portfolio, the constraints that must override
@@ -148,8 +148,8 @@ export default function Page() {
       <h2>Media Mix Optimization vs. Marketing Mix Modeling for Luxury Brands</h2>
       <p>These get used interchangeably and should not be.</p>
       <p>
-        <strong>Marketing mix modeling (MMM)</strong> is an econometric method — typically a regression of outcomes on
-        spend by channel, with controls for seasonality, pricing, distribution, and external factors — that estimates
+        <strong>Marketing mix modeling (MMM)</strong> is an econometric method - typically a regression of outcomes on
+        spend by channel, with controls for seasonality, pricing, distribution, and external factors - that estimates
         each channel&apos;s historical contribution and its response curve. It is a measurement technique.
       </p>
       <p>
@@ -157,7 +157,7 @@ export default function Page() {
         results and operational constraints, to set next period&apos;s allocation. It is a planning technique.
       </p>
       <p>
-        You can perform media mix optimization without a formal MMM — many mid-market luxury brands should, because a
+        You can perform media mix optimization without a formal MMM - many mid-market luxury brands should, because a
         credible MMM generally requires two to three years of weekly data and meaningful spend variation. What you
         cannot do is optimize without <em>some</em> estimate of each channel&apos;s response curve. Where the data does
         not support a model, you generate the curve empirically through deliberate spend variation and holdout testing.
@@ -169,7 +169,7 @@ export default function Page() {
         <li>
           <strong>Calibrated channel efficiency.</strong> Not attributed ROAS. Attributed performance adjusted by
           incrementality coefficients from holdout testing, so that retargeting&apos;s real contribution is not being
-          counted three times. If you have not run holdouts, this is the first work to do — everything downstream
+          counted three times. If you have not run holdouts, this is the first work to do - everything downstream
           inherits the error.
         </li>
         <li>
@@ -181,7 +181,7 @@ export default function Page() {
         <li>
           <strong>A defined outcome with a defined lag.</strong> In luxury, the terminal outcome is often 90–180 days
           out. Optimizing to a 7-day conversion window in a category with a 120-day cycle optimizes for impatience. Pick
-          a validated intermediate metric — qualified inquiry, booked consultation, showroom appointment — and
+          a validated intermediate metric - qualified inquiry, booked consultation, showroom appointment - and
           separately verify its historical conversion-to-revenue rate.
         </li>
         <li>
@@ -195,7 +195,7 @@ export default function Page() {
       <p>
         Every media channel exhibits diminishing returns. The first dollars reach the most responsive people at the
         lowest prices; each additional dollar reaches a less responsive person at a higher price. The response curve is
-        concave — steep at first, flattening as you scale.
+        concave - steep at first, flattening as you scale.
       </p>
       <p>
         The consequence is the single most important idea in this article: <strong>the channel with the best average
@@ -271,8 +271,8 @@ export default function Page() {
         </table>
       </div>
       <p>
-        Ranked by average return, you would pour money into retargeting and branded search. Ranked by marginal return —
-        the only ranking that matters — those two channels are the <em>worst</em> homes for the next dollar in the
+        Ranked by average return, you would pour money into retargeting and branded search. Ranked by marginal return -
+        the only ranking that matters - those two channels are the <em>worst</em> homes for the next dollar in the
         portfolio. The optimization moves roughly $60K out of retargeting and branded search and into non-brand search
         and premium CTV until marginal returns converge near 2.3–2.5x across the portfolio. Total portfolio return rises
         without a dollar of incremental budget.
@@ -358,7 +358,7 @@ export default function Page() {
       </div>
       <p>
         Two operational readings follow. First, the fast-saturating channels should be treated as{" "}
-        <em>capacity-constrained line items</em>, funded to their efficient ceiling and then capped — not scaled.
+        <em>capacity-constrained line items</em>, funded to their efficient ceiling and then capped - not scaled.
         Second, the slow-saturating premium channels are where portfolio growth has to come from, which is exactly why
         the measurement work in the previous section matters: those channels are invisible to click attribution, so
         without incrementality calibration you will never justify funding them.
@@ -383,7 +383,7 @@ export default function Page() {
         <li>
           <strong>Apply constraints before moving anything.</strong> Brand-presence minimums, inventory-quality floors,
           frequency ceilings, contractual commitments, and seasonality. Constraints are not adjustments made after
-          optimization — they define the feasible space the optimization runs inside.
+          optimization - they define the feasible space the optimization runs inside.
         </li>
         <li>
           <strong>Move in bounded increments.</strong> Never reallocate more than 15–20% of a channel&apos;s budget in a
@@ -391,7 +391,7 @@ export default function Page() {
           premium channels they trigger deal renegotiation and delivery instability.
         </li>
         <li>
-          <strong>Reserve a test budget.</strong> Hold 5–10% of working media for deliberate exploration — new channels,
+          <strong>Reserve a test budget.</strong> Hold 5–10% of working media for deliberate exploration - new channels,
           new supply partners, and spend levels above and below current in existing channels. That variation is what
           regenerates your response curves. A portfolio with no test budget goes blind within a year.
         </li>
@@ -404,7 +404,7 @@ export default function Page() {
       </p>
       <p>
         <strong>Inventory quality floors.</strong> Efficiency optimization will always find cheap inventory, and cheap
-        inventory in programmatic is cheap for reasons — MFA sites, low-viewability placements, content adjacencies that
+        inventory in programmatic is cheap for reasons - MFA sites, low-viewability placements, content adjacencies that
         damage a premium brand. Set a hard floor: PMP and curated marketplace only above a defined share of spend,
         viewability minimums in the 70%+ range, and a maintained inclusion list. The CPM premium for genuinely premium
         supply typically runs 40–120% over open exchange, and it is a cost of doing business in this category, not an
@@ -413,7 +413,7 @@ export default function Page() {
       <p>
         <strong>Frequency ceilings.</strong> Uncapped frequency is the fastest path to converting brand affinity into
         irritation. For luxury CTV we generally hold total exposure to 3–5 per week per household across the portfolio,
-        not per campaign — cross-channel frequency management is the part most brands skip.
+        not per campaign - cross-channel frequency management is the part most brands skip.
       </p>
       <p>
         <strong>Brand presence minimums.</strong> Some share of budget must remain in high-visibility premium
@@ -461,7 +461,7 @@ export default function Page() {
       <p>Optimization is not a project. The brands that pull meaningfully ahead run it on a fixed rhythm.</p>
       <ul>
         <li>
-          <strong>Weekly:</strong> In-channel optimization — creative rotation, pacing, supply-path pruning. No
+          <strong>Weekly:</strong> In-channel optimization - creative rotation, pacing, supply-path pruning. No
           cross-channel reallocation at this frequency; the signal is too noisy.
         </li>
         <li>
@@ -524,7 +524,7 @@ export default function Page() {
         Media mix optimization is the planning process of allocating budget across channels so that the next dollar
         spent produces the greatest incremental return, using calibrated channel efficiency, response curves, and
         operational constraints as inputs. It is distinct from marketing mix modeling, which is the econometric
-        measurement technique that estimates each channel&apos;s historical contribution and response curve — the model
+        measurement technique that estimates each channel&apos;s historical contribution and response curve - the model
         measures, the optimization decides. A brand can perform credible media mix optimization without a formal MMM,
         but not without some estimate of how each channel responds to changes in spend.
       </p>
@@ -534,7 +534,7 @@ export default function Page() {
         the marginal return on the next increment of spend in each channel, rank channels by marginal rather than
         average return, apply brand and inventory constraints to define the feasible space, move budget in bounded
         increments of no more than 15–20% of a channel&apos;s spend per quarter, and reserve 5–10% of working media for
-        deliberate testing. Luxury adds constraints that pure efficiency logic will violate — premium inventory floors,
+        deliberate testing. Luxury adds constraints that pure efficiency logic will violate - premium inventory floors,
         cross-channel frequency ceilings, and minimum brand presence in high-visibility environments.
       </p>
       <h3>Why is average ROAS the wrong metric for budget allocation?</h3>
@@ -542,7 +542,7 @@ export default function Page() {
         Because every channel has diminishing returns, average ROAS describes the productivity of all dollars already
         spent while allocation decisions concern only the next dollar. Retargeting and branded search almost always show
         the highest average returns and the lowest marginal returns, because both are capped by audiences you already
-        own — site visitors and people already searching your name — so additional budget buys frequency rather than
+        own - site visitors and people already searching your name - so additional budget buys frequency rather than
         reach. Ranking channels by average return therefore reliably concentrates budget in demand harvesting and
         starves the upper-funnel channels that generate the demand being harvested.
       </p>
@@ -558,8 +558,8 @@ export default function Page() {
       </p>
       <h3>How much budget should a luxury brand put into upper-funnel channels?</h3>
       <p>
-        For brands with sales cycles longer than 60 days, upper-funnel channels — premium CTV, streaming audio, DOOH,
-        and YouTube Select — typically warrant 45–65% of working media, with retargeting held to 8–15% and branded
+        For brands with sales cycles longer than 60 days, upper-funnel channels - premium CTV, streaming audio, DOOH,
+        and YouTube Select - typically warrant 45–65% of working media, with retargeting held to 8–15% and branded
         search to 5–12%. The reason this looks aggressive relative to standard performance-marketing advice is that
         click-based attribution cannot see most of the upper-funnel contribution, so brands without incrementality
         calibration systematically under-fund it. The allocation is only defensible once holdout testing has established

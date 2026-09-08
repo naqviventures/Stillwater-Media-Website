@@ -3,7 +3,7 @@ import { ArticleLayout } from "@/components/article-layout"
 
 const title = "Amazon DSP vs The Trade Desk: A Luxury Buyer's Comparison"
 const description =
-  "Amazon DSP vs The Trade Desk for luxury advertisers — fee structures, premium CTV supply, affluent audience data, clean rooms and when to run both."
+  "Amazon DSP vs The Trade Desk for luxury advertisers - fee structures, premium CTV supply, affluent audience data, clean rooms and when to run both."
 const slug = "amazon-dsp-vs-trade-desk-luxury"
 const canonical = `https://www.stillwatermedia.io/insights/${slug}`
 const image = `/images/${slug}.png`
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     siteName: "Stillwater Media",
     locale: "en_US",
     publishedTime,
-    images: [{ url: image, width: 1200, height: 630, alt: `Stillwater Media — ${title}` }],
+    images: [{ url: image, width: 1200, height: 630, alt: `Stillwater Media - ${title}` }],
   },
   twitter: {
     card: "summary_large_image",
@@ -112,7 +112,7 @@ const articleSchema = {
           name: "Can you buy Netflix ads on both Amazon DSP and The Trade Desk?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes. Netflix's ad-supported inventory is available programmatically through The Trade Desk, Google DV360, Microsoft, Yahoo DSP and — since the partnership announced in September 2025 — Amazon DSP, with availability rolled out across a dozen major markets including the US, UK, Canada, Japan and Australia. Supply access is therefore no longer a meaningful differentiator between the two platforms.",
+            text: "Yes. Netflix's ad-supported inventory is available programmatically through The Trade Desk, Google DV360, Microsoft, Yahoo DSP and - since the partnership announced in September 2025 - Amazon DSP, with availability rolled out across a dozen major markets including the US, UK, Canada, Japan and Australia. Supply access is therefore no longer a meaningful differentiator between the two platforms.",
           },
         },
         {
@@ -120,7 +120,7 @@ const articleSchema = {
           name: "Should a luxury brand run both DSPs at the same time?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Running both makes sense above roughly $75,000 per month in programmatic spend, and only with a clear division of labor — Amazon DSP for purchase-intent and owned premium video, The Trade Desk for first-party onboarded audiences and publisher-direct deals. It also requires a neutral environment such as a clean room to reconcile frequency and outcomes, because neither platform can see the other's delivery and unmanaged overlap inflates frequency against a small affluent household base.",
+            text: "Running both makes sense above roughly $75,000 per month in programmatic spend, and only with a clear division of labor - Amazon DSP for purchase-intent and owned premium video, The Trade Desk for first-party onboarded audiences and publisher-direct deals. It also requires a neutral environment such as a clean room to reconcile frequency and outcomes, because neither platform can see the other's delivery and unmanaged overlap inflates frequency against a small affluent household base.",
           },
         },
       ],
@@ -138,19 +138,19 @@ export default function Page() {
       category="Platforms & Technology"
       image={image}
       imageAlt="Stillwater Media illustration comparing Amazon DSP vs The Trade Desk, showing two unmarked brass instrument dials facing each other on dark honed slate"
-      imageCaption="Two instruments pointed at the same audience — the readings differ because the platforms are measuring different things."
+      imageCaption="Two instruments pointed at the same audience - the readings differ because the platforms are measuring different things."
       schemaMarkup={articleSchema}
     >
       <p>
         The Amazon DSP vs The Trade Desk decision is usually framed as a question about supply access, and that framing
-        is now largely obsolete. Both platforms reach essentially the same premium streaming inventory — Netflix opened
+        is now largely obsolete. Both platforms reach essentially the same premium streaming inventory - Netflix opened
         its programmatic supply to Amazon DSP in late 2025, joining The Trade Desk, Google DV360, Microsoft and Yahoo,
         and most major streamers now sell through every meaningful buying platform. The real difference between them is
         what each one knows about the household on the other end of the impression, and what it charges you to act on
         that knowledge.
       </p>
       <p>
-        For a luxury advertiser — private aviation, wealth management, luxury real estate, premium automotive — that
+        For a luxury advertiser - private aviation, wealth management, luxury real estate, premium automotive - that
         distinction matters more than it does for a CPG buyer, because affluent households are a small, high-value slice
         of a large population and the cost of finding them badly is enormous. Here is how we assess the two platforms at
         Stillwater Media.
@@ -226,7 +226,7 @@ export default function Page() {
       <p>
         <strong>Owned premium video.</strong> Prime Video reaches a very large ad-supported base, and Thursday Night
         Football, live sport and Twitch are inventory pools Amazon controls end to end. When Amazon owns both the supply
-        and the demand path, the intermediary fee layer collapses — which is a real part of why advertisers routinely
+        and the demand path, the intermediary fee layer collapses - which is a real part of why advertisers routinely
         report lower effective CPMs on Amazon DSP for comparable premium CTV placements.
       </p>
       <p>
@@ -259,7 +259,7 @@ export default function Page() {
       </p>
       <p>
         <strong>Breadth of third-party data and inventory curation.</strong> The platform's data marketplace and curated
-        inventory tooling remain the deepest available for assembling niche affluent audiences from multiple vendors —
+        inventory tooling remain the deepest available for assembling niche affluent audiences from multiple vendors -
         wealth-screened household data, luxury travel intent, aircraft ownership records, high-value property signals.
         Our note on <a href="/insights/wealth-based-audience-segmentation">wealth-based audience segmentation</a> covers
         which of those sources hold up under validation.
@@ -273,7 +273,7 @@ export default function Page() {
       <p>Neither platform is cheap, and the headline platform fee understates both.</p>
       <p>
         On The Trade Desk, a working impression can carry the buy-side platform fee, a data fee for each audience segment
-        applied, a bid-shading charge on optimized bids, and — on OpenPath supply — a publisher-side fee introduced at
+        applied, a bid-shading charge on optimized bids, and - on OpenPath supply - a publisher-side fee introduced at
         4.5%. Stack those and the difference between gross spend and working media can reach 25% to 35% before the
         publisher's own take.
       </p>
@@ -292,14 +292,14 @@ export default function Page() {
       </p>
       <p>
         The correct comparison is not fee percentage. It is{" "}
-        <strong>working media delivered per dollar committed, at a fixed audience quality standard</strong> — which
+        <strong>working media delivered per dollar committed, at a fixed audience quality standard</strong> - which
         requires you to hold the audience definition constant across both platforms and measure what each delivers. That
         test takes about six weeks and is worth running before any annual commitment.
       </p>
 
       <h2>What we do on luxury accounts</h2>
       <p>
-        For most clients spending above roughly $75,000 per month on programmatic, we run both. Not as a hedge — as a
+        For most clients spending above roughly $75,000 per month on programmatic, we run both. Not as a hedge - as a
         division of labor:
       </p>
       <ol>
@@ -318,8 +318,8 @@ export default function Page() {
       </ol>
       <p>
         Below roughly $50,000 per month, running both is a mistake. Split budgets in two learning phases and neither
-        reaches statistical usefulness. Pick the platform that matches the dominant audience signal — purchase behavior
-        or first-party identity — and consolidate.
+        reaches statistical usefulness. Pick the platform that matches the dominant audience signal - purchase behavior
+        or first-party identity - and consolidate.
       </p>
 
       <h2>Onboarding: what the first sixty days actually look like</h2>
@@ -335,8 +335,8 @@ export default function Page() {
       </p>
       <p>
         <strong>The Trade Desk.</strong> Seat access through an agency is quick, but first-party data onboarding is the
-        gating item. A LiveRamp or equivalent identity onboarding cycle — file hygiene, hashing, match validation,
-        segment activation — runs two to five weeks depending on the state of the CRM file. Private marketplace deal
+        gating item. A LiveRamp or equivalent identity onboarding cycle - file hygiene, hashing, match validation,
+        segment activation - runs two to five weeks depending on the state of the CRM file. Private marketplace deal
         negotiation with premium publishers adds another one to three weeks per publisher, and those conversations cannot
         be rushed by budget alone.
       </p>
@@ -365,7 +365,7 @@ export default function Page() {
           into DSP-executable inventory.
         </li>
         <li>
-          <strong>Sequential creative</strong> — telling a three-part story across a household's exposure path — is
+          <strong>Sequential creative</strong> - telling a three-part story across a household's exposure path - is
           executable on both, but requires a stable household identifier, which is more reliable on Amazon's Fire TV
           device graph and on The Trade Desk where UID2 coverage is strong. Where identity is weak, sequencing degrades
           into random rotation.
@@ -394,7 +394,7 @@ export default function Page() {
         </li>
         <li>
           <strong>Ignoring the measurement consequence.</strong> A walled garden reporting on its own performance
-          produces flattering numbers. Whatever you choose, keep an independent incrementality read — the design
+          produces flattering numbers. Whatever you choose, keep an independent incrementality read - the design
           principles are in our comparison of{" "}
           <a href="/insights/incrementality-vs-attribution-advertising">incrementality versus attribution</a>.
         </li>
@@ -419,7 +419,7 @@ export default function Page() {
       <p>
         If you are evaluating platforms for a brand where customer lifetime value exceeds $5,000 and the sales cycle runs
         past 30 days, the platform decision should follow the audience strategy rather than lead it.{" "}
-        <a href="/apply">Apply to work with Stillwater Media</a> — we take a limited number of engagements each quarter,
+        <a href="/apply">Apply to work with Stillwater Media</a> - we take a limited number of engagements each quarter,
         and platform selection is the second conversation we have, not the first.
       </p>
 
@@ -449,14 +449,14 @@ export default function Page() {
       <h3>Can you buy Netflix ads on both Amazon DSP and The Trade Desk?</h3>
       <p>
         Yes. Netflix's ad-supported inventory is available programmatically through The Trade Desk, Google DV360,
-        Microsoft, Yahoo DSP and — since the partnership announced in September 2025 — Amazon DSP, with availability
+        Microsoft, Yahoo DSP and - since the partnership announced in September 2025 - Amazon DSP, with availability
         rolled out across a dozen major markets including the US, UK, Canada, Japan and Australia. Supply access is
         therefore no longer a meaningful differentiator between the two platforms.
       </p>
       <h3>Should a luxury brand run both DSPs at the same time?</h3>
       <p>
         Running both makes sense above roughly $75,000 per month in programmatic spend, and only with a clear division of
-        labor — Amazon DSP for purchase-intent and owned premium video, The Trade Desk for first-party onboarded
+        labor - Amazon DSP for purchase-intent and owned premium video, The Trade Desk for first-party onboarded
         audiences and publisher-direct deals. It also requires a neutral environment such as a clean room to reconcile
         frequency and outcomes, because neither platform can see the other's delivery and unmanaged overlap inflates
         frequency against a small affluent household base.

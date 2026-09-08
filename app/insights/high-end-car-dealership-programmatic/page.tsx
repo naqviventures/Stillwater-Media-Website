@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: "High-End Car Dealership Programmatic Advertising: The Complete Playbook",
     description:
-      "How luxury and high-end car dealerships use programmatic advertising — CTV, PMP display, DOOH, and streaming audio — to reach affluent buyers at scale, drive qualified test drives, and lower the cost of a showroom visit beyond Tier 2 and co-op.",
+      "How luxury and high-end car dealerships use programmatic advertising - CTV, PMP display, DOOH, and streaming audio - to reach affluent buyers at scale, drive qualified test drives, and lower the cost of a showroom visit beyond Tier 2 and co-op.",
     type: "article",
     url: "https://www.stillwatermedia.io/insights/high-end-car-dealership-programmatic",
     images: [
@@ -37,13 +37,13 @@ export default function HighEndCarDealershipProgrammaticPage() {
     "@type": "Article",
     headline: "High-End Car Dealership Programmatic Advertising: The Complete Playbook",
     description:
-      "A strategist's playbook for high-end car dealership programmatic advertising — how luxury and premium dealers reach affluent and high-net-worth buyers at scale across CTV, programmatic display, DOOH, and streaming audio, move beyond Tier 2 and dealer co-op, drive qualified test drives, protect the brand in premium environments, and measure results against a considered purchase.",
+      "A strategist's playbook for high-end car dealership programmatic advertising - how luxury and premium dealers reach affluent and high-net-worth buyers at scale across CTV, programmatic display, DOOH, and streaming audio, move beyond Tier 2 and dealer co-op, drive qualified test drives, protect the brand in premium environments, and measure results against a considered purchase.",
     image: {
       "@type": "ImageObject",
       url: "https://www.stillwatermedia.io/images/high-end-car-dealership-programmatic.png",
       width: 1200,
       height: 630,
-      caption: "High-end car dealership programmatic advertising — Stillwater Media",
+      caption: "High-end car dealership programmatic advertising - Stillwater Media",
     },
     author: {
       "@type": "Organization",
@@ -67,7 +67,7 @@ export default function HighEndCarDealershipProgrammaticPage() {
     },
     keywords:
       "high-end car dealership programmatic, luxury automotive advertising agency, affluent audience targeting, programmatic advertising luxury brands, high-net-worth audience segments, CTV advertising for high-net-worth consumers, DOOH affluent location targeting, first-party data luxury advertising, brand-safe programmatic advertising, multi-touch attribution high-consideration",
-    articleSection: "Vertical Playbooks — Luxury Automotive",
+    articleSection: "Vertical Playbooks - Luxury Automotive",
     wordCount: 2250,
     inLanguage: "en-US",
   }
@@ -107,7 +107,7 @@ export default function HighEndCarDealershipProgrammaticPage() {
             name: "How is dealer programmatic different from Tier 2 and co-op advertising?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Tier 2 and co-op programs build a regional brand halo around the manufacturer's message and treat every store the same, while a dealer's own programmatic layer targets that store's specific trade area and conquest zones, concentrates spend on affluent in-market households, promotes the store's actual inventory and differentiators, controls frequency, and measures results at the store level down to showroom visits and sales. The two are complementary — co-op for awareness, programmatic for precise local demand and proof.",
+              text: "Tier 2 and co-op programs build a regional brand halo around the manufacturer's message and treat every store the same, while a dealer's own programmatic layer targets that store's specific trade area and conquest zones, concentrates spend on affluent in-market households, promotes the store's actual inventory and differentiators, controls frequency, and measures results at the store level down to showroom visits and sales. The two are complementary - co-op for awareness, programmatic for precise local demand and proof.",
             },
           },
           {
@@ -115,7 +115,7 @@ export default function HighEndCarDealershipProgrammaticPage() {
             name: "How do you target affluent car buyers programmatically?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "You target affluent car buyers by layering compliant signals rather than a single segment: first-party CRM and DMS data, deterministic wealth indicators such as income and property value, auto in-market and lease-end intent signals, drive-time and ZIP-level geographic targeting of the trade area and conquest zones, and lookalike models built from your best existing buyers. The goal is to reach the intersection of affluent, in-market, and local — far more efficient than a broad car-shopper or blanket regional buy.",
+              text: "You target affluent car buyers by layering compliant signals rather than a single segment: first-party CRM and DMS data, deterministic wealth indicators such as income and property value, auto in-market and lease-end intent signals, drive-time and ZIP-level geographic targeting of the trade area and conquest zones, and lookalike models built from your best existing buyers. The goal is to reach the intersection of affluent, in-market, and local - far more efficient than a broad car-shopper or blanket regional buy.",
             },
           },
           {
@@ -123,7 +123,7 @@ export default function HighEndCarDealershipProgrammaticPage() {
             name: "What are the best digital channels for a luxury car dealership?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "The strongest channels are premium connected TV on platforms like Disney+ and Hulu with geo-targeted delivery, private-marketplace and publisher-direct programmatic across prestige automotive and lifestyle publishers, digital out-of-home along affluent corridors and near luxury retail, and streaming audio and automotive podcasts where affluent listeners over-index — reinforced by dynamic creative that can surface specific in-stock models. These are trusted, high-attention, brand-safe environments that match a premium store's positioning.",
+              text: "The strongest channels are premium connected TV on platforms like Disney+ and Hulu with geo-targeted delivery, private-marketplace and publisher-direct programmatic across prestige automotive and lifestyle publishers, digital out-of-home along affluent corridors and near luxury retail, and streaming audio and automotive podcasts where affluent listeners over-index - reinforced by dynamic creative that can surface specific in-stock models. These are trusted, high-attention, brand-safe environments that match a premium store's positioning.",
             },
           },
           {
@@ -145,19 +145,19 @@ export default function HighEndCarDealershipProgrammaticPage() {
       author="Stillwater Media"
       date="August 4, 2026"
       readingTime="13 min"
-      category="Vertical Playbooks — Luxury Automotive"
+      category="Vertical Playbooks - Luxury Automotive"
       image="/images/high-end-car-dealership-programmatic.png"
       imageAlt="Stillwater Media guide illustration on high-end car dealership programmatic advertising showing a single luxury car in a refined, empty showroom at blue hour representing affluent buyer targeting for premium dealers"
-      imageCaption="For a luxury dealership, programmatic is the way to reach affluent in-market buyers directly — beyond the Tier 2 and co-op media that treats every store the same."
+      imageCaption="For a luxury dealership, programmatic is the way to reach affluent in-market buyers directly - beyond the Tier 2 and co-op media that treats every store the same."
       schemaMarkup={schemaMarkup}
     >
       <p>
         High-end car dealership programmatic advertising lets luxury and premium dealers reach precisely defined affluent and
-        high-net-worth buyers at scale — across connected TV, premium programmatic display, digital out-of-home, and
-        streaming audio — while controlling frequency, keeping the brand in premium environments, promoting specific
+        high-net-worth buyers at scale - across connected TV, premium programmatic display, digital out-of-home, and
+        streaming audio - while controlling frequency, keeping the brand in premium environments, promoting specific
         inventory to in-market shoppers, and measuring results against a considered purchase rather than a same-day click.
-        Done well, programmatic for a high-end dealership replaces the blunt spend of Tier 2 tier media and dealer co-op —
-        which treats every store in a region the same — with a disciplined system that concentrates budget on the affluent
+        Done well, programmatic for a high-end dealership replaces the blunt spend of Tier 2 tier media and dealer co-op -
+        which treats every store in a region the same - with a disciplined system that concentrates budget on the affluent
         households in a store&apos;s actual trade area who are genuinely in the market for a luxury vehicle. The core
         discipline is the one that governs all luxury and high-consideration media: precision over volume, brand-safe premium
         placement over cheap reach, and measurement against the lifetime value of a buyer rather than the last touch before a
@@ -168,7 +168,7 @@ export default function HighEndCarDealershipProgrammaticPage() {
         At Stillwater Media we build media programs for luxury and high-consideration brands, and luxury automotive fits that
         profile precisely. The buyer a high-end dealer is trying to win has real discretionary wealth, researches the
         purchase over weeks, values the buying experience as much as the vehicle, and often becomes a repeat and referral
-        customer — the definition of a high-LTV, high-consideration purchase. This playbook lays out how programmatic works
+        customer - the definition of a high-LTV, high-consideration purchase. This playbook lays out how programmatic works
         for a high-end car dealership: the audiences worth reaching, the channels that reach them, how programmatic goes
         beyond Tier 2 and co-op, the mistakes that waste automotive budgets, and how to measure whether the media is actually
         producing qualified showroom visits and sales.
@@ -180,7 +180,7 @@ export default function HighEndCarDealershipProgrammaticPage() {
 
       <p>
         Most high-end dealership marketing still leans on manufacturer Tier 2 and co-op programs, third-party listing sites,
-        and a mix of branded search and boosted social — tactics that either treat every dealer identically or capture only
+        and a mix of branded search and boosted social - tactics that either treat every dealer identically or capture only
         shoppers already deep in comparison. Programmatic changes the equation by letting a store proactively reach the
         specific affluent, in-market households in its own trade area, in premium environments, and control the message and
         frequency directly. Three characteristics of high-end automotive retail make programmatic an especially strong fit.
@@ -188,12 +188,12 @@ export default function HighEndCarDealershipProgrammaticPage() {
 
       <p>
         First, the buyer is definable and local. Affluent households in a store&apos;s drive-time radius who are in-market
-        for a luxury vehicle can be identified through compliant wealth, auto-intent, and geographic signals — exactly the
+        for a luxury vehicle can be identified through compliant wealth, auto-intent, and geographic signals - exactly the
         precision programmatic delivers, and exactly what blanket co-op media lacks. Second, the decision is
         high-consideration, so the multi-touch, brand-building presence programmatic enables across CTV, audio, and display
         matches how luxury buyers actually shop: over weeks, across screens, comparing brands and stores before ever walking
         in. Third, the economics reward precision. A single luxury sale carries a high gross, and the buyer often returns for
-        service, trade-in, and the next vehicle — so concentrating spend on the right in-market affluent households returns
+        service, trade-in, and the next vehicle - so concentrating spend on the right in-market affluent households returns
         far more than broad, cheap impressions.
       </p>
 
@@ -210,8 +210,8 @@ export default function HighEndCarDealershipProgrammaticPage() {
 
       <ol>
         <li>
-          <strong>First-party data.</strong> Your CRM and DMS — past buyers, service customers, lease-end prospects, and
-          prior leads — is the most valuable audience you own, securely onboarded to conquest and retain, and to build
+          <strong>First-party data.</strong> Your CRM and DMS - past buyers, service customers, lease-end prospects, and
+          prior leads - is the most valuable audience you own, securely onboarded to conquest and retain, and to build
           lookalike models from your genuine best customers.
         </li>
         <li>
@@ -221,7 +221,7 @@ export default function HighEndCarDealershipProgrammaticPage() {
         </li>
         <li>
           <strong>Auto in-market and intent signals.</strong> Shoppers actively researching your make, competitive luxury
-          makes, and relevant body styles — and lease-end timing for conquest of competitors&apos; customers.
+          makes, and relevant body styles - and lease-end timing for conquest of competitors&apos; customers.
         </li>
         <li>
           <strong>Geographic precision.</strong> Sales cluster within a drive-time radius; targeting your true trade area,
@@ -234,7 +234,7 @@ export default function HighEndCarDealershipProgrammaticPage() {
       </ol>
 
       <p>
-        The objective is to reach the intersection — affluent, in-market for a luxury vehicle, and within the trade area —
+        The objective is to reach the intersection - affluent, in-market for a luxury vehicle, and within the trade area -
         because that intersection is small, precise, and worth far more per impression than a broad &quot;car shopper&quot;
         buy or a blanket regional co-op flight.
       </p>
@@ -253,7 +253,7 @@ export default function HighEndCarDealershipProgrammaticPage() {
         <li>
           <strong>Premium connected TV (CTV).</strong> Affluent households have moved to streaming; CTV reaches them on the
           living-room screen through platforms like Disney+, Hulu, and Prime Video with household-level, geo-targeted
-          delivery and full-screen, non-skippable impact — ideal for showcasing a vehicle and the store&apos;s brand in a
+          delivery and full-screen, non-skippable impact - ideal for showcasing a vehicle and the store&apos;s brand in a
           store&apos;s own trade area.
         </li>
         <li>
@@ -295,7 +295,7 @@ export default function HighEndCarDealershipProgrammaticPage() {
         solves what co-op cannot: it targets the store&apos;s specific trade area and conquest zones, concentrates spend on
         affluent in-market buyers rather than blanket reach, promotes the store&apos;s actual inventory and differentiators
         rather than a generic manufacturer spot, controls frequency so the same household is not hammered across every co-op
-        channel at once, and — crucially — measures results at the store level, tying media to showroom visits and sales. The
+        channel at once, and - crucially - measures results at the store level, tying media to showroom visits and sales. The
         two are complementary: co-op builds the brand halo, while a dealer&apos;s own programmatic program drives qualified,
         local, in-market demand into the showroom and proves it.
       </p>
@@ -354,32 +354,32 @@ export default function HighEndCarDealershipProgrammaticPage() {
       </table>
 
       <p>
-        Programmatic does not replace co-op or listing sites — it adds the store-level precision and control they lack,
+        Programmatic does not replace co-op or listing sites - it adds the store-level precision and control they lack,
         reaching affluent in-market buyers in the trade area before they commit to a competitor, and measuring the result
         where it matters: the showroom floor.
       </p>
 
       <hr className="my-8" />
 
-      <h2>What the Creative Should Say — and Not Say</h2>
+      <h2>What the Creative Should Say - and Not Say</h2>
 
       <p>
         The creative in a high-end dealership program must resonate with a buyer for whom the vehicle is partly an emotional
-        and status decision, not a purely rational one. The tone that works mirrors the brand — refined, confident, and
+        and status decision, not a purely rational one. The tone that works mirrors the brand - refined, confident, and
         experience-led rather than price-led or urgent. Affluent luxury buyers are rarely won by a payment offer plastered
         across the screen; they respond to design, craftsmanship, performance, and the ownership experience, so the message
         should sell the vehicle and the store&apos;s service and exclusivity, using discount and payment messaging sparingly
         and lower in the funnel. Match production quality to the audience, because an affluent prospect reads a cheap-looking
-        ad as a signal about the store&apos;s standards. Localize the message — the specific store, its people, its service
-        experience — since that is exactly what generic Tier 2 co-op cannot do. And sequence across the consideration window
+        ad as a signal about the store&apos;s standards. Localize the message - the specific store, its people, its service
+        experience - since that is exactly what generic Tier 2 co-op cannot do. And sequence across the consideration window
         rather than repeating one spot: an aspirational brand and model introduction on CTV, a proof point on design or
         performance in a premium native placement, a specific in-stock vehicle or service differentiator lower in the funnel
-        — capped in frequency so presence never tips into annoyance.
+        - capped in frequency so presence never tips into annoyance.
       </p>
 
       <hr className="my-8" />
 
-      <h2>How Long Before It Works — Setting the Timeline</h2>
+      <h2>How Long Before It Works - Setting the Timeline</h2>
 
       <p>
         A luxury vehicle purchase is a considered decision that unfolds over weeks, and expectations should be set
@@ -388,9 +388,9 @@ export default function HighEndCarDealershipProgrammaticPage() {
         indicators to watch are reach and frequency against the target affluent in-market audience, video completion rates,
         and early lifts in branded search, VDP (vehicle detail page) views, and direct site visits. Across the following one
         to three months, test-drive bookings and qualified showroom visits compound as buyers move through consideration, and
-        geo-holdout tests — comparing exposed and unexposed ZIP codes — can begin to isolate genuine incremental lift in
-        visits and sales. Only across a full quarter does the program&apos;s true efficiency — cost per sale relative to
-        gross and buyer lifetime value — come into focus. Dealers who judge programmatic on a same-week lead clock, expecting
+        geo-holdout tests - comparing exposed and unexposed ZIP codes - can begin to isolate genuine incremental lift in
+        visits and sales. Only across a full quarter does the program&apos;s true efficiency - cost per sale relative to
+        gross and buyer lifetime value - come into focus. Dealers who judge programmatic on a same-week lead clock, expecting
         instant form fills, routinely abandon programs that were building exactly the consideration a high-end purchase
         requires.
       </p>
@@ -431,7 +431,7 @@ export default function HighEndCarDealershipProgrammaticPage() {
         measurement looks past the last click. Track test-drive bookings, qualified showroom visits, and sales connected to
         the store&apos;s CRM and DMS as the primary outcomes rather than raw form fills, and use foot-traffic and store-visit
         measurement to connect media exposure to physical showroom visits. Use multi-touch attribution to see how CTV, DOOH,
-        audio, and display assist the journey; run incrementality or geo-holdout tests — exposed versus unexposed ZIP codes —
+        audio, and display assist the journey; run incrementality or geo-holdout tests - exposed versus unexposed ZIP codes -
         on the largest line items to prove the media produced genuinely new visits and sales rather than harvesting existing
         demand; and track acquired buyers to lifetime value, since a luxury customer often returns for service, trade-in, and
         the next vehicle. The leading indicators to watch in the first weeks are rising branded search, VDP views, direct
@@ -453,7 +453,7 @@ export default function HighEndCarDealershipProgrammaticPage() {
 
       <p>
         We take a limited number of engagements each quarter and work only with dealers where reaching affluent buyers is a
-        genuine fit — typically those with customer lifetime value above $5,000 and considered sales cycles.
+        genuine fit - typically those with customer lifetime value above $5,000 and considered sales cycles.
       </p>
     </ArticleLayout>
   )

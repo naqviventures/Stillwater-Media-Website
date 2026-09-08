@@ -6,11 +6,11 @@ export const metadata = {
   },
   title: "Connected TV Advertising for Luxury Brands: The Complete Guide",
   description:
-    "How connected TV advertising for luxury brands works — premium streaming inventory, affluent targeting, deal types, CPM benchmarks, and incremental measurement.",
+    "How connected TV advertising for luxury brands works - premium streaming inventory, affluent targeting, deal types, CPM benchmarks, and incremental measurement.",
   openGraph: {
     title: "Connected TV Advertising for Luxury Brands: The Complete Guide",
     description:
-      "How connected TV advertising for luxury brands actually works — the premium streaming inventory that matters, how affluent households are targeted, the deal types that keep a premium brand safe, real CPM benchmarks, and how to measure the largest screen in the home against a long, high-value purchase.",
+      "How connected TV advertising for luxury brands actually works - the premium streaming inventory that matters, how affluent households are targeted, the deal types that keep a premium brand safe, real CPM benchmarks, and how to measure the largest screen in the home against a long, high-value purchase.",
     type: "article",
     url: "https://www.stillwatermedia.io/insights/connected-tv-advertising-luxury-brands",
     images: [
@@ -37,13 +37,13 @@ export default function ConnectedTvAdvertisingLuxuryBrandsPage() {
     "@type": "Article",
     headline: "Connected TV Advertising for Luxury Brands: The Complete Guide",
     description:
-      "A strategist's guide to connected TV advertising for luxury brands — how CTV differs from linear and open-web video, which premium streaming platforms matter, how affluent households are targeted from first-party and deterministic wealth data, the private marketplace and programmatic guaranteed deals that keep premium brands safe, CTV CPM benchmarks, and how to measure the largest screen in the home against a long, high-value purchase.",
+      "A strategist's guide to connected TV advertising for luxury brands - how CTV differs from linear and open-web video, which premium streaming platforms matter, how affluent households are targeted from first-party and deterministic wealth data, the private marketplace and programmatic guaranteed deals that keep premium brands safe, CTV CPM benchmarks, and how to measure the largest screen in the home against a long, high-value purchase.",
     image: {
       "@type": "ImageObject",
       url: "https://www.stillwatermedia.io/images/connected-tv-advertising-luxury-brands.png",
       width: 1200,
       height: 630,
-      caption: "How connected TV advertising for luxury brands works — Stillwater Media",
+      caption: "How connected TV advertising for luxury brands works - Stillwater Media",
     },
     author: {
       "@type": "Organization",
@@ -99,7 +99,7 @@ export default function ConnectedTvAdvertisingLuxuryBrandsPage() {
             name: "What is connected TV advertising and how does it work for luxury brands?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Connected TV (CTV) advertising is video advertising served inside streaming content on an internet-connected television — through a smart TV, streaming device, or console. For luxury brands it works by using data to serve full-screen, sound-on ads only to the specific affluent households that match a defined audience, inside premium streaming platforms like Disney+, Netflix, and Prime Video. It combines television's high-attention canvas with digital's one-household-at-a-time precision, which is why it has become the anchor channel for premium reach.",
+              text: "Connected TV (CTV) advertising is video advertising served inside streaming content on an internet-connected television - through a smart TV, streaming device, or console. For luxury brands it works by using data to serve full-screen, sound-on ads only to the specific affluent households that match a defined audience, inside premium streaming platforms like Disney+, Netflix, and Prime Video. It combines television's high-attention canvas with digital's one-household-at-a-time precision, which is why it has become the anchor channel for premium reach.",
             },
           },
           {
@@ -107,7 +107,7 @@ export default function ConnectedTvAdvertisingLuxuryBrandsPage() {
             name: "How is CTV different from linear TV for luxury advertisers?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Linear TV buys audiences by proxy — you purchase a program and hope your affluent target is watching — with little frequency control and crude measurement. CTV buys the specific household using data, so a luxury brand serves ads only to verified affluent homes, controls frequency across platforms, and measures with digital precision. They are complements rather than rivals, but the efficient move is to shift the audience-precision portion of a TV budget from linear to CTV.",
+              text: "Linear TV buys audiences by proxy - you purchase a program and hope your affluent target is watching - with little frequency control and crude measurement. CTV buys the specific household using data, so a luxury brand serves ads only to verified affluent homes, controls frequency across platforms, and measures with digital precision. They are complements rather than rivals, but the efficient move is to shift the audience-precision portion of a TV budget from linear to CTV.",
             },
           },
           {
@@ -148,13 +148,13 @@ export default function ConnectedTvAdvertisingLuxuryBrandsPage() {
       category="CTV & Streaming"
       image="/images/connected-tv-advertising-luxury-brands.png"
       imageAlt="Stillwater Media connected TV advertising for luxury brands illustration showing a refined living room with a large cinematic screen glowing at dusk representing premium streaming reach into affluent households"
-      imageCaption="Connected TV puts a luxury brand on the largest, most-attended screen in an affluent household — with the precision of digital targeting and the presence of cinema."
+      imageCaption="Connected TV puts a luxury brand on the largest, most-attended screen in an affluent household - with the precision of digital targeting and the presence of cinema."
       schemaMarkup={schemaMarkup}
     >
       <p>
         Connected TV advertising for luxury brands has quietly become the anchor channel of premium media, and the
-        reason is structural rather than fashionable. The affluent household has moved its viewing to streaming —
-        Disney+, Netflix, Prime Video, Max, Hulu, and the premium free ad-supported services — and it has done so faster
+        reason is structural rather than fashionable. The affluent household has moved its viewing to streaming -
+        Disney+, Netflix, Prime Video, Max, Hulu, and the premium free ad-supported services - and it has done so faster
         than the mass market, not slower. The wealthy household cut the cable cord early, pays for multiple
         subscriptions, owns the largest and newest television in its category, and watches premium content on it with
         full attention. That is precisely the audience a luxury brand wants, in precisely the environment a luxury brand
@@ -163,7 +163,7 @@ export default function ConnectedTvAdvertisingLuxuryBrandsPage() {
 
       <p>
         At Stillwater Media we build connected TV advertising for luxury and high-consideration brands, and we treat CTV
-        not as &quot;digital video that happens to run on a TV&quot; but as its own discipline — one that combines the
+        not as &quot;digital video that happens to run on a TV&quot; but as its own discipline - one that combines the
         cinematic presence of television with the household-level precision of programmatic. This guide explains how
         connected TV advertising for luxury brands actually works: what CTV is and how it differs from linear and
         open-web video, which premium platforms matter, how affluent audiences are engineered, the deal structures that
@@ -176,7 +176,7 @@ export default function ConnectedTvAdvertisingLuxuryBrandsPage() {
       <h2>What Connected TV Advertising Actually Is</h2>
 
       <p>
-        Connected TV, or CTV, refers to any television set connected to the internet that streams content — through a
+        Connected TV, or CTV, refers to any television set connected to the internet that streams content - through a
         smart TV&apos;s built-in operating system, a streaming stick or box like Roku, Apple TV, or Amazon Fire TV, or a
         game console. CTV advertising is the video advertising served inside that streaming content. It is distinct from
         linear TV, which is the traditional broadcast and cable feed sold by daypart and program, and distinct from
@@ -184,11 +184,11 @@ export default function ConnectedTvAdvertisingLuxuryBrandsPage() {
       </p>
 
       <p>
-        The distinction matters enormously for a luxury brand. Linear TV buys an audience by proxy — you buy a program
+        The distinction matters enormously for a luxury brand. Linear TV buys an audience by proxy - you buy a program
         and hope your affluent target is watching. CTV buys the household directly, using data to serve the ad to the
         specific homes that match your audience definition, on the full-screen, sound-on, lean-back environment of an
         actual television. It is the only channel that delivers television&apos;s emotional, high-attention canvas with
-        digital&apos;s one-household-at-a-time precision. OTT — over-the-top — is a near-synonym you will hear used
+        digital&apos;s one-household-at-a-time precision. OTT - over-the-top - is a near-synonym you will hear used
         interchangeably; strictly, OTT is the delivery of content over the internet and CTV is the television-set subset
         of it, which is the subset that matters for premium reach.
       </p>
@@ -211,7 +211,7 @@ export default function ConnectedTvAdvertisingLuxuryBrandsPage() {
         <li>
           <strong>Premium content is a premium environment.</strong> A luxury brand&apos;s ad running inside a prestige
           drama on a major streaming platform sits in exactly the kind of high-quality, brand-safe context that
-          reinforces prestige — the opposite of an open-exchange placement of unknown provenance.
+          reinforces prestige - the opposite of an open-exchange placement of unknown provenance.
         </li>
         <li>
           <strong>The screen commands attention.</strong> CTV is full-screen, sound-on, and largely non-skippable,
@@ -220,7 +220,7 @@ export default function ConnectedTvAdvertisingLuxuryBrandsPage() {
         </li>
         <li>
           <strong>Targeting is genuinely precise.</strong> Because the buy is data-driven, a luxury brand can serve only
-          to verified affluent households, layer in intent and first-party signals, and control frequency — none of which
+          to verified affluent households, layer in intent and first-party signals, and control frequency - none of which
           linear TV can do.
         </li>
       </ol>
@@ -286,8 +286,8 @@ export default function ConnectedTvAdvertisingLuxuryBrandsPage() {
       <p>
         Disney+, Netflix, and Prime Video anchor most premium CTV programs because they combine large affluent reach with
         professionally produced, brand-safe content and mature private-deal access. Premium free ad-supported streaming
-        (FAST) can add efficient incremental reach when curated carefully, but the open CTV exchange — unvetted app
-        inventory bought through real-time bidding — carries the same risks as the open display exchange and should be
+        (FAST) can add efficient incremental reach when curated carefully, but the open CTV exchange - unvetted app
+        inventory bought through real-time bidding - carries the same risks as the open display exchange and should be
         excluded rather than used for cheap scale.
       </p>
 
@@ -308,8 +308,8 @@ export default function ConnectedTvAdvertisingLuxuryBrandsPage() {
           household identifiers, seed the buy with proven buyers and anchor everything downstream.
         </li>
         <li>
-          <strong>Deterministic wealth signals.</strong> Observed indicators — property values, investable-asset markers,
-          verified luxury purchase history — sourced through compliant data partnerships, define a true affluent segment
+          <strong>Deterministic wealth signals.</strong> Observed indicators - property values, investable-asset markers,
+          verified luxury purchase history - sourced through compliant data partnerships, define a true affluent segment
           rather than a modeled guess.
         </li>
         <li>
@@ -328,7 +328,7 @@ export default function ConnectedTvAdvertisingLuxuryBrandsPage() {
 
       <p>
         Because CTV is bought programmatically, these layers apply consistently, and the same audience definition and
-        frequency cap can extend across CTV, programmatic video, audio, and display — one affluent audience, one
+        frequency cap can extend across CTV, programmatic video, audio, and display - one affluent audience, one
         coordinated program.
       </p>
 
@@ -337,13 +337,13 @@ export default function ConnectedTvAdvertisingLuxuryBrandsPage() {
       <h2>The Deal Types That Keep a Premium Brand Safe</h2>
 
       <p>
-        As with all programmatic, the deal structure — not the technology — determines whether a luxury brand is safe on
+        As with all programmatic, the deal structure - not the technology - determines whether a luxury brand is safe on
         CTV. A premium program concentrates budget in negotiated, private deals.
       </p>
 
       <p>
         <strong>Programmatic guaranteed (PG)</strong> locks a fixed volume of impressions at a negotiated price with a
-        specific platform — the closest streaming equivalent to a linear upfront, offering guaranteed premium placement.{" "}
+        specific platform - the closest streaming equivalent to a linear upfront, offering guaranteed premium placement.{" "}
         <strong>Private marketplace (PMP)</strong> deals give invited buyers auction access to a curated pool of premium
         streaming inventory at a floor price, offering flexibility with known adjacency.{" "}
         <strong>Preferred deals</strong> provide first-look access at a fixed price. The{" "}
@@ -365,7 +365,7 @@ export default function ConnectedTvAdvertisingLuxuryBrandsPage() {
         impression served to a verified affluent household, in a brand-safe premium environment, full-screen and sound-on
         at high completion rates, against a buyer whose lifetime value exceeds $5,000, is worth many multiples of a cheap,
         skippable, unverified impression. The right unit of comparison is cost per affluent household reached and cost per
-        qualified inquiry — not cost per raw impression. Judged that way, premium CTV is frequently the most efficient
+        qualified inquiry - not cost per raw impression. Judged that way, premium CTV is frequently the most efficient
         reach a luxury brand can buy.
       </p>
 
@@ -389,8 +389,8 @@ export default function ConnectedTvAdvertisingLuxuryBrandsPage() {
       <h2>Measuring CTV Against a Long Purchase</h2>
 
       <p>
-        Connected TV is a non-click channel — no one buys a private jet or a wealth-management relationship by tapping a
-        television remote — so measuring it by last-click attribution guarantees you will undercount it. Three methods
+        Connected TV is a non-click channel - no one buys a private jet or a wealth-management relationship by tapping a
+        television remote - so measuring it by last-click attribution guarantees you will undercount it. Three methods
         measure CTV honestly.
       </p>
 
@@ -400,8 +400,8 @@ export default function ConnectedTvAdvertisingLuxuryBrandsPage() {
         exposed group. This is the only method that isolates causation, and it is essential for a channel with no click.{" "}
         <strong>Brand lift studies</strong> survey the difference in awareness, consideration, and purchase intent between
         households exposed to the CTV campaign and a matched unexposed group. And{" "}
-        <strong>attribution built for long cycles</strong> connects CTV exposure to downstream CRM outcomes — qualified
-        leads and closed high-value deals across a thirty-to-ninety-day journey — rather than to an immediate click.
+        <strong>attribution built for long cycles</strong> connects CTV exposure to downstream CRM outcomes - qualified
+        leads and closed high-value deals across a thirty-to-ninety-day journey - rather than to an immediate click.
         Measured this way, connected TV advertising for luxury brands is held to a real business standard, and its premium
         CPMs prove out in cost per qualified affluent customer and return on ad spend against genuine lifetime value.
       </p>
@@ -413,7 +413,7 @@ export default function ConnectedTvAdvertisingLuxuryBrandsPage() {
       <p>
         Three errors recur. The first is <strong>buying the open CTV exchange for cheap scale</strong>, importing
         open-web fraud and unknown adjacency into what should be the safest channel in the mix. The second is{" "}
-        <strong>treating CTV like linear</strong> — buying broad reach with no household targeting and no frequency
+        <strong>treating CTV like linear</strong> - buying broad reach with no household targeting and no frequency
         control, which throws away the entire advantage of the channel. The third is{" "}
         <strong>measuring CTV by clicks or last-touch</strong>, which makes a genuinely powerful channel look weak on the
         dashboard and starves it of budget it has earned. A competent premium program avoids all three by design: private

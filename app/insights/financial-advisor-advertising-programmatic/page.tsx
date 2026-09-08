@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: "Financial Advisor Advertising With Programmatic: The Complete Playbook",
     description:
-      "How financial advisors, RIAs, and wealth firms use programmatic advertising to reach affluent prospects at scale — the channels, targeting, compliance guardrails, and measurement that turn media into qualified client inquiries.",
+      "How financial advisors, RIAs, and wealth firms use programmatic advertising to reach affluent prospects at scale - the channels, targeting, compliance guardrails, and measurement that turn media into qualified client inquiries.",
     type: "article",
     url: "https://www.stillwatermedia.io/insights/financial-advisor-advertising-programmatic",
     images: [
@@ -37,13 +37,13 @@ export default function FinancialAdvisorAdvertisingProgrammaticPage() {
     "@type": "Article",
     headline: "Financial Advisor Advertising With Programmatic: The Complete Playbook",
     description:
-      "A strategist's playbook for financial advisor advertising through programmatic media — how registered investment advisors and wealth firms reach affluent and high-net-worth prospects at scale across CTV, programmatic display, audio, and DOOH, stay within SEC and FINRA advertising rules, and measure results against long advisory sales cycles.",
+      "A strategist's playbook for financial advisor advertising through programmatic media - how registered investment advisors and wealth firms reach affluent and high-net-worth prospects at scale across CTV, programmatic display, audio, and DOOH, stay within SEC and FINRA advertising rules, and measure results against long advisory sales cycles.",
     image: {
       "@type": "ImageObject",
       url: "https://www.stillwatermedia.io/images/financial-advisor-advertising-programmatic.png",
       width: 1200,
       height: 630,
-      caption: "Financial advisor advertising with programmatic — Stillwater Media",
+      caption: "Financial advisor advertising with programmatic - Stillwater Media",
     },
     author: {
       "@type": "Organization",
@@ -67,7 +67,7 @@ export default function FinancialAdvisorAdvertisingProgrammaticPage() {
     },
     keywords:
       "financial advisor advertising programmatic, wealth management digital advertising, financial advisor lead generation, affluent audience targeting, programmatic advertising luxury brands, high-net-worth audience segments, RIA marketing programmatic, first-party data luxury advertising, brand-safe programmatic advertising, CTV advertising for high-net-worth consumers",
-    articleSection: "Vertical Playbooks — Wealth & Advisory",
+    articleSection: "Vertical Playbooks - Wealth & Advisory",
     wordCount: 2190,
     inLanguage: "en-US",
   }
@@ -107,7 +107,7 @@ export default function FinancialAdvisorAdvertisingProgrammaticPage() {
             name: "Is programmatic advertising compliant for RIAs and financial advisors?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Yes, programmatic advertising can be compliant when the program is built around the rules that govern the industry — the SEC Marketing Rule for registered investment advisors and FINRA advertising rules for broker-dealers. That means avoiding misleading or guaranteed-return claims, disclosing testimonials properly, keeping messaging fair and balanced, retaining records, and running creative through compliance review before launch; firms should always confirm their specific program with their own compliance team or counsel.",
+              text: "Yes, programmatic advertising can be compliant when the program is built around the rules that govern the industry - the SEC Marketing Rule for registered investment advisors and FINRA advertising rules for broker-dealers. That means avoiding misleading or guaranteed-return claims, disclosing testimonials properly, keeping messaging fair and balanced, retaining records, and running creative through compliance review before launch; firms should always confirm their specific program with their own compliance team or counsel.",
             },
           },
           {
@@ -123,7 +123,7 @@ export default function FinancialAdvisorAdvertisingProgrammaticPage() {
             name: "What are the best channels for financial advisor advertising?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "The strongest channels are premium connected TV on platforms like Disney+ and Hulu, private-marketplace and publisher-direct programmatic across prestige financial and business publishers, streaming audio and finance podcasts where affluent listeners over-index, premium native and display, and digital out-of-home in financial districts and affluent corridors. These share one trait — they are trusted, high-attention, and brand-safe — which matters especially for a fiduciary brand whose credibility depends on the company it keeps.",
+              text: "The strongest channels are premium connected TV on platforms like Disney+ and Hulu, private-marketplace and publisher-direct programmatic across prestige financial and business publishers, streaming audio and finance podcasts where affluent listeners over-index, premium native and display, and digital out-of-home in financial districts and affluent corridors. These share one trait - they are trusted, high-attention, and brand-safe - which matters especially for a fiduciary brand whose credibility depends on the company it keeps.",
             },
           },
           {
@@ -145,16 +145,16 @@ export default function FinancialAdvisorAdvertisingProgrammaticPage() {
       author="Stillwater Media"
       date="August 3, 2026"
       readingTime="13 min"
-      category="Vertical Playbooks — Wealth & Advisory"
+      category="Vertical Playbooks - Wealth & Advisory"
       image="/images/financial-advisor-advertising-programmatic.png"
       imageAlt="Stillwater Media guide illustration on financial advisor advertising with programmatic media showing a refined, empty wealth-advisory office at dusk overlooking a financial district representing affluent prospect targeting for RIAs and advisory firms"
-      imageCaption="For a financial advisor, programmatic advertising is a way to reach the right affluent households at scale — without the compliance risk or waste that broad, untargeted media invites."
+      imageCaption="For a financial advisor, programmatic advertising is a way to reach the right affluent households at scale - without the compliance risk or waste that broad, untargeted media invites."
       schemaMarkup={schemaMarkup}
     >
       <p>
         Financial advisor advertising programmatic strategy lets registered investment advisors, wealth firms, and
-        advisory practices reach precisely defined affluent and high-net-worth households at scale — across connected TV,
-        premium programmatic display, streaming audio, and digital out-of-home — while controlling frequency, protecting
+        advisory practices reach precisely defined affluent and high-net-worth households at scale - across connected TV,
+        premium programmatic display, streaming audio, and digital out-of-home - while controlling frequency, protecting
         the brand in compliant environments, and measuring results against the long advisory sales cycle rather than a
         last-minute click. Done well, programmatic advertising for financial advisors replaces the scattershot spending of
         boosted social posts and untargeted search with a disciplined system that concentrates budget on the households
@@ -167,7 +167,7 @@ export default function FinancialAdvisorAdvertisingProgrammaticPage() {
       <p>
         At Stillwater Media we build media programs for luxury and high-consideration brands, and few categories fit that
         profile more precisely than financial advice. The client an advisor is trying to win has significant investable
-        assets, evaluates the decision over months, and is choosing a decades-long relationship built entirely on trust —
+        assets, evaluates the decision over months, and is choosing a decades-long relationship built entirely on trust -
         the very definition of a high-LTV, high-consideration purchase. This playbook lays out how programmatic advertising
         works for financial advisors: the audiences worth reaching, the channels that reach them, the compliance guardrails
         that keep the program safe, the mistakes that waste advisory marketing budgets, and how to measure whether it is
@@ -180,7 +180,7 @@ export default function FinancialAdvisorAdvertisingProgrammaticPage() {
 
       <p>
         Most financial advisor advertising still leans on referrals, events, and a mix of boosted social posts and branded
-        search — tactics that either do not scale or capture only prospects already looking. Programmatic advertising
+        search - tactics that either do not scale or capture only prospects already looking. Programmatic advertising
         changes the equation by letting an advisory firm proactively reach the specific affluent households it wants as
         clients, in premium environments, before those prospects have started searching. Three characteristics of the
         advisory business make programmatic an especially strong fit.
@@ -188,8 +188,8 @@ export default function FinancialAdvisorAdvertisingProgrammaticPage() {
 
       <p>
         First, the target is definable. Affluent and high-net-worth households can be identified through compliant data
-        signals — investable-asset indicators, business ownership, life-stage triggers like a liquidity event or
-        approaching retirement — which is exactly the kind of precision programmatic delivers. Second, the decision is
+        signals - investable-asset indicators, business ownership, life-stage triggers like a liquidity event or
+        approaching retirement - which is exactly the kind of precision programmatic delivers. Second, the decision is
         high-consideration, so the brand-building, multi-touch presence programmatic enables across CTV, audio, and display
         matches how prospects actually choose an advisor: gradually, over months, through repeated trusted exposure. Third,
         the economics reward precision. Because a single advisory relationship can be worth years of recurring fees,
@@ -209,7 +209,7 @@ export default function FinancialAdvisorAdvertisingProgrammaticPage() {
       <ol>
         <li>
           <strong>First-party data.</strong> Your CRM of prospects, event attendees, referrals, and past inquiries is the
-          most valuable audience you have — securely onboarded to reach known prospects and to build lookalike models from
+          most valuable audience you have - securely onboarded to reach known prospects and to build lookalike models from
           your genuine best clients.
         </li>
         <li>
@@ -219,7 +219,7 @@ export default function FinancialAdvisorAdvertisingProgrammaticPage() {
         </li>
         <li>
           <strong>Life-stage and liquidity triggers.</strong> Signals around business sales, retirement timing,
-          inheritance, or executive equity events — the moments when prospects most actively seek an advisor.
+          inheritance, or executive equity events - the moments when prospects most actively seek an advisor.
         </li>
         <li>
           <strong>Geographic precision.</strong> Wealth clusters geographically; targeting affluent ZIP codes, financial
@@ -232,7 +232,7 @@ export default function FinancialAdvisorAdvertisingProgrammaticPage() {
       </ol>
 
       <p>
-        The objective is to reach the intersection — affluent, in a relevant life stage, and resembling your best clients —
+        The objective is to reach the intersection - affluent, in a relevant life stage, and resembling your best clients -
         because that intersection is small, precise, and far more valuable per impression than a broad demographic buy.
       </p>
 
@@ -251,7 +251,7 @@ export default function FinancialAdvisorAdvertisingProgrammaticPage() {
         <li>
           <strong>Premium connected TV (CTV).</strong> Affluent households have moved to streaming; CTV reaches them on the
           living-room screen through platforms like Disney+, Hulu, and Prime Video with household-level targeting and
-          full-screen, non-skippable impact — ideal for building the trust an advisory relationship requires.
+          full-screen, non-skippable impact - ideal for building the trust an advisory relationship requires.
         </li>
         <li>
           <strong>Private marketplace and publisher-direct programmatic.</strong> Curated deals across prestige business
@@ -305,7 +305,7 @@ export default function FinancialAdvisorAdvertisingProgrammaticPage() {
         </li>
         <li>
           <strong>Recordkeeping and review.</strong> All advertising must be retained and, in most firms, pass compliance
-          review before launch — so the media program needs a creative-approval workflow built in, not bolted on.
+          review before launch - so the media program needs a creative-approval workflow built in, not bolted on.
         </li>
         <li>
           <strong>Landing-page and disclosure alignment.</strong> Where an ad drives, the disclosures, ADV references, and
@@ -368,23 +368,23 @@ export default function FinancialAdvisorAdvertisingProgrammaticPage() {
       </table>
 
       <p>
-        Programmatic does not replace referrals — it scales the top of the funnel that referrals alone cannot fill, and it
+        Programmatic does not replace referrals - it scales the top of the funnel that referrals alone cannot fill, and it
         reaches prospects before they begin searching, which is precisely when a trusted advisory brand can differentiate
         itself.
       </p>
 
       <hr className="my-8" />
 
-      <h2>What the Creative Should Say — and Not Say</h2>
+      <h2>What the Creative Should Say - and Not Say</h2>
 
       <p>
         The creative in a financial advisor advertising program carries a double burden: it must resonate with a
         sophisticated affluent prospect and satisfy the compliance rules that govern the category. The tone that works is
-        the tone of the business itself — calm, competent, and trustworthy rather than promotional. Affluent prospects
+        the tone of the business itself - calm, competent, and trustworthy rather than promotional. Affluent prospects
         choosing an advisor are not looking for the highest advertised return; they are looking for a steward they can trust
         with decades of their financial life, so the message should sell judgment, fiduciary alignment, service, and
-        expertise, not performance figures. Lead with the client problem the firm solves — a business owner facing a
-        liquidity event, an executive with concentrated equity, a family planning a generational transfer — because
+        expertise, not performance figures. Lead with the client problem the firm solves - a business owner facing a
+        liquidity event, an executive with concentrated equity, a family planning a generational transfer - because
         relevance to a specific situation earns attention where generic &quot;grow your wealth&quot; messaging does not.
       </p>
 
@@ -394,12 +394,12 @@ export default function FinancialAdvisorAdvertisingProgrammaticPage() {
         since an affluent prospect reads a cheap-looking ad in a premium environment as a signal about the firm behind it.
         And sequence the message across the long consideration window rather than repeating a single spot: an introduction
         to the firm&apos;s philosophy on CTV, a deeper point of view in a podcast read, a specific proof point in a native
-        placement — capped in frequency so presence never tips into pursuit.
+        placement - capped in frequency so presence never tips into pursuit.
       </p>
 
       <hr className="my-8" />
 
-      <h2>How Long Before It Works — Setting the Timeline</h2>
+      <h2>How Long Before It Works - Setting the Timeline</h2>
 
       <p>
         Advisory relationships are among the longest-consideration decisions in any category, and expectations should be set
@@ -409,7 +409,7 @@ export default function FinancialAdvisorAdvertisingProgrammaticPage() {
         completion rates, and early lifts in branded search and direct site visits. Across the following one to three
         months, consultation requests and qualified inquiries begin to compound as prospects move through consideration, and
         geo-holdout tests can start to isolate genuine incremental lift. Only across a full quarter or two does the
-        program&apos;s true efficiency — cost to acquire a client relative to that relationship&apos;s multi-year value —
+        program&apos;s true efficiency - cost to acquire a client relative to that relationship&apos;s multi-year value -
         come into focus. Firms that judge a programmatic program on a lead-gen clock, expecting cheap same-week form fills,
         routinely abandon campaigns that were building exactly the trust the business depends on. Patience paired with the
         right leading indicators is itself part of the strategy.
@@ -422,7 +422,7 @@ export default function FinancialAdvisorAdvertisingProgrammaticPage() {
       <ul>
         <li>
           <strong>Buying broad reach instead of affluent precision.</strong> Chasing low CPMs drags spend onto the wrong
-          households — paying to reach everyone to find a few qualified prospects.
+          households - paying to reach everyone to find a few qualified prospects.
         </li>
         <li>
           <strong>Treating compliance as a post-launch check.</strong> Running creative before compliance review invites
@@ -454,7 +454,7 @@ export default function FinancialAdvisorAdvertisingProgrammaticPage() {
         largest line items to prove the media is producing genuinely new inquiries rather than harvesting demand that
         already existed; and track acquired clients to lifetime value, since an advisory relationship&apos;s worth compounds
         over years of recurring fees. The leading indicators to watch in the first weeks are rising branded search, direct
-        visits, and consultation requests from the targeted affluent audience — signals that the program is building trust
+        visits, and consultation requests from the targeted affluent audience - signals that the program is building trust
         before it shows up as assets under management.
       </p>
 
@@ -472,7 +472,7 @@ export default function FinancialAdvisorAdvertisingProgrammaticPage() {
 
       <p>
         We take a limited number of engagements each quarter and work only with firms where reaching affluent prospects is a
-        genuine fit — typically those with client lifetime value above $5,000 and sales cycles longer than 30 days.
+        genuine fit - typically those with client lifetime value above $5,000 and sales cycles longer than 30 days.
       </p>
     </ArticleLayout>
   )

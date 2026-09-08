@@ -6,7 +6,7 @@ export const metadata = {
   },
   title: "Affluent Audience Targeting: The Complete 2025 Guide",
   description:
-    "Learn how affluent audience targeting works in 2025—wealth signals, premium data sources, lookalike modeling, and the exact frameworks luxury brands use to reach HNW consumers.",
+    "Learn how affluent audience targeting works in 2025-wealth signals, premium data sources, lookalike modeling, and the exact frameworks luxury brands use to reach HNW consumers.",
   openGraph: {
     title: "Affluent Audience Targeting: The Complete 2025 Guide",
     description:
@@ -38,7 +38,7 @@ export default function AffluentAudienceTargetingPage() {
     headline:
       "The Complete Guide to Affluent Audience Targeting in 2025",
     description:
-      "A comprehensive guide to affluent audience targeting for luxury and high-consideration brands—covering wealth data sources, segmentation methodology, lookalike modeling, and the privacy-compliant approaches that work in 2025 and beyond.",
+      "A comprehensive guide to affluent audience targeting for luxury and high-consideration brands-covering wealth data sources, segmentation methodology, lookalike modeling, and the privacy-compliant approaches that work in 2025 and beyond.",
     image: {
       "@type": "ImageObject",
       url: "/images/affluent-audience-targeting.jpg",
@@ -76,7 +76,7 @@ export default function AffluentAudienceTargetingPage() {
 
   const schemaMarkup = {
     "@context": "https://schema.org",
-    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/affluent-audience-targeting#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"The Complete Guide to Affluent Audience Targeting in 2025","item":"https://www.stillwatermedia.io/insights/affluent-audience-targeting"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/affluent-audience-targeting#faq","mainEntity":[{"@type":"Question","name":"What is affluent audience targeting in digital advertising?","acceptedAnswer":{"@type":"Answer","text":"Affluent audience targeting is the practice of building and activating audience segments in digital advertising that identify individuals with high net worth, significant investable assets, or strong behavioral signals of luxury purchase intent—rather than relying solely on income demographics. Effective affluent targeting stacks wealth proxy signals (property ownership, vehicle registration, investment account activity), behavioral intent signals (category research, competitive brand engagement), psychographic alignment, and first-party CRM data into a multi-layer audience architecture that identifies genuinely qualified luxury prospects."}},{"@type":"Question","name":"How do you advertise to wealthy consumers online?","acceptedAnswer":{"@type":"Answer","text":"Advertising to wealthy consumers online requires both audience precision and premium channel selection. On the audience side, high-net-worth targeting should incorporate wealth proxy data (from providers like Experian Wealth Engine or Oracle Data Cloud), behavioral intent signals specific to your luxury category, and first-party customer lookalike models built from your highest-LTV existing customers. On the channel side, affluent consumers over-index in premium CTV (Disney+, Netflix, Hulu), premium publisher environments (Wall Street Journal, Financial Times, Bloomberg), streaming audio, and digital out-of-home in luxury retail and financial district locations."}},{"@type":"Question","name":"What data sources are used for high-net-worth audience targeting?","acceptedAnswer":{"@type":"Answer","text":"High-net-worth audience targeting draws on several data source categories: modeled wealth data from providers like Experian Wealth Engine, Oracle Data Cloud, and Neustar (based on property records, vehicle registration, and financial proxy signals); subscription-based publisher first-party data from premium editorial brands like The Wall Street Journal and Financial Times; behavioral intent data from DSP platforms that aggregate purchase and research signals; and the advertiser's own first-party CRM data activated through identity resolution platforms like LiveRamp or The Trade Desk's Unified ID 2.0 framework."}},{"@type":"Question","name":"How does affluent lookalike modeling work?","acceptedAnswer":{"@type":"Answer","text":"Affluent lookalike modeling starts with a seed audience of your best existing customers—specifically the top 15–20% by lifetime value, not your full customer list. A DSP or data partner analyzes the behavioral attributes of this seed audience across thousands of signal dimensions, then identifies other users in its data graph who share the highest-correlation patterns. The result is an expanded audience that statistically resembles your best customers. For luxury brands, effective lookalike expansion requires suppressing the expanded pool against wealth proxy filters to prevent dilution with users who share behavioral patterns but lack the underlying financial qualification to convert."}},{"@type":"Question","name":"What are the best digital advertising channels for reaching affluent consumers?","acceptedAnswer":{"@type":"Answer","text":"The highest-concentration affluent channels in digital advertising are premium connected TV (Disney+, Netflix, Hulu Live, Paramount+), digital out-of-home in luxury retail and financial district environments, premium publisher display and native (Wall Street Journal, Financial Times, Bloomberg, Robb Report, Architectural Digest), streaming audio on Spotify Premium and Apple Music, and YouTube Select lineups. Open exchange programmatic display, despite its cost efficiency, has relatively low affluent audience concentration and significant brand suitability risk, making it inappropriate as a primary channel for luxury brand campaigns."}}]}],
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/affluent-audience-targeting#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"The Complete Guide to Affluent Audience Targeting in 2025","item":"https://www.stillwatermedia.io/insights/affluent-audience-targeting"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/affluent-audience-targeting#faq","mainEntity":[{"@type":"Question","name":"What is affluent audience targeting in digital advertising?","acceptedAnswer":{"@type":"Answer","text":"Affluent audience targeting is the practice of building and activating audience segments in digital advertising that identify individuals with high net worth, significant investable assets, or strong behavioral signals of luxury purchase intent-rather than relying solely on income demographics. Effective affluent targeting stacks wealth proxy signals (property ownership, vehicle registration, investment account activity), behavioral intent signals (category research, competitive brand engagement), psychographic alignment, and first-party CRM data into a multi-layer audience architecture that identifies genuinely qualified luxury prospects."}},{"@type":"Question","name":"How do you advertise to wealthy consumers online?","acceptedAnswer":{"@type":"Answer","text":"Advertising to wealthy consumers online requires both audience precision and premium channel selection. On the audience side, high-net-worth targeting should incorporate wealth proxy data (from providers like Experian Wealth Engine or Oracle Data Cloud), behavioral intent signals specific to your luxury category, and first-party customer lookalike models built from your highest-LTV existing customers. On the channel side, affluent consumers over-index in premium CTV (Disney+, Netflix, Hulu), premium publisher environments (Wall Street Journal, Financial Times, Bloomberg), streaming audio, and digital out-of-home in luxury retail and financial district locations."}},{"@type":"Question","name":"What data sources are used for high-net-worth audience targeting?","acceptedAnswer":{"@type":"Answer","text":"High-net-worth audience targeting draws on several data source categories: modeled wealth data from providers like Experian Wealth Engine, Oracle Data Cloud, and Neustar (based on property records, vehicle registration, and financial proxy signals); subscription-based publisher first-party data from premium editorial brands like The Wall Street Journal and Financial Times; behavioral intent data from DSP platforms that aggregate purchase and research signals; and the advertiser's own first-party CRM data activated through identity resolution platforms like LiveRamp or The Trade Desk's Unified ID 2.0 framework."}},{"@type":"Question","name":"How does affluent lookalike modeling work?","acceptedAnswer":{"@type":"Answer","text":"Affluent lookalike modeling starts with a seed audience of your best existing customers-specifically the top 15–20% by lifetime value, not your full customer list. A DSP or data partner analyzes the behavioral attributes of this seed audience across thousands of signal dimensions, then identifies other users in its data graph who share the highest-correlation patterns. The result is an expanded audience that statistically resembles your best customers. For luxury brands, effective lookalike expansion requires suppressing the expanded pool against wealth proxy filters to prevent dilution with users who share behavioral patterns but lack the underlying financial qualification to convert."}},{"@type":"Question","name":"What are the best digital advertising channels for reaching affluent consumers?","acceptedAnswer":{"@type":"Answer","text":"The highest-concentration affluent channels in digital advertising are premium connected TV (Disney+, Netflix, Hulu Live, Paramount+), digital out-of-home in luxury retail and financial district environments, premium publisher display and native (Wall Street Journal, Financial Times, Bloomberg, Robb Report, Architectural Digest), streaming audio on Spotify Premium and Apple Music, and YouTube Select lineups. Open exchange programmatic display, despite its cost efficiency, has relatively low affluent audience concentration and significant brand suitability risk, making it inappropriate as a primary channel for luxury brand campaigns."}}]}],
   }
 
   return (
@@ -92,11 +92,11 @@ export default function AffluentAudienceTargetingPage() {
       schemaMarkup={schemaMarkup}
     >
       <p>
-        Affluent audience targeting is not simply about finding people with high household incomes. That common misconception leads to campaigns that technically reach "wealthy" audiences but generate almost no qualified pipeline—because income is a lagging, blunt-force indicator of the mindset, behavior, and intent that actually drives luxury purchase decisions.
+        Affluent audience targeting is not simply about finding people with high household incomes. That common misconception leads to campaigns that technically reach "wealthy" audiences but generate almost no qualified pipeline-because income is a lagging, blunt-force indicator of the mindset, behavior, and intent that actually drives luxury purchase decisions.
       </p>
 
       <p>
-        This guide covers how sophisticated luxury advertisers build audience architecture that identifies high-net-worth prospects with precision, reaches them in contexts where they are receptive, and delivers creative experiences that resonate with their actual decision-making behavior—not a demographic caricature.
+        This guide covers how sophisticated luxury advertisers build audience architecture that identifies high-net-worth prospects with precision, reaches them in contexts where they are receptive, and delivers creative experiences that resonate with their actual decision-making behavior-not a demographic caricature.
       </p>
 
       <hr className="my-8" />
@@ -104,11 +104,11 @@ export default function AffluentAudienceTargetingPage() {
       <h2>Why Income Targeting Alone Fails Luxury Advertisers</h2>
 
       <p>
-        Most programmatic platforms offer some version of household income (HHI) targeting—typically segmented by quartile or decile, sourced from modeled third-party data. Selecting the top HHI decile ($150,000+ household income) and running your luxury brand campaign against it is the default approach for most marketers. It also routinely underperforms.
+        Most programmatic platforms offer some version of household income (HHI) targeting-typically segmented by quartile or decile, sourced from modeled third-party data. Selecting the top HHI decile ($150,000+ household income) and running your luxury brand campaign against it is the default approach for most marketers. It also routinely underperforms.
       </p>
 
       <p>
-        The structural problem is that income-based segments are modeled, not observed. Data providers like Nielsen, Experian, or Acxiom estimate income based on proxy variables: zip code, property records, vehicle registration data, retail spending patterns, and survey extrapolations. The models are reasonably accurate at the population level but can introduce meaningful error at the individual level—and it is the individual-level precision that drives luxury advertising ROI.
+        The structural problem is that income-based segments are modeled, not observed. Data providers like Nielsen, Experian, or Acxiom estimate income based on proxy variables: zip code, property records, vehicle registration data, retail spending patterns, and survey extrapolations. The models are reasonably accurate at the population level but can introduce meaningful error at the individual level-and it is the individual-level precision that drives luxury advertising ROI.
       </p>
 
       <p>
@@ -116,7 +116,7 @@ export default function AffluentAudienceTargetingPage() {
       </p>
 
       <p>
-        The target for luxury advertisers is not income—it is <strong>wealth, financial behavior, and category-specific intent signals</strong>. Building toward those targets requires a different data architecture entirely.
+        The target for luxury advertisers is not income-it is <strong>wealth, financial behavior, and category-specific intent signals</strong>. Building toward those targets requires a different data architecture entirely.
       </p>
 
       <hr className="my-8" />
@@ -166,7 +166,7 @@ export default function AffluentAudienceTargetingPage() {
           <strong>Category research behavior:</strong> search and content consumption patterns around your specific category (private jet operators, luxury real estate listings, wealth management firms, luxury automotive brands)
         </li>
         <li>
-          <strong>Competitive brand engagement:</strong> visitors to competitor brand websites or content—prospects who are already category-aware and actively comparing options
+          <strong>Competitive brand engagement:</strong> visitors to competitor brand websites or content-prospects who are already category-aware and actively comparing options
         </li>
         <li>
           <strong>Financial trigger events:</strong> signals associated with liquidity events (IPO activity, executive stock option exercises, real estate sale proceeds) that precede large discretionary purchases
@@ -177,7 +177,7 @@ export default function AffluentAudienceTargetingPage() {
       </ul>
 
       <p>
-        Intent signals have a short half-life—typically 7 to 30 days before they become stale. Audience segments built on intent must be refreshed continuously, which requires DSP infrastructure that supports dynamic audience updates rather than static list uploads.
+        Intent signals have a short half-life-typically 7 to 30 days before they become stale. Audience segments built on intent must be refreshed continuously, which requires DSP infrastructure that supports dynamic audience updates rather than static list uploads.
       </p>
 
       <h3>Layer 3: Contextual and Psychographic Alignment</h3>
@@ -192,7 +192,7 @@ export default function AffluentAudienceTargetingPage() {
 
       <ul>
         <li>
-          <strong>Premium publisher contextual affinity</strong> (which content categories does this audience segment over-index in—travel, finance, culture, sport?)
+          <strong>Premium publisher contextual affinity</strong> (which content categories does this audience segment over-index in-travel, finance, culture, sport?)
         </li>
         <li>
           <strong>Values-based segment data</strong> (sustainability orientation, philanthropy, family-centricity versus individual achievement orientation)
@@ -203,7 +203,7 @@ export default function AffluentAudienceTargetingPage() {
       </ul>
 
       <p>
-        These segments are available through custom data partnerships with publishers like The Wall Street Journal, Financial Times, and Condé Nast—audiences who have explicitly self-identified through subscription behavior and content engagement rather than statistical modeling.
+        These segments are available through custom data partnerships with publishers like The Wall Street Journal, Financial Times, and Condé Nast-audiences who have explicitly self-identified through subscription behavior and content engagement rather than statistical modeling.
       </p>
 
       <h3>Layer 4: First-Party Data Activation</h3>
@@ -241,7 +241,7 @@ export default function AffluentAudienceTargetingPage() {
       </p>
 
       <p>
-        The question is not whether to build sophisticated affluent audience architecture—it is whether to build it intentionally, or accidentally, through a series of failed campaigns that you blame on creative or market conditions.
+        The question is not whether to build sophisticated affluent audience architecture-it is whether to build it intentionally, or accidentally, through a series of failed campaigns that you blame on creative or market conditions.
       </p>
 
       <hr className="my-8" />

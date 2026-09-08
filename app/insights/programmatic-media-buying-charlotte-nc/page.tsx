@@ -100,10 +100,10 @@ export default function ProgrammaticCharlotte() {
       <h3>Market Characteristics</h3>
 
       <ul>
-        <li><strong>Second-largest US financial center</strong> — Bank of America, Wells Fargo, and Truist headquarters</li>
-        <li><strong>Growing tech sector</strong> — Emerging startup ecosystem and corporate tech expansion</li>
-        <li><strong>Healthcare concentration</strong> — Major health systems with regional reach</li>
-        <li><strong>Young professional influx</strong> — Population growth driven by career opportunities</li>
+        <li><strong>Second-largest US financial center</strong> - Bank of America, Wells Fargo, and Truist headquarters</li>
+        <li><strong>Growing tech sector</strong> - Emerging startup ecosystem and corporate tech expansion</li>
+        <li><strong>Healthcare concentration</strong> - Major health systems with regional reach</li>
+        <li><strong>Young professional influx</strong> - Population growth driven by career opportunities</li>
       </ul>
 
       <h3>Advertising Efficiency</h3>
@@ -113,10 +113,10 @@ export default function ProgrammaticCharlotte() {
       </p>
 
       <ol>
-        <li><strong>Lower CPMs</strong> — Meaningful reach without tier-one market premiums</li>
-        <li><strong>Less competitive clutter</strong> — Premium brands underinvest relative to opportunity</li>
-        <li><strong>Affluent audience concentration</strong> — High-income households over-index versus national</li>
-        <li><strong>Regional influence</strong> — Charlotte audiences often have Southeast-wide impact</li>
+        <li><strong>Lower CPMs</strong> - Meaningful reach without tier-one market premiums</li>
+        <li><strong>Less competitive clutter</strong> - Premium brands underinvest relative to opportunity</li>
+        <li><strong>Affluent audience concentration</strong> - High-income households over-index versus national</li>
+        <li><strong>Regional influence</strong> - Charlotte audiences often have Southeast-wide impact</li>
       </ol>
 
       <hr />
@@ -126,10 +126,10 @@ export default function ProgrammaticCharlotte() {
       <h3>Premium Local Publishers</h3>
 
       <ul>
-        <li><strong>Charlotte Observer</strong> — Regional news leader with engaged local audience</li>
-        <li><strong>WCNC/WBTV</strong> — Local broadcast with digital inventory</li>
-        <li><strong>Charlotte Business Journal</strong> — B2B audience, decision-makers</li>
-        <li><strong>Charlotte Magazine</strong> — Lifestyle content, affluent readers</li>
+        <li><strong>Charlotte Observer</strong> - Regional news leader with engaged local audience</li>
+        <li><strong>WCNC/WBTV</strong> - Local broadcast with digital inventory</li>
+        <li><strong>Charlotte Business Journal</strong> - B2B audience, decision-makers</li>
+        <li><strong>Charlotte Magazine</strong> - Lifestyle content, affluent readers</li>
       </ul>
 
       <h3>Connected TV Opportunity</h3>
@@ -156,20 +156,20 @@ export default function ProgrammaticCharlotte() {
       </p>
 
       <ol>
-        <li><strong>Myers Park</strong> — Historic wealth, established affluent families</li>
-        <li><strong>Dilworth</strong> — Urban affluent, young professionals</li>
-        <li><strong>SouthPark</strong> — Retail hub, upscale commercial and residential</li>
-        <li><strong>Ballantyne</strong> — Corporate campus area, executive housing</li>
-        <li><strong>Lake Norman</strong> — Waterfront luxury, wealth concentration</li>
+        <li><strong>Myers Park</strong> - Historic wealth, established affluent families</li>
+        <li><strong>Dilworth</strong> - Urban affluent, young professionals</li>
+        <li><strong>SouthPark</strong> - Retail hub, upscale commercial and residential</li>
+        <li><strong>Ballantyne</strong> - Corporate campus area, executive housing</li>
+        <li><strong>Lake Norman</strong> - Waterfront luxury, wealth concentration</li>
       </ol>
 
       <h3>Business District Targeting</h3>
 
       <ul>
-        <li><strong>Uptown core</strong> — Corporate headquarters, financial services</li>
-        <li><strong>South End</strong> — Tech companies, creative industries</li>
-        <li><strong>University area</strong> — Research, education-adjacent businesses</li>
-        <li><strong>Airport corridor</strong> — Logistics, hospitality, travel-adjacent</li>
+        <li><strong>Uptown core</strong> - Corporate headquarters, financial services</li>
+        <li><strong>South End</strong> - Tech companies, creative industries</li>
+        <li><strong>University area</strong> - Research, education-adjacent businesses</li>
+        <li><strong>Airport corridor</strong> - Logistics, hospitality, travel-adjacent</li>
       </ul>
 
       <hr />
@@ -183,10 +183,10 @@ export default function ProgrammaticCharlotte() {
       </p>
 
       <ul>
-        <li><strong>Financial services saturation</strong> — Category is competitive; other verticals less so</li>
-        <li><strong>Luxury brand underinvestment</strong> — Premium consumer brands have white space</li>
-        <li><strong>B2B opportunity</strong> — Corporate decision-makers accessible via programmatic</li>
-        <li><strong>Healthcare competition</strong> — Major systems invest heavily; specialists have opportunity</li>
+        <li><strong>Financial services saturation</strong> - Category is competitive; other verticals less so</li>
+        <li><strong>Luxury brand underinvestment</strong> - Premium consumer brands have white space</li>
+        <li><strong>B2B opportunity</strong> - Corporate decision-makers accessible via programmatic</li>
+        <li><strong>Healthcare competition</strong> - Major systems invest heavily; specialists have opportunity</li>
       </ul>
 
       <h3>Share of Voice Strategy</h3>
@@ -209,10 +209,10 @@ export default function ProgrammaticCharlotte() {
       </p>
 
       <ul>
-        <li><strong>Location-based targeting</strong> — Reach users near store/office locations</li>
-        <li><strong>Competitor conquesting</strong> — Target users visiting competitive locations</li>
-        <li><strong>Foot traffic measurement</strong> — Attribute store visits to ad exposure</li>
-        <li><strong>Retargeting visitors</strong> — Re-engage users who visited but didn't convert</li>
+        <li><strong>Location-based targeting</strong> - Reach users near store/office locations</li>
+        <li><strong>Competitor conquesting</strong> - Target users visiting competitive locations</li>
+        <li><strong>Foot traffic measurement</strong> - Attribute store visits to ad exposure</li>
+        <li><strong>Retargeting visitors</strong> - Re-engage users who visited but didn't convert</li>
       </ul>
 
       <h3>Event and Sponsorship Amplification</h3>
@@ -231,10 +231,10 @@ export default function ProgrammaticCharlotte() {
       <h3>Targeting Recommendations</h3>
 
       <ul>
-        <li><strong>Layer geographic + demographic</strong> — Affluent neighborhoods plus income targeting</li>
-        <li><strong>Include regional reach</strong> — Charlotte influence extends to surrounding markets</li>
-        <li><strong>Test Charlotte-specific creative</strong> — Local relevance improves engagement</li>
-        <li><strong>Balance Uptown and suburbs</strong> — Decision-makers live and work in different areas</li>
+        <li><strong>Layer geographic + demographic</strong> - Affluent neighborhoods plus income targeting</li>
+        <li><strong>Include regional reach</strong> - Charlotte influence extends to surrounding markets</li>
+        <li><strong>Test Charlotte-specific creative</strong> - Local relevance improves engagement</li>
+        <li><strong>Balance Uptown and suburbs</strong> - Decision-makers live and work in different areas</li>
       </ul>
 
       <h3>Measurement Framework</h3>
@@ -255,11 +255,11 @@ export default function ProgrammaticCharlotte() {
       </p>
 
       <ul>
-        <li><strong>Affluent audience</strong> — Growing concentration of high-income households</li>
-        <li><strong>Cost efficiency</strong> — Lower CPMs than tier-one markets with similar audience quality</li>
-        <li><strong>Competitive white space</strong> — Many premium categories are underserved</li>
-        <li><strong>CTV opportunity</strong> — High streaming adoption among target demographics</li>
-        <li><strong>Regional influence</strong> — Charlotte presence extends impact across the Southeast</li>
+        <li><strong>Affluent audience</strong> - Growing concentration of high-income households</li>
+        <li><strong>Cost efficiency</strong> - Lower CPMs than tier-one markets with similar audience quality</li>
+        <li><strong>Competitive white space</strong> - Many premium categories are underserved</li>
+        <li><strong>CTV opportunity</strong> - High streaming adoption among target demographics</li>
+        <li><strong>Regional influence</strong> - Charlotte presence extends impact across the Southeast</li>
       </ul>
 
       <p>

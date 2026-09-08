@@ -85,7 +85,7 @@ export default function CTVAdvertisingHighNetWorth() {
             articleSection: "CTV",
             wordCount: 2400,
             inLanguage: "en-US",
-          })), {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/ctv-advertising-high-net-worth-consumers#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"How to Reach High-Net-Worth Consumers Through Premium CTV Advertising","item":"https://www.stillwatermedia.io/insights/ctv-advertising-high-net-worth-consumers"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/ctv-advertising-high-net-worth-consumers#faq","mainEntity":[{"@type":"Question","name":"What is CTV advertising and how does it work?","acceptedAnswer":{"@type":"Answer","text":"CTV advertising delivers video ads through internet-connected television devices — smart TVs, Roku, Apple TV, and streaming platforms. Unlike linear TV, CTV targets specific households using first-party data and behavioral signals, allowing luxury brands to reach high-net-worth consumers with precision rather than broad demographic buys."}},{"@type":"Question","name":"How do luxury brands target high-net-worth consumers on streaming TV?","acceptedAnswer":{"@type":"Answer","text":"Luxury brands reach HNW consumers on CTV through a combination of first-party data onboarding, intent signal layering, and private marketplace deals with premium streaming platforms like Disney+, Netflix, and Prime Video. These platforms offer household-level targeting that can identify affluent households based on income, purchase behavior, and luxury intent signals."}},{"@type":"Question","name":"What is a private marketplace (PMP) deal in CTV advertising?","acceptedAnswer":{"@type":"Answer","text":"A private marketplace deal is a direct arrangement between an advertiser and a specific streaming platform, bypassing the open programmatic exchange. PMP deals give luxury brands access to premium, brand-safe inventory with guaranteed content adjacency controls — ensuring ads run next to prestige content, not questionable material."}},{"@type":"Question","name":"How much does premium CTV advertising cost for luxury brands?","acceptedAnswer":{"@type":"Answer","text":"Premium CTV CPMs typically range from $25–$65 for luxury-targeted inventory, compared to $8–$18 for open exchange. The higher cost reflects genuine audience quality, brand safety verification, and completion rate guarantees. Luxury brands willing to pay premium CPMs typically see significantly lower cost-per-qualified-lead versus lower-CPM channels."}}]}],
+          })), {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/ctv-advertising-high-net-worth-consumers#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"How to Reach High-Net-Worth Consumers Through Premium CTV Advertising","item":"https://www.stillwatermedia.io/insights/ctv-advertising-high-net-worth-consumers"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/ctv-advertising-high-net-worth-consumers#faq","mainEntity":[{"@type":"Question","name":"What is CTV advertising and how does it work?","acceptedAnswer":{"@type":"Answer","text":"CTV advertising delivers video ads through internet-connected television devices - smart TVs, Roku, Apple TV, and streaming platforms. Unlike linear TV, CTV targets specific households using first-party data and behavioral signals, allowing luxury brands to reach high-net-worth consumers with precision rather than broad demographic buys."}},{"@type":"Question","name":"How do luxury brands target high-net-worth consumers on streaming TV?","acceptedAnswer":{"@type":"Answer","text":"Luxury brands reach HNW consumers on CTV through a combination of first-party data onboarding, intent signal layering, and private marketplace deals with premium streaming platforms like Disney+, Netflix, and Prime Video. These platforms offer household-level targeting that can identify affluent households based on income, purchase behavior, and luxury intent signals."}},{"@type":"Question","name":"What is a private marketplace (PMP) deal in CTV advertising?","acceptedAnswer":{"@type":"Answer","text":"A private marketplace deal is a direct arrangement between an advertiser and a specific streaming platform, bypassing the open programmatic exchange. PMP deals give luxury brands access to premium, brand-safe inventory with guaranteed content adjacency controls - ensuring ads run next to prestige content, not questionable material."}},{"@type":"Question","name":"How much does premium CTV advertising cost for luxury brands?","acceptedAnswer":{"@type":"Answer","text":"Premium CTV CPMs typically range from $25–$65 for luxury-targeted inventory, compared to $8–$18 for open exchange. The higher cost reflects genuine audience quality, brand safety verification, and completion rate guarantees. Luxury brands willing to pay premium CPMs typically see significantly lower cost-per-qualified-lead versus lower-CPM channels."}}]}],
           }),
         }}
       />
@@ -99,7 +99,7 @@ export default function CTVAdvertisingHighNetWorth() {
       >
         <p className="text-foreground/70 leading-relaxed mb-6">
           High-net-worth consumers are not watching the same television they watched five years ago. They have abandoned
-          linear TV in favor of premium streaming — and smart luxury brands are following them there with{" "}
+          linear TV in favor of premium streaming - and smart luxury brands are following them there with{" "}
           <strong>CTV advertising for high-net-worth consumers</strong> that is precise, measurable, and impossible to
           skip.
         </p>
@@ -107,7 +107,7 @@ export default function CTVAdvertisingHighNetWorth() {
         <p className="text-foreground/70 leading-relaxed mb-6">
           This is not a hypothetical shift. According to Nielsen, households earning $150,000 or more annually stream
           more hours of content per week than any other income demographic. They are on Disney+, watching Formula 1 on
-          Prime Video, streaming HBO on Max, and listening to Spotify Premium without ads — unless a brand has earned
+          Prime Video, streaming HBO on Max, and listening to Spotify Premium without ads - unless a brand has earned
           its way in through premium inventory.
         </p>
 
@@ -117,7 +117,7 @@ export default function CTVAdvertisingHighNetWorth() {
         </p>
 
         <h2 className="font-heading text-2xl text-foreground font-normal mt-12 mb-4">
-          What Is CTV Advertising — and Why Does It Matter for Luxury Brands?
+          What Is CTV Advertising - and Why Does It Matter for Luxury Brands?
         </h2>
 
         <p className="text-foreground/70 leading-relaxed mb-6">
@@ -148,16 +148,16 @@ export default function CTVAdvertisingHighNetWorth() {
 
         <ol className="text-foreground/70 leading-relaxed mb-6 space-y-4 list-decimal list-inside">
           <li>
-            <strong>Household-level targeting</strong> — CTV platforms use device graphs and first-party data to serve
+            <strong>Household-level targeting</strong> - CTV platforms use device graphs and first-party data to serve
             ads to specific households, not broad demographics. You know who you are reaching before you spend a dollar.
           </li>
           <li>
-            <strong>Premium, brand-safe inventory</strong> — Streaming platforms like Disney+, Netflix, and Prime Video
+            <strong>Premium, brand-safe inventory</strong> - Streaming platforms like Disney+, Netflix, and Prime Video
             maintain strict content adjacency controls. Your ad runs next to prestige content, not questionable
             user-generated material.
           </li>
           <li>
-            <strong>Measurement beyond reach</strong> — CTV platforms provide impression-level data, completion rates,
+            <strong>Measurement beyond reach</strong> - CTV platforms provide impression-level data, completion rates,
             and the ability to connect ad exposure to downstream outcomes like site visits, store visits, and purchases.
           </li>
         </ol>
@@ -174,7 +174,7 @@ export default function CTVAdvertisingHighNetWorth() {
         <h3 className="font-heading text-xl text-foreground font-normal mt-8 mb-3">Disney+</h3>
         <p className="text-foreground/70 leading-relaxed mb-6">
           Disney+ attracts an exceptionally affluent audience. Its subscriber base skews toward households with
-          children — and in the HNW bracket, those households are making significant purchase decisions across luxury
+          children - and in the HNW bracket, those households are making significant purchase decisions across luxury
           travel, vehicles, financial products, and premium goods. Disney+ advertising is available through private
           marketplace deals and select programmatic channels, with strict brand safety controls and premium CPMs that
           reflect genuine audience quality.
@@ -203,7 +203,7 @@ export default function CTVAdvertisingHighNetWorth() {
         <p className="text-foreground/70 leading-relaxed mb-6">
           While Disney+, Prime Video, and Netflix represent the highest-profile CTV opportunities, premium brands should
           also consider Max (HBO's platform), Peacock Premium, and Paramount+ as complementary channels. The key is
-          private marketplace access — open exchange CTV inventory is riddled with fraud and brand safety risk.
+          private marketplace access - open exchange CTV inventory is riddled with fraud and brand safety risk.
           Authenticated PMP deals with these publishers deliver genuine HNW audiences in verified environments.
         </p>
 
@@ -234,8 +234,8 @@ export default function CTVAdvertisingHighNetWorth() {
 
         <h3 className="font-heading text-xl text-foreground font-normal mt-8 mb-3">Luxury Publisher Data Partnerships</h3>
         <p className="text-foreground/70 leading-relaxed mb-6">
-          At Stillwater Media, we maintain direct data partnerships with luxury publishers — financial media outlets,
-          high-end lifestyle publications, and premium content networks — whose first-party data reflects genuine HNW
+          At Stillwater Media, we maintain direct data partnerships with luxury publishers - financial media outlets,
+          high-end lifestyle publications, and premium content networks - whose first-party data reflects genuine HNW
           intent and behavior. This proprietary data is not available on self-serve platforms. It is available through
           exclusive partner relationships that we have built over time.
         </p>
@@ -298,7 +298,7 @@ export default function CTVAdvertisingHighNetWorth() {
         </p>
 
         <p className="text-foreground/70 leading-relaxed mb-6">
-          The one area where linear TV still has an argument is raw scale — national broadcast can reach 30 million
+          The one area where linear TV still has an argument is raw scale - national broadcast can reach 30 million
           households in a single night. But if your brand's addressable market is households with $500K+ in investable
           assets, raw scale is not your goal. Qualified reach is.
         </p>
@@ -315,12 +315,12 @@ export default function CTVAdvertisingHighNetWorth() {
         <p className="text-foreground/70 leading-relaxed mb-6">
           <strong>Incrementality testing</strong> is the gold standard for measuring CTV's true contribution. Rather
           than asking "how many people who saw our CTV ad converted?", incrementality testing asks the more important
-          question: "how many additional conversions happened <em>because</em> of our CTV ad — over and above what would
+          question: "how many additional conversions happened <em>because</em> of our CTV ad - over and above what would
           have happened without it?"
         </p>
 
         <p className="text-foreground/70 leading-relaxed mb-6">
-          This is done through holdout groups — a randomized set of your target audience that does not receive your CTV
+          This is done through holdout groups - a randomized set of your target audience that does not receive your CTV
           ad. By comparing conversion rates between exposed and unexposed groups, you isolate the true causal lift your
           media is generating.
         </p>
@@ -418,7 +418,7 @@ export default function CTVAdvertisingHighNetWorth() {
         </ul>
 
         <p className="text-foreground/70 leading-relaxed mb-6">
-          These are not guarantees — they depend on creative quality, targeting precision, and measurement rigor. But
+          These are not guarantees - they depend on creative quality, targeting precision, and measurement rigor. But
           they are achievable with the right partner and the right process.
         </p>
 
@@ -427,7 +427,7 @@ export default function CTVAdvertisingHighNetWorth() {
         </h2>
 
         <p className="text-foreground/70 leading-relaxed mb-6">
-          We are selective about the brands we work with because premium CTV advertising requires genuine expertise — in
+          We are selective about the brands we work with because premium CTV advertising requires genuine expertise - in
           audience engineering, in private marketplace navigation, and in measurement design.
         </p>
 
@@ -447,7 +447,7 @@ export default function CTVAdvertisingHighNetWorth() {
             <strong>Incrementality frameworks</strong> built before the first dollar is spent
           </li>
           <li>
-            <strong>Frequency discipline</strong> — your brand will not become wallpaper
+            <strong>Frequency discipline</strong> - your brand will not become wallpaper
           </li>
         </ul>
 
@@ -461,7 +461,7 @@ export default function CTVAdvertisingHighNetWorth() {
 
         <p className="text-foreground/70 leading-relaxed mb-6">
           High-net-worth consumers are watching premium streaming content right now. They are paying for ad-free tiers
-          in many cases — which means the only way to reach them via video is through premium, authenticated CTV
+          in many cases - which means the only way to reach them via video is through premium, authenticated CTV
           inventory that has earned its place in their living rooms.
         </p>
 

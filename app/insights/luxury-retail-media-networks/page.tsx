@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     siteName: "Stillwater Media",
     locale: "en_US",
     publishedTime,
-    images: [{ url: image, width: 1200, height: 630, alt: `Stillwater Media — ${title}` }],
+    images: [{ url: image, width: 1200, height: 630, alt: `Stillwater Media - ${title}` }],
   },
   twitter: {
     card: "summary_large_image",
@@ -88,7 +88,7 @@ const articleSchema = {
           name: "What is a luxury retail media network?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "A luxury retail media network is an advertising business run by a high-end retailer — such as Saks, Neiman Marcus, Nordstrom, or Net-a-Porter — that lets brands buy ad placements using the retailer's first-party shopper data. It sells three things: onsite placements on the retailer's own site, offsite programmatic and CTV media targeted with the retailer's audience segments, and closed-loop measurement tying ad exposure to purchases made in the retailer's environment. The distinguishing asset is verified high-spend purchase data rather than modeled affluence estimates.",
+            text: "A luxury retail media network is an advertising business run by a high-end retailer - such as Saks, Neiman Marcus, Nordstrom, or Net-a-Porter - that lets brands buy ad placements using the retailer's first-party shopper data. It sells three things: onsite placements on the retailer's own site, offsite programmatic and CTV media targeted with the retailer's audience segments, and closed-loop measurement tying ad exposure to purchases made in the retailer's environment. The distinguishing asset is verified high-spend purchase data rather than modeled affluence estimates.",
           },
         },
         {
@@ -96,7 +96,7 @@ const articleSchema = {
           name: "How much do luxury retail media networks cost?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Onsite display typically runs $5–$25 CPM and sponsored product placements are often priced on a CPC basis, while offsite programmatic display runs $25–$60 CPM and offsite CTV runs roughly $28–$65 CPM. Luxury networks generally price at or above the top of these ranges. The practical question is not the absolute CPM but the data premium — offsite retail media often costs $15–$45 more per thousand impressions than the same inventory bought through a standard programmatic path, and that premium is only justified when the audience is genuinely unavailable from other data sources.",
+            text: "Onsite display typically runs $5–$25 CPM and sponsored product placements are often priced on a CPC basis, while offsite programmatic display runs $25–$60 CPM and offsite CTV runs roughly $28–$65 CPM. Luxury networks generally price at or above the top of these ranges. The practical question is not the absolute CPM but the data premium - offsite retail media often costs $15–$45 more per thousand impressions than the same inventory bought through a standard programmatic path, and that premium is only justified when the audience is genuinely unavailable from other data sources.",
           },
         },
         {
@@ -120,7 +120,7 @@ const articleSchema = {
           name: "How much budget should a luxury brand allocate to retail media?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "For most luxury and high-consideration brands, a 5–15% allocation of working media is appropriate once the channel has proven incremental. A first test should be capped at 8–12% of quarterly working media — large enough to generate readable signal given low luxury purchase frequency, small enough that a null result does not damage the year. Before committing, calculate the minimum detectable effect; many luxury retail media tests are statistically incapable of proving the lift they are asked to demonstrate.",
+            text: "For most luxury and high-consideration brands, a 5–15% allocation of working media is appropriate once the channel has proven incremental. A first test should be capped at 8–12% of quarterly working media - large enough to generate readable signal given low luxury purchase frequency, small enough that a null result does not damage the year. Before committing, calculate the minimum detectable effect; many luxury retail media tests are statistically incapable of proving the lift they are asked to demonstrate.",
           },
         },
         {
@@ -128,7 +128,7 @@ const articleSchema = {
           name: "What makes luxury retail media different from Amazon or Walmart retail media?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Three structural differences matter. Purchase frequency is roughly an order of magnitude lower — a luxury retailer may see a high-value customer four to eight times a year versus 40-plus for a grocer — which lengthens learning periods and widens confidence intervals. Addressable scale is far smaller, so campaigns hit frequency ceilings quickly. And cross-channel purchase leakage runs heavily in one direction, because luxury shoppers routinely discover at the retailer and buy at the brand boutique, making the retailer's closed-loop measurement a systematic undercount of total impact.",
+            text: "Three structural differences matter. Purchase frequency is roughly an order of magnitude lower - a luxury retailer may see a high-value customer four to eight times a year versus 40-plus for a grocer - which lengthens learning periods and widens confidence intervals. Addressable scale is far smaller, so campaigns hit frequency ceilings quickly. And cross-channel purchase leakage runs heavily in one direction, because luxury shoppers routinely discover at the retailer and buy at the brand boutique, making the retailer's closed-loop measurement a systematic undercount of total impact.",
           },
         },
       ],
@@ -145,8 +145,8 @@ export default function Page() {
       readingTime="11 min read"
       category="Programmatic Strategy"
       image={image}
-      imageAlt="Stillwater Media illustration of luxury retail media networks — an empty high-end department store atrium at blue hour with backlit glass vitrines and a brass staircase"
-      imageCaption="The most valuable shopper data in advertising sits inside a handful of luxury retailers — the question is what a brand actually gets when it buys access."
+      imageAlt="Stillwater Media illustration of luxury retail media networks - an empty high-end department store atrium at blue hour with backlit glass vitrines and a brass staircase"
+      imageCaption="The most valuable shopper data in advertising sits inside a handful of luxury retailers - the question is what a brand actually gets when it buys access."
       schemaMarkup={articleSchema}
     >
       <p>
@@ -168,8 +168,8 @@ export default function Page() {
       <p>
         <strong>The surface.</strong> Sponsored product placements, on-site display, category takeovers, and search
         results on the retailer's own property. This is the retailer's owned inventory. It is finite, it is the
-        highest-margin product they sell — onsite formats carry 70–90% gross margins for the retailer because they
-        already own the pixel — and it is where the shopper is closest to a transaction.
+        highest-margin product they sell - onsite formats carry 70–90% gross margins for the retailer because they
+        already own the pixel - and it is where the shopper is closest to a transaction.
       </p>
       <p>
         <strong>The data.</strong> The retailer's purchase history, browse behavior, and identity graph, activated
@@ -199,8 +199,8 @@ export default function Page() {
       <p>
         <strong>Basket frequency is an order of magnitude lower.</strong> A grocery network sees the same household 40+
         times a year. A luxury department store may see a high-value customer four to eight times annually. Every model
-        that depends on repeat exposure and rapid conversion signal — bid optimization, incrementality readouts, budget
-        pacing — runs on far thinner data. Expect longer learning periods and wider confidence intervals.
+        that depends on repeat exposure and rapid conversion signal - bid optimization, incrementality readouts, budget
+        pacing - runs on far thinner data. Expect longer learning periods and wider confidence intervals.
       </p>
       <p>
         <strong>Scale is the binding constraint, not targeting precision.</strong> The addressable on-site audience for a
@@ -209,7 +209,7 @@ export default function Page() {
         luxury retail media hit frequency ceilings inside of three weeks.
       </p>
       <p>
-        <strong>The halo is real and largely unmeasured.</strong> Luxury purchases migrate between channels constantly —
+        <strong>The halo is real and largely unmeasured.</strong> Luxury purchases migrate between channels constantly -
         discovered at the retailer, purchased at the brand boutique, or the reverse. Retail media's closed-loop
         measurement captures only the transaction that happens inside the retailer. For a brand with meaningful DTC or
         boutique revenue, that is a systematic undercount, and it is the single strongest argument for buying retail
@@ -266,7 +266,7 @@ export default function Page() {
         </table>
       </div>
       <p>
-        Two things to hold onto. First, the ROAS figures are almost always retailer-attributed, not incremental — more
+        Two things to hold onto. First, the ROAS figures are almost always retailer-attributed, not incremental - more
         on that below. Second, offsite retail media CPMs of $25–$60 mean a brand is paying a $15–$45 data premium over
         what the same impression costs through a standard <a href="/capabilities">premium programmatic buy</a>. That
         premium is defensible when the segment is genuinely unavailable elsewhere. It is not defensible when the retailer
@@ -287,7 +287,7 @@ export default function Page() {
         <strong>Start onsite if</strong> the brand already sells through the retailer and the objective is share of
         category. Onsite is the closest thing to a controlled environment retail media offers: the audience is
         in-market, the competitive set is visible, and conversion is measured natively. Budget floors are usually modest
-        — six-figure annual commitments are common, and several networks will test at less.
+        - six-figure annual commitments are common, and several networks will test at less.
       </p>
       <p>
         <strong>Start offsite if</strong> the objective is reaching the retailer's high-spend customers with a brand
@@ -307,7 +307,7 @@ export default function Page() {
       <p>
         Every retail media network reports on its own attribution model, typically a 14-day view-through and 14- or
         30-day click-through window inside its own environment. That model will credit the network for purchases from
-        customers who were going to buy regardless — and in luxury, where brand demand is pre-existing and strong, that
+        customers who were going to buy regardless - and in luxury, where brand demand is pre-existing and strong, that
         share is large. Across the retail media tests we have run for premium clients, retailer-attributed ROAS has
         typically overstated <a href="/insights/true-incremental-lift-measurement">true incremental lift</a> by a factor
         of 1.8x to 3.5x. A reported 4.2x ROAS is often a 1.4x–2.3x incremental reality.
@@ -321,14 +321,14 @@ export default function Page() {
       <p>
         Brands routinely compare retail media ROAS against their branded search ROAS or their overall blended return,
         both of which are contaminated by existing demand. The correct comparison is against the incremental return of
-        the next-best alternative use of that dollar — usually <a href="/capabilities">premium CTV</a> or a direct
+        the next-best alternative use of that dollar - usually <a href="/capabilities">premium CTV</a> or a direct
         publisher deal against the same audience. When we run that comparison honestly, offsite luxury retail media wins
         roughly a third of the time, and it wins on audience verification rather than on cost.
       </p>
       <h3>3. Cross-channel purchase leakage runs one direction</h3>
       <p>
         Retail media undercounts because purchases that migrate to the brand's own channels are invisible to the
-        retailer. This cuts in the brand's favor and is worth quantifying — a matched-market test or a clean-room
+        retailer. This cuts in the brand's favor and is worth quantifying - a matched-market test or a clean-room
         analysis comparing exposed and unexposed cohorts across both the retailer's and the brand's transaction data
         will size it. Brands that do this work often find the retailer's numbers were conservative on total revenue
         impact even while being generous on incrementality.
@@ -338,8 +338,8 @@ export default function Page() {
       <p>A defensible first test takes one quarter and follows six steps.</p>
       <ol>
         <li>
-          <strong>Define the audience you cannot otherwise buy.</strong> Write down the specific segment — &quot;customers
-          with $15,000+ trailing-twelve-month spend in fine jewelry&quot; — and ask your data partners whether they can
+          <strong>Define the audience you cannot otherwise buy.</strong> Write down the specific segment - &quot;customers
+          with $15,000+ trailing-twelve-month spend in fine jewelry&quot; - and ask your data partners whether they can
           approximate it. If they can within 20%, the retail media premium is probably not worth paying.
         </li>
         <li>
@@ -452,8 +452,8 @@ export default function Page() {
       <h2>Frequently Asked Questions</h2>
       <h3>What is a luxury retail media network?</h3>
       <p>
-        A luxury retail media network is an advertising business run by a high-end retailer — such as Saks, Neiman
-        Marcus, Nordstrom, or Net-a-Porter — that lets brands buy ad placements using the retailer's first-party shopper
+        A luxury retail media network is an advertising business run by a high-end retailer - such as Saks, Neiman
+        Marcus, Nordstrom, or Net-a-Porter - that lets brands buy ad placements using the retailer's first-party shopper
         data. It sells three things: onsite placements on the retailer's own site, offsite programmatic and CTV media
         targeted with the retailer's audience segments, and closed-loop measurement tying ad exposure to purchases made
         in the retailer's environment. The distinguishing asset is verified high-spend purchase data rather than modeled
@@ -463,7 +463,7 @@ export default function Page() {
       <p>
         Onsite display typically runs $5–$25 CPM and sponsored product placements are often priced on a CPC basis, while
         offsite programmatic display runs $25–$60 CPM and offsite CTV runs roughly $28–$65 CPM. Luxury networks generally
-        price at or above the top of these ranges. The practical question is not the absolute CPM but the data premium —
+        price at or above the top of these ranges. The practical question is not the absolute CPM but the data premium -
         offsite retail media often costs $15–$45 more per thousand impressions than the same inventory bought through a
         standard programmatic path, and that premium is only justified when the audience is genuinely unavailable from
         other data sources.
@@ -487,15 +487,15 @@ export default function Page() {
       <h3>How much budget should a luxury brand allocate to retail media?</h3>
       <p>
         For most luxury and high-consideration brands, a 5–15% allocation of working media is appropriate once the
-        channel has proven incremental. A first test should be capped at 8–12% of quarterly working media — large enough
+        channel has proven incremental. A first test should be capped at 8–12% of quarterly working media - large enough
         to generate readable signal given low luxury purchase frequency, small enough that a null result does not damage
         the year. Before committing, calculate the minimum detectable effect; many luxury retail media tests are
         statistically incapable of proving the lift they are asked to demonstrate.
       </p>
       <h3>What makes luxury retail media different from Amazon or Walmart retail media?</h3>
       <p>
-        Three structural differences matter. Purchase frequency is roughly an order of magnitude lower — a luxury
-        retailer may see a high-value customer four to eight times a year versus 40-plus for a grocer — which lengthens
+        Three structural differences matter. Purchase frequency is roughly an order of magnitude lower - a luxury
+        retailer may see a high-value customer four to eight times a year versus 40-plus for a grocer - which lengthens
         learning periods and widens confidence intervals. Addressable scale is far smaller, so campaigns hit frequency
         ceilings quickly. And cross-channel purchase leakage runs heavily in one direction, because luxury shoppers
         routinely discover at the retailer and buy at the brand boutique, making the retailer's closed-loop measurement a

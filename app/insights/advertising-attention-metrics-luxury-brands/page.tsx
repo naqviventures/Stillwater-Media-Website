@@ -37,12 +37,12 @@ const faqs = [
   {
     question: "What are advertising attention metrics?",
     answer:
-      "Advertising attention metrics quantify whether a human actually looked at an ad and for how long, rather than whether the ad had a technical opportunity to be seen. They extend the viewability standard — 50% of pixels in view for one second — by adding measured or modeled human engagement, expressed either as attentive seconds per impression or as a placement quality index. The two dominant approaches are panel-based eye tracking, which observes gaze on an opt-in panel and models the result to census data, and modeled exposure quality, which scores placements from signals like share of screen, pod position, ad density, and dwell.",
+      "Advertising attention metrics quantify whether a human actually looked at an ad and for how long, rather than whether the ad had a technical opportunity to be seen. They extend the viewability standard - 50% of pixels in view for one second - by adding measured or modeled human engagement, expressed either as attentive seconds per impression or as a placement quality index. The two dominant approaches are panel-based eye tracking, which observes gaze on an opt-in panel and models the result to census data, and modeled exposure quality, which scores placements from signals like share of screen, pod position, ad density, and dwell.",
   },
   {
     question: "What is the difference between Adelaide's AU and Lumen's APM?",
     answer:
-      "Adelaide's AU is an Attention Unit score, a 1–100 index that rates the quality of a placement based on dozens of exposure signals calibrated against downstream outcomes. Lumen's APM is Attention Per Mille, a duration measure expressing total attentive seconds delivered per thousand impressions, derived from webcam-based eye-tracking panels. AU answers \u201chow good is this placement,\u201d APM answers \u201chow many seconds of attention did I buy,\u201d and the two are not mathematically convertible — a plan optimized to one will not automatically score well on the other.",
+      "Adelaide's AU is an Attention Unit score, a 1–100 index that rates the quality of a placement based on dozens of exposure signals calibrated against downstream outcomes. Lumen's APM is Attention Per Mille, a duration measure expressing total attentive seconds delivered per thousand impressions, derived from webcam-based eye-tracking panels. AU answers \u201chow good is this placement,\u201d APM answers \u201chow many seconds of attention did I buy,\u201d and the two are not mathematically convertible - a plan optimized to one will not automatically score well on the other.",
   },
   {
     question: "What are good attention benchmarks in 2026?",
@@ -52,12 +52,12 @@ const faqs = [
   {
     question: "Do attention metrics predict sales?",
     answer:
-      "They predict media quality and correlate with brand lift, aided recall, and, above certain thresholds, downstream conversion — but they measure the input, not the causal outcome. A campaign can post strong attention scores while producing no incremental business result, most commonly when the attention gains come from re-weighting delivery toward existing customers and prior site visitors who would have converted anyway. Attention should be used as an in-flight steering signal between holdout-based incrementality readouts, not as a substitute for them.",
+      "They predict media quality and correlate with brand lift, aided recall, and, above certain thresholds, downstream conversion - but they measure the input, not the causal outcome. A campaign can post strong attention scores while producing no incremental business result, most commonly when the attention gains come from re-weighting delivery toward existing customers and prior site visitors who would have converted anyway. Attention should be used as an in-flight steering signal between holdout-based incrementality readouts, not as a substitute for them.",
   },
   {
     question: "Should luxury brands buy media based on attention metrics?",
     answer:
-      "Yes, as a secondary optimization layer. High-consideration purchases require encoded memory that survives a 30-to-180-day consideration window, and memory encoding tracks attention duration far better than it tracks exposure count — which is precisely why frequency-heavy, attention-light plans underperform for luxury categories despite attractive CPMs. The practical implementation is to add cost per thousand attentive seconds to reporting, set format-specific thresholds rather than one global floor, cap attention-driven reallocation at 20% to 30% of budget per quarter, and reconcile against a holdout each quarter.",
+      "Yes, as a secondary optimization layer. High-consideration purchases require encoded memory that survives a 30-to-180-day consideration window, and memory encoding tracks attention duration far better than it tracks exposure count - which is precisely why frequency-heavy, attention-light plans underperform for luxury categories despite attractive CPMs. The practical implementation is to add cost per thousand attentive seconds to reporting, set format-specific thresholds rather than one global floor, cap attention-driven reallocation at 20% to 30% of budget per quarter, and reconcile against a holdout each quarter.",
   },
 ]
 
@@ -133,8 +133,8 @@ export default function Page() {
         served, viewable impression on a desktop banner and a served, viewable impression in a connected TV pod are
         counted identically, priced differently, and experienced in ways that are not remotely comparable. Current 2026
         benchmarks put average attentive time at roughly 1.4 seconds for a desktop banner, 4.7 seconds for a native unit,
-        9.2 seconds for rich media in-banner video, and about 22 seconds for a CTV placement. Same word —
-        &quot;impression&quot; — describing events that differ by a factor of fifteen.
+        9.2 seconds for rich media in-banner video, and about 22 seconds for a CTV placement. Same word -
+        &quot;impression&quot; - describing events that differ by a factor of fifteen.
       </p>
       <p>
         For a luxury or high-consideration brand, that gap is not an academic measurement problem. It is the difference
@@ -147,8 +147,8 @@ export default function Page() {
       <h2>What advertising attention metrics actually measure</h2>
       <p>
         Attention measurement is an attempt to quantify the probability and duration of human visual engagement with an
-        ad, rather than the mere technical opportunity to see it. Viewability — the MRC standard of 50% of pixels in view
-        for one second for display, two seconds for video — established a floor. It answered &quot;could this have been
+        ad, rather than the mere technical opportunity to see it. Viewability - the MRC standard of 50% of pixels in view
+        for one second for display, two seconds for video - established a floor. It answered &quot;could this have been
         seen?&quot; Attention metrics attempt the harder question: &quot;was it, and for how long?&quot;
       </p>
       <p>Two methodological schools dominate, and confusing them causes most of the misuse we see in the market.</p>
@@ -156,7 +156,7 @@ export default function Page() {
       <h3>Panel-based eye tracking</h3>
       <p>
         Firms like Lumen recruit opt-in panels who allow webcam-based gaze tracking while browsing normally. The panel
-        produces observed data — where eyes actually went, for how long — which is then used to build predictive models
+        produces observed data - where eyes actually went, for how long - which is then used to build predictive models
         applied to census-scale impression data. The headline metric here is <strong>Attention Per Mille (APM)</strong>:
         total attentive seconds delivered per thousand impressions. APM is useful because it is additive and comparable
         across formats, and because it converts directly into a cost efficiency figure: cost per thousand attentive
@@ -166,8 +166,8 @@ export default function Page() {
       <h3>Modeled exposure quality</h3>
       <p>
         Firms like Adelaide take a different route, scoring placements rather than tracking eyes. The{" "}
-        <strong>AU (Attention Unit)</strong> score is a 1–100 index built from dozens of placement-level signals — share
-        of screen, position in page or pod, ad density, dwell, device, environment quality — calibrated against
+        <strong>AU (Attention Unit)</strong> score is a 1–100 index built from dozens of placement-level signals - share
+        of screen, position in page or pod, ad density, dwell, device, environment quality - calibrated against
         downstream outcome data. Adelaide&apos;s own 2026 Outcomes Guide, drawing on 60 case studies across 16
         industries, reports that attention-optimized campaigns averaged roughly a 33% lift in upper-funnel KPIs and a 53%
         increase in lower-funnel impact versus their controls.
@@ -231,7 +231,7 @@ export default function Page() {
       </div>
       <p>
         Three things in that table deserve emphasis. First, CTV&apos;s dominance on attentive seconds is so large that
-        even at a $45 CPM it is frequently the cheapest attention on the plan — a $45 CPM delivering 22 attentive seconds
+        even at a $45 CPM it is frequently the cheapest attention on the plan - a $45 CPM delivering 22 attentive seconds
         per impression costs roughly $2.05 per thousand attentive seconds, while a $4 CPM banner delivering 1.4 seconds
         costs about $2.86. The &quot;expensive&quot; channel is the efficient one, and the reverse is only true if you
         believe impressions and attention are the same commodity.
@@ -249,7 +249,7 @@ export default function Page() {
 
       <h2>Why attention matters more for high-consideration brands</h2>
       <p>
-        For a $40 impulse purchase, a fraction of a second of brand exposure at high frequency can be enough —
+        For a $40 impulse purchase, a fraction of a second of brand exposure at high frequency can be enough -
         recognition at the shelf is the job. For a private aviation membership, a $4M listing, or a wealth management
         relationship, the job is different: build enough encoded memory that the brand is present in a consideration set
         that forms over 30 to 180 days, then survive a comparison process involving multiple people.
@@ -263,13 +263,13 @@ export default function Page() {
       </p>
       <p>
         This is also the strongest available argument for the premium CTV allocation that most luxury brands under-fund.
-        It is not a taste argument — it is that the channel delivers the duration threshold the category requires. Our
+        It is not a taste argument - it is that the channel delivers the duration threshold the category requires. Our
         view on{" "}
         <a href="/insights/premium-ctv-advertising-agency">where premium CTV belongs on a luxury plan</a> rests on
         exactly this arithmetic.
       </p>
 
-      <h2>What attention metrics predict — and what they don&apos;t</h2>
+      <h2>What attention metrics predict - and what they don&apos;t</h2>
       <p>
         Attention metrics are a leading indicator of media quality, and a reasonable proxy for the probability that an
         impression could have had an effect. They correlate with brand lift, aided recall, and, at sufficient AU
@@ -319,8 +319,8 @@ export default function Page() {
         </li>
         <li>
           <strong>Set format-specific thresholds, not one global floor.</strong> A single AU floor across the plan will
-          simply defund display and native entirely. Set a threshold within each format — for example, keep the top
-          two-thirds of placements by score inside each channel — so the metric optimizes composition rather than just
+          simply defund display and native entirely. Set a threshold within each format - for example, keep the top
+          two-thirds of placements by score inside each channel - so the metric optimizes composition rather than just
           reallocating to CTV.
         </li>
         <li>
@@ -353,7 +353,7 @@ export default function Page() {
         </li>
         <li>
           <strong>Optimizing to attention alone.</strong> Produces plans that skew heavily toward retargeting and
-          existing customers — high attention, low incrementality.
+          existing customers - high attention, low incrementality.
         </li>
         <li>
           <strong>Applying a single threshold across formats.</strong> Defunds every non-video channel by construction,
@@ -388,14 +388,14 @@ export default function Page() {
       </p>
       <p>
         For streaming audio and podcasts, attention is approximated through listen-through rate, host-read versus
-        announcer-read format, ad position within the episode, and — where available — device and environment signals
+        announcer-read format, ad position within the episode, and - where available - device and environment signals
         distinguishing headphone from speaker listening. Host-read midroll placements in shows with established audience
         relationships consistently outperform programmatically inserted preroll on every available proxy, often by a wide
         margin, which is why we buy podcast inventory by show rather than by category whenever the scale allows.
       </p>
       <p>
         The unifying rule across all three: no cross-channel attention currency exists that is honest. Compare within a
-        channel, and use incrementality — not a blended attention score — to arbitrate between them.
+        channel, and use incrementality - not a blended attention score - to arbitrate between them.
       </p>
 
       <h2>Where this leaves a luxury media plan</h2>
@@ -411,7 +411,7 @@ export default function Page() {
       <h2>Work with Stillwater Media</h2>
       <p>
         We build attention measurement into premium CTV and programmatic plans for luxury brands as a steering layer
-        beneath a holdout-based incrementality design — never as a substitute for it. That means baseline periods,
+        beneath a holdout-based incrementality design - never as a substitute for it. That means baseline periods,
         format-specific thresholds, cost per attentive second in every report, and a quarterly reconciliation against
         measured lift. We take a limited number of engagements each quarter so that this level of rigor is applied to
         every account.

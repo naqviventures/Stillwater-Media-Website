@@ -4,7 +4,7 @@ import { ArticleLayout } from "@/components/article-layout"
 const canonicalUrl = "https://www.stillwatermedia.io/insights/contextual-advertising-luxury-brands"
 const title = "Contextual Advertising for Luxury Brands: 2026 Guide"
 const description =
-  "Modern contextual advertising reads meaning, not keywords. How luxury brands use it for cookieless reach, brand safety, and attention — and how to measure it."
+  "Modern contextual advertising reads meaning, not keywords. How luxury brands use it for cookieless reach, brand safety, and attention - and how to measure it."
 const image = "/images/contextual-advertising-luxury-brands.png"
 const imageAlt =
   "A private residential library at dusk with a single reading chair lit by a warm brass lamp, an open book and a dark tablet on the side table"
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Contextual Advertising for Luxury Brands: How Modern Contextual Actually Works",
     description:
-      "Contextual has moved from keyword matching to semantic understanding. A working guide for luxury advertisers on cookieless reach, adjacency control, and attention — from Stillwater Media.",
+      "Contextual has moved from keyword matching to semantic understanding. A working guide for luxury advertisers on cookieless reach, adjacency control, and attention - from Stillwater Media.",
     type: "article",
     url: canonicalUrl,
     siteName: "Stillwater Media",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Contextual Advertising for Luxury Brands: A 2026 Guide",
     description:
-      "Semantic contextual targeting, adjacency control, and the measurement approaches that separate reach from impact — a practical guide for luxury advertisers.",
+      "Semantic contextual targeting, adjacency control, and the measurement approaches that separate reach from impact - a practical guide for luxury advertisers.",
     images: [{ url: image, alt: imageAlt }],
   },
 }
@@ -38,12 +38,12 @@ const faqs = [
   {
     question: "What is contextual advertising?",
     answer:
-      "Contextual advertising places ads based on the meaning of the content a person is currently engaging with, rather than on who that person is or what they have done before. Modern contextual uses natural language processing and computer vision to read the full semantic meaning, sentiment, and imagery of a page or video, then matches ads to environments that are relevant and brand safe — a fundamental step beyond the crude keyword matching that defined contextual a decade ago.",
+      "Contextual advertising places ads based on the meaning of the content a person is currently engaging with, rather than on who that person is or what they have done before. Modern contextual uses natural language processing and computer vision to read the full semantic meaning, sentiment, and imagery of a page or video, then matches ads to environments that are relevant and brand safe - a fundamental step beyond the crude keyword matching that defined contextual a decade ago.",
   },
   {
     question: "Is contextual advertising better than audience targeting for luxury brands?",
     answer:
-      "Neither is universally better; they solve different problems. Audience targeting reaches a specific known person wherever they go, which suits retargeting and first-party activation. Contextual reaches anyone consuming relevant premium content, which suits cookieless environments, upper-funnel reach, and brand-safe adjacency. Most effective luxury plans run both — contextual for scaled premium reach and adjacency control, audience data for precision on wealth tiers and known prospects.",
+      "Neither is universally better; they solve different problems. Audience targeting reaches a specific known person wherever they go, which suits retargeting and first-party activation. Contextual reaches anyone consuming relevant premium content, which suits cookieless environments, upper-funnel reach, and brand-safe adjacency. Most effective luxury plans run both - contextual for scaled premium reach and adjacency control, audience data for precision on wealth tiers and known prospects.",
   },
   {
     question: "Does contextual advertising work without cookies?",
@@ -53,7 +53,7 @@ const faqs = [
   {
     question: "How is modern contextual different from the keyword contextual of the 2010s?",
     answer:
-      "Keyword contextual matched or blocked pages on the presence of individual words, which produced both false positives and damaging false negatives — a luxury travel ad blocked from a story because it contained the word \u201ccrash\u201d in a market context, or placed against unsafe content that happened to avoid flagged terms. Modern contextual uses NLP and image recognition to understand meaning, tone, and sentiment at the page and scene level, which is why it can distinguish a review of a luxury resort from a news report about a disaster at one.",
+      "Keyword contextual matched or blocked pages on the presence of individual words, which produced both false positives and damaging false negatives - a luxury travel ad blocked from a story because it contained the word \u201ccrash\u201d in a market context, or placed against unsafe content that happened to avoid flagged terms. Modern contextual uses NLP and image recognition to understand meaning, tone, and sentiment at the page and scene level, which is why it can distinguish a review of a luxury resort from a news report about a disaster at one.",
   },
   {
     question: "How do you measure the effectiveness of contextual advertising?",
@@ -63,7 +63,7 @@ const faqs = [
   {
     question: "What contextual environments work best for luxury brands?",
     answer:
-      "The strongest environments are premium editorial (travel, design, food and wine, art and culture, business and finance), premium video and CTV content in those same genres, and high-attention long-form contexts where the audience is engaged rather than scrolling. The specific category matters less than the quality and attention of the environment — a luxury brand is generally better served by a high-attention placement in adjacent premium content than by a low-attention placement in a narrowly on-topic but cluttered one.",
+      "The strongest environments are premium editorial (travel, design, food and wine, art and culture, business and finance), premium video and CTV content in those same genres, and high-attention long-form contexts where the audience is engaged rather than scrolling. The specific category matters less than the quality and attention of the environment - a luxury brand is generally better served by a high-attention placement in adjacent premium content than by a low-attention placement in a narrowly on-topic but cluttered one.",
   },
 ]
 
@@ -132,7 +132,7 @@ export default function Page() {
       category="Programmatic Strategy"
       image={image}
       imageAlt={imageAlt}
-      imageCaption="Contextual is about the quality of the room the ad walks into — a discipline that rewards attention over adjacency alone."
+      imageCaption="Contextual is about the quality of the room the ad walks into - a discipline that rewards attention over adjacency alone."
       schemaMarkup={schemaMarkup}
     >
       <p>
@@ -141,7 +141,7 @@ export default function Page() {
         it worked badly. Modern contextual is a different technology: it uses natural language processing and computer
         vision to understand the meaning, tone, and imagery of an environment, and it places ads against that meaning. For
         luxury and high-consideration brands facing cookie deprecation, rising brand-safety stakes, and a mandate to show
-        up only in premium company, this is one of the most useful tools available — and one of the most misunderstood.
+        up only in premium company, this is one of the most useful tools available - and one of the most misunderstood.
       </p>
       <p>
         The misunderstanding usually takes one of two forms. Either the brand dismisses contextual as the blunt
@@ -158,8 +158,8 @@ export default function Page() {
         both directions: it blocked safe premium environments and failed to catch unsafe ones.
       </p>
       <p>
-        Modern contextual reads meaning. Natural language processing models parse the full semantic content of a page —
-        subject, sentiment, entities, and tone — while computer vision analyzes the imagery and, increasingly, the frames
+        Modern contextual reads meaning. Natural language processing models parse the full semantic content of a page -
+        subject, sentiment, entities, and tone - while computer vision analyzes the imagery and, increasingly, the frames
         of streaming video. The system can distinguish a glowing review of a luxury resort from a news report about a
         tragedy at that same resort, even though both mention the property by name. That distinction is the entire value
         of the category for a luxury brand, because adjacency is reputation.
@@ -169,14 +169,14 @@ export default function Page() {
       <p>
         Contextual requires no cookie, no device graph, and no persistent identifier. It reads the environment in front of
         the user and matches to it. As Safari and Firefox block third-party cookies outright and Chrome shifts users
-        toward opt-in controls, audience-based targeting loses meaningful coverage — commonly 30–60% depending on the
+        toward opt-in controls, audience-based targeting loses meaningful coverage - commonly 30–60% depending on the
         environment. Contextual delivers consistent addressability precisely where audience targeting degrades, which is
         why it has moved from a fallback tactic to a primary reach strategy on most sophisticated plans.
       </p>
       <p>
         For our luxury clients, contextual rarely solves an addressability problem they could not otherwise solve with{" "}
         <a href="/insights/wealth-based-audience-segmentation">wealth-based audience segmentation</a> and first-party
-        onboarding. What it solves is scaled premium reach with adjacency control — the ability to be present across a
+        onboarding. What it solves is scaled premium reach with adjacency control - the ability to be present across a
         wide set of high-quality environments without depending on identifiers that are disappearing.
       </p>
 
@@ -222,7 +222,7 @@ export default function Page() {
       <h2>Adjacency and Brand Safety Are the Real Product</h2>
       <p>
         For a luxury brand, the difference between contextual and cheaper reach is what the ad runs next to. Modern
-        contextual lets a brand define not just what to avoid but what to seek — the tone, the subject matter, the
+        contextual lets a brand define not just what to avoid but what to seek - the tone, the subject matter, the
         production quality of the surrounding content. This is a more precise instrument than a blunt blocklist, and it
         pairs naturally with{" "}
         <a href="/insights/brand-safety-programmatic-advertising">programmatic brand safety controls</a> rather than
@@ -239,7 +239,7 @@ export default function Page() {
       <h2>How Contextual Pairs With Audience Data</h2>
       <p>
         The strongest plans do not choose between contextual and audience targeting; they layer them. Contextual
-        establishes the premium environment and cookieless reach; audience data — where available and consented —
+        establishes the premium environment and cookieless reach; audience data - where available and consented -
         sharpens delivery toward known wealth tiers and first-party prospects. Layering contextual with an{" "}
         <a href="/insights/affluent-audience-targeting">affluent audience</a> signal typically raises qualified engagement
         without sacrificing the adjacency control that made the placement premium in the first place.
@@ -253,7 +253,7 @@ export default function Page() {
       <h2>Out-of-Home Is Contextual Too</h2>
       <p>
         The contextual principle extends beyond screens people hold. Digital out-of-home targeted by location, daypart,
-        and surrounding environment is contextual by nature — the &quot;content&quot; is the physical place. For luxury
+        and surrounding environment is contextual by nature - the &quot;content&quot; is the physical place. For luxury
         brands,{" "}
         <a href="/insights/dooh-affluent-location-targeting">DOOH targeted to affluent locations</a> is a contextual play
         that reaches high-net-worth audiences in premium physical contexts, and it inherits the same cookieless resilience
@@ -283,7 +283,7 @@ export default function Page() {
       </ol>
       <p>
         A contextual line that shows strong attention and a positive brand-lift result but no incremental business effect
-        is still doing a job — it is just an upper-funnel job, and it should be budgeted and evaluated as one.
+        is still doing a job - it is just an upper-funnel job, and it should be budgeted and evaluated as one.
       </p>
 
       <h2>What Good Contextual Looks Like for a Luxury Brand</h2>

@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: "Streaming Platform Advertising Agency: How Luxury Brands Buy CTV, OTT, and Streaming Audio",
     description:
-      "What a streaming platform advertising agency actually does for luxury brands — planning and buying across Netflix, Disney+, Prime Video, YouTube, and streaming audio; securing premium inventory through private marketplace deals; engineering affluent audiences; and measuring incremental lift rather than the last click.",
+      "What a streaming platform advertising agency actually does for luxury brands - planning and buying across Netflix, Disney+, Prime Video, YouTube, and streaming audio; securing premium inventory through private marketplace deals; engineering affluent audiences; and measuring incremental lift rather than the last click.",
     type: "article",
     url: "https://www.stillwatermedia.io/insights/streaming-platform-advertising-agency",
     images: [
@@ -37,13 +37,13 @@ export default function StreamingPlatformAdvertisingAgencyPage() {
     "@type": "Article",
     headline: "Streaming Platform Advertising Agency: How Luxury Brands Buy CTV, OTT, and Streaming Audio",
     description:
-      "A strategist's guide to what a streaming platform advertising agency does for luxury and high-consideration brands — how it plans and buys across Netflix, Disney+, Prime Video, YouTube Select, and streaming audio; how it secures premium inventory through private marketplace deals; how it engineers affluent audiences at the household level; and how it measures incremental lift, brand lift, and lifetime value rather than the last click.",
+      "A strategist's guide to what a streaming platform advertising agency does for luxury and high-consideration brands - how it plans and buys across Netflix, Disney+, Prime Video, YouTube Select, and streaming audio; how it secures premium inventory through private marketplace deals; how it engineers affluent audiences at the household level; and how it measures incremental lift, brand lift, and lifetime value rather than the last click.",
     image: {
       "@type": "ImageObject",
       url: "https://www.stillwatermedia.io/images/streaming-platform-advertising-agency.png",
       width: 1200,
       height: 630,
-      caption: "Streaming platform advertising agency for luxury brands — Stillwater Media",
+      caption: "Streaming platform advertising agency for luxury brands - Stillwater Media",
     },
     author: {
       "@type": "Organization",
@@ -67,7 +67,7 @@ export default function StreamingPlatformAdvertisingAgencyPage() {
     },
     keywords:
       "streaming platform advertising agency, connected TV advertising for luxury brands, OTT advertising luxury brands, premium CTV advertising agency, streaming TV advertising luxury, Disney Plus advertising for brands, Netflix advertising premium brands, Prime Video advertising strategy, streaming audio advertising luxury, affluent audience targeting, private marketplace deals luxury advertising",
-    articleSection: "Service & Capability Guides — Streaming",
+    articleSection: "Service & Capability Guides - Streaming",
     wordCount: 2180,
     inLanguage: "en-US",
   }
@@ -99,7 +99,7 @@ export default function StreamingPlatformAdvertisingAgencyPage() {
             name: "What is a streaming platform advertising agency?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "It is a media partner that plans, buys, and measures advertising across the entire streaming ecosystem — connected TV services like Netflix, Disney+, and Prime Video, ad-supported OTT and FAST channels, YouTube and YouTube Select, and streaming audio and podcasts — on behalf of a single brand's objectives rather than any one platform's inventory. For luxury brands, the agency's role is to navigate a fragmented landscape, secure premium and brand-safe placements, control frequency across platforms, and prove the program produced real lift.",
+              text: "It is a media partner that plans, buys, and measures advertising across the entire streaming ecosystem - connected TV services like Netflix, Disney+, and Prime Video, ad-supported OTT and FAST channels, YouTube and YouTube Select, and streaming audio and podcasts - on behalf of a single brand's objectives rather than any one platform's inventory. For luxury brands, the agency's role is to navigate a fragmented landscape, secure premium and brand-safe placements, control frequency across platforms, and prove the program produced real lift.",
             },
           },
           {
@@ -145,17 +145,17 @@ export default function StreamingPlatformAdvertisingAgencyPage() {
       author="Stillwater Media"
       date="August 9, 2026"
       readingTime="14 min"
-      category="Service & Capability Guides — Streaming"
+      category="Service & Capability Guides - Streaming"
       image="/images/streaming-platform-advertising-agency.png"
       imageAlt="Stillwater Media guide illustration on choosing a streaming platform advertising agency for luxury brands showing a refined living room with a softly glowing large screen at blue hour framed by city-view windows"
-      imageCaption="Affluent audiences have moved to streaming — and reaching them well takes an agency that can plan, buy, and measure across every major platform."
+      imageCaption="Affluent audiences have moved to streaming - and reaching them well takes an agency that can plan, buy, and measure across every major platform."
       schemaMarkup={schemaMarkup}
     >
       <p>
         A streaming platform advertising agency is a media partner that plans, buys, and measures advertising across the
-        streaming ecosystem — connected TV platforms like Netflix, Disney+, Prime Video, Max, and Peacock; ad-supported OTT
+        streaming ecosystem - connected TV platforms like Netflix, Disney+, Prime Video, Max, and Peacock; ad-supported OTT
         and free ad-supported streaming television (FAST) services; YouTube and YouTube Select; and streaming audio on
-        Spotify, Pandora, and podcasts — on behalf of a single brand&apos;s objectives rather than any one platform&apos;s
+        Spotify, Pandora, and podcasts - on behalf of a single brand&apos;s objectives rather than any one platform&apos;s
         inventory. For luxury and high-consideration brands, that distinction matters enormously. The affluent audience has
         largely abandoned traditional linear television for streaming, but the streaming landscape is fragmented across
         dozens of apps, three different buying methods, and wildly varying inventory quality. A streaming platform
@@ -188,7 +188,7 @@ export default function StreamingPlatformAdvertisingAgencyPage() {
         Prime Video, Max, a FAST channel, and YouTube in a single evening. No one platform reaches the full audience, and
         each has its own inventory, ad formats, targeting capabilities, and minimums. Second, the buying methods differ. The
         same impression can be purchased through a platform&apos;s direct sales team, through a private marketplace (PMP)
-        deal, or through the open programmatic exchange — and those routes deliver very different inventory quality,
+        deal, or through the open programmatic exchange - and those routes deliver very different inventory quality,
         transparency, and price. Third, quality varies enormously. The open streaming exchange is riddled with low-quality
         apps, misdeclared inventory, and made-for-advertising content that no luxury brand should appear beside. A streaming
         platform advertising agency earns its place by turning that fragmented, uneven landscape into a coherent,
@@ -207,7 +207,7 @@ export default function StreamingPlatformAdvertisingAgencyPage() {
       <ul>
         <li>
           <strong>Audience engineering.</strong> Before any inventory is bought, the target affluent household is defined
-          from first-party data, deterministic wealth signals, category intent, and precise geography — not a broad
+          from first-party data, deterministic wealth signals, category intent, and precise geography - not a broad
           age-and-income box.
         </li>
         <li>
@@ -225,7 +225,7 @@ export default function StreamingPlatformAdvertisingAgencyPage() {
         </li>
         <li>
           <strong>Cross-platform frequency management.</strong> It caps and coordinates exposure across platforms so no
-          household is bombarded — a problem self-serve buying cannot solve because each platform only sees its own
+          household is bombarded - a problem self-serve buying cannot solve because each platform only sees its own
           delivery.
         </li>
         <li>
@@ -317,7 +317,7 @@ export default function StreamingPlatformAdvertisingAgencyPage() {
         placement, usually at a premium price and with more manual setup. Private marketplace deals sit in the middle:
         curated, invitation-only inventory bought programmatically, combining premium quality and brand safety with the
         efficiency and audience targeting of programmatic. The open exchange offers the most scale and the lowest prices but
-        the least transparency and the greatest brand-safety risk — it is where misdeclared apps and made-for-advertising
+        the least transparency and the greatest brand-safety risk - it is where misdeclared apps and made-for-advertising
         content proliferate.
       </p>
 
@@ -340,7 +340,7 @@ export default function StreamingPlatformAdvertisingAgencyPage() {
         activates them across platforms through identity resolution. The layers typically include first-party data the brand
         already owns, such as customers and CRM matches; deterministic wealth and asset signals; category and purchase
         intent; and precise geography down to the affluent ZIP codes, suburbs, and buildings where wealth concentrates. On
-        platforms with strong first-party data — Amazon&apos;s purchase signals, Disney&apos;s authenticated audiences —
+        platforms with strong first-party data - Amazon&apos;s purchase signals, Disney&apos;s authenticated audiences -
         those native capabilities are layered in as well. The result is a household-level definition of the target audience
         that travels across platforms, rather than a separate, blunt demographic buy on each app. This is the difference
         between advertising to &quot;affluent people, probably&quot; and advertising to a defined set of high-value
@@ -370,8 +370,8 @@ export default function StreamingPlatformAdvertisingAgencyPage() {
 
       <p>
         Format choice shapes how a premium brand is perceived on streaming, and a good agency matches format to intent
-        rather than defaulting to whatever a platform sells hardest. Non-skippable in-stream video on connected TV —
-        typically fifteen or thirty seconds against premium originals — carries the most brand-building weight and is where
+        rather than defaulting to whatever a platform sells hardest. Non-skippable in-stream video on connected TV -
+        typically fifteen or thirty seconds against premium originals - carries the most brand-building weight and is where
         luxury programs concentrate their upper-funnel spend, because a full, uninterrupted view in a lean-back
         living-room context reads as prestige. Pause ads and interactive CTV formats, offered on select platforms, can add
         high-attention, non-intrusive presence without disrupting the viewing experience. On YouTube, skippable in-stream
@@ -393,7 +393,7 @@ export default function StreamingPlatformAdvertisingAgencyPage() {
         </li>
         <li>
           <strong>Chasing the lowest CPM.</strong> Cheap streaming inventory usually means the open exchange, low-quality
-          apps, and brand-safety risk — the opposite of what a premium brand needs.
+          apps, and brand-safety risk - the opposite of what a premium brand needs.
         </li>
         <li>
           <strong>Buying platform by platform.</strong> Running separate, uncoordinated buys on each app makes
@@ -421,7 +421,7 @@ export default function StreamingPlatformAdvertisingAgencyPage() {
         construction. We control frequency across platforms so no household is overexposed, produce and sequence creative
         that reads as premium in a living-room context, and measure results through brand lift, incrementality testing, and
         exposure-based attribution rather than the last click. Because we take a limited number of engagements each quarter,
-        the work stays senior and the standards stay high — which is exactly what premium streaming media demands.
+        the work stays senior and the standards stay high - which is exactly what premium streaming media demands.
       </p>
 
       <hr className="my-8" />
@@ -431,7 +431,7 @@ export default function StreamingPlatformAdvertisingAgencyPage() {
       <p>
         If you are a luxury or high-consideration brand looking for a streaming platform advertising agency that can reach
         affluent audiences across every major platform with premium, brand-safe, well-measured media, we should talk. We
-        work best with brands whose customer lifetime value exceeds $5,000 and whose sales cycles run longer than 30 days —
+        work best with brands whose customer lifetime value exceeds $5,000 and whose sales cycles run longer than 30 days -
         the profile where a disciplined streaming program genuinely moves the business.
       </p>
     </ArticleLayout>

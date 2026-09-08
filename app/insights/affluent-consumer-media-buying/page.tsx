@@ -6,7 +6,7 @@ export const metadata = {
   },
   title: "Affluent Consumer Media Buying | Stillwater Media",
   description:
-    "How affluent consumer media buying works — building verified wealth audiences, choosing premium channels, and measuring what actually reaches HNW buyers.",
+    "How affluent consumer media buying works - building verified wealth audiences, choosing premium channels, and measuring what actually reaches HNW buyers.",
   openGraph: {
     title: "Affluent Consumer Media Buying: How Luxury Brands Reach Wealth, Not Just Income",
     description:
@@ -37,13 +37,13 @@ export default function AffluentConsumerMediaBuyingPage() {
     "@type": "Article",
     headline: "Affluent Consumer Media Buying: How Luxury Brands Reach Wealth, Not Just Income",
     description:
-      "A strategist's guide to affluent consumer media buying — what it is, why income is a weak proxy for wealth, how verified affluent audiences are engineered from first-party and deterministic data, which premium channels reach high-net-worth buyers, the CPM benchmarks involved, common mistakes, and how affluent media buying is measured for luxury and high-consideration brands.",
+      "A strategist's guide to affluent consumer media buying - what it is, why income is a weak proxy for wealth, how verified affluent audiences are engineered from first-party and deterministic data, which premium channels reach high-net-worth buyers, the CPM benchmarks involved, common mistakes, and how affluent media buying is measured for luxury and high-consideration brands.",
     image: {
       "@type": "ImageObject",
       url: "https://www.stillwatermedia.io/images/affluent-consumer-media-buying.png",
       width: 1200,
       height: 630,
-      caption: "How affluent consumer media buying works — Stillwater Media",
+      caption: "How affluent consumer media buying works - Stillwater Media",
     },
     author: {
       "@type": "Organization",
@@ -99,7 +99,7 @@ export default function AffluentConsumerMediaBuyingPage() {
             name: "What is affluent consumer media buying?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Affluent consumer media buying is the discipline of planning, purchasing, and measuring advertising specifically to reach genuinely wealthy audiences — households defined by accumulated assets and demonstrated luxury behavior rather than a coarse income bracket — across premium, brand-safe media where those audiences actually spend attention. It trades raw reach for precision, and cheap CPMs for cost-per-qualified-buyer.",
+              text: "Affluent consumer media buying is the discipline of planning, purchasing, and measuring advertising specifically to reach genuinely wealthy audiences - households defined by accumulated assets and demonstrated luxury behavior rather than a coarse income bracket - across premium, brand-safe media where those audiences actually spend attention. It trades raw reach for precision, and cheap CPMs for cost-per-qualified-buyer.",
             },
           },
           {
@@ -107,7 +107,7 @@ export default function AffluentConsumerMediaBuyingPage() {
             name: "Why is income a weak proxy for wealth in luxury targeting?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "A dual-income professional couple earning $220,000 in a high-cost metro, servicing a mortgage and two car loans, is not the same prospect as a household with $3 million in investable assets and a paid-off second home, even when their reported incomes look similar. Income measures cash flow; wealth measures accumulated assets. Affluent media buying targets deterministic wealth markers — property value, investable-asset indicators, verified purchase history — rather than a modeled income segment.",
+              text: "A dual-income professional couple earning $220,000 in a high-cost metro, servicing a mortgage and two car loans, is not the same prospect as a household with $3 million in investable assets and a paid-off second home, even when their reported incomes look similar. Income measures cash flow; wealth measures accumulated assets. Affluent media buying targets deterministic wealth markers - property value, investable-asset indicators, verified purchase history - rather than a modeled income segment.",
             },
           },
           {
@@ -123,7 +123,7 @@ export default function AffluentConsumerMediaBuyingPage() {
             name: "How is affluent media buying measured?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Because affluent purchases are considered and rarely completed in one session, last-click attribution misreads the channel. Sound measurement uses incrementality and holdout testing to isolate causal lift, brand lift studies to capture shifts in awareness and consideration, and attribution built for long cycles that feeds real CRM outcomes — qualified leads and closed high-value deals — back into the buying platforms so optimization trains on revenue rather than clicks.",
+              text: "Because affluent purchases are considered and rarely completed in one session, last-click attribution misreads the channel. Sound measurement uses incrementality and holdout testing to isolate causal lift, brand lift studies to capture shifts in awareness and consideration, and attribution built for long cycles that feeds real CRM outcomes - qualified leads and closed high-value deals - back into the buying platforms so optimization trains on revenue rather than clicks.",
             },
           },
         ],
@@ -140,13 +140,13 @@ export default function AffluentConsumerMediaBuyingPage() {
       category="Affluent Audience Strategy"
       image="/images/affluent-consumer-media-buying.png"
       imageAlt="Stillwater Media affluent consumer media buying illustration showing a refined coastal estate terrace at golden hour with a tablet depicting concentric audience segmentation rings representing wealth-based targeting for luxury brands"
-      imageCaption="Affluent consumer media buying targets accumulated wealth, not a demographic guess at income — verified assets, premium environments, and buyers whose lifetime value justifies the premium."
+      imageCaption="Affluent consumer media buying targets accumulated wealth, not a demographic guess at income - verified assets, premium environments, and buyers whose lifetime value justifies the premium."
       schemaMarkup={schemaMarkup}
     >
       <p>
         Affluent consumer media buying is the discipline of planning, purchasing, and measuring advertising specifically
-        to reach genuinely wealthy audiences — households defined by accumulated assets and demonstrated luxury behavior
-        rather than a coarse income bracket — across premium, brand-safe media where those audiences actually spend
+        to reach genuinely wealthy audiences - households defined by accumulated assets and demonstrated luxury behavior
+        rather than a coarse income bracket - across premium, brand-safe media where those audiences actually spend
         attention. It is a distinct practice from general media buying because the audience is rare, the inventory that
         reaches them is finite, the purchases are considered and high-value, and the cost of a wasted impression is far
         higher than in mass-market advertising. Done well, affluent consumer media buying trades raw reach for precision,
@@ -156,8 +156,8 @@ export default function AffluentConsumerMediaBuyingPage() {
       <p>
         At Stillwater Media we run affluent consumer media buying for luxury and high-consideration brands, and the first
         correction we make with almost every new client concerns the definition of the audience itself. Most media plans
-        that claim to target &quot;affluent&quot; consumers are in fact targeting <em>high income</em> — a $150,000
-        household-income segment pulled from a data marketplace — and income is a genuinely weak proxy for the wealth that
+        that claim to target &quot;affluent&quot; consumers are in fact targeting <em>high income</em> - a $150,000
+        household-income segment pulled from a data marketplace - and income is a genuinely weak proxy for the wealth that
         defines a luxury buyer. A dual-income professional couple earning $220,000 in a high-cost metro, servicing a
         mortgage and two car loans, is not the same prospect as a household with $3 million in investable assets and a
         paid-off second home, even if their reported incomes look similar. Affluent consumer media buying exists to find
@@ -175,14 +175,14 @@ export default function AffluentConsumerMediaBuyingPage() {
 
       <p>
         The first is <strong>scarcity of the audience.</strong> High-net-worth households are a small fraction of the
-        population — roughly the top few percent by investable assets — so the buying challenge is not filling a large
+        population - roughly the top few percent by investable assets - so the buying challenge is not filling a large
         funnel but finding a small, dispersed set of people without paying to reach the ninety-plus percent who will never
         buy. Precision is not a nicety; it is the entire game.
       </p>
 
       <p>
         The second is <strong>scarcity of the right inventory.</strong> The premium environments affluent audiences trust
-        — prestige publishers, premium streaming, curated podcasts, high-end out-of-home — represent a limited pool of
+        - prestige publishers, premium streaming, curated podcasts, high-end out-of-home - represent a limited pool of
         impressions. That finitude means affluent programs concentrate exposure quickly and must manage frequency
         deliberately, a problem mass campaigns rarely face.
       </p>
@@ -199,7 +199,7 @@ export default function AffluentConsumerMediaBuyingPage() {
       <h2>Wealth vs. Income: Building the Audience Correctly</h2>
 
       <p>
-        The core competency of affluent consumer media buying is wealth-based audience segmentation — defining the target
+        The core competency of affluent consumer media buying is wealth-based audience segmentation - defining the target
         by genuine indicators of accumulated wealth rather than by self-reported or modeled income. A serious program
         layers signals from strongest to weakest.
       </p>
@@ -211,8 +211,8 @@ export default function AffluentConsumerMediaBuyingPage() {
           downstream should be anchored to and validated against this seed.
         </li>
         <li>
-          <strong>Deterministic wealth markers.</strong> Observed, verifiable indicators — property values and ownership
-          records, investable-asset markers, verified luxury purchase history — sourced through compliant premium
+          <strong>Deterministic wealth markers.</strong> Observed, verifiable indicators - property values and ownership
+          records, investable-asset markers, verified luxury purchase history - sourced through compliant premium
           consumer data partnerships define a segment grounded in reality rather than inference.
         </li>
         <li>
@@ -227,7 +227,7 @@ export default function AffluentConsumerMediaBuyingPage() {
         </li>
         <li>
           <strong>Modeled expansion, used carefully.</strong> When deterministic reach is too small, a look-alike model
-          built off a high-quality seed can extend scale — but only with close monitoring, because every step of modeled
+          built off a high-quality seed can extend scale - but only with close monitoring, because every step of modeled
           expansion dilutes the audience back toward &quot;high income&quot; and eventually toward the general population.
         </li>
       </ol>
@@ -263,8 +263,8 @@ export default function AffluentConsumerMediaBuyingPage() {
           </tr>
           <tr>
             <td>Precision</td>
-            <td>Low — wide, diluted segment</td>
-            <td>High — narrow, verified segment</td>
+            <td>Low - wide, diluted segment</td>
+            <td>High - narrow, verified segment</td>
           </tr>
           <tr>
             <td>Waste</td>
@@ -285,14 +285,14 @@ export default function AffluentConsumerMediaBuyingPage() {
 
       <p>
         Once the audience is defined correctly, affluent consumer media buying concentrates it across a specific mix of
-        premium channels — chosen because affluent households over-index there and because the environments are brand-safe
+        premium channels - chosen because affluent households over-index there and because the environments are brand-safe
         by construction.
       </p>
 
       <ul>
         <li>
           <strong>Premium connected TV.</strong> Ad-supported and premium tiers of Disney+, Netflix, Prime Video, and Max
-          reach affluent cord-cutters in full-screen, non-skippable, high-attention environments — the closest thing to
+          reach affluent cord-cutters in full-screen, non-skippable, high-attention environments - the closest thing to
           prestige television for a modern luxury brand.
         </li>
         <li>
@@ -353,8 +353,8 @@ export default function AffluentConsumerMediaBuyingPage() {
 
       <p>
         Brand safety is the other non-negotiable, and for affluent audiences it is largely solved at the point of audience
-        and supply construction rather than bolted on afterward. An inclusion-first approach — buying only from an
-        explicit allow-list of premium publishers and environments — is definitionally safer than reactive blocklists that
+        and supply construction rather than bolted on afterward. An inclusion-first approach - buying only from an
+        explicit allow-list of premium publishers and environments - is definitionally safer than reactive blocklists that
         are always one step behind. For a luxury brand, the safe environment and the high-performing environment are
         usually the same environment, so the brand-safety decision and the performance decision collapse into one.
       </p>
@@ -365,19 +365,19 @@ export default function AffluentConsumerMediaBuyingPage() {
 
       <p>
         Affluent purchases are considered, high-value, and rarely completed in a single session, so last-click attribution
-        systematically misreads affluent consumer media buying — overcrediting the branded search a buyer was always going
+        systematically misreads affluent consumer media buying - overcrediting the branded search a buyer was always going
         to perform and undercrediting the premium upper-funnel media that created the demand. Three methods measure it
         honestly.
       </p>
 
       <p>
         <strong>Incrementality and holdout testing</strong> withholds advertising from a matched control audience or
-        geography and measures the lift in qualified inquiries, branded search, and closed deals — the only method that
+        geography and measures the lift in qualified inquiries, branded search, and closed deals - the only method that
         isolates causation, and the essential tool for non-click channels like CTV and audio.{" "}
         <strong>Brand lift studies</strong> survey shifts in awareness, consideration, and intent between exposed and
         unexposed affluent audiences. And <strong>attribution built for long cycles</strong> credits each touch across a
-        thirty-to-ninety-day journey and, crucially, feeds real downstream CRM outcomes — qualified leads and closed
-        high-value deals — back into the buying platforms, so optimization trains on revenue rather than clicks. Without
+        thirty-to-ninety-day journey and, crucially, feeds real downstream CRM outcomes - qualified leads and closed
+        high-value deals - back into the buying platforms, so optimization trains on revenue rather than clicks. Without
         these, an affluent program will be quietly optimized toward whoever clicks, which is rarely the affluent buyer.
       </p>
 
@@ -418,13 +418,13 @@ export default function AffluentConsumerMediaBuyingPage() {
       <p>
         Reaching the right household is only half of affluent consumer media buying; the other half is what that household
         sees. Affluent buyers are the most advertised-to consumers in the market and the quickest to detect a message that
-        talks down to them, chases urgency, or mimics mass-market discounting. Premium audiences reward restraint —
+        talks down to them, chases urgency, or mimics mass-market discounting. Premium audiences reward restraint -
         creative that signals quality through craft, negative space, and confidence rather than through repetition or
         hard-sell mechanics. Because a considered purchase unfolds over weeks, the program should also sequence creative
         rather than repeat it: an early impression establishes the brand and its world, a middle impression builds
         specific consideration around product or experience, and a later impression invites a concrete next step for
         buyers who have shown intent. Sequencing turns a fixed frequency budget into a narrative instead of a nag, and it
-        is only possible when the audience is stable and deduplicated across channels — which is precisely what a
+        is only possible when the audience is stable and deduplicated across channels - which is precisely what a
         well-constructed affluent program provides.
       </p>
 

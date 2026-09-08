@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: "How to Advertise to Wealthy Consumers: The Complete Strategist's Guide",
     description:
-      "A practical guide to advertising to wealthy consumers — how to find and target affluent and high-net-worth households, the channels that reach them, the messaging that resonates, the mistakes to avoid, and how to measure results.",
+      "A practical guide to advertising to wealthy consumers - how to find and target affluent and high-net-worth households, the channels that reach them, the messaging that resonates, the mistakes to avoid, and how to measure results.",
     type: "article",
     url: "https://www.stillwatermedia.io/insights/how-to-advertise-to-wealthy-consumers",
     images: [
@@ -26,7 +26,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "How to Advertise to Wealthy Consumers",
     description:
-      "Reaching wealthy consumers is not about spending more — it is about precision. The channels, targeting, and messaging that reach affluent buyers without waste.",
+      "Reaching wealthy consumers is not about spending more - it is about precision. The channels, targeting, and messaging that reach affluent buyers without waste.",
     images: ["/images/how-to-advertise-to-wealthy-consumers.png"],
   },
 }
@@ -37,13 +37,13 @@ export default function HowToAdvertiseToWealthyConsumersPage() {
     "@type": "Article",
     headline: "How to Advertise to Wealthy Consumers: The Complete Strategist's Guide",
     description:
-      "A practical, strategist's guide to advertising to wealthy consumers — how to identify and target affluent and high-net-worth households, the channels that reach them, the messaging and creative that resonate, the common mistakes that waste budget, and how to measure results against long luxury sales cycles.",
+      "A practical, strategist's guide to advertising to wealthy consumers - how to identify and target affluent and high-net-worth households, the channels that reach them, the messaging and creative that resonate, the common mistakes that waste budget, and how to measure results against long luxury sales cycles.",
     image: {
       "@type": "ImageObject",
       url: "https://www.stillwatermedia.io/images/how-to-advertise-to-wealthy-consumers.png",
       width: 1200,
       height: 630,
-      caption: "How to advertise to wealthy consumers — Stillwater Media",
+      caption: "How to advertise to wealthy consumers - Stillwater Media",
     },
     author: {
       "@type": "Organization",
@@ -115,7 +115,7 @@ export default function HowToAdvertiseToWealthyConsumersPage() {
             name: "Which channels reach wealthy consumers best?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Premium connected TV, private-marketplace and publisher-direct programmatic, YouTube Select and premium video, streaming audio and podcasts, digital out-of-home in affluent geographies, and premium native and display. The common trait is that they are trusted, high-attention, and brand-safe — because where a luxury brand appears is itself a message to an affluent consumer.",
+              text: "Premium connected TV, private-marketplace and publisher-direct programmatic, YouTube Select and premium video, streaming audio and podcasts, digital out-of-home in affluent geographies, and premium native and display. The common trait is that they are trusted, high-attention, and brand-safe - because where a luxury brand appears is itself a message to an affluent consumer.",
             },
           },
           {
@@ -123,7 +123,7 @@ export default function HowToAdvertiseToWealthyConsumersPage() {
             name: "How long does it take to see results advertising to wealthy consumers?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Because affluent purchases are high-consideration, the journey from first exposure to inquiry commonly runs 30 days to several months. Early weeks show leading indicators — reach and frequency, completion rates, lifts in branded search and direct visits; qualified inquiries compound over one to three months; and true efficiency measured as cost to acquire a high-LTV customer only comes into focus across a full quarter or two.",
+              text: "Because affluent purchases are high-consideration, the journey from first exposure to inquiry commonly runs 30 days to several months. Early weeks show leading indicators - reach and frequency, completion rates, lifts in branded search and direct visits; qualified inquiries compound over one to three months; and true efficiency measured as cost to acquire a high-LTV customer only comes into focus across a full quarter or two.",
             },
           },
         ],
@@ -140,14 +140,14 @@ export default function HowToAdvertiseToWealthyConsumersPage() {
       category="Affluent Audience Strategy"
       image="/images/how-to-advertise-to-wealthy-consumers.png"
       imageAlt="Stillwater Media guide illustration on how to advertise to wealthy consumers showing an exclusive residential enclave of refined estates at golden hour representing precise high-net-worth household targeting for luxury brands"
-      imageCaption="Advertising to wealthy consumers is a problem of precision, not volume — reaching a small, defined set of affluent households without paying to reach everyone else."
+      imageCaption="Advertising to wealthy consumers is a problem of precision, not volume - reaching a small, defined set of affluent households without paying to reach everyone else."
       schemaMarkup={schemaMarkup}
     >
       <p>
         To advertise to wealthy consumers effectively, you concentrate spend on a precisely defined set of affluent and
         high-net-worth households, reach them in premium, brand-safe environments they actually trust, speak to them in the
         restrained language of quality rather than discount, and measure success against the long sales cycles and high
-        lifetime values that define the luxury category — not against last-click clicks. The single biggest mistake brands
+        lifetime values that define the luxury category - not against last-click clicks. The single biggest mistake brands
         make is treating wealthy audiences as a bigger version of the mass market, buying broad reach and loud promotional
         creative, when the discipline is exactly the opposite: fewer, better impressions against the right people, in the
         right places, with the right message. Advertising to affluent consumers is a problem of precision, not volume, and
@@ -160,7 +160,7 @@ export default function HowToAdvertiseToWealthyConsumersPage() {
         millionaire household is not persuaded by the same tactics that move an impulse purchase, that the media
         environment a brand appears in is itself a signal of the brand&apos;s quality, and that the buying journey for a
         $90,000 watch, a private jet card, or a wealth-management relationship unfolds over months, not minutes. This guide
-        lays out the complete approach — how to find wealthy consumers, which channels reach them, what to say, what to
+        lays out the complete approach - how to find wealthy consumers, which channels reach them, what to say, what to
         avoid, and how to prove it worked.
       </p>
 
@@ -231,7 +231,7 @@ export default function HowToAdvertiseToWealthyConsumersPage() {
         </li>
         <li>
           <strong>Deterministic wealth signals.</strong> Compliant data partnerships that identify households by verified
-          indicators — investable assets, property value, ownership signals — rather than inferred interest.
+          indicators - investable assets, property value, ownership signals - rather than inferred interest.
         </li>
         <li>
           <strong>Luxury buyer intent signals.</strong> Behavioral data that surfaces households actively researching a
@@ -248,7 +248,7 @@ export default function HowToAdvertiseToWealthyConsumersPage() {
       </ol>
 
       <p>
-        The goal is to buy the intersection — affluent, in-market, and resembling your best customers — rather than any one
+        The goal is to buy the intersection - affluent, in-market, and resembling your best customers - rather than any one
         signal alone. That intersection is small, precise, and worth far more per impression than a broad &quot;high
         income&quot; segment.
       </p>
@@ -316,8 +316,8 @@ export default function HowToAdvertiseToWealthyConsumersPage() {
           persuasion. Wealthy consumers researching a considered purchase want substance.
         </li>
         <li>
-          <strong>Emphasize craftsmanship, scarcity, and provenance.</strong> The reasons luxury commands a premium —
-          quality, exclusivity, heritage, service — are the reasons to give.
+          <strong>Emphasize craftsmanship, scarcity, and provenance.</strong> The reasons luxury commands a premium -
+          quality, exclusivity, heritage, service - are the reasons to give.
         </li>
         <li>
           <strong>Match creative quality to the audience.</strong> Production value is a proxy for brand quality in the
@@ -340,7 +340,7 @@ export default function HowToAdvertiseToWealthyConsumersPage() {
         luxury brand faster than the sensation of being chased. A serious program caps frequency across every channel and
         publisher in the plan, not within each buy separately. The second is <strong>brand safety</strong>: for a brand
         where a single misplaced impression carries real cost, safety cannot be an after-the-fact report. It must be built
-        into the supply through inclusion-first buying — running only on a vetted allow-list of premium environments —
+        into the supply through inclusion-first buying - running only on a vetted allow-list of premium environments -
         rather than reactive blocklists that are always one step behind. For a luxury brand, the safe environments are also
         the high-attention, high-performing ones, so the brand-safety decision and the performance decision are the same
         decision.
@@ -355,7 +355,7 @@ export default function HowToAdvertiseToWealthyConsumersPage() {
       <ul>
         <li>
           <strong>Buying reach instead of precision.</strong> Chasing impressions and low CPMs drags spend onto broad,
-          cheap inventory full of the wrong households — paying to reach everyone in order to reach a few.
+          cheap inventory full of the wrong households - paying to reach everyone in order to reach a few.
         </li>
         <li>
           <strong>Using mass-market creative.</strong> Discount language, urgency, and loud persuasion signal the wrong
@@ -380,7 +380,7 @@ export default function HowToAdvertiseToWealthyConsumersPage() {
       <h2>How to Measure Advertising to Wealthy Consumers</h2>
 
       <p>
-        Because wealthy consumers make considered purchases over long sales cycles — often 30 days to many months —
+        Because wealthy consumers make considered purchases over long sales cycles - often 30 days to many months -
         measuring the media by last-click attribution guarantees a distorted picture, crediting the final branded search or
         direct visit while ignoring everything that created the demand. Sound measurement for affluent audiences relies on
         four methods. <strong>Multi-touch attribution</strong> distributes credit across the many touchpoints in a long
@@ -388,7 +388,7 @@ export default function HowToAdvertiseToWealthyConsumersPage() {
         matched control group or geography and measures the true causal lift in qualified inquiries and sales.{" "}
         <strong>Brand lift studies</strong> measure shifts in awareness, consideration, and favorability among the affluent
         audience. And <strong>outcome tracking against lifetime value</strong> ties campaigns to the metric that matters for
-        luxury — not cost per click, but cost to acquire a high-LTV customer, and the ratio of that cost to the value of the
+        luxury - not cost per click, but cost to acquire a high-LTV customer, and the ratio of that cost to the value of the
         relationship.
       </p>
 
@@ -398,16 +398,16 @@ export default function HowToAdvertiseToWealthyConsumersPage() {
 
       <p>
         Perhaps the most important expectation to set when you advertise to wealthy consumers is time. Because affluent
-        purchases are high-consideration decisions — a jet card, a second home, a wealth-management relationship, a $90,000
-        watch — the journey from first exposure to inquiry commonly runs 30 days to several months, and sometimes far
+        purchases are high-consideration decisions - a jet card, a second home, a wealth-management relationship, a $90,000
+        watch - the journey from first exposure to inquiry commonly runs 30 days to several months, and sometimes far
         longer. Brands accustomed to mass-market direct response often panic in the first few weeks when a luxury program
         does not produce same-day conversions, and the ones that abandon the strategy there never see the return that was
         building. A realistic timeline unfolds in phases: in the first weeks, watch reach and frequency against the target
         affluent audience, video completion rates, and early lifts in branded search and direct site visits. Over the
         following one to three months, qualified inquiries begin to compound as the audience moves through consideration,
         and incrementality tests can start to isolate genuine causal lift. Only across a full quarter or two does the
-        program&apos;s true efficiency — cost to acquire a high-lifetime-value customer relative to the value of that
-        relationship — come into focus.
+        program&apos;s true efficiency - cost to acquire a high-lifetime-value customer relative to the value of that
+        relationship - come into focus.
       </p>
 
       <hr className="my-8" />
@@ -418,7 +418,7 @@ export default function HowToAdvertiseToWealthyConsumersPage() {
         Advertising to wealthy consumers well is not a single tactic but a coordinated system: a precisely engineered
         affluent audience, reached across premium CTV, programmatic, audio, and DOOH that share one audience definition and
         one frequency cap, with restrained creative worthy of the brand, in brand-safe environments, measured against
-        incremental lift and lifetime value rather than clicks. Each element reinforces the others — the same affluent
+        incremental lift and lifetime value rather than clicks. Each element reinforces the others - the same affluent
         household sees a coherent brand story across the living-room screen, a trusted publisher, and a premium podcast,
         never over-exposed, always in good company. That coherence is what a mass-market approach, scaled up and pointed at
         rich people, can never produce. The brands that consistently win affluent audiences are the ones that treat
@@ -435,7 +435,7 @@ export default function HowToAdvertiseToWealthyConsumersPage() {
         private-marketplace programmatic, YouTube Select, streaming audio, and DOOH, control frequency across every channel,
         keep every impression brand-safe by construction, and measure results through multi-touch attribution,
         incrementality, and lifetime value rather than the last click. We take a limited number of engagements each quarter
-        and work only with brands where reaching affluent audiences is a genuine fit — typically those with customer
+        and work only with brands where reaching affluent audiences is a genuine fit - typically those with customer
         lifetime value above $5,000 and sales cycles longer than 30 days.
       </p>
     </ArticleLayout>

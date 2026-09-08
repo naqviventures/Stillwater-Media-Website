@@ -12,10 +12,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Performance Measurement for Premium Advertising: A Framework That Holds Up",
     description:
-      "How to measure premium advertising when conversion volume is low, sales cycles run past 90 days, and platform-reported ROAS is inflated — the three-layer measurement stack, the metric hierarchy, benchmark ranges, and the cadence that fits your budget.",
+      "How to measure premium advertising when conversion volume is low, sales cycles run past 90 days, and platform-reported ROAS is inflated - the three-layer measurement stack, the metric hierarchy, benchmark ranges, and the cadence that fits your budget.",
     type: "article",
     url: canonicalUrl,
-    images: [{ url: imagePath, width: 1200, height: 630, alt: "Performance measurement for premium advertising — Stillwater Media" }],
+    images: [{ url: imagePath, width: 1200, height: 630, alt: "Performance measurement for premium advertising - Stillwater Media" }],
     locale: "en_US",
     siteName: "Stillwater Media",
     publishedTime: "2026-08-11",
@@ -36,13 +36,13 @@ const schemaMarkup = {
       "@type": "Article",
       headline: "Performance Measurement for Premium Advertising: A Framework That Holds Up",
       description:
-        "A senior media strategist's framework for performance measurement in premium advertising — why low conversion volume, sales cycles beyond 90 days, and offline closings break standard performance playbooks; the three-layer measurement stack of incrementality, marketing mix modeling, and platform attribution; a metric hierarchy separating primary, secondary, and diagnostic measures; benchmark ranges for premium CTV, programmatic, and paid social; the measurement cadence appropriate to each budget tier; and the errors that cause luxury advertisers to over-credit retargeting and under-fund upper-funnel media.",
+        "A senior media strategist's framework for performance measurement in premium advertising - why low conversion volume, sales cycles beyond 90 days, and offline closings break standard performance playbooks; the three-layer measurement stack of incrementality, marketing mix modeling, and platform attribution; a metric hierarchy separating primary, secondary, and diagnostic measures; benchmark ranges for premium CTV, programmatic, and paid social; the measurement cadence appropriate to each budget tier; and the errors that cause luxury advertisers to over-credit retargeting and under-fund upper-funnel media.",
       image: {
         "@type": "ImageObject",
         url: `https://www.stillwatermedia.io${imagePath}`,
         width: 1200,
         height: 630,
-        caption: "Performance measurement for premium advertising — Stillwater Media",
+        caption: "Performance measurement for premium advertising - Stillwater Media",
       },
       author: { "@type": "Organization", name: "Stillwater Media" },
       publisher: {
@@ -88,7 +88,7 @@ const schemaMarkup = {
           name: "Why doesn't last-click attribution work for luxury brands?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Last-click attribution credits the final touchpoint before a conversion, which for a 90-to-180-day purchase cycle is almost always branded search or retargeting — channels that harvest demand rather than create it. The upper-funnel media that generated the original interest falls outside standard 1-to-30-day attribution windows entirely, so the report doesn't merely undercount premium CTV and programmatic, it produces an analysis that actively argues for defunding the media doing the work.",
+            text: "Last-click attribution credits the final touchpoint before a conversion, which for a 90-to-180-day purchase cycle is almost always branded search or retargeting - channels that harvest demand rather than create it. The upper-funnel media that generated the original interest falls outside standard 1-to-30-day attribution windows entirely, so the report doesn't merely undercount premium CTV and programmatic, it produces an analysis that actively argues for defunding the media doing the work.",
           },
         },
         {
@@ -112,7 +112,7 @@ const schemaMarkup = {
           name: "How much media spend do you need before marketing mix modeling is worth it?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Open-source frameworks such as Meta's Robyn and Google's Meridian have brought marketing mix modeling within reach of brands spending roughly $2M or more annually, well below the $50M threshold that historically gated it, but the binding constraint is usually data rather than spend — MMM typically needs 24 to 36 months of history with meaningful variation in channel spend to produce stable coefficients. Below that level, quarterly geo holdout tests and CRM-matched cohort analysis deliver more reliable decisions for far less cost.",
+            text: "Open-source frameworks such as Meta's Robyn and Google's Meridian have brought marketing mix modeling within reach of brands spending roughly $2M or more annually, well below the $50M threshold that historically gated it, but the binding constraint is usually data rather than spend - MMM typically needs 24 to 36 months of history with meaningful variation in channel spend to produce stable coefficients. Below that level, quarterly geo holdout tests and CRM-matched cohort analysis deliver more reliable decisions for far less cost.",
           },
         },
       ],
@@ -130,12 +130,12 @@ export default function Page() {
       category="Measurement & Attribution"
       image={imagePath}
       imageAlt="Stillwater Media guide illustration on performance measurement for premium advertising showing antique brass precision instruments and a balance scale on a marble desk lit by warm lamplight at blue hour"
-      imageCaption="Premium advertising doesn't suffer from too little data — it suffers from measuring the wrong things with unwarranted confidence."
+      imageCaption="Premium advertising doesn't suffer from too little data - it suffers from measuring the wrong things with unwarranted confidence."
       schemaMarkup={schemaMarkup}
     >
       <p>
         Performance measurement for premium advertising is the discipline of determining what a high-consideration
-        brand&apos;s media actually caused — not what a platform claimed credit for — under conditions that break the
+        brand&apos;s media actually caused - not what a platform claimed credit for - under conditions that break the
         standard performance playbook: low conversion volume, sales cycles that run 60 to 300 days, purchases that close
         offline or over the phone, and customer values large enough that a single misattributed sale distorts an entire
         month of reporting. The tools most marketers inherited were built for a different problem. Direct-response
@@ -146,7 +146,7 @@ export default function Page() {
       <p>
         At Stillwater Media we run performance media for luxury and high-consideration brands where customer LTV exceeds
         $5,000, and measurement is the part of the engagement most clients arrive least equipped for. They usually have
-        too many dashboards and too little truth. This is the framework we use to fix that — the three-layer stack, the
+        too many dashboards and too little truth. This is the framework we use to fix that - the three-layer stack, the
         metric hierarchy, the benchmark ranges that matter, and the specific errors that cause premium advertisers to
         systematically overfund retargeting and starve the media that is actually generating demand.
       </p>
@@ -157,19 +157,19 @@ export default function Page() {
         <strong>Low conversion volume destroys statistical power.</strong> Optimization algorithms and significance
         tests both need volume. A campaign generating 25 conversions a month cannot support a meaningful A/B test at the
         creative level, and any platform algorithm optimizing toward that event is learning from noise. This is why
-        premium programs must optimize toward qualified mid-funnel signals — a completed consultation request, a
-        verified inquiry, a scheduled tour — while measuring against the closed sale on a longer cadence.
+        premium programs must optimize toward qualified mid-funnel signals - a completed consultation request, a
+        verified inquiry, a scheduled tour - while measuring against the closed sale on a longer cadence.
       </p>
       <p>
         <strong>Long sales cycles break attribution windows.</strong> Default click and view windows range from 1 to 30
         days. If your average close takes 90 to 180 days, the majority of your genuine influence occurs outside the
-        window entirely, and the touchpoints that survive are the ones nearest the sale — branded search and
+        window entirely, and the touchpoints that survive are the ones nearest the sale - branded search and
         retargeting. Attribution doesn&apos;t just miss upper-funnel media; it produces a report that actively argues
         against it.
       </p>
       <p>
         <strong>Offline and assisted conversions leave the digital record.</strong> A jet card sold over the phone, a
-        listing closed at a private showing, a membership signed at the club — none of these fire a pixel unless the
+        listing closed at a private showing, a membership signed at the club - none of these fire a pixel unless the
         brand deliberately closes the loop through CRM integration and offline conversion imports.
       </p>
       <p>
@@ -184,7 +184,7 @@ export default function Page() {
         a different question at a different cadence, and each covering the others&apos; blind spots.
       </p>
 
-      <h3>Layer 1: Incrementality — What Did the Media Actually Cause?</h3>
+      <h3>Layer 1: Incrementality - What Did the Media Actually Cause?</h3>
       <p>
         Incrementality testing isolates causal effect by withholding media from a randomized or matched control group
         and comparing outcomes. Geo-based holdouts, ghost bidding on CTV, and PSA-control designs all serve this
@@ -193,17 +193,17 @@ export default function Page() {
       </p>
       <p>
         The findings are consistently humbling. Published holdout studies across categories regularly find that branded
-        search and retargeting deliver 20–60% incremental lift against reported conversions — meaning a substantial
+        search and retargeting deliver 20–60% incremental lift against reported conversions - meaning a substantial
         share of the conversions those channels claim would have occurred anyway. Prospecting CTV and premium
         programmatic often test at 70–95% incremental, because those impressions are genuinely creating demand rather
         than harvesting it. Run at a quarterly cadence, incrementality is the arbiter that keeps the other two layers
         honest.
       </p>
 
-      <h3>Layer 2: Marketing Mix Modeling — How Should Budget Be Allocated?</h3>
+      <h3>Layer 2: Marketing Mix Modeling - How Should Budget Be Allocated?</h3>
       <p>
-        Marketing mix modeling uses regression against aggregate time-series data — spend, outcomes, seasonality,
-        pricing, competitive activity, macro conditions — to estimate each channel&apos;s contribution. It requires no
+        Marketing mix modeling uses regression against aggregate time-series data - spend, outcomes, seasonality,
+        pricing, competitive activity, macro conditions - to estimate each channel&apos;s contribution. It requires no
         user-level tracking, which makes it durable in a cookieless environment, and it captures offline media, brand
         halo effects, and long-lag response that user-level methods cannot.
       </p>
@@ -215,11 +215,11 @@ export default function Page() {
         against your incrementality results.
       </p>
 
-      <h3>Layer 3: Platform and Multi-Touch Attribution — What&apos;s Happening In-Flight?</h3>
+      <h3>Layer 3: Platform and Multi-Touch Attribution - What&apos;s Happening In-Flight?</h3>
       <p>
         Platform reporting and multi-touch attribution are directional instruments for daily and weekly optimization,
-        not truth. Used correctly — with the understanding that every platform grades its own homework and that summing
-        across platforms routinely double-counts 20–40% of conversions — they tell you which creative is fatiguing,
+        not truth. Used correctly - with the understanding that every platform grades its own homework and that summing
+        across platforms routinely double-counts 20–40% of conversions - they tell you which creative is fatiguing,
         which placements are delivering, and where pacing has drifted. Used incorrectly, as a budget-allocation
         authority, they will steer a premium brand steadily downward into the bottom of its own funnel.
       </p>
@@ -296,25 +296,25 @@ export default function Page() {
         authoritative. Rank them explicitly.
       </p>
       <p>
-        <strong>Primary metrics</strong> — the ones that determine whether the program continues:
+        <strong>Primary metrics</strong> - the ones that determine whether the program continues:
       </p>
       <ol>
         <li>Incremental customer acquisition cost (incremental CAC), not blended or platform-reported CAC</li>
-        <li>Media efficiency ratio (MER) — total revenue divided by total media spend, the one number no platform can inflate</li>
+        <li>Media efficiency ratio (MER) - total revenue divided by total media spend, the one number no platform can inflate</li>
         <li>CAC-to-LTV ratio, with a target range of 1:3 to 1:5 for most luxury categories</li>
         <li>CAC payback period, typically 6–18 months for high-LTV premium brands</li>
       </ol>
       <p>
-        <strong>Secondary metrics</strong> — the ones that explain movement in the primary metrics:
+        <strong>Secondary metrics</strong> - the ones that explain movement in the primary metrics:
       </p>
       <ul>
         <li>Qualified lead rate (inquiries meeting a defined qualification bar, not raw form fills)</li>
         <li>Lead-to-opportunity and opportunity-to-close rates by media source</li>
-        <li>Average deal value by acquisition channel — frequently the metric that reverses a channel ranking</li>
+        <li>Average deal value by acquisition channel - frequently the metric that reverses a channel ranking</li>
         <li>Sales cycle length by source</li>
       </ul>
       <p>
-        <strong>Diagnostic metrics</strong> — useful for optimization, never for judgment:
+        <strong>Diagnostic metrics</strong> - useful for optimization, never for judgment:
       </p>
       <ul>
         <li>CTV video completion rate (premium CTV benchmarks run 92–97%; anything below 90% suggests inventory quality issues)</li>
@@ -389,7 +389,7 @@ export default function Page() {
       <p>
         Three components make it work. First, <strong>source persistence</strong>: capture the original click ID, UTM
         set, and landing page as fields on the lead record at creation, then carry them through every stage change to
-        closed-won. Most CRMs overwrite source on subsequent touches by default — a setting that quietly destroys the
+        closed-won. Most CRMs overwrite source on subsequent touches by default - a setting that quietly destroys the
         audit trail on exactly the long cycles you most need to trace. Second, <strong>offline conversion import</strong>:
         push closed-won events with their revenue values and original click identifiers back to Google, Meta, and your
         DSP via their conversion APIs, so the algorithms optimize against realized value rather than form fills. Third,{" "}
@@ -400,7 +400,7 @@ export default function Page() {
       <p>
         Brands that skip this step are not measuring performance; they are measuring form submissions and hoping the two
         correlate. In our experience they usually don&apos;t. Across premium programs we&apos;ve audited, the channel
-        ranked first on cost per lead is the channel ranked first on cost per closed customer less than half the time —
+        ranked first on cost per lead is the channel ranked first on cost per closed customer less than half the time -
         and the reordering is often dramatic, because the cheapest leads tend to come from the broadest, least qualified
         audiences.
       </p>
@@ -413,7 +413,7 @@ export default function Page() {
       <p>
         Platform reporting will show paid search and retargeting driving the overwhelming majority of conversions at an
         attractive cost per acquisition, and CTV contributing almost nothing on a last-click basis. Acting on that
-        report means cutting CTV and reinvesting in search — a decision that looks obviously correct and is almost
+        report means cutting CTV and reinvesting in search - a decision that looks obviously correct and is almost
         always wrong. A geo holdout typically reveals that a meaningful share of the branded search conversions would
         have occurred without the ad, because the prospect was searching for the brand by name, and that the demand
         generating those branded searches was created upstream by the CTV and programmatic exposure the report gave no
@@ -453,14 +453,14 @@ export default function Page() {
 
       <h2>How to Build This in 90 Days</h2>
       <p>
-        Weeks 1–3: close the loop — CRM integration, offline conversion import, source tagging discipline, and a written
-        definition of a qualified lead. Weeks 4–6: establish the baseline — 12 months of historical CAC, MER, close
+        Weeks 1–3: close the loop - CRM integration, offline conversion import, source tagging discipline, and a written
+        definition of a qualified lead. Weeks 4–6: establish the baseline - 12 months of historical CAC, MER, close
         rate, and deal value by source. Weeks 7–10: run the first holdout on your highest-spend channel, typically
         branded search or retargeting, where the surprises are largest. Weeks 11–13: rebuild reporting around the metric
         hierarchy and reallocate against what the holdout revealed.
       </p>
       <p>
-        Most brands find that this sequence moves 10–25% of budget out of harvesting channels and into demand creation —
+        Most brands find that this sequence moves 10–25% of budget out of harvesting channels and into demand creation -
         and that blended CAC improves rather than worsens as a result.
       </p>
 
@@ -477,7 +477,7 @@ export default function Page() {
       <h3>Why doesn&apos;t last-click attribution work for luxury brands?</h3>
       <p>
         Last-click attribution credits the final touchpoint before a conversion, which for a 90-to-180-day purchase
-        cycle is almost always branded search or retargeting — channels that harvest demand rather than create it. The
+        cycle is almost always branded search or retargeting - channels that harvest demand rather than create it. The
         upper-funnel media that generated the original interest falls outside standard 1-to-30-day attribution windows
         entirely, so the report doesn&apos;t merely undercount premium CTV and programmatic, it produces an analysis
         that actively argues for defunding the media doing the work.
@@ -502,7 +502,7 @@ export default function Page() {
       <p>
         Open-source frameworks such as Meta&apos;s Robyn and Google&apos;s Meridian have brought marketing mix modeling
         within reach of brands spending roughly $2M or more annually, well below the $50M threshold that historically
-        gated it, but the binding constraint is usually data rather than spend — MMM typically needs 24 to 36 months of
+        gated it, but the binding constraint is usually data rather than spend - MMM typically needs 24 to 36 months of
         history with meaningful variation in channel spend to produce stable coefficients. Below that level, quarterly
         geo holdout tests and CRM-matched cohort analysis deliver more reliable decisions for far less cost.
       </p>

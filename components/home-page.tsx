@@ -369,7 +369,7 @@ export default function HomePage() {
 
       {/* Selective by Design Section */}
       <section className="py-24 sm:py-32 px-6 sm:px-12 relative overflow-hidden" data-animate id="selective">
-        {/* Right-side image — occupies the right 50% only, entire container fades together */}
+        {/* Right-side image - occupies the right 50% only, entire container fades together */}
         <div
           className={`absolute inset-y-0 right-0 w-1/2 z-0 transition-all duration-[2000ms] ${visibleSections.has("selective") ? "opacity-100 scale-100" : "opacity-0 scale-105"}`}
         >
@@ -438,7 +438,7 @@ export default function HomePage() {
                 <ChevronLeft className="h-4 w-4" />
               </button>
               <span className="text-foreground/30 text-xs tracking-widest tabular-nums">
-                {caseStudyIndex + 1} — {Math.min(caseStudyIndex + visibleCount, caseStudies.length)} / {caseStudies.length}
+                {caseStudyIndex + 1} - {Math.min(caseStudyIndex + visibleCount, caseStudies.length)} / {caseStudies.length}
               </span>
               <button
                 onClick={() => setCaseStudyIndex((i) => Math.min(maxIndex, i + 1))}
@@ -452,7 +452,7 @@ export default function HomePage() {
           </div>
         </div>
 
-        {/* Sliding track — no horizontal padding so cards bleed to edge */}
+        {/* Sliding track - no horizontal padding so cards bleed to edge */}
         <div
           className="relative"
           onTouchStart={(e) => { touchStartX.current = e.touches[0].clientX }}

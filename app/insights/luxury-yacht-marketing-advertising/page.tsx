@@ -3,7 +3,7 @@ import { ArticleLayout } from "@/components/article-layout"
 
 const title = "Luxury Yacht Marketing: A Paid Media Playbook for 2026"
 const description =
-  "A luxury yacht marketing playbook — how to size the buyer universe, buy premium CTV and DOOH around boat shows, and measure a 14-month sales cycle."
+  "A luxury yacht marketing playbook - how to size the buyer universe, buy premium CTV and DOOH around boat shows, and measure a 14-month sales cycle."
 const slug = "luxury-yacht-marketing-advertising"
 const canonical = `https://www.stillwatermedia.io/insights/${slug}`
 const image = `/images/${slug}.png`
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     siteName: "Stillwater Media",
     locale: "en_US",
     publishedTime,
-    images: [{ url: image, width: 1200, height: 630, alt: `Stillwater Media — ${title}` }],
+    images: [{ url: image, width: 1200, height: 630, alt: `Stillwater Media - ${title}` }],
   },
   twitter: {
     card: "summary_large_image",
@@ -112,7 +112,7 @@ const articleSchema = {
           name: "How do you measure marketing for a purchase that takes over a year?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Use geo holdout testing as the primary causal read — hold 20–30% of comparable markets out of a campaign flight and compare qualified inquiry rates — because a fourteen-month cycle produces too few conversions for reliable user-level attribution. Pair that with cost per qualified inquiry as the operating KPI, brand lift studies measuring consideration rather than recall, and a bridge that maps media exposure to CRM pipeline-stage progression instead of to closed sales.",
+            text: "Use geo holdout testing as the primary causal read - hold 20–30% of comparable markets out of a campaign flight and compare qualified inquiry rates - because a fourteen-month cycle produces too few conversions for reliable user-level attribution. Pair that with cost per qualified inquiry as the operating KPI, brand lift studies measuring consideration rather than recall, and a bridge that maps media exposure to CRM pipeline-stage progression instead of to closed sales.",
           },
         },
         {
@@ -120,7 +120,7 @@ const articleSchema = {
           name: "Who buys superyachts today?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The buyer profile has shifted markedly: the average superyacht buyer's age has fallen from roughly 58 to the mid forties over two decades, with US and Asian buyers skewing younger still, and wealth increasingly originating in technology, private equity and real estate rather than inherited industry. Around 65% of yacht buyers now begin their search online, and the decision unit typically includes a spouse, a captain and often a wealth advisor — which means creative needs to address interiors, crew and operating costs, not only the vessel itself.",
+            text: "The buyer profile has shifted markedly: the average superyacht buyer's age has fallen from roughly 58 to the mid forties over two decades, with US and Asian buyers skewing younger still, and wealth increasingly originating in technology, private equity and real estate rather than inherited industry. Around 65% of yacht buyers now begin their search online, and the decision unit typically includes a spouse, a captain and often a wealth advisor - which means creative needs to address interiors, crew and operating costs, not only the vessel itself.",
           },
         },
       ],
@@ -137,7 +137,7 @@ export default function Page() {
       readingTime="16 min read"
       category="Vertical Playbooks"
       image={image}
-      imageAlt="Stillwater Media luxury yacht marketing feature image — the unmarked bow of a superyacht at anchor in still water at dusk with a distant marina skyline"
+      imageAlt="Stillwater Media luxury yacht marketing feature image - the unmarked bow of a superyacht at anchor in still water at dusk with a distant marina skyline"
       imageCaption="The vessel sells itself in ninety seconds of footage; everything before that is a media problem."
       schemaMarkup={articleSchema}
     >
@@ -145,16 +145,16 @@ export default function Page() {
         Luxury yacht marketing has a structural problem that most categories would envy and few would know what to do
         with: the product is spectacular, the audience is tiny, and the purchase takes over a year. Roughly 65% of yacht
         buyers now begin their search online, and the average superyacht buyer has moved from his late fifties to his mid
-        forties over the past two decades. The channels the category has historically relied on — print in glossy marine
-        titles, boat show floor presence, brokerage relationships — were built for the older buyer. The budgets have not
+        forties over the past two decades. The channels the category has historically relied on - print in glossy marine
+        titles, boat show floor presence, brokerage relationships - were built for the older buyer. The budgets have not
         moved as fast as the buyer has.
       </p>
       <p>
         We build paid media programs for brands where customer lifetime value exceeds $5,000 and the sales cycle runs
         past 30 days. Marine sits at the extreme end of both: a $12 million new-build carries a consideration window of
         twelve to eighteen months and a decision unit that includes a spouse, a captain, a broker and often a wealth
-        advisor. This playbook covers what actually works across the three distinct businesses in the category —
-        new-build shipyards, brokerage houses and charter operators — because they are frequently marketed as one thing
+        advisor. This playbook covers what actually works across the three distinct businesses in the category -
+        new-build shipyards, brokerage houses and charter operators - because they are frequently marketed as one thing
         and should never be.
       </p>
 
@@ -174,7 +174,7 @@ export default function Page() {
           the US
         </li>
         <li>
-          Of those, households with any demonstrated marine affinity — ownership, charter history, marina proximity,
+          Of those, households with any demonstrated marine affinity - ownership, charter history, marina proximity,
           boat show attendance, category content consumption: roughly <strong>250,000 to 400,000</strong>
         </li>
         <li>
@@ -248,8 +248,8 @@ export default function Page() {
         </table>
       </div>
       <p>
-        The failure mode we see most often is a shipyard running charter-style performance tactics — short-window
-        retargeting, aggressive offer creative, cost-per-click optimization — against a purchase that no one makes in the
+        The failure mode we see most often is a shipyard running charter-style performance tactics - short-window
+        retargeting, aggressive offer creative, cost-per-click optimization - against a purchase that no one makes in the
         same quarter they first see an ad. It generates a clean-looking dashboard and no boats.
       </p>
       <p>Build the audience in three concentric layers regardless of which business you are in:</p>
@@ -266,7 +266,7 @@ export default function Page() {
         </li>
         <li>
           <strong>Modeled expansion.</strong> Lookalikes seeded on layer one, plus wealth and property-value overlays.
-          Cap this layer — it should be a reach extension, not the core, and it degrades quickly past a 2% similarity
+          Cap this layer - it should be a reach extension, not the core, and it degrades quickly past a 2% similarity
           threshold.
         </li>
       </ol>
@@ -277,8 +277,8 @@ export default function Page() {
 
       <h2>Premium CTV in luxury yacht marketing: a buyer who got fifteen years younger</h2>
       <p>
-        The demographic shift is the single most actionable fact in the category. A buyer in his mid forties —
-        increasingly from technology, private equity or real estate wealth rather than inherited industry — does not read
+        The demographic shift is the single most actionable fact in the category. A buyer in his mid forties -
+        increasingly from technology, private equity or real estate wealth rather than inherited industry - does not read
         the same magazines his predecessor did, and is streaming rather than watching linear. Connected TV is now the
         most efficient way to put a ninety-second vessel film in front of that household on a large screen.
       </p>
@@ -296,8 +296,8 @@ export default function Page() {
           rather than cutting the film down to fit cheap inventory.
         </li>
         <li>
-          <strong>Sequential storytelling.</strong> A three-part sequence — vessel, yard and craft, ownership experience
-          — executed across a stable household identifier significantly outperforms rotation. Our notes on{" "}
+          <strong>Sequential storytelling.</strong> A three-part sequence - vessel, yard and craft, ownership experience
+          - executed across a stable household identifier significantly outperforms rotation. Our notes on{" "}
           <a href="/insights/creative-sequencing-ctv-advertising">creative sequencing in CTV</a> apply almost unchanged
           here.
         </li>
@@ -308,7 +308,7 @@ export default function Page() {
         </li>
       </ul>
       <p>
-        Streaming audio deserves a specific mention. Sailing and marine podcasts are small, and that is the point — a $35
+        Streaming audio deserves a specific mention. Sailing and marine podcasts are small, and that is the point - a $35
         to $55 CPM host-read placement in a show with 40,000 listeners who all own boats is a far better buy than a broad
         music-streaming audience layer at $14.
       </p>
@@ -316,7 +316,7 @@ export default function Page() {
       <h2>Boat show weeks are the only real seasonality in luxury yacht marketing</h2>
       <p>
         Almost no consumer category has demand this concentrated. Fort Lauderdale in late October, Miami in February,
-        Palm Beach in March, Monaco in September, Cannes in September, Düsseldorf in January — these weeks compress a
+        Palm Beach in March, Monaco in September, Cannes in September, Düsseldorf in January - these weeks compress a
         disproportionate share of annual qualified inquiry into a handful of geographies.
       </p>
       <p>
@@ -358,7 +358,7 @@ export default function Page() {
         </li>
         <li>
           <strong>Lead with the yard, not the boat, for new-build.</strong> A buyer choosing a shipyard is choosing an
-          eighteen-month relationship and a resale value. Craft, welding, joinery, hull-form engineering — the workshop
+          eighteen-month relationship and a resale value. Craft, welding, joinery, hull-form engineering - the workshop
           footage outperforms the glamour footage on qualified-inquiry rate.
         </li>
         <li>
@@ -373,12 +373,12 @@ export default function Page() {
       </ol>
       <p>
         A note on production economics, because it distorts more marine media plans than anything else. A proper vessel
-        film costs $80,000 to $250,000 to shoot — sea days, drone permits, crew, a weather window that may not arrive on
+        film costs $80,000 to $250,000 to shoot - sea days, drone permits, crew, a weather window that may not arrive on
         schedule. That number is usually approved before anyone has decided how the film will be distributed, and the
         media budget then becomes whatever is left. The result is a category full of exceptional footage seen by almost
         nobody. A defensible split for a new-build program is roughly <strong>20% production to 80% media</strong>, and a
-        film shot with distribution in mind — captured with 90-second, 30-second, 15-second and vertical cutdowns planned
-        into the shot list rather than salvaged in the edit — costs no more to make and is worth several times as much
+        film shot with distribution in mind - captured with 90-second, 30-second, 15-second and vertical cutdowns planned
+        into the shot list rather than salvaged in the edit - costs no more to make and is worth several times as much
         once it reaches a DSP.
       </p>
       <p>
@@ -389,7 +389,7 @@ export default function Page() {
 
       <h2>Measuring a fourteen-month sales cycle</h2>
       <p>
-        Last-click attribution is worse than useless here — it is actively misleading, because the final touch before an
+        Last-click attribution is worse than useless here - it is actively misleading, because the final touch before an
         inquiry is almost always branded search, which will absorb credit for every dollar of upper-funnel work that
         created the search in the first place.
       </p>
@@ -477,8 +477,8 @@ export default function Page() {
       </p>
       <h3>How do you measure marketing for a purchase that takes over a year?</h3>
       <p>
-        Use geo holdout testing as the primary causal read — hold 20–30% of comparable markets out of a campaign flight
-        and compare qualified inquiry rates — because a fourteen-month cycle produces too few conversions for reliable
+        Use geo holdout testing as the primary causal read - hold 20–30% of comparable markets out of a campaign flight
+        and compare qualified inquiry rates - because a fourteen-month cycle produces too few conversions for reliable
         user-level attribution. Pair that with cost per qualified inquiry as the operating KPI, brand lift studies
         measuring consideration rather than recall, and a bridge that maps media exposure to CRM pipeline-stage
         progression instead of to closed sales.
@@ -488,7 +488,7 @@ export default function Page() {
         The buyer profile has shifted markedly: the average superyacht buyer's age has fallen from roughly 58 to the mid
         forties over two decades, with US and Asian buyers skewing younger still, and wealth increasingly originating in
         technology, private equity and real estate rather than inherited industry. Around 65% of yacht buyers now begin
-        their search online, and the decision unit typically includes a spouse, a captain and often a wealth advisor —
+        their search online, and the decision unit typically includes a spouse, a captain and often a wealth advisor -
         which means creative needs to address interiors, crew and operating costs, not only the vessel itself.
       </p>
     </ArticleLayout>

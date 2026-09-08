@@ -12,11 +12,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Supply Path Optimization for Premium Brand Advertisers",
     description:
-      "A senior media strategist's guide to supply path optimization for luxury brands — where a programmatic dollar actually goes, benchmark take rates, the four structural failure modes, a repeatable 30-day audit, and the working media ratio every premium advertiser should be able to state out loud.",
+      "A senior media strategist's guide to supply path optimization for luxury brands - where a programmatic dollar actually goes, benchmark take rates, the four structural failure modes, a repeatable 30-day audit, and the working media ratio every premium advertiser should be able to state out loud.",
     type: "article",
     url: canonicalUrl,
     images: [
-      { url: imagePath, width: 1200, height: 630, alt: "Supply path optimization for premium advertisers — Stillwater Media" },
+      { url: imagePath, width: 1200, height: 630, alt: "Supply path optimization for premium advertisers - Stillwater Media" },
     ],
     locale: "en_US",
     siteName: "Stillwater Media",
@@ -38,13 +38,13 @@ const schemaMarkup = {
       "@type": "Article",
       headline: "Supply Path Optimization for Premium Brand Advertisers",
       description:
-        "An operating guide to supply path optimization for luxury and high-consideration advertisers — the full fee stack between a media dollar and a rendered impression, benchmark take rates for DSPs, SSPs, data segments, curation and verification, the four structural failure modes of an unmanaged programmatic supply path, a repeatable thirty-day supply path audit, a comparison of direct, curated, private marketplace and open exchange routes, and the working media ratio premium brands should govern against.",
+        "An operating guide to supply path optimization for luxury and high-consideration advertisers - the full fee stack between a media dollar and a rendered impression, benchmark take rates for DSPs, SSPs, data segments, curation and verification, the four structural failure modes of an unmanaged programmatic supply path, a repeatable thirty-day supply path audit, a comparison of direct, curated, private marketplace and open exchange routes, and the working media ratio premium brands should govern against.",
       image: {
         "@type": "ImageObject",
         url: `https://www.stillwatermedia.io${imagePath}`,
         width: 1200,
         height: 630,
-        caption: "Supply path optimization for premium advertisers — Stillwater Media",
+        caption: "Supply path optimization for premium advertisers - Stillwater Media",
       },
       author: { "@type": "Organization", name: "Stillwater Media" },
       publisher: {
@@ -93,7 +93,7 @@ const schemaMarkup = {
           name: "Why does supply path optimization matter more for luxury brands?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Three reasons. The addressable audience is small, so a wasted impression consumes one of a finite number of chances to reach a specific household. Adjacency risk is asymmetric — a private bank appearing on a made-for-advertising site actively transfers that context onto the brand. And premium CPMs are high, so a 12% aggregate fee difference on a $45 CPM is a far larger absolute number than the same percentage on a $4 CPM.",
+            text: "Three reasons. The addressable audience is small, so a wasted impression consumes one of a finite number of chances to reach a specific household. Adjacency risk is asymmetric - a private bank appearing on a made-for-advertising site actively transfers that context onto the brand. And premium CPMs are high, so a 12% aggregate fee difference on a $45 CPM is a far larger absolute number than the same percentage on a $4 CPM.",
           },
         },
         {
@@ -127,7 +127,7 @@ export default function Page() {
       category="Programmatic Strategy"
       image={imagePath}
       imageAlt="Stillwater Media guide illustration on supply path optimization showing one wide unmarked brass channel dividing into seven narrowing tributaries with liquid metal thinning as it splits"
-      imageCaption="Every intermediary between your budget and the impression takes a cut — supply path optimization is the discipline of counting them."
+      imageCaption="Every intermediary between your budget and the impression takes a cut - supply path optimization is the discipline of counting them."
       schemaMarkup={schemaMarkup}
     >
       <p>
@@ -240,7 +240,7 @@ export default function Page() {
         The reseller row is the only line item that returns nothing. Every other layer buys the advertiser something
         real. Each reseller hop compounds: two intermediary hops at 10% each do not cost 20%, they cost 19% of what
         remains after the layers above them, on top of an already-thinned dollar. And fee compression alone only gets a
-        premium advertiser from roughly 36 cents to the 55–70 cent range — getting above that requires removing the
+        premium advertiser from roughly 36 cents to the 55–70 cent range - getting above that requires removing the
         impressions that were worthless regardless of what they cost.
       </p>
 
@@ -278,7 +278,7 @@ export default function Page() {
       <h3>3. Made-for-Advertising Inventory</h3>
       <p>
         MFA properties are built to attract cheap sourced traffic and monetize it with dense, refreshing ad placements.
-        They pass most automated brand safety checks because the content is technically inoffensive — it is simply
+        They pass most automated brand safety checks because the content is technically inoffensive - it is simply
         worthless. Any campaign optimizing purely to efficiency metrics without an inventory quality constraint will
         drift toward MFA within weeks.
       </p>
@@ -304,7 +304,7 @@ export default function Page() {
           <tbody>
             <tr>
               <td>Publisher direct (programmatic guaranteed)</td>
-              <td>Lowest — 15–25% total</td>
+              <td>Lowest - 15–25% total</td>
               <td>Full: named publisher, negotiated terms</td>
               <td>Highest</td>
               <td>Flagship placements, tentpole moments</td>

@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: "Boutique Hotel Advertising: How to Fill Rooms With High-Value Guests",
     description:
-      "The digital media playbook for boutique hotels targeting affluent travelers — from CTV and programmatic to first-party data and direct booking strategy.",
+      "The digital media playbook for boutique hotels targeting affluent travelers - from CTV and programmatic to first-party data and direct booking strategy.",
     type: "article",
     url: "https://www.stillwatermedia.io/insights/boutique-hotel-advertising-digital",
     images: [
@@ -18,7 +18,7 @@ export const metadata = {
         url: "/images/boutique-hotel-advertising-digital.png",
         width: 1200,
         height: 630,
-        alt: "Boutique hotel lobby with cinematic lighting and affluent guests — digital advertising for luxury hospitality",
+        alt: "Boutique hotel lobby with cinematic lighting and affluent guests - digital advertising for luxury hospitality",
       },
     ],
   },
@@ -37,7 +37,7 @@ export default function BoutiqueHotelAdvertisingDigitalPage() {
     "@type": "Article",
     headline: "Boutique Hotel Advertising: How to Fill Rooms With High-Value Guests",
     description:
-      "The digital media playbook for boutique hotels targeting affluent travelers — from CTV and programmatic to first-party data and direct booking strategy.",
+      "The digital media playbook for boutique hotels targeting affluent travelers - from CTV and programmatic to first-party data and direct booking strategy.",
     image: {
       "@type": "ImageObject",
       url: "https://www.stillwatermedia.io/images/boutique-hotel-advertising-digital.png",
@@ -74,7 +74,7 @@ export default function BoutiqueHotelAdvertisingDigitalPage() {
 
   const schemaMarkup = {
     "@context": "https://schema.org",
-    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/boutique-hotel-advertising-digital#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Boutique Hotel Advertising: How to Fill Rooms With High-Value Guests","item":"https://www.stillwatermedia.io/insights/boutique-hotel-advertising-digital"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/boutique-hotel-advertising-digital#faq","mainEntity":[{"@type":"Question","name":"What digital channels work best for boutique hotel advertising?","acceptedAnswer":{"@type":"Answer","text":"The most effective digital channels for boutique hotel advertising are connected television (CTV) for awareness and visual storytelling, private marketplace programmatic display for brand-safe consideration targeting, and branded paid search for direct booking capture. CTV is particularly valuable for boutique properties because it delivers cinematic creative on the living room screen, reaching affluent travelers in a high-attention environment where travel planning conversations happen at home. Layer in streaming audio for commuter reach and native advertising on premium travel publishers for editorial-quality consideration placement."}},{"@type":"Question","name":"How much should a boutique hotel spend on digital advertising?","acceptedAnswer":{"@type":"Answer","text":"Boutique hotel digital advertising budgets typically range from $8,000–$15,000 per month for small properties (30–60 rooms) to $35,000–$75,000 per month for larger boutique properties with ADRs above $600. The allocation varies by property size and goals, but a general framework places 40–50% in CTV and streaming, 25–30% in programmatic display and native, and 15–20% in paid search. The key metric isn't total spend — it's cost per direct booking night relative to OTA commission savings."}},{"@type":"Question","name":"How do boutique hotels reduce OTA dependency through advertising?","acceptedAnswer":{"@type":"Answer","text":"Boutique hotels reduce OTA dependency by building a direct media channel that creates awareness and consideration before the traveler ever reaches an OTA search. This means running CTV campaigns in feeder markets during the planning phase (6–12 weeks before typical booking dates), using branded paid search to capture direct traffic that OTAs would otherwise intercept, and deploying first-party data from past guests to drive repeat direct bookings. The goal is to own the awareness moment so that by the time the traveler reaches OTA search, they're already searching for your property by name — at which point direct booking is the natural outcome."}},{"@type":"Question","name":"How do you measure ROI from boutique hotel advertising?","acceptedAnswer":{"@type":"Answer","text":"ROI measurement for boutique hotel advertising requires moving beyond last-click attribution, which understates the contribution of upper-funnel channels like CTV and programmatic display. The most defensible approach uses holdout testing — comparing booking rates among audiences exposed to your advertising versus a matched control group that wasn't exposed. This reveals the true incremental lift attributable to your media investment. Pair this with multi-touch attribution modeling to understand which channels are creating awareness, building consideration, and driving the final booking decision. Track cost per direct booking night (not just cost per click) as the primary efficiency metric."}},{"@type":"Question","name":"What is the best audience targeting strategy for boutique hotel advertising?","acceptedAnswer":{"@type":"Answer","text":"The best boutique hotel audience targeting strategy layers three data sources: first-party data from past guests (for lookalike modeling and win-back campaigns), premium third-party affluent segments (household income $200K+, luxury travel behavioral data, high-end credit card spend modeling), and geographic intent signals from your primary feeder markets. Exclude current reservations from acquisition targeting to avoid wasted spend. On CTV platforms, use household-level income and behavioral luxury travel signals to reach affluent households in drive markets (150–300 miles) and key feeder cities with flight connectivity to your destination."}}]}],
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/boutique-hotel-advertising-digital#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Boutique Hotel Advertising: How to Fill Rooms With High-Value Guests","item":"https://www.stillwatermedia.io/insights/boutique-hotel-advertising-digital"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/boutique-hotel-advertising-digital#faq","mainEntity":[{"@type":"Question","name":"What digital channels work best for boutique hotel advertising?","acceptedAnswer":{"@type":"Answer","text":"The most effective digital channels for boutique hotel advertising are connected television (CTV) for awareness and visual storytelling, private marketplace programmatic display for brand-safe consideration targeting, and branded paid search for direct booking capture. CTV is particularly valuable for boutique properties because it delivers cinematic creative on the living room screen, reaching affluent travelers in a high-attention environment where travel planning conversations happen at home. Layer in streaming audio for commuter reach and native advertising on premium travel publishers for editorial-quality consideration placement."}},{"@type":"Question","name":"How much should a boutique hotel spend on digital advertising?","acceptedAnswer":{"@type":"Answer","text":"Boutique hotel digital advertising budgets typically range from $8,000–$15,000 per month for small properties (30–60 rooms) to $35,000–$75,000 per month for larger boutique properties with ADRs above $600. The allocation varies by property size and goals, but a general framework places 40–50% in CTV and streaming, 25–30% in programmatic display and native, and 15–20% in paid search. The key metric isn't total spend - it's cost per direct booking night relative to OTA commission savings."}},{"@type":"Question","name":"How do boutique hotels reduce OTA dependency through advertising?","acceptedAnswer":{"@type":"Answer","text":"Boutique hotels reduce OTA dependency by building a direct media channel that creates awareness and consideration before the traveler ever reaches an OTA search. This means running CTV campaigns in feeder markets during the planning phase (6–12 weeks before typical booking dates), using branded paid search to capture direct traffic that OTAs would otherwise intercept, and deploying first-party data from past guests to drive repeat direct bookings. The goal is to own the awareness moment so that by the time the traveler reaches OTA search, they're already searching for your property by name - at which point direct booking is the natural outcome."}},{"@type":"Question","name":"How do you measure ROI from boutique hotel advertising?","acceptedAnswer":{"@type":"Answer","text":"ROI measurement for boutique hotel advertising requires moving beyond last-click attribution, which understates the contribution of upper-funnel channels like CTV and programmatic display. The most defensible approach uses holdout testing - comparing booking rates among audiences exposed to your advertising versus a matched control group that wasn't exposed. This reveals the true incremental lift attributable to your media investment. Pair this with multi-touch attribution modeling to understand which channels are creating awareness, building consideration, and driving the final booking decision. Track cost per direct booking night (not just cost per click) as the primary efficiency metric."}},{"@type":"Question","name":"What is the best audience targeting strategy for boutique hotel advertising?","acceptedAnswer":{"@type":"Answer","text":"The best boutique hotel audience targeting strategy layers three data sources: first-party data from past guests (for lookalike modeling and win-back campaigns), premium third-party affluent segments (household income $200K+, luxury travel behavioral data, high-end credit card spend modeling), and geographic intent signals from your primary feeder markets. Exclude current reservations from acquisition targeting to avoid wasted spend. On CTV platforms, use household-level income and behavioral luxury travel signals to reach affluent households in drive markets (150–300 miles) and key feeder cities with flight connectivity to your destination."}}]}],
   }
 
   return (
@@ -85,12 +85,12 @@ export default function BoutiqueHotelAdvertisingDigitalPage() {
       readingTime="9 min"
       category="Luxury Hospitality Marketing"
       image="/images/boutique-hotel-advertising-digital.png"
-      imageAlt="Boutique hotel lobby at golden hour — Stillwater Media boutique hotel advertising digital strategy for luxury hospitality brands"
+      imageAlt="Boutique hotel lobby at golden hour - Stillwater Media boutique hotel advertising digital strategy for luxury hospitality brands"
       imageCaption="Boutique hotels that command premium rates need media strategies as refined as the experiences they deliver."
       schemaMarkup={schemaMarkup}
     >
       <p>
-        Boutique hotel advertising digital strategy isn't about chasing volume — it's about precision. While major hotel
+        Boutique hotel advertising digital strategy isn't about chasing volume - it's about precision. While major hotel
         chains flood every channel with discount offers and loyalty point promotions, boutique properties have a
         structurally different problem: you need fewer guests, but significantly better ones. A 60-room property doesn't
         need to reach five million people. It needs to reach 50,000 of the right ones repeatedly, across channels, at
@@ -124,7 +124,7 @@ export default function BoutiqueHotelAdvertisingDigitalPage() {
       </ul>
       <p>
         Digital advertising done correctly serves as the direct-booking engine that reduces OTA dependency. But it only
-        works if your media strategy is built around the right audience signals — affluent, intent-driven, and
+        works if your media strategy is built around the right audience signals - affluent, intent-driven, and
         geographically qualified.
       </p>
       <p>
@@ -153,7 +153,7 @@ export default function BoutiqueHotelAdvertisingDigitalPage() {
           <strong>Booking behavior:</strong> Plans 3–8 weeks in advance for domestic, 8–16 weeks for international
         </li>
         <li>
-          <strong>Decision journey:</strong> Research-heavy — reads reviews, reads editorial coverage, checks Instagram
+          <strong>Decision journey:</strong> Research-heavy - reads reviews, reads editorial coverage, checks Instagram
           before booking
         </li>
         <li>
@@ -175,7 +175,7 @@ export default function BoutiqueHotelAdvertisingDigitalPage() {
 
       <h3>Connected Television (CTV): The Awareness Engine</h3>
       <p>
-        CTV reaches your audience in the highest-attention, highest-credibility environment in digital media — the living
+        CTV reaches your audience in the highest-attention, highest-credibility environment in digital media - the living
         room television screen, on premium streaming platforms like Disney+, Hulu, Peacock, and Paramount+.
       </p>
       <p>
@@ -192,7 +192,7 @@ export default function BoutiqueHotelAdvertisingDigitalPage() {
       </ul>
       <p>
         Expected benchmarks: CTV video completion rates for premium inventory typically run 85–95% (unskippable
-        placements). Cost per completed view on PMPs runs $0.04–$0.08 versus $0.02–$0.04 on open exchange — but the brand
+        placements). Cost per completed view on PMPs runs $0.04–$0.08 versus $0.02–$0.04 on open exchange - but the brand
         safety and audience quality premium is worth it.
       </p>
 
@@ -203,7 +203,7 @@ export default function BoutiqueHotelAdvertisingDigitalPage() {
       </p>
       <p>
         Open exchange programmatic will place your hotel ad next to low-quality content, gambling sites, or politically
-        charged news — eroding the premium perception your ADR depends on. Private marketplace deals with premium
+        charged news - eroding the premium perception your ADR depends on. Private marketplace deals with premium
         publishers (Condé Nast, Travel + Leisure, Robb Report, Forbes, The Atlantic) ensure your creative appears in
         contexts that reinforce your brand positioning rather than undercutting it.
       </p>
@@ -215,10 +215,10 @@ export default function BoutiqueHotelAdvertisingDigitalPage() {
 
       <h3>Streaming Audio: Reaching Affluent Commuters and Frequent Flyers</h3>
       <p>
-        Spotify Premium (ad-free) isn't the right target — but Spotify's free tier reaches an enormous volume of users,
+        Spotify Premium (ad-free) isn't the right target - but Spotify's free tier reaches an enormous volume of users,
         and the platform's demographic targeting, while imprecise, can be layered with geographic and behavioral data to
         reach younger affluent audiences. More importantly, streaming audio on platforms like SiriusXM, iHeartRadio, and
-        podcast networks reaches high-income commuters and business travelers during drive time and workout routines —
+        podcast networks reaches high-income commuters and business travelers during drive time and workout routines -
         moments when travel planning is actively happening.
       </p>
       <p>
@@ -267,14 +267,14 @@ export default function BoutiqueHotelAdvertisingDigitalPage() {
       <p>
         <strong>Email-to-CTV matching:</strong> Upload your email list for household matching against CTV devices. This
         allows you to serve video advertising on the television to email subscribers who may not have opened your last
-        three campaigns — reaching them in a higher-attention environment with the same travel offer.
+        three campaigns - reaching them in a higher-attention environment with the same travel offer.
       </p>
 
       <h2>Attribution for Long Consideration Cycles</h2>
       <p>
         Boutique hotel bookings don't convert in a single session. A prospect may see your property on CTV in February,
         encounter you again on programmatic display in March, search for your property by name in April, and finally book
-        in May for a June trip. Last-click attribution would credit the paid search click — and suggest that all your
+        in May for a June trip. Last-click attribution would credit the paid search click - and suggest that all your
         upper-funnel investment was wasted.
       </p>
       <p>The right measurement framework for boutique hotel advertising uses:</p>
@@ -316,8 +316,8 @@ export default function BoutiqueHotelAdvertisingDigitalPage() {
       </table>
       <p>
         Incrementality testing is particularly critical for justifying CTV investment, which influences but doesn't
-        directly drive the booking click. Running a holdout group — a geographically or device-matched audience that
-        doesn't see your CTV campaign — and comparing their booking rates against the exposed group gives you a
+        directly drive the booking click. Running a holdout group - a geographically or device-matched audience that
+        doesn't see your CTV campaign - and comparing their booking rates against the exposed group gives you a
         defensible, causal measure of what CTV is actually contributing.
       </p>
       <p>
@@ -364,7 +364,7 @@ export default function BoutiqueHotelAdvertisingDigitalPage() {
       <p>
         The key insight: CTV allocation should increase as ADR increases, because the visual storytelling advantage of
         television-quality creative compounds at higher price points. A $700/night property can't afford to compete on
-        price — it needs to win on desire, and CTV is where desire gets built at scale.
+        price - it needs to win on desire, and CTV is where desire gets built at scale.
       </p>
 
       <h2>Common Mistakes Boutique Hotels Make in Digital Advertising</h2>
@@ -383,7 +383,7 @@ export default function BoutiqueHotelAdvertisingDigitalPage() {
         bookings decline as OTA share grows.
       </p>
       <p>
-        <strong>Competing for volume instead of quality.</strong> Optimizing toward click-through rate is a trap — a
+        <strong>Competing for volume instead of quality.</strong> Optimizing toward click-through rate is a trap - a
         $40/night budget property gets better CTR because the offer is more broadly appealing. Boutique hotel advertising
         should optimize toward qualified sessions (time on site, pages per visit, room type viewed) and ultimately
         revenue per room night, not clicks.
@@ -397,7 +397,7 @@ export default function BoutiqueHotelAdvertisingDigitalPage() {
       <h2>The Stillwater Media Approach to Luxury Hospitality</h2>
       <p>
         At Stillwater Media, we work with luxury hospitality brands that are done competing on price and ready to compete
-        on precision. Our approach starts with audience engineering — building a bespoke targeting architecture using
+        on precision. Our approach starts with audience engineering - building a bespoke targeting architecture using
         your first-party data, premium third-party affluent audience segments, and behavioral intent signals specific to
         your feeder markets.
       </p>
@@ -405,7 +405,7 @@ export default function BoutiqueHotelAdvertisingDigitalPage() {
         We place boutique hotel advertising exclusively in brand-safe environments through private marketplace deals with
         premium publishers, so your property's visual identity is never adjacent to content that undermines it. And we
         measure results through incrementality testing that tells you exactly how much of your direct booking revenue is
-        attributable to media investment — not just correlated with it.
+        attributable to media investment - not just correlated with it.
       </p>
       <p>
         If you're ready to reduce OTA dependency and build a media program that converts affluent travelers into loyal

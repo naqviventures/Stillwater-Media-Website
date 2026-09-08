@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Wealth-Based Audience Segmentation: How Luxury Brands Should Actually Tier Affluence",
     description:
-      "A senior strategist's guide to wealth-based audience segmentation — why income-based targeting misidentifies the affluent, the difference between income, net worth, liquidity and spending capacity as segmentation axes, a five-tier segment framework with reachable scale by tier, data source accuracy benchmarks, and the activation playbook for each tier across CTV, programmatic, DOOH and audio.",
+      "A senior strategist's guide to wealth-based audience segmentation - why income-based targeting misidentifies the affluent, the difference between income, net worth, liquidity and spending capacity as segmentation axes, a five-tier segment framework with reachable scale by tier, data source accuracy benchmarks, and the activation playbook for each tier across CTV, programmatic, DOOH and audio.",
     type: "article",
     url: canonicalUrl,
     images: [
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
         url: imagePath,
         width: 1200,
         height: 630,
-        alt: "Wealth-based audience segmentation — Stillwater Media",
+        alt: "Wealth-based audience segmentation - Stillwater Media",
       },
     ],
     locale: "en_US",
@@ -43,13 +43,13 @@ const schemaMarkup = {
       "@type": "Article",
       headline: "Wealth-Based Audience Segmentation: How Luxury Brands Should Actually Tier Affluence",
       description:
-        "A senior media strategist's guide to wealth-based audience segmentation for luxury and high-consideration brands — why household income is the weakest available proxy for purchasing capacity, the four distinct segmentation axes of income, net worth, liquidity and category spending propensity, a five-tier segment framework with realistic addressable scale and modeling accuracy at each tier, benchmark accuracy ranges for tax-assessor, financial-services, purchase-based and modeled data sources, the seeding requirements for affluent lookalike modeling, and channel-by-channel activation guidance across premium CTV, programmatic, DOOH and streaming audio.",
+        "A senior media strategist's guide to wealth-based audience segmentation for luxury and high-consideration brands - why household income is the weakest available proxy for purchasing capacity, the four distinct segmentation axes of income, net worth, liquidity and category spending propensity, a five-tier segment framework with realistic addressable scale and modeling accuracy at each tier, benchmark accuracy ranges for tax-assessor, financial-services, purchase-based and modeled data sources, the seeding requirements for affluent lookalike modeling, and channel-by-channel activation guidance across premium CTV, programmatic, DOOH and streaming audio.",
       image: {
         "@type": "ImageObject",
         url: `https://www.stillwatermedia.io${imagePath}`,
         width: 1200,
         height: 630,
-        caption: "Wealth-based audience segmentation — Stillwater Media",
+        caption: "Wealth-based audience segmentation - Stillwater Media",
       },
       author: { "@type": "Organization", name: "Stillwater Media" },
       publisher: {
@@ -87,7 +87,7 @@ const schemaMarkup = {
           name: "What is wealth-based audience segmentation?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Wealth-based audience segmentation divides an audience by financial capacity — net worth, investable assets, and demonstrated category spending — rather than by demographic proxies like household income or age. It exists because income measures how fast a household accumulates money, not how much it has available to spend, which is why income-based targeting systematically misses retirees, inheritors, and post-liquidity founders while over-including high-earning households with heavy financial obligations. For luxury and high-consideration brands, defining the eligible universe by net worth or liquidity and then prioritizing within it by behavioral spending signals produces materially better qualified reach.",
+            text: "Wealth-based audience segmentation divides an audience by financial capacity - net worth, investable assets, and demonstrated category spending - rather than by demographic proxies like household income or age. It exists because income measures how fast a household accumulates money, not how much it has available to spend, which is why income-based targeting systematically misses retirees, inheritors, and post-liquidity founders while over-including high-earning households with heavy financial obligations. For luxury and high-consideration brands, defining the eligible universe by net worth or liquidity and then prioritizing within it by behavioral spending signals produces materially better qualified reach.",
           },
         },
         {
@@ -103,7 +103,7 @@ const schemaMarkup = {
           name: "How accurate is wealth data for high-net-worth targeting?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Accuracy declines as wealth increases. Modeled wealth data performs reasonably well at the mass affluent tier, roughly 75–85% precision, because the underlying signals — property values, mortgage data, vehicle registrations — are publicly observable. At $25M+ net worth precision typically falls to 40–60%, and at $100M+ to 25–45%, because assets at that level are commonly held in trusts, LLCs, and holding companies that break the link between a household and its balance sheet. Any vendor claiming high precision on ultra-high-net-worth segments should be asked directly for the deterministic-to-modeled ratio behind the segment.",
+            text: "Accuracy declines as wealth increases. Modeled wealth data performs reasonably well at the mass affluent tier, roughly 75–85% precision, because the underlying signals - property values, mortgage data, vehicle registrations - are publicly observable. At $25M+ net worth precision typically falls to 40–60%, and at $100M+ to 25–45%, because assets at that level are commonly held in trusts, LLCs, and holding companies that break the link between a household and its balance sheet. Any vendor claiming high precision on ultra-high-net-worth segments should be asked directly for the deterministic-to-modeled ratio behind the segment.",
           },
         },
         {
@@ -111,7 +111,7 @@ const schemaMarkup = {
           name: "How large should a lookalike seed audience be for luxury advertising?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The productive range for most luxury advertisers is 2,000 to 10,000 matched seed records, drawn from the top revenue decile of customers rather than from all converters. Below roughly 1,000 records models overfit and produce unstable expansion; above about 25,000 the additional precision gain is marginal. Expansion should be capped at 1–3%, because platform lookalikes at 5% or 10% dilute wealth composition toward population averages — in practice a 1% lookalike layered with a net-worth qualifier often beats a 5% lookalike on cost per qualified inquiry by 30–60%.",
+            text: "The productive range for most luxury advertisers is 2,000 to 10,000 matched seed records, drawn from the top revenue decile of customers rather than from all converters. Below roughly 1,000 records models overfit and produce unstable expansion; above about 25,000 the additional precision gain is marginal. Expansion should be capped at 1–3%, because platform lookalikes at 5% or 10% dilute wealth composition toward population averages - in practice a 1% lookalike layered with a net-worth qualifier often beats a 5% lookalike on cost per qualified inquiry by 30–60%.",
           },
         },
         {
@@ -119,7 +119,7 @@ const schemaMarkup = {
           name: "Which channels work best for reaching each wealth tier?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Mass affluent and affluent tiers are reachable at scale through premium CTV, private marketplace display, YouTube Select, podcasts, and streaming audio, where audience data layered onto quality inventory does most of the work. High-net-worth households are best reached through curated private marketplace deals and endemic native placements where inventory context reinforces the targeting. At the very-high and ultra-high-net-worth tiers, household-level data becomes unreliable and geography becomes the stronger proxy — DOOH in private terminal corridors, club districts, and luxury retail corridors — supplemented by first-party and relationship channels that paid media cannot replace.",
+            text: "Mass affluent and affluent tiers are reachable at scale through premium CTV, private marketplace display, YouTube Select, podcasts, and streaming audio, where audience data layered onto quality inventory does most of the work. High-net-worth households are best reached through curated private marketplace deals and endemic native placements where inventory context reinforces the targeting. At the very-high and ultra-high-net-worth tiers, household-level data becomes unreliable and geography becomes the stronger proxy - DOOH in private terminal corridors, club districts, and luxury retail corridors - supplemented by first-party and relationship channels that paid media cannot replace.",
           },
         },
       ],
@@ -137,12 +137,12 @@ export default function Page() {
       category="Audience Strategy"
       image={imagePath}
       imageAlt="Stillwater Media guide illustration on wealth-based audience segmentation showing five nested brass rings of decreasing diameter arranged concentrically on dark marble"
-      imageCaption="Affluence is not one audience — it is a set of nested tiers with radically different scale, accuracy, and media economics at each level."
+      imageCaption="Affluence is not one audience - it is a set of nested tiers with radically different scale, accuracy, and media economics at each level."
       schemaMarkup={schemaMarkup}
     >
       <p>
-        Wealth-based audience segmentation is the practice of dividing a market by financial capacity — net worth, liquid
-        assets, investable capital, and demonstrated category spending — rather than by the demographic proxies most media
+        Wealth-based audience segmentation is the practice of dividing a market by financial capacity - net worth, liquid
+        assets, investable capital, and demonstrated category spending - rather than by the demographic proxies most media
         plans still default to. The distinction matters because the default proxy, household income, is the weakest signal
         of purchasing capacity available in the commercial data ecosystem, and it is the one nearly every off-the-shelf
         "affluent" segment is built on.
@@ -152,12 +152,12 @@ export default function Page() {
         couple in their late thirties carrying a large mortgage, two car notes, and private school tuition, with roughly
         $80K in investable assets. The other is a retired business owner with $6M in liquid assets and a reported income of
         $180K, because most of what they have is not income. For a private aviation charter program, a wealth management
-        firm, or a $4M coastal listing, only one of those households is a real prospect — and income-based targeting either
+        firm, or a $4M coastal listing, only one of those households is a real prospect - and income-based targeting either
         misses them or buries them among thousands of look-alike non-prospects.
       </p>
       <p>
         At Stillwater Media we plan and buy for brands where customer LTV routinely exceeds $5,000 and sales cycles run
-        past 30 days — private aviation, luxury real estate, wealth management, private clubs, premium automotive, and
+        past 30 days - private aviation, luxury real estate, wealth management, private clubs, premium automotive, and
         luxury hospitality. Wealth-based audience segmentation is the first thing we rebuild on nearly every account we
         inherit. This is how we do it.
       </p>
@@ -169,24 +169,24 @@ export default function Page() {
       </p>
       <ol>
         <li>
-          <strong>Income</strong> — annual earnings. Widely modeled, widely available, and only loosely correlated with
+          <strong>Income</strong> - annual earnings. Widely modeled, widely available, and only loosely correlated with
           discretionary purchasing capacity. Income captures wealth <em>accumulation rate</em>, not wealth. It
           systematically over-indexes on high-earning, high-obligation households and under-indexes on retirees,
-          inheritors, and post-liquidity founders — three of the most valuable cohorts in luxury.
+          inheritors, and post-liquidity founders - three of the most valuable cohorts in luxury.
         </li>
         <li>
-          <strong>Net worth</strong> — total assets less liabilities. A far better capacity signal, and derivable at
+          <strong>Net worth</strong> - total assets less liabilities. A far better capacity signal, and derivable at
           household level with reasonable accuracy from property records, mortgage data, vehicle registration, and
           financial-services modeling. This is the primary axis for most luxury categories.
         </li>
         <li>
-          <strong>Liquidity / investable assets</strong> — what is actually available to deploy. The decisive axis for
+          <strong>Liquidity / investable assets</strong> - what is actually available to deploy. The decisive axis for
           wealth management, private equity, private aviation, and any purchase made from cash rather than financing. A
           household can be net-worth-rich and liquidity-poor if the balance sheet is concentrated in illiquid real estate
           or a closely held business.
         </li>
         <li>
-          <strong>Demonstrated category spending propensity</strong> — observed behavior in the category: prior luxury
+          <strong>Demonstrated category spending propensity</strong> - observed behavior in the category: prior luxury
           purchases, charter history, club memberships, brand affinity, high-value transaction patterns. The strongest
           single predictor of the next luxury purchase is the last one, and this axis consistently outperforms all three
           financial axes on conversion rate in our testing.
@@ -262,7 +262,7 @@ export default function Page() {
       <p>Three implications leaders consistently underestimate.</p>
       <p>
         <strong>Accuracy degrades as wealth rises.</strong> Modeled wealth data is built from property, mortgage, vehicle,
-        and financial signals that become progressively less observable at the top — trusts, LLCs, holding companies, and
+        and financial signals that become progressively less observable at the top - trusts, LLCs, holding companies, and
         multiple residences obscure exactly the households you most want. Any vendor promising 90% precision on a $100M+
         segment is selling a model, not a measurement.
       </p>
@@ -270,7 +270,7 @@ export default function Page() {
         <strong>Reachable scale collapses faster than population.</strong> At the UHNW tier you are looking at roughly ten
         to twelve thousand U.S. households, of which perhaps a quarter are addressable with confidence, distributed across
         every media property in the country. No media plan reaches that group efficiently through targeting alone; it is
-        reached through context — the environments those households occupy — and through relationship channels media
+        reached through context - the environments those households occupy - and through relationship channels media
         cannot substitute for.
       </p>
       <p>
@@ -334,15 +334,15 @@ export default function Page() {
         <li>
           <strong>Reach sanity check.</strong> Compare the vendor's stated segment size to the true population of that
           wealth tier. A "$5M+ net worth" segment claiming 12 million U.S. households is describing something else
-          entirely — that is roughly six times the actual population.
+          entirely - that is roughly six times the actual population.
         </li>
       </ol>
 
       <h2>Affluent Lookalike Modeling: Seeding It Correctly</h2>
       <p>Lookalike expansion is where wealth segmentation either compounds or corrupts. Three rules govern it.</p>
       <p>
-        <strong>Seed on value, not volume.</strong> Model from your top revenue decile — ideally customers above a defined
-        LTV threshold — rather than from all converters. Seeding on all leads teaches the model to find lead-form
+        <strong>Seed on value, not volume.</strong> Model from your top revenue decile - ideally customers above a defined
+        LTV threshold - rather than from all converters. Seeding on all leads teaches the model to find lead-form
         completers, which is a different and much less valuable population.
       </p>
       <p>
@@ -358,8 +358,8 @@ export default function Page() {
       <p>
         A fourth practice separates good wealth modeling from adequate wealth modeling:{" "}
         <strong>exclude your worst customers deliberately.</strong> Most brands seed only on positive examples. Feeding the
-        model a negative seed — inquiries that never qualified, trial members who churned in the first year, leads that
-        consumed sales time without converting — sharpens the boundary considerably. In categories with high sales-labor
+        model a negative seed - inquiries that never qualified, trial members who churned in the first year, leads that
+        consumed sales time without converting - sharpens the boundary considerably. In categories with high sales-labor
         cost per lead, such as private aviation and wealth management, suppressing look-alikes of unqualified inquirers
         often improves lead quality more than any positive-signal refinement.
       </p>
@@ -372,20 +372,20 @@ export default function Page() {
       </p>
       <ul>
         <li>
-          <strong>High wealth, high intent</strong> — the smallest and most valuable cell. Warrants maximum frequency,
+          <strong>High wealth, high intent</strong> - the smallest and most valuable cell. Warrants maximum frequency,
           direct-response creative, and immediate sales routing.
         </li>
         <li>
-          <strong>High wealth, low intent</strong> — the strategic cell where most luxury brands under-invest. This is
+          <strong>High wealth, low intent</strong> - the strategic cell where most luxury brands under-invest. This is
           where premium CTV, DOOH, and podcast presence earn their return, building familiarity months before a search
           ever happens.
         </li>
         <li>
-          <strong>Low wealth, high intent</strong> — the trap. It looks excellent in click and engagement reporting and
+          <strong>Low wealth, high intent</strong> - the trap. It looks excellent in click and engagement reporting and
           converts poorly to revenue. Aggressive qualification and suppression belong here.
         </li>
         <li>
-          <strong>Low wealth, low intent</strong> — pure waste. Exclusion lists exist for this cell.
+          <strong>Low wealth, low intent</strong> - pure waste. Exclusion lists exist for this cell.
         </li>
       </ul>
       <p>
@@ -402,8 +402,8 @@ export default function Page() {
         <li>
           <strong>Premium CTV.</strong> Apply wealth segments as an audience layer inside curated private marketplace
           deals on Disney+, Netflix, Prime Video, and Hulu inventory rather than as an open-exchange targeting parameter.
-          The inventory quality does half the segmentation work — premium subscription environments already skew affluent
-          — and the data layer sharpens it. Expect effective CPMs of roughly $38–$65 for wealth-qualified premium CTV.
+          The inventory quality does half the segmentation work - premium subscription environments already skew affluent
+          - and the data layer sharpens it. Expect effective CPMs of roughly $38–$65 for wealth-qualified premium CTV.
         </li>
         <li>
           <strong>Programmatic display and native.</strong> Wealth segments here should be paired with contextual and
@@ -438,7 +438,7 @@ export default function Page() {
           prospecting media to current clients is pure waste and inflates apparent performance through misattribution.
         </li>
         <li>
-          <strong>Refreshing segments annually or never.</strong> Wealth is dynamic — liquidity events, relocations, and
+          <strong>Refreshing segments annually or never.</strong> Wealth is dynamic - liquidity events, relocations, and
           retirements move households between tiers constantly. Quarterly refresh is the minimum defensible cadence.
         </li>
       </ol>
@@ -467,7 +467,7 @@ export default function Page() {
         <li>
           <strong>Incremental contribution by segment.</strong> Run holdout tests at the segment level where volume
           permits. Wealth segments that look strong in attributed reporting sometimes turn out to be harvesting demand that
-          would have arrived regardless — a pattern especially common in retargeting layered with affluence qualifiers.
+          would have arrived regardless - a pattern especially common in retargeting layered with affluence qualifiers.
         </li>
       </ol>
       <p>
@@ -491,8 +491,8 @@ export default function Page() {
       <h2>Frequently Asked Questions</h2>
       <h3>What is wealth-based audience segmentation?</h3>
       <p>
-        Wealth-based audience segmentation divides an audience by financial capacity — net worth, investable assets, and
-        demonstrated category spending — rather than by demographic proxies like household income or age. It exists because
+        Wealth-based audience segmentation divides an audience by financial capacity - net worth, investable assets, and
+        demonstrated category spending - rather than by demographic proxies like household income or age. It exists because
         income measures how fast a household accumulates money, not how much it has available to spend, which is why
         income-based targeting systematically misses retirees, inheritors, and post-liquidity founders while over-including
         high-earning households with heavy financial obligations. For luxury and high-consideration brands, defining the
@@ -511,7 +511,7 @@ export default function Page() {
       <h3>How accurate is wealth data for high-net-worth targeting?</h3>
       <p>
         Accuracy declines as wealth increases. Modeled wealth data performs reasonably well at the mass affluent tier,
-        roughly 75–85% precision, because the underlying signals — property values, mortgage data, vehicle registrations —
+        roughly 75–85% precision, because the underlying signals - property values, mortgage data, vehicle registrations -
         are publicly observable. At $25M+ net worth precision typically falls to 40–60%, and at $100M+ to 25–45%, because
         assets at that level are commonly held in trusts, LLCs, and holding companies that break the link between a
         household and its balance sheet. Any vendor claiming high precision on ultra-high-net-worth segments should be
@@ -522,7 +522,7 @@ export default function Page() {
         The productive range for most luxury advertisers is 2,000 to 10,000 matched seed records, drawn from the top
         revenue decile of customers rather than from all converters. Below roughly 1,000 records models overfit and produce
         unstable expansion; above about 25,000 the additional precision gain is marginal. Expansion should be capped at
-        1–3%, because platform lookalikes at 5% or 10% dilute wealth composition toward population averages — in practice a
+        1–3%, because platform lookalikes at 5% or 10% dilute wealth composition toward population averages - in practice a
         1% lookalike layered with a net-worth qualifier often beats a 5% lookalike on cost per qualified inquiry by 30–60%.
       </p>
       <h3>Which channels work best for reaching each wealth tier?</h3>
@@ -531,8 +531,8 @@ export default function Page() {
         Select, podcasts, and streaming audio, where audience data layered onto quality inventory does most of the work.
         High-net-worth households are best reached through curated private marketplace deals and endemic native placements
         where inventory context reinforces the targeting. At the very-high and ultra-high-net-worth tiers, household-level
-        data becomes unreliable and geography becomes the stronger proxy — DOOH in private terminal corridors, club
-        districts, and luxury retail corridors — supplemented by first-party and relationship channels that paid media
+        data becomes unreliable and geography becomes the stronger proxy - DOOH in private terminal corridors, club
+        districts, and luxury retail corridors - supplemented by first-party and relationship channels that paid media
         cannot replace.
       </p>
     </ArticleLayout>

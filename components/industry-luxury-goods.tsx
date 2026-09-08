@@ -2,7 +2,7 @@ import IndustryPageLayout, { type IndustryContent, type ProofEntry } from "@/com
 
 // Proof entries are added only after written client approval covering the
 // metric, the time period, the measurement method, and the anonymised
-// description. Empty array renders nothing — that is intended.
+// description. Empty array renders nothing - that is intended.
 const proof: ProofEntry[] = []
 
 export const content: IndustryContent = {
@@ -43,19 +43,19 @@ export const content: IndustryContent = {
       "The design principle is that demand creation and demand capture are separate jobs, funded separately and measured differently. Collapsing them into one funnel and one metric is how premium brands end up with efficient reporting and declining growth.",
     items: [
       {
-        h3: "CTV and premium video — demand creation",
+        h3: "CTV and premium video - demand creation",
         body: "Streaming and premium video against affluent audiences, building the brand desire that everything downstream converts. Measured on its contribution to incremental revenue, not on last-touch conversions.",
       },
       {
-        h3: "Programmatic display and native — consideration",
+        h3: "Programmatic display and native - consideration",
         body: "Purchase-intent audiences with creative sequenced by product tier, never by discount. Brand-safe placement handled as a requirement rather than a setting.",
       },
       {
-        h3: "Retail media — where the brand sells through partners",
+        h3: "Retail media - where the brand sells through partners",
         body: "Activated where wholesale and marketplace relationships make it relevant, and planned alongside direct so the two are not bidding against each other for the same customer.",
       },
       {
-        h3: "Paid social and search — capture",
+        h3: "Paid social and search - capture",
         body: "Efficient, necessary, and consistently over-credited. Funded as capture, reported as capture, and never allowed to set the budget for the layers that feed it.",
       },
     ],
@@ -92,7 +92,7 @@ export const content: IndustryContent = {
     ],
     linkedParagraph: {
       before:
-        "We also report against full-price revenue rather than total revenue where the brand can separate them. A campaign that grows revenue by moving discounted inventory has not grown the business it appears to have grown — a distinction we hold to across ",
+        "We also report against full-price revenue rather than total revenue where the brand can separate them. A campaign that grows revenue by moving discounted inventory has not grown the business it appears to have grown - a distinction we hold to across ",
       linkText: "every engagement",
       href: "/capabilities",
       after: ".",

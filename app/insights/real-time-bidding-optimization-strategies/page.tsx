@@ -104,19 +104,19 @@ export default function RTBOptimization() {
       <h3>Bid Strategy Types</h3>
 
       <ul>
-        <li><strong>CPM bidding</strong> — Fixed price per thousand impressions; best for reach and awareness</li>
-        <li><strong>CPC bidding</strong> — Pay per click; good for traffic objectives</li>
-        <li><strong>CPA bidding</strong> — Pay per action; optimizes for conversions</li>
-        <li><strong>Value-based bidding</strong> — Adjust bids based on predicted customer lifetime value</li>
+        <li><strong>CPM bidding</strong> - Fixed price per thousand impressions; best for reach and awareness</li>
+        <li><strong>CPC bidding</strong> - Pay per click; good for traffic objectives</li>
+        <li><strong>CPA bidding</strong> - Pay per action; optimizes for conversions</li>
+        <li><strong>Value-based bidding</strong> - Adjust bids based on predicted customer lifetime value</li>
       </ul>
 
       <h3>Strategy Selection by Objective</h3>
 
       <ol>
-        <li><strong>Brand awareness</strong> — CPM bidding with viewability optimization</li>
-        <li><strong>Consideration</strong> — Balanced approach with engagement optimization</li>
-        <li><strong>Conversion</strong> — CPA or value-based bidding with conversion optimization</li>
-        <li><strong>Retention</strong> — Frequency-optimized reach among existing customers</li>
+        <li><strong>Brand awareness</strong> - CPM bidding with viewability optimization</li>
+        <li><strong>Consideration</strong> - Balanced approach with engagement optimization</li>
+        <li><strong>Conversion</strong> - CPA or value-based bidding with conversion optimization</li>
+        <li><strong>Retention</strong> - Frequency-optimized reach among existing customers</li>
       </ol>
 
       <h3>Value-Based Bidding for Premium Brands</h3>
@@ -143,19 +143,19 @@ export default function RTBOptimization() {
       <h3>Supply Quality Controls</h3>
 
       <ol>
-        <li><strong>Allowlists</strong> — Explicitly approved publishers and domains</li>
-        <li><strong>Blocklists</strong> — Prohibited publishers, categories, and content types</li>
-        <li><strong>Quality scoring</strong> — Automated assessment of inventory quality signals</li>
-        <li><strong>Verification vendors</strong> — IAS, DoubleVerify, MOAT for brand safety and viewability</li>
+        <li><strong>Allowlists</strong> - Explicitly approved publishers and domains</li>
+        <li><strong>Blocklists</strong> - Prohibited publishers, categories, and content types</li>
+        <li><strong>Quality scoring</strong> - Automated assessment of inventory quality signals</li>
+        <li><strong>Verification vendors</strong> - IAS, DoubleVerify, MOAT for brand safety and viewability</li>
       </ol>
 
       <h3>Inventory to Avoid</h3>
 
       <ul>
-        <li><strong>Made-for-advertising (MFA) sites</strong> — Content farms optimized for ad revenue</li>
-        <li><strong>Low-quality content</strong> — Sites with poor editorial standards</li>
-        <li><strong>Fraudulent inventory</strong> — Invalid traffic, bot impressions, domain spoofing</li>
-        <li><strong>Brand-unsafe adjacencies</strong> — Content that could damage brand perception</li>
+        <li><strong>Made-for-advertising (MFA) sites</strong> - Content farms optimized for ad revenue</li>
+        <li><strong>Low-quality content</strong> - Sites with poor editorial standards</li>
+        <li><strong>Fraudulent inventory</strong> - Invalid traffic, bot impressions, domain spoofing</li>
+        <li><strong>Brand-unsafe adjacencies</strong> - Content that could damage brand perception</li>
       </ul>
 
       <h3>Private Marketplace Prioritization</h3>
@@ -182,19 +182,19 @@ export default function RTBOptimization() {
       </p>
 
       <ul>
-        <li><strong>Brand campaigns</strong> — Higher frequency (5-7/week) for message retention</li>
-        <li><strong>Performance campaigns</strong> — Lower frequency (2-3/week) to avoid fatigue</li>
-        <li><strong>Sequential messaging</strong> — Structured frequency for story progression</li>
-        <li><strong>Retargeting</strong> — Declining frequency over time to avoid over-exposure</li>
+        <li><strong>Brand campaigns</strong> - Higher frequency (5-7/week) for message retention</li>
+        <li><strong>Performance campaigns</strong> - Lower frequency (2-3/week) to avoid fatigue</li>
+        <li><strong>Sequential messaging</strong> - Structured frequency for story progression</li>
+        <li><strong>Retargeting</strong> - Declining frequency over time to avoid over-exposure</li>
       </ul>
 
       <h3>Pacing Strategies</h3>
 
       <ol>
-        <li><strong>Even pacing</strong> — Distribute budget evenly across flight period</li>
-        <li><strong>Front-loaded</strong> — Heavier early spend for time-sensitive campaigns</li>
-        <li><strong>Back-loaded</strong> — Reserve budget for end-of-period push</li>
-        <li><strong>Daypart optimization</strong> — Concentrate spend during high-value hours</li>
+        <li><strong>Even pacing</strong> - Distribute budget evenly across flight period</li>
+        <li><strong>Front-loaded</strong> - Heavier early spend for time-sensitive campaigns</li>
+        <li><strong>Back-loaded</strong> - Reserve budget for end-of-period push</li>
+        <li><strong>Daypart optimization</strong> - Concentrate spend during high-value hours</li>
       </ol>
 
       <p>
@@ -212,19 +212,19 @@ export default function RTBOptimization() {
       </p>
 
       <ul>
-        <li><strong>Audience-based variants</strong> — Different creative for different segments</li>
-        <li><strong>Contextual adaptation</strong> — Creative that matches content environment</li>
-        <li><strong>Sequential storytelling</strong> — Progressive messaging based on exposure history</li>
-        <li><strong>Performance optimization</strong> — Automatic allocation to top-performing variants</li>
+        <li><strong>Audience-based variants</strong> - Different creative for different segments</li>
+        <li><strong>Contextual adaptation</strong> - Creative that matches content environment</li>
+        <li><strong>Sequential storytelling</strong> - Progressive messaging based on exposure history</li>
+        <li><strong>Performance optimization</strong> - Automatic allocation to top-performing variants</li>
       </ul>
 
       <h3>Testing Framework</h3>
 
       <ol>
-        <li><strong>A/B testing</strong> — Compare two variants with statistical significance</li>
-        <li><strong>Multivariate testing</strong> — Test multiple elements simultaneously</li>
-        <li><strong>Holdout groups</strong> — Measure incremental creative impact</li>
-        <li><strong>Sequential testing</strong> — Progressive optimization over campaign flight</li>
+        <li><strong>A/B testing</strong> - Compare two variants with statistical significance</li>
+        <li><strong>Multivariate testing</strong> - Test multiple elements simultaneously</li>
+        <li><strong>Holdout groups</strong> - Measure incremental creative impact</li>
+        <li><strong>Sequential testing</strong> - Progressive optimization over campaign flight</li>
       </ol>
 
       <h3>Luxury Brand Considerations</h3>
@@ -251,19 +251,19 @@ export default function RTBOptimization() {
       </p>
 
       <ul>
-        <li><strong>Deterministic matching</strong> — High-confidence identity based on logged-in data</li>
-        <li><strong>Probabilistic matching</strong> — Statistical inference of cross-device identity</li>
-        <li><strong>Household graphs</strong> — Connect devices within households</li>
-        <li><strong>First-party data</strong> — Your own customer data as identity foundation</li>
+        <li><strong>Deterministic matching</strong> - High-confidence identity based on logged-in data</li>
+        <li><strong>Probabilistic matching</strong> - Statistical inference of cross-device identity</li>
+        <li><strong>Household graphs</strong> - Connect devices within households</li>
+        <li><strong>First-party data</strong> - Your own customer data as identity foundation</li>
       </ul>
 
       <h3>Cross-Device Applications</h3>
 
       <ol>
-        <li><strong>Frequency management</strong> — Cap exposure across devices, not per device</li>
-        <li><strong>Sequential messaging</strong> — Continue stories across device types</li>
-        <li><strong>Attribution</strong> — Credit conversions regardless of device</li>
-        <li><strong>Audience extension</strong> — Reach known users on additional devices</li>
+        <li><strong>Frequency management</strong> - Cap exposure across devices, not per device</li>
+        <li><strong>Sequential messaging</strong> - Continue stories across device types</li>
+        <li><strong>Attribution</strong> - Credit conversions regardless of device</li>
+        <li><strong>Audience extension</strong> - Reach known users on additional devices</li>
       </ol>
 
       <hr />
@@ -277,19 +277,19 @@ export default function RTBOptimization() {
       </p>
 
       <ul>
-        <li><strong>View-through window</strong> — Typically 1-7 days for brand campaigns</li>
-        <li><strong>Click-through window</strong> — 7-30 days depending on sales cycle</li>
-        <li><strong>High-consideration purchases</strong> — Longer windows (30-90 days) appropriate</li>
-        <li><strong>Impulse categories</strong> — Shorter windows (1-3 days) for immediate purchases</li>
+        <li><strong>View-through window</strong> - Typically 1-7 days for brand campaigns</li>
+        <li><strong>Click-through window</strong> - 7-30 days depending on sales cycle</li>
+        <li><strong>High-consideration purchases</strong> - Longer windows (30-90 days) appropriate</li>
+        <li><strong>Impulse categories</strong> - Shorter windows (1-3 days) for immediate purchases</li>
       </ul>
 
       <h3>Measurement Framework</h3>
 
       <ol>
-        <li><strong>Incrementality testing</strong> — Measure true causal impact via holdouts</li>
-        <li><strong>Media mix modeling</strong> — Understand RTB contribution versus other channels</li>
-        <li><strong>Multi-touch attribution</strong> — Credit distribution across touchpoints</li>
-        <li><strong>Brand lift studies</strong> — Survey-based awareness and consideration measurement</li>
+        <li><strong>Incrementality testing</strong> - Measure true causal impact via holdouts</li>
+        <li><strong>Media mix modeling</strong> - Understand RTB contribution versus other channels</li>
+        <li><strong>Multi-touch attribution</strong> - Credit distribution across touchpoints</li>
+        <li><strong>Brand lift studies</strong> - Survey-based awareness and consideration measurement</li>
       </ol>
 
       <hr />
@@ -301,16 +301,16 @@ export default function RTBOptimization() {
       </p>
 
       <ul>
-        <li><strong>Align bid strategy to objectives</strong> — Different goals require different approaches</li>
-        <li><strong>Manage supply quality actively</strong> — Premium inventory delivers premium results</li>
-        <li><strong>Optimize frequency and pacing</strong> — Neither over-expose nor under-deliver</li>
-        <li><strong>Enable creative optimization</strong> — Let data improve messaging performance</li>
-        <li><strong>Account for cross-device behavior</strong> — Modern consumers are not single-device</li>
-        <li><strong>Measure true incrementality</strong> — Attribution platforms often overcredit</li>
+        <li><strong>Align bid strategy to objectives</strong> - Different goals require different approaches</li>
+        <li><strong>Manage supply quality actively</strong> - Premium inventory delivers premium results</li>
+        <li><strong>Optimize frequency and pacing</strong> - Neither over-expose nor under-deliver</li>
+        <li><strong>Enable creative optimization</strong> - Let data improve messaging performance</li>
+        <li><strong>Account for cross-device behavior</strong> - Modern consumers are not single-device</li>
+        <li><strong>Measure true incrementality</strong> - Attribution platforms often overcredit</li>
       </ul>
 
       <p>
-        For premium brands where every dollar of CAC must demonstrate clear return, RTB optimization is not optional—it is the foundation of efficient media investment.
+        For premium brands where every dollar of CAC must demonstrate clear return, RTB optimization is not optional-it is the foundation of efficient media investment.
       </p>
 
       <hr />

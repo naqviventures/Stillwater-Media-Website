@@ -12,10 +12,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Ad Attribution for Luxury Brands: How to Build a Model That Survives a 120-Day Sales Cycle",
     description:
-      "Most luxury attribution failures are plumbing failures, not model failures. The four-layer build — event capture, identity resolution, CRM closed loop, and credit assignment — plus window settings, model selection, benchmark ranges, and the governance rules that keep the output trustworthy.",
+      "Most luxury attribution failures are plumbing failures, not model failures. The four-layer build - event capture, identity resolution, CRM closed loop, and credit assignment - plus window settings, model selection, benchmark ranges, and the governance rules that keep the output trustworthy.",
     type: "article",
     url: canonicalUrl,
-    images: [{ url: imagePath, width: 1200, height: 630, alt: "Ad attribution for luxury brands — Stillwater Media" }],
+    images: [{ url: imagePath, width: 1200, height: 630, alt: "Ad attribution for luxury brands - Stillwater Media" }],
     locale: "en_US",
     siteName: "Stillwater Media",
     publishedTime: "2026-08-12",
@@ -36,13 +36,13 @@ const schemaMarkup = {
       "@type": "Article",
       headline: "Ad Attribution for Luxury Brands: How to Build a Model That Survives a 120-Day Sales Cycle",
       description:
-        "A senior media strategist's build guide to ad attribution for luxury brands — why most premium attribution failures are data plumbing failures rather than model failures; the four-layer architecture of server-side event capture, identity resolution, CRM closed-loop integration, and credit assignment; how to set attribution windows for 60-to-300-day sales cycles; a comparison of last-click, time-decay, position-based, data-driven, and algorithmic models against premium brand requirements; benchmark ranges for match rates, offline import latency, and channel credit shifts; and the governance rules that keep attribution output usable rather than merely available.",
+        "A senior media strategist's build guide to ad attribution for luxury brands - why most premium attribution failures are data plumbing failures rather than model failures; the four-layer architecture of server-side event capture, identity resolution, CRM closed-loop integration, and credit assignment; how to set attribution windows for 60-to-300-day sales cycles; a comparison of last-click, time-decay, position-based, data-driven, and algorithmic models against premium brand requirements; benchmark ranges for match rates, offline import latency, and channel credit shifts; and the governance rules that keep attribution output usable rather than merely available.",
       image: {
         "@type": "ImageObject",
         url: `https://www.stillwatermedia.io${imagePath}`,
         width: 1200,
         height: 630,
-        caption: "Ad attribution for luxury brands — Stillwater Media",
+        caption: "Ad attribution for luxury brands - Stillwater Media",
       },
       author: { "@type": "Organization", name: "Stillwater Media" },
       publisher: {
@@ -75,7 +75,7 @@ const schemaMarkup = {
           name: "What is ad attribution for luxury brands?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Ad attribution for luxury brands is the practice of assigning credit for a high-value purchase across the media touchpoints that preceded it, under conditions default platform settings were never built for — sales cycles of 60 to 300 days, purchases that close by phone or in person, and monthly conversion counts in the dozens rather than the thousands. It differs from standard attribution primarily in its dependence on infrastructure: server-side event capture, a persistent first-party identity layer, and CRM closed-loop integration that returns actual deal value to the ad platforms.",
+            text: "Ad attribution for luxury brands is the practice of assigning credit for a high-value purchase across the media touchpoints that preceded it, under conditions default platform settings were never built for - sales cycles of 60 to 300 days, purchases that close by phone or in person, and monthly conversion counts in the dozens rather than the thousands. It differs from standard attribution primarily in its dependence on infrastructure: server-side event capture, a persistent first-party identity layer, and CRM closed-loop integration that returns actual deal value to the ad platforms.",
           },
         },
         {
@@ -91,7 +91,7 @@ const schemaMarkup = {
           name: "How do you attribute conversions with a long sales cycle?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Start by measuring the actual distribution of days from first known touch to closed-won over the last 24 months, then set the attribution lookback to the 80th percentile rather than the median so that most qualifying paths remain inside the window. Then close the loop through the CRM — carry the click ID and first-party ID onto the lead record at creation and push closed-won events with real deal values back to the platforms and your warehouse, because with a 120-day cycle the revenue signal always arrives long after the media that produced it.",
+            text: "Start by measuring the actual distribution of days from first known touch to closed-won over the last 24 months, then set the attribution lookback to the 80th percentile rather than the median so that most qualifying paths remain inside the window. Then close the loop through the CRM - carry the click ID and first-party ID onto the lead record at creation and push closed-won events with real deal values back to the platforms and your warehouse, because with a 120-day cycle the revenue signal always arrives long after the media that produced it.",
           },
         },
         {
@@ -107,7 +107,7 @@ const schemaMarkup = {
           name: "Why does last-click attribution over-credit retargeting for luxury brands?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Last-click assigns 100% of credit to the final touchpoint before conversion, and on a 90-to-180-day purchase cycle that final touchpoint is almost always branded search, direct, or retargeting — channels that harvest existing demand rather than create it. The premium CTV and programmatic impressions that generated the original interest typically occur outside standard 1-to-30-day windows, so they disappear from the record entirely and the report ends up recommending exactly the wrong budget shift.",
+            text: "Last-click assigns 100% of credit to the final touchpoint before conversion, and on a 90-to-180-day purchase cycle that final touchpoint is almost always branded search, direct, or retargeting - channels that harvest existing demand rather than create it. The premium CTV and programmatic impressions that generated the original interest typically occur outside standard 1-to-30-day windows, so they disappear from the record entirely and the report ends up recommending exactly the wrong budget shift.",
           },
         },
       ],
@@ -125,7 +125,7 @@ export default function Page() {
       category="Measurement & Attribution"
       image={imagePath}
       imageAlt="Stillwater Media guide illustration on ad attribution for luxury brands showing interlocking brass gears linked by a fine chain beside a leather ledger on a marble desk under warm lamplight at blue hour"
-      imageCaption="Attribution is not a report you turn on — it is a mechanism you build, and every luxury brand's version fails at the same four joints."
+      imageCaption="Attribution is not a report you turn on - it is a mechanism you build, and every luxury brand's version fails at the same four joints."
       schemaMarkup={schemaMarkup}
     >
       <p>
@@ -133,7 +133,7 @@ export default function Page() {
         touchpoints that preceded it, under conditions that no default platform configuration was designed to handle:
         sales cycles of 60 to 300 days, purchases that close by phone or in person, transaction values between $5,000
         and $2M, and monthly conversion counts small enough to fit on a single screen. Nearly every premium advertiser
-        we onboard already has attribution — a Google Analytics property, a set of platform pixels, a conversion column
+        we onboard already has attribution - a Google Analytics property, a set of platform pixels, a conversion column
         in each ad manager. What they do not have is attribution that anyone in the room actually believes, and that is
         a different problem with a different solution.
       </p>
@@ -161,7 +161,7 @@ export default function Page() {
       <p>
         <strong>The cycle outruns the window.</strong> Default click windows run 1 to 30 days and view windows 1 to 7.
         When the median close is 120 days, the touchpoints that survive inside the window are the ones nearest the sale
-        — branded search, retargeting, direct. Upper-funnel premium CTV and programmatic display fall off the record
+        - branded search, retargeting, direct. Upper-funnel premium CTV and programmatic display fall off the record
         entirely. The resulting report does not merely undercount demand generation; it makes an active argument for
         defunding it.
       </p>
@@ -194,7 +194,7 @@ export default function Page() {
       <p>
         Browser-based pixels are the weakest link in the chain. Between ad blockers, Intelligent Tracking Prevention
         capping client-side cookie lifetimes, and consent gating, client-only tracking commonly loses 15–30% of events
-        on premium audiences — a demographic skewed toward Safari, iOS, and privacy tooling. The fix is server-side
+        on premium audiences - a demographic skewed toward Safari, iOS, and privacy tooling. The fix is server-side
         event collection: a server-side Google Tag Manager container or equivalent, forwarding to Meta&apos;s
         Conversions API, Google&apos;s Enhanced Conversions, and the CTV and DSP endpoints in parallel.
       </p>
@@ -202,7 +202,7 @@ export default function Page() {
       <ol>
         <li>Send a stable, hashed identifier (email, phone) with every event, not just the terminal conversion.</li>
         <li>Include an event ID on both the browser and server call so platforms can deduplicate rather than double-count.</li>
-        <li>Capture the full lead event set — inquiry started, inquiry submitted, consultation booked, consultation attended — not just the final form fill.</li>
+        <li>Capture the full lead event set - inquiry started, inquiry submitted, consultation booked, consultation attended - not just the final form fill.</li>
         <li>Log every event to your own warehouse before forwarding. Platform-side data is a copy, not a source of truth.</li>
       </ol>
 
@@ -210,7 +210,7 @@ export default function Page() {
       <p>
         The identity layer is what turns three device signatures into one buyer. For most premium advertisers this does
         not require an enterprise identity graph. It requires a persistent first-party ID written at the first known
-        interaction — newsletter signup, gated content download, inquiry form — and stitched to subsequent sessions
+        interaction - newsletter signup, gated content download, inquiry form - and stitched to subsequent sessions
         through hashed email matching and authenticated states.
       </p>
       <p>
@@ -229,7 +229,7 @@ export default function Page() {
       </p>
       <p>
         The payoff is not incremental. It changes the answer. We routinely find that the channel producing the highest
-        volume of leads is not the channel producing the highest volume of <em>revenue</em> — paid social and broad
+        volume of leads is not the channel producing the highest volume of <em>revenue</em> - paid social and broad
         search generate inquiry volume with close rates in the low single digits, while premium CTV and PMP display
         generate fewer inquiries that close at three to five times the rate. Until closed-won data flows back, every
         optimization decision is being made on the wrong denominator.
@@ -264,7 +264,7 @@ export default function Page() {
               <td>Last-click</td>
               <td>100% to final touch</td>
               <td>Any</td>
-              <td>Poor — use only as a diagnostic floor</td>
+              <td>Poor - use only as a diagnostic floor</td>
               <td>Systematically over-credits branded search and retargeting</td>
             </tr>
             <tr>
@@ -278,21 +278,21 @@ export default function Page() {
               <td>Linear</td>
               <td>Equal split across all touches</td>
               <td>Low</td>
-              <td>Fair — defensible starting point</td>
+              <td>Fair - defensible starting point</td>
               <td>Treats a display impression as equal to a sales consultation</td>
             </tr>
             <tr>
               <td>Time-decay</td>
               <td>Weighted toward recency, half-life configurable</td>
               <td>Low</td>
-              <td>Fair — but only with a 30–60 day half-life</td>
+              <td>Fair - but only with a 30–60 day half-life</td>
               <td>Default 7-day half-life reproduces last-click on long cycles</td>
             </tr>
             <tr>
               <td>Position-based (U-shaped)</td>
               <td>40/20/40 across first, middle, last</td>
               <td>Low</td>
-              <td>Good — matches how high-consideration demand actually forms</td>
+              <td>Good - matches how high-consideration demand actually forms</td>
               <td>Arbitrary weights, no empirical basis</td>
             </tr>
             <tr>
@@ -306,7 +306,7 @@ export default function Page() {
               <td>Warehouse MTA + holdout calibration</td>
               <td>Custom weights, validated against incrementality</td>
               <td>Moderate</td>
-              <td>Best — the standard we build toward</td>
+              <td>Best - the standard we build toward</td>
               <td>Requires engineering investment and quarterly test discipline</td>
             </tr>
           </tbody>
@@ -344,8 +344,8 @@ export default function Page() {
       <p>
         The most common analytical error we see is treating attribution and incrementality as rival methods where one
         wins. They answer different questions. Attribution asks <em>how should we divide credit among the touchpoints
-        that appeared in converting paths</em> — a correlational exercise on observed data, useful weekly, at the
-        campaign and creative level. Incrementality asks <em>what would have happened without this media</em> — a causal
+        that appeared in converting paths</em> - a correlational exercise on observed data, useful weekly, at the
+        campaign and creative level. Incrementality asks <em>what would have happened without this media</em> - a causal
         exercise requiring a control group, useful quarterly, at the channel level.
       </p>
       <p>
@@ -353,7 +353,7 @@ export default function Page() {
         and retargeting delivering 20–60% incremental lift against their reported conversions, while prospecting CTV and
         premium programmatic test at 70–95% incremental. Use incrementality to set the <em>calibration factors</em> in
         your attribution model, then use the calibrated model for the day-to-day decisions incrementality is too slow
-        and too expensive to inform. That loop — quarterly causal test, continuous calibrated attribution — is what a
+        and too expensive to inform. That loop - quarterly causal test, continuous calibrated attribution - is what a
         defensible measurement program looks like.
       </p>
 
@@ -367,7 +367,7 @@ export default function Page() {
         <li>
           <strong>Optimizing to the form fill.</strong> With low volume and long cycles, optimizing toward raw lead
           count teaches the algorithm to find people who fill out forms, not people who buy. Optimize toward the deepest
-          qualified event you can generate at sufficient volume — booked consultation, verified inquiry, attended tour.
+          qualified event you can generate at sufficient volume - booked consultation, verified inquiry, attended tour.
         </li>
         <li>
           <strong>Ignoring lead quality by source.</strong> A $180 cost per lead from paid social closing at 2% is
@@ -390,8 +390,8 @@ export default function Page() {
         A premium advertiser with functioning attribution can answer four questions on demand: what did we spend by
         channel last quarter, how many qualified inquiries did each channel produce, what percentage of those closed and
         at what average value, and what did a holdout test say about how many of those closings would have happened
-        anyway. Most brands can answer the first two. The programs that consistently compound — the ones that grow spend
-        confidently into upper-funnel media because they can prove it works — are the ones that can answer all four.
+        anyway. Most brands can answer the first two. The programs that consistently compound - the ones that grow spend
+        confidently into upper-funnel media because they can prove it works - are the ones that can answer all four.
       </p>
       <p>
         That capability is a build, not a purchase. It takes a quarter to stand up and a discipline to maintain, and it
@@ -402,7 +402,7 @@ export default function Page() {
       <h3>What is ad attribution for luxury brands?</h3>
       <p>
         Ad attribution for luxury brands is the practice of assigning credit for a high-value purchase across the media
-        touchpoints that preceded it, under conditions default platform settings were never built for — sales cycles of
+        touchpoints that preceded it, under conditions default platform settings were never built for - sales cycles of
         60 to 300 days, purchases that close by phone or in person, and monthly conversion counts in the dozens rather
         than the thousands. It differs from standard attribution primarily in its dependence on infrastructure:
         server-side event capture, a persistent first-party identity layer, and CRM closed-loop integration that returns
@@ -420,7 +420,7 @@ export default function Page() {
       <p>
         Start by measuring the actual distribution of days from first known touch to closed-won over the last 24 months,
         then set the attribution lookback to the 80th percentile rather than the median so that most qualifying paths
-        remain inside the window. Then close the loop through the CRM — carry the click ID and first-party ID onto the
+        remain inside the window. Then close the loop through the CRM - carry the click ID and first-party ID onto the
         lead record at creation and push closed-won events with real deal values back to the platforms and your
         warehouse, because with a 120-day cycle the revenue signal always arrives long after the media that produced it.
       </p>
@@ -435,7 +435,7 @@ export default function Page() {
       <h3>Why does last-click attribution over-credit retargeting for luxury brands?</h3>
       <p>
         Last-click assigns 100% of credit to the final touchpoint before conversion, and on a 90-to-180-day purchase
-        cycle that final touchpoint is almost always branded search, direct, or retargeting — channels that harvest
+        cycle that final touchpoint is almost always branded search, direct, or retargeting - channels that harvest
         existing demand rather than create it. The premium CTV and programmatic impressions that generated the original
         interest typically occur outside standard 1-to-30-day windows, so they disappear from the record entirely and
         the report ends up recommending exactly the wrong budget shift.

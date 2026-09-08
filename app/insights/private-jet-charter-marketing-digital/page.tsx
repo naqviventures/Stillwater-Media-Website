@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: "Private Jet Charter Marketing With Digital Media: The Operator's Playbook",
     description:
-      "How private jet charter, jet card, and fractional operators use digital media — CTV, programmatic, DOOH, and streaming audio — to reach affluent flyers at scale, fill empty legs, and lower the cost of a qualified charter inquiry.",
+      "How private jet charter, jet card, and fractional operators use digital media - CTV, programmatic, DOOH, and streaming audio - to reach affluent flyers at scale, fill empty legs, and lower the cost of a qualified charter inquiry.",
     type: "article",
     url: "https://www.stillwatermedia.io/insights/private-jet-charter-marketing-digital",
     images: [
@@ -37,13 +37,13 @@ export default function PrivateJetCharterMarketingDigitalPage() {
     "@type": "Article",
     headline: "Private Jet Charter Marketing With Digital Media: The Operator's Playbook",
     description:
-      "A strategist's playbook for private jet charter marketing through digital media — how charter, jet card, and fractional operators reach affluent and high-net-worth flyers at scale across CTV, programmatic, DOOH, and streaming audio, fill empty legs, protect the brand in premium environments, and measure results against a high-consideration purchase.",
+      "A strategist's playbook for private jet charter marketing through digital media - how charter, jet card, and fractional operators reach affluent and high-net-worth flyers at scale across CTV, programmatic, DOOH, and streaming audio, fill empty legs, protect the brand in premium environments, and measure results against a high-consideration purchase.",
     image: {
       "@type": "ImageObject",
       url: "https://www.stillwatermedia.io/images/private-jet-charter-marketing-digital.png",
       width: 1200,
       height: 630,
-      caption: "Private jet charter marketing with digital media — Stillwater Media",
+      caption: "Private jet charter marketing with digital media - Stillwater Media",
     },
     author: {
       "@type": "Organization",
@@ -67,7 +67,7 @@ export default function PrivateJetCharterMarketingDigitalPage() {
     },
     keywords:
       "private jet charter marketing digital, private aviation advertising agency, affluent audience targeting, high-net-worth audience segments, CTV advertising for high-net-worth consumers, programmatic advertising luxury brands, DOOH affluent location targeting, first-party data luxury advertising, brand-safe programmatic advertising, multi-touch attribution high-consideration",
-    articleSection: "Vertical Playbooks — Private Aviation",
+    articleSection: "Vertical Playbooks - Private Aviation",
     wordCount: 2240,
     inLanguage: "en-US",
   }
@@ -99,7 +99,7 @@ export default function PrivateJetCharterMarketingDigitalPage() {
             name: "How do private jet charter companies market themselves online?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Private jet charter companies market online by using digital media — connected TV, private-marketplace programmatic, digital out-of-home in terminals and affluent corridors, and streaming audio — to reach a precisely defined pool of affluent and high-net-worth flyers at scale, rather than relying only on referrals and brokers. The approach targets prospects by wealth signals, travel behavior, and geography, builds trust over the multi-touch consideration window, and runs responsive empty-leg and jet card offers alongside always-on brand building.",
+              text: "Private jet charter companies market online by using digital media - connected TV, private-marketplace programmatic, digital out-of-home in terminals and affluent corridors, and streaming audio - to reach a precisely defined pool of affluent and high-net-worth flyers at scale, rather than relying only on referrals and brokers. The approach targets prospects by wealth signals, travel behavior, and geography, builds trust over the multi-touch consideration window, and runs responsive empty-leg and jet card offers alongside always-on brand building.",
             },
           },
           {
@@ -115,7 +115,7 @@ export default function PrivateJetCharterMarketingDigitalPage() {
             name: "What are the best digital channels for private aviation advertising?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "The strongest channels are premium connected TV on platforms like Disney+ and Hulu, private-marketplace and publisher-direct programmatic across prestige business and luxury-travel publishers, digital out-of-home in private terminals, FBOs, and affluent corridors, and streaming audio and finance podcasts where affluent listeners over-index. These share one trait — they are trusted, high-attention, and brand-safe — which matters especially for a brand selling safety and discretion.",
+              text: "The strongest channels are premium connected TV on platforms like Disney+ and Hulu, private-marketplace and publisher-direct programmatic across prestige business and luxury-travel publishers, digital out-of-home in private terminals, FBOs, and affluent corridors, and streaming audio and finance podcasts where affluent listeners over-index. These share one trait - they are trusted, high-attention, and brand-safe - which matters especially for a brand selling safety and discretion.",
             },
           },
           {
@@ -145,16 +145,16 @@ export default function PrivateJetCharterMarketingDigitalPage() {
       author="Stillwater Media"
       date="August 4, 2026"
       readingTime="13 min"
-      category="Vertical Playbooks — Private Aviation"
+      category="Vertical Playbooks - Private Aviation"
       image="/images/private-jet-charter-marketing-digital.png"
       imageAlt="Stillwater Media guide illustration on private jet charter marketing with digital media showing a sleek private jet with a glowing cabin on a quiet tarmac at blue hour representing affluent flyer targeting for charter and jet card operators"
-      imageCaption="For a charter operator, digital media is the way to reach the small pool of people who can actually book a private jet — before a competitor's brand becomes their default."
+      imageCaption="For a charter operator, digital media is the way to reach the small pool of people who can actually book a private jet - before a competitor's brand becomes their default."
       schemaMarkup={schemaMarkup}
     >
       <p>
         Private jet charter marketing digital strategy lets charter operators, jet card programs, and fractional-ownership
-        brands reach a precisely defined pool of affluent and high-net-worth flyers at scale — across connected TV, premium
-        programmatic, digital out-of-home, and streaming audio — while controlling frequency, keeping the brand in premium
+        brands reach a precisely defined pool of affluent and high-net-worth flyers at scale - across connected TV, premium
+        programmatic, digital out-of-home, and streaming audio - while controlling frequency, keeping the brand in premium
         environments, filling empty legs with dynamic offers, and measuring results against a high-consideration purchase
         rather than a same-day click. Done well, digital marketing for private jet charter replaces the scattershot spend of
         generic search and boosted social with a disciplined system that concentrates budget on the tiny fraction of
@@ -166,9 +166,9 @@ export default function PrivateJetCharterMarketingDigitalPage() {
 
       <p>
         At Stillwater Media we build media programs for luxury and high-consideration brands, and private aviation is one of
-        the categories that fits that profile most exactly — our clients include private aviation operators such as JetLinx
+        the categories that fits that profile most exactly - our clients include private aviation operators such as JetLinx
         and FLY Exclusive. The customer a charter brand is trying to win has significant discretionary wealth, evaluates the
-        decision carefully, and is choosing a service relationship built on safety, reliability, and discretion — the
+        decision carefully, and is choosing a service relationship built on safety, reliability, and discretion - the
         definition of a high-LTV, high-consideration purchase. This playbook lays out how digital media works for private jet
         charter marketing: the audiences worth reaching, the channels that reach them, how to handle empty legs and jet card
         offers, the mistakes that drain aviation marketing budgets, and how to measure whether the media is actually
@@ -181,7 +181,7 @@ export default function PrivateJetCharterMarketingDigitalPage() {
 
       <p>
         Most private jet charter marketing still leans on referrals, brokers, event sponsorships, and a mix of branded
-        search and boosted social — tactics that either cannot scale or capture only prospects already shopping. Digital
+        search and boosted social - tactics that either cannot scale or capture only prospects already shopping. Digital
         media changes the equation by letting an operator proactively reach the specific affluent households it wants as
         flyers, in premium environments, before those prospects have opened a comparison tab. Three characteristics of the
         charter business make digital an especially strong fit.
@@ -189,7 +189,7 @@ export default function PrivateJetCharterMarketingDigitalPage() {
 
       <p>
         First, the addressable market is small and definable. The population that can charter a jet or buy a card is a narrow
-        slice of households, identifiable through compliant wealth and behavioral signals — exactly the precision
+        slice of households, identifiable through compliant wealth and behavioral signals - exactly the precision
         programmatic delivers. Second, the decision is high-consideration and trust-driven, so the multi-touch,
         brand-building presence digital enables across CTV, audio, and DOOH matches how flyers actually choose an operator:
         over weeks or months, through repeated exposure that establishes credibility before the first call. Third, the
@@ -211,7 +211,7 @@ export default function PrivateJetCharterMarketingDigitalPage() {
       <ol>
         <li>
           <strong>First-party data.</strong> Your CRM of past flyers, quote requesters, event guests, and broker
-          relationships is the most valuable audience you own — securely onboarded to re-engage known prospects and to build
+          relationships is the most valuable audience you own - securely onboarded to re-engage known prospects and to build
           lookalike models from your genuine best clients.
         </li>
         <li>
@@ -221,12 +221,12 @@ export default function PrivateJetCharterMarketingDigitalPage() {
         </li>
         <li>
           <strong>Travel and lifestyle behavior.</strong> Frequent premium-cabin flyers, luxury travel intenders,
-          second-home owners, and members of relevant clubs and organizations — behavioral signals that correlate with
+          second-home owners, and members of relevant clubs and organizations - behavioral signals that correlate with
           private-flight demand.
         </li>
         <li>
           <strong>Geographic precision.</strong> Private aviation demand clusters around specific metros, FBOs, and affluent
-          corridors; targeting those areas — and the routes an operator serves — concentrates spend where flyers live and
+          corridors; targeting those areas - and the routes an operator serves - concentrates spend where flyers live and
           depart.
         </li>
         <li>
@@ -236,8 +236,8 @@ export default function PrivateJetCharterMarketingDigitalPage() {
       </ol>
 
       <p>
-        The objective is to reach the intersection — affluent, travel-active, and resembling your best clients, in the
-        geographies you serve — because that intersection is small, precise, and worth far more per impression than a broad
+        The objective is to reach the intersection - affluent, travel-active, and resembling your best clients, in the
+        geographies you serve - because that intersection is small, precise, and worth far more per impression than a broad
         &quot;luxury traveler&quot; buy.
       </p>
 
@@ -255,7 +255,7 @@ export default function PrivateJetCharterMarketingDigitalPage() {
         <li>
           <strong>Premium connected TV (CTV).</strong> Affluent households have moved to streaming; CTV reaches them on the
           living-room screen through platforms like Disney+, Hulu, and Prime Video with household-level targeting and
-          full-screen, non-skippable impact — ideal for building the trust a charter relationship requires.
+          full-screen, non-skippable impact - ideal for building the trust a charter relationship requires.
         </li>
         <li>
           <strong>Private marketplace and publisher-direct programmatic.</strong> Curated deals across prestige business,
@@ -265,7 +265,7 @@ export default function PrivateJetCharterMarketingDigitalPage() {
         <li>
           <strong>Digital out-of-home (DOOH).</strong> Placed in private terminals and FBOs, executive airports, financial
           districts, luxury hotels, and affluent corridors, DOOH reaches high-net-worth flyers in the physical spaces of
-          their travel lives — an unusually strong fit for aviation.
+          their travel lives - an unusually strong fit for aviation.
         </li>
         <li>
           <strong>Streaming audio and podcasts.</strong> Affluent listeners over-index on premium audio; business, finance,
@@ -288,8 +288,8 @@ export default function PrivateJetCharterMarketingDigitalPage() {
       <h2>Filling Empty Legs and Selling Jet Cards With Digital</h2>
 
       <p>
-        Two revenue problems are unique to the charter model, and digital media is well suited to both. Empty legs —
-        repositioning flights sold at a discount to recover cost — are a perishable, dynamic inventory problem, and
+        Two revenue problems are unique to the charter model, and digital media is well suited to both. Empty legs -
+        repositioning flights sold at a discount to recover cost - are a perishable, dynamic inventory problem, and
         programmatic is built for exactly that kind of real-time, dynamically-priced offer. A well-structured program can
         push time-sensitive empty-leg availability to a warmed audience of past flyers and qualified prospects in the
         relevant geographies, using dynamic creative to surface routes and pricing, capturing revenue that would otherwise
@@ -354,33 +354,33 @@ export default function PrivateJetCharterMarketingDigitalPage() {
       </table>
 
       <p>
-        Digital does not replace referrals or brokers — it scales the top of the funnel those channels alone cannot fill, and
+        Digital does not replace referrals or brokers - it scales the top of the funnel those channels alone cannot fill, and
         it reaches prospects before they begin comparing operators, which is precisely when a premium aviation brand can
         differentiate itself on trust rather than price.
       </p>
 
       <hr className="my-8" />
 
-      <h2>What the Creative Should Say — and Not Say</h2>
+      <h2>What the Creative Should Say - and Not Say</h2>
 
       <p>
         The creative in a private jet charter marketing program carries a specific burden: it must resonate with a
         sophisticated flyer for whom cost is rarely the deciding factor. The tone that works is the tone of the flight
-        experience itself — calm, assured, and discreet rather than loud or promotional. Affluent flyers choosing an operator
+        experience itself - calm, assured, and discreet rather than loud or promotional. Affluent flyers choosing an operator
         are buying time, safety, and certainty, so the message should sell reliability, safety record, service, and the
-        recovered hours a private departure returns to them — not a discount or a hard-sell urgency that reads as
+        recovered hours a private departure returns to them - not a discount or a hard-sell urgency that reads as
         down-market. Lead with the situation the operator solves: the executive with an impossible multi-city day, the family
         that values privacy, the founder who cannot afford a missed connection. Match production quality to the audience,
         because an affluent prospect reads a cheap-looking ad in a premium environment as a signal about the safety and
         standards of the operation behind it. And sequence the message across the consideration window rather than repeating
-        a single spot — an introduction to the brand&apos;s standards on CTV, a proof point on safety and fleet in a native
-        placement, a specific route or empty-leg offer lower in the funnel — capped in frequency so presence never tips into
+        a single spot - an introduction to the brand&apos;s standards on CTV, a proof point on safety and fleet in a native
+        placement, a specific route or empty-leg offer lower in the funnel - capped in frequency so presence never tips into
         pursuit.
       </p>
 
       <hr className="my-8" />
 
-      <h2>How Long Before It Works — Setting the Timeline</h2>
+      <h2>How Long Before It Works - Setting the Timeline</h2>
 
       <p>
         Chartering a private jet or committing to a card is a high-trust, high-consideration decision, and expectations
@@ -390,8 +390,8 @@ export default function PrivateJetCharterMarketingDigitalPage() {
         target affluent audience, video completion rates, empty-leg offer response, and early lifts in branded search and
         direct site visits. Across the following one to three months, quote requests and qualified inquiries compound as
         prospects move through consideration, and geo-holdout tests can begin to isolate genuine incremental lift. Only
-        across a full quarter does the program&apos;s true efficiency — cost to acquire a flyer relative to that flyer&apos;s
-        annual and lifetime value — come into focus. Operators who judge digital on a same-week lead-gen clock routinely
+        across a full quarter does the program&apos;s true efficiency - cost to acquire a flyer relative to that flyer&apos;s
+        annual and lifetime value - come into focus. Operators who judge digital on a same-week lead-gen clock routinely
         abandon programs that were building exactly the trust the business depends on.
       </p>
 
@@ -402,7 +402,7 @@ export default function PrivateJetCharterMarketingDigitalPage() {
       <ul>
         <li>
           <strong>Buying broad reach instead of affluent precision.</strong> Chasing low CPMs drags spend onto people who
-          will never fly private — paying to reach everyone to find the few who can book.
+          will never fly private - paying to reach everyone to find the few who can book.
         </li>
         <li>
           <strong>Treating every impression as a direct-response ad.</strong> Charter relationships are considered; a pure
@@ -435,7 +435,7 @@ export default function PrivateJetCharterMarketingDigitalPage() {
         inquiries rather than harvesting demand that already existed; and track acquired flyers to lifetime value, since a
         charter or card relationship compounds over years of recurring flight revenue. The leading indicators to watch in the
         first weeks are rising branded search, direct visits, empty-leg engagement, and quote requests from the targeted
-        affluent audience — signals that the program is building demand before it shows up as flight hours booked.
+        affluent audience - signals that the program is building demand before it shows up as flight hours booked.
       </p>
 
       <hr className="my-8" />
@@ -452,7 +452,7 @@ export default function PrivateJetCharterMarketingDigitalPage() {
 
       <p>
         We take a limited number of engagements each quarter and work only with operators where reaching affluent flyers is a
-        genuine fit — typically those with client lifetime value above $5,000 and sales cycles longer than 30 days.
+        genuine fit - typically those with client lifetime value above $5,000 and sales cycles longer than 30 days.
       </p>
     </ArticleLayout>
   )

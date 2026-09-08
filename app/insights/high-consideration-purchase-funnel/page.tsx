@@ -75,7 +75,7 @@ export default function HighConsiderationPurchaseFunnelPage() {
 
   const schemaMarkup = {
     "@context": "https://schema.org",
-    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/high-consideration-purchase-funnel#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"The High-Consideration Purchase Funnel: How Media Supports Long Sales Cycles","item":"https://www.stillwatermedia.io/insights/high-consideration-purchase-funnel"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/high-consideration-purchase-funnel#faq","mainEntity":[{"@type":"Question","name":"What is a high-consideration purchase in marketing?","acceptedAnswer":{"@type":"Answer","text":"A high-consideration purchase is a buying decision that involves significant time, research, multiple stakeholders, and high perceived risk of making the wrong choice. Typical markers include sales cycles of 30 days or longer, multiple decision-makers (spouses, advisors, business partners), extensive information gathering before any vendor contact, and high irreversibility if the wrong choice is made. Examples include private aviation memberships, luxury real estate, wealth management engagements, luxury automotive, and private club memberships. High-consideration purchases require fundamentally different media strategies than low-involvement categories because standard attribution models, short measurement windows, and direct-response tactics are poorly matched to how these buyers actually make decisions."}},{"@type":"Question","name":"Why doesn't last-click attribution work for high-consideration brands?","acceptedAnswer":{"@type":"Answer","text":"Last-click attribution assigns 100% of conversion credit to the final touchpoint before purchase, which systematically undervalues every media interaction that occurred earlier in the purchase journey. For a prospect with a 90-day sales cycle, the CTV ad they saw in month one, the podcast they heard in month two, and the editorial content they engaged with in month three all contributed to the final decision — but last-click records only the branded search click or direct website visit that preceded the inquiry form submission. The result is that upper-funnel media appears to generate zero conversions and gets defunded, gradually hollowing out the pipeline that downstream tactics depend on."}},{"@type":"Question","name":"How should media budget be allocated for a brand with a 90-day sales cycle?","acceptedAnswer":{"@type":"Answer","text":"For a mature high-consideration brand with a 90-day sales cycle, a reasonable starting allocation is 35–40% in upper-funnel awareness channels (premium CTV, streaming audio, DOOH), 30–35% in mid-funnel consideration channels (retargeting, native/content, podcast), 20–25% in lower-funnel conversion channels (search, direct retargeting), and 5–10% reserved for measurement infrastructure including holdout testing and brand tracking. These allocations should be adjusted based on where the current constraint in the pipeline sits — if awareness is strong but consideration conversion is weak, shift budget toward mid-funnel channels and examine messaging for what's blocking shortlist entry."}},{"@type":"Question","name":"What media channels work best for high-consideration brand advertising?","acceptedAnswer":{"@type":"Answer","text":"Premium CTV is the dominant upper and mid-funnel channel for high-consideration brands reaching affluent audiences, delivering authenticated HNW households in high-attention, non-skippable environments on streaming platforms like Disney+, Hulu, and Peacock. Podcast advertising in business and lifestyle programming builds trust and consideration through host credibility transfer. Premium programmatic display in business and luxury editorial environments maintains brand presence during extended research phases. Search (SEM/SEO) is essential at active consideration and preference formation stages when prospects are specifically researching vendors. DOOH in affluent environments reinforces premium positioning in physical contexts. The critical principle is that no single channel covers the full journey — high-consideration advertising requires coordinated presence across multiple channels, each assigned a specific funnel role."}},{"@type":"Question","name":"How do you measure advertising effectiveness for a brand with a long sales cycle?","acceptedAnswer":{"@type":"Answer","text":"The measurement stack for high-consideration brands should include: brand tracking surveys (unaided awareness, ad recall) for upper-funnel; organic branded search volume lift and content engagement metrics for mid-funnel; multi-touch attribution with a lookback window matching the actual sales cycle length (90–180 days) for consideration-phase evaluation; CRM pipeline velocity analysis for preference formation; and closed-won revenue with full attribution for final conversion. Incrementality testing — running matched holdout groups withheld from specific media — provides the most reliable causal evidence of each channel's contribution and should be built into campaign planning from the outset rather than treated as an optional measurement add-on."}}]}],
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/high-consideration-purchase-funnel#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"The High-Consideration Purchase Funnel: How Media Supports Long Sales Cycles","item":"https://www.stillwatermedia.io/insights/high-consideration-purchase-funnel"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/high-consideration-purchase-funnel#faq","mainEntity":[{"@type":"Question","name":"What is a high-consideration purchase in marketing?","acceptedAnswer":{"@type":"Answer","text":"A high-consideration purchase is a buying decision that involves significant time, research, multiple stakeholders, and high perceived risk of making the wrong choice. Typical markers include sales cycles of 30 days or longer, multiple decision-makers (spouses, advisors, business partners), extensive information gathering before any vendor contact, and high irreversibility if the wrong choice is made. Examples include private aviation memberships, luxury real estate, wealth management engagements, luxury automotive, and private club memberships. High-consideration purchases require fundamentally different media strategies than low-involvement categories because standard attribution models, short measurement windows, and direct-response tactics are poorly matched to how these buyers actually make decisions."}},{"@type":"Question","name":"Why doesn't last-click attribution work for high-consideration brands?","acceptedAnswer":{"@type":"Answer","text":"Last-click attribution assigns 100% of conversion credit to the final touchpoint before purchase, which systematically undervalues every media interaction that occurred earlier in the purchase journey. For a prospect with a 90-day sales cycle, the CTV ad they saw in month one, the podcast they heard in month two, and the editorial content they engaged with in month three all contributed to the final decision - but last-click records only the branded search click or direct website visit that preceded the inquiry form submission. The result is that upper-funnel media appears to generate zero conversions and gets defunded, gradually hollowing out the pipeline that downstream tactics depend on."}},{"@type":"Question","name":"How should media budget be allocated for a brand with a 90-day sales cycle?","acceptedAnswer":{"@type":"Answer","text":"For a mature high-consideration brand with a 90-day sales cycle, a reasonable starting allocation is 35–40% in upper-funnel awareness channels (premium CTV, streaming audio, DOOH), 30–35% in mid-funnel consideration channels (retargeting, native/content, podcast), 20–25% in lower-funnel conversion channels (search, direct retargeting), and 5–10% reserved for measurement infrastructure including holdout testing and brand tracking. These allocations should be adjusted based on where the current constraint in the pipeline sits - if awareness is strong but consideration conversion is weak, shift budget toward mid-funnel channels and examine messaging for what's blocking shortlist entry."}},{"@type":"Question","name":"What media channels work best for high-consideration brand advertising?","acceptedAnswer":{"@type":"Answer","text":"Premium CTV is the dominant upper and mid-funnel channel for high-consideration brands reaching affluent audiences, delivering authenticated HNW households in high-attention, non-skippable environments on streaming platforms like Disney+, Hulu, and Peacock. Podcast advertising in business and lifestyle programming builds trust and consideration through host credibility transfer. Premium programmatic display in business and luxury editorial environments maintains brand presence during extended research phases. Search (SEM/SEO) is essential at active consideration and preference formation stages when prospects are specifically researching vendors. DOOH in affluent environments reinforces premium positioning in physical contexts. The critical principle is that no single channel covers the full journey - high-consideration advertising requires coordinated presence across multiple channels, each assigned a specific funnel role."}},{"@type":"Question","name":"How do you measure advertising effectiveness for a brand with a long sales cycle?","acceptedAnswer":{"@type":"Answer","text":"The measurement stack for high-consideration brands should include: brand tracking surveys (unaided awareness, ad recall) for upper-funnel; organic branded search volume lift and content engagement metrics for mid-funnel; multi-touch attribution with a lookback window matching the actual sales cycle length (90–180 days) for consideration-phase evaluation; CRM pipeline velocity analysis for preference formation; and closed-won revenue with full attribution for final conversion. Incrementality testing - running matched holdout groups withheld from specific media - provides the most reliable causal evidence of each channel's contribution and should be built into campaign planning from the outset rather than treated as an optional measurement add-on."}}]}],
   }
 
   return (
@@ -86,13 +86,13 @@ export default function HighConsiderationPurchaseFunnelPage() {
       readingTime="10 min"
       category="Media Strategy"
       image="/images/high-consideration-purchase-funnel.png"
-      imageAlt="Stillwater Media visual guide to high-consideration brand advertising — affluent couple reviewing purchase decision in luxury home setting"
-      imageCaption="High-consideration purchases aren't made in a moment — and the media strategy that supports them can't be built on last-click logic."
+      imageAlt="Stillwater Media visual guide to high-consideration brand advertising - affluent couple reviewing purchase decision in luxury home setting"
+      imageCaption="High-consideration purchases aren't made in a moment - and the media strategy that supports them can't be built on last-click logic."
       schemaMarkup={schemaMarkup}
     >
       <p>
         High-consideration brand advertising exists in a category most media frameworks aren't designed to handle. The
-        standard conversion funnel — awareness to click to purchase — was built for e-commerce, where a $40 transaction
+        standard conversion funnel - awareness to click to purchase - was built for e-commerce, where a $40 transaction
         happens in minutes. When you're selling a $250,000 aircraft membership, a $2 million property, or a $150,000
         financial planning engagement, the purchase decision unfolds over 60, 90, sometimes 180 days. Standard ROAS
         models break. Last-click attribution actively misleads you. And media that appears ineffective in a 7-day
@@ -100,7 +100,7 @@ export default function HighConsiderationPurchaseFunnelPage() {
       </p>
       <p>
         This is the fundamental challenge of high-consideration brand advertising, and solving it requires rethinking
-        media strategy from the ground up — not adapting mass-market frameworks to fit luxury and complex brands, but
+        media strategy from the ground up - not adapting mass-market frameworks to fit luxury and complex brands, but
         building a framework that starts from how affluent buyers actually make decisions.
       </p>
 
@@ -121,18 +121,18 @@ export default function HighConsiderationPurchaseFunnelPage() {
           lawyers)
         </li>
         <li>
-          <strong>High irreversibility</strong> — the decision is difficult or costly to undo
+          <strong>High irreversibility</strong> - the decision is difficult or costly to undo
         </li>
         <li>
           <strong>Significant information gathering</strong> before any vendor contact
         </li>
         <li>
-          <strong>Category unfamiliarity</strong> for the buyer — they may be purchasing this category for the first time
+          <strong>Category unfamiliarity</strong> for the buyer - they may be purchasing this category for the first time
         </li>
       </ul>
       <p>
         Stillwater Media focuses specifically on brands where customer LTV exceeds $5,000 and sales cycles exceed 30 days.
-        This isn't just a market positioning choice — it reflects a genuine distinction in how media must be structured,
+        This isn't just a market positioning choice - it reflects a genuine distinction in how media must be structured,
         measured, and optimized for these buyers.
       </p>
 
@@ -154,19 +154,19 @@ export default function HighConsiderationPurchaseFunnelPage() {
         Media at this stage is about presence, not persuasion. The goal is to establish brand recognition and positive
         associations before the category consideration phase begins. CTV on premium streaming platforms, digital audio,
         premium editorial placements, and DOOH in affluent environments all serve this function. ROI is not measurable in
-        this window — but brands that are present here dramatically outperform those that enter only at the active
+        this window - but brands that are present here dramatically outperform those that enter only at the active
         consideration stage.
       </p>
 
       <h3>Stage 2: Category Entry (Need Recognition)</h3>
       <p>
         The buyer recognizes they have a need that a category of product or service could solve. They begin passive
-        research — reading articles, watching content, noticing relevant ads for the first time. They're not yet
+        research - reading articles, watching content, noticing relevant ads for the first time. They're not yet
         comparing vendors, but they're forming early impressions of which brands seem authoritative.
       </p>
       <p>
         Content-forward advertising performs strongly here. Thought leadership native placements in WSJ, Bloomberg, or
-        Barron's that position your brand as an expert — not just a service provider — shape the consideration set before
+        Barron's that position your brand as an expert - not just a service provider - shape the consideration set before
         it's formally constructed. Video advertising on YouTube Select or premium CTV with educational, not promotional,
         creative captures attention from buyers who are gathering information, not ready to be sold.
       </p>
@@ -175,27 +175,27 @@ export default function HighConsiderationPurchaseFunnelPage() {
       <p>
         The buyer is now actively researching specific vendors. They're visiting websites, reading case studies, watching
         brand videos, searching brand names, and potentially reaching out to their network for referrals. This is the
-        stage most brands over-index on — pouring budget into retargeting and SEM while under-investing in the earlier
+        stage most brands over-index on - pouring budget into retargeting and SEM while under-investing in the earlier
         stages that determined who made the consideration set.
       </p>
       <p>
         Mid-funnel media here should be precise and non-intrusive. Retargeting campaigns with sequential messaging that
         advances the narrative rather than repeating the same ad. Search campaigns capturing high-intent category
-        queries. CTV creative that speaks specifically to the evaluation criteria of a sophisticated buyer — not
+        queries. CTV creative that speaks specifically to the evaluation criteria of a sophisticated buyer - not
         lifestyle imagery, but proof: client outcomes, industry recognition, transparent methodology. The goal is to
         provide the information the buyer is actively seeking, delivered in premium, brand-safe environments.
       </p>
 
       <h3>Stage 4: Preference Formation (Shortlisting)</h3>
       <p>
-        The buyer has narrowed their consideration set to 2–4 vendors. They're conducting deeper diligence — scheduling
+        The buyer has narrowed their consideration set to 2–4 vendors. They're conducting deeper diligence - scheduling
         consultations, requesting materials, potentially meeting with multiple providers. Media's role here is to
         reinforce and validate. A prospect who attended an initial consultation with a wealth management firm and then saw
         that firm's CTV ads on Bloomberg and CNBC streaming content over the next two weeks experienced passive brand
         reinforcement that actively increases the probability of conversion.
       </p>
       <p>
-        This is also where competitive conquesting becomes relevant — carefully executed, it ensures your brand appears
+        This is also where competitive conquesting becomes relevant - carefully executed, it ensures your brand appears
         prominently in the environments where a buyer actively researching your competitors will be exposed to your value
         proposition. The executional requirements are precise: the wrong execution here feels aggressive and can harm
         brand perception.
@@ -205,7 +205,7 @@ export default function HighConsiderationPurchaseFunnelPage() {
       <p>
         The purchase decision is made. Media typically plays a smaller direct role here than in earlier stages, though
         search and retargeting continue to matter. The more important media question in this stage is what happens
-        immediately post-purchase — brand reinforcement advertising that confirms the buyer made the right decision
+        immediately post-purchase - brand reinforcement advertising that confirms the buyer made the right decision
         reduces buyer's remorse and dramatically increases referral likelihood and renewal rates for subscription or
         recurring-engagement brands.
       </p>
@@ -213,7 +213,7 @@ export default function HighConsiderationPurchaseFunnelPage() {
       <h2>Why Standard Media Metrics Fail High-Consideration Brands</h2>
       <p>
         The most common mistake in high-consideration brand advertising isn't in creative, targeting, or channel
-        selection — it's in measurement. When you apply standard attribution models to long-cycle purchases, you
+        selection - it's in measurement. When you apply standard attribution models to long-cycle purchases, you
         systematically undervalue upper-funnel media and over-credit lower-funnel channels.
       </p>
 
@@ -222,7 +222,7 @@ export default function HighConsiderationPurchaseFunnelPage() {
         Last-click attribution assigns 100% of the conversion credit to the final touchpoint before purchase. For a
         private aviation prospect who encountered your brand in a CTV ad eight months ago, received email nurture
         sequences, visited your site three times from retargeting, attended a webinar, and finally clicked a branded
-        search ad to schedule a consultation — last-click credits only the branded search click.
+        search ad to schedule a consultation - last-click credits only the branded search click.
       </p>
       <p>
         The result: brands defund CTV and premium awareness placements because they show no "conversions," then wonder
@@ -235,7 +235,7 @@ export default function HighConsiderationPurchaseFunnelPage() {
         Most platforms default to 7-day or 30-day attribution windows. For brands with 60–180 day sales cycles, a 30-day
         window captures only a fraction of the conversion journey. A CTV ad viewed in month one of a six-month sales
         process will never appear in any conversion path under a 30-day attribution model. It's not that the media didn't
-        work — it's that the measurement window excluded it from measurement entirely.
+        work - it's that the measurement window excluded it from measurement entirely.
       </p>
       <p>
         The correct attribution window for a high-consideration brand is the length of the sales cycle plus a buffer. For
@@ -281,8 +281,8 @@ export default function HighConsiderationPurchaseFunnelPage() {
         </tbody>
       </table>
       <p>
-        Incrementality testing sits across all of these stages. Running holdout groups — matched audiences who are
-        withheld from specific media exposure — allows you to isolate the actual causal contribution of each channel to
+        Incrementality testing sits across all of these stages. Running holdout groups - matched audiences who are
+        withheld from specific media exposure - allows you to isolate the actual causal contribution of each channel to
         pipeline advancement, rather than inferring it from correlational attribution data.
       </p>
 
@@ -305,23 +305,23 @@ export default function HighConsiderationPurchaseFunnelPage() {
       </p>
       <p>
         <strong>Brands with a strong referral-heavy pipeline but unpredictable new-prospect flow</strong> benefit most
-        from consistent presence advertising — CTV, premium audio, DOOH — that keeps the brand top-of-mind in the
+        from consistent presence advertising - CTV, premium audio, DOOH - that keeps the brand top-of-mind in the
         environments where their ideal prospects spend time, without aggressive direct-response tactics that feel
         misaligned with the brand's premium positioning.
       </p>
       <p>A rough framework for a mature high-consideration brand with a 90-day sales cycle:</p>
       <ul>
         <li>
-          <strong>Upper funnel (awareness):</strong> 35–40% — Premium CTV, YouTube Select, streaming audio, DOOH
+          <strong>Upper funnel (awareness):</strong> 35–40% - Premium CTV, YouTube Select, streaming audio, DOOH
         </li>
         <li>
-          <strong>Mid funnel (consideration):</strong> 30–35% — Retargeting, content/native, podcast, email
+          <strong>Mid funnel (consideration):</strong> 30–35% - Retargeting, content/native, podcast, email
         </li>
         <li>
-          <strong>Lower funnel (conversion):</strong> 20–25% — SEM, direct mail, high-intent programmatic retargeting
+          <strong>Lower funnel (conversion):</strong> 20–25% - SEM, direct mail, high-intent programmatic retargeting
         </li>
         <li>
-          <strong>Measurement and testing:</strong> 5–10% — Holdout testing, brand tracking, attribution infrastructure
+          <strong>Measurement and testing:</strong> 5–10% - Holdout testing, brand tracking, attribution infrastructure
         </li>
       </ul>
       <p>
@@ -345,24 +345,24 @@ export default function HighConsiderationPurchaseFunnelPage() {
       <p>
         <strong>Podcast advertising</strong> in high-quality finance, business, and lifestyle shows serves both
         mid-funnel consideration and soft preference formation. Host-read ads in particular generate disproportionate
-        trust transfer when the host's credibility aligns with the brand category — a wealth management firm sponsoring a
+        trust transfer when the host's credibility aligns with the brand category - a wealth management firm sponsoring a
         personal finance podcast reaches an audience that has self-selected for financial engagement.
       </p>
       <p>
         <strong>Premium programmatic display</strong> in business and luxury editorial environments maintains visual
-        presence during the extended consideration phase. The goal is not click-through rates — for a prospect doing
+        presence during the extended consideration phase. The goal is not click-through rates - for a prospect doing
         diligence over 90 days, display ads rarely drive direct clicks. The goal is consistent brand presence in the
         premium environments the target audience inhabits daily.
       </p>
       <p>
-        <strong>Search (SEM and SEO)</strong> is critical at Stage 3 and Stage 4 — active consideration and preference
+        <strong>Search (SEM and SEO)</strong> is critical at Stage 3 and Stage 4 - active consideration and preference
         formation. When a prospect is specifically searching for vendors, search must capture that intent. But brands
         that rely primarily on search for high-consideration categories are fishing only at the bottom of a funnel they
         haven't filled.
       </p>
       <p>
-        <strong>DOOH</strong> in affluent locations — financial districts, premium shopping areas, airport terminals,
-        golf and country club properties — provides physical-world presence that reinforces the brand's premium
+        <strong>DOOH</strong> in affluent locations - financial districts, premium shopping areas, airport terminals,
+        golf and country club properties - provides physical-world presence that reinforces the brand's premium
         positioning and reaches prospects in moments of aspirational context.
       </p>
 
@@ -374,14 +374,14 @@ export default function HighConsiderationPurchaseFunnelPage() {
       </p>
       <p>
         This creates a systematic underinvestment in brand awareness that eventually degrades pipeline quality. The effect
-        typically manifests 12–18 months after defunding begins — close rates decline, CAC rises, and the pipeline skews
+        typically manifests 12–18 months after defunding begins - close rates decline, CAC rises, and the pipeline skews
         toward lower-quality, higher-churn prospects who were captured through aggressive lower-funnel tactics rather than
         cultivated through sustained brand-building.
       </p>
       <p>
         The solution is a measurement framework that shows the contribution of upper-funnel media in terms leadership can
         understand. Tracking brand search volume lift, share of voice in category research environments, and prospect
-        pipeline velocity — not just conversion counts — gives finance and executive stakeholders a view of media's
+        pipeline velocity - not just conversion counts - gives finance and executive stakeholders a view of media's
         contribution that a last-click attribution report will never reveal.
       </p>
 
@@ -389,16 +389,16 @@ export default function HighConsiderationPurchaseFunnelPage() {
       <p>
         High-consideration brand advertising rewards brands that think in purchase cycles, not attribution windows. The
         brands that dominate their categories over a 3–5 year horizon are rarely those that optimized most aggressively
-        for short-term ROAS — they're the ones that maintained consistent presence across the full purchase journey,
+        for short-term ROAS - they're the ones that maintained consistent presence across the full purchase journey,
         measured what actually mattered, and made media decisions based on customer lifetime value rather than
         cost-per-click.
       </p>
       <p>
         Building that capability requires both the right media strategy and the right measurement infrastructure. Most
-        brands have neither when they first approach Stillwater — and building both is where the real work begins.
+        brands have neither when they first approach Stillwater - and building both is where the real work begins.
       </p>
       <p>
-        <strong>Your buyers aren't making decisions in 30 days — your media strategy shouldn't be either.</strong>{" "}
+        <strong>Your buyers aren't making decisions in 30 days - your media strategy shouldn't be either.</strong>{" "}
         Stillwater Media builds full-funnel media programs specifically for luxury and high-consideration brands where
         sales cycles extend 30 to 180+ days. We work with a limited number of clients per quarter to ensure the strategic
         attention each brand requires.

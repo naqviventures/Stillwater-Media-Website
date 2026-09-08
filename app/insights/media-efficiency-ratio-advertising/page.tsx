@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: "Media Efficiency Ratio: The KPI Luxury Advertisers Actually Need",
     description:
-      "Most luxury brands are measuring ROAS. The ones outperforming them are measuring MER. Here's the difference—and why it changes every budget decision.",
+      "Most luxury brands are measuring ROAS. The ones outperforming them are measuring MER. Here's the difference-and why it changes every budget decision.",
     type: "article",
     url: "https://www.stillwatermedia.io/insights/media-efficiency-ratio-advertising",
     images: [
@@ -26,7 +26,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Media Efficiency Ratio: The KPI Luxury Advertisers Actually Need",
     description:
-      "Most luxury brands measure ROAS. The ones outperforming them measure MER. Here's the difference—and why it changes every budget decision.",
+      "Most luxury brands measure ROAS. The ones outperforming them measure MER. Here's the difference-and why it changes every budget decision.",
     images: ["/images/media-efficiency-ratio-advertising.png"],
   },
 }
@@ -37,7 +37,7 @@ export default function MediaEfficiencyRatioAdvertisingPage() {
     "@type": "Article",
     headline: "Media Efficiency Ratio: The KPI Luxury Advertisers Actually Need",
     description:
-      "Media efficiency ratio measures how much revenue each dollar of media spend generates—beyond ROAS. Learn how luxury brands use MER to make smarter budget decisions.",
+      "Media efficiency ratio measures how much revenue each dollar of media spend generates-beyond ROAS. Learn how luxury brands use MER to make smarter budget decisions.",
     image: {
       "@type": "ImageObject",
       url: "https://www.stillwatermedia.io/images/media-efficiency-ratio-advertising.png",
@@ -74,7 +74,7 @@ export default function MediaEfficiencyRatioAdvertisingPage() {
 
   const schemaMarkup = {
     "@context": "https://schema.org",
-    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/media-efficiency-ratio-advertising#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Media Efficiency Ratio: The KPI Luxury Advertisers Actually Need","item":"https://www.stillwatermedia.io/insights/media-efficiency-ratio-advertising"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/media-efficiency-ratio-advertising#faq","mainEntity":[{"@type":"Question","name":"What is a media efficiency ratio in advertising?","acceptedAnswer":{"@type":"Answer","text":"Media efficiency ratio (MER) is a holistic advertising metric calculated by dividing total business revenue by total media spend over a given period. Unlike ROAS, which attributes revenue to individual channels, MER treats all paid media as a unified investment and measures aggregate business output against it. A brand generating $4M in revenue on $500K in media spend has a MER of 8.0."}},{"@type":"Question","name":"What's the difference between MER and ROAS?","acceptedAnswer":{"@type":"Answer","text":"ROAS (Return on Ad Spend) measures revenue attributed to a specific channel or campaign using platform-reported attribution. MER (Media Efficiency Ratio) measures total business revenue against total media spend without relying on attribution at all. ROAS is useful for tactical channel optimization; MER is used for strategic budget allocation and program-level health assessments. For brands with long sales cycles or multi-channel journeys, MER is the more reliable metric."}},{"@type":"Question","name":"What is a good media efficiency ratio for luxury brands?","acceptedAnswer":{"@type":"Answer","text":"MER benchmarks vary by business model and gross margin. Premium DTC brands typically target a MER of 3.0–5.0. Luxury DTC brands with higher margins often see MER of 5.0–8.0. High-LTV service businesses like private aviation, private clubs, or wealth management commonly operate at MER of 8.0–20.0 or higher, because the revenue per converted customer is large relative to media investment."}},{"@type":"Question","name":"How do I calculate my marketing efficiency ratio?","acceptedAnswer":{"@type":"Answer","text":"Calculate MER by dividing your total gross revenue for a period by your total paid media spend for that same period. Include all paid channels in the denominator—programmatic, CTV, social, search, DOOH, audio, podcasts, native. Do not include agency fees, SEO costs, or content production. Track weekly MER for anomaly detection, monthly MER for budget decisions, and rolling 90-day MER to account for sales cycle lag."}},{"@type":"Question","name":"Why is MER better than ROAS for high-consideration brands?","acceptedAnswer":{"@type":"Answer","text":"ROAS depends on platform-reported attribution, which systematically over-credits last-click direct-response channels and under-credits upper-funnel media like CTV, podcasts, and DOOH. For brands with 30–120 day sales cycles, most of the purchase journey happens outside attribution windows entirely. MER bypasses this problem by measuring whether the business is generating more revenue than it spends on media in aggregate—no attribution required."}}]}],
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/media-efficiency-ratio-advertising#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Media Efficiency Ratio: The KPI Luxury Advertisers Actually Need","item":"https://www.stillwatermedia.io/insights/media-efficiency-ratio-advertising"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/media-efficiency-ratio-advertising#faq","mainEntity":[{"@type":"Question","name":"What is a media efficiency ratio in advertising?","acceptedAnswer":{"@type":"Answer","text":"Media efficiency ratio (MER) is a holistic advertising metric calculated by dividing total business revenue by total media spend over a given period. Unlike ROAS, which attributes revenue to individual channels, MER treats all paid media as a unified investment and measures aggregate business output against it. A brand generating $4M in revenue on $500K in media spend has a MER of 8.0."}},{"@type":"Question","name":"What's the difference between MER and ROAS?","acceptedAnswer":{"@type":"Answer","text":"ROAS (Return on Ad Spend) measures revenue attributed to a specific channel or campaign using platform-reported attribution. MER (Media Efficiency Ratio) measures total business revenue against total media spend without relying on attribution at all. ROAS is useful for tactical channel optimization; MER is used for strategic budget allocation and program-level health assessments. For brands with long sales cycles or multi-channel journeys, MER is the more reliable metric."}},{"@type":"Question","name":"What is a good media efficiency ratio for luxury brands?","acceptedAnswer":{"@type":"Answer","text":"MER benchmarks vary by business model and gross margin. Premium DTC brands typically target a MER of 3.0–5.0. Luxury DTC brands with higher margins often see MER of 5.0–8.0. High-LTV service businesses like private aviation, private clubs, or wealth management commonly operate at MER of 8.0–20.0 or higher, because the revenue per converted customer is large relative to media investment."}},{"@type":"Question","name":"How do I calculate my marketing efficiency ratio?","acceptedAnswer":{"@type":"Answer","text":"Calculate MER by dividing your total gross revenue for a period by your total paid media spend for that same period. Include all paid channels in the denominator-programmatic, CTV, social, search, DOOH, audio, podcasts, native. Do not include agency fees, SEO costs, or content production. Track weekly MER for anomaly detection, monthly MER for budget decisions, and rolling 90-day MER to account for sales cycle lag."}},{"@type":"Question","name":"Why is MER better than ROAS for high-consideration brands?","acceptedAnswer":{"@type":"Answer","text":"ROAS depends on platform-reported attribution, which systematically over-credits last-click direct-response channels and under-credits upper-funnel media like CTV, podcasts, and DOOH. For brands with 30–120 day sales cycles, most of the purchase journey happens outside attribution windows entirely. MER bypasses this problem by measuring whether the business is generating more revenue than it spends on media in aggregate-no attribution required."}}]}],
   }
 
   return (
@@ -86,7 +86,7 @@ export default function MediaEfficiencyRatioAdvertisingPage() {
       category="Measurement & Attribution"
       image="/images/media-efficiency-ratio-advertising.png"
       imageAlt="Stillwater Media luxury brand boardroom displaying media efficiency ratio advertising dashboards on curved monitors at dusk"
-      imageCaption="The brands outperforming their competitors aren't just spending more—they're measuring better."
+      imageCaption="The brands outperforming their competitors aren't just spending more-they're measuring better."
       schemaMarkup={schemaMarkup}
     >
       <p>
@@ -97,8 +97,8 @@ export default function MediaEfficiencyRatioAdvertisingPage() {
       </p>
 
       <p>
-        For high-consideration brands—private aviation operators, luxury real estate developers, wealth management
-        firms, private clubs—this distinction isn't academic. It's the difference between cutting a channel that was
+        For high-consideration brands-private aviation operators, luxury real estate developers, wealth management
+        firms, private clubs-this distinction isn't academic. It's the difference between cutting a channel that was
         driving compounding awareness and doubling down on one that only appears to perform in last-click attribution.
       </p>
 
@@ -133,7 +133,7 @@ export default function MediaEfficiencyRatioAdvertisingPage() {
       <p>
         Unlike ROAS, MER doesn't attempt to attribute revenue to individual channels. It treats media spend as one
         unified investment and measures the aggregate output against total business revenue. That's precisely what makes
-        it powerful—and what makes it controversial among teams accustomed to granular attribution dashboards.
+        it powerful-and what makes it controversial among teams accustomed to granular attribution dashboards.
       </p>
 
       <h3>MER vs. ROAS: The Core Distinction</h3>
@@ -141,7 +141,7 @@ export default function MediaEfficiencyRatioAdvertisingPage() {
       <p>
         ROAS (Return on Ad Spend) is calculated per campaign or channel. It answers: "How much revenue did Google
         Shopping claim to generate for every dollar I spent there?" The critical word is "claimed." Most attribution
-        models—last-click especially—overcount direct-response channels and undercount upper-funnel media.
+        models-last-click especially-overcount direct-response channels and undercount upper-funnel media.
       </p>
 
       <p>
@@ -162,13 +162,13 @@ export default function MediaEfficiencyRatioAdvertisingPage() {
           <tr>
             <td>Channel ROAS</td>
             <td>Channel Revenue ÷ Channel Spend</td>
-            <td>Yes — single-touch or multi-touch</td>
+            <td>Yes - single-touch or multi-touch</td>
             <td>Optimizing within a channel</td>
           </tr>
           <tr>
             <td>Blended ROAS</td>
             <td>Total Revenue ÷ Total Ad Spend</td>
-            <td>Partial — relies on platform reporting</td>
+            <td>Partial - relies on platform reporting</td>
             <td>Quick cross-channel health check</td>
           </tr>
           <tr>
@@ -180,7 +180,7 @@ export default function MediaEfficiencyRatioAdvertisingPage() {
           <tr>
             <td>nMER (new customer MER)</td>
             <td>New Customer Revenue ÷ Total Media Spend</td>
-            <td>Partial — requires customer segmentation</td>
+            <td>Partial - requires customer segmentation</td>
             <td>Acquisition-focused brands</td>
           </tr>
         </tbody>
@@ -196,14 +196,14 @@ export default function MediaEfficiencyRatioAdvertisingPage() {
       <h2>Why ROAS Breaks Down for Luxury and High-Consideration Brands</h2>
 
       <p>
-        ROAS was invented for direct-response e-commerce—short purchase cycles, identifiable click-to-purchase events,
+        ROAS was invented for direct-response e-commerce-short purchase cycles, identifiable click-to-purchase events,
         platform-trackable conversions. For a brand selling $300 joggers, attributing a sale to a Google Shopping click
         is reasonable.
       </p>
 
       <p>
         For a private aviation operator where the path to a $100,000+ membership looks like: CTV ad → Google search →
-        editorial feature → sales call → second sales call → contract signed six weeks later—ROAS is almost useless.
+        editorial feature → sales call → second sales call → contract signed six weeks later-ROAS is almost useless.
       </p>
 
       <h3>The Three Ways ROAS Misleads Luxury Marketers</h3>
@@ -219,14 +219,14 @@ export default function MediaEfficiencyRatioAdvertisingPage() {
       <p>
         <strong>2. Long sales cycles break attribution entirely.</strong> Wealth management platforms routinely observe
         60–90 day sales cycles. Private club memberships often run 45–120 days from first engagement to signed
-        application. Attribution windows—even generous 28-day or 30-day windows—capture only a fraction of the
+        application. Attribution windows-even generous 28-day or 30-day windows-capture only a fraction of the
         influencing touchpoints. The channels doing the heaviest awareness and trust-building work are systematically
         undercounted.
       </p>
 
       <p>
         <strong>3. Assisted conversions are invisible in ROAS.</strong> A prospect who saw your Disney+ ad, visited
-        your website three times, read three editorial features, and then called your sales team directly—that
+        your website three times, read three editorial features, and then called your sales team directly-that
         conversion appears "organic" in most platforms. ROAS sees $0 attributed to the CTV campaign. MER sees total
         revenue went up.
       </p>
@@ -240,7 +240,7 @@ export default function MediaEfficiencyRatioAdvertisingPage() {
       <h3>Step 1: Define Your Revenue Figure</h3>
 
       <p>
-        Use <strong>total gross revenue</strong> for the period—including all channels (direct, organic, paid,
+        Use <strong>total gross revenue</strong> for the period-including all channels (direct, organic, paid,
         referral). Do not segment by channel. The whole point is to measure the relationship between media investment
         and business output.
       </p>
@@ -255,7 +255,7 @@ export default function MediaEfficiencyRatioAdvertisingPage() {
 
       <p>
         Include <strong>all paid media</strong> you control: programmatic, CTV, social, paid search, DOOH, streaming
-        audio, podcasts, native. Exclude PR fees, agency retainer fees, SEO costs, and organic content production—these
+        audio, podcasts, native. Exclude PR fees, agency retainer fees, SEO costs, and organic content production-these
         are marketing costs, not media spend.
       </p>
 
@@ -320,7 +320,7 @@ export default function MediaEfficiencyRatioAdvertisingPage() {
 
       <p>
         MER tells you whether the whole system is working. <strong>Incrementality testing</strong> tells you which parts
-        of it are actually causing revenue—rather than merely correlating with it.
+        of it are actually causing revenue-rather than merely correlating with it.
       </p>
 
       <p>The combination of the two is how sophisticated luxury advertisers close the measurement gap entirely.</p>
@@ -343,7 +343,7 @@ export default function MediaEfficiencyRatioAdvertisingPage() {
 
       <p>
         This process is iterative. Stillwater Media runs quarterly incrementality tests for clients whose media programs
-        exceed $500K annually, specifically to ensure budget allocation reflects actual causal contribution—not
+        exceed $500K annually, specifically to ensure budget allocation reflects actual causal contribution-not
         attributed credit.
       </p>
 
@@ -369,7 +369,7 @@ export default function MediaEfficiencyRatioAdvertisingPage() {
       <h3>Mistake 3: Cutting Upper-Funnel Spend to Improve Short-Term MER</h3>
 
       <p>
-        This is the classic mistake. Upper-funnel channels—CTV, DOOH, podcast, display—build the awareness that
+        This is the classic mistake. Upper-funnel channels-CTV, DOOH, podcast, display-build the awareness that
         eventually converts to revenue. Cutting them improves your next 30-day MER while hollowing out your next 6-month
         pipeline. MER optimization requires a long-term view.
       </p>
@@ -399,8 +399,8 @@ export default function MediaEfficiencyRatioAdvertisingPage() {
       </p>
 
       <p>
-        <strong>New channel justification.</strong> When we recommend adding a channel—say, streaming audio on Spotify
-        Premium for a wealth management client—we don't promise a ROAS. We model the projected MER impact: if current
+        <strong>New channel justification.</strong> When we recommend adding a channel-say, streaming audio on Spotify
+        Premium for a wealth management client-we don't promise a ROAS. We model the projected MER impact: if current
         program MER is 12.0 and adding $50K/quarter in audio lifts revenue by $600K+, the channel addition is justified.
         If the revenue lift is undetectable in the aggregate, it stays in the test queue.
       </p>
@@ -409,7 +409,7 @@ export default function MediaEfficiencyRatioAdvertisingPage() {
         <strong>Seasonal budget flex.</strong> For luxury brands with defined high-seasons (private aviation in summer
         and ski season, luxury real estate in spring), we model expected MER targets by quarter and set media spend
         accordingly. A brand spending $150K/quarter flat will almost always underperform a brand that spends $50K in Q1,
-        $250K in Q2, and $150K in Q3—even with identical annual spend.
+        $250K in Q2, and $150K in Q3-even with identical annual spend.
       </p>
 
       <p>
@@ -462,8 +462,8 @@ export default function MediaEfficiencyRatioAdvertisingPage() {
       <h2>The Strategic Advantage of MER for Selective Advertisers</h2>
 
       <p>
-        For luxury brands that invest selectively—operating in private marketplace deals, premium CTV inventory, direct
-        publisher relationships—MER thinking creates a compounding advantage.
+        For luxury brands that invest selectively-operating in private marketplace deals, premium CTV inventory, direct
+        publisher relationships-MER thinking creates a compounding advantage.
       </p>
 
       <p>
@@ -476,7 +476,7 @@ export default function MediaEfficiencyRatioAdvertisingPage() {
       <p>
         MER captures the value of that equity-building investment in a way ROAS never will. It's why the best-performing
         luxury advertisers have gradually shifted internal reporting frameworks toward MER as their primary efficiency
-        signal—and use ROAS exclusively as a tactical optimization lever within direct-response channels.
+        signal-and use ROAS exclusively as a tactical optimization lever within direct-response channels.
       </p>
 
       <p>
@@ -490,7 +490,7 @@ export default function MediaEfficiencyRatioAdvertisingPage() {
 
       <p>
         Stillwater Media partners with luxury and high-consideration brands to build measurement frameworks that reflect
-        how affluent buyers actually make decisions—not how attribution platforms prefer to claim credit. If you're
+        how affluent buyers actually make decisions-not how attribution platforms prefer to claim credit. If you're
         ready to move beyond ROAS and build a media program accountable to real business outcomes, we'd like to hear
         from you.
       </p>

@@ -104,10 +104,10 @@ export default function BillboardAdvertisingDigitalAge() {
       <h3>Dynamic Content Capabilities</h3>
 
       <ul>
-        <li><strong>Multiple advertisers</strong> — Single location can showcase rotating creative from multiple brands</li>
-        <li><strong>Daypart messaging</strong> — Different creative for morning commuters versus evening audiences</li>
-        <li><strong>Real-time updates</strong> — Content can change based on weather, traffic, events, or inventory</li>
-        <li><strong>A/B testing</strong> — Test multiple creative executions and optimize based on response</li>
+        <li><strong>Multiple advertisers</strong> - Single location can showcase rotating creative from multiple brands</li>
+        <li><strong>Daypart messaging</strong> - Different creative for morning commuters versus evening audiences</li>
+        <li><strong>Real-time updates</strong> - Content can change based on weather, traffic, events, or inventory</li>
+        <li><strong>A/B testing</strong> - Test multiple creative executions and optimize based on response</li>
       </ul>
 
       <h3>Smart Billboard Technology</h3>
@@ -117,10 +117,10 @@ export default function BillboardAdvertisingDigitalAge() {
       </p>
 
       <ol>
-        <li><strong>Sensors and cameras</strong> — Enable audience measurement and environmental responsiveness</li>
-        <li><strong>Connectivity</strong> — Integration with broader marketing ecosystems and real-time data feeds</li>
-        <li><strong>Interactive elements</strong> — QR codes, NFC, and mobile-triggered experiences</li>
-        <li><strong>Programmatic integration</strong> — Automated buying through DSPs and SSPs</li>
+        <li><strong>Sensors and cameras</strong> - Enable audience measurement and environmental responsiveness</li>
+        <li><strong>Connectivity</strong> - Integration with broader marketing ecosystems and real-time data feeds</li>
+        <li><strong>Interactive elements</strong> - QR codes, NFC, and mobile-triggered experiences</li>
+        <li><strong>Programmatic integration</strong> - Automated buying through DSPs and SSPs</li>
       </ol>
 
       <hr />
@@ -134,11 +134,11 @@ export default function BillboardAdvertisingDigitalAge() {
       <h3>Key Benefits of Programmatic OOH</h3>
 
       <ul>
-        <li><strong>Real-time bidding</strong> — Purchase specific time slots and locations based on data-driven insights</li>
-        <li><strong>Audience-based buying</strong> — Target audiences rather than just locations</li>
-        <li><strong>Unified platform management</strong> — Manage OOH alongside digital channels</li>
-        <li><strong>Dynamic optimization</strong> — Adjust campaigns in real-time based on performance</li>
-        <li><strong>Budget efficiency</strong> — Eliminate manual negotiation inefficiencies</li>
+        <li><strong>Real-time bidding</strong> - Purchase specific time slots and locations based on data-driven insights</li>
+        <li><strong>Audience-based buying</strong> - Target audiences rather than just locations</li>
+        <li><strong>Unified platform management</strong> - Manage OOH alongside digital channels</li>
+        <li><strong>Dynamic optimization</strong> - Adjust campaigns in real-time based on performance</li>
+        <li><strong>Budget efficiency</strong> - Eliminate manual negotiation inefficiencies</li>
       </ul>
 
       <h3>Programmatic OOH Integration</h3>
@@ -165,10 +165,10 @@ export default function BillboardAdvertisingDigitalAge() {
       <h3>Location Intelligence</h3>
 
       <ul>
-        <li><strong>Foot traffic analysis</strong> — Understand who passes specific billboard locations</li>
-        <li><strong>Demographic mapping</strong> — Overlay audience data on geographic locations</li>
-        <li><strong>Behavioral patterns</strong> — Analyze movement patterns and dwell times</li>
-        <li><strong>Competitive intelligence</strong> — Monitor competitor OOH placements</li>
+        <li><strong>Foot traffic analysis</strong> - Understand who passes specific billboard locations</li>
+        <li><strong>Demographic mapping</strong> - Overlay audience data on geographic locations</li>
+        <li><strong>Behavioral patterns</strong> - Analyze movement patterns and dwell times</li>
+        <li><strong>Competitive intelligence</strong> - Monitor competitor OOH placements</li>
       </ul>
 
       <h3>Mobile Data Integration</h3>
@@ -178,10 +178,10 @@ export default function BillboardAdvertisingDigitalAge() {
       </p>
 
       <ul>
-        <li><strong>Exposure verification</strong> — Confirm which devices were near billboard locations</li>
-        <li><strong>Audience profiling</strong> — Understand the demographics and behaviors of exposed audiences</li>
-        <li><strong>Cross-device tracking</strong> — Connect OOH exposure to subsequent online behavior</li>
-        <li><strong>Conversion attribution</strong> — Link billboard exposure to store visits and purchases</li>
+        <li><strong>Exposure verification</strong> - Confirm which devices were near billboard locations</li>
+        <li><strong>Audience profiling</strong> - Understand the demographics and behaviors of exposed audiences</li>
+        <li><strong>Cross-device tracking</strong> - Connect OOH exposure to subsequent online behavior</li>
+        <li><strong>Conversion attribution</strong> - Link billboard exposure to store visits and purchases</li>
       </ul>
 
       <h3>Contextual Targeting</h3>
@@ -191,10 +191,10 @@ export default function BillboardAdvertisingDigitalAge() {
       </p>
 
       <ol>
-        <li><strong>Time of day</strong> — Different messaging for rush hour versus weekends</li>
-        <li><strong>Weather conditions</strong> — Trigger weather-appropriate creative</li>
-        <li><strong>Local events</strong> — Align messaging with nearby concerts, sports, or conferences</li>
-        <li><strong>Traffic patterns</strong> — Adjust frequency based on congestion and dwell time</li>
+        <li><strong>Time of day</strong> - Different messaging for rush hour versus weekends</li>
+        <li><strong>Weather conditions</strong> - Trigger weather-appropriate creative</li>
+        <li><strong>Local events</strong> - Align messaging with nearby concerts, sports, or conferences</li>
+        <li><strong>Traffic patterns</strong> - Adjust frequency based on congestion and dwell time</li>
       </ol>
 
       <hr />
@@ -208,10 +208,10 @@ export default function BillboardAdvertisingDigitalAge() {
       <h3>Cross-Channel Strategy</h3>
 
       <ul>
-        <li><strong>Awareness layer</strong> — OOH builds brand awareness and drives consideration</li>
-        <li><strong>Digital activation</strong> — Search and social capture demand generated by billboards</li>
-        <li><strong>Retargeting</strong> — Digital ads follow up with OOH-exposed audiences</li>
-        <li><strong>Conversion</strong> — Digital channels complete the purchase journey</li>
+        <li><strong>Awareness layer</strong> - OOH builds brand awareness and drives consideration</li>
+        <li><strong>Digital activation</strong> - Search and social capture demand generated by billboards</li>
+        <li><strong>Retargeting</strong> - Digital ads follow up with OOH-exposed audiences</li>
+        <li><strong>Conversion</strong> - Digital channels complete the purchase journey</li>
       </ul>
 
       <h3>Response Mechanisms</h3>
@@ -221,10 +221,10 @@ export default function BillboardAdvertisingDigitalAge() {
       </p>
 
       <ol>
-        <li><strong>QR codes</strong> — Instant connection to mobile experiences</li>
-        <li><strong>Custom URLs</strong> — Trackable landing pages for attribution</li>
-        <li><strong>Social hashtags</strong> — Encourage user-generated content and social engagement</li>
-        <li><strong>SMS shortcodes</strong> — Immediate response capture for follow-up</li>
+        <li><strong>QR codes</strong> - Instant connection to mobile experiences</li>
+        <li><strong>Custom URLs</strong> - Trackable landing pages for attribution</li>
+        <li><strong>Social hashtags</strong> - Encourage user-generated content and social engagement</li>
+        <li><strong>SMS shortcodes</strong> - Immediate response capture for follow-up</li>
       </ol>
 
       <h3>Geofencing Integration</h3>
@@ -251,21 +251,21 @@ export default function BillboardAdvertisingDigitalAge() {
       <h3>Measurement Methodologies</h3>
 
       <ol>
-        <li><strong>Mobile device matching</strong> — Track exposed devices through subsequent behaviors</li>
-        <li><strong>Computer vision</strong> — Analyze traffic patterns, dwell times, and attention metrics</li>
-        <li><strong>Brand lift studies</strong> — Survey-based measurement of awareness and consideration impact</li>
-        <li><strong>Sales lift analysis</strong> — Connect OOH exposure to purchase behavior</li>
+        <li><strong>Mobile device matching</strong> - Track exposed devices through subsequent behaviors</li>
+        <li><strong>Computer vision</strong> - Analyze traffic patterns, dwell times, and attention metrics</li>
+        <li><strong>Brand lift studies</strong> - Survey-based measurement of awareness and consideration impact</li>
+        <li><strong>Sales lift analysis</strong> - Connect OOH exposure to purchase behavior</li>
       </ol>
 
       <h3>Key Metrics for OOH</h3>
 
       <ul>
-        <li><strong>Impressions</strong> — Verified audience exposure counts</li>
-        <li><strong>Reach and frequency</strong> — Unique audiences and exposure depth</li>
-        <li><strong>Dwell time</strong> — Duration of attention opportunity</li>
-        <li><strong>Digital actions</strong> — Website visits, searches, and app opens post-exposure</li>
-        <li><strong>Store visits</strong> — Physical location visits attributed to OOH</li>
-        <li><strong>Sales attribution</strong> — Revenue tied to OOH exposure</li>
+        <li><strong>Impressions</strong> - Verified audience exposure counts</li>
+        <li><strong>Reach and frequency</strong> - Unique audiences and exposure depth</li>
+        <li><strong>Dwell time</strong> - Duration of attention opportunity</li>
+        <li><strong>Digital actions</strong> - Website visits, searches, and app opens post-exposure</li>
+        <li><strong>Store visits</strong> - Physical location visits attributed to OOH</li>
+        <li><strong>Sales attribution</strong> - Revenue tied to OOH exposure</li>
       </ul>
 
       <hr />
@@ -279,10 +279,10 @@ export default function BillboardAdvertisingDigitalAge() {
       <h3>Advanced Creative Formats</h3>
 
       <ul>
-        <li><strong>Motion graphics</strong> — Video and animation capture attention more effectively</li>
-        <li><strong>Live data feeds</strong> — Display real-time information (scores, prices, countdown timers)</li>
-        <li><strong>Social integration</strong> — Feature user-generated content and social feeds</li>
-        <li><strong>3D and AR elements</strong> — Create immersive experiences that generate earned media</li>
+        <li><strong>Motion graphics</strong> - Video and animation capture attention more effectively</li>
+        <li><strong>Live data feeds</strong> - Display real-time information (scores, prices, countdown timers)</li>
+        <li><strong>Social integration</strong> - Feature user-generated content and social feeds</li>
+        <li><strong>3D and AR elements</strong> - Create immersive experiences that generate earned media</li>
       </ul>
 
       <h3>Dynamic Creative Optimization</h3>
@@ -309,10 +309,10 @@ export default function BillboardAdvertisingDigitalAge() {
       <h3>Placement Criteria</h3>
 
       <ul>
-        <li><strong>Traffic analysis</strong> — Vehicle and pedestrian counts with demographic overlay</li>
-        <li><strong>Viewing conditions</strong> — Angles, distance, speed, and environmental factors</li>
-        <li><strong>Competitive presence</strong> — Category exclusivity and share of voice</li>
-        <li><strong>Audience alignment</strong> — Match location audiences to target profiles</li>
+        <li><strong>Traffic analysis</strong> - Vehicle and pedestrian counts with demographic overlay</li>
+        <li><strong>Viewing conditions</strong> - Angles, distance, speed, and environmental factors</li>
+        <li><strong>Competitive presence</strong> - Category exclusivity and share of voice</li>
+        <li><strong>Audience alignment</strong> - Match location audiences to target profiles</li>
       </ul>
 
       <h3>Network Planning</h3>

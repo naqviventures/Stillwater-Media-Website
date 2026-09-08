@@ -6,7 +6,7 @@ export const metadata = {
   },
   title: "Luxury Digital Marketing Agency Charlotte NC | Stillwater",
   description:
-    "Luxury digital marketing agency in Charlotte NC: how to evaluate a partner for premium CTV, programmatic, and affluent audience work — and what to ask.",
+    "Luxury digital marketing agency in Charlotte NC: how to evaluate a partner for premium CTV, programmatic, and affluent audience work - and what to ask.",
   openGraph: {
     title: "Luxury Digital Marketing Agency in Charlotte, NC: How to Choose the Right Partner",
     description:
@@ -26,7 +26,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Luxury Digital Marketing Agency in Charlotte, NC",
     description:
-      "How premium and high-consideration brands should evaluate a luxury digital marketing agency in Charlotte NC — and the questions that reveal a true affluent-audience partner.",
+      "How premium and high-consideration brands should evaluate a luxury digital marketing agency in Charlotte NC - and the questions that reveal a true affluent-audience partner.",
     images: ["/images/luxury-digital-marketing-agency-charlotte-nc.png"],
   },
 }
@@ -37,13 +37,13 @@ export default function LuxuryDigitalMarketingAgencyCharlotteNcPage() {
     "@type": "Article",
     headline: "Luxury Digital Marketing Agency in Charlotte, NC: How to Choose the Right Partner",
     description:
-      "A strategist's guide to choosing a luxury digital marketing agency in Charlotte, NC — what such an agency actually does across premium CTV, programmatic, and affluent audience engineering, how premium and high-consideration brands should evaluate one, the questions that separate a true affluent-audience partner from a generalist shop, and why a Charlotte base serves luxury brands across the Southeast and nationally.",
+      "A strategist's guide to choosing a luxury digital marketing agency in Charlotte, NC - what such an agency actually does across premium CTV, programmatic, and affluent audience engineering, how premium and high-consideration brands should evaluate one, the questions that separate a true affluent-audience partner from a generalist shop, and why a Charlotte base serves luxury brands across the Southeast and nationally.",
     image: {
       "@type": "ImageObject",
       url: "https://www.stillwatermedia.io/images/luxury-digital-marketing-agency-charlotte-nc.png",
       width: 1200,
       height: 630,
-      caption: "Luxury digital marketing agency in Charlotte, NC — Stillwater Media",
+      caption: "Luxury digital marketing agency in Charlotte, NC - Stillwater Media",
     },
     author: {
       "@type": "Organization",
@@ -67,7 +67,7 @@ export default function LuxuryDigitalMarketingAgencyCharlotteNcPage() {
     },
     keywords:
       "luxury digital marketing agency Charlotte NC, media agency Charlotte NC luxury, performance media agency for luxury brands, affluent audience targeting, premium CTV advertising agency, programmatic advertising luxury brands, luxury brand advertising agency, high-net-worth consumer advertising, brand-safe programmatic advertising, incrementality testing advertising",
-    articleSection: "Agency & Discovery — Charlotte NC",
+    articleSection: "Agency & Discovery - Charlotte NC",
     wordCount: 2210,
     inLanguage: "en-US",
   }
@@ -99,7 +99,7 @@ export default function LuxuryDigitalMarketingAgencyCharlotteNcPage() {
             name: "What does a luxury digital marketing agency in Charlotte, NC do?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "A luxury digital marketing agency in Charlotte, NC specializes in reaching affluent, high-net-worth, and high-consideration audiences through premium connected TV, private-marketplace programmatic, digital out-of-home, streaming audio, and affluent audience engineering, rather than the broad-reach tactics of a general digital shop. It combines precise audience building, premium and brand-safe media, and measurement suited to a considered purchase — multi-touch attribution, incrementality testing, and lifetime value — into one connected system.",
+              text: "A luxury digital marketing agency in Charlotte, NC specializes in reaching affluent, high-net-worth, and high-consideration audiences through premium connected TV, private-marketplace programmatic, digital out-of-home, streaming audio, and affluent audience engineering, rather than the broad-reach tactics of a general digital shop. It combines precise audience building, premium and brand-safe media, and measurement suited to a considered purchase - multi-touch attribution, incrementality testing, and lifetime value - into one connected system.",
             },
           },
           {
@@ -107,7 +107,7 @@ export default function LuxuryDigitalMarketingAgencyCharlotteNcPage() {
             name: "Can a Charlotte, NC agency reach a national or luxury audience?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Yes — the inventory, data, and platforms that reach affluent audiences are national and platform-based, so a Charlotte agency reaches a high-net-worth household in Palm Beach or Manhattan as effectively as a coastal shop. A Charlotte base often adds advantages: leaner overhead, senior attention, and deep knowledge of the fast-growing Southeast wealth market.",
+              text: "Yes - the inventory, data, and platforms that reach affluent audiences are national and platform-based, so a Charlotte agency reaches a high-net-worth household in Palm Beach or Manhattan as effectively as a coastal shop. A Charlotte base often adds advantages: leaner overhead, senior attention, and deep knowledge of the fast-growing Southeast wealth market.",
             },
           },
           {
@@ -123,7 +123,7 @@ export default function LuxuryDigitalMarketingAgencyCharlotteNcPage() {
             name: "Why does luxury marketing need a specialist agency instead of a generalist?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Luxury and high-consideration brands have a small, valuable audience, a weeks- or months-long buying journey, fragile brand equity, and very high lifetime value — the opposite conditions of mass-market marketing. A generalist optimized for cheap clicks and immediate conversions applies the wrong playbook, chasing volume and tolerating cheap inventory, whereas a specialist inverts those instincts toward precision, premium placement, and measurement against lifetime value.",
+              text: "Luxury and high-consideration brands have a small, valuable audience, a weeks- or months-long buying journey, fragile brand equity, and very high lifetime value - the opposite conditions of mass-market marketing. A generalist optimized for cheap clicks and immediate conversions applies the wrong playbook, chasing volume and tolerating cheap inventory, whereas a specialist inverts those instincts toward precision, premium placement, and measurement against lifetime value.",
             },
           },
           {
@@ -145,7 +145,7 @@ export default function LuxuryDigitalMarketingAgencyCharlotteNcPage() {
       author="Stillwater Media"
       date="August 5, 2026"
       readingTime="13 min"
-      category="Agency & Discovery — Charlotte NC"
+      category="Agency & Discovery - Charlotte NC"
       image="/images/luxury-digital-marketing-agency-charlotte-nc.png"
       imageAlt="Stillwater Media guide illustration on choosing a luxury digital marketing agency in Charlotte NC showing the Charlotte skyline reflected in still water at blue hour, representing a premium, discreet media partner serving affluent brands in the Southeast"
       imageCaption="A Charlotte base and a national reach: the right luxury digital marketing agency is defined less by its address than by who it can reach and how it proves the work."
@@ -153,8 +153,8 @@ export default function LuxuryDigitalMarketingAgencyCharlotteNcPage() {
     >
       <p>
         A luxury digital marketing agency in Charlotte, NC is a media and marketing partner that specializes in reaching
-        affluent, high-net-worth, and high-consideration audiences — through premium connected TV, programmatic, digital
-        out-of-home, streaming audio, and affluent audience engineering — rather than the broad-reach, low-cost tactics that
+        affluent, high-net-worth, and high-consideration audiences - through premium connected TV, programmatic, digital
+        out-of-home, streaming audio, and affluent audience engineering - rather than the broad-reach, low-cost tactics that
         define most general digital shops. For a premium brand, the distinction matters enormously: the discipline required
         to advertise a private jet card, a wealth-management practice, a luxury real estate portfolio, or a $10,000 golf
         fitting is almost the opposite of the discipline required to sell a $30 impulse product. This guide explains what a
@@ -166,7 +166,7 @@ export default function LuxuryDigitalMarketingAgencyCharlotteNcPage() {
       <p>
         At Stillwater Media we are a selective performance media agency for luxury and high-consideration brands,
         headquartered in Charlotte, and we work with clients whose customer lifetime value runs well above $5,000 and whose
-        sales cycles stretch beyond 30 days. That profile — high value, long consideration, a discerning buyer — is what
+        sales cycles stretch beyond 30 days. That profile - high value, long consideration, a discerning buyer - is what
         separates luxury marketing from mass-market marketing, and it should shape how any brand evaluates a partner. What
         follows is the framework we would give a CMO deciding how to choose.
       </p>
@@ -183,13 +183,13 @@ export default function LuxuryDigitalMarketingAgencyCharlotteNcPage() {
       </p>
 
       <p>
-        The first is affluent audience engineering — building precise, compliant audiences of high-net-worth and high-income
+        The first is affluent audience engineering - building precise, compliant audiences of high-net-worth and high-income
         households from first-party data, deterministic wealth signals, intent data, and lookalike modeling, rather than
         buying a vague &quot;luxury&quot; segment off the shelf. The second is premium media buying across the channels where
         affluent consumers actually spend attention: connected TV on services like Disney+, Netflix, Hulu, and Prime Video;
         private-marketplace and publisher-direct programmatic; digital out-of-home in affluent corridors; streaming audio and
-        podcasts; and YouTube Select. The third is measurement suited to a considered purchase — multi-touch attribution,
-        incrementality and holdout testing, and lifetime-value analysis — because a luxury purchase almost never happens on
+        podcasts; and YouTube Select. The third is measurement suited to a considered purchase - multi-touch attribution,
+        incrementality and holdout testing, and lifetime-value analysis - because a luxury purchase almost never happens on
         the last click. A true luxury digital marketing agency in Charlotte, NC does all three as a connected system, not as
         disconnected services.
       </p>
@@ -226,7 +226,7 @@ export default function LuxuryDigitalMarketingAgencyCharlotteNcPage() {
 
       <p>
         A generalist agency optimized for cheap clicks and immediate conversions will, almost by default, apply the wrong
-        playbook — chasing volume, tolerating cheap inventory, and judging success on the last touch. A specialist luxury
+        playbook - chasing volume, tolerating cheap inventory, and judging success on the last touch. A specialist luxury
         digital marketing agency inverts each of those instincts.
       </p>
 
@@ -242,7 +242,7 @@ export default function LuxuryDigitalMarketingAgencyCharlotteNcPage() {
       <ol>
         <li>
           <strong>Audience capability.</strong> Can the agency build and verify affluent, high-net-worth audiences from real
-          data — first-party, deterministic wealth signals, intent — or does it lean on broad, inferred &quot;luxury&quot;
+          data - first-party, deterministic wealth signals, intent - or does it lean on broad, inferred &quot;luxury&quot;
           segments? Ask exactly how audiences are sourced and validated.
         </li>
         <li>
@@ -251,8 +251,8 @@ export default function LuxuryDigitalMarketingAgencyCharlotteNcPage() {
           and brand risk is high?
         </li>
         <li>
-          <strong>Brand-safety rigor.</strong> Is brand safety engineered into every buy by construction — curated
-          inventory, exclusions, verification — or bolted on after the fact?
+          <strong>Brand-safety rigor.</strong> Is brand safety engineered into every buy by construction - curated
+          inventory, exclusions, verification - or bolted on after the fact?
         </li>
         <li>
           <strong>Measurement honesty.</strong> Does it measure incrementality and lifetime value, willing to prove which
@@ -276,7 +276,7 @@ export default function LuxuryDigitalMarketingAgencyCharlotteNcPage() {
 
       <p>
         A reasonable question for any brand is whether a Charlotte-based agency can serve a national or luxury audience as
-        well as a New York or Los Angeles shop. In modern programmatic media, the answer is yes — and a Charlotte base
+        well as a New York or Los Angeles shop. In modern programmatic media, the answer is yes - and a Charlotte base
         carries real advantages. The inventory, data, and platforms that reach affluent audiences are national and largely
         platform-based, so a Charlotte agency reaches a high-net-worth household in Aspen, Palm Beach, or Manhattan exactly
         as effectively as a coastal one. What differs is the operating model. The table below frames the practical
@@ -327,7 +327,7 @@ export default function LuxuryDigitalMarketingAgencyCharlotteNcPage() {
 
       <p>
         The point is not that Charlotte is better than New York in the abstract; it is that for a luxury brand, senior
-        attention, selectivity, and specialized discipline usually matter more than a coastal ZIP code — and Charlotte, a
+        attention, selectivity, and specialized discipline usually matter more than a coastal ZIP code - and Charlotte, a
         fast-growing hub of wealth and business in the Southeast, offers those without the coastal overhead.
       </p>
 
@@ -337,12 +337,12 @@ export default function LuxuryDigitalMarketingAgencyCharlotteNcPage() {
 
       <p>
         Charlotte sits at the center of one of the country&apos;s fastest-growing concentrations of wealth. The broader
-        Southeast — from the Carolinas through Atlanta, Nashville, Florida&apos;s coasts, and the mountain resort markets —
+        Southeast - from the Carolinas through Atlanta, Nashville, Florida&apos;s coasts, and the mountain resort markets -
         has seen sustained migration of high-net-worth households, corporate headquarters, and family offices over the past
         several years. For luxury brands in private aviation, wealth management, luxury real estate, private clubs, and
         premium hospitality, that regional concentration is a genuine market, and a Charlotte agency lives inside it. A
-        partner that understands the affluent buyer in Charlotte, Charleston, Naples, and Nashville — not just Manhattan and
-        Beverly Hills — brings context that national coast-centric agencies often lack, while still reaching those coastal
+        partner that understands the affluent buyer in Charlotte, Charleston, Naples, and Nashville - not just Manhattan and
+        Beverly Hills - brings context that national coast-centric agencies often lack, while still reaching those coastal
         buyers through the same national platforms.
       </p>
 
@@ -361,8 +361,8 @@ export default function LuxuryDigitalMarketingAgencyCharlotteNcPage() {
         local, in-market demand. Premium hospitality and boutique hotels fill rooms with high-value guests rather than
         discount-seekers. And premium direct-to-consumer brands need to escape dependence on a single social platform and
         reach affluent buyers where competitors are not. An agency that has built programs across several of these verticals
-        brings pattern recognition — an understanding of how affluent buyers research, what environments protect the brand,
-        and what a genuinely qualified lead looks like — that a generalist starting from scratch simply does not have.
+        brings pattern recognition - an understanding of how affluent buyers research, what environments protect the brand,
+        and what a genuinely qualified lead looks like - that a generalist starting from scratch simply does not have.
       </p>
 
       <hr className="my-8" />
@@ -373,7 +373,7 @@ export default function LuxuryDigitalMarketingAgencyCharlotteNcPage() {
         A good luxury agency relationship has a recognizable shape in its opening quarter. In the first few weeks, the work
         is diagnostic and foundational: auditing existing media and measurement, onboarding first-party data compliantly,
         engineering the affluent audience, and securing premium, brand-safe inventory across the right channels. In the
-        following weeks, campaigns launch and the leading indicators come into focus — reach and frequency against the target
+        following weeks, campaigns launch and the leading indicators come into focus - reach and frequency against the target
         affluent audience, video completion rates, and early lifts in branded search and direct site traffic. Only across the
         full 90 days do the outcomes that matter for a high-consideration purchase begin to compound: qualified leads,
         consultations, or inquiries, and the first reads from incrementality or holdout tests that isolate genuine lift. A
@@ -461,7 +461,7 @@ export default function LuxuryDigitalMarketingAgencyCharlotteNcPage() {
         impression brand-safe by construction, and measure results through multi-touch attribution, incrementality testing,
         and lifetime value rather than the last click. We are based in Charlotte, serve luxury brands across the Southeast and
         nationally, and take a deliberately limited number of engagements each quarter so that every client gets senior
-        attention and a program built around its economics — not a template.
+        attention and a program built around its economics - not a template.
       </p>
 
       <hr className="my-8" />
@@ -471,7 +471,7 @@ export default function LuxuryDigitalMarketingAgencyCharlotteNcPage() {
       <p>
         If you are a luxury or high-consideration brand looking for a digital marketing agency in Charlotte, NC that reaches
         affluent buyers with precision and proves the work, we should talk. We work best with brands whose customer lifetime
-        value exceeds $5,000 and whose sales cycles run longer than 30 days — the profile where precision, premium placement,
+        value exceeds $5,000 and whose sales cycles run longer than 30 days - the profile where precision, premium placement,
         and honest measurement genuinely change the outcome.
       </p>
     </ArticleLayout>

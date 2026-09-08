@@ -6,7 +6,7 @@ export const metadata = {
   },
   title: "Premium Programmatic Media Buying: How Luxury Brands Buy Safely",
   description:
-    "What premium programmatic media buying is and how it works — private deals, curated supply, affluent targeting, and measurement built for luxury brands.",
+    "What premium programmatic media buying is and how it works - private deals, curated supply, affluent targeting, and measurement built for luxury brands.",
   openGraph: {
     title: "Premium Programmatic Media Buying: How Luxury Brands Buy Automated Media Safely",
     description:
@@ -37,13 +37,13 @@ export default function PremiumProgrammaticMediaBuyingPage() {
     "@type": "Article",
     headline: "Premium Programmatic Media Buying: How Luxury Brands Buy Automated Media Safely",
     description:
-      "A strategist's guide to premium programmatic media buying — what it is, how it differs from open-exchange buying, the private marketplace and programmatic guaranteed deals that make it safe, how curated supply and affluent audiences are engineered, the role of supply-path optimization and frequency control, CPM benchmarks, and how premium programmatic is measured for luxury and high-consideration brands.",
+      "A strategist's guide to premium programmatic media buying - what it is, how it differs from open-exchange buying, the private marketplace and programmatic guaranteed deals that make it safe, how curated supply and affluent audiences are engineered, the role of supply-path optimization and frequency control, CPM benchmarks, and how premium programmatic is measured for luxury and high-consideration brands.",
     image: {
       "@type": "ImageObject",
       url: "https://www.stillwatermedia.io/images/premium-programmatic-media-buying.png",
       width: 1200,
       height: 630,
-      caption: "How premium programmatic media buying works — Stillwater Media",
+      caption: "How premium programmatic media buying works - Stillwater Media",
     },
     author: {
       "@type": "Organization",
@@ -99,7 +99,7 @@ export default function PremiumProgrammaticMediaBuyingPage() {
             name: "What is premium programmatic media buying?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Premium programmatic media buying is the use of automated, real-time media buying to reach a precisely defined affluent audience across curated, brand-safe inventory — while deliberately excluding the open-exchange risk associated with commodity programmatic. It concentrates budget in private marketplace and programmatic guaranteed deals, curates supply with inclusion-first allow-lists, targets verified wealth signals, and measures with incrementality. In short, it is programmatic constructed the way a premium brand should construct it: same technology as open-exchange buying, opposite results.",
+              text: "Premium programmatic media buying is the use of automated, real-time media buying to reach a precisely defined affluent audience across curated, brand-safe inventory - while deliberately excluding the open-exchange risk associated with commodity programmatic. It concentrates budget in private marketplace and programmatic guaranteed deals, curates supply with inclusion-first allow-lists, targets verified wealth signals, and measures with incrementality. In short, it is programmatic constructed the way a premium brand should construct it: same technology as open-exchange buying, opposite results.",
             },
           },
           {
@@ -107,7 +107,7 @@ export default function PremiumProgrammaticMediaBuyingPage() {
             name: "How is premium programmatic different from regular programmatic?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "The technology is identical — the difference is entirely in construction. Regular or commodity programmatic points the buying platform at the open exchange and optimizes toward the cheapest impressions, importing fraud, low viewability, and unknown content adjacency. Premium programmatic points the same platform at curated private supply, targets a verified affluent audience, shortens and verifies the supply path, controls frequency, and optimizes toward real business outcomes. Programmatic is a buying method, not an inventory tier.",
+              text: "The technology is identical - the difference is entirely in construction. Regular or commodity programmatic points the buying platform at the open exchange and optimizes toward the cheapest impressions, importing fraud, low viewability, and unknown content adjacency. Premium programmatic points the same platform at curated private supply, targets a verified affluent audience, shortens and verifies the supply path, controls frequency, and optimizes toward real business outcomes. Programmatic is a buying method, not an inventory tier.",
             },
           },
           {
@@ -131,7 +131,7 @@ export default function PremiumProgrammaticMediaBuyingPage() {
             name: "Is premium programmatic better than direct media buying for luxury brands?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "They are not opposites — the best premium programs combine them by executing directly negotiated deals through programmatic pipes. Direct buying offers control but scales poorly and makes cross-publisher targeting and frequency control difficult; open-exchange programmatic offers precision but sacrifices control. Premium programmatic — private marketplace and programmatic guaranteed deals — keeps the control and guaranteed adjacency of direct buying while gaining programmatic's targeting precision, unified frequency, and measurement.",
+              text: "They are not opposites - the best premium programs combine them by executing directly negotiated deals through programmatic pipes. Direct buying offers control but scales poorly and makes cross-publisher targeting and frequency control difficult; open-exchange programmatic offers precision but sacrifices control. Premium programmatic - private marketplace and programmatic guaranteed deals - keeps the control and guaranteed adjacency of direct buying while gaining programmatic's targeting precision, unified frequency, and measurement.",
             },
           },
         ],
@@ -148,12 +148,12 @@ export default function PremiumProgrammaticMediaBuyingPage() {
       category="Programmatic Strategy"
       image="/images/premium-programmatic-media-buying.png"
       imageAlt="Stillwater Media premium programmatic media buying illustration showing a refined executive workspace with premium screens depicting a short curated supply path at blue hour representing controlled automated media buying for luxury brands"
-      imageCaption="Premium programmatic keeps the automation of the open market but strips out the risk — curated supply, a short path, and a verified affluent audience."
+      imageCaption="Premium programmatic keeps the automation of the open market but strips out the risk - curated supply, a short path, and a verified affluent audience."
       schemaMarkup={schemaMarkup}
     >
       <p>
         Premium programmatic media buying is the discipline of using automated, real-time media buying to reach a
-        precisely defined affluent audience across curated, brand-safe inventory — capturing the efficiency and targeting
+        precisely defined affluent audience across curated, brand-safe inventory - capturing the efficiency and targeting
         power of programmatic while deliberately excluding the open-exchange risk that gives programmatic its bad name
         among luxury marketers. It is, in one phrase, programmatic done the way a premium brand should do it: private
         deals over open auctions, curated supply over the open web, verified wealth signals over broad demographics, and
@@ -165,7 +165,7 @@ export default function PremiumProgrammaticMediaBuyingPage() {
         premise we hold is worth stating up front, because most misconceptions about programmatic dissolve once it is
         understood. Programmatic is a <em>buying method</em>, not an inventory tier. The same automated pipes can buy the
         worst inventory on the internet or the best; the difference is entirely a matter of how the program is
-        constructed. &quot;Premium&quot; is not a marketing adjective bolted onto the word programmatic — it describes a
+        constructed. &quot;Premium&quot; is not a marketing adjective bolted onto the word programmatic - it describes a
         specific set of construction choices about deals, supply, data, and measurement. This guide walks through each of
         those choices and explains how premium programmatic media buying actually works for a brand that cannot afford a
         misplaced impression.
@@ -173,7 +173,7 @@ export default function PremiumProgrammaticMediaBuyingPage() {
 
       <hr className="my-8" />
 
-      <h2>What Programmatic Media Buying Is — and Where &quot;Premium&quot; Comes In</h2>
+      <h2>What Programmatic Media Buying Is - and Where &quot;Premium&quot; Comes In</h2>
 
       <p>
         Programmatic media buying is the automated purchase of ad inventory through real-time systems rather than manual
@@ -197,7 +197,7 @@ export default function PremiumProgrammaticMediaBuyingPage() {
 
       <p>
         The single most consequential decision in premium programmatic media buying is which deal types the budget flows
-        through, because the deal type — not the technology — determines whether the brand is safe.
+        through, because the deal type - not the technology - determines whether the brand is safe.
       </p>
 
       <table>
@@ -245,8 +245,8 @@ export default function PremiumProgrammaticMediaBuyingPage() {
       <p>
         A premium program concentrates budget in programmatic guaranteed and private marketplace deals, uses preferred
         deals selectively, and treats the open exchange as something to exclude rather than a source of cheap scale.
-        Premium publisher direct deals — negotiated straight with a title&apos;s sales team and executed programmatically
-        — sit alongside PG and PMP as the backbone of the program. The lower CPMs on the open exchange are not a saving;
+        Premium publisher direct deals - negotiated straight with a title&apos;s sales team and executed programmatically
+        - sit alongside PG and PMP as the backbone of the program. The lower CPMs on the open exchange are not a saving;
         they are the price of impressions that are frequently unviewable, fraudulent, or served against content that
         erodes the brand.
       </p>
@@ -256,7 +256,7 @@ export default function PremiumProgrammaticMediaBuyingPage() {
         spend flows through PG and PMP deals with a defined roster of premium publishers and platforms, a modest slice
         runs through preferred deals for flexible first-look access, and effectively none touches the untargeted open
         exchange. That allocation is the clearest single tell of whether a program is genuinely premium or merely marketed
-        as such — and it is a number a luxury brand should be able to see, deal by deal, in its own reporting rather than
+        as such - and it is a number a luxury brand should be able to see, deal by deal, in its own reporting rather than
         take on faith from an agency&apos;s summary dashboard.
       </p>
 
@@ -265,13 +265,13 @@ export default function PremiumProgrammaticMediaBuyingPage() {
       <h2>Premium Programmatic vs. Direct Media Buying</h2>
 
       <p>
-        Marketers often frame this as a binary — programmatic <em>or</em> direct — but in a modern premium program the
+        Marketers often frame this as a binary - programmatic <em>or</em> direct - but in a modern premium program the
         two converge, using programmatic pipes to execute directly negotiated deals. The trade-offs are still worth
         stating plainly. <strong>Traditional direct buying</strong> offers maximum control and guaranteed placement but
         scales poorly, carries heavy operational overhead, and makes unified cross-publisher targeting and frequency
         control difficult. <strong>Open-exchange programmatic</strong> offers precise targeting, unified frequency, and
-        consolidated measurement but sacrifices control over where ads run. <strong>Premium programmatic</strong> —
-        private marketplace and programmatic guaranteed deals — is the resolution: it keeps the control and guaranteed
+        consolidated measurement but sacrifices control over where ads run. <strong>Premium programmatic</strong> -
+        private marketplace and programmatic guaranteed deals - is the resolution: it keeps the control and guaranteed
         adjacency of direct buying while gaining the targeting precision, frequency discipline, and measurement of
         programmatic. The best luxury programs do not choose between the two extremes; they combine them.
       </p>
@@ -286,11 +286,11 @@ export default function PremiumProgrammaticMediaBuyingPage() {
         The first is <strong>an inclusion-first, curated supply base.</strong> Rather than starting with the whole
         internet and blocking bad sites reactively, a premium program builds an explicit allow-list of premium
         publishers, apps, and content environments and buys only there. Blocklists are always one step behind; an
-        inclusion list is definitional. For a luxury brand, curation is not censorship — it is the point.
+        inclusion list is definitional. For a luxury brand, curation is not censorship - it is the point.
       </p>
 
       <p>
-        The second is <strong>supply-path optimization (SPO)</strong> — deliberately shortening the chain of
+        The second is <strong>supply-path optimization (SPO)</strong> - deliberately shortening the chain of
         intermediaries between the brand&apos;s DSP and the publisher. Every hop in that chain adds fees and provides a
         place for fraud and misrepresented inventory to hide. Collapsing the path to direct or near-direct connections
         improves both the economics and the safety of the buy, and it means more of the brand&apos;s budget reaches
@@ -304,7 +304,7 @@ export default function PremiumProgrammaticMediaBuyingPage() {
 
       <p>
         Precise targeting is the reason to use programmatic in the first place, and for a premium program the targeting
-        must be built around genuine wealth, not broad &quot;high income&quot; demographics — because income is a weak
+        must be built around genuine wealth, not broad &quot;high income&quot; demographics - because income is a weak
         proxy for the accumulated assets that define a luxury buyer. Premium programmatic media buying layers stronger
         signals.
       </p>
@@ -315,8 +315,8 @@ export default function PremiumProgrammaticMediaBuyingPage() {
           through hashed-identifier matching, seeds targeting with proven buyers and anchors everything downstream.
         </li>
         <li>
-          <strong>Deterministic wealth signals.</strong> Observed indicators — property values, investable-asset markers,
-          verified luxury purchase history — sourced through compliant data partnerships define a genuine affluent
+          <strong>Deterministic wealth signals.</strong> Observed indicators - property values, investable-asset markers,
+          verified luxury purchase history - sourced through compliant data partnerships define a genuine affluent
           segment rather than a modeled look-alike.
         </li>
         <li>
@@ -336,7 +336,7 @@ export default function PremiumProgrammaticMediaBuyingPage() {
       <p>
         Because premium programmatic applies one audience definition across every channel, a luxury brand can hold a
         single affluent audience and a single capped frequency across display, native, video, CTV, audio, and DOOH at
-        once — a coordination manual buying cannot match.
+        once - a coordination manual buying cannot match.
       </p>
 
       <hr className="my-8" />
@@ -373,7 +373,7 @@ export default function PremiumProgrammaticMediaBuyingPage() {
         value exceeds $5,000, is worth many multiples of a cheap open-exchange impression that may never be seen. The
         mistake is benchmarking premium programmatic CPMs against the cheapest available inventory rather than against the
         value of the audience reached. The right unit of comparison is cost per affluent household reached and cost per
-        qualified inquiry — not cost per raw impression.
+        qualified inquiry - not cost per raw impression.
       </p>
 
       <hr className="my-8" />
@@ -382,15 +382,15 @@ export default function PremiumProgrammaticMediaBuyingPage() {
 
       <p>
         Luxury and high-consideration purchases are considered, high-value, and rarely completed in a single click, so
-        measuring a premium programmatic program by last-click attribution systematically misreads it — overcrediting the
+        measuring a premium programmatic program by last-click attribution systematically misreads it - overcrediting the
         branded search the buyer was always going to perform and undercrediting the upper-funnel media that created the
         demand. Three methods measure it honestly. <strong>Incrementality and holdout testing</strong> suppresses
         advertising against a matched control group or geography and measures the lift in qualified conversions,
-        inquiries, or branded search — the only method that isolates causation, and essential for non-click channels like
+        inquiries, or branded search - the only method that isolates causation, and essential for non-click channels like
         CTV and audio. <strong>Brand lift studies</strong> survey shifts in awareness, consideration, and intent between
         exposed and unexposed audiences. And <strong>attribution built for long cycles</strong> credits each touch across
-        a thirty-to-ninety-day journey and feeds real downstream CRM outcomes — qualified leads and closed high-value
-        deals — back into the buying platforms, so optimization trains on revenue rather than proxy clicks.
+        a thirty-to-ninety-day journey and feeds real downstream CRM outcomes - qualified leads and closed high-value
+        deals - back into the buying platforms, so optimization trains on revenue rather than proxy clicks.
       </p>
 
       <hr className="my-8" />

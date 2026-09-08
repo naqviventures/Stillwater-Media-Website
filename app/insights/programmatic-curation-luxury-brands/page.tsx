@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Programmatic Curation for Luxury Brands: How Curated Deals Actually Work",
     description:
-      "Curation has moved audience and inventory decisions to the sell side. A working guide for luxury advertisers on curated PMPs, fee transparency, and measurement — from Stillwater Media.",
+      "Curation has moved audience and inventory decisions to the sell side. A working guide for luxury advertisers on curated PMPs, fee transparency, and measurement - from Stillwater Media.",
     type: "article",
     url: canonicalUrl,
     siteName: "Stillwater Media",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Programmatic Curation for Luxury Brands: How Curated Deals Work",
     description:
-      "Curated PMPs, sell-side audience activation, and the fee stack nobody shows you — a practical guide for luxury and high-consideration advertisers.",
+      "Curated PMPs, sell-side audience activation, and the fee stack nobody shows you - a practical guide for luxury and high-consideration advertisers.",
     images: [{ url: image, alt: imageAlt }],
   },
 }
@@ -38,7 +38,7 @@ const faqs = [
   {
     question: "What is programmatic curation?",
     answer:
-      "Programmatic curation is the assembly of inventory, audience data, and quality controls on the sell side — inside an SSP or dedicated curation platform — and the delivery of that package to advertisers as a single deal ID. Rather than a DSP trader selecting publishers and applying third-party segments at bid time, a curator pre-selects the publisher inclusion list, attaches the data layer, applies fraud and attention filters, and sets commercial terms before the bid request ever reaches the buyer.",
+      "Programmatic curation is the assembly of inventory, audience data, and quality controls on the sell side - inside an SSP or dedicated curation platform - and the delivery of that package to advertisers as a single deal ID. Rather than a DSP trader selecting publishers and applying third-party segments at bid time, a curator pre-selects the publisher inclusion list, attaches the data layer, applies fraud and attention filters, and sets commercial terms before the bid request ever reaches the buyer.",
   },
   {
     question: "How much does a curated deal cost compared to a standard PMP?",
@@ -58,7 +58,7 @@ const faqs = [
   {
     question: "How should a luxury brand allocate budget to curated supply?",
     answer:
-      "Stillwater Media's working guidance is 15%–30% of programmatic budget in curated deals, concentrated where curation unlocks an audience or environment that cannot be reached another way — such as travel booking behavior, wealth-tier financial segments, or fragmented premium CTV channel packages. The balance belongs in transparent standard PMPs and programmatic guaranteed, where fee structures are simpler and the publisher relationship is direct.",
+      "Stillwater Media's working guidance is 15%–30% of programmatic budget in curated deals, concentrated where curation unlocks an audience or environment that cannot be reached another way - such as travel booking behavior, wealth-tier financial segments, or fragmented premium CTV channel packages. The balance belongs in transparent standard PMPs and programmatic guaranteed, where fee structures are simpler and the publisher relationship is direct.",
   },
   {
     question: "How do you prove a curated deal is working?",
@@ -132,12 +132,12 @@ export default function Page() {
       category="Programmatic Strategy"
       image={image}
       imageAlt={imageAlt}
-      imageCaption="Curation is defined by what gets rejected — a standard the programmatic supply chain has only recently started applying to itself."
+      imageCaption="Curation is defined by what gets rejected - a standard the programmatic supply chain has only recently started applying to itself."
       schemaMarkup={schemaMarkup}
     >
       <p>
-        Programmatic curation is the practice of assembling inventory and audience on the sell side — inside the SSP or a
-        dedicated curation platform — and delivering it to the buyer as a single deal ID. Instead of a DSP trader
+        Programmatic curation is the practice of assembling inventory and audience on the sell side - inside the SSP or a
+        dedicated curation platform - and delivering it to the buyer as a single deal ID. Instead of a DSP trader
         targeting an audience across the open exchange and hoping the supply that wins is acceptable, a curator
         pre-selects the publishers, the formats, the data layer, and often the fraud and attention thresholds, then hands
         the advertiser one line item. For luxury and high-consideration brands, this is the most consequential change in
@@ -171,7 +171,7 @@ export default function Page() {
       <p>
         <strong>Retail and commerce data needed somewhere to activate.</strong> Retail media networks, airline and travel
         data, and financial data providers wanted to make their audiences usable off-site. Curation gave them a mechanism
-        — attach the data at the SSP, sell the resulting package as a deal — without building a DSP.
+        - attach the data at the SSP, sell the resulting package as a deal - without building a DSP.
       </p>
       <p>
         For luxury advertisers, the second and third pressures matter most. Our clients rarely have an addressability
@@ -184,8 +184,8 @@ export default function Page() {
       <p>A curated deal is built in four layers, and every layer is a place where value is added or quietly extracted.</p>
       <ol>
         <li>
-          <strong>Inventory selection.</strong> The curator defines an inclusion list — specific publishers, apps, or CTV
-          channels — or applies a category filter across a broader pool. Inclusion lists are strictly better for luxury;
+          <strong>Inventory selection.</strong> The curator defines an inclusion list - specific publishers, apps, or CTV
+          channels - or applies a category filter across a broader pool. Inclusion lists are strictly better for luxury;
           category filters reintroduce the adjacency risk you were trying to avoid.
         </li>
         <li>
@@ -198,7 +198,7 @@ export default function Page() {
           exclusions, and sometimes carbon-intensity limits are applied before the deal is exposed.
         </li>
         <li>
-          <strong>Commercial terms.</strong> A floor price is set and a curation fee is layered in — usually as a
+          <strong>Commercial terms.</strong> A floor price is set and a curation fee is layered in - usually as a
           percentage of media, occasionally as a fixed CPM uplift.
         </li>
       </ol>
@@ -228,7 +228,7 @@ export default function Page() {
               <td>Nobody, effectively</td>
               <td>Buyer (DSP)</td>
               <td>12%–22% SSP + DSP</td>
-              <td>Low — post-hoc logs only</td>
+              <td>Low - post-hoc logs only</td>
               <td>Avoid for brand-facing creative</td>
             </tr>
             <tr>
@@ -238,7 +238,7 @@ export default function Page() {
               <td>Publisher</td>
               <td>Buyer (DSP)</td>
               <td>10%–20%</td>
-              <td>Medium — known publisher set</td>
+              <td>Medium - known publisher set</td>
               <td>Core premium reach</td>
             </tr>
             <tr>
@@ -248,7 +248,7 @@ export default function Page() {
               <td>Curator</td>
               <td>Curator (sell-side data)</td>
               <td>15%–35% including 5%–15% curation fee</td>
-              <td>Varies wildly — must be asked for</td>
+              <td>Varies wildly - must be asked for</td>
               <td>Hard-to-reach audiences, niche premium supply</td>
             </tr>
             <tr>
@@ -258,7 +258,7 @@ export default function Page() {
               <td>Publisher</td>
               <td>Shared</td>
               <td>8%–15%</td>
-              <td>High — negotiated terms</td>
+              <td>High - negotiated terms</td>
               <td>Tentpole moments, reserved CTV</td>
             </tr>
             <tr>
@@ -276,8 +276,8 @@ export default function Page() {
       </div>
       <p>
         The pattern is straightforward. Curation buys access and convenience, and charges for it. When the audience
-        genuinely cannot be assembled buy-side — a private aviation prospect pool built from travel booking data, a
-        wealth-tier segment from a financial data partner, a private club members&apos; publisher cohort — the fee is
+        genuinely cannot be assembled buy-side - a private aviation prospect pool built from travel booking data, a
+        wealth-tier segment from a financial data partner, a private club members&apos; publisher cohort - the fee is
         defensible. When the curated deal is wrapping a segment you already license in your own DSP, you are paying twice
         for the same targeting. A full breakdown of every structure sits in our{" "}
         <a href="/insights/programmatic-deal-types-compared">programmatic deal types compared</a> guide.
@@ -287,7 +287,7 @@ export default function Page() {
       <p>
         Curation fees in the US market generally run 5%–15% of media spend, layered on top of the SSP take rate. A curated
         CTV deal at a $45 gross CPM might carry a $38–$40 publisher payout, a 10%–18% SSP fee, and a 7%–12% curation fee.
-        That is not scandalous — it is a working rate for a service — but it must be visible in the plan, and today it
+        That is not scandalous - it is a working rate for a service - but it must be visible in the plan, and today it
         usually is not.
       </p>
       <p>Three questions resolve most of the ambiguity, and any legitimate curator will answer all three in writing:</p>
@@ -326,7 +326,7 @@ export default function Page() {
       </p>
       <p>
         <strong>Buying international premium supply.</strong> Regional publisher relationships that would take a US buying
-        team a quarter to establish can be accessed immediately through a curator with local presence — relevant for
+        team a quarter to establish can be accessed immediately through a curator with local presence - relevant for
         brands whose clientele travels or holds property abroad.
       </p>
       <p>
@@ -338,7 +338,7 @@ export default function Page() {
       </p>
       <p>
         <strong>Activating first-party data without a full clean room build.</strong> For brands whose client file is
-        small — a few thousand households, common in private aviation and wealth management — curated activation with a{" "}
+        small - a few thousand households, common in private aviation and wealth management - curated activation with a{" "}
         <a href="/insights/data-clean-rooms-luxury-advertising">clean room-backed match</a> is often faster and cheaper
         than a bespoke integration.
       </p>
@@ -350,7 +350,7 @@ export default function Page() {
       </p>
       <p>
         <strong>Scarcity runs the other direction.</strong> In display, curation filters an oversupplied pool down to
-        something acceptable. In premium CTV, the good inventory is undersupplied — a curator&apos;s value is aggregation
+        something acceptable. In premium CTV, the good inventory is undersupplied - a curator&apos;s value is aggregation
         and access, not exclusion. That flips the negotiation: you are paying for the curator&apos;s demand-side leverage
         with streamers, and you should ask what volume commitment underpins it.
       </p>
@@ -364,7 +364,7 @@ export default function Page() {
       <p>
         <strong>Channel-level transparency is the whole question.</strong> A curated CTV package described as
         &quot;premium streaming&quot; may include free ad-supported channels with very different audience quality than the
-        flagship services implied. Require channel-level, not app-level, reporting before launch — and confirm you can
+        flagship services implied. Require channel-level, not app-level, reporting before launch - and confirm you can
         suppress specific channels rather than only whole apps.
       </p>
       <p>
@@ -390,7 +390,7 @@ export default function Page() {
       </p>
       <p>
         <strong>Made-for-advertising leakage.</strong> Curated does not mean MFA-free. Ask specifically which MFA
-        definition the curator applies and which vendor supplies it — the industry has at least four working definitions
+        definition the curator applies and which vendor supplies it - the industry has at least four working definitions
         and they disagree on roughly 15–25% of sites.
       </p>
       <p>
@@ -407,7 +407,7 @@ export default function Page() {
           change-notification policy.
         </li>
         <li>
-          <strong>Request the fee waterfall in writing</strong> — publisher payout, SSP take, curation fee, data fee —
+          <strong>Request the fee waterfall in writing</strong> - publisher payout, SSP take, curation fee, data fee -
           expressed as percentages of gross.
         </li>
         <li>
@@ -420,7 +420,7 @@ export default function Page() {
         </li>
         <li>
           <strong>Benchmark against a matched standard PMP</strong> on the same publisher set, targeting the same audience
-          buy-side, and compare cost per attentive second or cost per qualified site visit — not CPM.
+          buy-side, and compare cost per attentive second or cost per qualified site visit - not CPM.
         </li>
         <li>
           <strong>Build the holdout</strong> before launch, not after the first optimistic report.
@@ -448,7 +448,7 @@ export default function Page() {
 
       <h2>Work With Stillwater Media</h2>
       <p>
-        Stillwater Media builds and audits curated programmatic supply for luxury and high-consideration brands — private
+        Stillwater Media builds and audits curated programmatic supply for luxury and high-consideration brands - private
         aviation, luxury real estate, wealth management, private clubs, luxury automotive, and premium DTC. Every curated
         deal we run carries a documented inclusion list, a disclosed fee waterfall, and an incrementality design that
         proves it earned its premium.

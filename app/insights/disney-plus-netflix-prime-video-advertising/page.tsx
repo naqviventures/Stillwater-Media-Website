@@ -26,7 +26,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "How to Advertise on Disney+, Netflix & Prime Video | Stillwater Media",
     description:
-      "Luxury brands are moving media dollars to Disney+, Netflix, and Prime Video. Here's how the ad ecosystem works — and how to use it strategically.",
+      "Luxury brands are moving media dollars to Disney+, Netflix, and Prime Video. Here's how the ad ecosystem works - and how to use it strategically.",
     images: ["/images/disney-plus-netflix-prime-video-advertising.png"],
   },
 }
@@ -37,7 +37,7 @@ export default function DisneyPlusNetflixPrimeVideoPage() {
     "@type": "Article",
     headline: "How to Advertise on Disney+, Netflix, and Prime Video for Your Brand",
     description:
-      "A strategic guide to streaming TV advertising on Disney+, Netflix, and Prime Video for luxury and high-consideration brands — covering ad formats, targeting capabilities, CPM benchmarks, and how to access premium inventory.",
+      "A strategic guide to streaming TV advertising on Disney+, Netflix, and Prime Video for luxury and high-consideration brands - covering ad formats, targeting capabilities, CPM benchmarks, and how to access premium inventory.",
     image: {
       "@type": "ImageObject",
       url: "/images/disney-plus-netflix-prime-video-advertising.png",
@@ -74,7 +74,7 @@ export default function DisneyPlusNetflixPrimeVideoPage() {
 
   const schemaMarkup = {
     "@context": "https://schema.org",
-    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/disney-plus-netflix-prime-video-advertising#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"How to Advertise on Disney+, Netflix, and Prime Video for Your Brand","item":"https://www.stillwatermedia.io/insights/disney-plus-netflix-prime-video-advertising"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/disney-plus-netflix-prime-video-advertising#faq","mainEntity":[{"@type":"Question","name":"How much does it cost to advertise on Disney+?","acceptedAnswer":{"@type":"Answer","text":"Disney+ advertising CPMs typically range from $35 to $65, depending on targeting parameters, content adjacency, and the time of year. Premium placements — such as tentpole series premieres or live sports content on Disney's ecosystem — can command higher floor pricing. Most luxury brands access Disney+ inventory through private marketplace deals that guarantee placement quality rather than open auction."}},{"@type":"Question","name":"Can small brands advertise on Netflix?","acceptedAnswer":{"@type":"Answer","text":"Netflix advertising is available to brands of various sizes through its self-serve platform, with minimum spend requirements that have decreased since launch. Managed service options typically require larger minimums — around $50,000 or more — and provide better content adjacency controls. For luxury or high-consideration brands, managed buys through The Trade Desk or Netflix's direct sales team are generally the recommended access path over self-serve."}},{"@type":"Question","name":"What is the difference between Disney+ and Hulu advertising?","acceptedAnswer":{"@type":"Answer","text":"Disney+ and Hulu are both managed under Disney Advertising Sales as part of the company's unified streaming portfolio. Hulu is the more established advertising platform with a longer history of ad formats and audience data, while Disney+ inventory skews toward prestige drama, live sports (via ESPN+), and family content. Many advertisers buy across both simultaneously through Disney's One Platform offering, which unifies reach and frequency management across the Disney portfolio."}},{"@type":"Question","name":"Does Amazon Prime Video have better targeting than Disney+ or Netflix?","acceptedAnswer":{"@type":"Answer","text":"Amazon Prime Video has the most granular first-party purchase data of any streaming platform, derived from Amazon's e-commerce ecosystem. This allows advertisers to target based on actual purchase behavior, competitive shopper data, and intent signals — capabilities that Disney+ and Netflix cannot match with viewing data alone. For brands where purchase behavior is an important audience signal, Amazon's targeting advantage is significant."}},{"@type":"Question","name":"What ad format performs best on streaming TV for luxury brands?","acceptedAnswer":{"@type":"Answer","text":"For luxury brands, non-skippable 30-second in-stream video in premium content adjacencies consistently delivers the strongest brand impact on streaming platforms. Pause ads (available on Disney/Hulu) offer a high-engagement, lower-cost complement to in-stream video. The key is ensuring creative is produced specifically for the streaming context — cinematic quality, a strong opening five seconds, and a narrative arc that respects the viewer's lean-back attention — rather than repurposing social media assets."}}]}],
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/disney-plus-netflix-prime-video-advertising#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"How to Advertise on Disney+, Netflix, and Prime Video for Your Brand","item":"https://www.stillwatermedia.io/insights/disney-plus-netflix-prime-video-advertising"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/disney-plus-netflix-prime-video-advertising#faq","mainEntity":[{"@type":"Question","name":"How much does it cost to advertise on Disney+?","acceptedAnswer":{"@type":"Answer","text":"Disney+ advertising CPMs typically range from $35 to $65, depending on targeting parameters, content adjacency, and the time of year. Premium placements - such as tentpole series premieres or live sports content on Disney's ecosystem - can command higher floor pricing. Most luxury brands access Disney+ inventory through private marketplace deals that guarantee placement quality rather than open auction."}},{"@type":"Question","name":"Can small brands advertise on Netflix?","acceptedAnswer":{"@type":"Answer","text":"Netflix advertising is available to brands of various sizes through its self-serve platform, with minimum spend requirements that have decreased since launch. Managed service options typically require larger minimums - around $50,000 or more - and provide better content adjacency controls. For luxury or high-consideration brands, managed buys through The Trade Desk or Netflix's direct sales team are generally the recommended access path over self-serve."}},{"@type":"Question","name":"What is the difference between Disney+ and Hulu advertising?","acceptedAnswer":{"@type":"Answer","text":"Disney+ and Hulu are both managed under Disney Advertising Sales as part of the company's unified streaming portfolio. Hulu is the more established advertising platform with a longer history of ad formats and audience data, while Disney+ inventory skews toward prestige drama, live sports (via ESPN+), and family content. Many advertisers buy across both simultaneously through Disney's One Platform offering, which unifies reach and frequency management across the Disney portfolio."}},{"@type":"Question","name":"Does Amazon Prime Video have better targeting than Disney+ or Netflix?","acceptedAnswer":{"@type":"Answer","text":"Amazon Prime Video has the most granular first-party purchase data of any streaming platform, derived from Amazon's e-commerce ecosystem. This allows advertisers to target based on actual purchase behavior, competitive shopper data, and intent signals - capabilities that Disney+ and Netflix cannot match with viewing data alone. For brands where purchase behavior is an important audience signal, Amazon's targeting advantage is significant."}},{"@type":"Question","name":"What ad format performs best on streaming TV for luxury brands?","acceptedAnswer":{"@type":"Answer","text":"For luxury brands, non-skippable 30-second in-stream video in premium content adjacencies consistently delivers the strongest brand impact on streaming platforms. Pause ads (available on Disney/Hulu) offer a high-engagement, lower-cost complement to in-stream video. The key is ensuring creative is produced specifically for the streaming context - cinematic quality, a strong opening five seconds, and a narrative arc that respects the viewer's lean-back attention - rather than repurposing social media assets."}}]}],
   }
 
   return (
@@ -92,7 +92,7 @@ export default function DisneyPlusNetflixPrimeVideoPage() {
     >
       <h2>Why the Big Three Streaming Platforms Deserve a Seat at the Table</h2>
       <p>
-        Linear TV viewership has declined steadily for a decade. But the audience didn&apos;t disappear — it migrated. The households that used to watch NBC primetime now stream The Bear on Hulu or Shogun on Disney+. The C-suite executives and affluent consumers you&apos;re trying to reach have not stopped watching television; they&apos;ve moved to environments where they control the experience.
+        Linear TV viewership has declined steadily for a decade. But the audience didn&apos;t disappear - it migrated. The households that used to watch NBC primetime now stream The Bear on Hulu or Shogun on Disney+. The C-suite executives and affluent consumers you&apos;re trying to reach have not stopped watching television; they&apos;ve moved to environments where they control the experience.
       </p>
 
       <p>
@@ -106,7 +106,7 @@ export default function DisneyPlusNetflixPrimeVideoPage() {
 
       <h3>Verified household targeting</h3>
       <p>
-        Unlike open-web programmatic, streaming platforms know exactly who is watching. Subscribers authenticate with email addresses, credit card data, and browsing behavior. Disney&apos;s first-party data stack — built from decades of theme park purchases, resort stays, and ESPN viewership — is one of the richest in media. Netflix&apos;s data is similarly granular. Amazon layers in purchasing behavior from the largest e-commerce platform on earth.
+        Unlike open-web programmatic, streaming platforms know exactly who is watching. Subscribers authenticate with email addresses, credit card data, and browsing behavior. Disney&apos;s first-party data stack - built from decades of theme park purchases, resort stays, and ESPN viewership - is one of the richest in media. Netflix&apos;s data is similarly granular. Amazon layers in purchasing behavior from the largest e-commerce platform on earth.
       </p>
 
       <h3>Opt-in viewing with limited skip behavior</h3>
@@ -116,7 +116,7 @@ export default function DisneyPlusNetflixPrimeVideoPage() {
 
       <h3>Co-viewing behavior in connected households</h3>
       <p>
-        A Nielsen study found that CTV viewing has a significantly higher rate of co-viewing than mobile — meaning your ad is often reaching multiple adults in a high-income household simultaneously, multiplying its effective reach.
+        A Nielsen study found that CTV viewing has a significantly higher rate of co-viewing than mobile - meaning your ad is often reaching multiple adults in a high-income household simultaneously, multiplying its effective reach.
       </p>
 
       <hr />
@@ -125,7 +125,7 @@ export default function DisneyPlusNetflixPrimeVideoPage() {
 
       <h3>Disney+ (Disney Advertising Sales)</h3>
       <p>
-        Disney+ launched its ad-supported tier in December 2022, and the platform has since become the most sophisticated advertising environment in streaming. Disney Advertising Sales manages inventory across Disney+, Hulu, ABC, ESPN, and Freeform — what the company calls its &quot;unified streaming ecosystem.&quot;
+        Disney+ launched its ad-supported tier in December 2022, and the platform has since become the most sophisticated advertising environment in streaming. Disney Advertising Sales manages inventory across Disney+, Hulu, ABC, ESPN, and Freeform - what the company calls its &quot;unified streaming ecosystem.&quot;
       </p>
 
       <p><strong>Key formats available:</strong></p>
@@ -143,7 +143,7 @@ export default function DisneyPlusNetflixPrimeVideoPage() {
 
       <p><strong>CPM benchmarks:</strong></p>
       <p>
-        Disney+ ad-supported CPMs typically range from $35 to $65, depending on targeting parameters, content adjacency, and time of year. Premium placements — such as tentpole event content or exclusive series premieres — command higher floors.
+        Disney+ ad-supported CPMs typically range from $35 to $65, depending on targeting parameters, content adjacency, and time of year. Premium placements - such as tentpole event content or exclusive series premieres - command higher floors.
       </p>
 
       <p><strong>Access pathway:</strong></p>
@@ -167,7 +167,7 @@ export default function DisneyPlusNetflixPrimeVideoPage() {
 
       <p><strong>Targeting capabilities:</strong></p>
       <p>
-        Netflix&apos;s advertising data is built on authenticated subscriber profiles. Targeting options include genre affinity, content viewing patterns, geographic market, device type, and demographic bands. Netflix does not share first-party purchase data (unlike Amazon), but it can target based on the income-proxy signals embedded in its genre and content viewership patterns — affluent viewers skew heavily toward prestige drama, documentary, and international originals.
+        Netflix&apos;s advertising data is built on authenticated subscriber profiles. Targeting options include genre affinity, content viewing patterns, geographic market, device type, and demographic bands. Netflix does not share first-party purchase data (unlike Amazon), but it can target based on the income-proxy signals embedded in its genre and content viewership patterns - affluent viewers skew heavily toward prestige drama, documentary, and international originals.
       </p>
 
       <p><strong>CPM benchmarks:</strong></p>
@@ -184,13 +184,13 @@ export default function DisneyPlusNetflixPrimeVideoPage() {
 
       <h3>Amazon Prime Video (Amazon Ads)</h3>
       <p>
-        Amazon Prime Video began serving ads to all U.S. subscribers in January 2024 — making it the largest mandatory ad-supported streaming audience in the market overnight. Unlike Disney+ and Netflix, where the ad tier is opt-in, Prime Video ads are served to all subscribers unless they pay an additional opt-out fee.
+        Amazon Prime Video began serving ads to all U.S. subscribers in January 2024 - making it the largest mandatory ad-supported streaming audience in the market overnight. Unlike Disney+ and Netflix, where the ad tier is opt-in, Prime Video ads are served to all subscribers unless they pay an additional opt-out fee.
       </p>
 
       <p><strong>Key formats available:</strong></p>
       <ul>
         <li>In-stream video (pre-roll, mid-roll)</li>
-        <li>Interactive shopping ads (unique to Amazon — allow viewers to add items to cart from the TV screen)</li>
+        <li>Interactive shopping ads (unique to Amazon - allow viewers to add items to cart from the TV screen)</li>
         <li>Brand-integrated content sponsorships</li>
       </ul>
 
@@ -200,7 +200,7 @@ export default function DisneyPlusNetflixPrimeVideoPage() {
       </p>
 
       <p>
-        For luxury goods with an e-commerce component — or for brands that want to reach consumers actively purchasing in adjacent categories — Amazon&apos;s first-party intent data creates targeting precision that no other streaming platform can replicate.
+        For luxury goods with an e-commerce component - or for brands that want to reach consumers actively purchasing in adjacent categories - Amazon&apos;s first-party intent data creates targeting precision that no other streaming platform can replicate.
       </p>
 
       <p><strong>CPM benchmarks:</strong></p>
@@ -297,7 +297,7 @@ export default function DisneyPlusNetflixPrimeVideoPage() {
 
       <h3>Step 1: Define Your Streaming Audience Architecture</h3>
       <p>
-        Start with a single audience definition — the household income, behavioral, and intent profile of your ideal buyer — and then find the best expression of that audience on each platform. Disney&apos;s data, Netflix&apos;s content affinity signals, and Amazon&apos;s purchase data all express the same underlying person differently. Unifying them into a coordinated reach strategy prevents serving the same 30-second spot to the same household six times across three platforms.
+        Start with a single audience definition - the household income, behavioral, and intent profile of your ideal buyer - and then find the best expression of that audience on each platform. Disney&apos;s data, Netflix&apos;s content affinity signals, and Amazon&apos;s purchase data all express the same underlying person differently. Unifying them into a coordinated reach strategy prevents serving the same 30-second spot to the same household six times across three platforms.
       </p>
 
       <h3>Step 2: Allocate Budget by Platform Strength</h3>
@@ -317,12 +317,12 @@ export default function DisneyPlusNetflixPrimeVideoPage() {
 
       <h3>Step 4: Implement Cross-Platform Frequency Management</h3>
       <p>
-        Without a cross-platform frequency cap in place, a single household can receive your ad 15+ times across Disney+, Netflix, and Prime Video in a week. This creates diminishing returns and — for luxury brands — the risk of brand fatigue among the exact high-value consumers you&apos;re trying to impress. Programmatic access through a DSP with cross-platform identity resolution (such as The Trade Desk&apos;s Unified ID 2.0 framework) enables frequency management at the household level across platforms.
+        Without a cross-platform frequency cap in place, a single household can receive your ad 15+ times across Disney+, Netflix, and Prime Video in a week. This creates diminishing returns and - for luxury brands - the risk of brand fatigue among the exact high-value consumers you&apos;re trying to impress. Programmatic access through a DSP with cross-platform identity resolution (such as The Trade Desk&apos;s Unified ID 2.0 framework) enables frequency management at the household level across platforms.
       </p>
 
       <h3>Step 5: Measure Incrementally, Not Just with Last Click</h3>
       <p>
-        Streaming TV advertising rarely closes a $100,000 purchase on the first impression. It builds consideration, creates brand familiarity, and drives qualified search and direct navigation behavior downstream. The correct measurement framework is incrementality testing — comparing outcomes for exposed vs. unexposed households using holdout methodology — rather than last-click attribution. Without this framework, streaming TV will consistently look underperforming in your attribution dashboard even when it is driving material lift.
+        Streaming TV advertising rarely closes a $100,000 purchase on the first impression. It builds consideration, creates brand familiarity, and drives qualified search and direct navigation behavior downstream. The correct measurement framework is incrementality testing - comparing outcomes for exposed vs. unexposed households using holdout methodology - rather than last-click attribution. Without this framework, streaming TV will consistently look underperforming in your attribution dashboard even when it is driving material lift.
       </p>
 
       <hr />
@@ -337,7 +337,7 @@ export default function DisneyPlusNetflixPrimeVideoPage() {
 
       <p><strong>Using linear TV audience assumptions.</strong> The audiences on streaming platforms skew differently than their linear counterparts. Disney+ over-indexes on millennials and Gen X households with children (Disney content) but also captures significant prestige adult viewership. Netflix over-indexes on 25–44 demographic with higher-than-average household incomes. Audience planning should be built from streaming-native data, not extrapolated from broadcast.</p>
 
-      <p><strong>Not testing pause ad formats.</strong> Pause ads — which appear when a viewer pauses content and are available on Disney/Hulu and select other platforms — have some of the highest engagement rates in streaming. They are low-cost relative to in-stream video, and they capture a moment of active intent (the viewer just stopped the content, suggesting engagement). For luxury brands with visually rich creative assets, pause ads are an underutilized high-efficiency placement.</p>
+      <p><strong>Not testing pause ad formats.</strong> Pause ads - which appear when a viewer pauses content and are available on Disney/Hulu and select other platforms - have some of the highest engagement rates in streaming. They are low-cost relative to in-stream video, and they capture a moment of active intent (the viewer just stopped the content, suggesting engagement). For luxury brands with visually rich creative assets, pause ads are an underutilized high-efficiency placement.</p>
 
       <hr />
 

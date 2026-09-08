@@ -2,13 +2,13 @@ import IndustryPageLayout, { type IndustryContent, type ProofEntry } from "@/com
 
 // Proof entries are added only after written client approval covering the
 // metric, the time period, the measurement method, and the anonymised
-// description. Empty array renders nothing — that is intended.
+// description. Empty array renders nothing - that is intended.
 // REVIEW BEFORE PUBLISHING. Remove this entry if approval is not on file.
 const proof: ProofEntry[] = [
   {
     heading: "What this looks like in practice",
     body: [
-      "A national operator running membership, fractional and charter products engaged us for a coordinated CTV, social and search programme built on the architecture above. Over a two-quarter window, the programme returned approximately 4.4 times its media investment in closed revenue — not modelled pipeline, not attributed conversions, but deals recorded as won in the client's own CRM, with several times that figure again live in active pipeline at the end of the window.",
+      "A national operator running membership, fractional and charter products engaged us for a coordinated CTV, social and search program built on the architecture above. Over a two-quarter window, the program returned approximately 4.4 times its media investment in closed revenue - not modelled pipeline, not attributed conversions, but deals recorded as won in the client's own CRM, with several times that figure again live in active pipeline at the end of the window.",
       "The pattern inside the numbers is the useful part. The CTV layer produced the highest average deal value and converted disproportionately at the fractional tier. Social produced the highest volume of attributed deals, across both prospecting and retargeting. Search closed buyers who were already in market. Each channel did the job it was built for, and none of them would have produced that result alone.",
     ],
   },
@@ -23,7 +23,7 @@ export const content: IndustryContent = {
     h1Line1: "Private Aviation Advertising for a Buyer Pool",
     h1Line2: "measured in thousands, not millions",
     subhead:
-      "Charter, jet card, membership and fractional buyers are among the smallest addressable audiences in performance media — and among the most expensive to reach badly. We build multi-channel programmatic that stays present across a decision cycle measured in months, and we report it against deals in your CRM.",
+      "Charter, jet card, membership and fractional buyers are among the smallest addressable audiences in performance media - and among the most expensive to reach badly. We build multi-channel programmatic that stays present across a decision cycle measured in months, and we report it against deals in your CRM.",
     image: "/images/industries-private-aviation.webp",
     imageAlt:
       "An unbranded business jet at rest on a private terminal apron at blue hour, warm apron lights on wet tarmac with a distant city skyline",
@@ -34,15 +34,15 @@ export const content: IndustryContent = {
     items: [
       {
         h3: "A buyer pool small enough to exhaust",
-        body: "The realistic audience is affluent business owners, C-suite executives and high-net-worth households with both the means and the motivation to commit. That is not a demographic — it is a list. Broad targeting doesn't just waste money here, it burns the same small pool with repetitive impressions until the brand reads as cheap.",
+        body: "The realistic audience is affluent business owners, C-suite executives and high-net-worth households with both the means and the motivation to commit. That is not a demographic - it is a list. Broad targeting doesn't just waste money here, it burns the same small pool with repetitive impressions until the brand reads as cheap.",
       },
       {
         h3: "A decision cycle that outlasts most campaigns",
-        body: "Nobody buys a fractional share on impulse. Buyers research, compare operators, talk to their advisors and deliberate — often over several months and across several devices. A campaign optimised to a seven-day conversion window will conclude that none of it worked, right up until the deals close.",
+        body: "Nobody buys a fractional share on impulse. Buyers research, compare operators, talk to their advisors and deliberate - often over several months and across several devices. A campaign optimised to a seven-day conversion window will conclude that none of it worked, right up until the deals close.",
       },
       {
         h3: "A cost of waste that scales with the price tag",
-        body: "When the products in the portfolio run from a five-figure charter to a seven-figure fractional commitment, every misaligned impression is not just inefficient — it is budget that should have been spent staying in front of a buyer who was actually going to close.",
+        body: "When the products in the portfolio run from a five-figure charter to a seven-figure fractional commitment, every misaligned impression is not just inefficient - it is budget that should have been spent staying in front of a buyer who was actually going to close.",
       },
     ],
   },
@@ -50,22 +50,22 @@ export const content: IndustryContent = {
   architecture: {
     h2: "How we assemble the channels",
     intro:
-      "No channel works alone in this category. A buyer might meet the brand on a streaming service, research it in search two weeks later, and convert through a retargeted social ad a month after that. Break any link in that chain and the deal doesn't close — it just quietly goes to a competitor. We build the full chain deliberately.",
+      "No channel works alone in this category. A buyer might meet the brand on a streaming service, research it in search two weeks later, and convert through a retargeted social ad a month after that. Break any link in that chain and the deal doesn't close - it just quietly goes to a competitor. We build the full chain deliberately.",
     items: [
       {
-        h3: "Premium CTV and video — the awareness layer",
+        h3: "Premium CTV and video - the awareness layer",
         body: "Connected TV and premium streaming inventory placed against modelled high-net-worth households, before those households ever search for an operator. In our experience this layer produces the highest average deal value in the portfolio, because it reaches buyers early enough to shape which operator they consider at all. Brand-building and revenue generation are not opposing goals at this price point.",
       },
       {
-        h3: "Programmatic display and native — the consideration layer",
+        h3: "Programmatic display and native - the consideration layer",
         body: "Sequenced creative against the same audience, differentiated by product tier. Charter, membership and fractional buyers are not one audience with one message, and treating them as one is the most common error we see in the category.",
       },
       {
-        h3: "Paid social — the conversion layer",
+        h3: "Paid social - the conversion layer",
         body: "Precision-targeted prospecting and retargeting against warm audiences. Typically the highest volume of attributed deals, working across both the first touch and the return visit.",
       },
       {
-        h3: "Search — the demand-capture layer",
+        h3: "Search - the demand-capture layer",
         body: "High-intent traffic from buyers already comparing operators, funnelled into the retargeting ecosystem rather than treated as a standalone channel. Search closes the loop; it rarely opens it.",
       },
     ],
@@ -74,7 +74,7 @@ export const content: IndustryContent = {
   dataLayer: {
     h2: "The audience is the strategy",
     intro:
-      "Most media plans target broadly and hope the algorithm sorts it out. In a category this narrow, the audience build is not a setup step — it is the reason the economics work at all. The same audience intelligence informs every channel decision: who sees CTV, which segments get built in social, which search audiences get bid up.",
+      "Most media plans target broadly and hope the algorithm sorts it out. In a category this narrow, the audience build is not a setup step - it is the reason the economics work at all. The same audience intelligence informs every channel decision: who sees CTV, which segments get built in social, which search audiences get bid up.",
     items: [
       {
         h3: "Modelled household wealth",
@@ -82,7 +82,7 @@ export const content: IndustryContent = {
       },
       {
         h3: "Business ownership and executive signals",
-        body: "Firmographic and behavioural data identifying business owners and executives with travel-intensive profiles — the population that converts to membership and fractional most reliably.",
+        body: "Firmographic and behavioural data identifying business owners and executives with travel-intensive profiles - the population that converts to membership and fractional most reliably.",
       },
       {
         h3: "Aviation-adjacent behaviour",
@@ -98,7 +98,7 @@ export const content: IndustryContent = {
   measure: {
     h2: "We report against deals, not clicks",
     leadParagraphs: [
-      "Platform-reported conversions are close to meaningless in this category. The window is too long, the buyer moves across devices, and the platform will happily claim credit for a deal it touched once. We instrument campaigns to report at the deal level inside the client's CRM — every attributed opportunity tied back to the touchpoints that produced it, with pipeline and closed revenue kept as separate figures rather than blended into one flattering number.",
+      "Platform-reported conversions are close to meaningless in this category. The window is too long, the buyer moves across devices, and the platform will happily claim credit for a deal it touched once. We instrument campaigns to report at the deal level inside the client's CRM - every attributed opportunity tied back to the touchpoints that produced it, with pipeline and closed revenue kept as separate figures rather than blended into one flattering number.",
     ],
     linkedParagraph: {
       before:
@@ -113,10 +113,10 @@ export const content: IndustryContent = {
 
   builtFor: {
     h2: "Who this is for",
-    body: "Charter operators, jet card and membership programmes, fractional programmes, aircraft management companies, and FBO or terminal groups with a consumer acquisition motive.",
+    body: "Charter operators, jet card and membership programs, fractional programs, aircraft management companies, and FBO or terminal groups with a consumer acquisition motive.",
     worksBestH3: "Where this works best",
     worksBest:
-      "This works best over a window long enough for the decision cycle to complete. Aviation buyers deliberate for months, so a programme judged at thirty days will report noise and miss the deals that were already forming inside it. Commit to a real window and the deal-level read at ninety days will tell you something you can act on.",
+      "This works best over a window long enough for the decision cycle to complete. Aviation buyers deliberate for months, so a program judged at thirty days will report noise and miss the deals that were already forming inside it. Commit to a real window and the deal-level read at ninety days will tell you something you can act on.",
   },
 
   engagement: {
@@ -150,7 +150,7 @@ export const content: IndustryContent = {
       },
       {
         q: "What does CTV actually do for a private aviation brand?",
-        a: "It reaches high-net-worth households before they enter the category. In our experience it produces the highest average deal value of any channel in an aviation programme, because it influences which operators a buyer considers at all — and that is decided long before anyone opens a search tab.",
+        a: "It reaches high-net-worth households before they enter the category. In our experience it produces the highest average deal value of any channel in an aviation program, because it influences which operators a buyer considers at all - and that is decided long before anyone opens a search tab.",
       },
       {
         q: "How long before we see results?",

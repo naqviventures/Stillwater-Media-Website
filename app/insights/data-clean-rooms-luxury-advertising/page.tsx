@@ -7,16 +7,16 @@ const imagePath = "/images/data-clean-rooms-luxury-advertising.png"
 export const metadata: Metadata = {
   title: "Data Clean Rooms for Advertising: A Luxury Field Guide",
   description:
-    "Data clean rooms for advertising, explained for luxury brands — match rate benchmarks, walled garden vs neutral platforms, costs, and what they can't fix.",
+    "Data clean rooms for advertising, explained for luxury brands - match rate benchmarks, walled garden vs neutral platforms, costs, and what they can't fix.",
   alternates: { canonical: canonicalUrl },
   openGraph: {
     title: "Data Clean Rooms for Advertising: A Luxury Field Guide",
     description:
-      "A senior media strategist's field guide to data clean rooms for advertising — what a clean room computes, match rate benchmarks by identifier, walled garden vs neutral vs publisher environments, aggregation thresholds, costs, and the four problems clean rooms do not solve.",
+      "A senior media strategist's field guide to data clean rooms for advertising - what a clean room computes, match rate benchmarks by identifier, walled garden vs neutral vs publisher environments, aggregation thresholds, costs, and the four problems clean rooms do not solve.",
     type: "article",
     url: canonicalUrl,
     images: [
-      { url: imagePath, width: 1200, height: 630, alt: "Data clean rooms for advertising — Stillwater Media" },
+      { url: imagePath, width: 1200, height: 630, alt: "Data clean rooms for advertising - Stillwater Media" },
     ],
     locale: "en_US",
     siteName: "Stillwater Media",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Data Clean Rooms for Advertising: A Luxury Field Guide",
     description:
-      "Two parties compute on shared data without either seeing the other's records. Powerful — and brutal on small luxury audiences. Match rates, costs and thresholds.",
+      "Two parties compute on shared data without either seeing the other's records. Powerful - and brutal on small luxury audiences. Match rates, costs and thresholds.",
     images: [imagePath],
   },
 }
@@ -38,13 +38,13 @@ const schemaMarkup = {
       "@type": "Article",
       headline: "Data Clean Rooms for Advertising: A Luxury Field Guide",
       description:
-        "An operating field guide to data clean rooms for advertising in luxury categories — what a clean room computes and cannot return, match rate benchmarks by identifier type, a comparison of walled garden, neutral and publisher clean rooms, the aggregation thresholds small luxury files routinely fail, cost ranges, a ninety-day implementation sequence, and the four measurement problems clean rooms do not solve.",
+        "An operating field guide to data clean rooms for advertising in luxury categories - what a clean room computes and cannot return, match rate benchmarks by identifier type, a comparison of walled garden, neutral and publisher clean rooms, the aggregation thresholds small luxury files routinely fail, cost ranges, a ninety-day implementation sequence, and the four measurement problems clean rooms do not solve.",
       image: {
         "@type": "ImageObject",
         url: `https://www.stillwatermedia.io${imagePath}`,
         width: 1200,
         height: 630,
-        caption: "Data clean rooms for advertising — Stillwater Media",
+        caption: "Data clean rooms for advertising - Stillwater Media",
       },
       author: { "@type": "Organization", name: "Stillwater Media" },
       publisher: {
@@ -77,7 +77,7 @@ const schemaMarkup = {
           name: "What is a data clean room in advertising?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "A data clean room is a secure computation environment where two parties — typically a brand and a media platform — analyze the intersection of their data without either seeing the other's underlying records. The brand uploads a hashed customer file, the platform holds exposure and behavioral data, the clean room matches them and returns aggregated output only. Neither side ever exports the other's rows.",
+            text: "A data clean room is a secure computation environment where two parties - typically a brand and a media platform - analyze the intersection of their data without either seeing the other's underlying records. The brand uploads a hashed customer file, the platform holds exposure and behavioral data, the clean room matches them and returns aggregated output only. Neither side ever exports the other's rows.",
           },
         },
         {
@@ -93,7 +93,7 @@ const schemaMarkup = {
           name: "Why are aggregation thresholds a problem for small luxury audiences?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Clean rooms enforce minimum cohort sizes so outputs cannot be reverse-engineered into individual data — Amazon Marketing Cloud generally requires at least 100 distinct users per row and Google Ads Data Hub applies a comparable floor. For a mass advertiser this is invisible, but a luxury brand with a matched, active population of a few thousand households that wants results cut by creative, channel, and week will divide that population across dozens of cells, most of which return nothing.",
+            text: "Clean rooms enforce minimum cohort sizes so outputs cannot be reverse-engineered into individual data - Amazon Marketing Cloud generally requires at least 100 distinct users per row and Google Ads Data Hub applies a comparable floor. For a mass advertiser this is invisible, but a luxury brand with a matched, active population of a few thousand households that wants results cut by creative, channel, and week will divide that population across dozens of cells, most of which return nothing.",
           },
         },
         {
@@ -101,7 +101,7 @@ const schemaMarkup = {
           name: "Which type of clean room should a luxury brand start with?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Start inside the walled garden clean rooms — Amazon Marketing Cloud, Google Ads Data Hub — where you already have spend and the cost is effectively zero, prove the workload is useful, and only then evaluate a neutral interoperable platform (Snowflake, LiveRamp, InfoSum, Habu) once genuine cross-platform deduplication is the thing actually blocking decisions. Buying a neutral platform first, at $60K–$250K+ per year plus engineering, is the most common and most expensive error in this category.",
+            text: "Start inside the walled garden clean rooms - Amazon Marketing Cloud, Google Ads Data Hub - where you already have spend and the cost is effectively zero, prove the workload is useful, and only then evaluate a neutral interoperable platform (Snowflake, LiveRamp, InfoSum, Habu) once genuine cross-platform deduplication is the thing actually blocking decisions. Buying a neutral platform first, at $60K–$250K+ per year plus engineering, is the most common and most expensive error in this category.",
           },
         },
         {
@@ -109,7 +109,7 @@ const schemaMarkup = {
           name: "What can data clean rooms not do?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "They do not create incrementality evidence — geographic holdout and randomized designs remain the only clean causal reads. They do not fix a small first-party dataset; below roughly 5,000 usable records most analysis is threshold-limited. They do not unify the walled gardens, since Amazon's clean room sees Amazon and Google's sees Google. And they do not replace marketing mix modeling, which remains the tool that allocates credit across sponsorships, events, and referral touchpoints no pixel captures.",
+            text: "They do not create incrementality evidence - geographic holdout and randomized designs remain the only clean causal reads. They do not fix a small first-party dataset; below roughly 5,000 usable records most analysis is threshold-limited. They do not unify the walled gardens, since Amazon's clean room sees Amazon and Google's sees Google. And they do not replace marketing mix modeling, which remains the tool that allocates credit across sponsorships, events, and referral touchpoints no pixel captures.",
           },
         },
       ],
@@ -127,12 +127,12 @@ export default function Page() {
       category="Data & Measurement"
       image={imagePath}
       imageAlt="Stillwater Media guide illustration on data clean rooms for advertising showing two unmarked perforated brass plates overlapping to project a single lens of light onto dark slate"
-      imageCaption="A clean room reveals only the overlap — everything either party brought that the other did not is never exposed."
+      imageCaption="A clean room reveals only the overlap - everything either party brought that the other did not is never exposed."
       schemaMarkup={schemaMarkup}
     >
       <p>
-        Data clean rooms for advertising are secure computation environments where two parties — typically a brand and a
-        media platform — can analyze the intersection of their data without either party seeing the other&apos;s
+        Data clean rooms for advertising are secure computation environments where two parties - typically a brand and a
+        media platform - can analyze the intersection of their data without either party seeing the other&apos;s
         underlying records. The brand uploads a hashed customer file. The platform holds exposure and behavioral data.
         The clean room matches them, runs the query, and returns aggregated output only. Neither side ever exports the
         other&apos;s rows.
@@ -174,7 +174,7 @@ export default function Page() {
         </li>
         <li>
           <strong>Path and sequence analysis.</strong> Which exposure sequences preceded conversion, at what interval,
-          at what cumulative frequency — the workload that matters most on 90-to-180-day sales cycles.
+          at what cumulative frequency - the workload that matters most on 90-to-180-day sales cycles.
         </li>
         <li>
           <strong>Incrementality and holdout design.</strong> Defining exposed and unexposed cohorts inside the clean
@@ -225,7 +225,7 @@ export default function Page() {
             <tr>
               <td>CTV household IP-based match</td>
               <td>55–80%</td>
-              <td>Household-level, not person-level — fine for household purchases</td>
+              <td>Household-level, not person-level - fine for household purchases</td>
             </tr>
             <tr>
               <td>Loyalty or member ID via direct integration</td>
@@ -237,7 +237,7 @@ export default function Page() {
       </div>
       <p>
         A worked example. A wealth management firm has 9,000 client records. It submits hashed email and phone and
-        achieves a 65% match — 5,850 matched. Of those, perhaps 70% were active on the platform in the measurement
+        achieves a 65% match - 5,850 matched. Of those, perhaps 70% were active on the platform in the measurement
         window, leaving roughly 4,100 addressable. Query results then need to clear an aggregation threshold, and
         analysis cut by channel, creative and week can push individual cells below it. The practical implication is that
         luxury brands should treat identifier enrichment as a prerequisite, not an afterthought.
@@ -317,8 +317,8 @@ export default function Page() {
       <h2>A Ninety-Day Implementation Sequence</h2>
       <p>
         <strong>Days 1–20: Get the data defensible.</strong> Audit the customer file for completeness, deduplicate,
-        standardize address formatting, confirm consent posture, and attach outcome values — revenue, LTV tier, close
-        date — because a clean room that can only see &quot;converted / did not convert&quot; throws away the most useful
+        standardize address formatting, confirm consent posture, and attach outcome values - revenue, LTV tier, close
+        date - because a clean room that can only see &quot;converted / did not convert&quot; throws away the most useful
         thing a luxury brand knows.
       </p>
       <p>
@@ -362,7 +362,7 @@ export default function Page() {
         holdout testing for causal reads, clean room analysis for cross-channel path, frequency and suppression
         decisions, and marketing mix modeling once history allows. For a brand where a single customer is worth more
         than $5,000 and the decision runs longer than thirty days, the highest-return clean room workload is almost never
-        the sophisticated one. It is suppression and unduplicated frequency — removing existing clients from acquisition
+        the sophisticated one. It is suppression and unduplicated frequency - removing existing clients from acquisition
         media and discovering that a household you believed was seeing six ads a week was actually seeing nineteen will
         typically pay for the entire program before any advanced analysis begins.
       </p>

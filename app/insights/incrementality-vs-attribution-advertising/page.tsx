@@ -15,7 +15,7 @@ export const metadata: Metadata = {
       "Attribution tells you which touchpoint got credit. Incrementality tells you what would have happened anyway. A senior strategist's guide to the difference, the four test designs that measure true incremental lift, benchmark lift ranges by channel, and how luxury brands run both systems without letting the wrong one set budget.",
     type: "article",
     url: canonicalUrl,
-    images: [{ url: imagePath, width: 1200, height: 630, alt: "Incrementality vs. attribution in advertising — Stillwater Media" }],
+    images: [{ url: imagePath, width: 1200, height: 630, alt: "Incrementality vs. attribution in advertising - Stillwater Media" }],
     locale: "en_US",
     siteName: "Stillwater Media",
     publishedTime: "2026-08-17",
@@ -36,13 +36,13 @@ const schemaMarkup = {
       "@type": "Article",
       headline: "Incrementality vs. Attribution in Advertising: Which One Should Actually Drive Your Media Decisions?",
       description:
-        "A senior media strategist's guide to incrementality vs attribution advertising — what each methodology actually measures, the three structural reasons attribution systematically overstates paid media performance in luxury and high-consideration categories, four test designs for true incremental lift measurement including geo holdouts and ghost-ad controls, statistical power requirements and minimum detectable effect math, benchmark incrementality ranges by channel from branded search through premium CTV, and the operating model that lets attribution govern daily optimization while incrementality governs budget allocation.",
+        "A senior media strategist's guide to incrementality vs attribution advertising - what each methodology actually measures, the three structural reasons attribution systematically overstates paid media performance in luxury and high-consideration categories, four test designs for true incremental lift measurement including geo holdouts and ghost-ad controls, statistical power requirements and minimum detectable effect math, benchmark incrementality ranges by channel from branded search through premium CTV, and the operating model that lets attribution govern daily optimization while incrementality governs budget allocation.",
       image: {
         "@type": "ImageObject",
         url: `https://www.stillwatermedia.io${imagePath}`,
         width: 1200,
         height: 630,
-        caption: "Incrementality vs. attribution in advertising — Stillwater Media",
+        caption: "Incrementality vs. attribution in advertising - Stillwater Media",
       },
       author: { "@type": "Organization", name: "Stillwater Media" },
       publisher: {
@@ -99,7 +99,7 @@ const schemaMarkup = {
           name: "How long should an incrementality test run?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The test window must exceed one full purchase cycle plus roughly a two-week measurement tail, which for luxury and high-consideration brands with 60- to 180-day sales cycles usually means a minimum of eight to twelve weeks rather than the two- to three-week windows platforms suggest. Running a short test on a long sales cycle does not produce a conservative estimate — it produces a null result that gets misread as evidence the channel does not work, when the conversions simply had not occurred yet.",
+            text: "The test window must exceed one full purchase cycle plus roughly a two-week measurement tail, which for luxury and high-consideration brands with 60- to 180-day sales cycles usually means a minimum of eight to twelve weeks rather than the two- to three-week windows platforms suggest. Running a short test on a long sales cycle does not produce a conservative estimate - it produces a null result that gets misread as evidence the channel does not work, when the conversions simply had not occurred yet.",
           },
         },
         {
@@ -107,7 +107,7 @@ const schemaMarkup = {
           name: "Should incrementality replace attribution entirely?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "No — they operate on different clocks and answer different questions, and a functioning measurement stack runs both. Attribution should govern daily optimization inside a channel, including creative rotation, bid and pacing decisions, supply-path comparison, and anomaly detection, because those decisions need a same-day signal. Incrementality should govern allocation across channels, channel entry and exit, and any figure reported as ROI to a board or CFO, with quarterly holdout results applied as calibration coefficients so that daily attributed reporting remains usable without being misleading.",
+            text: "No - they operate on different clocks and answer different questions, and a functioning measurement stack runs both. Attribution should govern daily optimization inside a channel, including creative rotation, bid and pacing decisions, supply-path comparison, and anomaly detection, because those decisions need a same-day signal. Incrementality should govern allocation across channels, channel entry and exit, and any figure reported as ROI to a board or CFO, with quarterly holdout results applied as calibration coefficients so that daily attributed reporting remains usable without being misleading.",
           },
         },
       ],
@@ -137,8 +137,8 @@ export default function Page() {
         underfund the channels that create it.
       </p>
       <p>
-        At Stillwater Media we run measurement programs for luxury and high-consideration brands — private aviation,
-        wealth management, luxury real estate, premium DTC — where a single customer can be worth six figures and the
+        At Stillwater Media we run measurement programs for luxury and high-consideration brands - private aviation,
+        wealth management, luxury real estate, premium DTC - where a single customer can be worth six figures and the
         sales cycle runs 60 to 180 days. In those conditions the gap between attributed performance and true incremental
         lift is not a rounding error. Across the holdout tests we have run, the median gap between platform-attributed
         conversions and incrementally measured conversions sits somewhere between 20% and 45% depending on channel mix,
@@ -150,8 +150,8 @@ export default function Page() {
       <h2>What Attribution Actually Measures</h2>
       <p>
         Attribution is a credit-assignment system. It observes a set of conversions that occurred, looks backward at the
-        touchpoints preceding each one, and applies a rule — last click, first click, linear, time decay,
-        position-based, or an algorithmic multi-touch model — to divide the credit among them.
+        touchpoints preceding each one, and applies a rule - last click, first click, linear, time decay,
+        position-based, or an algorithmic multi-touch model - to divide the credit among them.
       </p>
       <p>
         Everything about that description is correlational. Attribution never observes a counterfactual. It has no
@@ -161,15 +161,15 @@ export default function Page() {
       </p>
       <p>
         That assumption is often wrong, and it is wrong in a <em>directional</em> way. Attribution is biased toward
-        channels that appear late in the journey and toward channels that target people already demonstrating intent —
+        channels that appear late in the journey and toward channels that target people already demonstrating intent -
         which is to say, exactly the channels that would perform well even if they had no causal effect at all.
       </p>
 
       <h2>What Incrementality Actually Measures</h2>
       <p>
         Incrementality is a causal-inference system. It creates or identifies a control group that does not receive the
-        advertising, measures the outcome rate in both groups, and reports the difference. That difference — the
-        incremental lift — is the number of conversions that exist because of the media.
+        advertising, measures the outcome rate in both groups, and reports the difference. That difference - the
+        incremental lift - is the number of conversions that exist because of the media.
       </p>
       <p>The formal expression is simple:</p>
       <p>
@@ -273,7 +273,7 @@ export default function Page() {
       <p>
         A person types your brand name into Google. They already know who you are, and in most cases they intended to
         reach you. The paid ad appears above the organic result, they click it, and the click is attributed a conversion
-        — one that the organic listing would very likely have captured for free. Published brand-keyword pause tests,
+        - one that the organic listing would very likely have captured for free. Published brand-keyword pause tests,
         including well-documented experiments by large advertisers, have found that a substantial share of paid branded
         clicks are cannibalized from organic. The incremental value of branded search is real but far smaller than its
         attributed value, and it varies enormously depending on whether competitors are bidding on your terms.
@@ -282,7 +282,7 @@ export default function Page() {
       <h3>View-through inflation on CTV and display</h3>
       <p>
         View-through attribution credits a conversion to an impression that was never clicked. On premium CTV this is
-        not inherently unreasonable — the format is unclickable and its effects are genuinely upper-funnel — but the
+        not inherently unreasonable - the format is unclickable and its effects are genuinely upper-funnel - but the
         window is where the abuse lives. A 30-day view-through window on a broadly targeted CTV campaign will capture a
         large fraction of your organic conversions purely by coincidence of exposure. If your CTV partner reports
         view-through conversions on a 14-day-plus window and cannot produce a lift study, treat the number as a reach
@@ -295,8 +295,8 @@ export default function Page() {
       <p>
         Split your addressable geography into test and control DMAs or ZIP clusters matched on baseline conversion
         volume, seasonality, and demographics. Run media in test markets, suppress it in control, and compare. This is
-        the most robust design available to most brands because it works for unaddressable media — CTV, DOOH, streaming
-        audio, linear — and it captures offline and cross-device conversions that pixel-based methods miss entirely. It
+        the most robust design available to most brands because it works for unaddressable media - CTV, DOOH, streaming
+        audio, linear - and it captures offline and cross-device conversions that pixel-based methods miss entirely. It
         is our default for luxury clients with national footprints. The constraint is that it requires enough markets
         and enough conversion volume per market to detect an effect.
       </p>
@@ -311,7 +311,7 @@ export default function Page() {
 
       <h3>3. Audience-split holdout</h3>
       <p>
-        Randomly assign a share — typically 10–20% — of a targetable audience to a suppression list and exclude it from
+        Randomly assign a share - typically 10–20% - of a targetable audience to a suppression list and exclude it from
         delivery. This is the standard approach for retargeting and CRM-based audiences, and it is where we recommend
         most brands start, because retargeting is where the overstatement is largest and the test is cheapest to run.
         Suppression must be enforced at the identity level across every channel, or the control is contaminated.
@@ -327,7 +327,7 @@ export default function Page() {
       <h2>Sizing the Test: The Math Most Brands Skip</h2>
       <p>
         The most common failure in incrementality work is running an underpowered test, getting an inconclusive result,
-        and concluding that the channel &quot;didn&apos;t work.&quot; Underpowered tests do not measure small effects —
+        and concluding that the channel &quot;didn&apos;t work.&quot; Underpowered tests do not measure small effects -
         they fail to detect real ones.
       </p>
       <p>The practical planning steps:</p>
@@ -337,7 +337,7 @@ export default function Page() {
           test window.
         </li>
         <li>
-          <strong>Set the minimum detectable effect (MDE)</strong> — the smallest lift that would change a decision. If
+          <strong>Set the minimum detectable effect (MDE)</strong> - the smallest lift that would change a decision. If
           you would keep spending at 10% lift, do not design a test to detect 30%.
         </li>
         <li>
@@ -357,8 +357,8 @@ export default function Page() {
         </li>
       </ol>
       <p>
-        For luxury brands with genuinely low conversion counts, use an intermediate outcome — qualified inquiries,
-        booked consultations, showroom appointments — as the primary test metric, and validate its historical
+        For luxury brands with genuinely low conversion counts, use an intermediate outcome - qualified inquiries,
+        booked consultations, showroom appointments - as the primary test metric, and validate its historical
         relationship to closed revenue separately.
       </p>
 
@@ -432,7 +432,7 @@ export default function Page() {
       <p>
         The pattern is the point. The channels attribution flatters are the ones that intercept existing demand. The
         channels attribution starves are the ones that create it. A brand optimizing purely to attributed ROAS will
-        drift, quarter over quarter, into a portfolio of retargeting and branded search — a machine that harvests demand
+        drift, quarter over quarter, into a portfolio of retargeting and branded search - a machine that harvests demand
         efficiently and generates none.
       </p>
 
@@ -469,24 +469,24 @@ export default function Page() {
       <p>A functional measurement stack in a high-consideration category has three layers running on different clocks.</p>
       <ol>
         <li>
-          <strong>Attribution — daily.</strong> Platform and MTA reporting for in-flight optimization, creative
+          <strong>Attribution - daily.</strong> Platform and MTA reporting for in-flight optimization, creative
           rotation, and anomaly detection. Explicitly labeled internally as directional, never reported to the board as
           ROI.
         </li>
         <li>
-          <strong>Incrementality testing — quarterly, rotating.</strong> One or two well-powered holdouts per quarter,
+          <strong>Incrementality testing - quarterly, rotating.</strong> One or two well-powered holdouts per quarter,
           rotating across channels so every major line item is tested at least annually. Results are applied as{" "}
           <em>calibration coefficients</em> to attributed numbers, so daily reporting stays usable but honest.
         </li>
         <li>
-          <strong>Marketing mix modeling — semiannual or annual.</strong> A top-down model reconciling total spend to
+          <strong>Marketing mix modeling - semiannual or annual.</strong> A top-down model reconciling total spend to
           total outcome, including offline and brand media. MMM and incrementality validate each other: when the
           model&apos;s channel coefficients and the holdout results disagree materially, one of them is misspecified,
           and finding out which is where most of the learning lives.
         </li>
       </ol>
       <p>
-        The output of this stack is a set of calibrated channel efficiencies you can actually allocate against — and a
+        The output of this stack is a set of calibrated channel efficiencies you can actually allocate against - and a
         defensible answer when the CFO asks what the media is buying.
       </p>
 
@@ -520,7 +520,7 @@ export default function Page() {
       <h2>Why Incrementality vs. Attribution Matters Most in Luxury Advertising</h2>
       <p>
         Brands that resolve incrementality vs. attribution properly do not usually end up spending less. They end up
-        spending differently — shifting budget out of demand harvesting that was double-counting itself and into premium
+        spending differently - shifting budget out of demand harvesting that was double-counting itself and into premium
         upper-funnel inventory whose contribution was invisible to click-based measurement. In our own client
         portfolio, the typical first-year effect of a calibrated measurement program is not a dramatic cut but a
         reallocation of 15–30% of working media, accompanied by the ability to defend an increase rather than negotiate
@@ -564,12 +564,12 @@ export default function Page() {
         The test window must exceed one full purchase cycle plus roughly a two-week measurement tail, which for luxury
         and high-consideration brands with 60- to 180-day sales cycles usually means a minimum of eight to twelve weeks
         rather than the two- to three-week windows platforms suggest. Running a short test on a long sales cycle does
-        not produce a conservative estimate — it produces a null result that gets misread as evidence the channel does
+        not produce a conservative estimate - it produces a null result that gets misread as evidence the channel does
         not work, when the conversions simply had not occurred yet.
       </p>
       <h3>Should incrementality replace attribution entirely?</h3>
       <p>
-        No — they operate on different clocks and answer different questions, and a functioning measurement stack runs
+        No - they operate on different clocks and answer different questions, and a functioning measurement stack runs
         both. Attribution should govern daily optimization inside a channel, including creative rotation, bid and pacing
         decisions, supply-path comparison, and anomaly detection, because those decisions need a same-day signal.
         Incrementality should govern allocation across channels, channel entry and exit, and any figure reported as ROI

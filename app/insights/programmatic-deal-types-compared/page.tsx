@@ -7,16 +7,16 @@ const imagePath = "/images/programmatic-deal-types-compared.png"
 export const metadata: Metadata = {
   title: "Programmatic Deal Types Compared: PG, Preferred, PMP, Open",
   description:
-    "Programmatic deal types compared for luxury advertisers — PG vs preferred vs PMP vs open auction, with priority mechanics, CPM ranges and fill rate math.",
+    "Programmatic deal types compared for luxury advertisers - PG vs preferred vs PMP vs open auction, with priority mechanics, CPM ranges and fill rate math.",
   alternates: { canonical: canonicalUrl },
   openGraph: {
     title: "Programmatic Deal Types Compared: PG, Preferred, PMP, Open",
     description:
-      "A senior buyer's comparison of the four programmatic deal types — programmatic guaranteed, preferred deals, private marketplaces and the open auction — with priority mechanics, CPM and fill-rate ranges, a luxury allocation framework, and a diagnostic for deals that will not spend.",
+      "A senior buyer's comparison of the four programmatic deal types - programmatic guaranteed, preferred deals, private marketplaces and the open auction - with priority mechanics, CPM and fill-rate ranges, a luxury allocation framework, and a diagnostic for deals that will not spend.",
     type: "article",
     url: canonicalUrl,
     images: [
-      { url: imagePath, width: 1200, height: 630, alt: "Programmatic deal types compared — Stillwater Media" },
+      { url: imagePath, width: 1200, height: 630, alt: "Programmatic deal types compared - Stillwater Media" },
     ],
     locale: "en_US",
     siteName: "Stillwater Media",
@@ -38,13 +38,13 @@ const schemaMarkup = {
       "@type": "Article",
       headline: "Programmatic Deal Types Compared: PG, Preferred, PMP and Open Auction",
       description:
-        "A working comparison of the four programmatic deal types for luxury advertisers — programmatic guaranteed, preferred deals, private marketplace auctions and the open auction. Covers ad-server priority mechanics, the OpenRTB deal object, realistic CPM and fill-rate ranges for premium CTV and display, the allocation that suits a limited luxury budget, the five most common structural mistakes, and a diagnostic sequence for deals that fail to spend.",
+        "A working comparison of the four programmatic deal types for luxury advertisers - programmatic guaranteed, preferred deals, private marketplace auctions and the open auction. Covers ad-server priority mechanics, the OpenRTB deal object, realistic CPM and fill-rate ranges for premium CTV and display, the allocation that suits a limited luxury budget, the five most common structural mistakes, and a diagnostic sequence for deals that fail to spend.",
       image: {
         "@type": "ImageObject",
         url: `https://www.stillwatermedia.io${imagePath}`,
         width: 1200,
         height: 630,
-        caption: "Programmatic deal types compared — Stillwater Media",
+        caption: "Programmatic deal types compared - Stillwater Media",
       },
       author: { "@type": "Organization", name: "Stillwater Media" },
       publisher: {
@@ -77,7 +77,7 @@ const schemaMarkup = {
           name: "What are the four programmatic deal types?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Programmatic guaranteed (fixed price, guaranteed impressions, no auction), preferred deals (fixed price, first look, no volume guarantee), private marketplace or PMP (floor price plus invite-only auction), and the open auction (fully open real-time bidding). The difference between them is not inventory quality — the same impression can be sold through all four — but the order in which the publisher's ad server considers your bid and what the publisher has promised in exchange.",
+            text: "Programmatic guaranteed (fixed price, guaranteed impressions, no auction), preferred deals (fixed price, first look, no volume guarantee), private marketplace or PMP (floor price plus invite-only auction), and the open auction (fully open real-time bidding). The difference between them is not inventory quality - the same impression can be sold through all four - but the order in which the publisher's ad server considers your bid and what the publisher has promised in exchange.",
           },
         },
         {
@@ -85,7 +85,7 @@ const schemaMarkup = {
           name: "Does a higher bid always win in programmatic?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "No. Publishers run a decision sequence in the ad server before the auction is consulted. In Google Ad Manager's numbering, sponsorship line items sit at priority 4, standard reservations at 6 through 10, and everything non-guaranteed — preferred deals, private auctions, open auction — sits at priority 12. Programmatic guaranteed is trafficked as a reservation, so it clears ahead of a higher-priced PMP bid because it competes on rank, not price. If you need a specific placement on a specific date, no PMP bid at any price reliably gets you there.",
+            text: "No. Publishers run a decision sequence in the ad server before the auction is consulted. In Google Ad Manager's numbering, sponsorship line items sit at priority 4, standard reservations at 6 through 10, and everything non-guaranteed - preferred deals, private auctions, open auction - sits at priority 12. Programmatic guaranteed is trafficked as a reservation, so it clears ahead of a higher-priced PMP bid because it competes on rank, not price. If you need a specific placement on a specific date, no PMP bid at any price reliably gets you there.",
           },
         },
         {
@@ -93,7 +93,7 @@ const schemaMarkup = {
           name: "Why is preferred deal fill rate so low?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Fill on a preferred deal is typically 15–40% of targeted impressions, because most bid requests that match the deal will not also match the buyer's audience and pacing filters at that moment. This is a structural property of first-look mechanics, not a signal of deal health — buyers who treat low fill as a broken deal and shut it down are misreading the format. Preferred deals are best used as a hedge for guaranteed access to a scarce high-index audience at a known price without committing to volume.",
+            text: "Fill on a preferred deal is typically 15–40% of targeted impressions, because most bid requests that match the deal will not also match the buyer's audience and pacing filters at that moment. This is a structural property of first-look mechanics, not a signal of deal health - buyers who treat low fill as a broken deal and shut it down are misreading the format. Preferred deals are best used as a hedge for guaranteed access to a scarce high-index audience at a known price without committing to volume.",
           },
         },
         {
@@ -127,11 +127,11 @@ export default function Page() {
       category="Programmatic Strategy"
       image={imagePath}
       imageAlt="Stillwater Media illustration comparing programmatic deal types, showing four unmarked brass keys of descending size and polish arranged on dark honed slate"
-      imageCaption="Four keys to the same room — each opens a different door, at a different price, with a different guarantee that it will open at all."
+      imageCaption="Four keys to the same room - each opens a different door, at a different price, with a different guarantee that it will open at all."
       schemaMarkup={schemaMarkup}
     >
       <p>
-        There are four programmatic deal types, and the difference between them is not inventory quality — it is the
+        There are four programmatic deal types, and the difference between them is not inventory quality - it is the
         order in which the publisher&apos;s ad server considers your bid, and what the publisher has promised you in
         exchange. The same mid-roll pod inside the same premium streaming app can be sold as programmatic guaranteed at a
         fixed $42 CPM, as a preferred deal at $34, inside a private marketplace at a $28 floor, or on the open auction
@@ -139,7 +139,7 @@ export default function Page() {
       </p>
       <p>
         For a luxury advertiser with a defined flight, a limited budget and a media plan that has to hit specific
-        households, that certainty is usually worth paying for — but not always, and not at every level. This is how we
+        households, that certainty is usually worth paying for - but not always, and not at every level. This is how we
         evaluate each of the four programmatic deal types at Stillwater Media, what each one actually costs, and how we
         mix them on a single plan.
       </p>
@@ -162,7 +162,7 @@ export default function Page() {
               <td>Programmatic guaranteed (PG)</td>
               <td>Fixed, negotiated</td>
               <td>Guaranteed impressions</td>
-              <td>None — reservation</td>
+              <td>None - reservation</td>
               <td>$38–$65</td>
               <td>95–100%</td>
             </tr>
@@ -170,7 +170,7 @@ export default function Page() {
               <td>Preferred deal</td>
               <td>Fixed, negotiated</td>
               <td>Not guaranteed</td>
-              <td>None — first look at fixed price</td>
+              <td>None - first look at fixed price</td>
               <td>$30–$48</td>
               <td>15–40%</td>
             </tr>
@@ -194,7 +194,7 @@ export default function Page() {
         </table>
       </div>
       <p>
-        Fill percentages are share of the impressions the buyer <em>targeted</em>, not share of a booked commitment —
+        Fill percentages are share of the impressions the buyer <em>targeted</em>, not share of a booked commitment -
         only PG carries a booked commitment. Ranges reflect premium streaming, publisher-direct video and high-index
         display in North America.
       </p>
@@ -203,7 +203,7 @@ export default function Page() {
       <p>
         The single most misunderstood mechanic in programmatic buying is that a higher bid does not automatically win.
         Publishers run a decision sequence in the ad server before the auction is ever consulted. In Google Ad
-        Manager&apos;s numbering — where a lower number means higher priority — sponsorship line items sit at priority 4,
+        Manager&apos;s numbering - where a lower number means higher priority - sponsorship line items sit at priority 4,
         standard reservations at 6 through 10, and everything non-guaranteed, including preferred deals, private auctions
         and the open auction, sits at priority 12. Programmatic guaranteed is trafficked as a reservation line item,
         which is why it clears ahead of a higher-priced PMP bid: it is competing on rank, not price. The practical
@@ -217,7 +217,7 @@ export default function Page() {
         ecosystem. Impression volume, price, flight dates and placement are fixed in advance. It earns its premium for
         launch moments where a specific date and share of voice are the point, first-position pod placements in premium
         originals and live sport, sponsorship-adjacent formats, and any plan where delivery has been promised and the
-        spend committed. What you give up is flexibility — PG impressions are non-cancellable inside a 14-to-30-day
+        spend committed. What you give up is flexibility - PG impressions are non-cancellable inside a 14-to-30-day
         notice window, and you should expect a 25% to 60% CPM premium over the same publisher&apos;s PMP floor.
       </p>
 
@@ -226,7 +226,7 @@ export default function Page() {
         A preferred deal gives one buyer the right of first refusal on matching impressions at a fixed price, with no
         obligation to buy. Fill is typically 15% to 40% of targeted impressions, because most matching bid requests will
         not also match the buyer&apos;s audience and pacing filters at that moment. Buyers see low fill, conclude the
-        deal is broken, and shut it down. Used correctly, a preferred deal is a hedge — the right structure when you want
+        deal is broken, and shut it down. Used correctly, a preferred deal is a hedge - the right structure when you want
         guaranteed access to a high-index audience at a known price without committing to volume you may not want. We use
         them most on wealth-indexed publisher supply where the addressable pool is small.
       </p>
@@ -235,16 +235,16 @@ export default function Page() {
       <p>
         A private marketplace deal is an invite-only auction. The publisher assigns a deal ID, whitelists your DSP seat,
         sets a floor, and only bidders holding that deal ID compete. In the OpenRTB bid request this arrives as a{" "}
-        <code>pmp</code> object containing a <code>deals</code> array — each deal carrying an <code>id</code>, a{" "}
+        <code>pmp</code> object containing a <code>deals</code> array - each deal carrying an <code>id</code>, a{" "}
         <code>bidfloor</code>, an auction type <code>at</code> (1 first price, 2 second price, 3 fixed price), and
         optional seat and domain restrictions.
       </p>
       <p>
-        PMPs now carry the majority of premium video money — roughly 28% of all programmatic transactions but about 47%
+        PMPs now carry the majority of premium video money - roughly 28% of all programmatic transactions but about 47%
         of connected TV spend, against roughly 15% of CTV spend on the open exchange. Across syndicated benchmarks, PMP
         inventory clears around a 2.1x CPM premium over open exchange while delivering roughly 92% viewability against
         71%, and invalid traffic near 1.2% against 8.7%. Adjusted for viewability and fraud, the effective cost per{" "}
-        <em>usable</em> impression converges — which is the correct way to defend a PMP premium to a finance team.
+        <em>usable</em> impression converges - which is the correct way to defend a PMP premium to a finance team.
       </p>
 
       <h2>Open Auction: The Honest Use Case</h2>
@@ -252,7 +252,7 @@ export default function Page() {
         The open auction is not disreputable. It is unsuited to most of what a luxury brand is trying to do, which is a
         different claim. It is where an unbounded set of sellers compete, where made-for-advertising sites concentrate,
         and where the same impression is offered by four intermediaries at four prices. For a private aviation client,
-        the open auction is where we retarget site visitors at $6 to $11 CPMs — a job it does well, because the audience
+        the open auction is where we retarget site visitors at $6 to $11 CPMs - a job it does well, because the audience
         is already qualified. What we do not do is run brand-defining video creative there.
       </p>
 
@@ -291,7 +291,7 @@ export default function Page() {
         </table>
       </div>
       <p>
-        Two constraints modify this. If the flight is shorter than four weeks, shift toward PG — auction-based deals need
+        Two constraints modify this. If the flight is shorter than four weeks, shift toward PG - auction-based deals need
         time to pace. If the addressable audience is under roughly 400,000 households, shift away from PG, because the
         guaranteed volume will force frequency past the point of diminishing return.
       </p>
@@ -327,7 +327,7 @@ export default function Page() {
         <li>Check the deal&apos;s status in the DSP and confirm flight dates against the publisher&apos;s calendar.</li>
         <li>Compare your bid to the floor, including data and DSP fees that reduce the working bid the SSP receives.</li>
         <li>Remove all targeting layers except the deal ID for two hours. If spend appears, a targeting layer is the constraint.</li>
-        <li>Pull no-bid reason codes — blocklists, brand safety pre-bid filters, creative format mismatches.</li>
+        <li>Pull no-bid reason codes - blocklists, brand safety pre-bid filters, creative format mismatches.</li>
         <li>Ask the publisher for their sell-side view; buy-side reporting cannot see impressions never sent.</li>
       </ol>
 

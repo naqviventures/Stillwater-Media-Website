@@ -74,7 +74,7 @@ export default function MarketingMixModelingPage() {
 
   const schemaMarkup = {
     "@context": "https://schema.org",
-    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/marketing-mix-modeling-luxury-brands#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Marketing Mix Modeling for Luxury Brands: The Complete Guide","item":"https://www.stillwatermedia.io/insights/marketing-mix-modeling-luxury-brands"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/marketing-mix-modeling-luxury-brands#faq","mainEntity":[{"@type":"Question","name":"What is marketing mix modeling and how does it work?","acceptedAnswer":{"@type":"Answer","text":"Marketing mix modeling (MMM) is an econometric method that uses statistical regression to isolate the revenue contribution of each advertising channel, controlling for external factors like seasonality, pricing, and competitor activity. Unlike digital attribution, which tracks individual user journeys, MMM works at the aggregate level — analyzing historical spend and revenue data to build response curves that show how much incremental revenue each channel generates at different investment levels."}},{"@type":"Question","name":"How is marketing mix modeling different from multi-touch attribution?","acceptedAnswer":{"@type":"Answer","text":"Marketing mix modeling analyzes aggregate spend and revenue data across all channels (including offline) over weeks or quarters, making it ideal for brands with long sales cycles. Multi-touch attribution tracks individual user journeys through digital touchpoints in near real-time. MMM answers \"how should we allocate budget across channels?\" while MTA answers \"which digital touchpoints within a campaign are performing best?\" Luxury brands typically need both, operating at different decision horizons."}},{"@type":"Question","name":"How long does it take to build a marketing mix model?","acceptedAnswer":{"@type":"Answer","text":"A well-built MMM for a luxury or high-consideration brand requires 18–36 months of historical weekly data and takes 6–12 weeks to build, validate, and deliver actionable outputs. The initial model build is the longest phase; subsequent quarterly refreshes can be completed in 2–3 weeks once the model architecture is established and data pipelines are in place."}},{"@type":"Question","name":"How much does marketing mix modeling cost?","acceptedAnswer":{"@type":"Answer","text":"MMM for luxury brands typically costs $40,000–$120,000 per year depending on data complexity, number of channels modeled, and refresh cadence. For brands spending $2M+ annually on media, this represents less than 5% of media budget — and the allocation improvements identified typically exceed the modeling cost by a factor of 3x to 10x in the first year."}},{"@type":"Question","name":"Can marketing mix modeling work for luxury brands with long sales cycles?","acceptedAnswer":{"@type":"Answer","text":"Yes — and it works better for luxury brands than for CPG brands in many respects. MMM's aggregate methodology doesn't require cookie-based tracking, making it privacy-compliant and capable of capturing offline touchpoints like events, DOOH, and broadcast. The key adaptations required are longer adstock decay rates (3–6 weeks vs. 1–2 weeks for CPG), modeling against intermediate outcomes (inquiries, consultations) rather than final revenue, and ensuring 2+ years of training data to capture seasonality across multiple cycles."}}]}],
+    "@graph": [articleSchema, {"@type":"BreadcrumbList","@id":"https://www.stillwatermedia.io/insights/marketing-mix-modeling-luxury-brands#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.stillwatermedia.io"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://www.stillwatermedia.io/insights"},{"@type":"ListItem","position":3,"name":"Marketing Mix Modeling for Luxury Brands: The Complete Guide","item":"https://www.stillwatermedia.io/insights/marketing-mix-modeling-luxury-brands"}]}, {"@type":"FAQPage","@id":"https://www.stillwatermedia.io/insights/marketing-mix-modeling-luxury-brands#faq","mainEntity":[{"@type":"Question","name":"What is marketing mix modeling and how does it work?","acceptedAnswer":{"@type":"Answer","text":"Marketing mix modeling (MMM) is an econometric method that uses statistical regression to isolate the revenue contribution of each advertising channel, controlling for external factors like seasonality, pricing, and competitor activity. Unlike digital attribution, which tracks individual user journeys, MMM works at the aggregate level - analyzing historical spend and revenue data to build response curves that show how much incremental revenue each channel generates at different investment levels."}},{"@type":"Question","name":"How is marketing mix modeling different from multi-touch attribution?","acceptedAnswer":{"@type":"Answer","text":"Marketing mix modeling analyzes aggregate spend and revenue data across all channels (including offline) over weeks or quarters, making it ideal for brands with long sales cycles. Multi-touch attribution tracks individual user journeys through digital touchpoints in near real-time. MMM answers \"how should we allocate budget across channels?\" while MTA answers \"which digital touchpoints within a campaign are performing best?\" Luxury brands typically need both, operating at different decision horizons."}},{"@type":"Question","name":"How long does it take to build a marketing mix model?","acceptedAnswer":{"@type":"Answer","text":"A well-built MMM for a luxury or high-consideration brand requires 18–36 months of historical weekly data and takes 6–12 weeks to build, validate, and deliver actionable outputs. The initial model build is the longest phase; subsequent quarterly refreshes can be completed in 2–3 weeks once the model architecture is established and data pipelines are in place."}},{"@type":"Question","name":"How much does marketing mix modeling cost?","acceptedAnswer":{"@type":"Answer","text":"MMM for luxury brands typically costs $40,000–$120,000 per year depending on data complexity, number of channels modeled, and refresh cadence. For brands spending $2M+ annually on media, this represents less than 5% of media budget - and the allocation improvements identified typically exceed the modeling cost by a factor of 3x to 10x in the first year."}},{"@type":"Question","name":"Can marketing mix modeling work for luxury brands with long sales cycles?","acceptedAnswer":{"@type":"Answer","text":"Yes - and it works better for luxury brands than for CPG brands in many respects. MMM's aggregate methodology doesn't require cookie-based tracking, making it privacy-compliant and capable of capturing offline touchpoints like events, DOOH, and broadcast. The key adaptations required are longer adstock decay rates (3–6 weeks vs. 1–2 weeks for CPG), modeling against intermediate outcomes (inquiries, consultations) rather than final revenue, and ensuring 2+ years of training data to capture seasonality across multiple cycles."}}]}],
   }
 
   return (
@@ -84,7 +84,7 @@ export default function MarketingMixModelingPage() {
       category="Measurement & Attribution"
       image="/images/marketing-mix-modeling-luxury-brands.png"
       imageAlt="Stillwater Media marketing mix modeling visualization for luxury brand media budget allocation across CTV, programmatic, and streaming channels"
-      imageCaption="Marketing mix modeling transforms raw spend data into a precise roadmap — showing luxury brands exactly where each dollar compounds revenue and where it disappears."
+      imageCaption="Marketing mix modeling transforms raw spend data into a precise roadmap - showing luxury brands exactly where each dollar compounds revenue and where it disappears."
       date="May 29, 2026"
       readingTime="9 min"
       author="Stillwater Media"
@@ -97,7 +97,7 @@ export default function MarketingMixModelingPage() {
       </p>
 
       <p>
-        For a private aviation company, this means the model can tell you that your CTV spend on streaming platforms drove a 4.2% lift in qualified inquiry form submissions — even though the customer who submitted that form clicked a paid search ad 18 days later. The paid search ad gets the attribution credit; the CTV campaign gets the MMM credit. Those are two fundamentally different numbers, and confusing them leads to catastrophically wrong budget decisions.
+        For a private aviation company, this means the model can tell you that your CTV spend on streaming platforms drove a 4.2% lift in qualified inquiry form submissions - even though the customer who submitted that form clicked a paid search ad 18 days later. The paid search ad gets the attribution credit; the CTV campaign gets the MMM credit. Those are two fundamentally different numbers, and confusing them leads to catastrophically wrong budget decisions.
       </p>
 
       <p>
@@ -106,7 +106,7 @@ export default function MarketingMixModelingPage() {
 
       <ul>
         <li><strong>Sales cycles run 30–180+ days.</strong> Attribution models systematically undervalue upper-funnel channels that move prospects from awareness to consideration.</li>
-        <li><strong>Transaction values are large.</strong> A 5% improvement in budget allocation efficiency for a brand doing $50M in annual revenue from media is $2.5M in recovered value — far exceeding the cost of running rigorous MMM.</li>
+        <li><strong>Transaction values are large.</strong> A 5% improvement in budget allocation efficiency for a brand doing $50M in annual revenue from media is $2.5M in recovered value - far exceeding the cost of running rigorous MMM.</li>
         <li><strong>Channel mix is complex.</strong> Premium brands run CTV, programmatic, DOOH, podcast, streaming audio, native, and social simultaneously. Without a model, the interactions between these channels are invisible.</li>
       </ul>
 
@@ -185,7 +185,7 @@ export default function MarketingMixModelingPage() {
 
       <h3>Mistake 2: Modeling Revenue Instead of the Right Dependent Variable</h3>
       <p>
-        For brands with offline sales — luxury real estate, private aviation, wealth management, private clubs — the most valuable outcome is rarely trackable to a revenue figure within the modeling window. Modeling against qualified inquiry volume, consultation bookings, or intent actions (property tour requests, membership interest forms) produces more stable and actionable results than trying to connect media spend to closed deals with three-month lag structures.
+        For brands with offline sales - luxury real estate, private aviation, wealth management, private clubs - the most valuable outcome is rarely trackable to a revenue figure within the modeling window. Modeling against qualified inquiry volume, consultation bookings, or intent actions (property tour requests, membership interest forms) produces more stable and actionable results than trying to connect media spend to closed deals with three-month lag structures.
       </p>
 
       <h3>Mistake 3: Running MMM Once and Treating It as Settled Science</h3>
@@ -205,7 +205,7 @@ export default function MarketingMixModelingPage() {
 
       <h3>Revenue Response Curves by Channel</h3>
       <p>
-        Each channel gets a saturation curve showing the relationship between spend level and incremental revenue contribution. These curves reveal the point of diminishing returns — the spend threshold beyond which additional investment in a channel generates less than $1.00 in revenue per $1.00 spent.
+        Each channel gets a saturation curve showing the relationship between spend level and incremental revenue contribution. These curves reveal the point of diminishing returns - the spend threshold beyond which additional investment in a channel generates less than $1.00 in revenue per $1.00 spent.
       </p>
 
       <p>
@@ -214,7 +214,7 @@ export default function MarketingMixModelingPage() {
 
       <h3>Halo Effects Between Channels</h3>
       <p>
-        One of MMM&apos;s most valuable outputs for multi-channel luxury advertisers is quantifying channel interaction effects — the revenue lift that occurs when two channels run simultaneously beyond what each would generate independently. CTV + programmatic display combinations, for example, consistently show positive interaction effects because the video exposure builds brand recognition that improves click-through rates on display retargeting.
+        One of MMM&apos;s most valuable outputs for multi-channel luxury advertisers is quantifying channel interaction effects - the revenue lift that occurs when two channels run simultaneously beyond what each would generate independently. CTV + programmatic display combinations, for example, consistently show positive interaction effects because the video exposure builds brand recognition that improves click-through rates on display retargeting.
       </p>
 
       <h3>Baseline vs. Incremental Revenue Split</h3>
@@ -286,7 +286,7 @@ export default function MarketingMixModelingPage() {
 
       <p><strong>Step 3: Specify Adstock Transformations</strong></p>
       <p>
-        Adstock is the carry-over effect of advertising — the way a CTV impression seen in week 1 continues to influence behavior in weeks 2, 3, and 4. Luxury brands require longer adstock decay rates than CPG brands because awareness-to-consideration timelines are longer. Typical adstock half-lives for premium channels: CTV (3–5 weeks), podcast (4–6 weeks), DOOH (1–2 weeks), programmatic display (1–3 weeks).
+        Adstock is the carry-over effect of advertising - the way a CTV impression seen in week 1 continues to influence behavior in weeks 2, 3, and 4. Luxury brands require longer adstock decay rates than CPG brands because awareness-to-consideration timelines are longer. Typical adstock half-lives for premium channels: CTV (3–5 weeks), podcast (4–6 weeks), DOOH (1–2 weeks), programmatic display (1–3 weeks).
       </p>
 
       <p><strong>Step 4: Run the Regression and Validate</strong></p>
@@ -313,7 +313,7 @@ export default function MarketingMixModelingPage() {
       </p>
 
       <ul>
-        <li>If the model identifies even a 10% improvement in budget allocation efficiency for a $3M annual media budget, that&apos;s $300,000 in recovered value — before accounting for any incremental revenue growth from reinvesting that recovered spend in higher-performing channels.</li>
+        <li>If the model identifies even a 10% improvement in budget allocation efficiency for a $3M annual media budget, that&apos;s $300,000 in recovered value - before accounting for any incremental revenue growth from reinvesting that recovered spend in higher-performing channels.</li>
         <li>The model also reduces the risk of catastrophic budget cuts. When CFOs see a model that quantifies revenue impact at specific spend levels, the conversation changes from &quot;cut the budget&quot; to &quot;here&apos;s what each cut level costs us in revenue.&quot;</li>
       </ul>
 
