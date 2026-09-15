@@ -790,10 +790,10 @@ export function TheData() {
           <h2 id="h8">
             Show us who you sell to. We&apos;ll show you how many of them <em>exist.</em>
           </h2>
-          <a className="btn" href="/contact">
+          <a className="btn" href="/build-my-audience">
             Build my audience
           </a>
-          <a className="link" href="/contact">
+          <a className="link" href="/build-my-audience">
             See a sample audience count
           </a>
         </div>
