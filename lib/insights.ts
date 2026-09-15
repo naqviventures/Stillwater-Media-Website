@@ -9,6 +9,87 @@ export interface InsightPost {
 
 export const insightPosts: InsightPost[] = [
   {
+    slug: "ctv-co-viewing-measurement-luxury-brands",
+    title: "CTV Co-Viewing Measurement for Luxury Brands (2026)",
+    excerpt:
+      "CTV co-viewing measurement explained: benchmark multipliers by genre, how to adjust reach and frequency, and what luxury brands get wrong.",
+    image: "/images/ctv-co-viewing-measurement-luxury-brands.png",
+    category: "Measurement & Analytics",
+    date: "2026-09-14",
+  },
+  {
+    slug: "programmatic-bidding-strategy-premium-inventory",
+    title: "Programmatic Bidding Strategy for Premium Inventory",
+    excerpt:
+      "A programmatic bidding strategy for premium inventory: first-price auction math, bid shading diagnostics, floor pricing and value-based bid ceilings.",
+    image: "/images/programmatic-bidding-strategy-premium-inventory.png",
+    category: "Programmatic Strategy",
+    date: "2026-09-13",
+  },
+  {
+    slug: "luxury-med-spa-aesthetic-practice-advertising",
+    title: "Luxury Med Spa Advertising: Affluent Patient Growth",
+    excerpt:
+      "Luxury med spa advertising for aesthetic practices: patient value math, affluent audience construction, ad policy clearance and HIPAA-safe measurement.",
+    image: "/images/luxury-med-spa-aesthetic-practice-advertising.png",
+    category: "Vertical Strategy",
+    date: "2026-09-13",
+  },
+  {
+    slug: "geo-experiment-design-advertising",
+    title: "Geo Experiment Design: Markets, Duration, Detectable Lift",
+    excerpt:
+      "Geo experiment design for advertisers: how many markets, how long to run, and what lift is detectable at your spend - with power math and benchmark tables.",
+    image: "/images/geo-experiment-design-advertising.png",
+    category: "Measurement & Incrementality",
+    date: "2026-09-12",
+  },
+  {
+    slug: "luxury-senior-living-advertising",
+    title: "Luxury Senior Living Advertising: Affluent Retirees",
+    excerpt:
+      "Luxury senior living advertising for life plan communities: dual-audience targeting, resident value math, CPM benchmarks and cost-per-move-in ranges.",
+    image: "/images/luxury-senior-living-advertising.png",
+    category: "Vertical Strategy",
+    date: "2026-09-12",
+  },
+  {
+    slug: "ctv-upfront-vs-programmatic-buying",
+    title: "CTV Upfront vs Programmatic: How to Buy Streaming",
+    excerpt:
+      "CTV upfront vs programmatic buying compared: CPM deltas, commitment terms, audience guarantees, and the spend thresholds where each route pays off.",
+    image: "/images/ctv-upfront-vs-programmatic-buying.png",
+    category: "Premium CTV",
+    date: "2026-09-11",
+  },
+  {
+    slug: "private-school-advertising-affluent-families",
+    title: "Private School Advertising: Reaching Affluent Families",
+    excerpt:
+      "Private school advertising for independent and boarding schools: household targeting, enrollment-cycle media calendars, CPM benchmarks and measurement.",
+    image: "/images/private-school-advertising-affluent-families.png",
+    category: "Vertical Strategy",
+    date: "2026-09-11",
+  },
+  {
+    slug: "luxury-advertising-budget-allocation",
+    title: "Luxury Advertising Budget Allocation: Benchmarks & Splits",
+    excerpt:
+      "Luxury advertising budget allocation benchmarks: percent-of-revenue ranges by vertical, brand vs performance splits, channel weights, and reallocation triggers.",
+    image: "/images/luxury-advertising-budget-allocation.png",
+    category: "Media Strategy",
+    date: "2026-09-09",
+  },
+  {
+    slug: "private-client-insurance-advertising",
+    title: "Private Client Insurance Advertising: The HNW Playbook",
+    excerpt:
+      "Private client insurance advertising for HNW carriers and brokerages: audience sizing, $45-$68 CTV CPMs, dual-audience media strategy, and bound-policy measurement.",
+    image: "/images/private-client-insurance-advertising.png",
+    category: "Vertical Strategy",
+    date: "2026-09-09",
+  },
+  {
     slug: "ctv-reach-and-frequency-planning",
     title: "CTV Reach and Frequency: How to Deduplicate a Multi-Platform Streaming Buy",
     excerpt:
