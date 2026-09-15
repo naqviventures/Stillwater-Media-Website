@@ -9,6 +9,78 @@ export interface InsightPost {
 
 export const insightPosts: InsightPost[] = [
   {
+    slug: "ctv-reach-and-frequency-planning",
+    title: "CTV Reach and Frequency: How to Deduplicate a Multi-Platform Streaming Buy",
+    excerpt:
+      "CTV reach and frequency planning: how duplication inflates delivery 25-45%, reach curve math, effective frequency ranges, and how to deduplicate streaming buys.",
+    image: "/images/ctv-reach-and-frequency-planning.png",
+    category: "Media Measurement",
+    date: "2026-09-08",
+  },
+  {
+    slug: "luxury-furniture-interior-design-advertising",
+    title: "Luxury Furniture Brand Advertising: The Media Playbook for 90-Day Consideration",
+    excerpt:
+      "Luxury furniture brand advertising for 90-day consideration cycles: CPM benchmarks, dual consumer and trade audiences, showroom lift measurement, and channel mix.",
+    image: "/images/luxury-furniture-interior-design-advertising.png",
+    category: "Vertical Strategy",
+    date: "2026-09-08",
+  },
+  {
+    slug: "in-house-programmatic-vs-agency",
+    title: "In-House Programmatic vs. Agency: The Real Cost Math for Luxury Brands",
+    excerpt:
+      "In-house programmatic vs. agency: full cost-of-ownership math, DSP seat minimums, break-even spend thresholds, and hybrid models for luxury advertisers.",
+    image: "/images/in-house-programmatic-vs-agency.png",
+    category: "Media Operations",
+    date: "2026-09-07",
+  },
+  {
+    slug: "luxury-home-builder-advertising",
+    title: "Luxury Home Builder Advertising: A Media Framework for $2M+ Custom Homes",
+    excerpt:
+      "Luxury home builder advertising fails on scale, not creative. Addressable universe sizing, channel mix, CPM benchmarks, and measurement for $2M+ custom homes.",
+    image: "/images/luxury-home-builder-advertising.png",
+    category: "Vertical Strategy",
+    date: "2026-09-07",
+  },
+  {
+    slug: "luxury-art-market-advertising",
+    title: "Luxury Art Market Advertising: The Collector Media Playbook",
+    excerpt:
+      "Luxury art market advertising for galleries, auction houses, and advisories: collector audience sizing, CPM benchmarks, fair-week flighting, and measurement.",
+    image: "/images/luxury-art-market-advertising.png",
+    category: "Vertical Playbooks",
+    date: "2026-09-03",
+  },
+  {
+    slug: "luxury-holiday-advertising-q4-cpm",
+    title: "Luxury Holiday Advertising: The Q4 CPM Playbook",
+    excerpt:
+      "Luxury holiday advertising costs 30-60% more in Q4. Month-by-month CPM benchmarks, when to lock inventory, and how to plan around seasonal price inflation.",
+    image: "/images/luxury-holiday-advertising-q4-cpm.png",
+    category: "Media Planning",
+    date: "2026-09-03",
+  },
+  {
+    slug: "luxury-cruise-line-advertising",
+    title: "Luxury Cruise Line Advertising: The 2026 Media Playbook",
+    excerpt:
+      "Luxury cruise line advertising demands long-window measurement and affluent targeting. Benchmarks, channel mix, and the booking-cycle model that works.",
+    image: "/images/luxury-cruise-line-advertising.png",
+    category: "Vertical Playbooks",
+    date: "2026-09-02",
+  },
+  {
+    slug: "concierge-medicine-advertising-affluent-patients",
+    title: "Concierge Medicine Advertising: The Affluent Patient Playbook",
+    excerpt:
+      "Concierge medicine advertising requires wealth targeting inside strict compliance limits. CAC benchmarks, channel mix, and a membership-LTV media model.",
+    image: "/images/concierge-medicine-advertising-affluent-patients.png",
+    category: "Vertical Playbooks",
+    date: "2026-09-02",
+  },
+  {
     slug: "international-luxury-advertising-programmatic",
     title: "International Luxury Advertising: A Programmatic Playbook for Cross-Border Growth",
     excerpt:
