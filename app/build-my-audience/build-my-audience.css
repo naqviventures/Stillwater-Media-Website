@@ -12,10 +12,10 @@
 .bma h1 em{font-style:italic}
 .bma .lead p{color:var(--ink-2);margin:0;font-size:18px}
 .bma .layout{display:grid;grid-template-columns:minmax(0,1fr) 380px;gap:clamp(32px,5vw,80px);align-items:start}
-@media(max-width:920px){.layout{grid-template-columns:1fr}.panel{position:static!important}}
+@media(max-width:920px){.bma .layout{grid-template-columns:1fr}.bma .panel{position:static!important;order:-1}}
 /* steps */
 .bma .step{border-top:1px solid var(--line);padding:36px 0 40px;display:grid;grid-template-columns:72px 1fr;gap:18px}
-@media(max-width:600px){.step{grid-template-columns:1fr;gap:8px}}
+@media(max-width:600px){.bma .step{grid-template-columns:1fr;gap:8px;padding:28px 0 32px}.bma .step .n{padding-top:0;margin-bottom:2px}.bma .chip{padding:12px 15px;font-size:12px}.bma .wrap{padding-top:24px}.bma h1{font-size:clamp(34px,9vw,48px)}.bma .lead p{font-size:16px}.bma .lead{margin-bottom:32px}.bma .actions{gap:10px}.bma .actions .btn{width:100%;text-align:center}.bma .top{font-size:10px;padding:14px clamp(20px,5vw,72px)}}
 .bma .step .n{font-family:var(--mono);font-size:11px;letter-spacing:.18em;color:var(--ink-2);padding-top:10px}
 .bma .step h2{font-family:var(--serif);font-weight:400;font-size:clamp(28px,3.2vw,40px);line-height:1.05;margin:0 0 6px}
 .bma .step h2 em{font-style:italic}
@@ -37,7 +37,7 @@
 .bma .field input:focus, .bma .field textarea:focus{outline:none;border-bottom-color:#fff}
 .bma .field textarea{resize:vertical;min-height:72px}
 .bma .two{display:grid;grid-template-columns:1fr 1fr;gap:0 28px}
-@media(max-width:600px){.two{grid-template-columns:1fr}}
+@media(max-width:600px){.bma .two{grid-template-columns:1fr}}
 .bma .err{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#fff;margin-top:4px;display:none}
 .bma .field.bad input{border-bottom-color:#fff}.bma .field.bad .err{display:block}
 /* ledger rows */
@@ -75,7 +75,7 @@
 .bma .doc h3{font-family:var(--serif);font-weight:400;font-size:clamp(30px,4vw,48px);line-height:1;margin:0 0 6px}
 .bma .doc h3 em{font-style:italic}
 .bma .doc .sec{display:grid;grid-template-columns:200px 1fr;gap:12px 24px;padding:14px 0;border-bottom:1px solid var(--line)}
-@media(max-width:600px){.doc .sec{grid-template-columns:1fr;gap:4px}}
+@media(max-width:600px){.bma .doc .sec{grid-template-columns:1fr;gap:4px}.bma .doc .est{gap:24px}}
 .bma .doc .k{font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);padding-top:4px}
 .bma .doc .v{color:#fff}
 .bma .doc .v i{font-style:normal;color:var(--ink-3)}
